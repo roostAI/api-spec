@@ -1004,7 +1004,7 @@ paths:
       x-codegen-request-body-name: body
       x-openapi-router-controller: swagger_server.controllers.transfer_controller
   /DeleteScheduleTransfers:
-    delete:
+    post:
       tags:
       - Transfer
       summary: DeleteScheduleTransfers
@@ -1275,7 +1275,7 @@ paths:
       x-codegen-request-body-name: body
       x-openapi-router-controller: swagger_server.controllers.transfer_controller
   /DeleteRecurringTransfers:
-    delete:
+    post:
       tags:
       - Transfer
       summary: DeleteRecurringTransfers
@@ -4493,4 +4493,3 @@ components:
       scheme: bearer
       bearerFormat: JWT
       x-bearerInfoFunc: swagger_server.controllers.authorization_controller.check_bearerAuth
-
