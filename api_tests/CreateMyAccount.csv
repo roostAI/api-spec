@@ -1,0 +1,11 @@
+accountName^|^accountNumber^|^customerId^|^cardNumber^|^description^|^requestSubType^|^requestType^|^serviceType^|^meta^|^statusCode^|^scenario
+john_doe^|^123456789^|^1001^|^9876543210123456^|^Payment processing^|^Standard^|^Transaction^|^Banking^|^{"koreUserId":"kd123","botId":"bot_001","accountId":"acct_001","Authorization":"Bearer token"}^|^200^|^success
+jane_smith^|^987654321^|^1002^|^1234567890123456^|^Card activation^|^Express^|^Customer Service^|^Financial^|^{"koreUserId":"js456","botId":"bot_002","accountId":"acct_002","Authorization":"Bearer token"}^|^200^|^success
+michael_jones^|^123123123^|^1003^|^6543210987654321^|^Account update^|^Standard^|^Account Management^|^Banking^|^{"koreUserId":"mj789","botId":"bot_003","accountId":"acct_003","Authorization":"Bearer token"}^|^404^|^not_found
+lisa_brown^|^321321321^|^1004^|^5678901234567890^|^Fraud report^|^Urgent^|^Security^|^Financial^|^{"koreUserId":"lb012","botId":"bot_004","accountId":"acct_004","Authorization":"Bearer token"}^|^401^|^unauthorized
+robert_white^|^231231231^|^1005^|^3456789012345678^|^Loan inquiry^|^Standard^|^Inquiry^|^Lending^|^{"koreUserId":"rw345","botId":"bot_005","accountId":"acct_005","Authorization":"Bearer token"}^|^200^|^success
+natalie_green^|^312312312^|^1006^|^2345678901234567^|^Statement request^|^Standard^|^Document Services^|^Banking^|^{"koreUserId":"ng678","botId":"bot_006","accountId":"acct_006","Authorization":"Bearer token"}^|^200^|^success
+david_black^|^423423423^|^1007^|^1238901234567890^|^Balance inquiry^|^Express^|^Inquiry^|^Financial^|^{"koreUserId":"db901","botId":"bot_007","accountId":"acct_007","Authorization":"Bearer token"}^|^200^|^success
+sarah_clark^|^567567567^|^1008^|^4321987654321098^|^Transfer funds^|^Standard^|^Transaction^|^Banking^|^{"koreUserId":"sc234","botId":"bot_008","accountId":"acct_008","Authorization":"Bearer token"}^|^200^|^success
+patrick_hearn^|^678678678^|^1009^|^8901234567890123^|^Card replacement^|^Urgent^|^Customer Service^|^Financial^|^{"koreUserId":"ph567","botId":"bot_009","accountId":"acct_009","Authorization":"Bearer token"}^|^401^|^unauthorized
+olivia_roberts^|^789789789^|^1010^|^0987654321098765^|^Service closure^|^Standard^|^Account Management^|^Banking^|^{"koreUserId":"or890","botId":"bot_010","accountId":"acct_010","Authorization":"Bearer token"}^|^404^|^not_found

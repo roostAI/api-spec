@@ -1,0 +1,11 @@
+authorizationID^|^statusCode^|^scenario
+auth001^|^200^|^{"description":"Login successful","nextSteps":["dashboard","profile"],"userLevel":"admin"}
+auth002^|^404^|^{"description":"User not found","nextSteps":[],"userLevel":"guest"}
+auth003^|^401^|^{"description":"Unauthorized access","nextSteps":["login"],"userLevel":"guest"}
+auth004^|^500^|^{"description":"Internal server error","nextSteps":[],"userLevel":"guest"}
+auth005^|^403^|^{"description":"Forbidden","nextSteps":["contact admin"],"userLevel":"guest"}
+auth006^|^200^|^{"description":"Data retrieval successful","nextSteps":["view data","export data"],"userLevel":"user"}
+auth007^|^301^|^{"description":"Resource moved permanently","nextSteps":["follow redirect"],"userLevel":"guest"}
+auth008^|^204^|^{"description":"No content available","nextSteps":[],"userLevel":"user"}
+auth009^|^202^|^{"description":"Request accepted for processing","nextSteps":["check status later"],"userLevel":"user"}
+auth010^|^400^|^{"description":"Bad request","nextSteps":["check request format"],"userLevel":"guest"}
