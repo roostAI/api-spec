@@ -1,0 +1,22 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+POST^|^http://localhost:8080/accounts^|^{}^|^{
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "password": "password123",
+    "age": 30
+}^|^201^|^{
+    "id": "123456",
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "age": 30,
+    "createdAt": "2023-11-01T12:00:00Z"
+}
+GET^|^http://localhost:8080/me^|^{
+    "Authorization": "Bearer token_value"
+}^|^{}^|^200^|^{
+    "id": "123456",
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "age": 30,
+    "createdAt": "2023-11-01T12:00:00Z"
+}
