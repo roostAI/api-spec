@@ -1,0 +1,16 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+POST^|^http://localhost:8080/authorizations^|^{^"Content-Type"^:^"application/json"^}^|^{
+    "accountName": "UserAccount",
+    "permissions": ["READ", "WRITE"],
+    "duration": "3600"
+}^|^201^|^{
+    "authorizationId": "auth12345",
+    "status": "approved",
+    "expiresIn": 3600
+}
+GET^|^http://localhost:8080/authorizations?authorizationId=auth12345^|^{^"Authorization"^:^"Bearer token123"^}^|^{}^|^200^|^{
+    "authorizationId": "auth12345",
+    "status": "active",
+    "permissions": ["READ", "WRITE"],
+    "accountName": "UserAccount"
+}
