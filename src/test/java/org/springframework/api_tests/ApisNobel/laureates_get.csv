@@ -1,0 +1,2 @@
+offset,limit,sort,ID,name,gender,motivation,affiliation,residence,birthDate,birthDateTo,deathDate,deathDateTo,foundedDate,birthCity,birthCountry,birthContinent,deathCity,deathCountry,deathContinent,foundedCity,foundedCountry,foundedContinent,HeadquartersCity,HeadquartersCountry,HeadquartersContinent,nobelPrizeYear,yearTo,nobelPrizeCategory,format,csvLang
+"1","10","asc","1","","male","","","","1989","","","","","","","Europe","","","","","","","","","","2000","2020","phy","json","en"
