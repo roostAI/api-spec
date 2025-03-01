@@ -1,0 +1,11 @@
+id^|^jobTitle^|^name^|^email^|^statusCode^|^scenario
+3b8a5c21-7d4f-4e2a-9f3d-1c6e7a9b0d5f^|^Software Engineer^|^Alice Johnson^|^alice.johnson@example.com^|^200^|^valid-id
+c47d2e89-f1a3-4b6c-8d0e-7f5a3b9c1d2a^|^Data Analyst^|^Bob Smith^|^bob.smith@example.com^|^404^|^invalid-id
+a2e7f8d1-5c3b-4a9f-8e6d-0c7b3a9f1d2e^|^Project Manager^|^Carol Williams^|^carol.williams@example.com^|^201^|^create-success
+f5d3a7b1-9e2c-4f8d-0a3b-6c7d8e9f1a2b^|^Marketing Specialist^|^David Brown^|^david.brown@example.com^|^409^|^create-conflict
+8e9f1a2b-3c4d-5e6f-7a8b-9c0d1e2f3a4b^|^HR Coordinator^|^Eve Davis^|^eve.davis@example.com^|^400^|^invalid-data
+1d2e3f4a-5b6c-7d8e-9f0a-1b2c3d4e5f6a^|^Sales Executive^|^Frank Wilson^|^frank.wilson@example.com^|^200^|^valid-id
+9c8d7e6f-5a4b-3c2d-1e0f-a9b8c7d6e5f4^|^UX Designer^|^Grace Taylor^|^grace.taylor@example.com^|^404^|^invalid-id
+4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a^|^DevOps Engineer^|^Henry Martinez^|^henry.martinez@example.com^|^201^|^create-success
+b3c4d5e6-f7a8-9b0c-1d2e-3f4a5b6c7d8e^|^Product Manager^|^Ivy Anderson^|^ivy.anderson@example.com^|^409^|^create-conflict
+5a6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d^|^Customer Support^|^Jack Thomas^|^jack.thomas@example.com^|^400^|^invalid-data
