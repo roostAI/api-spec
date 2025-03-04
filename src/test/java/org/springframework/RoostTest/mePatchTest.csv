@@ -1,0 +1,11 @@
+RequestBody^|^statusCode^|^Token
+{"name":"John Doe","image":null,"settings":{"theme":"dark","notifications":true}}^|^200^|^abc123def456
+{"name":"Jane Smith","image":"aGVsbG8gd29ybGQ=","settings":{"theme":"light","notifications":false}}^|^200^|^ghi789jkl012
+{"name":"Robert Johnson","image":null,"settings":{"theme":"dark","notifications":false}}^|^400^|^mno345pqr678
+{"name":"Michael Jackson","image":"SGVsbG8gd29ybGQ=","settings":{"theme":"light","notifications":true}}^|^200^|^stu901vwx234
+{"name":"William Smith","image":null,"settings":{"theme":"dark","notifications":true}}^|^401^|^yz0123abc456
+{"name":"James Brown","image":"SGVsbG8gd29ybGQ=","settings":{"theme":"light","notifications":false}}^|^200^|^def789ghi012
+{"name":"Patricia Johnson","image":null,"settings":{"theme":"dark","notifications":false}}^|^400^|^jkl345mno678
+{"name":"Jennifer Williams","image":"SGVsbG8gd29ybGQ=","settings":{"theme":"light","notifications":true}}^|^200^|^pqr901stu234
+{"name":"Linda Brown","image":null,"settings":{"theme":"dark","notifications":true}}^|^401^|^vwx123yz0456
+{"name":"Elizabeth Davis","image":"SGVsbG8gd29ybGQ=","settings":{"theme":"light","notifications":false}}^|^200^|^abc789def012

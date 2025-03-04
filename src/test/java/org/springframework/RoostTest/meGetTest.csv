@@ -1,0 +1,11 @@
+RequestBody^|^statusCode^|^Token
+{"name":"John","age":30,"city":"New York"}^|^200^|^eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+{"name":"Jane","age":25,"city":"Chicago"}^|^200^|^eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+{"name":"Bob","age":35,"city":"Los Angeles"}^|^400^|^eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+{"name":"Alice","age":28,"city":"San Francisco"}^|^200^|^eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+{"name":"Charlie","age":32,"city":"Boston"}^|^401^|^eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+{"name":"Eve","age":22,"city":"Seattle"}^|^200^|^eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+{"name":"Frank","age":40,"city":"Austin"}^|^400^|^eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+{"name":"Grace","age":33,"city":"Denver"}^|^200^|^eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+{"name":"Hank","age":45,"city":"Miami"}^|^401^|^eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+{"name":"Ivy","age":38,"city":"Atlanta"}^|^200^|^eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9

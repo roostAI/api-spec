@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"email": "user1@example.com", "otp": "123456", "client": "mobile"}^|^201
+{"email": "user2@example.com", "otp": "654321", "client": "web"}^|^400
+{"email": "user3@example.com", "otp": "789012", "client": "desktop"}^|^201
+{"email": "user4@example.com", "otp": "210987", "client": "api"}^|^400
+{"email": "user5@example.com", "otp": "345678", "client": "mobile"}^|^201
+{"email": "user6@example.com", "otp": "876543", "client": "web"}^|^400
+{"email": "user7@example.com", "otp": "901234", "client": "desktop"}^|^201
+{"email": "user8@example.com", "otp": "432109", "client": "api"}^|^400
+{"email": "user9@example.com", "otp": "567890", "client": "mobile"}^|^201
+{"email": "user10@example.com", "otp": "098765", "client": "web"}^|^400
