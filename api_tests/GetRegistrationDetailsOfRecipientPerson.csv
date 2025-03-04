@@ -1,0 +1,11 @@
+id^|^statusCode^|^scenario
+1^|^200^|^Scenario1
+2^|^404^|^Scenario2
+3^|^201^|^Scenario3
+4^|^400^|^Scenario4
+5^|^409^|^Scenario5
+6^|^200^|^Scenario6
+7^|^404^|^Scenario7
+8^|^201^|^Scenario8
+9^|^400^|^Scenario9
+10^|^409^|^Scenario10
