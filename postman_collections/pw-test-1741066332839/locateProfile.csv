@@ -1,0 +1,13 @@
+accountNumber,customerId,ssNumber,ssnShort,statusCode,scenario
+"reprehenderit velit","reprehenderit consequat aliquip Duis anim","-69264159.45895901","32141067.114813507",200,success
+"1042345",1045300,"randomString1","randomString2",401,Error: Authorisation failed.
+"randomArray1",randomNumber1,"randomString3","randomString4",404,Error: Not Found
+"randomArray2",randomNumber2,"randomString5","randomString6",200,success
+"randomArray3",randomNumber3,"randomString7","randomString8",401,Error: Authorisation failed.
+"randomArray4",randomNumber4,"randomString9","randomString10",404,Error: Not Found
+"randomArray5",randomNumber5,"randomString11","randomString12",200,success
+"randomArray6",randomNumber6,"randomString13","randomString14",401,Error: Authorisation failed.
+"randomArray7",randomNumber7,"randomString15","randomString16",404,Error: Not Found
+"randomArray8",randomNumber8,"randomString17","randomString18",200,success
+"randomArray9",randomNumber9,"randomString19","randomString20",401,Error: Authorisation failed.
+"randomArray10",randomNumber10,"randomString21","randomString22",404,Error: Not Found

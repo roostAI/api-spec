@@ -1,0 +1,13 @@
+customerId,status,statusCode,scenario
+1045300,"elit voluptate pariatur tempor",200,"schedule transfer list response"
+1045301,"sunt ut amet ut",200,"schedule transfer list response"
+1045302,"Error: Authorisation failed.",401,"Error: Authorisation failed."
+1045303,"Error: Not Found",404,"Error: Not Found"
+1045304,"elit voluptate pariatur tempor",200,"schedule transfer list response"
+1045305,"sunt ut amet ut",200,"schedule transfer list response"
+1045306,"Error: Authorisation failed.",401,"Error: Authorisation failed."
+1045307,"Error: Not Found",404,"Error: Not Found"
+1045308,"elit voluptate pariatur tempor",200,"schedule transfer list response"
+1045309,"sunt ut amet ut",200,"schedule transfer list response"
+1045310,"Error: Authorisation failed.",401,"Error: Authorisation failed."
+1045311,"Error: Not Found",404,"Error: Not Found"
