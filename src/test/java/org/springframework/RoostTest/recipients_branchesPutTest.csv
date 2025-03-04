@@ -1,0 +1,11 @@
+RequestBody^|^statusCode^|^Token
+{"cocNumber":"12345","cocBranchNumber":"678","city":"New York","tradeName":"Trade1","phone":"1234567890","email":"trade1@example.com"}^|^200^|^token1234
+{"cocNumber":"23456","cocBranchNumber":"789","city":"Los Angeles","tradeName":"Trade2","phone":"2345678901","email":"trade2@example.com"}^|^201^|^token2345
+{"cocNumber":"34567","cocBranchNumber":"890","city":"Chicago","tradeName":"Trade3","phone":"3456789012","email":"trade3@example.com"}^|^400^|^token3456
+{"cocNumber":"45678","cocBranchNumber":"901","city":"Houston","tradeName":"Trade4","phone":"4567890123","email":"trade4@example.com"}^|^401^|^token4567
+{"cocNumber":"56789","cocBranchNumber":"012","city":"Phoenix","tradeName":"Trade5","phone":"5678901234","email":"trade5@example.com"}^|^200^|^token5678
+{"cocNumber":"67890","cocBranchNumber":"123","city":"Philadelphia","tradeName":"Trade6","phone":"6789012345","email":"trade6@example.com"}^|^201^|^token6789
+{"cocNumber":"78901","cocBranchNumber":"234","city":"San Antonio","tradeName":"Trade7","phone":"7890123456","email":"trade7@example.com"}^|^400^|^token7890
+{"cocNumber":"89012","cocBranchNumber":"345","city":"San Diego","tradeName":"Trade8","phone":"8901234567","email":"trade8@example.com"}^|^401^|^token8901
+{"cocNumber":"90123","cocBranchNumber":"456","city":"Dallas","tradeName":"Trade9","phone":"9012345678","email":"trade9@example.com"}^|^200^|^token9012
+{"cocNumber":"01234","cocBranchNumber":"567","city":"San Jose","tradeName":"Trade10","phone":"0123456789","email":"trade10@example.com"}^|^201^|^token0123
