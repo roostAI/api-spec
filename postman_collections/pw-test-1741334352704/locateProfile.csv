@@ -1,0 +1,10 @@
+accountNumber,customerId,ssNumber,ssnShort,statusCode,scenario
+"adipisicing eu consequat mollit","dolore",87321741.97975507,-19682478.646379575,200,"success"
+"1042345",1045300,"randomString1","randomString2",401,"Error: Authorisation failed."
+"randomArray1","randomNumber1","randomString3","randomString4",404,"Error: Not Found"
+"adipisicing eu consequat mollit","dolore",87321741.97975507,-19682478.646379575,200,"success"
+"1042345",1045300,"randomString5","randomString6",401,"Error: Authorisation failed."
+"randomArray2","randomNumber2","randomString7","randomString8",404,"Error: Not Found"
+"adipisicing eu consequat mollit","dolore",87321741.97975507,-19682478.646379575,200,"success"
+"1042345",1045300,"randomString9","randomString10",401,"Error: Authorisation failed."
+"randomArray3","randomNumber3","randomString11","randomString12",404,"Error: Not Found"

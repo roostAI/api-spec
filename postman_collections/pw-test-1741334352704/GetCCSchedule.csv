@@ -1,0 +1,10 @@
+customerId,status,statusCode,scenario
+1045300,"non dolor laborum esse",200,"schedule transfer list response"
+1054301,"Error message",401,"Error: Authorisation failed."
+1065302,"Error message",404,"Error: Not Found"
+1076303,"ea enim consequat",200,"schedule transfer list response"
+1087304,"Error message",401,"Error: Authorisation failed."
+1098305,"Error message",404,"Error: Not Found"
+1109306,"non dolor laborum esse",200,"schedule transfer list response"
+1110307,"Error message",401,"Error: Authorisation failed."
+1121308,"Error message",404,"Error: Not Found"

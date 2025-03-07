@@ -1,0 +1,7 @@
+customerId,paymentId,sourceAccountId,amount,scheduledDate,targetAccountId,amountType,untilStop,untilDate,numberOfTransfers,iterate,updateTransferType,statusCode,scenario
+1045300,"PAY1234","1042345","1042222",20220228,"1042222","debit","no",20230301,10,"yes","all",200,"Recurring transfer updated successfully"
+1045301,"PAY1235","1042346","1042223",20220229,"1042223","credit","yes",20230302,11,"no","all",401,"Error: Authorisation failed."
+1045302,"PAY1236","1042347","1042224",20220301,"1042224","debit","no",20230303,12,"yes","all",404,"Error: Not Found"
+1045303,"PAY1237","1042348","1042225",20220302,"1042225","credit","yes",20230304,13,"no","all",200,"Recurring transfer updated successfully"
+1045304,"PAY1238","1042349","1042226",20220303,"1042226","debit","no",20230305,14,"yes","all",401,"Error: Authorisation failed."
+1045305,"PAY1239","1042350","1042227",20220304,"1042227","credit","yes",20230306,15,"no","all",404,"Error: Not Found"

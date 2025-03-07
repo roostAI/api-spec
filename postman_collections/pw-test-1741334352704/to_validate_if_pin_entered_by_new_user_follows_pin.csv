@@ -1,0 +1,11 @@
+sourcePin,statusCode,scenario
+"randomString1",200,"PIN rules satisfied"
+"randomString2",401,"Error: Authorisation failed."
+"randomString3",404,"Error: Not Found"
+"randomString4",200,"PIN rules satisfied"
+"randomString5",401,"Error: Authorisation failed."
+"randomString6",404,"Error: Not Found"
+"randomString7",200,"PIN rules satisfied"
+"randomString8",401,"Error: Authorisation failed."
+"randomString9",404,"Error: Not Found"
+"randomString10",200,"PIN rules satisfied"
