@@ -1,0 +1,7 @@
+customerId,status,statusCode,scenario
+1045300,"ad aliquip ut",200,"schedule transfer list response"
+71980428.06870326,"Error: Authorisation failed.",401,"Error: Authorisation failed."
+43582675.54633811,"Error: Not Found",404,"Error: Not Found"
+1234567,"ad aliquip ut",200,"schedule transfer list response"
+9876543,"Error: Authorisation failed.",401,"Error: Authorisation failed."
+1122334,"Error: Not Found",404,"Error: Not Found"
