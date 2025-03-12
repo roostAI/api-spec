@@ -1,0 +1,11 @@
+accountNumber,customerId,ssNumber,ssnShort,statusCode,scenario
+"in est do cillum","Ut ipsum ut Excepteur est","-84335596.23633191","95235325.97730392",200,success
+"1042345",1045300,"randomString1","randomString2",401,Error: Authorisation failed.
+"randomArray1","randomNumber1","randomString3","randomString4",404,Error: Not Found
+"randomArray2","randomNumber2","randomString5","randomString6",200,success
+"in est do cillum","Ut ipsum ut Excepteur est","-84335596.23633191","95235325.97730392",401,Error: Authorisation failed.
+"1042345",1045300,"randomString7","randomString8",404,Error: Not Found
+"randomArray3","randomNumber3","randomString9","randomString10",200,success
+"in est do cillum","Ut ipsum ut Excepteur est","-84335596.23633191","95235325.97730392",401,Error: Authorisation failed.
+"1042345",1045300,"randomString11","randomString12",404,Error: Not Found
+"randomArray4","randomNumber4","randomString13","randomString14",200,success

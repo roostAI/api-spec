@@ -1,0 +1,5 @@
+customerId,status,statusCode,scenario
+-96079064.64689071,"velit Duis cillum",200,"schedule transfer list response"
+7067038.62053524,"adipisicing do",200,"schedule transfer list response"
+1045300,"Error",401,"Error: Authorisation failed."
+1045300,"Error",404,"Error: Not Found"

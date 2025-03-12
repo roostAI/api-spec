@@ -1,0 +1,6 @@
+accountNumber,customerId,numOfTransactions,status,startDate,endDate,type,value,amount1,currency,category,debitOrCredit,statusCode,scenario
+"sit ut in laborum pariatur",35825154,10,"elit pariatur quis est","2022-01-01","2022-01-31","quis et mollit","ad veniam est",-7537137,"sed non sint","do labore irure enim aute","sint anim ad",200,"successful operation"
+"1042345",1045300,20,"active","2022-02-01","2022-02-28","deposit","online transfer",5000,"USD","salary","credit",200,"successful operation"
+"random account",123456,5,"inactive","2022-03-01","2022-03-31","withdrawal","ATM withdrawal",-1000,"USD","personal expense","debit",404,"failed operation"
+"another account",789012,15,"active","2022-04-01","2022-04-30","deposit","check deposit",3000,"USD","business income","credit",200,"successful operation"
+"test account",345678,8,"closed","2022-05-01","2022-05-31","withdrawal","online transfer",-500,"USD","utility bill","debit",500,"failed operation"
