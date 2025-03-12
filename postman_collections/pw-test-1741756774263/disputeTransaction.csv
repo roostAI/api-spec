@@ -1,0 +1,10 @@
+customerId,transactionsData,emailId,statusCode,scenario
+1045300,"{\n  \"err\": {\n    \"message\": \"amet\"\n  }\n}","John@yahoo.com",200,Dispute Transactions reported successfully
+1045301,"{\n  \"err\": {\n    \"message\": \"amet\"\n  }\n}","Jane@yahoo.com",200,Dispute Transactions reported successfully
+1045302,"{\n  \"err\": {\n    \"message\": \"amet\"\n  }\n}","Doe@yahoo.com",200,Dispute Transactions reported successfully
+1045303,"{\n  \"err\": {\n    \"message\": \"amet\"\n  }\n}","Smith@yahoo.com",401,Error: Authorisation failed.
+1045304,"{\n  \"err\": {\n    \"message\": \"amet\"\n  }\n}","Brown@yahoo.com",401,Error: Authorisation failed.
+1045305,"{\n  \"err\": {\n    \"message\": \"amet\"\n  }\n}","Taylor@yahoo.com",401,Error: Authorisation failed.
+1045306,"{\n  \"err\": {\n    \"message\": \"amet\"\n  }\n}","Wilson@yahoo.com",404,Error: Not Found
+1045307,"{\n  \"err\": {\n    \"message\": \"amet\"\n  }\n}","Johnson@yahoo.com",404,Error: Not Found
+1045308,"{\n  \"err\": {\n    \"message\": \"amet\"\n  }\n}","Williams@yahoo.com",404,Error: Not Found
