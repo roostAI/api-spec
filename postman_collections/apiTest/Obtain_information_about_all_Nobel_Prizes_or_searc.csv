@@ -1,0 +1,7 @@
+offset,limit,sort,nobelPrizeYear,yearTo,nobelPrizeCategory,format,csvLang,statusCode,scenario
+0,10,asc,1989,2023,Physics,json,en,200,"Successful call of Nobel Prize(s) according to the filled fields"
+10,20,desc,1990,2023,Chemistry,xml,se,400,"Bad request. The request could not be understood by the server due to malformed syntax, modifications needed."
+5,15,asc,1985,2023,Medicine,csv,en,404,"Not Found. The requested resource could not be found but may be available again in the future."
+2,25,desc,1995,2023,Literature,json,se,422,"Unprocessable Entity. The request was well-formed but was unable to be followed due to semantic errors."
+8,30,asc,2000,2023,Peace,xml,en,200,"Successful call of Nobel Prize(s) according to the filled fields"
+12,40,desc,2010,2023,Economics,csv,se,400,"Bad request. The request could not be understood by the server due to malformed syntax, modifications needed."
