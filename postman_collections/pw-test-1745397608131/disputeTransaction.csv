@@ -1,0 +1,5 @@
+customerId,transactionsData,emailId,statusCode,scenario
+1045300,"[]","John@yahoo.com",200,"Dispute Transactions reported successfully"
+1045300,"[]","John@yahoo.com",200,"Dispute Transactions reported successfully"
+-1,"null","invalid_email",401,"Error: Authorisation failed."
+-1,"null","invalid_email",404,"Error: Not Found"

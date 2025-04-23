@@ -1,0 +1,5 @@
+customerId,paymentId,sourceAccountId,amount,scheduledDate,targetAccountId,amountType,untilStop,untilDate,numberOfTransfers,iterate,updateTransferType,statusCode,scenario
+1045300,"validPaymentId1","1042345","1042222",20231101,"1042222","fixed","no",20231201,12,"monthly","all",200,"Recurring transfer updated successfully"
+1045300,"validPaymentId2","1042345","1042222",20231102,"1042222","variable","yes",20231202,6,"weekly","all",200,"Recurring transfer updated successfully"
+-1,"invalidPaymentId","invalidSourceAccountId","invalidAmount",99999999,"invalidTargetAccountId","invalidAmountType","invalidUntilStop",99999999,-1,"invalidIterate","invalidUpdateTransferType",401,"Error: Authorisation failed."
+-1,"invalidPaymentId","invalidSourceAccountId","invalidAmount",99999999,"invalidTargetAccountId","invalidAmountType","invalidUntilStop",99999999,-1,"invalidIterate","invalidUpdateTransferType",404,"Error: Not Found"

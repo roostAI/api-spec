@@ -1,0 +1,10 @@
+customerId,accountNumber,cardNumber,statusCode,scenario
+1045300,"1042345","1234567890123456",200^|"successful operation"
+9999999,"invalid_account","invalid_card",401^|"Error: Authorisation failed."
+8888888,"not_found_account","not_found_card",404^|"Error: Not Found"
+1045300,"1042345","6543210987654321",200^|"successful operation"
+7777777,"unauthorized_account","unauthorized_card",401^|"Error: Authorisation failed."
+6666666,"missing_account","missing_card",404^|"Error: Not Found"
+1045300,"1042345","9876543210987654",200^|"successful operation"
+5555555,"error_account","error_card",401^|"Error: Authorisation failed."
+4444444,"unknown_account","unknown_card",404^|"Error: Not Found"

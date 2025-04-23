@@ -1,0 +1,5 @@
+accountNumber,customerId,email,alternatePhoneNumber,isAlternateMobileNumber,phone,isPrimaryMobileNumber,location,isStatement,statusCode,scenario
+"1042345",1045300,"John@gmail.com",1234567890,true,9876543210,true,"New York",false,200,"successful operation"
+"1042345",1045300,"John@gmail.com",1234567890,false,9876543210,false,"Los Angeles",true,200,"successful operation"
+"invalid","invalid","invalid","invalid","invalid","invalid","invalid","invalid","invalid",401,"Error: Authorisation failed."
+"invalid","invalid","invalid","invalid","invalid","invalid","invalid","invalid","invalid",404,"Error: Not Found"

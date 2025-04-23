@@ -1,0 +1,10 @@
+code,customerId,statusCode,scenario
+1234,1045300,200^|"OTP verifid successfully"
+5678,9999999,401^|"Error: Authorisation failed."
+9101,8888888,404^|"Error: Not Found"
+1234,1045300,200^|"OTP verifid successfully"
+2345,7777777,401^|"Error: Authorisation failed."
+6789,6666666,404^|"Error: Not Found"
+1234,1045300,200^|"OTP verifid successfully"
+3456,5555555,401^|"Error: Authorisation failed."
+7890,4444444,404^|"Error: Not Found"

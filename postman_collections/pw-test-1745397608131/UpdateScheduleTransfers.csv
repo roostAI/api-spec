@@ -1,0 +1,5 @@
+customerId,paymentId,sourceAccountId,amount,scheduledDate,targetAccountId,statusCode,scenario
+1045300,"validPaymentId1","1042345","1042222",20231010,"1042222",200,"Scheduled transfer updated successfully"
+1045300,"validPaymentId2","1042345","1042222",20231011,"1042222",200,"Scheduled transfer updated successfully"
+"invalidCustomerId","invalidPaymentId","invalidSourceAccountId","invalidAmount","invalidScheduledDate","invalidTargetAccountId",401,"Error: Authorisation failed."
+"invalidCustomerId","invalidPaymentId","invalidSourceAccountId","invalidAmount","invalidScheduledDate","invalidTargetAccountId",404,"Error: Not Found"
