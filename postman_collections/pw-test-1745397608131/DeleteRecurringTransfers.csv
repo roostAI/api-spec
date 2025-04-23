@@ -1,0 +1,5 @@
+customerId,paymentId,updateTransferType,sourceAccountId,statusCode,scenario
+1045300,"validPaymentId1","all","1042345",200,"Recurring transfer deleted successfully"
+1045300,"validPaymentId2","all","1042345",200,"Recurring transfer deleted successfully"
+"invalidCustomerId","invalidPaymentId","invalidType","invalidSourceId",401,"Error: Authorisation failed."
+"invalidCustomerId","invalidPaymentId","invalidType","invalidSourceId",404,"Error: Not Found"

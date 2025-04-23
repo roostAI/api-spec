@@ -1,0 +1,4 @@
+accountNumber,customerId,ssNumber,ssnShort,statusCode,scenario
+"1042345",1045300,"-93761096.60788976","85029118.14442363",200,"success"
+"invalid","invalid","invalid","invalid",401,"Error: Authorisation failed."
+"invalid","invalid","invalid","invalid",404,"Error: Not Found"

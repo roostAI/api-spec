@@ -1,0 +1,4 @@
+customerId,dob,ssn,secrectPassword,AccNumber,lastDepositAmt,statusCode,scenario
+1045300,"1999-05-05T00:00:00.000+0000",104531234,"Sam","1042345",500,200,"Validated Successfully"
+-1,"invalid-date",-123,"","invalid",-500,401,"Error: Authorisation failed."
+-1,"invalid-date",-123,"","invalid",-500,404,"Error: Not Found"

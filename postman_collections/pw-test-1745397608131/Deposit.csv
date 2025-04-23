@@ -1,0 +1,5 @@
+customerId,sourceAccountId,amount,currency,frontImage,backImage,statusCode,scenario
+1045300,"1042345","1042222","USD","https://google.com","https://google.com",200,"Deposit success"
+1045300,"1042345","1042222","USD","https://google.com","https://google.com",200,"Deposit success"
+-1,"invalid","invalid","invalid","invalid","invalid",401,"Error: Authorisation failed."
+-1,"invalid","invalid","invalid","invalid","invalid",404,"Error: Not Found"

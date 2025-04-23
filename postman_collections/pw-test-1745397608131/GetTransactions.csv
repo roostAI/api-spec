@@ -1,0 +1,4 @@
+accountNumber,customerId,numOfTransactions,status,startDate,endDate,type,value,amount1,currency,category,debitOrCredit,statusCode,scenario
+"1042345",1045300,5,"Lorem id adipisicing","2023-01-01","2023-01-31","ut elit","velit ex in minim dolor",23645196.013443753,"USD","sint sunt in","reprehenderit laboris i",200,"successful operation"
+"1042345",51975982.23544735,10,"Lorem id adipisicing","2023-02-01","2023-02-28","ut elit","velit ex in minim dolor",23645196.013443753,"dolor Duis","sint sunt in","reprehenderit laboris i",200,"successful operation"
+"1042345",1045300,15,"Lorem id adipisicing","2023-03-01","2023-03-31","ut elit","velit ex in minim dolor",23645196.013443753,"USD","sint sunt in","reprehenderit laboris i",200,"successful operation"

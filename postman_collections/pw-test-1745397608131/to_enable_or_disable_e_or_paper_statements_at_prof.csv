@@ -1,0 +1,7 @@
+customerId,email,secondaryEmail,subscribe,statusCode,scenario
+1045300,"John@gmail.com","John1@gmail.com",true,200,"success"
+-1,"invalid_email","invalid_secondary",false,401,"Error: Authorisation failed."
+-1,"not_found_email","not_found_secondary",false,404,"Error: Not Found"
+1045300,"John@gmail.com","John1@gmail.com",true,200,"success"
+-1,"unauthorized_email","unauthorized_secondary",false,401,"Error: Authorisation failed."
+-1,"missing_email","missing_secondary",false,404,"Error: Not Found"
