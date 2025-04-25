@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+Kelly_102^|^bot_76^|^acc_12^|^Bearer abc123^|^{customerId: 789, status: 'Active'}^|^200^|^Bearer jkl123
+Mandy_785^|^bot_66^|^acc_347^|^Bearer def234^|^{customerId: 456, status: 'Inactive'}^|^401^|^Bearer mno234
+Sam_34^|^bot_55^|^acc_299^|^Bearer ghi789^|^{customerId: 123, status: 'Active'}^|^404^|^Bearer pqr456
+Paul_986^|^bot_44^|^acc_555^|^Bearer jkl012^|^{customerId: 321, status: 'Inactive'}^|^200^|^Bearer stu789
+Leslie_300^|^bot_33^|^acc_111^|^Bearer mno345^|^{customerId: 654, status: 'Active'}^|^401^|^Bearer vwx012
+Janet_210^|^bot_22^|^acc_983^|^Bearer pqr678^|^{customerId: 987, status: 'Inactive'}^|^404^|^Bearer yza345
+Alice_600^|^bot_11^|^acc_673^|^Bearer stu901^|^{customerId: 210, status: 'Active'}^|^200^|^Bearer bcd678
+Vincent_405^|^bot_99^|^acc_385^|^Bearer vwx234^|^{customerId: 543, status: 'Inactive'}^|^401^|^Bearer efg901
+Ryan_786^|^bot_88^|^acc_437^|^Bearer yza567^|^{customerId: 876, status: 'Active'}^|^404^|^Bearer hij234
+April_420^|^bot_77^|^acc_321^|^Bearer bcd890^|^{customerId: 109, status: 'Inactive'}^|^200^|^Bearer klm567

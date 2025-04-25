@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^tenantId^|^Authorization^|^environment^|^channel^|^RequestBody^|^statusCode^|^bearer
+user1^|^bot28^|^accX45^|^ten901^|^authZ78^|^prodEnv^|^webChannel^|^["action1", "action2"]^|^200^|^bearerSample
+user2^|^bot22^|^accN89^|^ten673^|^authS39^|^prodEnv^|^mobileChannel^|^["action3", "action4"]^|^401^|^bearerSample
+user3^|^bot93^|^accU87^|^ten256^|^authG45^|^prodEnv^|^webChannel^|^["action5", "action6"]^|^200^|^bearerSample
+user4^|^bot46^|^accV34^|^ten321^|^authB93^|^prodEnv^|^mobileChannel^|^["action7", "action8"]^|^404^|^bearerSample
+user5^|^bot90^|^accM28^|^ten445^|^authR20^|^prodEnv^|^webChannel^|^["action9", "action10"]^|^401^|^bearerSample
+user6^|^bot39^|^accC24^|^ten736^|^authY65^|^prodEnv^|^mobileChannel^|^["action11", "action12"]^|^200^|^bearerSample
+user7^|^bot50^|^accE10^|^ten907^|^authO19^|^prodEnv^|^webChannel^|^["action13", "action14"]^|^404^|^bearerSample
+user8^|^bot71^|^accH76^|^ten262^|^authT47^|^prodEnv^|^mobileChannel^|^["action15", "action16"]^|^401^|^bearerSample
+user9^|^bot83^|^accP98^|^ten255^|^authI21^|^prodEnv^|^webChannel^|^["action17", "action18"]^|^404^|^bearerSample
+user10^|^bot05^|^accD45^|^ten435^|^authK58^|^prodEnv^|^mobileChannel^|^["action19", "action20"]^|^200^|^bearerSample
