@@ -1,0 +1,7 @@
+amount,currency,customerId,dueDate,sourceAccountId,targetAccountId,transactionType,statusCode,scenario
+"1042222","USD",1045300,"2022-09-15","1042345","1042222",1,200,"Credit Card payment scheduled successfully"
+"1042222","USD",1045300,"2022-09-16","1042345","1042222",2,200,"Credit Card payment scheduled successfully"
+"1042222","USD",1045300,"2022-09-17","1042345","1042222",3,401,"Error: Authorisation failed."
+"1042222","USD",1045300,"2022-09-18","1042345","1042222",4,401,"Error: Authorisation failed."
+"1042222","USD",1045300,"2022-09-19","1042345","1042222",5,404,"Error: Not Found"
+"1042222","USD",1045300,"2022-09-20","1042345","1042222",6,404,"Error: Not Found"

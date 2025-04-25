@@ -1,0 +1,11 @@
+amount,currency,customerId,sourceAccountId,targetAccountId,status,scheduledDate,amountType,iterate,untilStop,untilDate,numberOfTransfers,statusCode,scenario
+1042222,USD,1045300,1042345,1042222,completed,20220220,debit,yes,no,20221231,10,200,schedule transfer added successfully
+1042223,EUR,1045301,1042346,1042223,failed,20220221,credit,no,yes,20221232,11,401,Error: Authorisation failed.
+1042224,GBP,1045302,1042347,1042224,pending,20220222,debit,yes,no,20221233,12,404,Error: Not Found
+1042225,JPY,1045303,1042348,1042225,completed,20220223,credit,no,yes,20221234,13,200,schedule transfer added successfully
+1042226,AUD,1045304,1042349,1042226,failed,20220224,debit,yes,no,20221235,14,401,Error: Authorisation failed.
+1042227,CAD,1045305,1042350,1042227,pending,20220225,credit,no,yes,20221236,15,404,Error: Not Found
+1042228,CHF,1045306,1042351,1042228,completed,20220226,debit,yes,no,20221237,16,200,schedule transfer added successfully
+1042229,CNY,1045307,1042352,1042229,failed,20220227,credit,no,yes,20221238,17,401,Error: Authorisation failed.
+1042230,DKK,1045308,1042353,1042230,pending,20220228,debit,yes,no,20221239,18,404,Error: Not Found
+1042231,HKD,1045309,1042354,1042231,completed,20220229,credit,no,yes,20221240,19,200,schedule transfer added successfully

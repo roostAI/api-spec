@@ -1,0 +1,22 @@
+customerId,paymentId,updateTransferType,sourceAccountId,statusCode,scenario
+1045300,"PAY123456","all","1042345",200,Scheduled transfer deleted successfully
+1045301,"PAY123457","all","1042346",401,Error: Authorisation failed.
+1045302,"PAY123458","all","1042347",404,Error: Not Found
+1045303,"PAY123459","all","1042348",200,Scheduled transfer deleted successfully
+1045304,"PAY123460","all","1042349",401,Error: Authorisation failed.
+1045305,"PAY123461","all","1042350",404,Error: Not Found
+1045306,"PAY123462","all","1042351",200,Scheduled transfer deleted successfully
+1045307,"PAY123463","all","1042352",401,Error: Authorisation failed.
+1045308,"PAY123464","all","1042353",404,Error: Not Found
+1045309,"PAY123465","all","1042354",200,Scheduled transfer deleted successfully
+1045310,"PAY123466","all","1042355",401,Error: Authorisation failed.
+1045311,"PAY123467","all","1042356",404,Error: Not Found
+1045312,"PAY123468","all","1042357",200,Scheduled transfer deleted successfully
+1045313,"PAY123469","all","1042358",401,Error: Authorisation failed.
+1045314,"PAY123470","all","1042359",404,Error: Not Found
+1045315,"PAY123471","all","1042360",200,Scheduled transfer deleted successfully
+1045316,"PAY123472","all","1042361",401,Error: Authorisation failed.
+1045317,"PAY123473","all","1042362",404,Error: Not Found
+1045318,"PAY123474","all","1042363",200,Scheduled transfer deleted successfully
+1045319,"PAY123475","all","1042364",401,Error: Authorisation failed.
+1045320,"PAY123476","all","1042365",404,Error: Not Found
