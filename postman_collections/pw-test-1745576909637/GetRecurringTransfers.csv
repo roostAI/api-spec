@@ -1,0 +1,4 @@
+customerId,status,statusCode,scenario
+1045300,"nostrud enim",200,"schedule transfer list response"
+-28718022,"Error: Authorisation failed.",401,"Error: Authorisation failed."
+-54279283,"Error: Not Found",404,"Error: Not Found"

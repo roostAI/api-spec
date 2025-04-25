@@ -1,0 +1,10 @@
+usecase,statusCode,scenario
+"addbeneficiary",200,"success"
+"randomusecase1",401,"Error: Authorisation failed."
+"randomusecase2",404,"Error: Not Found"
+"randomusecase3",200,"success"
+"randomusecase4",401,"Error: Authorisation failed."
+"randomusecase5",404,"Error: Not Found"
+"randomusecase6",200,"success"
+"randomusecase7",401,"Error: Authorisation failed."
+"randomusecase8",404,"Error: Not Found"

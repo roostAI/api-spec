@@ -1,0 +1,13 @@
+sourcePin,targetPin,statusCode,scenario
+"AB123"^|"CD456",200,"PINs matched"
+"EF789"^|"GH012",401,"Error: Authorisation failed."
+"IJ345"^|"KL678",404,"Error: Not Found"
+"MN901"^|"OP234",200,"PINs matched"
+"QR567"^|"ST890",401,"Error: Authorisation failed."
+"UV123"^|"WX456",404,"Error: Not Found"
+"YZ789"^|"AB012",200,"PINs matched"
+"CD345"^|"EF678",401,"Error: Authorisation failed."
+"GH901"^|"IJ234",404,"Error: Not Found"
+"KL567"^|"MN890",200,"PINs matched"
+"OP123"^|"QR456",401,"Error: Authorisation failed."
+"ST789"^|"UV012",404,"Error: Not Found"

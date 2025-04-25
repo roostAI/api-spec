@@ -1,0 +1,13 @@
+customerId,statusCode,scenario
+1045300,200,"verification code has been sent to your mobile number"
+1045301,401,"Error: Authorisation failed."
+1045302,404,"Error: Not Found"
+1045303,200,"verification code has been sent to your mobile number"
+1045304,401,"Error: Authorisation failed."
+1045305,404,"Error: Not Found"
+1045306,200,"verification code has been sent to your mobile number"
+1045307,401,"Error: Authorisation failed."
+1045308,404,"Error: Not Found"
+1045309,200,"verification code has been sent to your mobile number"
+1045310,401,"Error: Authorisation failed."
+1045311,404,"Error: Not Found"
