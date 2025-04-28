@@ -1,0 +1,7 @@
+customerId,dob,ssn,secrectPassword,AccNumber,lastDepositAmt,statusCode,scenario
+1045300,"1999-05-05T00:00:00.000+0000",104531234,"Sam","1042345",500,200,Validated Successfully
+1045301,"1999-05-06T00:00:00.000+0000",104531235,"John","1042346",600,401,Error: Authorisation failed.
+1045302,"1999-05-07T00:00:00.000+0000",104531236,"Alex","1042347",700,404,Error: Not Found
+1045303,"1999-05-08T00:00:00.000+0000",104531237,"Mike","1042348",800,200,Validated Successfully
+1045304,"1999-05-09T00:00:00.000+0000",104531238,"Tom","1042349",900,401,Error: Authorisation failed.
+1045305,"1999-05-10T00:00:00.000+0000",104531239,"Jerry","1042350",1000,404,Error: Not Found

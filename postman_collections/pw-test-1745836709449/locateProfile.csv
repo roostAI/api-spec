@@ -1,0 +1,13 @@
+accountNumber,customerId,ssNumber,ssnShort,statusCode,scenario
+"1042345","1045300","-5529708.465537459","66160523.4404158",200,success
+"randomValue1","randomValue2","randomValue3","randomValue4",401,Error: Authorisation failed.
+"randomValue5","randomValue6","randomValue7","randomValue8",404,Error: Not Found
+"1042345","1045300","-5529708.465537459","66160523.4404158",200,success
+"randomValue9","randomValue10","randomValue11","randomValue12",401,Error: Authorisation failed.
+"randomValue13","randomValue14","randomValue15","randomValue16",404,Error: Not Found
+"1042345","1045300","-5529708.465537459","66160523.4404158",200,success
+"randomValue17","randomValue18","randomValue19","randomValue20",401,Error: Authorisation failed.
+"randomValue21","randomValue22","randomValue23","randomValue24",404,Error: Not Found
+"1042345","1045300","-5529708.465537459","66160523.4404158",200,success
+"randomValue25","randomValue26","randomValue27","randomValue28",401,Error: Authorisation failed.
+"randomValue29","randomValue30","randomValue31","randomValue32",404,Error: Not Found
