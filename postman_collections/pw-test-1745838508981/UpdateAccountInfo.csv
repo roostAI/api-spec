@@ -1,0 +1,7 @@
+accountNumber,customerId,email,alternatePhoneNumber,isAlternateMobileNumber,phone,isPrimaryMobileNumber,location,isStatement,statusCode,scenario
+1042345,1045300,John@gmail.com,1234567890,true,9876543210,true,"New York",true,200,successful operation
+"1042346",1045301,"Jane@gmail.com",1234567891,false,9876543211,false,"Los Angeles",false,401,Error: Authorisation failed.
+"1042347",1045302,"Doe@gmail.com",1234567892,true,9876543212,true,"Chicago",true,404,Error: Not Found
+"1042348",1045303,"Smith@gmail.com",1234567893,false,9876543213,false,"San Francisco",false,200,successful operation
+"1042349",1045304,"Brown@gmail.com",1234567894,true,9876543214,true,"Boston",true,401,Error: Authorisation failed.
+"1042350",1045305,"Johnson@gmail.com",1234567895,false,9876543215,false,"Houston",false,404,Error: Not Found
