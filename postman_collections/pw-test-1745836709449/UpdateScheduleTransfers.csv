@@ -1,0 +1,11 @@
+customerId,paymentId,sourceAccountId,amount,scheduledDate,targetAccountId,statusCode,scenario
+1045300,"PAY1234","1042345","1042222",20220201,"1042222",200,Scheduled transfer updated successfully
+1045301,"PAY1235","1042346","1042223",20220202,"1042223",401,Error: Authorisation failed.
+1045302,"PAY1236","1042347","1042224",20220203,"1042224",404,Error: Not Found
+1045303,"PAY1237","1042348","1042225",20220204,"1042225",200,Scheduled transfer updated successfully
+1045304,"PAY1238","1042349","1042226",20220205,"1042226",401,Error: Authorisation failed.
+1045305,"PAY1239","1042350","1042227",20220206,"1042227",404,Error: Not Found
+1045306,"PAY1240","1042351","1042228",20220207,"1042228",200,Scheduled transfer updated successfully
+1045307,"PAY1241","1042352","1042229",20220208,"1042229",401,Error: Authorisation failed.
+1045308,"PAY1242","1042353","1042230",20220209,"1042230",404,Error: Not Found
+1045309,"PAY1243","1042354","1042231",20220210,"1042231",200,Scheduled transfer updated successfully

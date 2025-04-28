@@ -1,0 +1,10 @@
+customerId,transactionsData,emailId,statusCode,scenario
+1045300,[],"John@yahoo.com",200,Dispute Transactions reported successfully
+1045301,[],"Jane@yahoo.com",200,Dispute Transactions reported successfully
+1045302,[],"Bob@yahoo.com",200,Dispute Transactions reported successfully
+1045303,[],"Alice@yahoo.com",401,Error: Authorisation failed.
+1045304,[],"Charlie@yahoo.com",401,Error: Authorisation failed.
+1045305,[],"David@yahoo.com",401,Error: Authorisation failed.
+1045306,[],"Eve@yahoo.com",404,Error: Not Found
+1045307,[],"Frank@yahoo.com",404,Error: Not Found
+1045308,[],"Grace@yahoo.com",404,Error: Not Found

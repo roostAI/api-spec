@@ -1,0 +1,7 @@
+customerId,status,statusCode,scenario
+-26151063.91861315,"do amet",200,"schedule transfer list response"
+27351866.630220428,"nulla fugiat",200,"schedule transfer list response"
+1045300,"status example",401,"Error: Authorisation failed."
+-1045300,"invalid status",401,"Error: Authorisation failed."
+2045300,"another status example",404,"Error: Not Found"
+-2045300,"another invalid status",404,"Error: Not Found"
