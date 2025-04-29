@@ -1,0 +1,7 @@
+customerId,status,statusCode,scenario
+1045300,"sint dolore irure in",200,"schedule transfer list response"
+1045301,"esse dolor sit dolor",200,"schedule transfer list response"
+1045302,"Error: Invalid status",401,"Error: Authorisation failed."
+1045303,"Error: Invalid status",401,"Error: Authorisation failed."
+1045304,"Error: Invalid status",404,"Error: Not Found"
+1045305,"Error: Invalid status",404,"Error: Not Found"

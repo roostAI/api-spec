@@ -1,0 +1,7 @@
+customerId,status,statusCode,scenario
+1045300,"nulla",200,"schedule transfer list response"
+-64936106,"mollit est",200,"schedule transfer list response"
+1054300,"Error",401,"Error: Authorisation failed."
+1065300,"Error",401,"Error: Authorisation failed."
+1076300,"Error",404,"Error: Not Found"
+1087300,"Error",404,"Error: Not Found"
