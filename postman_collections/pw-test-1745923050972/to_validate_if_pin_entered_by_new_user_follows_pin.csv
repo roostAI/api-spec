@@ -1,0 +1,11 @@
+sourcePin,statusCode,scenario
+"API1",200,"PIN rules satisfied"
+"API2",401,"Error: Authorisation failed."
+"API3",404,"Error: Not Found"
+"API4",200,"PIN rules satisfied"
+"API5",401,"Error: Authorisation failed."
+"API6",404,"Error: Not Found"
+"API7",200,"PIN rules satisfied"
+"API8",401,"Error: Authorisation failed."
+"API9",404,"Error: Not Found"
+"API10",200,"PIN rules satisfied"

@@ -1,0 +1,7 @@
+sourcePin,targetPin,customerId,accountNumber,ssn,statusCode,scenario
+"1234","5678",1045300,"1042345",104531234,200,PINs matched
+"9876","5432",1045301,"1042346",104531235,200,PINs matched
+"1111","2222",1045302,"1042347",104531236,401,Error: Authorisation failed.
+"3333","4444",1045303,"1042348",104531237,401,Error: Authorisation failed.
+"5555","6666",1045304,"1042349",104531238,404,Error: Not Found
+"7777","8888",1045305,"1042350",104531239,404,Error: Not Found

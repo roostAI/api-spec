@@ -1,0 +1,6 @@
+authType,firstName,lastName,email,phoneNumber,topic,message,availableTime,chatHistory,cif,statusCode,scenario
+Authorized,James,William,John@gmail.com,9787643445,Routing and Account Number,Unable to find my routing number.,nighttime,html formatted message sent as string,1045310,200,success
+Unauthorized,Robert,Smith,Robert@gmail.com,9787643446,Account Balance,Unable to check my account balance.,morning,html formatted message sent as string,1045311,401,Error: Authorisation failed.
+Authorized,Michael,Johnson,Michael@gmail.com,9787643447,Transaction History,Unable to view my transaction history.,afternoon,html formatted message sent as string,1045312,404,Error: Not Found
+Unauthorized,William,Brown,William@gmail.com,9787643448,Loan Details,Unable to view my loan details.,evening,html formatted message sent as string,1045313,401,Error: Authorisation failed.
+Authorized,David,Jones,David@gmail.com,9787643449,Credit Card Details,Unable to view my credit card details.,nighttime,html formatted message sent as string,1045314,200,success
