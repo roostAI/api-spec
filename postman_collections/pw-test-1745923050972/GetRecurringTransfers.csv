@@ -1,0 +1,10 @@
+customerId,status,statusCode,scenario
+1045300,"eli",200,"schedule transfer list response"
+-95099978,"ut nulla",401,"Error: Authorisation failed."
+5319121,"nostrud laboris",404,"Error: Not Found"
+1045301,"ut nulla",200,"schedule transfer list response"
+-95099979,"eli",401,"Error: Authorisation failed."
+5319122,"nostrud laboris",404,"Error: Not Found"
+1045302,"eli",200,"schedule transfer list response"
+-95099980,"ut nulla",401,"Error: Authorisation failed."
+5319123,"nostrud laboris",404,"Error: Not Found"

@@ -1,0 +1,11 @@
+amount,currency,customerId,date,sourceAccountId,targetAccountId,description,TransactionType,PaymentType,statusCode,scenario
+1042222,USD,1045300,03-15-2021,1042345,1042222,Internal Transfer,1063,Minimum Payment,200,Transaction success
+1042223,EUR,1045301,03-16-2021,1042346,1042223,External Transfer,1064,Full Payment,401,Error: Authorisation failed.
+1042224,GBP,1045302,03-17-2021,1042347,1042224,Wire Transfer,1065,Partial Payment,404,Error: Not Found
+1042225,JPY,1045303,03-18-2021,1042348,1042225,Online Transfer,1066,Overdue Payment,200,Transaction success
+1042226,CAD,1045304,03-19-2021,1042349,1042226,Mobile Transfer,1067,Advance Payment,401,Error: Authorisation failed.
+1042227,AUD,1045305,03-20-2021,1042350,1042227,ATM Transfer,1068,Late Payment,404,Error: Not Found
+1042228,NZD,1045306,03-21-2021,1042351,1042228,Branch Transfer,1069,Scheduled Payment,200,Transaction success
+1042229,CHF,1045307,03-22-2021,1042352,1042229,Mail Transfer,1070,Unscheduled Payment,401,Error: Authorisation failed.
+1042230,SEK,1045308,03-23-2021,1042353,1042230,Telephone Transfer,1071,Missed Payment,404,Error: Not Found
+1042231,NOK,1045309,03-24-2021,1042354,1042231,Fax Transfer,1072,Recurring Payment,200,Transaction success
