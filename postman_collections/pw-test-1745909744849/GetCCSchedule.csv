@@ -1,0 +1,13 @@
+customerId,status,statusCode,scenario
+1045300,"mollit",200,"schedule transfer list response"
+1045301,"ipsum",401,"Error: Authorisation failed."
+1045302,"tempor sit irure",404,"Error: Not Found"
+1045303,"mollit",200,"schedule transfer list response"
+1045304,"ipsum",401,"Error: Authorisation failed."
+1045305,"tempor sit irure",404,"Error: Not Found"
+1045306,"mollit",200,"schedule transfer list response"
+1045307,"ipsum",401,"Error: Authorisation failed."
+1045308,"tempor sit irure",404,"Error: Not Found"
+1045309,"mollit",200,"schedule transfer list response"
+1045310,"ipsum",401,"Error: Authorisation failed."
+1045311,"tempor sit irure",404,"Error: Not Found"
