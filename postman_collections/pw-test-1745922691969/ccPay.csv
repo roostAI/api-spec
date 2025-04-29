@@ -1,0 +1,10 @@
+amount,currency,customerId,dueDate,sourceAccountId,targetAccountId,transactionType,statusCode,scenario
+"1042222","USD",1045300,"2022-12-31","1042345","1042222",1,200,"Credit Card payment scheduled successfully"
+"1042223","EUR",1045301,"2023-01-01","1042346","1042223",2,401,"Error: Authorisation failed."
+"1042224","GBP",1045302,"2023-01-02","1042347","1042224",3,404,"Error: Not Found"
+"1042225","JPY",1045303,"2023-01-03","1042348","1042225",4,200,"Credit Card payment scheduled successfully"
+"1042226","CAD",1045304,"2023-01-04","1042349","1042226",5,401,"Error: Authorisation failed."
+"1042227","AUD",1045305,"2023-01-05","1042350","1042227",6,404,"Error: Not Found"
+"1042228","INR",1045306,"2023-01-06","1042351","1042228",7,200,"Credit Card payment scheduled successfully"
+"1042229","CNY",1045307,"2023-01-07","1042352","1042229",8,401,"Error: Authorisation failed."
+"1042230","BRL",1045308,"2023-01-08","1042353","1042230",9,404,"Error: Not Found"
