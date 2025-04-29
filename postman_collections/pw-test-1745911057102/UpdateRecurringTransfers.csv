@@ -1,0 +1,13 @@
+customerId,paymentId,sourceAccountId,amount,scheduledDate,targetAccountId,amountType,untilStop,untilDate,numberOfTransfers,iterate,updateTransferType,statusCode,scenario
+1045300,"PAY1234","1042345","1042222",20220101,"1042222","fixed","no",20230101,12,"yes","all",200,Recurring transfer updated successfully
+1045301,"PAY1235","1042346","1042223",20220102,"1042223","variable","yes",20230102,13,"no","all",401,Error: Authorisation failed.
+1045302,"PAY1236","1042347","1042224",20220103,"1042224","fixed","no",20230103,14,"yes","all",404,Error: Not Found
+1045303,"PAY1237","1042348","1042225",20220104,"1042225","variable","yes",20230104,15,"no","all",200,Recurring transfer updated successfully
+1045304,"PAY1238","1042349","1042226",20220105,"1042226","fixed","no",20230105,16,"yes","all",401,Error: Authorisation failed.
+1045305,"PAY1239","1042350","1042227",20220106,"1042227","variable","yes",20230106,17,"no","all",404,Error: Not Found
+1045306,"PAY1240","1042351","1042228",20220107,"1042228","fixed","no",20230107,18,"yes","all",200,Recurring transfer updated successfully
+1045307,"PAY1241","1042352","1042229",20220108,"1042229","variable","yes",20230108,19,"no","all",401,Error: Authorisation failed.
+1045308,"PAY1242","1042353","1042230",20220109,"1042230","fixed","no",20230109,20,"yes","all",404,Error: Not Found
+1045309,"PAY1243","1042354","1042231",20220110,"1042231","variable","yes",20230110,21,"no","all",200,Recurring transfer updated successfully
+1045310,"PAY1244","1042355","1042232",20220111,"1042232","fixed","no",20230111,22,"yes","all",401,Error: Authorisation failed.
+1045311,"PAY1245","1042356","1042233",20220112,"1042233","variable","yes",20230112,23,"no","all",404,Error: Not Found

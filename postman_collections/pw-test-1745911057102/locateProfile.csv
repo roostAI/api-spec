@@ -1,0 +1,4 @@
+accountNumber,customerId,ssNumber,ssnShort,statusCode,scenario
+"velit magna aute","commodo enim veniam esse",57742395.22635439,-29250390.66067137,200,success
+"1042345",1045300,"randomString1","randomString2",401,Error: Authorisation failed.
+"1042345",1045300,"randomString3","randomString4",404,Error: Not Found
