@@ -1,0 +1,10 @@
+sourcePin,targetPin,statusCode,scenario
+"ABC123","XYZ789",200,"PINs matched"
+"DEF456","UVW321",401,"Error: Authorisation failed."
+"GHI789","RST654",404,"Error: Not Found"
+"JKL012","OPQ987",200,"PINs matched"
+"MNO345","LMN567",401,"Error: Authorisation failed."
+"PQR678","CDE234",404,"Error: Not Found"
+"STU901","FGH456",200,"PINs matched"
+"VWX234","IJK789",401,"Error: Authorisation failed."
+"YZA567","NOP012",404,"Error: Not Found"

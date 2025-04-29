@@ -1,0 +1,10 @@
+accountNumber,customerId,numberOfChequeBooks,numberOfLeaves,statusCode,scenario
+1042345,1045300,2,50,200,successful operation
+1042346,1045301,3,60,200,successful operation
+1042347,1045302,4,70,200,successful operation
+1042348,1045303,5,80,401,Error: Authorisation failed.
+1042349,1045304,6,90,401,Error: Authorisation failed.
+1042350,1045305,7,100,401,Error: Authorisation failed.
+1042351,1045306,8,110,404,Error: Not Found
+1042352,1045307,9,120,404,Error: Not Found
+1042353,1045308,10,130,404,Error: Not Found
