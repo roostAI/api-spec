@@ -1,0 +1,11 @@
+authType,firstName,lastName,email,phoneNumber,topic,message,availableTime,chatHistory,cif,statusCode,scenario
+Authorized,James,William,John@gmail.com,9787643445,Routing and Account Number,Unable to find my routing number.,nighttime,html formatted message sent as string,1045310,200,success
+Unauthorized,Robert,Smith,Robert@gmail.com,9876543210,Account Balance,I want to check my account balance.,morning,html formatted message sent as string,2045311,401,Error: Authorisation failed.
+Authorized,David,Johnson,David@gmail.com,9123456780,Loan Details,I want to know my loan details.,afternoon,html formatted message sent as string,3045312,404,Error: Not Found
+Unauthorized,Michael,Brown,Michael@gmail.com,9234567891,Card Activation,I want to activate my card.,evening,html formatted message sent as string,4045313,200,success
+Authorized,Sarah,Taylor,Sarah@gmail.com,9345678912,Account Closure,I want to close my account.,nighttime,html formatted message sent as string,5045314,401,Error: Authorisation failed.
+Unauthorized,Emma,Miller,Emma@gmail.com,9456789123,Fund Transfer,I want to transfer funds.,morning,html formatted message sent as string,6045315,404,Error: Not Found
+Authorized,Oliver,Davis,Oliver@gmail.com,9567891234,Cheque Book Request,I want to request a cheque book.,afternoon,html formatted message sent as string,7045316,200,success
+Unauthorized,Lucas,Wilson,Lucas@gmail.com,9678912345,Account Statement,I want my account statement.,evening,html formatted message sent as string,8045317,401,Error: Authorisation failed.
+Authorized,Liam,Anderson,Liam@gmail.com,9789123456,Credit Card Application,I want to apply for a credit card.,nighttime,html formatted message sent as string,9045318,404,Error: Not Found
+Unauthorized,Noah,Thomas,Noah@gmail.com,9891234567,Debit Card Pin,I forgot my debit card pin.,morning,html formatted message sent as string,10045319,200,success
