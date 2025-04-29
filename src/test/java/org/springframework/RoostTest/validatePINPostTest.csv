@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+user1234^|^bot5678^|^acc9012^|^auth3456^|^{"sourcePin":"1234","targetPin":"5678","profileInfo":{"customerId":"C123","accountNumber":"A456","ssn":"SS789"}}^|^200^|^bearer123
+user2345^|^bot6789^|^acc0123^|^auth4567^|^{"sourcePin":"2345","targetPin":"6789","profileInfo":{"customerId":"C234","accountNumber":"A567","ssn":"SS890"}}^|^401^|^bearer234
+user3456^|^bot7890^|^acc1234^|^auth5678^|^{"sourcePin":"3456","targetPin":"7890","profileInfo":{"customerId":"C345","accountNumber":"A678","ssn":"SS901"}}^|^404^|^bearer345
+user4567^|^bot8901^|^acc2345^|^auth6789^|^{"sourcePin":"4567","targetPin":"8901","profileInfo":{"customerId":"C456","accountNumber":"A789","ssn":"SS012"}}^|^200^|^bearer456
+user5678^|^bot9012^|^acc3456^|^auth7890^|^{"sourcePin":"5678","targetPin":"9012","profileInfo":{"customerId":"C567","accountNumber":"A890","ssn":"SS123"}}^|^401^|^bearer567
+user6789^|^bot0123^|^acc4567^|^auth8901^|^{"sourcePin":"6789","targetPin":"0123","profileInfo":{"customerId":"C678","accountNumber":"A901","ssn":"SS234"}}^|^404^|^bearer678
+user7890^|^bot1234^|^acc5678^|^auth9012^|^{"sourcePin":"7890","targetPin":"1234","profileInfo":{"customerId":"C789","accountNumber":"A012","ssn":"SS345"}}^|^200^|^bearer789
+user8901^|^bot2345^|^acc6789^|^auth0123^|^{"sourcePin":"8901","targetPin":"2345","profileInfo":{"customerId":"C890","accountNumber":"A123","ssn":"SS456"}}^|^401^|^bearer890
+user9012^|^bot3456^|^acc7890^|^auth1234^|^{"sourcePin":"9012","targetPin":"3456","profileInfo":{"customerId":"C901","accountNumber":"A234","ssn":"SS567"}}^|^404^|^bearer901
+user0123^|^bot4567^|^acc8901^|^auth2345^|^{"sourcePin":"0123","targetPin":"4567","profileInfo":{"customerId":"C012","accountNumber":"A345","ssn":"SS678"}}^|^200^|^bearer012
