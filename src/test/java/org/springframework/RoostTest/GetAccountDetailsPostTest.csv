@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^X_Auth_token^|^X_CORRELATION_ID^|^RequestBody^|^statusCode^|^bearer
+user1^|^bot1^|^account1^|^auth1^|^token1^|^123456^|^{"customerId": 1, "accountInfo": [{"accountType": "savings", "accountNumber": "123456789", "cardNumber": "1111222233334444"}]}^|^200^|^bearer1
+user2^|^bot2^|^account2^|^auth2^|^token2^|^123457^|^{"customerId": 2, "accountInfo": [{"accountType": "current", "accountNumber": "123456790", "cardNumber": "1111222233334445"}]}^|^401^|^bearer2
+user3^|^bot3^|^account3^|^auth3^|^token3^|^123458^|^{"customerId": 3, "accountInfo": [{"accountType": "savings", "accountNumber": "123456791", "cardNumber": "1111222233334446"}]}^|^404^|^bearer3
+user4^|^bot4^|^account4^|^auth4^|^token4^|^123459^|^{"customerId": 4, "accountInfo": [{"accountType": "current", "accountNumber": "123456792", "cardNumber": "1111222233334447"}]}^|^200^|^bearer4
+user5^|^bot5^|^account5^|^auth5^|^token5^|^123460^|^{"customerId": 5, "accountInfo": [{"accountType": "savings", "accountNumber": "123456793", "cardNumber": "1111222233334448"}]}^|^401^|^bearer5
+user6^|^bot6^|^account6^|^auth6^|^token6^|^123461^|^{"customerId": 6, "accountInfo": [{"accountType": "current", "accountNumber": "123456794", "cardNumber": "1111222233334449"}]}^|^404^|^bearer6
+user7^|^bot7^|^account7^|^auth7^|^token7^|^123462^|^{"customerId": 7, "accountInfo": [{"accountType": "savings", "accountNumber": "123456795", "cardNumber": "1111222233334450"}]}^|^200^|^bearer7
+user8^|^bot8^|^account8^|^auth8^|^token8^|^123463^|^{"customerId": 8, "accountInfo": [{"accountType": "current", "accountNumber": "123456796", "cardNumber": "1111222233334451"}]}^|^401^|^bearer8
+user9^|^bot9^|^account9^|^auth9^|^token9^|^123464^|^{"customerId": 9, "accountInfo": [{"accountType": "savings", "accountNumber": "123456797", "cardNumber": "1111222233334452"}]}^|^404^|^bearer9
+user10^|^bot10^|^account10^|^auth10^|^token10^|^123465^|^{"customerId": 10, "accountInfo": [{"accountType": "current", "accountNumber": "123456798", "cardNumber": "1111222233334453"}]}^|^200^|^bearer10
