@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^userCode^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+U001^|^Bot001^|^UC0001^|^acc1234^|^Auth01^|^{\"paymentId\":\"Pay001\",\"customerId\":12345,\"amount\":201.5,\"scheduledDate\":1637654200,\"sourceAccountId\":\"S001\",\"targetAccountId\":\"T001\"}^|^200^|^
+U002^|^Bot002^|^UC0002^|^acc2345^|^Auth02^|^{\"paymentId\":\"Pay002\",\"customerId\":23456,\"amount\":134.5,\"scheduledDate\":1637643200,\"sourceAccountId\":\"S002\",\"targetAccountId\":\"T002\"}^|^200^|^
+U003^|^Bot003^|^UC0003^|^acc3456^|^Auth03^|^{\"paymentId\":\"Pay003\",\"customerId\":34567,\"amount\":897.0,\"scheduledDate\":1637632300,\"sourceAccountId\":\"S003\",\"targetAccountId\":\"T003\"}^|^401^|^
+U004^|^Bot004^|^UC0004^|^acc4567^|^Auth04^|^{\"paymentId\":\"Pay004\",\"customerId\":45678,\"amount\":567.7,\"scheduledDate\":1637621500,\"sourceAccountId\":\"S004\",\"targetAccountId\":\"T004\"}^|^200^|^
+U005^|^Bot005^|^UC0005^|^acc5678^|^Auth05^|^{\"paymentId\":\"Pay005\",\"customerId\":56789,\"amount\":345.3,\"scheduledDate\":1637610600,\"sourceAccountId\":\"S005\",\"targetAccountId\":\"T005\"}^|^404^|^
+U006^|^Bot006^|^UC0006^|^acc6789^|^Auth06^|^{\"paymentId\":\"Pay006\",\"customerId\":67890,\"amount\":134.5,\"scheduledDate\":1637599800,\"sourceAccountId\":\"S006\",\"targetAccountId\":\"T006\"}^|^200^|^
+U007^|^Bot007^|^UC0007^|^acc7890^|^Auth07^|^{\"paymentId\":\"Pay007\",\"customerId\":78901,\"amount\":987.4,\"scheduledDate\":1637588900,\"sourceAccountId\":\"S007\",\"targetAccountId\":\"T007\"}^|^401^|^
+U008^|^Bot008^|^UC0008^|^acc8901^|^Auth08^|^{\"paymentId\":\"Pay008\",\"customerId\":89012,\"amount\":678.8,\"scheduledDate\":1637578000,\"sourceAccountId\":\"S008\",\"targetAccountId\":\"T008\"}^|^200^|^
+U009^|^Bot009^|^UC0009^|^acc9012^|^Auth09^|^{\"paymentId\":\"Pay009\",\"customerId\":90123,\"amount\":456.7,\"scheduledDate\":1637567100,\"sourceAccountId\":\"S009\",\"targetAccountId\":\"T009\"}^|^404^|^
+U010^|^Bot010^|^UC0010^|^acc101234^|^Auth10^|^{\"paymentId\":\"Pay010\",\"customerId\":101234,\"amount\":567.8,\"scheduledDate\":1637556300,\"sourceAccountId\":\"S010\",\"targetAccountId\":\"T010\"}^|^200^|^

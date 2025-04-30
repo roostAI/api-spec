@@ -1,0 +1,11 @@
+RequestBody^|^statusCode^|^bearer
+{"customerId": 101}^|^200^|^Bearer d63c4ee2796949cc8dae2900ba815c15
+{"customerId": 102}^|^200^|^Bearer 521a70a6f5794748a23e71fdcf00195b
+{"customerId": 103}^|^401^|^Bearer 9203c5cf04824918aad4d15b854b9a0f
+{"customerId": 104}^|^404^|^Bearer 2ace6838bd354beca2b7c4d6efdea817
+{"customerId": 105}^|^200^|^Bearer 86ecc1caeb4d4c10a2dd7b47ec2bfa4a
+{"customerId": 106}^|^200^|^Bearer 37d579f7ea1d44eaa3e2fd4223938572
+{"customerId": 107}^|^401^|^Bearer af8c493a0f244b08af7160767030a67a
+{"customerId": 108}^|^404^|^Bearer fa3cfcc0633e457fbd6f606deb2b0725
+{"customerId": 109}^|^200^|^Bearer 934b80dc6e1643d7bc860187d2aaf274
+{"customerId": 110}^|^200^|^Bearer 148bafcc687e42fbb5716fd1a72759d7
