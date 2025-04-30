@@ -1,0 +1,11 @@
+amount,currency,customerId,sourceAccountId,targetAccountId,status,scheduledDate,amountType,iterate,untilStop,untilDate,numberOfTransfers,statusCode,scenario
+1042222,USD,1045300,1042345,1042222,active,20220201,fixed,yes,no,20221231,12,200,schedule transfer added successfully
+1042223,EUR,1045301,1042346,1042223,inactive,20220202,variable,no,yes,20221232,13,401,Error: Authorisation failed.
+1042224,GBP,1045302,1042347,1042224,pending,20220203,fixed,yes,no,20221233,14,404,Error: Not Found
+1042225,JPY,1045303,1042348,1042225,active,20220204,variable,no,yes,20221234,15,200,schedule transfer added successfully
+1042226,CAD,1045304,1042349,1042226,inactive,20220205,fixed,yes,no,20221235,16,401,Error: Authorisation failed.
+1042227,AUD,1045305,1042350,1042227,pending,20220206,variable,no,yes,20221236,17,404,Error: Not Found
+1042228,CHF,1045306,1042351,1042228,active,20220207,fixed,yes,no,20221237,18,200,schedule transfer added successfully
+1042229,CNY,1045307,1042352,1042229,inactive,20220208,variable,no,yes,20221238,19,401,Error: Authorisation failed.
+1042230,SEK,1045308,1042353,1042230,pending,20220209,fixed,yes,no,20221239,20,404,Error: Not Found
+1042231,NZD,1045309,1042354,1042231,active,20220210,variable,no,yes,20221240,21,200,schedule transfer added successfully
