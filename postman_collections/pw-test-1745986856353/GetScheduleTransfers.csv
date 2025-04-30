@@ -1,0 +1,11 @@
+customerId,status,statusCode,scenario
+1045300,"reprehenderit dolore",200,"schedule transfer list response"
+1045301,"incididunt proident commodo",200,"schedule transfer list response"
+1045302,"Error: Authorisation failed.",401,"Error: Authorisation failed."
+1045303,"Error: Not Found",404,"Error: Not Found"
+1045304,"reprehenderit dolore",200,"schedule transfer list response"
+1045305,"incididunt proident commodo",200,"schedule transfer list response"
+1045306,"Error: Authorisation failed.",401,"Error: Authorisation failed."
+1045307,"Error: Not Found",404,"Error: Not Found"
+1045308,"reprehenderit dolore",200,"schedule transfer list response"
+1045309,"incididunt proident commodo",200,"schedule transfer list response"
