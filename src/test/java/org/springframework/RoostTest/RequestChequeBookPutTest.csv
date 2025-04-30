@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+user1^|^bot1^|^ac1^|^auth1^|^{"customerId":1001,"numberOfChequeBooks":2,"numberOfLeaves":50,"accountNumber":"acc1001"}^|^200^|^btc1
+user2^|^bot2^|^ac2^|^auth2^|^{"customerId":1002,"numberOfChequeBooks":1,"numberOfLeaves":25,"accountNumber":"acc1002"}^|^401^|^btc2
+user3^|^bot3^|^ac3^|^auth3^|^{"customerId":1003,"numberOfChequeBooks":1,"numberOfLeaves":100,"accountNumber":"acc1003"}^|^404^|^btc3
+user4^|^bot4^|^ac4^|^auth4^|^{"customerId":1004,"numberOfChequeBooks":3,"numberOfLeaves":75,"accountNumber":"acc1004"}^|^200^|^btc4
+user5^|^bot5^|^ac5^|^auth5^|^{"customerId":1005,"numberOfChequeBooks":2,"numberOfLeaves":50,"accountNumber":"acc1005"}^|^401^|^btc5
+user6^|^bot6^|^ac6^|^auth6^|^{"customerId":1006,"numberOfChequeBooks":1,"numberOfLeaves":100,"accountNumber":"acc1006"}^|^404^|^btc6
+user7^|^bot7^|^ac7^|^auth7^|^{"customerId":1007,"numberOfChequeBooks":3,"numberOfLeaves":75,"accountNumber":"acc1007"}^|^200^|^btc7
+user8^|^bot8^|^ac8^|^auth8^|^{"customerId":1008,"numberOfChequeBooks":2,"numberOfLeaves":50,"accountNumber":"acc1008"}^|^401^|^btc8
+user9^|^bot9^|^ac9^|^auth9^|^{"customerId":1009,"numberOfChequeBooks":1,"numberOfLeaves":100,"accountNumber":"acc1009"}^|^404^|^btc9
+user10^|^bot10^|^ac10^|^auth10^|^{"customerId":1010,"numberOfChequeBooks":3,"numberOfLeaves":75,"accountNumber":"acc1010"}^|^200^|^btc10
