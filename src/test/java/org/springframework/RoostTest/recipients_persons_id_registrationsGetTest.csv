@@ -1,0 +1,11 @@
+id^|^credential-url^|^size^|^offset^|^RequestBody^|^statusCode^|^Token
+123e4567-e89b-12d3-a456-426614174000^|^https://example.com/credential1^|^20^|^0^|^{"key1":"value1","key2":"value2"}^|^200^|^token1
+123e4567-e89b-12d3-a456-426614174001^|^https://example.com/credential2^|^30^|^5^|^{"key1":"value3","key2":"value4"}^|^400^|^token2
+123e4567-e89b-12d3-a456-426614174002^|^https://example.com/credential3^|^40^|^10^|^{"key1":"value5","key2":"value6"}^|^401^|^token3
+123e4567-e89b-12d3-a456-426614174003^|^https://example.com/credential4^|^50^|^15^|^{"key1":"value7","key2":"value8"}^|^200^|^token4
+123e4567-e89b-12d3-a456-426614174004^|^https://example.com/credential5^|^10^|^20^|^{"key1":"value9","key2":"value10"}^|^400^|^token5
+123e4567-e89b-12d3-a456-426614174005^|^https://example.com/credential6^|^15^|^25^|^{"key1":"value11","key2":"value12"}^|^401^|^token6
+123e4567-e89b-12d3-a456-426614174006^|^https://example.com/credential7^|^25^|^30^|^{"key1":"value13","key2":"value14"}^|^200^|^token7
+123e4567-e89b-12d3-a456-426614174007^|^https://example.com/credential8^|^35^|^35^|^{"key1":"value15","key2":"value16"}^|^400^|^token8
+123e4567-e89b-12d3-a456-426614174008^|^https://example.com/credential9^|^45^|^40^|^{"key1":"value17","key2":"value18"}^|^401^|^token9
+123e4567-e89b-12d3-a456-426614174009^|^https://example.com/credential10^|^50^|^45^|^{"key1":"value19","key2":"value20"}^|^200^|^token10
