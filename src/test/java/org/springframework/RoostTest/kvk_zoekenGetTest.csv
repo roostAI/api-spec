@@ -1,0 +1,11 @@
+kvkNummer^|^vestigingsnummer^|^handelsnaam^|^RequestBody^|^statusCode^|^Token
+12345678^|^98765432^|^Handelsnaam1^|^{"key1":"value1","key2":"value2"}^|^200^|^Token1
+23456789^|^87654321^|^Handelsnaam2^|^{"key1":"value3","key2":"value4"}^|^201^|^Token2
+34567890^|^76543210^|^Handelsnaam3^|^{"key1":"value5","key2":"value6"}^|^202^|^Token3
+45678901^|^65432109^|^Handelsnaam4^|^{"key1":"value7","key2":"value8"}^|^203^|^Token4
+56789012^|^54321098^|^Handelsnaam5^|^{"key1":"value9","key2":"value10"}^|^204^|^Token5
+67890123^|^43210987^|^Handelsnaam6^|^{"key1":"value11","key2":"value12"}^|^205^|^Token6
+78901234^|^32109876^|^Handelsnaam7^|^{"key1":"value13","key2":"value14"}^|^206^|^Token7
+89012345^|^21098765^|^Handelsnaam8^|^{"key1":"value15","key2":"value16"}^|^207^|^Token8
+90123456^|^10987654^|^Handelsnaam9^|^{"key1":"value17","key2":"value18"}^|^208^|^Token9
+01234567^|^09876543^|^Handelsnaam10^|^{"key1":"value19","key2":"value20"}^|^209^|^Token10
