@@ -1,0 +1,11 @@
+RequestBody^|^statusCode^|^bearer
+{"customerId":1,"dob":"1990-01-01","ssn":9087654321,"secrectPassword":"SecPass@1","AccNumber":"ItB12345","lastDepositAmt":10000}^|^200^|^bearer_1
+{"customerId":2,"dob":"1982-02-02","ssn":8123456789,"secrectPassword":"SecPass@2","AccNumber":"PsJ56789","lastDepositAmt":20000}^|^401^|^bearer_2
+{"customerId":3,"dob":"1985-03-04","ssn":7034567890,"secrectPassword":"SecPass@3","AccNumber":"GfK89121","lastDepositAmt":30000}^|^404^|^bearer_3
+{"customerId":4,"dob":"1974-04-05","ssn":6546789012,"secrectPassword":"SecPass@4","AccNumber":"OcQ24131","lastDepositAmt":40000}^|^200^|^bearer_4
+{"customerId":5,"dob":"1986-05-06","ssn":6056789123,"secrectPassword":"SecPass@5","AccNumber":"BuV41321","lastDepositAmt":50000}^|^401^|^bearer_5
+{"customerId":6,"dob":"1973-06-07","ssn":5067891234,"secrectPassword":"SecPass@6","AccNumber":"EpY39211","lastDepositAmt":60000}^|^404^|^bearer_6
+{"customerId":7,"dob":"1970-07-08","ssn":4678912345,"secrectPassword":"SecPass@7","AccNumber":"IwN12311","lastDepositAmt":70000}^|^200^|^bearer_7
+{"customerId":8,"dob":"1972-08-09","ssn":3789123456,"secrectPassword":"SecPass@8","AccNumber":"GlO23159","lastDepositAmt":80000}^|^401^|^bearer_8
+{"customerId":9,"dob":"1981-09-10","ssn":2891234567,"secrectPassword":"SecPass@9","AccNumber":"PlM15326","lastDepositAmt":90000}^|^404^|^bearer_9
+{"customerId":10,"dob":"1975-10-11","ssn":1912345678,"secrectPassword":"SecPass@10","AccNumber":"SoT26215","lastDepositAmt":100000}^|^200^|^bearer_10
