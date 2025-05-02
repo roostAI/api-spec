@@ -1,0 +1,11 @@
+RequestBody^|^statusCode^|^bearer
+{"customerId": 12345, "dob": "1990-01-01", "ssn": 987654321, "secrectPassword": "password1", "AccNumber": "ACC12345", "lastDepositAmt": 5000}^|^200^|^Bearer abcdef123456
+{"customerId": 12346, "dob": "1991-02-02", "ssn": 987654322, "secrectPassword": "password2", "AccNumber": "ACC12346", "lastDepositAmt": 6000}^|^200^|^Bearer abcdef123457
+{"customerId": 12347, "dob": "1992-03-03", "ssn": 987654323, "secrectPassword": "password3", "AccNumber": "ACC12347", "lastDepositAmt": 7000}^|^401^|^Bearer abcdef123458
+{"customerId": 12348, "dob": "1993-04-04", "ssn": 987654324, "secrectPassword": "password4", "AccNumber": "ACC12348", "lastDepositAmt": 8000}^|^404^|^Bearer abcdef123459
+{"customerId": 12349, "dob": "1994-05-05", "ssn": 987654325, "secrectPassword": "password5", "AccNumber": "ACC12349", "lastDepositAmt": 9000}^|^200^|^Bearer abcdef123460
+{"customerId": 12350, "dob": "1995-06-06", "ssn": 987654326, "secrectPassword": "password6", "AccNumber": "ACC12350", "lastDepositAmt": 10000}^|^401^|^Bearer abcdef123461
+{"customerId": 12351, "dob": "1996-07-07", "ssn": 987654327, "secrectPassword": "password7", "AccNumber": "ACC12351", "lastDepositAmt": 11000}^|^404^|^Bearer abcdef123462
+{"customerId": 12352, "dob": "1997-08-08", "ssn": 987654328, "secrectPassword": "password8", "AccNumber": "ACC12352", "lastDepositAmt": 12000}^|^200^|^Bearer abcdef123463
+{"customerId": 12353, "dob": "1998-09-09", "ssn": 987654329, "secrectPassword": "password9", "AccNumber": "ACC12353", "lastDepositAmt": 13000}^|^401^|^Bearer abcdef123464
+{"customerId": 12354, "dob": "1999-10-10", "ssn": 987654330, "secrectPassword": "password10", "AccNumber": "ACC12354", "lastDepositAmt": 14000}^|^404^|^Bearer abcdef123465
