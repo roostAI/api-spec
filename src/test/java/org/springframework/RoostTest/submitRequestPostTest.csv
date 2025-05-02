@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+USER123^|^BOT456^|^ACC789^|^AUTH_TOKEN1^|^{"key1":"value1","key2":"value2"}^|^200^|^BEARERID1
+USER124^|^BOT457^|^ACC790^|^AUTH_TOKEN2^|^{"key1":"value1","key2":"value2"}^|^200^|^BEARERID2
+USER125^|^BOT458^|^ACC791^|^AUTH_TOKEN3^|^{"key1":"value1","key2":"value2"}^|^401^|^BEARERID3
+USER126^|^BOT459^|^ACC792^|^AUTH_TOKEN4^|^{"key1":"value1","key2":"value2"}^|^404^|^BEARERID4
+USER127^|^BOT460^|^ACC793^|^AUTH_TOKEN5^|^{"key1":"value1","key2":"value2"}^|^200^|^BEARERID5
+USER128^|^BOT461^|^ACC794^|^AUTH_TOKEN6^|^{"key1":"value1","key2":"value2"}^|^401^|^BEARERID6
+USER129^|^BOT462^|^ACC795^|^AUTH_TOKEN7^|^{"key1":"value1","key2":"value2"}^|^404^|^BEARERID7
+USER130^|^BOT463^|^ACC796^|^AUTH_TOKEN8^|^{"key1":"value1","key2":"value2"}^|^200^|^BEARERID8
+USER131^|^BOT464^|^ACC797^|^AUTH_TOKEN9^|^{"key1":"value1","key2":"value2"}^|^401^|^BEARERID9
+USER132^|^BOT465^|^ACC798^|^AUTH_TOKEN10^|^{"key1":"value1","key2":"value2"}^|^404^|^BEARERID10

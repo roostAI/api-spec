@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+usr_123^|^b_001^|^ac_345^|^123456789^|^{"task":"start"}^|^200^|^bearer1234
+usr_124^|^b_002^|^ac_363^|^987654321^|^{"task":"status"}^|^200^|^bearer2345
+usr_125^|^b_003^|^ac_397^|^135792468^|^{"task":"stop"}^|^200^|^bearer3456
+usr_126^|^b_004^|^ac_435^|^753159862^|^{"task":"restart"}^|^401^|^bearer4567
+usr_127^|^b_005^|^ac_476^|^864209153^|^{"task":"pause"}^|^404^|^bearer5678
+usr_128^|^b_006^|^ac_517^|^975318642^|^{"task":"unpause"}^|^200^|^bearer6789
+usr_129^|^b_007^|^ac_343^|^741852963^|^{"task":"end"}^|^401^|^bearer7890
+usr_130^|^b_008^|^ac_393^|^852963741^|^{"task":"save"}^|^404^|^bearer8901
+usr_131^|^b_009^|^ac_757^|^963741852^|^{"task":"load"}^|^200^|^bearer9012
+usr_132^|^b_010^|^ac_797^|^647381925^|^{"task":"delete"}^|^401^|^bearer0123
