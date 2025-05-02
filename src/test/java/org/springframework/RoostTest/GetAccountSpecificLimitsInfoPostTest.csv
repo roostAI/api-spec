@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^X_Auth_token^|^X_CORRELATION_ID^|^RequestBody^|^statusCode^|^bearer
+user123^|^botABC^|^acc5678^|^authZXC^|^token234^|^10001^|^{"customerId": 2001, "accountNumber": ["12345678"], "cardNumber": ["9876543210"]}^|^200^|^
+user234^|^botDEF^|^acc6789^|^authCVB^|^token345^|^10002^|^{"customerId": 3002, "accountNumber": ["23456789"], "cardNumber": ["9876543219"]}^|^401^|^
+user345^|^botGHI^|^acc7890^|^authBNM^|^token456^|^10003^|^{"customerId": 4003, "accountNumber": ["34567890"], "cardNumber": ["9876543228"]}^|^404^|^
+user456^|^botJKL^|^acc8901^|^authQWE^|^token567^|^10004^|^{"customerId": 5004, "accountNumber": ["45678901"], "cardNumber": ["9876543237"]}^|^200^|^
+user567^|^botMNO^|^acc9012^|^authERT^|^token678^|^10005^|^{"customerId": 6005, "accountNumber": ["56789012"], "cardNumber": ["9876543246"]}^|^401^|^
+user678^|^botPQR^|^acc0123^|^authYUI^|^token789^|^10006^|^{"customerId": 7006, "accountNumber": ["67890123"], "cardNumber": ["9876543255"]}^|^404^|^
+user789^|^botSTU^|^acc1234^|^authUOP^|^token891^|^10007^|^{"customerId": 8007, "accountNumber": ["78901234"], "cardNumber": ["9876543264"]}^|^200^|^
+user890^|^botVWX^|^acc2345^|^authASD^|^token912^|^10008^|^{"customerId": 9008, "accountNumber": ["89012345"], "cardNumber": ["9876543273"]}^|^401^|^
+user901^|^botYZA^|^acc3456^|^authDFG^|^token123^|^10009^|^{"customerId": 10009, "accountNumber": ["90123456"], "cardNumber": ["9876543282"]}^|^404^|^
+user012^|^botBCD^|^acc4567^|^authHJK^|^token234^|^10010^|^{"customerId": 11010, "accountNumber": ["01234567"], "cardNumber": ["9876543291"]}^|^200^|^

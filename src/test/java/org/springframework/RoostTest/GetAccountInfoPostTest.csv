@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^X_Auth_token^|^X_CORRELATION_ID^|^RequestBody^|^statusCode^|^bearer
+usr1^|^bot239^|^acc837^|^auth91e83v^|^token1aa29d^|^12345^|^{"customerId": 1001}^|^200^|^
+usr2^|^bot723^|^acc387^|^auth18j22k^|^token2bb39e^|^23456^|^{"customerId": 1002}^|^401^|^
+usr3^|^bot392^|^acc128^|^auth29k34l^|^token3cc49f^|^34567^|^{"customerId": 1003}^|^404^|^
+usr4^|^bot821^|^acc213^|^auth39m46n^|^token4dd59g^|^45678^|^{"customerId": 1004}^|^200^|^
+usr5^|^bot291^|^acc321^|^auth49o52p^|^token5ee69h^|^56789^|^{"customerId": 1005}^|^401^|^
+usr6^|^bot912^|^acc312^|^auth59p63q^|^token6ff79i^|^67890^|^{"customerId": 1006}^|^401^|^
+usr7^|^bot183^|^acc231^|^auth68r74s^|^token7gg89j^|^78901^|^{"customerId": 1007}^|^200^|^
+usr8^|^bot318^|^acc132^|^auth79s86t^|^token8hh99k^|^89012^|^{"customerId": 1008}^|^404^|^
+usr9^|^bot813^|^acc123^|^auth89t92v^|^token9ii10m^|^90123^|^{"customerId": 1009}^|^200^|^
+usr10^|^bot381^|^acc112^|^auth99u03w^|^token10jj21n^|^10234^|^{"customerId": 1010}^|^404^|^
