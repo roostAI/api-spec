@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+user1^|^botA^|^Acc789^|^Auth_123^|^{"customerId":101, "sourceAccountId":"SA123", "amount":"100", "currency":"USD", "image":{"frontImage":"image1.jpg", "backImage":"image2.jpg"}}^|^200^|^Bearer_123
+user2^|^botB^|^Acc456^|^Auth_456^|^{"customerId":102, "sourceAccountId":"SA456", "amount":"200", "currency":"INR", "image":{"frontImage":"image3.jpg", "backImage":"image4.jpg"}}^|^404^|^Bearer_456
+user3^|^botC^|^Acc123^|^Auth_789^|^{"customerId":103, "sourceAccountId":"SA789", "amount":"300", "currency":"EUR", "image":{"frontImage":"image5.jpg", "backImage":"image6.jpg"}}^|^200^|^Bearer_789
+user4^|^botD^|^Acc321^|^Auth_321^|^{"customerId":104, "sourceAccountId":"SA321", "amount":"400", "currency":"GBP", "image":{"frontImage":"image7.jpg", "backImage":"image8.jpg"}}^|^401^|^Bearer_321
+user5^|^botE^|^Acc654^|^Auth_654^|^{"customerId":105, "sourceAccountId":"SA654", "amount":"500", "currency":"JPY", "image":{"frontImage":"image9.jpg", "backImage":"image10.jpg"}}^|^200^|^Bearer_654
+user6^|^botF^|^Acc987^|^Auth_987^|^{"customerId":106, "sourceAccountId":"SA987", "amount":"600", "currency":"CAD", "image":{"frontImage":"image11.jpg", "backImage":"image12.jpg"}}^|^404^|^Bearer_987
+user7^|^botG^|^Acc741^|^Auth_741^|^{"customerId":107, "sourceAccountId":"SA741", "amount":"700", "currency":"AUD", "image":{"frontImage":"image13.jpg", "backImage":"image14.jpg"}}^|^200^|^Bearer_741
+user8^|^botH^|^Acc852^|^Auth_852^|^{"customerId":108, "sourceAccountId":"SA852", "amount":"800", "currency":"NZD", "image":{"frontImage":"image15.jpg", "backImage":"image16.jpg"}}^|^401^|^Bearer_852
+user9^|^botI^|^Acc963^|^Auth_963^|^{"customerId":109, "sourceAccountId":"SA963", "amount":"900", "currency":"HKD", "image":{"frontImage":"image17.jpg", "backImage":"image18.jpg"}}^|^200^|^Bearer_963
+user10^|^botJ^|^Acc369^|^Auth_369^|^{"customerId":110, "sourceAccountId":"SA369", "amount":"1000", "currency":"SGD", "image":{"frontImage":"image19.jpg", "backImage":"image20.jpg"}}^|^404^|^Bearer_369
