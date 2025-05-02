@@ -1,0 +1,11 @@
+RequestBody^|^statusCode^|^Token
+{"email": "user1@example.com"}^|^201^|^token123
+{"email": "user2@example.com"}^|^201^|^token456
+{"email": "user3@example.com"}^|^400^|^token789
+{"email": "user4@example.com"}^|^401^|^token012
+{"email": "user5@example.com"}^|^201^|^token345
+{"email": "user6@example.com"}^|^400^|^token678
+{"email": "user7@example.com"}^|^401^|^token901
+{"email": "user8@example.com"}^|^201^|^token234
+{"email": "user9@example.com"}^|^400^|^token567
+{"email": "user10@example.com"}^|^401^|^token890
