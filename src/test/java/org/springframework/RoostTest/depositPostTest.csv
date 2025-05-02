@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+user1^|^bot1^|^acc1^|^auth1^|^{"customerId": 123, "sourceAccountId": "src1", "amount": "100", "currency": "USD", "image": {"frontImage": "front1", "backImage": "back1"}}^|^200^|^bearer1
+user2^|^bot2^|^acc2^|^auth2^|^{"customerId": 456, "sourceAccountId": "src2", "amount": "200", "currency": "EUR", "image": {"frontImage": "front2", "backImage": "back2"}}^|^401^|^bearer2
+user3^|^bot3^|^acc3^|^auth3^|^{"customerId": 789, "sourceAccountId": "src3", "amount": "300", "currency": "GBP", "image": {"frontImage": "front3", "backImage": "back3"}}^|^404^|^bearer3
+user4^|^bot4^|^acc4^|^auth4^|^{"customerId": 321, "sourceAccountId": "src4", "amount": "400", "currency": "JPY", "image": {"frontImage": "front4", "backImage": "back4"}}^|^200^|^bearer4
+user5^|^bot5^|^acc5^|^auth5^|^{"customerId": 654, "sourceAccountId": "src5", "amount": "500", "currency": "CAD", "image": {"frontImage": "front5", "backImage": "back5"}}^|^401^|^bearer5
+user6^|^bot6^|^acc6^|^auth6^|^{"customerId": 987, "sourceAccountId": "src6", "amount": "600", "currency": "AUD", "image": {"frontImage": "front6", "backImage": "back6"}}^|^404^|^bearer6
+user7^|^bot7^|^acc7^|^auth7^|^{"customerId": 135, "sourceAccountId": "src7", "amount": "700", "currency": "INR", "image": {"frontImage": "front7", "backImage": "back7"}}^|^200^|^bearer7
+user8^|^bot8^|^acc8^|^auth8^|^{"customerId": 246, "sourceAccountId": "src8", "amount": "800", "currency": "CNY", "image": {"frontImage": "front8", "backImage": "back8"}}^|^401^|^bearer8
+user9^|^bot9^|^acc9^|^auth9^|^{"customerId": 357, "sourceAccountId": "src9", "amount": "900", "currency": "BRL", "image": {"frontImage": "front9", "backImage": "back9"}}^|^404^|^bearer9
+user10^|^bot10^|^acc10^|^auth10^|^{"customerId": 468, "sourceAccountId": "src10", "amount": "1000", "currency": "ZAR", "image": {"frontImage": "front10", "backImage": "back10"}}^|^200^|^bearer10
