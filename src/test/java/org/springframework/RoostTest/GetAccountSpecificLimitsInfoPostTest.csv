@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^X_Auth_token^|^X_CORRELATION_ID^|^RequestBody^|^statusCode^|^bearer
+user1^|^bot001^|^account1^|^auth001^|^token001^|^123456^|^{"customerId": 1001, "accountNumber":["acc001"], "cardNumber":["card001"] }^|^200^|^
+user2^|^bot002^|^account2^|^auth002^|^token002^|^123457^|^{"customerId": 1002, "accountNumber":["acc002"], "cardNumber":["card002"] }^|^401^|^
+user3^|^bot003^|^account3^|^auth003^|^token003^|^123458^|^{"customerId": 1003, "accountNumber":["acc003"], "cardNumber":["card003"] }^|^404^|^
+user4^|^bot004^|^account4^|^auth004^|^token004^|^123459^|^{"customerId": 1004, "accountNumber":["acc004"], "cardNumber":["card004"] }^|^200^|^
+user5^|^bot005^|^account5^|^auth005^|^token005^|^123460^|^{"customerId": 1005, "accountNumber":["acc005"], "cardNumber":["card005"] }^|^401^|^
+user6^|^bot006^|^account6^|^auth006^|^token006^|^123461^|^{"customerId": 1006, "accountNumber":["acc006"], "cardNumber":["card006"] }^|^404^|^
+user7^|^bot007^|^account7^|^auth007^|^token007^|^123462^|^{"customerId": 1007, "accountNumber":["acc007"], "cardNumber":["card007"] }^|^200^|^
+user8^|^bot008^|^account8^|^auth008^|^token008^|^123463^|^{"customerId": 1008, "accountNumber":["acc008"], "cardNumber":["card008"] }^|^401^|^
+user9^|^bot009^|^account9^|^auth009^|^token009^|^123464^|^{"customerId": 1009, "accountNumber":["acc009"], "cardNumber":["card009"] }^|^404^|^
+user10^|^bot010^|^account10^|^auth010^|^token010^|^123465^|^{"customerId": 1010, "accountNumber":["acc010"], "cardNumber":["card010"] }^|^200^|^
