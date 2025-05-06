@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+A01238^|^Bot1234^|^account1^|^AuthToken1^|^{"customerId":34897, "sourceAccountId":"S4871", "amount":"200", "currency":"USD", "image": {"frontImage":"img001.jpg", "backImage":"img002.jpg"}}^|^200^|^BearerToken1
+B02441^|^Bot2345^|^account2^|^AuthToken2^|^{"customerId":23819, "sourceAccountId":"S2381", "amount":"150", "currency":"EUR", "image": {"frontImage":"img003.jpg", "backImage":"img004.jpg"}}^|^200^|^BearerToken2
+C03235^|^Bot3468^|^account3^|^AuthToken3^|^{"customerId":87614, "sourceAccountId":"S1286", "amount":"100", "currency":"GBP", "image": {"frontImage":"img005.jpg", "backImage":"img006.jpg"}}^|^200^|^BearerToken3
+D09433^|^Bot4546^|^account4^|^AuthToken4^|^{"customerId":29487, "sourceAccountId":"S4357", "amount":"250", "currency":"INR", "image": {"frontImage":"img007.jpg", "backImage":"img008.jpg"}}^|^200^|^BearerToken4
+E01523^|^Bot5679^|^account5^|^AuthToken5^|^{"customerId":34652, "sourceAccountId":"S8791", "amount":"350", "currency":"CNY", "image": {"frontImage":"img009.jpg", "backImage":"img010.jpg"}}^|^401^|^BearerToken5
+F01477^|^Bot6712^|^account6^|^AuthToken6^|^{"customerId":14352, "sourceAccountId":"S9872", "amount":"250", "currency":"JPY", "image": {"frontImage":"img011.jpg", "backImage":"img012.jpg"}}^|^401^|^BearerToken6
+G08523^|^Bot7812^|^account7^|^AuthToken7^|^{"customerId":36752, "sourceAccountId":"S0862", "amount":"400", "currency":"AUD", "image": {"frontImage":"img013.jpg", "backImage":"img014.jpg"}}^|^404^|^BearerToken7
+H04781^|^Bot8914^|^account8^|^AuthToken8^|^{"customerId":98472, "sourceAccountId":"S2486", "amount":"350", "currency":"CAD", "image": {"frontImage":"img015.jpg", "backImage":"img016.jpg"}}^|^404^|^BearerToken8
+J01467^|^Bot9125^|^account9^|^AuthToken9^|^{"customerId":87219, "sourceAccountId":"S4861", "amount":"300", "currency":"CHF", "image": {"frontImage":"img017.jpg", "backImage":"img018.jpg"}}^|^200^|^BearerToken9
+K07753^|^Bot0156^|^account10^|^AuthToken10^|^{"customerId":58612, "sourceAccountId":"S7981", "amount":"450", "currency":"SEK", "image": {"frontImage":"img019.jpg", "backImage":"img020.jpg"}}^|^200^|^BearerToken10
