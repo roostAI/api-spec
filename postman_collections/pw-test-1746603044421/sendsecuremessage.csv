@@ -1,0 +1,8 @@
+authType,firstName,lastName,email,phoneNumber,topic,message,availableTime,chatHistory,cif,statusCode,scenario
+OAuth,John,Doe,johndoe@example.com,1234567890,Account,Need help with my account,9am to 5pm,"Hello, I need help",123456,200,success
+Basic,Jane,Doe,janedoe@example.com,0987654321,Billing,Query about my bill,10am to 6pm,"Hi, I have a question about my bill",654321,200,success
+OAuth,Alice,Smith,alicesmith@example.com,1122334455,Technical,Website is not loading,8am to 4pm,"Hey, your website is not working",789012,401,Error: Authorisation failed.
+Basic,Bob,Johnson,bobjohnson@example.com,5566778899,Support,Can't login to my account,11am to 7pm,"I can't login to my account",210987,404,Error: Not Found
+OAuth,Charlie,Brown,charliebrown@example.com,2233445566,Complaint,Service is not satisfactory,12pm to 8pm,"Your service is not good",345678,200,success
+Basic,Emily,Davis,emilydavis@example.com,3344556677,Feedback,Great service,1pm to 9pm,"I am happy with your service",876543,401,Error: Authorisation failed.
+OAuth,Frank,Miller,frankmiller@example.com,4455667788,Enquiry,Want to know more about your product,2pm to 10pm,"Tell me more about your product",543210,404,Error: Not Found

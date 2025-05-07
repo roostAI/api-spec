@@ -1,0 +1,11 @@
+customerId,paymentId,sourceAccountId,amount,scheduledDate,targetAccountId,amountType,untilStop,untilDate,numberOfTransfers,iterate,updateTransferType,statusCode,scenario
+123456,789101,1121314,5000,2022-05-01,1516171,debit,no,2022-12-31,12,yes,automatic,200,Recurring transfer updated successfully
+234567,891011,1213141,6000,2022-06-01,1617181,credit,yes,2023-01-31,24,no,manual,401,Error: Authorisation failed.
+345678,9101112,1314151,7000,2022-07-01,1718191,debit,no,2023-02-28,36,yes,automatic,404,Error: Not Found
+456789,10111213,1415161,8000,2022-08-01,1819201,credit,yes,2023-03-31,48,no,manual,200,Recurring transfer updated successfully
+567890,11121314,1516171,9000,2022-09-01,1920211,debit,no,2023-04-30,60,yes,automatic,401,Error: Authorisation failed.
+678901,12131415,1617181,10000,2022-10-01,2021221,credit,yes,2023-05-31,72,no,manual,404,Error: Not Found
+789012,13141516,1718191,11000,2022-11-01,2122231,debit,no,2023-06-30,84,yes,automatic,200,Recurring transfer updated successfully
+890123,14151617,1819201,12000,2022-12-01,2223241,credit,yes,2023-07-31,96,no,manual,401,Error: Authorisation failed.
+901234,15161718,1920211,13000,2023-01-01,2324251,debit,no,2023-08-31,108,yes,automatic,404,Error: Not Found
+012345,16171819,2021221,14000,2023-02-01,2425261,credit,yes,2023-09-30,120,no,manual,200,Recurring transfer updated successfully

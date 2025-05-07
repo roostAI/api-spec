@@ -1,0 +1,11 @@
+customerId,paymentId,sourceAccountId,amount,scheduledDate,targetAccountId,statusCode,scenario
+12345,PMT123,ACC789,5000,2022-03-01,ACC456,200,Scheduled transfer updated successfully
+67890,PMT456,ACC123,10000,2022-03-02,ACC789,401,Error: Authorisation failed.
+11223,PMT789,ACC456,15000,2022-03-03,ACC123,404,Error: Not Found
+33445,PMT012,ACC234,20000,2022-03-04,ACC567,200,Scheduled transfer updated successfully
+55667,PMT345,ACC678,25000,2022-03-05,ACC901,401,Error: Authorisation failed.
+77889,PMT678,ACC901,30000,2022-03-06,ACC234,404,Error: Not Found
+99001,PMT901,ACC345,35000,2022-03-07,ACC678,200,Scheduled transfer updated successfully
+22334,PMT234,ACC567,40000,2022-03-08,ACC012,401,Error: Authorisation failed.
+44556,PMT567,ACC012,45000,2022-03-09,ACC345,404,Error: Not Found
+66778,PMT890,ACC345,50000,2022-03-10,ACC567,200,Scheduled transfer updated successfully
