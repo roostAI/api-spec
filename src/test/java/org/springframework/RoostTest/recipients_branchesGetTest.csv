@@ -1,0 +1,11 @@
+coc-number^|^coc-branch-number^|^trade-name^|^size^|^offset^|^RequestBody^|^statusCode^|^Token
+12345678^|^123456789012^|^TradeName1^|^20^|^0^|^{"key1":"value1","key2":"value2"}^|^200^|^Token1
+23456789^|^234567890123^|^TradeName2^|^30^|^1^|^{"key1":"value3","key2":"value4"}^|^400^|^Token2
+34567890^|^345678901234^|^TradeName3^|^40^|^2^|^{"key1":"value5","key2":"value6"}^|^401^|^Token3
+45678901^|^456789012345^|^TradeName4^|^10^|^3^|^{"key1":"value7","key2":"value8"}^|^200^|^Token4
+56789012^|^567890123456^|^TradeName5^|^15^|^4^|^{"key1":"value9","key2":"value10"}^|^400^|^Token5
+67890123^|^678901234567^|^TradeName6^|^25^|^5^|^{"key1":"value11","key2":"value12"}^|^401^|^Token6
+78901234^|^789012345678^|^TradeName7^|^35^|^6^|^{"key1":"value13","key2":"value14"}^|^200^|^Token7
+89012345^|^890123456789^|^TradeName8^|^45^|^7^|^{"key1":"value15","key2":"value16"}^|^400^|^Token8
+90123456^|^901234567890^|^TradeName9^|^5^|^8^|^{"key1":"value17","key2":"value18"}^|^401^|^Token9
+01234567^|^012345678901^|^TradeName10^|^50^|^9^|^{"key1":"value19","key2":"value20"}^|^200^|^Token10
