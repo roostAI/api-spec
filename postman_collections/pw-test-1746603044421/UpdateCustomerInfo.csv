@@ -1,0 +1,7 @@
+customerId,email,alternatePhoneNumber,isAlternateMobileNumber,phone,isPrimaryMobileNumber,location,statusCode,scenario
+123,"john@example.com","1234567890",true,"0987654321",false,"New York",200,"successful operation"
+456,"jane@example.com","2345678901",false,"1098765432",true,"Los Angeles",401,"Error: Authorisation failed."
+789,"doe@example.com","3456789012",true,"2109876543",false,"Chicago",404,"Error: Not Found"
+321,"smith@example.com","4567890123",false,"3210987654",true,"San Francisco",200,"successful operation"
+654,"brown@example.com","5678901234",true,"4321098765",false,"Boston",401,"Error: Authorisation failed."
+987,"clark@example.com","6789012345",false,"5432109876",true,"Seattle",404,"Error: Not Found"

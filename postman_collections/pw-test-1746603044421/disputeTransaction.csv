@@ -1,0 +1,10 @@
+customerId,transactionsData,emailId,statusCode,scenario
+123456,"{\n  \"err\": {\n    \"message\": \"exercitation adipisicing proident nisi eu\"\n  }\n}","john@example.com",200,"Dispute Transactions reported successfully"
+789012,"{\n  \"err\": {\n    \"message\": \"exercitation adipisicing proident nisi eu\"\n  }\n}","jane@example.com",401,"Error: Authorisation failed."
+345678,"{\n  \"err\": {\n    \"message\": \"exercitation adipisicing proident nisi eu\"\n  }\n}","doe@example.com",404,"Error: Not Found"
+901234,"{\n  \"err\": {\n    \"message\": \"exercitation adipisicing proident nisi eu\"\n  }\n}","smith@example.com",200,"Dispute Transactions reported successfully"
+567890,"{\n  \"err\": {\n    \"message\": \"exercitation adipisicing proident nisi eu\"\n  }\n}","brown@example.com",401,"Error: Authorisation failed."
+234567,"{\n  \"err\": {\n    \"message\": \"exercitation adipisicing proident nisi eu\"\n  }\n}","taylor@example.com",404,"Error: Not Found"
+890123,"{\n  \"err\": {\n    \"message\": \"exercitation adipisicing proident nisi eu\"\n  }\n}","clark@example.com",200,"Dispute Transactions reported successfully"
+678901,"{\n  \"err\": {\n    \"message\": \"exercitation adipisicing proident nisi eu\"\n  }\n}","jones@example.com",401,"Error: Authorisation failed."
+123890,"{\n  \"err\": {\n    \"message\": \"exercitation adipisicing proident nisi eu\"\n  }\n}","miller@example.com",404,"Error: Not Found"

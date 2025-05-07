@@ -1,0 +1,7 @@
+customerId,status,statusCode,scenario
+15044678,"tempor do nisi",200,"schedule transfer list response"
+-76170481,"ullamco",200,"schedule transfer list response"
+12345678,"Error",401,"Error: Authorisation failed."
+87654321,"Error",401,"Error: Authorisation failed."
+11223344,"Error",404,"Error: Not Found"
+44332211,"Error",404,"Error: Not Found"

@@ -1,0 +1,7 @@
+amount,currency,customerId,date,sourceAccountId,targetAccountId,description,TransactionType,PaymentType,statusCode,scenario
+1000,"USD","C123","2022-01-01","A123","B123","Payment for services","Debit","Online",200,"Transaction success"
+1500,"EUR","C456","2022-01-02","A456","B456","Payment for goods","Credit","Offline",401,"Error: Authorisation failed."
+2000,"GBP","C789","2022-01-03","A789","B789","Payment for subscription","Debit","Online",404,"Error: Not Found"
+2500,"JPY","C321","2022-01-04","A321","B321","Payment for membership","Credit","Offline",200,"Transaction success"
+3000,"CAD","C654","2022-01-05","A654","B654","Payment for donation","Debit","Online",401,"Error: Authorisation failed."
+3500,"AUD","C987","2022-01-06","A987","B987","Payment for purchase","Credit","Offline",404,"Error: Not Found"

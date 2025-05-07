@@ -1,0 +1,7 @@
+accountName,accountNumber,customerId,cardNumber,description,requestSubType,requestType,serviceType,statusCode,scenario
+John Doe,123456789,CUST001,987654321,"exercitation adipisicing proident nisi eu",POST,CREATE,BANKING,200,success
+Jane Smith,234567890,CUST002,876543210,"exercitation adipisicing proident nisi eu",GET,READ,BANKING,200,success
+Robert Johnson,345678901,CUST003,765432109,"exercitation adipisicing proident nisi eu",PUT,UPDATE,BANKING,401,"Error: Authorisation failed."
+Emily Davis,456789012,CUST004,654321098,"exercitation adipisicing proident nisi eu",DELETE,DELETE,BANKING,401,"Error: Authorisation failed."
+William Brown,567890123,CUST005,543210987,"exercitation adipisicing proident nisi eu",POST,CREATE,BANKING,404,"Error: Not Found"
+Elizabeth Taylor,678901234,CUST006,432109876,"exercitation adipisicing proident nisi eu",GET,READ,BANKING,404,"Error: Not Found"
