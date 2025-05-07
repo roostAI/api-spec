@@ -1,0 +1,11 @@
+field1^|^field2^|^statusCode^|^scenario
+John^|^Doe^|^200^|^OK
+Jane^|^Doe^|^200^|^OK
+Alice^|^Johnson^|^200^|^OK
+Bob^|^Smith^|^200^|^OK
+Charlie^|^Brown^|^200^|^OK
+David^|^Williams^|^200^|^OK
+Eve^|^Jones^|^200^|^OK
+Frank^|^Davis^|^200^|^OK
+Grace^|^Miller^|^200^|^OK
+Helen^|^Wilson^|^200^|^OK
