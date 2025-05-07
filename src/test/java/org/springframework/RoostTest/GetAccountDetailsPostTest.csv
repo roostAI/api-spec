@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^X_Auth_token^|^X_CORRELATION_ID^|^RequestBody^|^statusCode^|^bearer
+User1^|^Bot1^|^Acc1^|^Auth1^|^Token1^|^123456^|^{"customerId": 78910, "accountInfo": [{"accountType": "Savings", "accountNumber": "SA12345", "cardNumber": "cardNum1"}]}^|^200^|^BearerToken1
+User2^|^Bot2^|^Acc2^|^Auth2^|^Token2^|^223456^|^{"customerId": 78911, "accountInfo": [{"accountType": "Checking", "accountNumber": "CA12345", "cardNumber": "cardNum2"}]}^|^401^|^BearerToken2
+User3^|^Bot3^|^Acc3^|^Auth3^|^Token3^|^323456^|^{"customerId": 78912, "accountInfo": [{"accountType": "Savings", "accountNumber": "SA22345", "cardNumber": "cardNum3"}]}^|^404^|^BearerToken3
+User4^|^Bot4^|^Acc4^|^Auth4^|^Token4^|^423456^|^{"customerId": 78913, "accountInfo": [{"accountType": "Checking", "accountNumber": "CA22345", "cardNumber": "cardNum4"}]}^|^200^|^BearerToken4
+User5^|^Bot5^|^Acc5^|^Auth5^|^Token5^|^523456^|^{"customerId": 78914, "accountInfo": [{"accountType": "Savings", "accountNumber": "SA32345", "cardNumber": "cardNum5"}]}^|^200^|^BearerToken5
+User6^|^Bot6^|^Acc6^|^Auth6^|^Token6^|^623456^|^{"customerId": 78915, "accountInfo": [{"accountType": "Checking", "accountNumber": "CA32345", "cardNumber": "cardNum6"}]}^|^401^|^BearerToken6
+User7^|^Bot7^|^Acc7^|^Auth7^|^Token7^|^723456^|^{"customerId": 78916, "accountInfo": [{"accountType": "Savings", "accountNumber": "SA42345", "cardNumber": "cardNum7"}]}^|^404^|^BearerToken7
+User8^|^Bot8^|^Acc8^|^Auth8^|^Token8^|^823456^|^{"customerId": 78917, "accountInfo": [{"accountType": "Checking", "accountNumber": "CA42345", "cardNumber": "cardNum8"}]}^|^200^|^BearerToken8
+User9^|^Bot9^|^Acc9^|^Auth9^|^Token9^|^923456^|^{"customerId": 78918, "accountInfo": [{"accountType": "Savings", "accountNumber": "SA52345", "cardNumber": "cardNum9"}]}^|^401^|^BearerToken9
+User10^|^Bot10^|^Acc10^|^Auth10^|^Token10^|^1023456^|^{"customerId": 78919, "accountInfo": [{"accountType": "Checking", "accountNumber": "CA52345", "cardNumber": "cardNum10"}]}^|^200^|^BearerToken10
