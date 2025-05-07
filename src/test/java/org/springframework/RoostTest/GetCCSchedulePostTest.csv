@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+user1^|^bot1^|^account1^|^auth1^|^{"customerId": 123, "status": "active"}^|^200^|^bearer1
+user2^|^bot2^|^account2^|^auth2^|^{"customerId": 456, "status": "inactive"}^|^401^|^bearer2
+user3^|^bot3^|^account3^|^auth3^|^{"customerId": 789, "status": "active"}^|^404^|^bearer3
+user4^|^bot4^|^account4^|^auth4^|^{"customerId": 321, "status": "inactive"}^|^200^|^bearer4
+user5^|^bot5^|^account5^|^auth5^|^{"customerId": 654, "status": "active"}^|^401^|^bearer5
+user6^|^bot6^|^account6^|^auth6^|^{"customerId": 987, "status": "inactive"}^|^404^|^bearer6
+user7^|^bot7^|^account7^|^auth7^|^{"customerId": 135, "status": "active"}^|^200^|^bearer7
+user8^|^bot8^|^account8^|^auth8^|^{"customerId": 246, "status": "inactive"}^|^401^|^bearer8
+user9^|^bot9^|^account9^|^auth9^|^{"customerId": 357, "status": "active"}^|^404^|^bearer9
+user10^|^bot10^|^account10^|^auth10^|^{"customerId": 468, "status": "inactive"}^|^200^|^bearer10
