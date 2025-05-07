@@ -1,0 +1,10 @@
+customerId,sourceAccountId,amount,currency,frontImage,backImage,statusCode,scenario
+123456,7891011,500,USD,"https://example.com/front.jpg","https://example.com/back.jpg",200,"Deposit success"
+234567,89101112,1000,EUR,"https://example.com/front2.jpg","https://example.com/back2.jpg",401,"Error: Authorisation failed."
+345678,910111213,1500,GBP,"https://example.com/front3.jpg","https://example.com/back3.jpg",404,"Error: Not Found"
+456789,1011121314,2000,JPY,"https://example.com/front4.jpg","https://example.com/back4.jpg",200,"Deposit success"
+567890,1112131415,2500,AUD,"https://example.com/front5.jpg","https://example.com/back5.jpg",401,"Error: Authorisation failed."
+678901,1213141516,3000,CAD,"https://example.com/front6.jpg","https://example.com/back6.jpg",404,"Error: Not Found"
+789012,1314151617,3500,CHF,"https://example.com/front7.jpg","https://example.com/back7.jpg",200,"Deposit success"
+890123,1415161718,4000,CNY,"https://example.com/front8.jpg","https://example.com/back8.jpg",401,"Error: Authorisation failed."
+901234,1516171819,4500,INR,"https://example.com/front9.jpg","https://example.com/back9.jpg",404,"Error: Not Found"

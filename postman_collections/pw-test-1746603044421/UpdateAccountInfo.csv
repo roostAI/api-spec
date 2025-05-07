@@ -1,0 +1,7 @@
+accountNumber,customerId,email,alternatePhoneNumber,isAlternateMobileNumber,phone,isPrimaryMobileNumber,location,isStatement,statusCode,scenario
+123456789,CUST001,"cust001@example.com","1234567890",true,"0987654321",true,"New York",true,200,"successful operation"
+987654321,CUST002,"cust002@example.com","0987654321",false,"1234567890",true,"Los Angeles",false,401,"Error: Authorisation failed."
+567890123,CUST003,"cust003@example.com","5678901234",true,"4321098765",false,"Chicago",true,404,"Error: Not Found"
+345678901,CUST004,"cust004@example.com","3456789012",false,"2109876543",true,"Houston",false,200,"successful operation"
+789012345,CUST005,"cust005@example.com","7890123456",true,"6543210987",false,"Phoenix",true,401,"Error: Authorisation failed."
+901234567,CUST006,"cust006@example.com","9012345678",false,"8765432109",true,"Philadelphia",false,404,"Error: Not Found"

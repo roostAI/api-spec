@@ -1,0 +1,10 @@
+amount,currency,customerId,dueDate,sourceAccountId,targetAccountId,transactionType,statusCode,scenario
+1000,"USD","CUST1234","2022-12-31","ACC5678","ACC8765","Credit Card Payment",200,"Credit Card payment scheduled successfully"
+2000,"EUR","CUST5678","2023-01-31","ACC1234","ACC4321","Credit Card Payment",401,"Error: Authorisation failed."
+3000,"GBP","CUST9012","2023-02-28","ACC7890","ACC0987","Credit Card Payment",404,"Error: Not Found"
+4000,"JPY","CUST3456","2023-03-31","ACC2345","ACC5432","Credit Card Payment",200,"Credit Card payment scheduled successfully"
+5000,"AUD","CUST7890","2023-04-30","ACC3456","ACC6543","Credit Card Payment",401,"Error: Authorisation failed."
+6000,"CAD","CUST1234","2023-05-31","ACC4567","ACC7654","Credit Card Payment",404,"Error: Not Found"
+7000,"CHF","CUST5678","2023-06-30","ACC5678","ACC8765","Credit Card Payment",200,"Credit Card payment scheduled successfully"
+8000,"NZD","CUST9012","2023-07-31","ACC6789","ACC9876","Credit Card Payment",401,"Error: Authorisation failed."
+9000,"SGD","CUST3456","2023-08-31","ACC7890","ACC0987","Credit Card Payment",404,"Error: Not Found"

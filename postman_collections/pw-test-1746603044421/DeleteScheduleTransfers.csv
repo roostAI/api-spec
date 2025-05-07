@@ -1,0 +1,11 @@
+customerId,paymentId,updateTransferType,sourceAccountId,statusCode,scenario
+123456,pay789,Immediate,acc456,200,Scheduled transfer deleted successfully
+789012,pay345,Scheduled,acc123,401,Error: Authorisation failed.
+345678,pay012,Immediate,acc789,404,Error: Not Found
+901234,pay678,Scheduled,acc012,200,Scheduled transfer deleted successfully
+567890,pay901,Immediate,acc345,401,Error: Authorisation failed.
+234567,pay234,Scheduled,acc678,404,Error: Not Found
+890123,pay567,Immediate,acc901,200,Scheduled transfer deleted successfully
+678901,pay890,Scheduled,acc234,401,Error: Authorisation failed.
+456789,pay456,Immediate,acc567,404,Error: Not Found
+012345,pay123,Scheduled,acc890,200,Scheduled transfer deleted successfully
