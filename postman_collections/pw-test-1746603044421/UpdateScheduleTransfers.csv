@@ -1,0 +1,11 @@
+customerId,paymentId,sourceAccountId,amount,scheduledDate,targetAccountId,statusCode,scenario
+12345,67890,11111,500,2022-03-01,22222,200,Scheduled transfer updated successfully
+54321,09876,33333,1000,2022-03-02,44444,401,Error: Authorisation failed.
+23456,78901,55555,2000,2022-03-03,66666,404,Error: Not Found
+65432,10987,77777,3000,2022-03-04,88888,200,Scheduled transfer updated successfully
+34567,89012,99999,4000,2022-03-05,00000,401,Error: Authorisation failed.
+76543,21098,12121,5000,2022-03-06,23232,404,Error: Not Found
+45678,90123,34343,6000,2022-03-07,45454,200,Scheduled transfer updated successfully
+87654,32109,56565,7000,2022-03-08,67676,401,Error: Authorisation failed.
+56789,01234,78787,8000,2022-03-09,89898,404,Error: Not Found
+98765,43210,90909,9000,2022-03-10,01010,200,Scheduled transfer updated successfully

@@ -1,0 +1,10 @@
+customerId,dob,ssn,secrectPassword,AccNumber,lastDepositAmt,statusCode,scenario
+123456,1990-01-01,123-45-6789,"password123!",987654321,5000,200,"Validated Successfully"
+234567,1980-02-02,234-56-7890,"password234!",876543210,4000,401,"Error: Authorisation failed."
+345678,1970-03-03,345-67-8901,"password345!",765432109,3000,404,"Error: Not Found"
+456789,1960-04-04,456-78-9012,"password456!",654321098,2000,200,"Validated Successfully"
+567890,1950-05-05,567-89-0123,"password567!",543210987,1000,401,"Error: Authorisation failed."
+678901,1940-06-06,678-90-1234,"password678!",432109876,6000,404,"Error: Not Found"
+789012,1930-07-07,789-01-2345,"password789!",321098765,7000,200,"Validated Successfully"
+890123,1920-08-08,890-12-3456,"password890!",210987654,8000,401,"Error: Authorisation failed."
+901234,1910-09-09,901-23-4567,"password901!",109876543,9000,404,"Error: Not Found"

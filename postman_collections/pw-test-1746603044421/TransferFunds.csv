@@ -1,0 +1,7 @@
+amount,currency,customerId,date,sourceAccountId,targetAccountId,description,TransactionType,PaymentType,statusCode,scenario
+100,USD,12345,2022-01-01,111,222,"Payment for services",Debit,Online,200,Transaction success
+200,EUR,67890,2022-01-02,333,444,"Payment for goods",Credit,Offline,200,Transaction success
+300,GBP,13579,2022-01-03,555,666,"Payment for subscription",Debit,Online,401,Error: Authorisation failed.
+400,JPY,24680,2022-01-04,777,888,"Payment for membership",Credit,Offline,401,Error: Authorisation failed.
+500,AUD,11223,2022-01-05,999,1010,"Payment for donation",Debit,Online,404,Error: Not Found
+600,CAD,44556,2022-01-06,1212,1313,"Payment for invoice",Credit,Offline,404,Error: Not Found

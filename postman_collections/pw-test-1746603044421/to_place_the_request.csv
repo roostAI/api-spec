@@ -1,0 +1,11 @@
+accountName,accountNumber,customerId,cardNumber,description,requestSubType,requestType,serviceType,statusCode,scenario
+John Doe,123456789,CUST1234,987654321,"Transaction Successful",POST,Transaction,Banking,200,success
+Jane Smith,234567891,CUST2345,876543219,"Transaction Failed: Authorisation failed",GET,Balance Check,Banking,401,"Error: Authorisation failed."
+David Johnson,345678912,CUST3456,765432198,"Transaction Failed: Not Found",PUT,Update Details,Banking,404,"Error: Not Found"
+Emma Brown,456789123,CUST4567,654321987,"Transaction Successful",DELETE,Close Account,Banking,200,success
+Oliver Wilson,567891234,CUST5678,543219876,"Transaction Failed: Authorisation failed",POST,Transaction,Banking,401,"Error: Authorisation failed."
+Sophia Taylor,678912345,CUST6789,432198765,"Transaction Failed: Not Found",GET,Balance Check,Banking,404,"Error: Not Found"
+Liam Thomas,789123456,CUST7891,321987654,"Transaction Successful",PUT,Update Details,Banking,200,success
+Ava Jackson,891234567,CUST8912,219876543,"Transaction Failed: Authorisation failed",DELETE,Close Account,Banking,401,"Error: Authorisation failed."
+Noah Johnson,912345678,CUST9123,198765432,"Transaction Failed: Not Found",POST,Transaction,Banking,404,"Error: Not Found"
+Mia Williams,123456789,CUST1234,987654321,"Transaction Successful",GET,Balance Check,Banking,200,success

@@ -1,0 +1,11 @@
+customerId,status,statusCode,scenario
+123456,"active",200,"schedule transfer list response"
+789012,"inactive",401,"Error: Authorisation failed."
+345678,"active",404,"Error: Not Found"
+901234,"inactive",200,"schedule transfer list response"
+567890,"active",401,"Error: Authorisation failed."
+234567,"inactive",404,"Error: Not Found"
+890123,"active",200,"schedule transfer list response"
+678901,"inactive",401,"Error: Authorisation failed."
+456789,"active",404,"Error: Not Found"
+012345,"inactive",200,"schedule transfer list response"

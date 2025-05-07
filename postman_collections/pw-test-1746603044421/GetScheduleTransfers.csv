@@ -1,0 +1,7 @@
+customerId,status,statusCode,scenario
+"culpa irure aliqu","proident pa",200,"schedule transfer list response"
+"cillum labore in enim dolor","exercitation eu aute nulla Duis",200,"schedule transfer list response"
+"randomValue1","randomValue2",401,"Error: Authorisation failed."
+"randomValue3","randomValue4",401,"Error: Authorisation failed."
+"randomValue5","randomValue6",404,"Error: Not Found"
+"randomValue7","randomValue8",404,"Error: Not Found"

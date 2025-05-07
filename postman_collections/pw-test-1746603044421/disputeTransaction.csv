@@ -1,0 +1,7 @@
+customerId,transactionsData,emailId,statusCode,scenario
+123456,"{\n  \"err\": {\n    \"message\": \"reprehenderit\"\n  }\n}","john@example.com",200,"Dispute Transactions reported successfully"
+789012,"{\n  \"err\": {\n    \"message\": \"reprehenderit\"\n  }\n}","jane@example.com",200,"Dispute Transactions reported successfully"
+345678,"{\n  \"err\": {\n    \"message\": \"random_error\"\n  }\n}","mark@example.com",401,"Error: Authorisation failed."
+901234,"{\n  \"err\": {\n    \"message\": \"random_error\"\n  }\n}","lisa@example.com",401,"Error: Authorisation failed."
+567890,"{\n  \"err\": {\n    \"message\": \"random_error\"\n  }\n}","mike@example.com",404,"Error: Not Found"
+234567,"{\n  \"err\": {\n    \"message\": \"random_error\"\n  }\n}","lucy@example.com",404,"Error: Not Found"

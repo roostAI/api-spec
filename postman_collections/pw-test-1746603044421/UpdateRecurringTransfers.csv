@@ -1,0 +1,11 @@
+customerId,paymentId,sourceAccountId,amount,scheduledDate,targetAccountId,amountType,untilStop,untilDate,numberOfTransfers,iterate,updateTransferType,statusCode,scenario
+123,456,789,1000,2022-01-01,321,debit,no,2022-12-31,10,yes,manual,200,"Recurring transfer updated successfully"
+234,567,890,2000,2022-02-01,432,credit,yes,2023-01-31,20,no,automatic,401,"Error: Authorisation failed."
+345,678,901,3000,2022-03-01,543,debit,no,2023-02-28,30,yes,manual,404,"Error: Not Found"
+456,789,012,4000,2022-04-01,654,credit,yes,2023-03-31,40,no,automatic,200,"Recurring transfer updated successfully"
+567,890,123,5000,2022-05-01,765,debit,no,2023-04-30,50,yes,manual,401,"Error: Authorisation failed."
+678,901,234,6000,2022-06-01,876,credit,yes,2023-05-31,60,no,automatic,404,"Error: Not Found"
+789,012,345,7000,2022-07-01,987,debit,no,2023-06-30,70,yes,manual,200,"Recurring transfer updated successfully"
+890,123,456,8000,2022-08-01,098,credit,yes,2023-07-31,80,no,automatic,401,"Error: Authorisation failed."
+901,234,567,9000,2022-09-01,109,debit,no,2023-08-31,90,yes,manual,404,"Error: Not Found"
+012,345,678,10000,2022-10-01,210,credit,yes,2023-09-30,100,no,automatic,200,"Recurring transfer updated successfully"

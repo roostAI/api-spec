@@ -1,0 +1,11 @@
+customerId,email,secondaryEmail,subscribe,statusCode,scenario
+12345,"john.doe@example.com","j.doe@example.com",true,200,"success"
+67890,"jane.doe@example.com","jane.d@example.com",false,401,"Error: Authorisation failed."
+11223,"robert.smith@example.com","r.smith@example.com",true,404,"Error: Not Found"
+44556,"mary.johnson@example.com","m.johnson@example.com",false,200,"success"
+77889,"james.williams@example.com","j.williams@example.com",true,401,"Error: Authorisation failed."
+99000,"linda.brown@example.com","l.brown@example.com",false,404,"Error: Not Found"
+33112,"michael.jones@example.com","m.jones@example.com",true,200,"success"
+55223,"elizabeth.miller@example.com","e.miller@example.com",false,401,"Error: Authorisation failed."
+77445,"william.davis@example.com","w.davis@example.com",true,404,"Error: Not Found"
+99887,"jennifer.wilson@example.com","j.wilson@example.com",false,200,"success"
