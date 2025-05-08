@@ -1,0 +1,11 @@
+searchString^|^RequestBody^|^statusCode
+google^|^{"query":"google search","type":"web"}^|^200
+yahoo^|^{"query":"yahoo search","type":"web"}^|^200
+bing^|^{"query":"bing search","type":"web"}^|^200
+duckduckgo^|^{"query":"duckduckgo search","type":"web"}^|^200
+ask^|^{"query":"ask search","type":"web"}^|^400
+aol^|^{"query":"aol search","type":"web"}^|^400
+baidu^|^{"query":"baidu search","type":"web"}^|^200
+wolframalpha^|^{"query":"wolframalpha search","type":"web"}^|^200
+yandex^|^{"query":"yandex search","type":"web"}^|^200
+swisscows^|^{"query":"swisscows search","type":"web"}^|^400
