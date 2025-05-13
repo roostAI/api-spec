@@ -1,0 +1,13 @@
+customerId,statusCode,scenario
+-97312038.3315877,200,"successful operation"
+-6607856.454704568,401,"Error: Authorisation failed."
+"random_value",404,"Error: Not Found"
+"random_value",200,"successful operation"
+"random_value",401,"Error: Authorisation failed."
+"random_value",404,"Error: Not Found"
+-97312038.3315877,200,"successful operation"
+-6607856.454704568,401,"Error: Authorisation failed."
+"random_value",404,"Error: Not Found"
+"random_value",200,"successful operation"
+"random_value",401,"Error: Authorisation failed."
+"random_value",404,"Error: Not Found"
