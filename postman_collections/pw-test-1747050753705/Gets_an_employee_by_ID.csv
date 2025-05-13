@@ -1,0 +1,11 @@
+id,statusCode,scenario
+1,200,Successful operation
+2,404,Not found
+3,200,Successful operation
+4,404,Not found
+5,200,Successful operation
+6,404,Not found
+7,200,Successful operation
+8,404,Not found
+9,200,Successful operation
+10,404,Not found
