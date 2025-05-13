@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+Usr123^|^Bot456^|^Act789^|^AuthBSC234^|^{"action":"login","username":"user1","password":"password1"}^|^200^|^Bear123abc
+Usr456^|^Bot789^|^Act123^|^AuthDEF567^|^{"action":"logout","username":"user2"}^|^200^|^Bear456def
+Usr789^|^Bot123^|^Act456^|^AuthGHI890^|^{"action":"withdraw","amount":500,"currency":"USD"}^|^200^|^Bear789ghi
+Usr147^|^Bot258^|^Act369^|^AuthJKL012^|^{"action":"deposit","amount":1000,"currency":"USD"}^|^401^|^Bear147jkl
+Usr258^|^Bot369^|^Act147^|^AuthMNO345^|^{"action":"transfer","amount":500,"currency":"USD","recipient":"user3"}^|^404^|^Bear258mno
+Usr369^|^Bot147^|^Act258^|^AuthPQR678^|^{"action":"payment","amount":50,"payment_method":"credit card","recipient":"merchant1"}^|^401^|^Bear369pqr
+Usr012^|^Bot345^|^Act678^|^AuthSTU901^|^{"action":"registration","username":"user4","password":"password4","email":"user4@example.com"}^|^200^|^Bear012stu
+Usr345^|^Bot678^|^Act901^|^AuthVWX234^|^{"action":"login","username":"user5","password":"password5"}^|^200^|^Bear345vwx
+Usr678^|^Bot901^|^Act234^|^AuthYZA567^|^{"action":"logout","username":"user6"}^|^200^|^Bear678yza
+Usr901^|^Bot234^|^Act567^|^AuthBCD890^|^{"action":"withdraw","amount":1000,"currency":"USD"}^|^401^|^Bear901bcd
