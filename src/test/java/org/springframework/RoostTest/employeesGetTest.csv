@@ -1,0 +1,11 @@
+searchString^|^RequestBody^|^statusCode
+search1^|^{"key1":"value1","key2":"value2"}^|^200
+search2^|^{"key1":"value3","key2":"value4"}^|^400
+search3^|^{"key1":"value5","key2":"value6"}^|^200
+search4^|^{"key1":"value7","key2":"value8"}^|^400
+search5^|^{"key1":"value9","key2":"value10"}^|^200
+search6^|^{"key1":"value11","key2":"value12"}^|^400
+search7^|^{"key1":"value13","key2":"value14"}^|^200
+search8^|^{"key1":"value15","key2":"value16"}^|^400
+search9^|^{"key1":"value17","key2":"value18"}^|^200
+search10^|^{"key1":"value19","key2":"value20"}^|^400
