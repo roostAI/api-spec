@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^X_Auth_token^|^X_CORRELATION_ID^|^RequestBody^|^statusCode^|^bearer
+USR001^|^BOT001^|^ACC001^|^Auth001@api.com^|^XAT123^|^3312^|^{"customerId": 101, "accountNumber":["ACC001"], "cardNumber":["CARD001"]}^|^200^|^
+USR002^|^BOT002^|^ACC002^|^Auth002@api.com^|^XAT234^|^3477^|^{"customerId": 102, "accountNumber":["ACC002"], "cardNumber":["CARD002"]}^|^401^|^
+USR003^|^BOT003^|^ACC003^|^Auth003@api.com^|^XAT345^|^3642^|^{"customerId": 103, "accountNumber":["ACC003"], "cardNumber":["CARD003"]}^|^404^|^
+USR004^|^BOT004^|^ACC004^|^Auth004@api.com^|^XAT456^|^3955^|^{"customerId": 104, "accountNumber":["ACC004"], "cardNumber":["CARD004"]}^|^200^|^
+USR005^|^BOT005^|^ACC005^|^Auth005@api.com^|^XAT567^|^4146^|^{"customerId": 105, "accountNumber":["ACC005"], "cardNumber":["CARD005"]}^|^401^|^
+USR006^|^BOT006^|^ACC006^|^Auth006@api.com^|^XAT678^|^4349^|^{"customerId": 106, "accountNumber":["ACC006"], "cardNumber":["CARD006"]}^|^404^|^
+USR007^|^BOT007^|^ACC007^|^Auth007@api.com^|^XAT789^|^4580^|^{"customerId": 107, "accountNumber":["ACC007"], "cardNumber":["CARD007"]}^|^200^|^
+USR008^|^BOT008^|^ACC008^|^Auth008@api.com^|^XAT890^|^4837^|^{"customerId": 108, "accountNumber":["ACC008"], "cardNumber":["CARD008"]}^|^401^|^
+USR009^|^BOT009^|^ACC009^|^Auth009@api.com^|^XAT901^|^5050^|^{"customerId": 109, "accountNumber":["ACC009"], "cardNumber":["CARD009"]}^|^404^|^
+USR010^|^BOT010^|^ACC010^|^Auth010@api.com^|^XAT012^|^5236^|^{"customerId": 110, "accountNumber":["ACC010"], "cardNumber":["CARD010"]}^|^200^|^

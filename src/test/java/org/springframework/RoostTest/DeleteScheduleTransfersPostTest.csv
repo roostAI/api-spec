@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^userCode^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+123Id^|^bot_124^|^usr_200^|^Acc_23^|^AUT-H12^|^{"paymentId": "pay_150", "updateTransferType": "cash", "customerId": 123, "sourceAccountId": "src-500"}^|^200^|^Bearer_01
+124Id^|^bot_125^|^usr_201^|^Acc_24^|^AUT-H13^|^{"paymentId": "pay_151", "updateTransferType": "credit", "customerId": 124, "sourceAccountId": "src-501"}^|^401^|^Bearer_02
+125Id^|^bot_126^|^usr_202^|^Acc_25^|^AUT-H14^|^{"paymentId": "pay_152", "updateTransferType": "transfer", "customerId": 125, "sourceAccountId": "src-502"}^|^404^|^Bearer_03
+126Id^|^bot_127^|^usr_203^|^Acc_26^|^AUT-H15^|^{"paymentId": "pay_153", "updateTransferType": "direct", "customerId": 126, "sourceAccountId": "src-503"}^|^200^|^Bearer_04
+127Id^|^bot_128^|^usr_204^|^Acc_27^|^AUT-H16^|^{"paymentId": "pay_154", "updateTransferType": "debit", "customerId": 127, "sourceAccountId": "src-504"}^|^401^|^Bearer_05
+128Id^|^bot_129^|^usr_205^|^Acc_28^|^AUT-H17^|^{"paymentId": "pay_155", "updateTransferType": "credit", "customerId": 128, "sourceAccountId": "src-505"}^|^404^|^Bearer_06
+129Id^|^bot_130^|^usr_206^|^Acc_29^|^AUT-H18^|^{"paymentId": "pay_156", "updateTransferType": "cash", "customerId": 129, "sourceAccountId": "src-506"}^|^200^|^Bearer_07
+130Id^|^bot_131^|^usr_207^|^Acc_30^|^AUT-H19^|^{"paymentId": "pay_157", "updateTransferType": "debit", "customerId": 130, "sourceAccountId": "src-507"}^|^401^|^Bearer_08
+131Id^|^bot_132^|^usr_208^|^Acc_31^|^AUT-H20^|^{"paymentId": "pay_158", "updateTransferType": "transfer", "customerId": 131, "sourceAccountId": "src-508"}^|^404^|^Bearer_09
+132Id^|^bot_133^|^usr_209^|^Acc_32^|^AUT-H21^|^{"paymentId": "pay_159", "updateTransferType": "direct", "customerId": 132, "sourceAccountId": "src-509"}^|^200^|^Bearer_10
