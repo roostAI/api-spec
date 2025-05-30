@@ -1,0 +1,4 @@
+customerId,accountInfo,statusCode,scenario
+90740687.090309,"dolor elit mollit, esse in, incididunt, esse in dolor ut et, mollit ut pro, 40299063.34119162, -31497458.597961575, -55570342.78460824, -66835531.30175133, commodo nostrud occaecat amet dolore, labore officia aliquip, sit, commodo, enim qui, irure occaecat nisi, 63792977.55360639, ipsum enim, 66597662.909436435, labore adipisicing pariatur, 53602100.75622794, ut adipisicing ullamco in, -66043950.66670139, exercitation anim ex consectetur, aliqua Excepteur",200,successful operation
+12345678.123456,"random account info",401,Error: Authorisation failed.
+87654321.876543,"random account info",404,Error: Not Found

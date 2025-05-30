@@ -1,0 +1,13 @@
+customerId,statusCode,scenario
+-35738336.37012211,200,"successful operation"
+12345678,401,"Error: Authorisation failed."
+98765432,404,"Error: Not Found"
+-24204792.421733186,200,"successful operation"
+23456789,401,"Error: Authorisation failed."
+87654321,404,"Error: Not Found"
+51472343.269225985,200,"successful operation"
+34567890,401,"Error: Authorisation failed."
+76543210,404,"Error: Not Found"
+78929273.07152301,200,"successful operation"
+45678901,401,"Error: Authorisation failed."
+65432109,404,"Error: Not Found"
