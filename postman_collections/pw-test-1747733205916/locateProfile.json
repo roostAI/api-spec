@@ -1,0 +1,50 @@
+[
+  {
+    "accountNumber": "1042345",
+    "customerId": "1045300",
+    "ssNumber": "SSN12345",
+    "ssnShort": "SSN123",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountNumber": "1042346",
+    "customerId": "1045301",
+    "ssNumber": "SSN12346",
+    "ssnShort": "SSN124",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountNumber": "XYZ123",
+    "customerId": "ABC123",
+    "ssNumber": "SSN7890",
+    "ssnShort": "SSN789",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountNumber": "XYZ124",
+    "customerId": "ABC124",
+    "ssNumber": "SSN7891",
+    "ssnShort": "SSN790",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountNumber": "LMN123",
+    "customerId": "PQR123",
+    "ssNumber": "SSN4560",
+    "ssnShort": "SSN456",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "accountNumber": "LMN124",
+    "customerId": "PQR124",
+    "ssNumber": "SSN4561",
+    "ssnShort": "SSN457",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

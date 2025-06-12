@@ -1,0 +1,42 @@
+[
+  {
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "secondaryEmail": "John1@gmail.com",
+    "subscribe": true,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "customerId": 1045301,
+    "email": "Jane@gmail.com",
+    "secondaryEmail": "Jane1@gmail.com",
+    "subscribe": false,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "customerId": 1045302,
+    "email": "InvalidEmail",
+    "secondaryEmail": "InvalidSecondaryEmail",
+    "subscribe": "NotBoolean",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045303,
+    "email": "NotFound@gmail.com",
+    "secondaryEmail": "NotFound1@gmail.com",
+    "subscribe": true,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045304,
+    "email": "NotFound@gmail.com",
+    "secondaryEmail": "NotFound1@gmail.com",
+    "subscribe": false,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

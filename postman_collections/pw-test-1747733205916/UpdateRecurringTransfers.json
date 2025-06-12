@@ -1,0 +1,68 @@
+[
+  {
+    "customerId": 1045300,
+    "paymentId": "PAY123456",
+    "sourceAccountId": "ACC123456",
+    "amount": 5000,
+    "scheduledDate": 20220228,
+    "targetAccountId": "ACC654321",
+    "recurringOptions": {
+      "amountType": "Fixed",
+      "frequency": {
+        "duration": {
+          "untilStop": "After 10 transfers",
+          "untilDate": 20231231,
+          "numberOfTransfers": 10
+        },
+        "iterate": "Monthly"
+      },
+      "updateTransferType": "Automatic"
+    },
+    "statusCode": 200,
+    "scenario": "Recurring transfer updated successfully"
+  },
+  {
+    "customerId": 1045301,
+    "paymentId": "PAY123457",
+    "sourceAccountId": "ACC123457",
+    "amount": 6000,
+    "scheduledDate": 20220301,
+    "targetAccountId": "ACC654322",
+    "recurringOptions": {
+      "amountType": "Variable",
+      "frequency": {
+        "duration": {
+          "untilStop": "After 5 transfers",
+          "untilDate": 20221231,
+          "numberOfTransfers": 5
+        },
+        "iterate": "Weekly"
+      },
+      "updateTransferType": "Manual"
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045302,
+    "paymentId": "PAY123458",
+    "sourceAccountId": "ACC123458",
+    "amount": 7000,
+    "scheduledDate": 20220302,
+    "targetAccountId": "ACC654323",
+    "recurringOptions": {
+      "amountType": "Fixed",
+      "frequency": {
+        "duration": {
+          "untilStop": "After 20 transfers",
+          "untilDate": 20240228,
+          "numberOfTransfers": 20
+        },
+        "iterate": "Daily"
+      },
+      "updateTransferType": "Automatic"
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
