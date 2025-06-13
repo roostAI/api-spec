@@ -1,0 +1,2 @@
+offset,limit,sort,ID,name,gender,motivation,affiliation,residence,birthDate,birthDateTo,deathDate,deathDateTo,foundedDate,birthCity,birthCountry,birthContinent,deathCity,deathCountry,deathContinent,foundedCity,foundedCountry,foundedContinent,HeadquartersCity,HeadquartersCountry,HeadquartersContinent,nobelPrizeYear,yearTo,nobelPrizeCategory,format,csvLang
+"0","10","asc","1","","","","","","19000101","","","","","","","","","","","","","","","","","1901","0","","json","en"
