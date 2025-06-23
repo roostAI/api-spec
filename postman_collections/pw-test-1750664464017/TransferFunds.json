@@ -1,0 +1,41 @@
+[
+  {
+    "amount": 5000,
+    "currency": "USD",
+    "customerId": 1045300,
+    "date": "03-15-2021",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "description": "Internal Transfer",
+    "TransactionType": "1063",
+    "PaymentType": "Minimum Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "amount": 7000,
+    "currency": "EUR",
+    "customerId": 1045301,
+    "date": "04-16-2021",
+    "sourceAccountId": "1042346",
+    "targetAccountId": "1042223",
+    "description": "External Transfer",
+    "TransactionType": "1064",
+    "PaymentType": "Full Payment",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "amount": 8000,
+    "currency": "GBP",
+    "customerId": 1045302,
+    "date": "05-17-2021",
+    "sourceAccountId": "1042347",
+    "targetAccountId": "1042224",
+    "description": "Wire Transfer",
+    "TransactionType": "1065",
+    "PaymentType": "Partial Payment",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

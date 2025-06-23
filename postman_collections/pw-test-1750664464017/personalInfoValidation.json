@@ -1,0 +1,52 @@
+[
+  {
+    "customerId": 1045300,
+    "dob": "1999-05-05T00:00:00.000+0000",
+    "ssn": 104531234,
+    "secrectPassword": "Sam",
+    "AccNumber": "1042345",
+    "lastDepositAmt": 500,
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045301,
+    "dob": "1998-06-06T00:00:00.000+0000",
+    "ssn": 104531235,
+    "secrectPassword": "John",
+    "AccNumber": "1042346",
+    "lastDepositAmt": 600,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045302,
+    "dob": "1997-07-07T00:00:00.000+0000",
+    "ssn": 104531236,
+    "secrectPassword": "Jane",
+    "AccNumber": "1042347",
+    "lastDepositAmt": 700,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045303,
+    "dob": "1996-08-08T00:00:00.000+0000",
+    "ssn": 104531237,
+    "secrectPassword": "Doe",
+    "AccNumber": "1042348",
+    "lastDepositAmt": 800,
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045304,
+    "dob": "1995-09-09T00:00:00.000+0000",
+    "ssn": 104531238,
+    "secrectPassword": "Smith",
+    "AccNumber": "1042349",
+    "lastDepositAmt": 900,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

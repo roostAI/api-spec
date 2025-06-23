@@ -1,0 +1,37 @@
+[
+  {
+    "sourcePin": "1234ABCD",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "sourcePin": "5678EFGH",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "sourcePin": "90JK12LM",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "sourcePin": "3456NOPQ",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "sourcePin": "7890RSTU",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "sourcePin": "WXYZ2345",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "sourcePin": "6789VWXY",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

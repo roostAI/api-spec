@@ -1,0 +1,44 @@
+[
+  {
+    "authType": "Authorized",
+    "firstName": "James",
+    "lastName": "William",
+    "email": "John@gmail.com",
+    "phoneNumber": 9787643445,
+    "topic": "Routing and Account Number",
+    "message": "Unable to find my routing number.",
+    "availableTime": "nighttime",
+    "chatHistory": "html formatted message sent as string",
+    "cif": 1045310,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "authType": "Unauthorized",
+    "firstName": "Robert",
+    "lastName": "Smith",
+    "email": "Robert@gmail.com",
+    "phoneNumber": 9876543210,
+    "topic": "Account Balance",
+    "message": "Unable to check my account balance.",
+    "availableTime": "morning",
+    "chatHistory": "html formatted message sent as string",
+    "cif": 1045320,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "authType": "Authorized",
+    "firstName": "Michael",
+    "lastName": "Johnson",
+    "email": "Michael@gmail.com",
+    "phoneNumber": 9123456780,
+    "topic": "Credit Card",
+    "message": "Unable to apply for a credit card.",
+    "availableTime": "afternoon",
+    "chatHistory": "html formatted message sent as string",
+    "cif": 1045330,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

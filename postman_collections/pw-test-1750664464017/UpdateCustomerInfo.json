@@ -1,0 +1,46 @@
+[
+  {
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "alternatePhoneNumber": 9876543210,
+    "isAlternateMobileNumber": true,
+    "phone": 1234567890,
+    "isPrimaryMobileNumber": true,
+    "location": "New York",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId": 1045301,
+    "email": "Jane@gmail.com",
+    "alternatePhoneNumber": 9876543211,
+    "isAlternateMobileNumber": false,
+    "phone": 1234567891,
+    "isPrimaryMobileNumber": true,
+    "location": "Los Angeles",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId": 1045302,
+    "email": "InvalidEmail",
+    "alternatePhoneNumber": "InvalidPhoneNumber",
+    "isAlternateMobileNumber": "InvalidBoolean",
+    "phone": "InvalidPhoneNumber",
+    "isPrimaryMobileNumber": "InvalidBoolean",
+    "location": "InvalidLocation",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045303,
+    "email": "InvalidEmail",
+    "alternatePhoneNumber": "InvalidPhoneNumber",
+    "isAlternateMobileNumber": "InvalidBoolean",
+    "phone": "InvalidPhoneNumber",
+    "isPrimaryMobileNumber": "InvalidBoolean",
+    "location": "InvalidLocation",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

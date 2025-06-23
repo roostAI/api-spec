@@ -1,0 +1,68 @@
+[
+  {
+    "amount": 1500,
+    "currency": "USD",
+    "customerId": 1045300,
+    "sourceAccountId": "SA123456",
+    "targetAccountId": "TA123456",
+    "status": "Pending",
+    "scheduledDate": 20220501,
+    "recurringOptions": {
+      "amountType": "Fixed",
+      "frequency": {
+        "iterate": "Weekly",
+        "duration": {
+          "untilStop": "No",
+          "untilDate": 20221231,
+          "numberOfTransfers": 30
+        }
+      }
+    },
+    "statusCode": 200,
+    "scenario": "schedule transfer added successfully"
+  },
+  {
+    "amount": 2000,
+    "currency": "EUR",
+    "customerId": 1045301,
+    "sourceAccountId": "SA123457",
+    "targetAccountId": "TA123457",
+    "status": "Completed",
+    "scheduledDate": 20220502,
+    "recurringOptions": {
+      "amountType": "Variable",
+      "frequency": {
+        "iterate": "Monthly",
+        "duration": {
+          "untilStop": "Yes",
+          "untilDate": 20221231,
+          "numberOfTransfers": 12
+        }
+      }
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "amount": 2500,
+    "currency": "GBP",
+    "customerId": 1045302,
+    "sourceAccountId": "SA123458",
+    "targetAccountId": "TA123458",
+    "status": "Failed",
+    "scheduledDate": 20220503,
+    "recurringOptions": {
+      "amountType": "Fixed",
+      "frequency": {
+        "iterate": "Daily",
+        "duration": {
+          "untilStop": "No",
+          "untilDate": 20221231,
+          "numberOfTransfers": 365
+        }
+      }
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "accountNumber": "1042345",
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "alternatePhoneNumber": 9876543210,
+    "isAlternateMobileNumber": true,
+    "phone": 1234567890,
+    "isPrimaryMobileNumber": true,
+    "location": "New York",
+    "isStatement": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber": "2045678",
+    "customerId": 2045301,
+    "email": "Jane@gmail.com",
+    "alternatePhoneNumber": 9876543211,
+    "isAlternateMobileNumber": false,
+    "phone": 1234567891,
+    "isPrimaryMobileNumber": true,
+    "location": "Los Angeles",
+    "isStatement": false,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber": "3046789",
+    "customerId": 3045302,
+    "email": "invalid_email",
+    "alternatePhoneNumber": "invalid_phone",
+    "isAlternateMobileNumber": "invalid_boolean",
+    "phone": "invalid_phone",
+    "isPrimaryMobileNumber": "invalid_boolean",
+    "location": "invalid_location",
+    "isStatement": "invalid_boolean",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountNumber": "4047890",
+    "customerId": 4045303,
+    "email": "notfound_email",
+    "alternatePhoneNumber": "notfound_phone",
+    "isAlternateMobileNumber": "notfound_boolean",
+    "phone": "notfound_phone",
+    "isPrimaryMobileNumber": "notfound_boolean",
+    "location": "notfound_location",
+    "isStatement": "notfound_boolean",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

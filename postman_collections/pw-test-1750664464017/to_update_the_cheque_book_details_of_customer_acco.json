@@ -1,0 +1,42 @@
+[
+  {
+    "accountNumber": "123456789",
+    "customerId": 100001,
+    "numberOfChequeBooks": 2,
+    "numberOfLeaves": 50,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber": "987654321",
+    "customerId": 100002,
+    "numberOfChequeBooks": 1,
+    "numberOfLeaves": 25,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber": "1122334455",
+    "customerId": 100003,
+    "numberOfChequeBooks": 3,
+    "numberOfLeaves": 75,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber": "6677889900",
+    "customerId": 100004,
+    "numberOfChequeBooks": 0,
+    "numberOfLeaves": 0,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountNumber": "4455667788",
+    "customerId": 100005,
+    "numberOfChequeBooks": 4,
+    "numberOfLeaves": 100,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
