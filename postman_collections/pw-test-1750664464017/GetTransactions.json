@@ -1,0 +1,98 @@
+[
+  {
+    "accountNumber_0": "ACC123456",
+    "accountNumber_1": "ACC789101",
+    "customerId": "CUST112233",
+    "numOfTransactions": 5,
+    "status": "Active",
+    "startDate": "2022-01-01",
+    "endDate": "2022-01-31",
+    "sort": {
+      "type": "Date",
+      "value": "Descending"
+    },
+    "transactionAmount": {
+      "amount1": 1000,
+      "currency": "USD"
+    },
+    "category_0": {
+      "codeType": "Food",
+      "value_0": "Groceries",
+      "value_1": "Restaurants",
+      "source": "Manual"
+    },
+    "category_1": {
+      "codeType": "Transport",
+      "value_0": "Bus",
+      "value_1": "Train",
+      "source": "Auto"
+    },
+    "debitOrCredit": "Debit",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber_0": "ACC654321",
+    "accountNumber_1": "ACC101112",
+    "customerId": "CUST445566",
+    "numOfTransactions": 10,
+    "status": "Inactive",
+    "startDate": "2022-02-01",
+    "endDate": "2022-02-28",
+    "sort": {
+      "type": "Amount",
+      "value": "Ascending"
+    },
+    "transactionAmount": {
+      "amount1": 2000,
+      "currency": "EUR"
+    },
+    "category_0": {
+      "codeType": "Entertainment",
+      "value_0": "Movies",
+      "value_1": "Music",
+      "source": "Manual"
+    },
+    "category_1": {
+      "codeType": "Health",
+      "value_0": "Gym",
+      "value_1": "Doctor",
+      "source": "Auto"
+    },
+    "debitOrCredit": "Credit",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber_0": "ACC987654",
+    "accountNumber_1": "ACC321098",
+    "customerId": "CUST778899",
+    "numOfTransactions": 15,
+    "status": "Pending",
+    "startDate": "2022-03-01",
+    "endDate": "2022-03-31",
+    "sort": {
+      "type": "Category",
+      "value": "Descending"
+    },
+    "transactionAmount": {
+      "amount1": 3000,
+      "currency": "GBP"
+    },
+    "category_0": {
+      "codeType": "Travel",
+      "value_0": "Flights",
+      "value_1": "Hotels",
+      "source": "Manual"
+    },
+    "category_1": {
+      "codeType": "Education",
+      "value_0": "Books",
+      "value_1": "Courses",
+      "source": "Auto"
+    },
+    "debitOrCredit": "Debit",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  }
+]

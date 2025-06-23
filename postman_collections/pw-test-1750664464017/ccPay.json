@@ -1,0 +1,57 @@
+[
+  {
+    "amount": 1500,
+    "currency": "USD",
+    "customerId": 1045300,
+    "dueDate": "2022-12-30",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "transactionType": 1,
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "amount": 2000,
+    "currency": "EUR",
+    "customerId": 1045301,
+    "dueDate": "2023-01-15",
+    "sourceAccountId": "1042346",
+    "targetAccountId": "1042223",
+    "transactionType": 2,
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "amount": 500,
+    "currency": "GBP",
+    "customerId": 1045302,
+    "dueDate": "2022-11-20",
+    "sourceAccountId": "1042347",
+    "targetAccountId": "1042224",
+    "transactionType": 3,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "amount": 1000,
+    "currency": "JPY",
+    "customerId": 1045303,
+    "dueDate": "2022-10-10",
+    "sourceAccountId": "1042348",
+    "targetAccountId": "1042225",
+    "transactionType": 4,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "amount": 2500,
+    "currency": "CAD",
+    "customerId": 1045304,
+    "dueDate": "2023-02-05",
+    "sourceAccountId": "1042349",
+    "targetAccountId": "1042226",
+    "transactionType": 5,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
