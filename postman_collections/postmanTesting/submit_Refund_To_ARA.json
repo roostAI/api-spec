@@ -1,0 +1,188 @@
+[
+  {
+    "messageHeader": {
+      "headerVersion": "1.0.0",
+      "messageContext": {
+        "messageContentType": "application/json",
+        "messageContentEncoding": "UTF-8",
+        "payloadHashValue": "a1b2c3d4e5f6g7h8i9j0",
+        "hashingAlgorithm": "SHA-256"
+      },
+      "sourceContext": {
+        "applicationId": "REFUND-APP-001",
+        "sourceId": "SRC-123456",
+        "transactionId": "TXN-20231201-123456"
+      },
+      "timestamp": "2023-12-01T10:30:00Z",
+      "multiPartMessageContextTypes_0": {
+        "messageCorrelationContext": "REFUND-CONTEXT-1",
+        "messageCorrelationId": "CORR-ID-001",
+        "messageSequenceNumber": "1",
+        "messageSequenceSize": "2"
+      },
+      "multiPartMessageContextTypes_1": {
+        "messageCorrelationContext": "REFUND-CONTEXT-2",
+        "messageCorrelationId": "CORR-ID-002",
+        "messageSequenceNumber": "2",
+        "messageSequenceSize": "2"
+      }
+    },
+    "augmentationPoint_0": {
+      "augmentationKey": "PROCESS_ID",
+      "augmentationValue": "REF-PROC-001"
+    },
+    "augmentationPoint_1": {
+      "augmentationKey": "CHANNEL",
+      "augmentationValue": "ONLINE"
+    },
+    "payload": {
+      "refundTransactions": {
+        "documentNumber": "DOC-20231201-001",
+        "issuanceDate": "2023-12-01",
+        "refundIndicator": "FULL",
+        "refundUID": "REF-UID-001",
+        "refundedCoupons_0": "COUPON-001",
+        "refundedCoupons_1": "COUPON-002",
+        "remark": "Full refund processed",
+        "relatedRefundUID": "REL-REF-001",
+        "oadCode": "OAD001"
+      },
+      "refundingAgentDetails": {
+        "areaPointOfSale": "Terminal 1",
+        "cityPointOfSale": "New York",
+        "countryPointOfSale": "USA",
+        "issuerSystem": "REFUND-SYS-001"
+      },
+      "monetaryInformation": {
+        "amount": 1250.5,
+        "currency": "USD"
+      }
+    },
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "messageHeader": {
+      "headerVersion": "1.0.0",
+      "messageContext": {
+        "messageContentType": "application/json",
+        "messageContentEncoding": "UTF-8",
+        "payloadHashValue": "x9y8z7w6v5u4t3s2r1q0",
+        "hashingAlgorithm": "SHA-256"
+      },
+      "sourceContext": {
+        "applicationId": "REFUND-APP-002",
+        "sourceId": "SRC-789012",
+        "transactionId": "TXN-20231201-789012"
+      },
+      "timestamp": "2023-12-01T11:45:00Z",
+      "multiPartMessageContextTypes_0": {
+        "messageCorrelationContext": "REFUND-CONTEXT-3",
+        "messageCorrelationId": "CORR-ID-003",
+        "messageSequenceNumber": "1",
+        "messageSequenceSize": "2"
+      },
+      "multiPartMessageContextTypes_1": {
+        "messageCorrelationContext": "REFUND-CONTEXT-4",
+        "messageCorrelationId": "CORR-ID-004",
+        "messageSequenceNumber": "2",
+        "messageSequenceSize": "2"
+      }
+    },
+    "augmentationPoint_0": {
+      "augmentationKey": "PROCESS_ID",
+      "augmentationValue": "REF-PROC-002"
+    },
+    "augmentationPoint_1": {
+      "augmentationKey": "CHANNEL",
+      "augmentationValue": "MOBILE"
+    },
+    "payload": {
+      "refundTransactions": {
+        "documentNumber": "DOC-20231201-002",
+        "issuanceDate": "2023-12-01",
+        "refundIndicator": "PARTIAL",
+        "refundUID": "REF-UID-002",
+        "refundedCoupons_0": "COUPON-003",
+        "refundedCoupons_1": "COUPON-004",
+        "remark": "Partial refund processed",
+        "relatedRefundUID": "REL-REF-002",
+        "oadCode": "OAD002"
+      },
+      "refundingAgentDetails": {
+        "areaPointOfSale": "Terminal 2",
+        "cityPointOfSale": "London",
+        "countryPointOfSale": "UK",
+        "issuerSystem": "REFUND-SYS-002"
+      },
+      "monetaryInformation": {
+        "amount": 750.25,
+        "currency": "GBP"
+      }
+    },
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "messageHeader": {
+      "headerVersion": "1.0.0",
+      "messageContext": {
+        "messageContentType": "application/json",
+        "messageContentEncoding": "UTF-8",
+        "payloadHashValue": "m1n2o3p4q5r6s7t8u9v0",
+        "hashingAlgorithm": "SHA-256"
+      },
+      "sourceContext": {
+        "applicationId": "REFUND-APP-003",
+        "sourceId": "SRC-345678",
+        "transactionId": "TXN-20231201-345678"
+      },
+      "timestamp": "2023-12-01T14:15:00Z",
+      "multiPartMessageContextTypes_0": {
+        "messageCorrelationContext": "REFUND-CONTEXT-5",
+        "messageCorrelationId": "CORR-ID-005",
+        "messageSequenceNumber": "1",
+        "messageSequenceSize": "2"
+      },
+      "multiPartMessageContextTypes_1": {
+        "messageCorrelationContext": "REFUND-CONTEXT-6",
+        "messageCorrelationId": "CORR-ID-006",
+        "messageSequenceNumber": "2",
+        "messageSequenceSize": "2"
+      }
+    },
+    "augmentationPoint_0": {
+      "augmentationKey": "PROCESS_ID",
+      "augmentationValue": "REF-PROC-003"
+    },
+    "augmentationPoint_1": {
+      "augmentationKey": "CHANNEL",
+      "augmentationValue": "KIOSK"
+    },
+    "payload": {
+      "refundTransactions": {
+        "documentNumber": "DOC-20231201-003",
+        "issuanceDate": "2023-12-01",
+        "refundIndicator": "FULL",
+        "refundUID": "REF-UID-003",
+        "refundedCoupons_0": "COUPON-005",
+        "refundedCoupons_1": "COUPON-006",
+        "remark": "Full refund with fees",
+        "relatedRefundUID": "REL-REF-003",
+        "oadCode": "OAD003"
+      },
+      "refundingAgentDetails": {
+        "areaPointOfSale": "Terminal 3",
+        "cityPointOfSale": "Tokyo",
+        "countryPointOfSale": "Japan",
+        "issuerSystem": "REFUND-SYS-003"
+      },
+      "monetaryInformation": {
+        "amount": 15000.75,
+        "currency": "JPY"
+      }
+    },
+    "statusCode": 200,
+    "scenario": "OK"
+  }
+]
