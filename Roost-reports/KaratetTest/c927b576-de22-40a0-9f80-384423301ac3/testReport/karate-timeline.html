@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_get[1.1:30]","start":1750764936846,"end":1750764936859,"title":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_get[1.1:30] 11:35:36.846-11:35:36.859 Get Employees with Search String","className":"failed"},{"id":2,"group":1,"content":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_get[1.2:30]","start":1750764936865,"end":1750764936868,"title":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_get[1.2:30] 11:35:36.865-11:35:36.868 Get Employees with Search String","className":"failed"},{"id":3,"group":1,"content":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_get[2:32]","start":1750764936874,"end":1750764936886,"title":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_get[2:32] 11:35:36.874-11:35:36.886 Get Employees with Invalid Input","className":"failed"},{"id":4,"group":1,"content":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_id_get[1.1:30]","start":1750764936661,"end":1750764936686,"title":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_id_get[1.1:30] 11:35:36.661-11:35:36.686 Get Employee by ID - Valid ID"},{"id":5,"group":1,"content":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_id_get[2.1:39]","start":1750764936693,"end":1750764936703,"title":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_id_get[2.1:39] 11:35:36.693-11:35:36.703 Get Employee by ID - Invalid ID","className":"failed"},{"id":6,"group":1,"content":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_post[1.1:33]","start":1750764935255,"end":1750764935691,"title":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_post[1.1:33] 11:35:35.255-11:35:35.691 Add Employee with valid data","className":"failed"},{"id":7,"group":1,"content":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_post[1.2:33]","start":1750764935708,"end":1750764935728,"title":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_post[1.2:33] 11:35:35.708-11:35:35.728 Add Employee with valid data","className":"failed"},{"id":8,"group":1,"content":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_post[2.1:51]","start":1750764935735,"end":1750764935761,"title":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_post[2.1:51] 11:35:35.735-11:35:35.761 Add Employee with invalid data","className":"failed"},{"id":9,"group":1,"content":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_post[2.2:52]","start":1750764935773,"end":1750764935788,"title":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_post[2.2:52] 11:35:35.773-11:35:35.788 Add Employee with invalid data","className":"failed"},{"id":10,"group":1,"content":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_post[3.1:70]","start":1750764935798,"end":1750764935812,"title":"src\/test\/java\/org\/springframework\/api_tests\/Apis061Reb413EmployeeService01Resolved\/employees_post[3.1:70] 11:35:35.798-11:35:35.812 Add Employee with existing data","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
