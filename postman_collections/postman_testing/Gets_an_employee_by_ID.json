@@ -1,0 +1,27 @@
+[
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "statusCode": 200,
+    "scenario": "Successful operation"
+  },
+  {
+    "id": "e4b0f1ee-6c54-4b01-90e6-d701748f0852",
+    "statusCode": 200,
+    "scenario": "Successful operation"
+  },
+  {
+    "id": "f5c1f1ee-6c54-4b01-90e6-d701748f0853",
+    "statusCode": 200,
+    "scenario": "Successful operation"
+  },
+  {
+    "id": "invalid-uuid-1234",
+    "statusCode": 404,
+    "scenario": "Not found"
+  },
+  {
+    "id": "12345678-1234-5678-1234-567812345678",
+    "statusCode": 404,
+    "scenario": "Not found"
+  }
+]

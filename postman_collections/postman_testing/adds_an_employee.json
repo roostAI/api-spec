@@ -1,0 +1,42 @@
+[
+  {
+    "email_*string": "john.smith@acme-corp.com",
+    "jobTitle_*string": "System Analyst",
+    "name_*string": "John Smith",
+    "id_*uuid": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "statusCode": 201,
+    "scenario": "employee created"
+  },
+  {
+    "email_*string": "invalid-email",
+    "jobTitle_*string": "",
+    "name_*string": "12345",
+    "id_*uuid": "invalid-uuid",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "email_*string": "jane.doe@acme-corp.com",
+    "jobTitle_*string": "Project Manager",
+    "name_*string": "Jane Doe",
+    "id_*uuid": "e4eaaaf2-d142-11e1-b3e4-080027620cdd",
+    "statusCode": 201,
+    "scenario": "employee created"
+  },
+  {
+    "email_*string": "duplicate@acme-corp.com",
+    "jobTitle_*string": "Developer",
+    "name_*string": "Duplicate User",
+    "id_*uuid": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "statusCode": 409,
+    "scenario": "an existing employee already exists"
+  },
+  {
+    "email_*string": "random@invalid",
+    "jobTitle_*string": "123",
+    "name_*string": "",
+    "id_*uuid": "1234-5678-91011",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  }
+]
