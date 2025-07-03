@@ -1,0 +1,61 @@
+[
+  {
+    "testCaseId": 1,
+    "description": "Verify system handles valid input parameters correctly",
+    "inputData": {
+      "parameterA": "value1",
+      "parameterB": 20
+    },
+    "expectedOutput": {
+      "status": "success",
+      "result": "expectedResult1"
+    }
+  },
+  {
+    "testCaseId": 2,
+    "description": "Ensure system returns proper error for missing mandatory fields",
+    "inputData": {
+      "parameterA": "value2"
+    },
+    "expectedOutput": {
+      "status": "error",
+      "errorMessage": "Mandatory parameterB is missing"
+    }
+  },
+  {
+    "testCaseId": 3,
+    "description": "Validate the system handles boundary values for numerical inputs",
+    "inputData": {
+      "parameterA": "value3",
+      "parameterB": -1
+    },
+    "expectedOutput": {
+      "status": "error",
+      "errorMessage": "parameterB must be a positive number"
+    }
+  },
+  {
+    "testCaseId": 4,
+    "description": "Test system behavior for string edge cases",
+    "inputData": {
+      "parameterA": "",
+      "parameterB": 10
+    },
+    "expectedOutput": {
+      "status": "error",
+      "errorMessage": "parameterA cannot be empty"
+    }
+  },
+  {
+    "testCaseId": 5,
+    "description": "Confirm system processes large numerical input correctly",
+    "inputData": {
+      "parameterA": "value5",
+      "parameterB": 100000
+    },
+    "expectedOutput": {
+      "status": "success",
+      "result": "expectedResult5"
+    }
+  }
+]
