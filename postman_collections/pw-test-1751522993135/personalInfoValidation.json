@@ -1,0 +1,32 @@
+[
+  {
+    "customerId_*number": 1045300,
+    "dob_*string": "1999-05-05T00:00:00.000+0000",
+    "ssn_*number": 104531234,
+    "secrectPassword_*string": "Sam",
+    "AccNumber_*string": "1042345",
+    "lastDepositAmt_*number": 500,
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId_*number": 1045301,
+    "dob_*string": "1998-06-06T00:00:00.000+0000",
+    "ssn_*number": 104531235,
+    "secrectPassword_*string": "John",
+    "AccNumber_*string": "1042346",
+    "lastDepositAmt_*number": 600,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 1045302,
+    "dob_*string": "1997-07-07T00:00:00.000+0000",
+    "ssn_*number": 104531236,
+    "secrectPassword_*string": "Jane",
+    "AccNumber_*string": "1042347",
+    "lastDepositAmt_*number": 700,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
