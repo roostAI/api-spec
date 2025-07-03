@@ -1,0 +1,62 @@
+[
+  {
+    "accountName_*string": "John Doe",
+    "accountNumber_*string": "123456789",
+    "customerId_*number": 12345,
+    "cardNumber_*string": "987654321",
+    "description_*string": "Money Transfer",
+    "requestSubType_*string": "Internal",
+    "requestType_*string": "Transfer",
+    "serviceType_*string": "Banking",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountName_*string": "Jane Doe",
+    "accountNumber_*string": "987654321",
+    "customerId_*number": 67890,
+    "cardNumber_*string": "123456789",
+    "description_*string": "Bill Payment",
+    "requestSubType_*string": "External",
+    "requestType_*string": "Payment",
+    "serviceType_*string": "Banking",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountName_*string": "Alice Smith",
+    "accountNumber_*string": "456789123",
+    "customerId_*number": 11223,
+    "cardNumber_*string": "789123456",
+    "description_*string": "Loan Repayment",
+    "requestSubType_*string": "Internal",
+    "requestType_*string": "Repayment",
+    "serviceType_*string": "Banking",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "accountName_*string": "Bob Johnson",
+    "accountNumber_*string": "789123456",
+    "customerId_*number": 44556,
+    "cardNumber_*string": "321654987",
+    "description_*string": "Credit Card Payment",
+    "requestSubType_*string": "External",
+    "requestType_*string": "Payment",
+    "serviceType_*string": "Banking",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountName_*string": "Charlie Brown",
+    "accountNumber_*string": "654321789",
+    "customerId_*number": 77889,
+    "cardNumber_*string": "567891234",
+    "description_*string": "Mortgage Repayment",
+    "requestSubType_*string": "Internal",
+    "requestType_*string": "Repayment",
+    "serviceType_*string": "Banking",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
