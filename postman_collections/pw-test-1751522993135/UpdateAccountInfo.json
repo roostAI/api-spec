@@ -1,0 +1,41 @@
+[
+  {
+    "accountNumber_*string": "1042345",
+    "customerId_*number": 1045300,
+    "email_*string": "John@gmail.com",
+    "alternatePhoneNumber_*number": 9876543210,
+    "isAlternateMobileNumber_*boolean": true,
+    "phone_*number": 1234567890,
+    "isPrimaryMobileNumber_*boolean": true,
+    "location_*string": "New York",
+    "isStatement_*boolean": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber_*string": "2046789",
+    "customerId_*number": 2045301,
+    "email_*string": "Jane@gmail.com",
+    "alternatePhoneNumber_*number": 9876504321,
+    "isAlternateMobileNumber_*boolean": false,
+    "phone_*number": 1234509876,
+    "isPrimaryMobileNumber_*boolean": false,
+    "location_*string": "Los Angeles",
+    "isStatement_*boolean": false,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountNumber_*string": "3049123",
+    "customerId_*number": 3045302,
+    "email_*string": "Doe@gmail.com",
+    "alternatePhoneNumber_*number": 9876598765,
+    "isAlternateMobileNumber_*boolean": true,
+    "phone_*number": 1234598765,
+    "isPrimaryMobileNumber_*boolean": true,
+    "location_*string": "Chicago",
+    "isStatement_*boolean": true,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
