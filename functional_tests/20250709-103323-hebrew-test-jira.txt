@@ -1,0 +1,24 @@
+{
+  "scenarios": [
+    {
+      "type": "functional",
+      "title": "Undefined Functionality Test",
+      "description": "Test an undefined functionality due to missing user story.",
+      "testId": "TC-001",
+      "testDescription": "This test case is a placeholder due to lack of specific user story details.",
+      "prerequisites": "No specific prerequisites can be determined.",
+      "stepsToPerform": "1. Await user story details.\n2. Define prerequisites and steps based on the user story once available.",
+      "expectedResult": "Test case steps and expected results will be defined upon receipt of user story."
+    },
+    {
+      "type": "non-functional",
+      "title": "Undefined Non-Functional Test",
+      "description": "Evaluate an undefined non-functional aspect due to missing user story.",
+      "testId": "TC-002",
+      "testDescription": "This non-functional test case is a placeholder pending specific user story details.",
+      "prerequisites": "Non-functional criteria cannot be established without user story context.",
+      "stepsToPerform": "1. Await user story details.\n2. Define non-functional criteria based on the user story once available.",
+      "expectedResult": "Non-functional test case steps and expected results will be defined upon receipt of user story."
+    }
+  ]
+}
