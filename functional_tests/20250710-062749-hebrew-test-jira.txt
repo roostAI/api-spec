@@ -1,0 +1,104 @@
+{
+  "scenarios": [
+    {
+      "type": "functional",
+      "title": "User Login with Identity Number and OTP",
+      "description": "Verify login functionality using identity number and one-time password (OTP).",
+      "testId": "TC-001",
+      "testDescription": "A user should be able to login using their identity number and a one-time password received via SMS.",
+      "prerequisites": "User must have a registered account and a mobile number to receive OTP.",
+      "stepsToPerform": "1. Open the app.\n2. Enter the identity number.\n3. Request OTP.\n4. Enter the OTP received via SMS.\n5. Click 'Login'.",
+      "expectedResult": "User is successfully logged in and redirected to the account dashboard."
+    },
+    {
+      "type": "functional",
+      "title": "Biometric Login",
+      "description": "Verify that a user can login using biometric authentication.",
+      "testId": "TC-002",
+      "testDescription": "The application should support login using fingerprint or FaceID.",
+      "prerequisites": "User device must support biometric authentication and have it set up.",
+      "stepsToPerform": "1. Open the app.\n2. Select 'Biometric Login'.\n3. Authenticate using fingerprint or FaceID.",
+      "expectedResult": "User is successfully logged in and redirected to the account dashboard."
+    },
+    {
+      "type": "functional",
+      "title": "Account Balance Viewing",
+      "description": "Ensure users can view their account balance.",
+      "testId": "TC-003",
+      "testDescription": "The application should display the general balance for each account.",
+      "prerequisites": "User should be logged in.",
+      "stepsToPerform": "1. Navigate to the 'Account Details' section.\n2. Check the displayed balance.",
+      "expectedResult": "The account balance is displayed correctly."
+    },
+    {
+      "type": "functional",
+      "title": "Transaction History Filtering",
+      "description": "Verify that users can filter transaction history.",
+      "testId": "TC-004",
+      "testDescription": "Users should be able to filter transactions by date and transaction type.",
+      "prerequisites": "User should be logged in.",
+      "stepsToPerform": "1. Navigate to 'Transaction History'.\n2. Apply filters for date range and transaction type (e.g., transfer, debit, credit).",
+      "expectedResult": "Filtered transactions are displayed according to the selected criteria."
+    },
+    {
+      "type": "functional",
+      "title": "Internal Fund Transfer",
+      "description": "Verify users can transfer funds internally within Bank of Jerusalem.",
+      "testId": "TC-005",
+      "testDescription": "Users can transfer funds to another internal account.",
+      "prerequisites": "User should be logged in and have sufficient balance.",
+      "stepsToPerform": "1. Navigate to 'Transfer Funds'.\n2. Select 'Internal Transfer'.\n3. Enter recipient details and amount.\n4. Confirm transfer.",
+      "expectedResult": "Funds are transferred successfully, and a confirmation message is displayed."
+    },
+    {
+      "type": "functional",
+      "title": "Adding a New Beneficiary",
+      "description": "Test the functionality of adding a new beneficiary with SMS verification.",
+      "testId": "TC-006",
+      "testDescription": "Users should be able to add a new beneficiary after verifying via SMS.",
+      "prerequisites": "User should be logged in.",
+      "stepsToPerform": "1. Navigate to 'Beneficiaries'.\n2. Click 'Add New Beneficiary'.\n3. Enter beneficiary details.\n4. Confirm via SMS code.",
+      "expectedResult": "New beneficiary is added successfully."
+    },
+    {
+      "type": "functional",
+      "title": "Loan Request Simulation",
+      "description": "Verify the loan simulation feature for monthly repayment calculation.",
+      "testId": "TC-007",
+      "testDescription": "Users can simulate loan repayment based on amount and terms.",
+      "prerequisites": "User should be logged in.",
+      "stepsToPerform": "1. Navigate to 'Loan Requests'.\n2. Select 'Simulate Loan'.\n3. Enter loan amount and repayment terms.\n4. Click 'Calculate'.",
+      "expectedResult": "Monthly repayment amount is calculated and displayed."
+    },
+    {
+      "type": "non-functional",
+      "title": "System Security",
+      "description": "Ensure high-level data security for user transactions.",
+      "testId": "TC-008",
+      "testDescription": "The application should protect user data with SSL and encryption.",
+      "prerequisites": "None",
+      "stepsToPerform": "1. Perform a security audit.\n2. Check for SSL implementation.\n3. Verify data encryption at rest and in transit.",
+      "expectedResult": "All user data is secured with SSL and encryption methods."
+    },
+    {
+      "type": "non-functional",
+      "title": "System Availability",
+      "description": "Verify the system's uptime meets the required availability.",
+      "testId": "TC-009",
+      "testDescription": "The system should be available at least 99.5% of the time.",
+      "prerequisites": "None",
+      "stepsToPerform": "1. Monitor system uptime over a period.\n2. Calculate the availability percentage.",
+      "expectedResult": "System availability is at least 99.5%."
+    },
+    {
+      "type": "non-functional",
+      "title": "Performance Testing",
+      "description": "Ensure the application performs efficiently under load.",
+      "testId": "TC-010",
+      "testDescription": "The application should respond within 2 seconds for any action.",
+      "prerequisites": "None",
+      "stepsToPerform": "1. Perform load testing with multiple users.\n2. Measure response times for different actions.",
+      "expectedResult": "All actions are completed within 2 seconds."
+    }
+  ]
+}
