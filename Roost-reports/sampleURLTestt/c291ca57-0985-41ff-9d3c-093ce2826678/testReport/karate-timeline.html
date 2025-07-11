@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/org\/springframework\/api_tests\/RoostIoSampleApiRefsHeadsMainApisAddressValidationMqas100Swagger\/example_get[1:19]","start":1752216873011,"end":1752216875270,"title":"src\/test\/java\/org\/springframework\/api_tests\/RoostIoSampleApiRefsHeadsMainApisAddressValidationMqas100Swagger\/example_get[1:19] 06:54:33.011-06:54:35.270 Validate GET request for Example API endpoint","className":"failed"},{"id":2,"group":1,"content":"src\/test\/java\/org\/springframework\/api_tests\/RoostIoSampleApiRefsHeadsMainApisAddressValidationMqas100Swagger\/example_get[2:28]","start":1752216875298,"end":1752216876114,"title":"src\/test\/java\/org\/springframework\/api_tests\/RoostIoSampleApiRefsHeadsMainApisAddressValidationMqas100Swagger\/example_get[2:28] 06:54:35.298-06:54:36.114 Validate POST request for Example API endpoint","className":"failed"},{"id":3,"group":1,"content":"src\/test\/java\/org\/springframework\/api_tests\/RoostIoSampleApiRefsHeadsMainApisAddressValidationMqas100Swagger\/example_get[3.1:60]","start":1752216876188,"end":1752216876930,"title":"src\/test\/java\/org\/springframework\/api_tests\/RoostIoSampleApiRefsHeadsMainApisAddressValidationMqas100Swagger\/example_get[3.1:60] 06:54:36.188-06:54:36.930 Validate PUT request for Example API with various payloads","className":"failed"},{"id":4,"group":1,"content":"src\/test\/java\/org\/springframework\/api_tests\/RoostIoSampleApiRefsHeadsMainApisAddressValidationMqas100Swagger\/example_get[3.2:60]","start":1752216876940,"end":1752216877573,"title":"src\/test\/java\/org\/springframework\/api_tests\/RoostIoSampleApiRefsHeadsMainApisAddressValidationMqas100Swagger\/example_get[3.2:60] 06:54:36.940-06:54:37.573 Validate PUT request for Example API with various payloads","className":"failed"},{"id":5,"group":1,"content":"src\/test\/java\/org\/springframework\/api_tests\/RoostIoSampleApiRefsHeadsMainApisAddressValidationMqas100Swagger\/example_get[3.3:60]","start":1752216877583,"end":1752216878247,"title":"src\/test\/java\/org\/springframework\/api_tests\/RoostIoSampleApiRefsHeadsMainApisAddressValidationMqas100Swagger\/example_get[3.3:60] 06:54:37.583-06:54:38.247 Validate PUT request for Example API with various payloads","className":"failed"},{"id":6,"group":1,"content":"src\/test\/java\/org\/springframework\/api_tests\/RoostIoSampleApiRefsHeadsMainApisAddressValidationMqas100Swagger\/example_get[4:62]","start":1752216878257,"end":1752216878870,"title":"src\/test\/java\/org\/springframework\/api_tests\/RoostIoSampleApiRefsHeadsMainApisAddressValidationMqas100Swagger\/example_get[4:62] 06:54:38.257-06:54:38.870 Validate DELETE request for Example API endpoint","className":"failed"},{"id":7,"group":1,"content":"src\/test\/java\/org\/springframework\/api_tests\/RoostIoSampleApiRefsHeadsMainApisAddressValidationMqas100Swagger\/example_get[5:70]","start":1752216878878,"end":1752216879537,"title":"src\/test\/java\/org\/springframework\/api_tests\/RoostIoSampleApiRefsHeadsMainApisAddressValidationMqas100Swagger\/example_get[5:70] 06:54:38.878-06:54:39.537 Validate response headers for Example API","className":"failed"},{"id":8,"group":1,"content":"src\/test\/java\/org\/springframework\/api_tests\/RoostIoSampleApiRefsHeadsMainApisAddressValidationMqas100Swagger\/ping_get[1:20]","start":1752216881168,"end":1752216881188,"title":"src\/test\/java\/org\/springframework\/api_tests\/RoostIoSampleApiRefsHeadsMainApisAddressValidationMqas100Swagger\/ping_get[1:20] 06:54:41.168-06:54:41.188 Validate that the \/ping endpoint is reachable and responds with 200 OK","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
