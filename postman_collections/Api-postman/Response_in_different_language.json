@@ -1,0 +1,27 @@
+[
+  {
+    "language": "English",
+    "statusCode": 200,
+    "scenario": "200 OK – Response in different language Copy"
+  },
+  {
+    "language": "Spanish",
+    "statusCode": 200,
+    "scenario": "200 OK – Response in different language Copy"
+  },
+  {
+    "language": "French",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "language": "German",
+    "statusCode": 500,
+    "scenario": "Internal Server Error"
+  },
+  {
+    "language": "Italian",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  }
+]
