@@ -1,0 +1,32 @@
+[
+  {
+    "q": "search_query_1",
+    "item_id": 123,
+    "statusCode": 200,
+    "scenario": "Successful Response"
+  },
+  {
+    "q": "search_query_2",
+    "item_id": 456,
+    "statusCode": 200,
+    "scenario": "Successful Response"
+  },
+  {
+    "q": "search_query_3",
+    "item_id": 789,
+    "statusCode": 200,
+    "scenario": "Successful Response"
+  },
+  {
+    "q": "search_query_4",
+    "item_id": 321,
+    "statusCode": 422,
+    "scenario": "Validation Error"
+  },
+  {
+    "q": "search_query_5",
+    "item_id": 654,
+    "statusCode": 422,
+    "scenario": "Validation Error"
+  }
+]
