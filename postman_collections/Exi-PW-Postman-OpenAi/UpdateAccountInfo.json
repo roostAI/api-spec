@@ -1,0 +1,67 @@
+[
+  {
+    "accountNumber_*string": "1042345",
+    "customerId_*number": 1045300,
+    "email_*string": "John@gmail.com",
+    "alternatePhoneNumber_*number": 1234567890,
+    "isAlternateMobileNumber_*boolean": true,
+    "phone_*number": 9876543210,
+    "isPrimaryMobileNumber_*boolean": true,
+    "location_*string": "New York",
+    "isStatement_*boolean": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber_*string": "invalid_account",
+    "customerId_*number": -1,
+    "email_*string": "invalid_email",
+    "alternatePhoneNumber_*number": -12345,
+    "isAlternateMobileNumber_*boolean": false,
+    "phone_*number": -98765,
+    "isPrimaryMobileNumber_*boolean": false,
+    "location_*string": "Unknown",
+    "isStatement_*boolean": false,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountNumber_*string": "0000000",
+    "customerId_*number": 0,
+    "email_*string": "notfound@example.com",
+    "alternatePhoneNumber_*number": 0,
+    "isAlternateMobileNumber_*boolean": false,
+    "phone_*number": 0,
+    "isPrimaryMobileNumber_*boolean": false,
+    "location_*string": "Nowhere",
+    "isStatement_*boolean": false,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "accountNumber_*string": "1042346",
+    "customerId_*number": 1045301,
+    "email_*string": "JaneDoe@gmail.com",
+    "alternatePhoneNumber_*number": 1122334455,
+    "isAlternateMobileNumber_*boolean": true,
+    "phone_*number": 9988776655,
+    "isPrimaryMobileNumber_*boolean": true,
+    "location_*string": "Los Angeles",
+    "isStatement_*boolean": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber_*string": "invalid_number",
+    "customerId_*number": 9999999,
+    "email_*string": "error@example.com",
+    "alternatePhoneNumber_*number": 9999999999,
+    "isAlternateMobileNumber_*boolean": false,
+    "phone_*number": 1111111111,
+    "isPrimaryMobileNumber_*boolean": false,
+    "location_*string": "Errorville",
+    "isStatement_*boolean": false,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
