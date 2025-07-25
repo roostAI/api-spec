@@ -1,0 +1,57 @@
+[
+  {
+    "customerId_*number": 1045300,
+    "accountInfo_0.accountType_*string": "Savings",
+    "accountInfo_0.accountNumber_*string": "1234567890",
+    "accountInfo_0.cardNumber_*string": "4111111111111111",
+    "accountInfo_1.accountType_*string": "Checking",
+    "accountInfo_1.accountNumber_*string": "0987654321",
+    "accountInfo_1.cardNumber_*string": "4222222222222222",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_*number": 44238524,
+    "accountInfo_0.accountType_*string": "Credit",
+    "accountInfo_0.accountNumber_*string": "1122334455",
+    "accountInfo_0.cardNumber_*string": "4333333333333333",
+    "accountInfo_1.accountType_*string": "Loan",
+    "accountInfo_1.accountNumber_*string": "5566778899",
+    "accountInfo_1.cardNumber_*string": "4444444444444444",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 99999999,
+    "accountInfo_0.accountType_*string": "Investment",
+    "accountInfo_0.accountNumber_*string": "6677889900",
+    "accountInfo_0.cardNumber_*string": "4555555555555555",
+    "accountInfo_1.accountType_*string": "Mortgage",
+    "accountInfo_1.accountNumber_*string": "2233445566",
+    "accountInfo_1.cardNumber_*string": "4666666666666666",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_*number": 12345678,
+    "accountInfo_0.accountType_*string": "Business",
+    "accountInfo_0.accountNumber_*string": "3344556677",
+    "accountInfo_0.cardNumber_*string": "4777777777777777",
+    "accountInfo_1.accountType_*string": "Personal",
+    "accountInfo_1.accountNumber_*string": "7788990011",
+    "accountInfo_1.cardNumber_*string": "4888888888888888",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_*number": 87654321,
+    "accountInfo_0.accountType_*string": "Retirement",
+    "accountInfo_0.accountNumber_*string": "4455667788",
+    "accountInfo_0.cardNumber_*string": "4999999999999999",
+    "accountInfo_1.accountType_*string": "Savings",
+    "accountInfo_1.accountNumber_*string": "1122334455",
+    "accountInfo_1.cardNumber_*string": "4000000000000000",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
