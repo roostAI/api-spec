@@ -1,0 +1,44 @@
+[
+  {
+    "authType_*string": "Authorized",
+    "firstName_*string": "James",
+    "lastName_*string": "William",
+    "email_*string": "John@gmail.com",
+    "phoneNumber_*number": 9787643445,
+    "topic_*string": "Routing and Account Number",
+    "message_*string": "Unable to find my routing number.",
+    "availableTime_*string": "nighttime",
+    "chatHistory_*string": "html formatted message sent as string",
+    "cif_*number": 1045310,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "authType_*string": "Unauthorized",
+    "firstName_*string": "Robert",
+    "lastName_*string": "Smith",
+    "email_*string": "invalid_email",
+    "phoneNumber_*number": 1234567890,
+    "topic_*string": "Invalid Topic",
+    "message_*string": "This is an invalid message.",
+    "availableTime_*string": "Invalid Time",
+    "chatHistory_*string": "Invalid chat history",
+    "cif_*number": 9999999,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "authType_*string": "Authorized",
+    "firstName_*string": "John",
+    "lastName_*string": "Doe",
+    "email_*string": "johndoe@gmail.com",
+    "phoneNumber_*number": 9876543210,
+    "topic_*string": "Nonexistent Topic",
+    "message_*string": "This topic does not exist.",
+    "availableTime_*string": "morning",
+    "chatHistory_*string": "No chat history available",
+    "cif_*number": 1234567,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
