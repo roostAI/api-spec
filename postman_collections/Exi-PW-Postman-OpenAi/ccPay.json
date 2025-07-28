@@ -1,0 +1,57 @@
+[
+  {
+    "amount_*number": 1042222,
+    "currency_*string": "USD",
+    "customerId_*number": 1045300,
+    "dueDate_*string": "2023-12-31",
+    "sourceAccountId_*string": "1042345",
+    "targetAccountId_*string": "1042222",
+    "transactionType_*number": 1,
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "amount_*number": -1,
+    "currency_*string": "INVALID",
+    "customerId_*number": -999,
+    "dueDate_*string": "invalid-date",
+    "sourceAccountId_*string": "invalid-source",
+    "targetAccountId_*string": "invalid-target",
+    "transactionType_*number": -1,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "amount_*number": 0,
+    "currency_*string": "XYZ",
+    "customerId_*number": 0,
+    "dueDate_*string": "2023-02-30",
+    "sourceAccountId_*string": "0000000",
+    "targetAccountId_*string": "0000000",
+    "transactionType_*number": 999,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "amount_*number": 5000,
+    "currency_*string": "EUR",
+    "customerId_*number": 1045301,
+    "dueDate_*string": "2023-11-15",
+    "sourceAccountId_*string": "1042346",
+    "targetAccountId_*string": "1042223",
+    "transactionType_*number": 2,
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "amount_*number": 100,
+    "currency_*string": "GBP",
+    "customerId_*number": 1045302,
+    "dueDate_*string": "2023-10-20",
+    "sourceAccountId_*string": "1042347",
+    "targetAccountId_*string": "1042224",
+    "transactionType_*number": 3,
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  }
+]

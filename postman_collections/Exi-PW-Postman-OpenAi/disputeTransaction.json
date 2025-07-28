@@ -1,0 +1,52 @@
+[
+  {
+    "customerId_*number": 1045300,
+    "transactionsData_0.reasonCode_*string": "Duplicate Transaction",
+    "transactionsData_0.transactionId_*number": 987654321,
+    "transactionsData_1.reasonCode_*string": "Unauthorized Charge",
+    "transactionsData_1.transactionId_*number": 123456789,
+    "emailId_*string": "John@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "customerId_*number": 9999999,
+    "transactionsData_0.reasonCode_*string": "Invalid Code",
+    "transactionsData_0.transactionId_*number": 111111111,
+    "transactionsData_1.reasonCode_*string": "Invalid Code",
+    "transactionsData_1.transactionId_*number": 222222222,
+    "emailId_*string": "invalid_email",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 8888888,
+    "transactionsData_0.reasonCode_*string": "Not Found",
+    "transactionsData_0.transactionId_*number": 333333333,
+    "transactionsData_1.reasonCode_*string": "Not Found",
+    "transactionsData_1.transactionId_*number": 444444444,
+    "emailId_*string": "not_found@example.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_*number": 1045301,
+    "transactionsData_0.reasonCode_*string": "Fraudulent Transaction",
+    "transactionsData_0.transactionId_*number": 555555555,
+    "transactionsData_1.reasonCode_*string": "Incorrect Amount",
+    "transactionsData_1.transactionId_*number": 666666666,
+    "emailId_*string": "JaneDoe@gmail.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "customerId_*number": 7777777,
+    "transactionsData_0.reasonCode_*string": "Invalid Transaction",
+    "transactionsData_0.transactionId_*number": 777777777,
+    "transactionsData_1.reasonCode_*string": "Invalid Transaction",
+    "transactionsData_1.transactionId_*number": 888888888,
+    "emailId_*string": "invalid_user@example.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
