@@ -1,0 +1,12 @@
+searchString
+hello world^|^
+test123^|^
+^|^
+query parameter^|^
+SELECT * FROM users;^|^
+John's data^|^
+complex/search\query^|^
+api/v1/search?q=test^|^
+^|^
+特殊字符测试^|^
+a very long search string that contains multiple words and might be used to test the system's handling of lengthy inputs with various characters 123!@#^|^
