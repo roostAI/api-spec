@@ -1,0 +1,52 @@
+[
+  {
+    "customerId_*number": 1045300,
+    "sourceAccountId_*string": "1042345",
+    "amount_*string": "1042222",
+    "currency_*string": "USD",
+    "image.frontImage_*string": "front_image_01.jpg",
+    "image.backImage_*string": "back_image_01.jpg",
+    "statusCode": 200,
+    "scenario": "Deposit success"
+  },
+  {
+    "customerId_*number": 9999999,
+    "sourceAccountId_*string": "invalid_account",
+    "amount_*string": "invalid_amount",
+    "currency_*string": "XYZ",
+    "image.frontImage_*string": "invalid_front_image.jpg",
+    "image.backImage_*string": "invalid_back_image.jpg",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 1234567,
+    "sourceAccountId_*string": "nonexistent_account",
+    "amount_*string": "nonexistent_amount",
+    "currency_*string": "ABC",
+    "image.frontImage_*string": "nonexistent_front_image.jpg",
+    "image.backImage_*string": "nonexistent_back_image.jpg",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_*number": 1045301,
+    "sourceAccountId_*string": "1042346",
+    "amount_*string": "1042223",
+    "currency_*string": "EUR",
+    "image.frontImage_*string": "front_image_02.jpg",
+    "image.backImage_*string": "back_image_02.jpg",
+    "statusCode": 200,
+    "scenario": "Deposit success"
+  },
+  {
+    "customerId_*number": 1045302,
+    "sourceAccountId_*string": "1042347",
+    "amount_*string": "1042224",
+    "currency_*string": "GBP",
+    "image.frontImage_*string": "front_image_03.jpg",
+    "image.backImage_*string": "back_image_03.jpg",
+    "statusCode": 200,
+    "scenario": "Deposit success"
+  }
+]
