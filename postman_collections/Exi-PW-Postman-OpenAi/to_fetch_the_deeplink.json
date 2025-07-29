@@ -1,0 +1,32 @@
+[
+  {
+    "usecase_0_*string": "UserLogin",
+    "usecase_1_*string": "https://api.example.com/login",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "usecase_0_*string": "UserProfile",
+    "usecase_1_*string": "https://api.example.com/user/profile",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "usecase_0_*string": "InvalidEndpoint",
+    "usecase_1_*string": "https://api.example.com/invalid",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "usecase_0_*string": "UnauthorizedAccess",
+    "usecase_1_*string": "https://api.example.com/secure/data",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "usecase_0_*string": "FetchData",
+    "usecase_1_*string": "https://api.example.com/data/fetch",
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]
