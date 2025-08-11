@@ -1,0 +1,32 @@
+[
+  {
+    "usecase_0_*string": "addbeneficiary",
+    "usecase_1_*string": "www.google.com",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "usecase_0_*string": "irure enim non do",
+    "usecase_1_*string": "www.example.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "usecase_0_*string": "randomstring",
+    "usecase_1_*string": "www.random.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "usecase_0_*string": "anotherstring",
+    "usecase_1_*string": "www.another.com",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "usecase_0_*string": "yetanotherstring",
+    "usecase_1_*string": "www.yetanother.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

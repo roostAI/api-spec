@@ -1,0 +1,44 @@
+[
+  {
+    "customerId": 1045300,
+    "status": "consectetur voluptate velit",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "customerId": 1045301,
+    "status": "Excepteur ad cillu",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "customerId": 1045302,
+    "status": "culpa",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "customerId": 1045303,
+    "status": "cillum magna labore consequa",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045304,
+    "status": "aliquip",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045305,
+    "status": "aliqua proident elit",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045306,
+    "status": "commodo veniam ex",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

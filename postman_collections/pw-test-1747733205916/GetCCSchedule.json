@@ -1,0 +1,56 @@
+[
+  {
+    "customerId": 1045300,
+    "status": "Active",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "customerId": 1045301,
+    "status": "Inactive",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "customerId": 1045302,
+    "status": "Pending",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "customerId": 1045303,
+    "status": "Active",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045304,
+    "status": "Inactive",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045305,
+    "status": "Pending",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045306,
+    "status": "Active",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045307,
+    "status": "Inactive",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045308,
+    "status": "Pending",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
