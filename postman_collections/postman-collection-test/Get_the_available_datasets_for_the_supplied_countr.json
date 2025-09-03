@@ -1,0 +1,27 @@
+[
+  {
+    "country_iso": "USA",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso": "CAN",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso": "GBR",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso": "XYZ",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "country_iso": "123",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]

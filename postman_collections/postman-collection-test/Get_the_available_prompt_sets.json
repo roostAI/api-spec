@@ -1,0 +1,42 @@
+[
+  {
+    "country_iso_*string": "US",
+    "datasets_0_*string": "dataset_alpha",
+    "search_type_*string": "full_text",
+    "prompt_set_*string": "default_prompts",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "GB",
+    "datasets_0_*string": "dataset_beta",
+    "search_type_*string": "partial_text",
+    "prompt_set_*string": "custom_prompts",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "FR",
+    "datasets_0_*string": "dataset_gamma",
+    "search_type_*string": "exact_match",
+    "prompt_set_*string": "advanced_prompts",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "XYZ",
+    "datasets_0_*string": "invalid_dataset",
+    "search_type_*string": "unknown_type",
+    "prompt_set_*string": "invalid_prompts",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "country_iso_*string": "ZZ",
+    "datasets_0_*string": "dataset_invalid",
+    "search_type_*string": "none",
+    "prompt_set_*string": "none",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]
