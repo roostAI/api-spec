@@ -1,0 +1,32 @@
+[
+  {
+    "country_iso_*string": "USA",
+    "datasets_0_*string": "population_data",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "GBR",
+    "datasets_0_*string": "economic_indicators",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "FRA",
+    "datasets_0_*string": "health_statistics",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "XYZ",
+    "datasets_0_*string": "invalid_dataset",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "country_iso_*string": "123",
+    "datasets_0_*string": "123",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]

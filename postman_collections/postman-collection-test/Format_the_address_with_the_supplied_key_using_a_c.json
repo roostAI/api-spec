@@ -1,0 +1,37 @@
+[
+  {
+    "global_address_key": "QVVTfjcuNzMwak9BVVNIQXpsQndBQUFBQUJBd0VBQUFBQk9uQ09FWUFoQUFJUUNDQUFBQUFBQVFBMk5UUTVBRFlBQVAuLlFnQUFBQUQuLi4uLkFBQUFBQUFBQUFBQUFBQUFBQUFBVENBMk5UUTVJRk4wSUV0cGJHUmhJRkprSURVME9RQUFBQUFBfjIy",
+    "layouts_0_*string": "Standard Layout",
+    "layout_format_*string": "PDF",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "global_address_key": "INVALID_KEY",
+    "layouts_0_*string": "Invalid Layout",
+    "layout_format_*string": "TXT",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "global_address_key": "QVVTfjcuNzMwak9BVVNIQXpsQndBQUFBQUJBd0VBQUFBQk9uQ09FWUFoQUFJUUNDQUFBQUFBQVFBMk5UUTVBRFlBQVAuLlFnQUFBQUQuLi4uLkFBQUFBQUFBQUFBQUFBQUFBQUFBVENBMk5UUTVJRk4wSUV0cGJHUmhJRkprSURVME9RQUFBQUFBfjIy",
+    "layouts_0_*string": "Advanced Layout",
+    "layout_format_*string": "DOCX",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "global_address_key": "1234567890",
+    "layouts_0_*string": "Test Layout",
+    "layout_format_*string": "HTML",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  },
+  {
+    "global_address_key": "QVVTfjcuNzMwak9BVVNIQXpsQndBQUFBQUJBd0VBQUFBQk9uQ09FWUFoQUFJUUNDQUFBQUFBQVFBMk5UUTVBRFlBQVAuLlFnQUFBQUQuLi4uLkFBQUFBQUFBQUFBQUFBQUFBQUFBVENBMk5UUTVJRk4wSUV0cGJHUmhJRkprSURVME9RQUFBQUFBfjIy",
+    "layouts_0_*string": "Custom Layout",
+    "layout_format_*string": "JPEG",
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "country_iso_*string": "US",
+    "datasets_0_*string": "demographics",
+    "key.type_*string": "primary",
+    "key.value_*number": 12345,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "GB",
+    "datasets_0_*string": "financial",
+    "key.type_*string": "secondary",
+    "key.value_*number": 67890,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "CA",
+    "datasets_0_*string": "geolocation",
+    "key.type_*string": "tertiary",
+    "key.value_*number": 54321,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "XX",
+    "datasets_0_*string": "invalid_data",
+    "key.type_*string": "unknown",
+    "key.value_*number": -1,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "country_iso_*string": "ZZ",
+    "datasets_0_*string": "test_data",
+    "key.type_*string": "invalid",
+    "key.value_*number": 0,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]

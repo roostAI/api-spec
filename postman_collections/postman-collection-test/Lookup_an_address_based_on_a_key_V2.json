@@ -1,0 +1,47 @@
+[
+  {
+    "country_iso_*string": "GB",
+    "max_addresses_*number": 5,
+    "datasets_0_*string": "GBR_PAF",
+    "key.type_*string": "global_address_key",
+    "key.value_*string": "aWQ9NDMgTWF0bG9jayBDb3VydCwgQ29wbGV5IENsb3NlLCBMb25kb24sIFc3IDFFQiwgVW5pdGVkIEtpbmdkb21-YWx0X2tleT01NjE0NDI1Nn5kYXRhc2V0PUdCUl9QQUZ-Zm9ybWF0X2tleT1HQlIkZ2ItYWRkcmVzcyQxNGMzYzg4Ny0wMzI2LTRlZDEtYjJhZi00ZGRkYTk3YzI1MDIkJCQ",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "US",
+    "max_addresses_*number": 10,
+    "datasets_0_*string": "USA_PAF",
+    "key.type_*string": "global_address_key",
+    "key.value_*string": "invalid_key_value",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "country_iso_*string": "CA",
+    "max_addresses_*number": 3,
+    "datasets_0_*string": "CAN_PAF",
+    "key.type_*string": "global_address_key",
+    "key.value_*string": "another_invalid_key",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  },
+  {
+    "country_iso_*string": "AU",
+    "max_addresses_*number": 7,
+    "datasets_0_*string": "AUS_PAF",
+    "key.type_*string": "global_address_key",
+    "key.value_*string": "yet_another_invalid_key",
+    "statusCode": 500,
+    "scenario": "Internal Server Error"
+  },
+  {
+    "country_iso_*string": "FR",
+    "max_addresses_*number": 8,
+    "datasets_0_*string": "FRA_PAF",
+    "key.type_*string": "global_address_key",
+    "key.value_*string": "valid_key_value",
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]
