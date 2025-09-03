@@ -1,0 +1,27 @@
+[
+  {
+    "sandboxPayload": "ValidPayload123",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "sandboxPayload": "InvalidPayload!",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "sandboxPayload": "AnotherValidPayload456",
+    "statusCode": 201,
+    "scenario": "Resource Created"
+  },
+  {
+    "sandboxPayload": "FaultyPayload@",
+    "statusCode": 422,
+    "scenario": "Unprocessable Entity"
+  },
+  {
+    "sandboxPayload": "YetAnotherValidPayload789",
+    "statusCode": 204,
+    "scenario": "No Content"
+  }
+]
