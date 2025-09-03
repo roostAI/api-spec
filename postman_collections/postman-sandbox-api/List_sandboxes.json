@@ -1,0 +1,32 @@
+[
+  {
+    "property": "propertyValue1",
+    "orderBy": "ascending",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "property": "propertyValue2",
+    "orderBy": "descending",
+    "statusCode": 201,
+    "scenario": "Created"
+  },
+  {
+    "property": "invalidProperty",
+    "orderBy": "invalidOrder",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "property": "anotherInvalidProperty",
+    "orderBy": "wrongOrder",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  },
+  {
+    "property": "yetAnotherInvalidProperty",
+    "orderBy": "none",
+    "statusCode": 500,
+    "scenario": "Internal Server Error"
+  }
+]
