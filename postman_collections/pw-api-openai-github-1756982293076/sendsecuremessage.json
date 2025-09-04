@@ -1,0 +1,44 @@
+[
+  {
+    "authType_*string": "Authorized",
+    "firstName_*string": "James",
+    "lastName_*string": "William",
+    "email_*string": "John@gmail.com",
+    "phoneNumber_*number": 9787643445,
+    "topic_*string": "Routing and Account Number",
+    "message_*string": "Unable to find my routing number.",
+    "availableTime_*string": "nighttime",
+    "chatHistory_*string": "html formatted message sent as string",
+    "cif_*number": 1045310,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "authType_*string": "Unauthorized",
+    "firstName_*string": "InvalidName",
+    "lastName_*string": "InvalidLastName",
+    "email_*string": "InvalidEmail@gmail.com",
+    "phoneNumber_*number": 1234567890,
+    "topic_*string": "Invalid Topic",
+    "message_*string": "Invalid message.",
+    "availableTime_*string": "InvalidTime",
+    "chatHistory_*string": "Invalid chat history.",
+    "cif_*number": 1234567,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "authType_*string": "Authorized",
+    "firstName_*string": "NotFound",
+    "lastName_*string": "NotFound",
+    "email_*string": "NotFound@gmail.com",
+    "phoneNumber_*number": 9876543210,
+    "topic_*string": "NotFound",
+    "message_*string": "NotFound.",
+    "availableTime_*string": "NotFound",
+    "chatHistory_*string": "NotFound",
+    "cif_*number": 7654321,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
