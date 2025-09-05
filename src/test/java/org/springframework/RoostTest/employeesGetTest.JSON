@@ -1,0 +1,58 @@
+[
+    {
+        "testCaseID": "TC001",
+        "description": "Test login functionality with valid credentials",
+        "input": {
+            "username": "validUser",
+            "password": "validPass123"
+        },
+        "expectedOutput": "Login successful",
+        "actualOutput": "",
+        "status": "Pending"
+    },
+    {
+        "testCaseID": "TC002",
+        "description": "Test login functionality with invalid credentials",
+        "input": {
+            "username": "invalidUser",
+            "password": "wrongPass"
+        },
+        "expectedOutput": "Login failed",
+        "actualOutput": "",
+        "status": "Pending"
+    },
+    {
+        "testCaseID": "TC003",
+        "description": "Test password reset functionality",
+        "input": {
+            "email": "user@example.com"
+        },
+        "expectedOutput": "Password reset link sent",
+        "actualOutput": "",
+        "status": "Pending"
+    },
+    {
+        "testCaseID": "TC004",
+        "description": "Test user registration with valid data",
+        "input": {
+            "username": "newUser",
+            "email": "newuser@example.com",
+            "password": "newPass123"
+        },
+        "expectedOutput": "Registration successful",
+        "actualOutput": "",
+        "status": "Pending"
+    },
+    {
+        "testCaseID": "TC005",
+        "description": "Test user registration with existing email",
+        "input": {
+            "username": "anotherUser",
+            "email": "existinguser@example.com",
+            "password": "anotherPass123"
+        },
+        "expectedOutput": "Email already in use",
+        "actualOutput": "",
+        "status": "Pending"
+    }
+]
