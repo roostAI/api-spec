@@ -1,0 +1,47 @@
+[
+  {
+    "namespace": "eu",
+    "repository": "app-backend",
+    "immutable_tags_*boolean": false,
+    "immutable_tags_rules_0_*string": "mollit et",
+    "immutable_tags_rules_1_*string": "officia reprehenderit esse",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "namespace": "eu invalid!",
+    "repository": "-bad repo",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "***",
+    "immutable_tags_rules_1_*string": "[invalid regex(",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "namespace": "eu",
+    "repository": "private/repo",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "latest",
+    "immutable_tags_rules_1_*string": "release-*",
+    "statusCode": 401,
+    "scenario": "Unauthorized"
+  },
+  {
+    "namespace": "acme-corp",
+    "repository": "Internal Tools",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "v1.*",
+    "immutable_tags_rules_1_*string": "rc-*",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  },
+  {
+    "namespace": "ghost#org",
+    "repository": "???repo???",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "stable",
+    "immutable_tags_rules_1_*string": "prod-*",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  }
+]
