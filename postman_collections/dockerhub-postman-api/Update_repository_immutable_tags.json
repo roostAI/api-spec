@@ -1,0 +1,47 @@
+[
+  {
+    "namespace": "acmeinc",
+    "repository": "payments-api",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "release-*",
+    "immutable_tags_rules_1_*string": "v1.*",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "namespace": "ACME INC!",
+    "repository": "bad repo!",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "[invalid",
+    "immutable_tags_rules_1_*string": "v1**",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "namespace": "privateOrg",
+    "repository": "Secrets",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "latest??",
+    "immutable_tags_rules_1_*string": "beta(1",
+    "statusCode": 401,
+    "scenario": "Unauthorized"
+  },
+  {
+    "namespace": "root",
+    "repository": "admin$tools",
+    "immutable_tags_*boolean": false,
+    "immutable_tags_rules_0_*string": "protected/*",
+    "immutable_tags_rules_1_*string": "prod-{",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  },
+  {
+    "namespace": "missing-namespace!",
+    "repository": "ghost#image",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "v9.*",
+    "immutable_tags_rules_1_*string": "rc[]",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  }
+]
