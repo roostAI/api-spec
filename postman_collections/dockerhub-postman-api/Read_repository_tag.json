@@ -1,0 +1,37 @@
+[
+  {
+    "namespace": "sed",
+    "repository": "dolore-ipsum-cillum",
+    "tag": "v2.0.0",
+    "statusCode": 200,
+    "scenario": "repository tag"
+  },
+  {
+    "namespace": "library",
+    "repository": "nginx",
+    "tag": "1.25.4-alpine",
+    "statusCode": 200,
+    "scenario": "repository tag"
+  },
+  {
+    "namespace": "private_org",
+    "repository": "Internal$Service",
+    "tag": "latest",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  },
+  {
+    "namespace": "ghostcorp",
+    "repository": "phantom-app",
+    "tag": "0.0.0-nonexistent",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  },
+  {
+    "namespace": "docker",
+    "repository": "engine",
+    "tag": "latest/bad tag",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  }
+]
