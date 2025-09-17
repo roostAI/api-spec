@@ -1,0 +1,47 @@
+[
+  {
+    "namespace": "acmeinc",
+    "repository": "payments-api",
+    "immutable_tags_*boolean": false,
+    "immutable_tags_rules_0_*string": "release-*",
+    "immutable_tags_rules_1_*string": "v1.*",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "namespace": "ACME INC",
+    "repository": "Payments API!",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "[unclosed",
+    "immutable_tags_rules_1_*string": "??",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "namespace": "private//org",
+    "repository": "secured-repo$",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "***",
+    "immutable_tags_rules_1_*string": "(invalid",
+    "statusCode": 401,
+    "scenario": "Unauthorized"
+  },
+  {
+    "namespace": "-root",
+    "repository": "admin@control",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "tags with spaces",
+    "immutable_tags_rules_1_*string": "<forbidden>",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  },
+  {
+    "namespace": "no_such@org",
+    "repository": "../missing",
+    "immutable_tags_*boolean": false,
+    "immutable_tags_rules_0_*string": "??not-found??",
+    "immutable_tags_rules_1_*string": "v999999999999999999999",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  }
+]
