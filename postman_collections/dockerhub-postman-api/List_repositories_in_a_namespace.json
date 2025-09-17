@@ -1,0 +1,42 @@
+[
+  {
+    "page": "1",
+    "name": "highland_builder",
+    "ordering": "-last_updated",
+    "namespace": "docker",
+    "statusCode": 200,
+    "scenario": "List of repositories"
+  },
+  {
+    "page": "abc",
+    "name": "invalid/name",
+    "ordering": "!!bad!!",
+    "namespace": "Invalid Namespace!",
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid request parameters"
+  },
+  {
+    "page": "-2",
+    "name": "??unauth??",
+    "ordering": "DROP TABLE",
+    "namespace": "Dock.er!",
+    "statusCode": 401,
+    "scenario": "Unauthorized"
+  },
+  {
+    "page": "0",
+    "name": "forbidden*repo",
+    "ordering": "unknown_field",
+    "namespace": "root/admin",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  },
+  {
+    "page": "9999",
+    "name": "highland_builder",
+    "ordering": "-last_updated",
+    "namespace": "docker",
+    "statusCode": 404,
+    "scenario": "Page not found - occurs when requesting a page number \">1\" that exceeds the available results"
+  }
+]

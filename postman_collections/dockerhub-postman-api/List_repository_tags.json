@@ -1,0 +1,37 @@
+[
+  {
+    "page": "1",
+    "namespace": "library",
+    "repository": "nginx",
+    "statusCode": 200,
+    "scenario": "list repository tags"
+  },
+  {
+    "page": "3",
+    "namespace": "hashicorp",
+    "repository": "terraform",
+    "statusCode": 200,
+    "scenario": "list repository tags"
+  },
+  {
+    "page": "1",
+    "namespace": "acme-corp",
+    "repository": "payments/api",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  },
+  {
+    "page": "2",
+    "namespace": "ghost org",
+    "repository": "nginx??",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  },
+  {
+    "page": "999",
+    "namespace": "private-team",
+    "repository": "secrets$vault",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  }
+]
