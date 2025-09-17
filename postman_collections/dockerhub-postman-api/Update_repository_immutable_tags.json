@@ -1,0 +1,47 @@
+[
+  {
+    "namespace": "acmeinc",
+    "repository": "billing-service",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "regex:^v\\d+\\.\\d+\\.\\d+$",
+    "immutable_tags_rules_1_*string": "exact:stable",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "namespace": "acmeinc",
+    "repository": "bad repo!",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "regex:[unclosed",
+    "immutable_tags_rules_1_*string": "exact:",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "namespace": "library",
+    "repository": "postgres",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "regex:^v\\d+\\.\\d+$",
+    "immutable_tags_rules_1_*string": "exact:production",
+    "statusCode": 401,
+    "scenario": "Unauthorized"
+  },
+  {
+    "namespace": "thirdparty",
+    "repository": "restricted-repo",
+    "immutable_tags_*boolean": false,
+    "immutable_tags_rules_0_*string": "exact:latest",
+    "immutable_tags_rules_1_*string": "regex:^dev-.*$",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  },
+  {
+    "namespace": "ghost-org",
+    "repository": "no-such-repo",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "regex:^v\\d+\\.\\d+\\.\\d+$",
+    "immutable_tags_rules_1_*string": "exact:stable",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  }
+]
