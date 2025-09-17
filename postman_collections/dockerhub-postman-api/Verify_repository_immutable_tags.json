@@ -1,0 +1,37 @@
+[
+  {
+    "namespace": "acme",
+    "repository": "payments-service",
+    "regex_*string": "v.*",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "namespace": "ACME INC",
+    "repository": "web app!",
+    "regex_*string": "[",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "namespace": "Ωmega-labs",
+    "repository": "backend@prod",
+    "regex_*string": "(?P<",
+    "statusCode": 401,
+    "scenario": "Unauthorized"
+  },
+  {
+    "namespace": "root",
+    "repository": "admin/repo",
+    "regex_*string": "(?:",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  },
+  {
+    "namespace": "..",
+    "repository": "..",
+    "regex_*string": "*",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  }
+]
