@@ -1,0 +1,577 @@
+{
+  "item": [
+    {
+      "name": "v2",
+      "item": [
+        {
+          "name": "users",
+          "item": [
+            null,
+            null
+          ],
+          "event": []
+        },
+        null,
+        {
+          "name": "access-tokens",
+          "item": [
+            null,
+            null,
+            {
+              "name": "{uuid}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "name": "auditlogs/{account}",
+          "item": [
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "name": "orgs",
+          "item": [
+            {
+              "name": "{name}",
+              "item": [
+                {
+                  "name": "settings",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "name": "access-tokens",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "name": "{org_name}",
+              "item": [
+                {
+                  "name": "access-tokens/{access_token_id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "name": "members",
+                  "item": [
+                    null,
+                    null,
+                    {
+                      "name": "{username}",
+                      "item": [
+                        null,
+                        null
+                      ],
+                      "event": []
+                    }
+                  ],
+                  "event": []
+                },
+                null,
+                {
+                  "name": "groups",
+                  "item": [
+                    null,
+                    null,
+                    {
+                      "name": "{group_name}",
+                      "item": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        {
+                          "name": "members",
+                          "item": [
+                            null,
+                            null,
+                            null
+                          ],
+                          "event": []
+                        }
+                      ],
+                      "event": []
+                    }
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "name": "namespaces/{namespace}/repositories",
+          "item": [
+            {
+              "name": "List repositories in a namespace",
+              "request": {
+                "name": "List repositories in a namespace",
+                "description": {
+                  "content": "Returns a list of repositories within the specified namespace (organization or user).\n\nPublic repositories are accessible to everyone, while private repositories require appropriate authentication and permissions.",
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "v2",
+                    "namespaces",
+                    ":namespace",
+                    "repositories"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "disabled": false,
+                      "key": "page",
+                      "value": "{{page}}",
+                      "description": "Page number to get. Defaults to 1."
+                    },
+                    {
+                      "disabled": false,
+                      "key": "page_size",
+                      "value": "{{page_size}}",
+                      "description": "Number of repositories to get per page. Defaults to 10. Max of 100."
+                    },
+                    {
+                      "disabled": false,
+                      "key": "name",
+                      "value": "{{name}}",
+                      "description": "Filter repositories by name (partial match)."
+                    },
+                    {
+                      "disabled": false,
+                      "key": "ordering",
+                      "value": "{{ordering}}",
+                      "description": "Order repositories by the specified field. Prefix with '-' for descending order.\nAvailable options:\n- `name` / `-name`: Repository name (ascending/descending)\n- `last_updated` / `-last_updated`: Last update time (ascending/descending)\n- `pull_count` / `-pull_count`: Number of pulls (ascending/descending)"
+                    }
+                  ],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "{{namespace}}",
+                      "key": "namespace",
+                      "description": "(Required)"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{bearerToken}}"
+                    }
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "List of repositories",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "v2",
+                        "namespaces",
+                        ":namespace",
+                        "repositories"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "page",
+                          "value": "{{page}}"
+                        },
+                        {
+                          "key": "page_size",
+                          "value": "{{page_size}}"
+                        },
+                        {
+                          "key": "name",
+                          "value": "{{name}}"
+                        },
+                        {
+                          "key": "ordering",
+                          "value": "{{ordering}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{namespace}}",
+                          "key": "namespace",
+                          "description": "(Required)"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "{{Authorization}}"
+                      },
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"count\": 287,\n  \"next\": \"https://hub.docker.com/v2/namespaces/docker/repositories?page=2&page_size=2\",\n  \"previous\": null,\n  \"results\": [\n    {\n      \"name\": \"highland_builder\",\n      \"namespace\": \"docker\",\n      \"repository_type\": \"image\",\n      \"status\": 1,\n      \"status_description\": \"active\",\n      \"description\": \"Image for performing Docker build requests\",\n      \"is_private\": false,\n      \"star_count\": 7,\n      \"pull_count\": 15722123,\n      \"last_updated\": \"2023-06-20T10:44:45.459826Z\",\n      \"last_modified\": \"2024-10-16T13:48:34.145251Z\",\n      \"date_registered\": \"2015-05-19T21:13:35.937763Z\",\n      \"affiliation\": \"\",\n      \"media_types\": [\n        \"application/octet-stream\",\n        \"application/vnd.docker.container.image.v1+json\",\n        \"application/vnd.docker.distribution.manifest.v1+prettyjws\"\n      ],\n      \"content_types\": [\n        \"unrecognized\",\n        \"image\"\n      ],\n      \"categories\": [\n        {\n          \"name\": \"Languages & frameworks\",\n          \"slug\": \"languages-and-frameworks\"\n        },\n        {\n          \"name\": \"Integration & delivery\",\n          \"slug\": \"integration-and-delivery\"\n        },\n        {\n          \"name\": \"Operating systems\",\n          \"slug\": \"operating-systems\"\n        }\n      ],\n      \"storage_size\": 488723114800\n    },\n    {\n      \"name\": \"whalesay\",\n      \"namespace\": \"docker\",\n      \"repository_type\": null,\n      \"status\": 1,\n      \"status_description\": \"active\",\n      \"description\": \"An image for use in the Docker demo tutorial\",\n      \"is_private\": false,\n      \"star_count\": 757,\n      \"pull_count\": 130737682,\n      \"last_updated\": \"2015-06-19T19:06:27.388123Z\",\n      \"last_modified\": \"2024-10-16T13:48:34.145251Z\",\n      \"date_registered\": \"2015-06-09T18:16:36.527329Z\",\n      \"affiliation\": \"\",\n      \"media_types\": [\n        \"application/vnd.docker.distribution.manifest.v1+prettyjws\"\n      ],\n      \"content_types\": [\n        \"image\"\n      ],\n      \"categories\": [\n        {\n          \"name\": \"Languages & frameworks\",\n          \"slug\": \"languages-and-frameworks\"\n        },\n        {\n          \"name\": \"Integration & delivery\",\n          \"slug\": \"integration-and-delivery\"\n        }\n      ],\n      \"storage_size\": 103666708\n    }\n  ]\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "name": "Bad Request - Invalid request parameters",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "v2",
+                        "namespaces",
+                        ":namespace",
+                        "repositories"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "page",
+                          "value": "{{page}}"
+                        },
+                        {
+                          "key": "page_size",
+                          "value": "{{page_size}}"
+                        },
+                        {
+                          "key": "name",
+                          "value": "{{name}}"
+                        },
+                        {
+                          "key": "ordering",
+                          "value": "{{ordering}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{namespace}}",
+                          "key": "namespace",
+                          "description": "(Required)"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "{{Authorization}}"
+                      },
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Bad Request",
+                  "code": 400,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"fields\": {\n    \"ordering\": [\n      \"Invalid ordering value. Must be one of: name, -name, last_updated, -last_updated, pull_count, -pull_count\"\n    ]\n  },\n  \"text\": \"Invalid ordering value\"\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "name": "Unauthorized",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "v2",
+                        "namespaces",
+                        ":namespace",
+                        "repositories"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "page",
+                          "value": "{{page}}"
+                        },
+                        {
+                          "key": "page_size",
+                          "value": "{{page_size}}"
+                        },
+                        {
+                          "key": "name",
+                          "value": "{{name}}"
+                        },
+                        {
+                          "key": "ordering",
+                          "value": "{{ordering}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{namespace}}",
+                          "key": "namespace",
+                          "description": "(Required)"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "{{Authorization}}"
+                      },
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Unauthorized",
+                  "code": 401,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"errinfo\": {},\n  \"detail\": \"string\",\n  \"message\": \"string\"\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "name": "Forbidden",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "v2",
+                        "namespaces",
+                        ":namespace",
+                        "repositories"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "page",
+                          "value": "{{page}}"
+                        },
+                        {
+                          "key": "page_size",
+                          "value": "{{page_size}}"
+                        },
+                        {
+                          "key": "name",
+                          "value": "{{name}}"
+                        },
+                        {
+                          "key": "ordering",
+                          "value": "{{ordering}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{namespace}}",
+                          "key": "namespace",
+                          "description": "(Required)"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "{{Authorization}}"
+                      },
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Forbidden",
+                  "code": 403,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"errinfo\": {},\n  \"detail\": \"string\",\n  \"message\": \"string\"\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "name": "Page not found - occurs when requesting a page number `>1` that exceeds the available results",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "v2",
+                        "namespaces",
+                        ":namespace",
+                        "repositories"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "page",
+                          "value": "{{page}}"
+                        },
+                        {
+                          "key": "page_size",
+                          "value": "{{page_size}}"
+                        },
+                        {
+                          "key": "name",
+                          "value": "{{name}}"
+                        },
+                        {
+                          "key": "ordering",
+                          "value": "{{ordering}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{namespace}}",
+                          "key": "namespace",
+                          "description": "(Required)"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "{{Authorization}}"
+                      },
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"errinfo\": {},\n  \"detail\": \"string\",\n  \"message\": \"string\"\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                }
+              ],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "exec": [
+                      " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test dockerhub-postman-api using AI Type Open AI and AI Model gpt-5\n\n\nTest generated for v2/namespaces/{namespace}/repositories?page={{page}}&page_size={{page_size}}&name={{name}}&ordering={{ordering}} for http method type get in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n         console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n      try {\n            responseData = pm.response.json();\n      } catch (error) {\n            console.log(\"Error parsing response:\", error.message);\n      }\n}\nif (pm.variables.get(\"statusCode\")) {\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\nif (pm.response.code == 200){\n    pm.test(\"List of repositories\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"OK\");\n        pm.test(\"Response has Content-Type header\", function () {\n            try {\n                pm.response.to.have.header(\"Content-Type\");\n            } catch (error) {\n                console.error('Error checking Content-Type header:', error.message);\n            }\n        });\n        pm.test(\"Content-Type is application/json\", function () {\n            try {\n                pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n            } catch (error) {\n                console.error('Error validating JSON Content-Type:', error.message);\n            }\n        });\n        pm.test(\"Response object structure validation\", function () {\n            try {\n                if (responseData !== null && responseData !== undefined) {\n        pm.test('Response has the `count` field',function(){\n            try {\n                if (responseData && pm.expect(responseData).to.have.nested.property(`count`)) {\n                    const value = ld.get(responseData, `count`, null);\n                    if (value !== null && value !== undefined) {\n                        pm.expect(typeof value).to.equal(\"number\");\n                    }\n                }\n            } catch (error) {\n                console.log(\"Error checking number field count:\", error.message);\n            }\n        })\n  \n        pm.test('count maximum value validation', function(){\n            try {\n                const value = ld.get(pm.response.json(), `count`, null);\n                if (value !== null && value !== undefined && typeof value === 'number') {\n                    pm.expect(value).to.be.at.most(1287);\n                }\n            } catch (error) {\n                console.log(\"Error checking maximum for count:\", error.message);\n            }\n        })\n  \n        pm.test('count minimum value validation', function(){\n            try {\n                const value = ld.get(pm.response.json(), `count`, null);\n                if (value !== null && value !== undefined && typeof value === 'number') {\n                    pm.expect(value).to.be.at.least(-713);\n                }\n            } catch (error) {\n                console.log(\"Error checking minimum for count:\", error.message);\n            }\n        })\n\n        pm.test('Response has the `next` field',function(){\n            try {\n                const jsonResponse = pm.response.json();\n                if (jsonResponse && pm.expect(jsonResponse).to.have.nested.property(`next`)) {\n                    const value = ld.get(jsonResponse, `next`, null);\n                    if (value !== null && value !== undefined) {\n                        pm.expect(typeof value).to.equal(\"string\");\n                    }\n                }\n            } catch (error) {\n                console.log(\"Error checking string field next:\", error.message);\n            }\n        })\n  \n        pm.test(`next length to be atmost '1000'`,function(){\n            try {\n                const value = ld.get(responseData, `next`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.most(1000);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxLength for next:\", error.message);\n            }\n        })\n  \n        pm.test(`next length to be alteast '0'`,function(){\n            try {\n                const value = ld.get(responseData, `next`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minLength for next:\", error.message);\n            }\n        })\n  \n        pm.test('next format to be url',function(){\n            try {\n                const value = ld.get(responseData, `next`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value).to.match(/^(https?|ftp)://[^s/$.?#].[^s]*$/);\n                }\n            } catch (error) {\n                console.log(\"Error checking URL format for next:\", error.message);\n            }\n        })\n\n        pm.test('Response has the `previous` field',function(){\n            try {\n                const jsonResponse = pm.response.json();\n                if (jsonResponse && pm.expect(jsonResponse).to.have.nested.property(`previous`)) {\n                    const value = ld.get(jsonResponse, `previous`, null);\n                    if (value !== null && value !== undefined) {\n                        pm.expect(typeof value).to.equal(\"null\");\n                    }\n                }\n            } catch (error) {\n                console.log(\"Error checking null field previous:\", error.message);\n            }\n        })\n\n        pm.test('Response has the `results` field',function(){\n            try {\n                const jsonResponse = pm.response.json();\n                if (jsonResponse && pm.expect(jsonResponse).to.have.nested.property(`results`)) {\n                    const value = ld.get(jsonResponse, `results`, null);\n                    if (value !== null && value !== undefined) {\n                        pm.expect(Array.isArray(value)).to.equal(true);\n                    }\n                }\n            } catch (error) {\n                console.log(\"Error checking array field results:\", error.message);\n            }\n        })\n  \n        pm.test(`results length to be atmost '100'`,function(){\n            try {\n                const value = ld.get(responseData, `results`, null);\n                if (value !== null && value !== undefined && Array.isArray(value)) {\n                    pm.expect(value.length).to.be.at.most(100);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxItems for results:\", error.message);\n            }\n        })\n  \n        pm.test(`results length to be atleast '100'`,function(){\n            try {\n                const value = ld.get(responseData, `results`, null);\n                if (value !== null && value !== undefined && Array.isArray(value)) {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minItems for results:\", error.message);\n            }\n        })\n\n        pm.test(`Each object in the results field has all the required fields`,function(){\n            try {\n                const jsonResponse = pm.response.json();\n                if (jsonResponse && pm.expect(jsonResponse).to.have.nested.property(`results`)) {\n                    let resultsArray = ld.get(jsonResponse, `results`, []);\n                    if (Array.isArray(resultsArray)) {\n                        for (let results_it = 0; results_it < resultsArray.length; results_it++) {\n                            let iterator = results_it;\n                            if (resultsArray[results_it] !== null && resultsArray[results_it] !== undefined) {\n                                \n        pm.test(`${iterator} element of array 'results[${results_it}].name' has 'name' as 'string'`, function(){ \n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].name`, null);\n                if (value !== null && value !== undefined) {\n                    pm.expect(typeof value).to.equal(\"string\");\n                }\n            } catch (error) {\n                console.log(\"Error checking string type for results[${results_it}].name:\", error.message);\n            }\n        })\n\n  \n        pm.test(`results[${results_it}].name length to be atmost '1000'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].name`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.most(1000);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxLength for results[${results_it}].name:\", error.message);\n            }\n        })\n  \n        pm.test(`results[${results_it}].name length to be alteast '0'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].name`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minLength for results[${results_it}].name:\", error.message);\n            }\n        })\n\n        pm.test(`${iterator} element of array 'results[${results_it}].namespace' has 'namespace' as 'string'`, function(){ \n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].namespace`, null);\n                if (value !== null && value !== undefined) {\n                    pm.expect(typeof value).to.equal(\"string\");\n                }\n            } catch (error) {\n                console.log(\"Error checking string type for results[${results_it}].namespace:\", error.message);\n            }\n        })\n\n  \n        pm.test(`results[${results_it}].namespace length to be atmost '1000'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].namespace`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.most(1000);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxLength for results[${results_it}].namespace:\", error.message);\n            }\n        })\n  \n        pm.test(`results[${results_it}].namespace length to be alteast '0'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].namespace`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minLength for results[${results_it}].namespace:\", error.message);\n            }\n        })\n\n        pm.test(`${iterator} element of array 'results[${results_it}].repository_type' has 'repository_type' as 'string'`, function(){ \n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].repository_type`, null);\n                if (value !== null && value !== undefined) {\n                    pm.expect(typeof value).to.equal(\"string\");\n                }\n            } catch (error) {\n                console.log(\"Error checking string type for results[${results_it}].repository_type:\", error.message);\n            }\n        })\n\n  \n        pm.test(`results[${results_it}].repository_type length to be atmost '1000'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].repository_type`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.most(1000);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxLength for results[${results_it}].repository_type:\", error.message);\n            }\n        })\n  \n        pm.test(`results[${results_it}].repository_type length to be alteast '0'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].repository_type`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minLength for results[${results_it}].repository_type:\", error.message);\n            }\n        })\n\n        pm.test(`${iterator} element of array 'resultsArray' has 'status' as number`, function(){ \n            try {\n                const value = ld.get(responseData, `results[${results_it}].status`, null);\n                if (value !== null && value !== undefined) {\n                    pm.expect(typeof value).to.equal(\"number\");\n                }\n            } catch (error) {\n                console.log(\"Error checking number type for results[${results_it}].status:\", error.message);\n            }\n        })\n  \n        pm.test('results[${results_it}].status maximum value validation', function(){\n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].status`, null);\n                if (value !== null && value !== undefined && typeof value === 'number') {\n                    pm.expect(value).to.be.at.most(1001);\n                }\n            } catch (error) {\n                console.log(\"Error checking maximum for results[${results_it}].status:\", error.message);\n            }\n        })\n  \n        pm.test('results[${results_it}].status minimum value validation', function(){\n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].status`, null);\n                if (value !== null && value !== undefined && typeof value === 'number') {\n                    pm.expect(value).to.be.at.least(-999);\n                }\n            } catch (error) {\n                console.log(\"Error checking minimum for results[${results_it}].status:\", error.message);\n            }\n        })\n\n        pm.test(`${iterator} element of array 'results[${results_it}].status_description' has 'status_description' as 'string'`, function(){ \n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].status_description`, null);\n                if (value !== null && value !== undefined) {\n                    pm.expect(typeof value).to.equal(\"string\");\n                }\n            } catch (error) {\n                console.log(\"Error checking string type for results[${results_it}].status_description:\", error.message);\n            }\n        })\n\n  \n        pm.test(`results[${results_it}].status_description length to be atmost '1000'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].status_description`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.most(1000);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxLength for results[${results_it}].status_description:\", error.message);\n            }\n        })\n  \n        pm.test(`results[${results_it}].status_description length to be alteast '0'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].status_description`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minLength for results[${results_it}].status_description:\", error.message);\n            }\n        })\n\n        pm.test(`${iterator} element of array 'results[${results_it}].description' has 'description' as 'string'`, function(){ \n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].description`, null);\n                if (value !== null && value !== undefined) {\n                    pm.expect(typeof value).to.equal(\"string\");\n                }\n            } catch (error) {\n                console.log(\"Error checking string type for results[${results_it}].description:\", error.message);\n            }\n        })\n\n  \n        pm.test(`results[${results_it}].description length to be atmost '1000'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].description`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.most(1000);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxLength for results[${results_it}].description:\", error.message);\n            }\n        })\n  \n        pm.test(`results[${results_it}].description length to be alteast '0'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].description`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minLength for results[${results_it}].description:\", error.message);\n            }\n        })\n\n        pm.test(`${iterator} element of array 'results[${results_it}].is_private' has 'is_private' as 'boolean'`, function(){ \n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].is_private`, null);\n                if (value !== null && value !== undefined) {\n                    pm.expect(typeof value).to.equal(\"boolean\");\n                }\n            } catch (error) {\n                console.log(\"Error checking boolean type for results[${results_it}].is_private:\", error.message);\n            }\n        })\n\n\n        pm.test(`${iterator} element of array 'resultsArray' has 'star_count' as number`, function(){ \n            try {\n                const value = ld.get(responseData, `results[${results_it}].star_count`, null);\n                if (value !== null && value !== undefined) {\n                    pm.expect(typeof value).to.equal(\"number\");\n                }\n            } catch (error) {\n                console.log(\"Error checking number type for results[${results_it}].star_count:\", error.message);\n            }\n        })\n  \n        pm.test('results[${results_it}].star_count maximum value validation', function(){\n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].star_count`, null);\n                if (value !== null && value !== undefined && typeof value === 'number') {\n                    pm.expect(value).to.be.at.most(1007);\n                }\n            } catch (error) {\n                console.log(\"Error checking maximum for results[${results_it}].star_count:\", error.message);\n            }\n        })\n  \n        pm.test('results[${results_it}].star_count minimum value validation', function(){\n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].star_count`, null);\n                if (value !== null && value !== undefined && typeof value === 'number') {\n                    pm.expect(value).to.be.at.least(-993);\n                }\n            } catch (error) {\n                console.log(\"Error checking minimum for results[${results_it}].star_count:\", error.message);\n            }\n        })\n\n        pm.test(`${iterator} element of array 'resultsArray' has 'pull_count' as number`, function(){ \n            try {\n                const value = ld.get(responseData, `results[${results_it}].pull_count`, null);\n                if (value !== null && value !== undefined) {\n                    pm.expect(typeof value).to.equal(\"number\");\n                }\n            } catch (error) {\n                console.log(\"Error checking number type for results[${results_it}].pull_count:\", error.message);\n            }\n        })\n  \n        pm.test('results[${results_it}].pull_count maximum value validation', function(){\n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].pull_count`, null);\n                if (value !== null && value !== undefined && typeof value === 'number') {\n                    pm.expect(value).to.be.at.most(31444246);\n                }\n            } catch (error) {\n                console.log(\"Error checking maximum for results[${results_it}].pull_count:\", error.message);\n            }\n        })\n\n        pm.test(`${iterator} element of array 'results[${results_it}].last_updated' has 'last_updated' as 'string'`, function(){ \n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].last_updated`, null);\n                if (value !== null && value !== undefined) {\n                    pm.expect(typeof value).to.equal(\"string\");\n                }\n            } catch (error) {\n                console.log(\"Error checking string type for results[${results_it}].last_updated:\", error.message);\n            }\n        })\n\n  \n        pm.test(`results[${results_it}].last_updated length to be atmost '1000'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].last_updated`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.most(1000);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxLength for results[${results_it}].last_updated:\", error.message);\n            }\n        })\n  \n        pm.test(`results[${results_it}].last_updated length to be alteast '0'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].last_updated`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minLength for results[${results_it}].last_updated:\", error.message);\n            }\n        })\n  \n        pm.test('results[${results_it}].last_updated format to be date-time',function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].last_updated`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value).to.match(/^d{4}-d{2}-d{2}T([01]d|2[0-3]):([0-5]d):([0-5]d)$/);\n                }\n            } catch (error) {\n                console.log(\"Error checking date-time format for results[${results_it}].last_updated:\", error.message);\n            }\n        })\n\n        pm.test(`${iterator} element of array 'results[${results_it}].last_modified' has 'last_modified' as 'string'`, function(){ \n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].last_modified`, null);\n                if (value !== null && value !== undefined) {\n                    pm.expect(typeof value).to.equal(\"string\");\n                }\n            } catch (error) {\n                console.log(\"Error checking string type for results[${results_it}].last_modified:\", error.message);\n            }\n        })\n\n  \n        pm.test(`results[${results_it}].last_modified length to be atmost '1000'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].last_modified`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.most(1000);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxLength for results[${results_it}].last_modified:\", error.message);\n            }\n        })\n  \n        pm.test(`results[${results_it}].last_modified length to be alteast '0'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].last_modified`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minLength for results[${results_it}].last_modified:\", error.message);\n            }\n        })\n  \n        pm.test('results[${results_it}].last_modified format to be date-time',function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].last_modified`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value).to.match(/^d{4}-d{2}-d{2}T([01]d|2[0-3]):([0-5]d):([0-5]d)$/);\n                }\n            } catch (error) {\n                console.log(\"Error checking date-time format for results[${results_it}].last_modified:\", error.message);\n            }\n        })\n\n        pm.test(`${iterator} element of array 'results[${results_it}].date_registered' has 'date_registered' as 'string'`, function(){ \n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].date_registered`, null);\n                if (value !== null && value !== undefined) {\n                    pm.expect(typeof value).to.equal(\"string\");\n                }\n            } catch (error) {\n                console.log(\"Error checking string type for results[${results_it}].date_registered:\", error.message);\n            }\n        })\n\n  \n        pm.test(`results[${results_it}].date_registered length to be atmost '1000'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].date_registered`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.most(1000);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxLength for results[${results_it}].date_registered:\", error.message);\n            }\n        })\n  \n        pm.test(`results[${results_it}].date_registered length to be alteast '0'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].date_registered`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minLength for results[${results_it}].date_registered:\", error.message);\n            }\n        })\n  \n        pm.test('results[${results_it}].date_registered format to be date-time',function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].date_registered`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value).to.match(/^d{4}-d{2}-d{2}T([01]d|2[0-3]):([0-5]d):([0-5]d)$/);\n                }\n            } catch (error) {\n                console.log(\"Error checking date-time format for results[${results_it}].date_registered:\", error.message);\n            }\n        })\n\n        pm.test(`${iterator} element of array 'results[${results_it}].affiliation' has 'affiliation' as 'string'`, function(){ \n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].affiliation`, null);\n                if (value !== null && value !== undefined) {\n                    pm.expect(typeof value).to.equal(\"string\");\n                }\n            } catch (error) {\n                console.log(\"Error checking string type for results[${results_it}].affiliation:\", error.message);\n            }\n        })\n\n\n        pm.test(`${iterator} element of array 'resultsArray' has 'media_types' as an array`,function(){ \n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].media_types`, null);\n                if (value !== null && value !== undefined) {\n                    pm.expect(Array.isArray(value)).to.equal(true);\n                }\n            } catch (error) {\n                console.log(\"Error checking array type for results[${results_it}].media_types:\", error.message);\n            }\n        })\n\n  \n        pm.test(`results[${results_it}].media_types length to be atmost '100'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].media_types`, null);\n                if (value !== null && value !== undefined && Array.isArray(value)) {\n                    pm.expect(value.length).to.be.at.most(100);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxItems for results[${results_it}].media_types:\", error.message);\n            }\n        })\n  \n        pm.test(`results[${results_it}].media_types length to be atleast '100'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].media_types`, null);\n                if (value !== null && value !== undefined && Array.isArray(value)) {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minItems for results[${results_it}].media_types:\", error.message);\n            }\n        })\n\n        pm.test(`${iterator} element of array 'resultsArray' has 'content_types' as an array`,function(){ \n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].content_types`, null);\n                if (value !== null && value !== undefined) {\n                    pm.expect(Array.isArray(value)).to.equal(true);\n                }\n            } catch (error) {\n                console.log(\"Error checking array type for results[${results_it}].content_types:\", error.message);\n            }\n        })\n\n  \n        pm.test(`results[${results_it}].content_types length to be atmost '100'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].content_types`, null);\n                if (value !== null && value !== undefined && Array.isArray(value)) {\n                    pm.expect(value.length).to.be.at.most(100);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxItems for results[${results_it}].content_types:\", error.message);\n            }\n        })\n  \n        pm.test(`results[${results_it}].content_types length to be atleast '100'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].content_types`, null);\n                if (value !== null && value !== undefined && Array.isArray(value)) {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minItems for results[${results_it}].content_types:\", error.message);\n            }\n        })\n\n        pm.test(`${iterator} element of array 'resultsArray' has 'categories' as an array`,function(){ \n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].categories`, null);\n                if (value !== null && value !== undefined) {\n                    pm.expect(Array.isArray(value)).to.equal(true);\n                }\n            } catch (error) {\n                console.log(\"Error checking array type for results[${results_it}].categories:\", error.message);\n            }\n        })\n\n  \n        pm.test(`results[${results_it}].categories length to be atmost '100'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].categories`, null);\n                if (value !== null && value !== undefined && Array.isArray(value)) {\n                    pm.expect(value.length).to.be.at.most(100);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxItems for results[${results_it}].categories:\", error.message);\n            }\n        })\n  \n        pm.test(`results[${results_it}].categories length to be atleast '100'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].categories`, null);\n                if (value !== null && value !== undefined && Array.isArray(value)) {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minItems for results[${results_it}].categories:\", error.message);\n            }\n        })\n\n        pm.test(`Each object in the results[${results_it}].categories field has all the required fields`,function(){\n            try {\n                const jsonResponse = pm.response.json();\n                if (jsonResponse && pm.expect(jsonResponse).to.have.nested.property(`results[${results_it}].categories`)) {\n                    let categoriesArray = ld.get(jsonResponse, `results[${results_it}].categories`, []);\n                    if (Array.isArray(categoriesArray)) {\n                        for (let categories_it = 0; categories_it < categoriesArray.length; categories_it++) {\n                            let iterator = categories_it;\n                            if (categoriesArray[categories_it] !== null && categoriesArray[categories_it] !== undefined) {\n                                \n        pm.test(`${iterator} element of array 'results[${results_it}].categories[${categories_it}].name' has 'name' as 'string'`, function(){ \n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].categories[${categories_it}].name`, null);\n                if (value !== null && value !== undefined) {\n                    pm.expect(typeof value).to.equal(\"string\");\n                }\n            } catch (error) {\n                console.log(\"Error checking string type for results[${results_it}].categories[${categories_it}].name:\", error.message);\n            }\n        })\n\n  \n        pm.test(`results[${results_it}].categories[${categories_it}].name length to be atmost '1000'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].categories[${categories_it}].name`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.most(1000);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxLength for results[${results_it}].categories[${categories_it}].name:\", error.message);\n            }\n        })\n  \n        pm.test(`results[${results_it}].categories[${categories_it}].name length to be alteast '0'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].categories[${categories_it}].name`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minLength for results[${results_it}].categories[${categories_it}].name:\", error.message);\n            }\n        })\n\n        pm.test(`${iterator} element of array 'results[${results_it}].categories[${categories_it}].slug' has 'slug' as 'string'`, function(){ \n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].categories[${categories_it}].slug`, null);\n                if (value !== null && value !== undefined) {\n                    pm.expect(typeof value).to.equal(\"string\");\n                }\n            } catch (error) {\n                console.log(\"Error checking string type for results[${results_it}].categories[${categories_it}].slug:\", error.message);\n            }\n        })\n\n  \n        pm.test(`results[${results_it}].categories[${categories_it}].slug length to be atmost '1000'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].categories[${categories_it}].slug`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.most(1000);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxLength for results[${results_it}].categories[${categories_it}].slug:\", error.message);\n            }\n        })\n  \n        pm.test(`results[${results_it}].categories[${categories_it}].slug length to be alteast '0'`,function(){\n            try {\n                const value = ld.get(responseData, `results[${results_it}].categories[${categories_it}].slug`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minLength for results[${results_it}].categories[${categories_it}].slug:\", error.message);\n            }\n        })\n\n                            }\n                        }\n                    }\n                }\n            } catch (error) {\n                console.log(\"Error validating array objects for results[${results_it}].categories:\", error.message);\n            }\n        })\n\n        pm.test(`${iterator} element of array 'resultsArray' has 'storage_size' as number`, function(){ \n            try {\n                const value = ld.get(responseData, `results[${results_it}].storage_size`, null);\n                if (value !== null && value !== undefined) {\n                    pm.expect(typeof value).to.equal(\"number\");\n                }\n            } catch (error) {\n                console.log(\"Error checking number type for results[${results_it}].storage_size:\", error.message);\n            }\n        })\n  \n        pm.test('results[${results_it}].storage_size maximum value validation', function(){\n            try {\n                const value = ld.get(pm.response.json(), `results[${results_it}].storage_size`, null);\n                if (value !== null && value !== undefined && typeof value === 'number') {\n                    pm.expect(value).to.be.at.most(977446229600);\n                }\n            } catch (error) {\n                console.log(\"Error checking maximum for results[${results_it}].storage_size:\", error.message);\n            }\n        })\n\n                            }\n                        }\n                    }\n                }\n            } catch (error) {\n                console.log(\"Error validating array objects for results:\", error.message);\n            }\n        })\n\n                }\n            } catch (error) {\n                console.error('Error validating object structure:', error.message);\n            }\n        });\n    });\n\n}\n\nif (pm.response.code == 400){\n    pm.test(\"Bad Request - Invalid request parameters\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Bad Request\");\n        pm.test(\"Response has Content-Type header\", function () {\n            try {\n                pm.response.to.have.header(\"Content-Type\");\n            } catch (error) {\n                console.error('Error checking Content-Type header:', error.message);\n            }\n        });\n        pm.test(\"Content-Type is application/json\", function () {\n            try {\n                pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n            } catch (error) {\n                console.error('Error validating JSON Content-Type:', error.message);\n            }\n        });\n        pm.test(\"Response object structure validation\", function () {\n            try {\n                if (responseData !== null && responseData !== undefined) {\n        pm.test('Response has the `fields` field',function(){\n            try {\n                const jsonResponse = pm.response.json();\n                if (jsonResponse && pm.expect(jsonResponse).to.have.nested.property(`fields`)) {\n                    const value = ld.get(jsonResponse, `fields`, null);\n                    if (value !== null && value !== undefined) {\n                        pm.expect(typeof value).to.equal(\"object\");\n                    }\n                }\n            } catch (error) {\n                console.log(\"Error checking object field fields:\", error.message);\n            }\n        })\n\n        pm.test('Response has the `fields.ordering` field',function(){\n            try {\n                const jsonResponse = pm.response.json();\n                if (jsonResponse && pm.expect(jsonResponse).to.have.nested.property(`fields.ordering`)) {\n                    const value = ld.get(jsonResponse, `fields.ordering`, null);\n                    if (value !== null && value !== undefined) {\n                        pm.expect(Array.isArray(value)).to.equal(true);\n                    }\n                }\n            } catch (error) {\n                console.log(\"Error checking array field fields.ordering:\", error.message);\n            }\n        })\n  \n        pm.test(`fields.ordering length to be atmost '100'`,function(){\n            try {\n                const value = ld.get(responseData, `fields.ordering`, null);\n                if (value !== null && value !== undefined && Array.isArray(value)) {\n                    pm.expect(value.length).to.be.at.most(100);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxItems for fields.ordering:\", error.message);\n            }\n        })\n  \n        pm.test(`fields.ordering length to be atleast '100'`,function(){\n            try {\n                const value = ld.get(responseData, `fields.ordering`, null);\n                if (value !== null && value !== undefined && Array.isArray(value)) {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minItems for fields.ordering:\", error.message);\n            }\n        })\n\n        pm.test('Response has the `text` field',function(){\n            try {\n                const jsonResponse = pm.response.json();\n                if (jsonResponse && pm.expect(jsonResponse).to.have.nested.property(`text`)) {\n                    const value = ld.get(jsonResponse, `text`, null);\n                    if (value !== null && value !== undefined) {\n                        pm.expect(typeof value).to.equal(\"string\");\n                    }\n                }\n            } catch (error) {\n                console.log(\"Error checking string field text:\", error.message);\n            }\n        })\n  \n        pm.test(`text length to be atmost '1000'`,function(){\n            try {\n                const value = ld.get(responseData, `text`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.most(1000);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxLength for text:\", error.message);\n            }\n        })\n  \n        pm.test(`text length to be alteast '0'`,function(){\n            try {\n                const value = ld.get(responseData, `text`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minLength for text:\", error.message);\n            }\n        })\n\n                }\n            } catch (error) {\n                console.error('Error validating object structure:', error.message);\n            }\n        });\n    });\n\n}\n\nif (pm.response.code == 401){\n    pm.test(\"Unauthorized\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n        pm.test(\"Response has Content-Type header\", function () {\n            try {\n                pm.response.to.have.header(\"Content-Type\");\n            } catch (error) {\n                console.error('Error checking Content-Type header:', error.message);\n            }\n        });\n        pm.test(\"Content-Type is application/json\", function () {\n            try {\n                pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n            } catch (error) {\n                console.error('Error validating JSON Content-Type:', error.message);\n            }\n        });\n        pm.test(\"Response object structure validation\", function () {\n            try {\n                if (responseData !== null && responseData !== undefined) {\n        pm.test('Response has the `errinfo` field',function(){\n            try {\n                const jsonResponse = pm.response.json();\n                if (jsonResponse && pm.expect(jsonResponse).to.have.nested.property(`errinfo`)) {\n                    const value = ld.get(jsonResponse, `errinfo`, null);\n                    if (value !== null && value !== undefined) {\n                        pm.expect(typeof value).to.equal(\"object\");\n                    }\n                }\n            } catch (error) {\n                console.log(\"Error checking object field errinfo:\", error.message);\n            }\n        })\n\n        pm.test('Response has the `detail` field',function(){\n            try {\n                const jsonResponse = pm.response.json();\n                if (jsonResponse && pm.expect(jsonResponse).to.have.nested.property(`detail`)) {\n                    const value = ld.get(jsonResponse, `detail`, null);\n                    if (value !== null && value !== undefined) {\n                        pm.expect(typeof value).to.equal(\"string\");\n                    }\n                }\n            } catch (error) {\n                console.log(\"Error checking string field detail:\", error.message);\n            }\n        })\n  \n        pm.test(`detail length to be atmost '1000'`,function(){\n            try {\n                const value = ld.get(responseData, `detail`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.most(1000);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxLength for detail:\", error.message);\n            }\n        })\n  \n        pm.test(`detail length to be alteast '0'`,function(){\n            try {\n                const value = ld.get(responseData, `detail`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minLength for detail:\", error.message);\n            }\n        })\n\n        pm.test('Response has the `message` field',function(){\n            try {\n                const jsonResponse = pm.response.json();\n                if (jsonResponse && pm.expect(jsonResponse).to.have.nested.property(`message`)) {\n                    const value = ld.get(jsonResponse, `message`, null);\n                    if (value !== null && value !== undefined) {\n                        pm.expect(typeof value).to.equal(\"string\");\n                    }\n                }\n            } catch (error) {\n                console.log(\"Error checking string field message:\", error.message);\n            }\n        })\n  \n        pm.test(`message length to be atmost '1000'`,function(){\n            try {\n                const value = ld.get(responseData, `message`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.most(1000);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxLength for message:\", error.message);\n            }\n        })\n  \n        pm.test(`message length to be alteast '0'`,function(){\n            try {\n                const value = ld.get(responseData, `message`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minLength for message:\", error.message);\n            }\n        })\n\n                }\n            } catch (error) {\n                console.error('Error validating object structure:', error.message);\n            }\n        });\n    });\n\n}\n\nif (pm.response.code == 403){\n    pm.test(\"Forbidden\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Forbidden\");\n        pm.test(\"Response has Content-Type header\", function () {\n            try {\n                pm.response.to.have.header(\"Content-Type\");\n            } catch (error) {\n                console.error('Error checking Content-Type header:', error.message);\n            }\n        });\n        pm.test(\"Content-Type is application/json\", function () {\n            try {\n                pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n            } catch (error) {\n                console.error('Error validating JSON Content-Type:', error.message);\n            }\n        });\n        pm.test(\"Response object structure validation\", function () {\n            try {\n                if (responseData !== null && responseData !== undefined) {\n        pm.test('Response has the `errinfo` field',function(){\n            try {\n                const jsonResponse = pm.response.json();\n                if (jsonResponse && pm.expect(jsonResponse).to.have.nested.property(`errinfo`)) {\n                    const value = ld.get(jsonResponse, `errinfo`, null);\n                    if (value !== null && value !== undefined) {\n                        pm.expect(typeof value).to.equal(\"object\");\n                    }\n                }\n            } catch (error) {\n                console.log(\"Error checking object field errinfo:\", error.message);\n            }\n        })\n\n        pm.test('Response has the `detail` field',function(){\n            try {\n                const jsonResponse = pm.response.json();\n                if (jsonResponse && pm.expect(jsonResponse).to.have.nested.property(`detail`)) {\n                    const value = ld.get(jsonResponse, `detail`, null);\n                    if (value !== null && value !== undefined) {\n                        pm.expect(typeof value).to.equal(\"string\");\n                    }\n                }\n            } catch (error) {\n                console.log(\"Error checking string field detail:\", error.message);\n            }\n        })\n  \n        pm.test(`detail length to be atmost '1000'`,function(){\n            try {\n                const value = ld.get(responseData, `detail`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.most(1000);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxLength for detail:\", error.message);\n            }\n        })\n  \n        pm.test(`detail length to be alteast '0'`,function(){\n            try {\n                const value = ld.get(responseData, `detail`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minLength for detail:\", error.message);\n            }\n        })\n\n        pm.test('Response has the `message` field',function(){\n            try {\n                const jsonResponse = pm.response.json();\n                if (jsonResponse && pm.expect(jsonResponse).to.have.nested.property(`message`)) {\n                    const value = ld.get(jsonResponse, `message`, null);\n                    if (value !== null && value !== undefined) {\n                        pm.expect(typeof value).to.equal(\"string\");\n                    }\n                }\n            } catch (error) {\n                console.log(\"Error checking string field message:\", error.message);\n            }\n        })\n  \n        pm.test(`message length to be atmost '1000'`,function(){\n            try {\n                const value = ld.get(responseData, `message`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.most(1000);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxLength for message:\", error.message);\n            }\n        })\n  \n        pm.test(`message length to be alteast '0'`,function(){\n            try {\n                const value = ld.get(responseData, `message`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minLength for message:\", error.message);\n            }\n        })\n\n                }\n            } catch (error) {\n                console.error('Error validating object structure:', error.message);\n            }\n        });\n    });\n\n}\n\nif (pm.response.code == 404){\n    pm.test(\"Page not found - occurs when requesting a page number `>1` that exceeds the available results\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Found\");\n        pm.test(\"Response has Content-Type header\", function () {\n            try {\n                pm.response.to.have.header(\"Content-Type\");\n            } catch (error) {\n                console.error('Error checking Content-Type header:', error.message);\n            }\n        });\n        pm.test(\"Content-Type is application/json\", function () {\n            try {\n                pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n            } catch (error) {\n                console.error('Error validating JSON Content-Type:', error.message);\n            }\n        });\n        pm.test(\"Response object structure validation\", function () {\n            try {\n                if (responseData !== null && responseData !== undefined) {\n        pm.test('Response has the `errinfo` field',function(){\n            try {\n                const jsonResponse = pm.response.json();\n                if (jsonResponse && pm.expect(jsonResponse).to.have.nested.property(`errinfo`)) {\n                    const value = ld.get(jsonResponse, `errinfo`, null);\n                    if (value !== null && value !== undefined) {\n                        pm.expect(typeof value).to.equal(\"object\");\n                    }\n                }\n            } catch (error) {\n                console.log(\"Error checking object field errinfo:\", error.message);\n            }\n        })\n\n        pm.test('Response has the `detail` field',function(){\n            try {\n                const jsonResponse = pm.response.json();\n                if (jsonResponse && pm.expect(jsonResponse).to.have.nested.property(`detail`)) {\n                    const value = ld.get(jsonResponse, `detail`, null);\n                    if (value !== null && value !== undefined) {\n                        pm.expect(typeof value).to.equal(\"string\");\n                    }\n                }\n            } catch (error) {\n                console.log(\"Error checking string field detail:\", error.message);\n            }\n        })\n  \n        pm.test(`detail length to be atmost '1000'`,function(){\n            try {\n                const value = ld.get(responseData, `detail`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.most(1000);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxLength for detail:\", error.message);\n            }\n        })\n  \n        pm.test(`detail length to be alteast '0'`,function(){\n            try {\n                const value = ld.get(responseData, `detail`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minLength for detail:\", error.message);\n            }\n        })\n\n        pm.test('Response has the `message` field',function(){\n            try {\n                const jsonResponse = pm.response.json();\n                if (jsonResponse && pm.expect(jsonResponse).to.have.nested.property(`message`)) {\n                    const value = ld.get(jsonResponse, `message`, null);\n                    if (value !== null && value !== undefined) {\n                        pm.expect(typeof value).to.equal(\"string\");\n                    }\n                }\n            } catch (error) {\n                console.log(\"Error checking string field message:\", error.message);\n            }\n        })\n  \n        pm.test(`message length to be atmost '1000'`,function(){\n            try {\n                const value = ld.get(responseData, `message`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.most(1000);\n                }\n            } catch (error) {\n                console.log(\"Error checking maxLength for message:\", error.message);\n            }\n        })\n  \n        pm.test(`message length to be alteast '0'`,function(){\n            try {\n                const value = ld.get(responseData, `message`, null);\n                if (value !== null && value !== undefined && typeof value === 'string') {\n                    pm.expect(value.length).to.be.at.least(0);\n                }\n            } catch (error) {\n                console.log(\"Error checking minLength for message:\", error.message);\n            }\n        })\n\n                }\n            } catch (error) {\n                console.error('Error validating object structure:', error.message);\n            }\n        });\n    });\n\n}\n"
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            null
+          ]
+        },
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}
