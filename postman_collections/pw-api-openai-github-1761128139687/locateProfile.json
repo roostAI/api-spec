@@ -1,0 +1,42 @@
+[
+  {
+    "accountNumber_*string": "ACC123456",
+    "customerId_*string": "CUST789012",
+    "ssNumber_*string": "SSN345678",
+    "ssnShort_*string": "SSNS901234",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountNumber_*string": "ACC456789",
+    "customerId_*string": "CUST012345",
+    "ssNumber_*string": "SSN678901",
+    "ssnShort_*string": "SSNS234567",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountNumber_*string": "ACC789012",
+    "customerId_*string": "CUST345678",
+    "ssNumber_*string": "SSN901234",
+    "ssnShort_*string": "SSNS567890",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "accountNumber_*string": "ACC012345",
+    "customerId_*string": "CUST678901",
+    "ssNumber_*string": "SSN234567",
+    "ssnShort_*string": "SSNS890123",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountNumber_*string": "ACC345678",
+    "customerId_*string": "CUST901234",
+    "ssNumber_*string": "SSN567890",
+    "ssnShort_*string": "SSNS123456",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
