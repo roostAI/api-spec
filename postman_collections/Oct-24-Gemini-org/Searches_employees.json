@@ -1,0 +1,27 @@
+[
+  {
+    "searchString": "Software Engineer",
+    "statusCode": 200,
+    "scenario": "Search results matching the filter criteria"
+  },
+  {
+    "searchString": "Data Scientist",
+    "statusCode": 200,
+    "scenario": "Search results matching the filter criteria"
+  },
+  {
+    "searchString": "Project Manager",
+    "statusCode": 200,
+    "scenario": "Search results matching the filter criteria"
+  },
+  {
+    "searchString": "",
+    "statusCode": 400,
+    "scenario": "Bad input"
+  },
+  {
+    "searchString": 123,
+    "statusCode": 400,
+    "scenario": "Bad input"
+  }
+]
