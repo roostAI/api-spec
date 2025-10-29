@@ -31,7 +31,22 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <groupId>io.spring.javaformat</groupId>
+        <artifactId>spring-javaformat-maven-plugin</artifactId>
+        <version>0.0.40</version>
+        <!--Plugin added by RoostGPT-->
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.2.5</version>
+        <!--Plugin added by RoostGPT-->
+      </plugin>
     </plugins>
+    <pluginManagement>
+      <plugins/>
+    </pluginManagement>
   </build>
   <dependencies>
     <dependency>
@@ -61,5 +76,53 @@
       <scope>compile</scope>
       <!--Dependency added by RoostGPT-->
     </dependency>
+    <dependency>
+      <groupId>io.karatelabs</groupId>
+      <artifactId>karate-core</artifactId>
+      <version>1.5.1</version>
+      <!--Dependency added by RoostGPT-->
+    </dependency>
+    <dependency>
+      <groupId>io.karatelabs</groupId>
+      <artifactId>karate-debugserver</artifactId>
+      <version>0.1.0</version>
+      <!--Dependency added by RoostGPT-->
+    </dependency>
+    <dependency>
+      <groupId>io.karatelabs</groupId>
+      <artifactId>karate-junit5</artifactId>
+      <version>1.5.1</version>
+      <scope>test</scope>
+      <!--Dependency added by RoostGPT-->
+    </dependency>
   </dependencies>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>io.karatelabs</groupId>
+        <artifactId>karate-core</artifactId>
+        <version>1.5.1</version>
+        <!--Dependency added by RoostGPT-->
+      </dependency>
+      <dependency>
+        <groupId>io.karatelabs</groupId>
+        <artifactId>karate-debugserver</artifactId>
+        <version>0.1.0</version>
+        <!--Dependency added by RoostGPT-->
+      </dependency>
+      <dependency>
+        <groupId>io.karatelabs</groupId>
+        <artifactId>karate-junit5</artifactId>
+        <version>1.5.1</version>
+        <scope>test</scope>
+        <!--Dependency added by RoostGPT-->
+      </dependency>
+      <dependency>
+        <groupId>io.spring.javaformat</groupId>
+        <artifactId>spring-javaformat-formatter</artifactId>
+        <version>0.0.40</version>
+        <!--Dependency added by RoostGPT-->
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 </project>
