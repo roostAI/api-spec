@@ -124,9 +124,6 @@ paths:
         - BearerAuth: []
       requestBody:
         $ref: '#/components/requestBodies/IssueCardRequest'
-      # GAP (LOGIC): The BRD says only TIER_2 users can get PHYSICAL
-      # cards. This endpoint does not document a 403 Forbidden
-      # or similar error if a TIER_1 user tries this.
       responses:
         201:
           description: Card issued successfully
@@ -184,9 +181,6 @@ paths:
           schema:
             type: string
             format: uuid
-        # GAP (PARAMETERS): This implements pagination, but US-203
-        # also requires filtering by 'startDate', 'endDate', and
-        # 'transactionType'. Those parameters are missing.
         - name: limit
           in: query
           schema:
@@ -245,8 +239,6 @@ components:
         currency:
           type: string
           example: USD
-      # GAP (SCHEMA): This object is missing 'dailyLoadLimit' and
-      # 'dailyLoadUsed' which are required by US-205 in the BRD.
     CardBalance:
       type: object
       properties:
