@@ -1,0 +1,388 @@
+openapi: 3.0.0
+info:
+  title: EvolvePay Prepaid Card Service API
+  description: API for managing users, KYC, prepaid cards, and transactions. This API is used by the EvolvePay mobile app.
+  version: 1.2.0
+servers:
+  - url: https://api.evolvepay.example.com/v1
+    description: Production Server
+
+tags:
+  - name: User Management
+    description: User registration, login, and profile management.
+  - name: KYC
+    description: Know Your Customer (KYC) and identity verification.
+  - name: Card Management
+    description: Issuing, viewing, and managing prepaid cards.
+  - name: Card Operations
+    description: Loading funds and viewing card transactions.
+
+paths:
+  /users/register:
+    post:
+      summary: Register a new user
+      tags: [User Management]
+      requestBody:
+        $ref: '#/components/requestBodies/UserRegistration'
+      responses:
+        201:
+          description: User created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        400:
+          $ref: '#/components/responses/BadRequest'
+
+  /users/login:
+    post:
+      summary: User login
+      tags: [User Management]
+      requestBody:
+        $ref: '#/components/requestBodies/UserLogin'
+      responses:
+        200:
+          description: Login successful
+          content:
+            application/json:
+              schema:
+                properties:
+                  token:
+                    type: string
+                    example: jwt.token.string
+        401:
+          $ref: '#/components/responses/Unauthorized'
+
+  /users/me:
+    get:
+      summary: Get current user's profile
+      tags: [User Management]
+      security:
+        - BearerAuth: []
+      responses:
+        200:
+          description: User profile details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        401:
+          $ref: '#/components/responses/Unauthorized'
+
+  /kyc/upload:
+    post:
+      summary: Submit KYC documents
+      tags: [KYC]
+      security:
+        - BearerAuth: []
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                documentType:
+                  type: string
+                  enum: [PASSPORT, DRIVERS_LICENSE]
+                documentFront:
+                  type: string
+                  format: binary
+                documentBack:
+                  type: string
+                  format: binary
+      responses:
+        202:
+          description: Documents accepted, verification pending
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        400:
+          $ref: '#/components/responses/BadRequest'
+
+  /cards:
+    get:
+      summary: List user's cards
+      tags: [Card Management]
+      security:
+        - BearerAuth: []
+      responses:
+        200:
+          description: A list of the user's cards
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Card'
+        401:
+          $ref: '#/components/responses/Unauthorized'
+    post:
+      summary: Issue a new card
+      tags: [Card Management]
+      security:
+        - BearerAuth: []
+      requestBody:
+        $ref: '#/components/requestBodies/IssueCardRequest'
+      # GAP (LOGIC): The BRD says only TIER_2 users can get PHYSICAL
+      # cards. This endpoint does not document a 403 Forbidden
+      # or similar error if a TIER_1 user tries this.
+      responses:
+        201:
+          description: Card issued successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Card'
+        400:
+          $ref: '#/components/responses/BadRequest'
+
+  /cards/{cardId}/load:
+    post:
+      summary: Load funds onto a card
+      tags: [Card Operations]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: cardId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: Idempotency-Key
+          in: header
+          required: false
+          description: A unique key to prevent duplicate load requests.
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        $ref: '#/components/requestBodies/LoadRequest'
+      responses:
+        200:
+          description: Load successful, returns new balance
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CardBalance'
+        400:
+          $ref: '#/components/responses/BadRequest'
+        402:
+          description: Payment source declined
+
+  /cards/{cardId}/transactions:
+    get:
+      summary: Get card transaction history
+      tags: [Card Operations]
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: cardId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+        # GAP (PARAMETERS): This implements pagination, but US-203
+        # also requires filtering by 'startDate', 'endDate', and
+        # 'transactionType'. Those parameters are missing.
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 25
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+      responses:
+        200:
+          description: A paginated list of transactions
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TransactionListResponse'
+        404:
+          $ref: '#/components/responses/NotFound'
+
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        userId:
+          type: string
+          format: uuid
+        fullName:
+          type: string
+        email:
+          type: string
+          format: email
+        kycStatus:
+          type: string
+          enum: [TIER_1_UNVERIFIED, TIER_2_VERIFIED, PENDING_REVIEW]
+          description: User's current KYC verification tier.
+    Card:
+      type: object
+      properties:
+        cardId:
+          type: string
+          format: uuid
+        lastFourDigits:
+          type: string
+          example: 1234
+        cardType:
+          type: string
+          enum: [VIRTUAL, PHYSICAL]
+        status:
+          type: string
+          enum: [ACTIVE, BLOCKED, EXPIRED]
+        balance:
+          type: number
+          format: double
+        currency:
+          type: string
+          example: USD
+      # GAP (SCHEMA): This object is missing 'dailyLoadLimit' and
+      # 'dailyLoadUsed' which are required by US-205 in the BRD.
+    CardBalance:
+      type: object
+      properties:
+        balance:
+          type: number
+          format: double
+        currency:
+          type: string
+          example: USD
+    Transaction:
+      type: object
+      properties:
+        transactionId:
+          type: string
+          format: uuid
+        timestamp:
+          type: string
+          format: date-time
+        merchant:
+          type: string
+          example: Starbucks
+        amount:
+          type: number
+          format: double
+        currency:
+          type: string
+          example: USD
+        transactionType:
+          type: string
+          enum: [PURCHASE, LOAD, REFUND]
+    Pagination:
+      type: object
+      properties:
+        totalItems:
+          type: integer
+        totalPages:
+          type: integer
+        currentPage:
+          type: integer
+    TransactionListResponse:
+      type: object
+      properties:
+        pagination:
+          $ref: '#/components/schemas/Pagination'
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Transaction'
+    Error:
+      type: object
+      properties:
+        code:
+          type: string
+          example: INVALID_INPUT
+        message:
+          type: string
+          example: The email address is already in use.
+
+  requestBodies:
+    UserRegistration:
+      required: true
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              fullName:
+                type: string
+              email:
+                type: string
+                format: email
+              password:
+                type: string
+                format: password
+    UserLogin:
+      required: true
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              email:
+                type: string
+                format: email
+              password:
+                type: string
+                format: password
+    IssueCardRequest:
+      required: true
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              cardType:
+                type: string
+                enum: [VIRTUAL, PHYSICAL]
+                example: VIRTUAL
+    LoadRequest:
+      required: true
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              amount:
+                type: number
+                format: double
+                example: 50.00
+              sourceId:
+                type: string
+                description: Payment method token (e.g., from bank account)
+                example: pm_123abc456def
+
+  responses:
+    BadRequest:
+      description: Bad Request
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+    Unauthorized:
+      description: Unauthorized
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+    NotFound:
+      description: Not Found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
