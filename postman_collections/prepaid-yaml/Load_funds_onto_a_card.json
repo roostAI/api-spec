@@ -1,0 +1,37 @@
+[
+  {
+    "cardId": "550e8400-e29b-41d4-a716-446655440000",
+    "amount_*double": 50,
+    "sourceId_*string": "pm_123abc456def",
+    "statusCode": 200,
+    "scenario": "Load successful, returns new balance"
+  },
+  {
+    "cardId": "63a9f0ea-7bb3-11ea-bc55-0242ac130003",
+    "amount_*double": 100.5,
+    "sourceId_*string": "pm_456def789ghi",
+    "statusCode": 200,
+    "scenario": "Load successful, returns new balance"
+  },
+  {
+    "cardId": "invalid-card-id",
+    "amount_*double": -25.5,
+    "sourceId_*string": "pm_invalid",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "cardId": "72fdf5d8-87fa-4eab-8655-6835a383dcc0",
+    "amount_*double": 0,
+    "sourceId_*string": "pm_declined_source",
+    "statusCode": 402,
+    "scenario": "Payment source declined"
+  },
+  {
+    "cardId": "99b44442-aed9-11ed-afa1-0242ac120002",
+    "amount_*double": 9999999.99,
+    "sourceId_*string": "pm_expired_123456",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]
