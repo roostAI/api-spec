@@ -1,0 +1,30 @@
+[
+  {
+    "global_address_key": "QVVTfjcuNzMwak9BVVNIQXpsQndBQUFBQUJBd0VBQUFBQk9uQ09FWUFoQUFJUUNDQUFBQUFBQVFBMk5UUTVBRFlBQVAuLlFnQUFBQUQuLi4uLkFBQUFBQUFBQUFBQUFBQUFBQUFBVENBMk5UUTVJRk4wSUV0cGJHUmhJRkprSURVME9RQUFBQUFBfjIy",
+    "layouts_0_*string": "AddressLine1,Locality,Region,PostalCode",
+    "layout_format_*string": "Default",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "global_address_key": "USAfjE5Mwak9BVVNIQXpsQndBQUFBQUJBd0VBQUFBQk9uQ09FWUFoQUFJUUNDQUFBQUFBQVFBMk5UUTVBRFlBQVAuLlFnQUFBQUQuLi4uLkFBQUFBQUFBQUFBQUFBQUFBQUFBVENBMk5UUTVJRk4wSUV0cGJHUmhJRkprSURVME9RQUFBQUFBfjM0",
+    "layouts_0_*string": "Street,City,State,ZipCode",
+    "layout_format_*string": "Standard",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "global_address_key": "CANfjA4Nzak9BVVNIQXpsQndBQUFBQUJBd0VBQUFBQk9uQ09FWUFoQUFJUUNDQUFBQUFBQVFBMk5UUTVBRFlBQVAuLlFnQUFBQUQuLi4uLkFBQUFBQUFBQUFBQUFBQUFBQUFBVENBMk5UUTVJRk4wSUV0cGJHUmhJRkprSURVME9RQUFBQUFBfjU5",
+    "layouts_0_*string": "BuildingNumber,StreetName,City,Province,PostalCode",
+    "layout_format_*string": "International",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "global_address_key": "GBRfjI2ODak9BVVNIQXpsQndBQUFBQUJBd0VBQUFBQk9uQ09FWUFoQUFJUUNDQUFBQUFBQVFBMk5UUTVBRFlBQVAuLlFnQUFBQUQuLi4uLkFBQUFBQUFBQUFBQUFBQUFBQUFBVENBMk5UUTVJRk4wSUV0cGJHUmhJRkprSURVME9RQUFBQUFBfjEx",
+    "layouts_0_*string": "Locality,PostalCode,Country",
+    "layout_format_*string": "Compact",
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "country_iso_*string": "GBR",
+    "max_addresses_*number": 10,
+    "datasets_0_*string": "GBR_PAF",
+    "key.type_*string": "API_KEY",
+    "key.value_*string": "ak_live_aBcDeFgHiJkLmNoPqRsTuVwXyZ12345",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "USA",
+    "max_addresses_*number": 5,
+    "datasets_0_*string": "USA_PRO",
+    "key.type_*string": "API_KEY",
+    "key.value_*string": "ak_live_zYxWvUtSrQpOnMlKjIhGfEdCbA54321",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "AUS",
+    "max_addresses_*number": 15,
+    "datasets_0_*string": "AUS_PAF",
+    "key.type_*string": "AuthToken",
+    "key.value_*string": "auth_tkn_98765fedcbaZYXWVUTSRQPONMLKJIHG",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "CAN",
+    "max_addresses_*number": 8,
+    "datasets_0_*string": "CAN_PRO",
+    "key.type_*string": "API_KEY",
+    "key.value_*string": "ak_live_mNbVcXzLkJhGfDsApOiUyTrEwQ12345",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "NZL",
+    "max_addresses_*number": 20,
+    "datasets_0_*string": "NZL_PAF",
+    "key.type_*string": "API_KEY",
+    "key.value_*string": "ak_live_qWeRtYuIoPaSdFgHjKlZxCvBnM67890",
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "country_iso_*string": "GBR",
+    "datasets_0_*string": "address",
+    "key.type_*string": "udprn",
+    "key.value_*number": 83937362,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "USA",
+    "datasets_0_*string": "contact_details",
+    "key.type_*string": "customer_id",
+    "key.value_*number": 10293847,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "CAN",
+    "datasets_0_*string": "demographics",
+    "key.type_*string": "household_id",
+    "key.value_*number": 56473829,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "AUS",
+    "datasets_0_*string": "property_info",
+    "key.type_*string": "property_ref",
+    "key.value_*number": 77889901,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "NZL",
+    "datasets_0_*string": "address_verification",
+    "key.type_*string": "address_key",
+    "key.value_*number": 99123456,
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]
