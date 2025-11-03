@@ -1,0 +1,38 @@
+[
+  {
+    "country_iso_*string": "GBR",
+    "datasets_0_*string": "GBR_Postcode-Address-File",
+    "max_suggestions_*number": 10,
+    "components.unspecified_0_*string": "Axon Communications, 160 Blackfriars Road",
+    "layouts_0_*string": "default_classic",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "USA",
+    "datasets_0_*string": "USA_Zip-Address-File",
+    "max_suggestions_*number": 5,
+    "components.unspecified_0_*string": "1600 Pennsylvania Avenue NW",
+    "layouts_0_*string": "default_vanilla",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "AUS",
+    "datasets_0_*string": "AUS_G-NAF",
+    "max_suggestions_*number": 15,
+    "components.unspecified_0_*string": "Sydney Opera House",
+    "layouts_0_*string": "default_typedown",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "CAN",
+    "datasets_0_*string": "CAN_Address-Complete",
+    "max_suggestions_*number": 8,
+    "components.unspecified_0_*string": "123 Main Street, Toronto",
+    "layouts_0_*string": "default_classic",
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]

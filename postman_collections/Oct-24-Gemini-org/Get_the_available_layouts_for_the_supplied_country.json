@@ -1,0 +1,32 @@
+[
+  {
+    "country_iso_*string": "USA",
+    "datasets_0_*string": "population_estimates",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "CAN",
+    "datasets_0_*string": "gdp_growth_rate",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "GBR",
+    "datasets_0_*string": "unemployment_rate",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "IND",
+    "datasets_0_*string": "inflation_consumer_prices",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "AUS",
+    "datasets_0_*string": "life_expectancy_at_birth",
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]

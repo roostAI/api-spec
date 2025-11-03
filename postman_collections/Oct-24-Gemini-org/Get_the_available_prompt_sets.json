@@ -1,0 +1,42 @@
+[
+  {
+    "country_iso_*string": "USA",
+    "datasets_0_*string": "address_data_us",
+    "search_type_*string": "address_verification",
+    "prompt_set_*string": "default_us_address",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "GBR",
+    "datasets_0_*string": "uk_postcode_database",
+    "search_type_*string": "postcode_lookup",
+    "prompt_set_*string": "uk_standard_address",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "CAN",
+    "datasets_0_*string": "canadian_business_registry",
+    "search_type_*string": "business_name_search",
+    "prompt_set_*string": "ca_business_prompts",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "AUS",
+    "datasets_0_*string": "australian_geo_data",
+    "search_type_*string": "suburb_search",
+    "prompt_set_*string": "au_location_prompts",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "DEU",
+    "datasets_0_*string": "german_address_directory",
+    "search_type_*string": "street_level_search",
+    "prompt_set_*string": "de_address_format",
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]
