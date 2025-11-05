@@ -1,0 +1,47 @@
+[
+  {
+    "value_object": {
+      "err": {
+        "message": "Operation completed successfully."
+      }
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "Authorization token is missing or invalid."
+      }
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "The requested resource could not be found."
+      }
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "Data processed successfully."
+      }
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "Invalid credentials provided."
+      }
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

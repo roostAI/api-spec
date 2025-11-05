@@ -1,0 +1,67 @@
+[
+  {
+    "amount_*number": 1042222,
+    "currency_*string": "USD",
+    "customerId_*number": 1045300,
+    "date_*string": "03-15-2021",
+    "sourceAccountId_*string": "1042345",
+    "targetAccountId_*string": "1042222",
+    "description_*string": "Internal Transfer",
+    "TransactionType_*string": "1063",
+    "PaymentType_*string": "Minimum Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "amount_*number": -1,
+    "currency_*string": "INVALID",
+    "customerId_*number": -999,
+    "date_*string": "INVALID_DATE",
+    "sourceAccountId_*string": "INVALID_SOURCE",
+    "targetAccountId_*string": "INVALID_TARGET",
+    "description_*string": "Invalid Transfer",
+    "TransactionType_*string": "INVALID_TYPE",
+    "PaymentType_*string": "INVALID_PAYMENT",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "amount_*number": 0,
+    "currency_*string": "XYZ",
+    "customerId_*number": 0,
+    "date_*string": "00-00-0000",
+    "sourceAccountId_*string": "0000000",
+    "targetAccountId_*string": "0000000",
+    "description_*string": "Nonexistent Transfer",
+    "TransactionType_*string": "0000",
+    "PaymentType_*string": "No Payment",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "amount_*number": 500000,
+    "currency_*string": "EUR",
+    "customerId_*number": 1045301,
+    "date_*string": "04-20-2023",
+    "sourceAccountId_*string": "1042346",
+    "targetAccountId_*string": "1042223",
+    "description_*string": "External Transfer",
+    "TransactionType_*string": "1064",
+    "PaymentType_*string": "Full Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "amount_*number": 123456,
+    "currency_*string": "GBP",
+    "customerId_*number": 1045302,
+    "date_*string": "05-10-2023",
+    "sourceAccountId_*string": "1042347",
+    "targetAccountId_*string": "1042224",
+    "description_*string": "Loan Payment",
+    "TransactionType_*string": "1065",
+    "PaymentType_*string": "Partial Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  }
+]
