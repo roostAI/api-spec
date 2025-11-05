@@ -1,0 +1,32 @@
+[
+  {
+    "usecase_0_*string": "User Registration",
+    "usecase_1_*string": "Create Account",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "usecase_0_*string": "User Login",
+    "usecase_1_*string": "Access Dashboard",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "usecase_0_*string": "Invalid User",
+    "usecase_1_*string": "Invalid Account",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "usecase_0_*string": "Non-existent User",
+    "usecase_1_*string": "Non-existent Account",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "usecase_0_*string": "User Logout",
+    "usecase_1_*string": "Close Account",
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]
