@@ -1,0 +1,47 @@
+[
+  {
+    "value_object": {
+      "err": {
+        "message": "Operation successful."
+      }
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "Authorization token missing."
+      }
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "Resource not found."
+      }
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "Invalid input data."
+      }
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "Unexpected error occurred."
+      }
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
