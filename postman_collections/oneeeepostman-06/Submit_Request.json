@@ -1,0 +1,47 @@
+[
+  {
+    "value_object": {
+      "err": {
+        "message": "Operation completed successfully."
+      }
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "Authorization token missing."
+      }
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "Resource not found."
+      }
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "Invalid request format."
+      }
+    },
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "Server error, please try again later."
+      }
+    },
+    "statusCode": 500,
+    "scenario": "Internal Server Error"
+  }
+]
