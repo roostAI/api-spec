@@ -1,0 +1,72 @@
+[
+  {
+    "authType_*string": "Authorized",
+    "firstName_*string": "James",
+    "lastName_*string": "William",
+    "email_*string": "John@gmail.com",
+    "phoneNumber_*number": 9787643445,
+    "topic_*string": "Routing and Account Number",
+    "message_*string": "Unable to find my routing number.",
+    "availableTime_*string": "nighttime",
+    "chatHistory_*string": "html formatted message sent as string",
+    "cif_*number": 1045310,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "authType_*string": "Unauthorized",
+    "firstName_*string": "Robert",
+    "lastName_*string": "Smith",
+    "email_*string": "Robert@gmail.com",
+    "phoneNumber_*number": 9876543210,
+    "topic_*string": "Account Balance",
+    "message_*string": "Unable to check my account balance.",
+    "availableTime_*string": "morning",
+    "chatHistory_*string": "html formatted message sent as string",
+    "cif_*number": 1234567,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "authType_*string": "Authorized",
+    "firstName_*string": "Michael",
+    "lastName_*string": "Johnson",
+    "email_*string": "Michael@gmail.com",
+    "phoneNumber_*number": 9123456780,
+    "topic_*string": "Credit Card",
+    "message_*string": "Unable to apply for a credit card.",
+    "availableTime_*string": "afternoon",
+    "chatHistory_*string": "html formatted message sent as string",
+    "cif_*number": 7654321,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "authType_*string": "Unauthorized",
+    "firstName_*string": "David",
+    "lastName_*string": "Williams",
+    "email_*string": "David@gmail.com",
+    "phoneNumber_*number": 9871234560,
+    "topic_*string": "Loan",
+    "message_*string": "Unable to apply for a loan.",
+    "availableTime_*string": "evening",
+    "chatHistory_*string": "html formatted message sent as string",
+    "cif_*number": 123456789,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "authType_*string": "Authorized",
+    "firstName_*string": "William",
+    "lastName_*string": "Brown",
+    "email_*string": "William@gmail.com",
+    "phoneNumber_*number": 9781234567,
+    "topic_*string": "Debit Card",
+    "message_*string": "Unable to activate my debit card.",
+    "availableTime_*string": "nighttime",
+    "chatHistory_*string": "html formatted message sent as string",
+    "cif_*number": 987654321,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

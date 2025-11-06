@@ -1,0 +1,67 @@
+[
+  {
+    "amount_*number": 1045300,
+    "currency_*string": "USD",
+    "customerId_*number": 1045300,
+    "date_*string": "03-15-2021",
+    "sourceAccountId_*string": "1042345",
+    "targetAccountId_*string": "1042222",
+    "description_*string": "Internal Transfer",
+    "TransactionType_*string": "1063",
+    "PaymentType_*string": "Minimum Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "amount_*number": 1045301,
+    "currency_*string": "EUR",
+    "customerId_*number": 1045301,
+    "date_*string": "03-16-2021",
+    "sourceAccountId_*string": "1042346",
+    "targetAccountId_*string": "1042223",
+    "description_*string": "External Transfer",
+    "TransactionType_*string": "1064",
+    "PaymentType_*string": "Full Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "amount_*number": 1045302,
+    "currency_*string": "GBP",
+    "customerId_*number": 1045302,
+    "date_*string": "03-17-2021",
+    "sourceAccountId_*string": "1042347",
+    "targetAccountId_*string": "1042224",
+    "description_*string": "Wire Transfer",
+    "TransactionType_*string": "1065",
+    "PaymentType_*string": "Partial Payment",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "amount_*number": 1045303,
+    "currency_*string": "JPY",
+    "customerId_*number": 1045303,
+    "date_*string": "03-18-2021",
+    "sourceAccountId_*string": "1042348",
+    "targetAccountId_*string": "1042225",
+    "description_*string": "Online Transfer",
+    "TransactionType_*string": "1066",
+    "PaymentType_*string": "Overdue Payment",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "amount_*number": 1045304,
+    "currency_*string": "AUD",
+    "customerId_*number": 1045304,
+    "date_*string": "03-19-2021",
+    "sourceAccountId_*string": "1042349",
+    "targetAccountId_*string": "1042226",
+    "description_*string": "Mobile Transfer",
+    "TransactionType_*string": "1067",
+    "PaymentType_*string": "Advance Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  }
+]

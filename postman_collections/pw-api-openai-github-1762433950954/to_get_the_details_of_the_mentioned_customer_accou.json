@@ -1,0 +1,77 @@
+[
+  {
+    "customerId": 1045300,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "SAV123456789",
+      "cardNumber": "1234-5678-9012-3456"
+    },
+    "accountInfo_1": {
+      "accountType": "Current",
+      "accountNumber": "CUR987654321",
+      "cardNumber": "6543-2109-8765-4321"
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId": 1045301,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "SAV123456780",
+      "cardNumber": "1234-5678-9012-3457"
+    },
+    "accountInfo_1": {
+      "accountType": "Current",
+      "accountNumber": "CUR987654320",
+      "cardNumber": "6543-2109-8765-4320"
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045302,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "SAV123456781",
+      "cardNumber": "1234-5678-9012-3458"
+    },
+    "accountInfo_1": {
+      "accountType": "Current",
+      "accountNumber": "CUR987654319",
+      "cardNumber": "6543-2109-8765-4319"
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045303,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "SAV123456782",
+      "cardNumber": "1234-5678-9012-3459"
+    },
+    "accountInfo_1": {
+      "accountType": "Current",
+      "accountNumber": "CUR987654318",
+      "cardNumber": "6543-2109-8765-4318"
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId": 1045304,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "SAV123456783",
+      "cardNumber": "1234-5678-9012-3460"
+    },
+    "accountInfo_1": {
+      "accountType": "Current",
+      "accountNumber": "CUR987654317",
+      "cardNumber": "6543-2109-8765-4317"
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
