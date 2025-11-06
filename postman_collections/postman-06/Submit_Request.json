@@ -1,0 +1,47 @@
+[
+  {
+    "value_object": {
+      "err": {
+        "message": "Operation was successful."
+      }
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "Authorization required, invalid token."
+      }
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "Resource not found."
+      }
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "Data processed correctly."
+      }
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "The requested endpoint does not exist."
+      }
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
