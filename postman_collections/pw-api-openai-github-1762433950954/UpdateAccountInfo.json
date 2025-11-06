@@ -1,0 +1,67 @@
+[
+  {
+    "accountNumber_*string": "1042345",
+    "customerId_*number": 1045300,
+    "email_*string": "John@gmail.com",
+    "alternatePhoneNumber_*number": 9876543210,
+    "isAlternateMobileNumber_*boolean": true,
+    "phone_*number": 1234567890,
+    "isPrimaryMobileNumber_*boolean": true,
+    "location_*string": "New York",
+    "isStatement_*boolean": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber_*string": "2045678",
+    "customerId_*number": 2045301,
+    "email_*string": "Jane@gmail.com",
+    "alternatePhoneNumber_*number": 9876501234,
+    "isAlternateMobileNumber_*boolean": false,
+    "phone_*number": 1234509876,
+    "isPrimaryMobileNumber_*boolean": true,
+    "location_*string": "Los Angeles",
+    "isStatement_*boolean": false,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber_*string": "3048901",
+    "customerId_*number": 3045302,
+    "email_*string": "invalid_email",
+    "alternatePhoneNumber_*number": 9871234560,
+    "isAlternateMobileNumber_*boolean": true,
+    "phone_*number": 1234098765,
+    "isPrimaryMobileNumber_*boolean": false,
+    "location_*string": "invalid_location",
+    "isStatement_*boolean": true,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountNumber_*string": "4041234",
+    "customerId_*number": 4045303,
+    "email_*string": "Sam@gmail.com",
+    "alternatePhoneNumber_*number": 9870123456,
+    "isAlternateMobileNumber_*boolean": false,
+    "phone_*number": 1234012345,
+    "isPrimaryMobileNumber_*boolean": true,
+    "location_*string": "Chicago",
+    "isStatement_*boolean": false,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "accountNumber_*string": "5045678",
+    "customerId_*number": 5045304,
+    "email_*string": "Emma@gmail.com",
+    "alternatePhoneNumber_*number": 9870012345,
+    "isAlternateMobileNumber_*boolean": true,
+    "phone_*number": 1234001234,
+    "isPrimaryMobileNumber_*boolean": false,
+    "location_*string": "San Francisco",
+    "isStatement_*boolean": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  }
+]

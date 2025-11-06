@@ -1,0 +1,62 @@
+[
+  {
+    "accountName_*string": "John Doe",
+    "accountNumber_*string": "1042345",
+    "customerId_*number": 1045300,
+    "cardNumber_*string": "1234567890123456",
+    "description_*string": "Internal Transfer",
+    "requestSubType_*string": "SubType1",
+    "requestType_*string": "Type1",
+    "serviceType_*string": "Service1",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountName_*string": "Jane Doe",
+    "accountNumber_*string": "1042346",
+    "customerId_*number": 1045301,
+    "cardNumber_*string": "1234567890123457",
+    "description_*string": "External Transfer",
+    "requestSubType_*string": "SubType2",
+    "requestType_*string": "Type2",
+    "serviceType_*string": "Service2",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountName_*string": "Bob Smith",
+    "accountNumber_*string": "1042347",
+    "customerId_*number": 1045302,
+    "cardNumber_*string": "1234567890123458",
+    "description_*string": "Wire Transfer",
+    "requestSubType_*string": "SubType3",
+    "requestType_*string": "Type3",
+    "serviceType_*string": "Service3",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "accountName_*string": "Alice Johnson",
+    "accountNumber_*string": "1042348",
+    "customerId_*number": 1045303,
+    "cardNumber_*string": "1234567890123459",
+    "description_*string": "Mobile Transfer",
+    "requestSubType_*string": "SubType4",
+    "requestType_*string": "Type4",
+    "serviceType_*string": "Service4",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountName_*string": "Charlie Brown",
+    "accountNumber_*string": "1042349",
+    "customerId_*number": 1045304,
+    "cardNumber_*string": "1234567890123460",
+    "description_*string": "Online Transfer",
+    "requestSubType_*string": "SubType5",
+    "requestType_*string": "Type5",
+    "serviceType_*string": "Service5",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

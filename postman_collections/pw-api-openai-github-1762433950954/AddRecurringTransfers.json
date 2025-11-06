@@ -1,0 +1,112 @@
+[
+  {
+    "amount_*number": 5000,
+    "currency_*string": "USD",
+    "customerId_*number": 1045300,
+    "sourceAccountId_*string": "1042345",
+    "targetAccountId_*string": "1042222",
+    "status_*string": "completed",
+    "scheduledDate_*number": 1632960000,
+    "recurringOptions": {
+      "amountType_*string": "fixed",
+      "frequency": {
+        "iterate_*string": "weekly",
+        "duration": {
+          "untilStop_*string": "no",
+          "untilDate_*number": 1635552000,
+          "numberOfTransfers_*number": 4
+        }
+      }
+    },
+    "statusCode": 200,
+    "scenario": "schedule transfer added successfully"
+  },
+  {
+    "amount_*number": 10000,
+    "currency_*string": "EUR",
+    "customerId_*number": 1045301,
+    "sourceAccountId_*string": "1042346",
+    "targetAccountId_*string": "1042223",
+    "status_*string": "pending",
+    "scheduledDate_*number": 1633046400,
+    "recurringOptions": {
+      "amountType_*string": "variable",
+      "frequency": {
+        "iterate_*string": "monthly",
+        "duration": {
+          "untilStop_*string": "yes",
+          "untilDate_*number": 1635638400,
+          "numberOfTransfers_*number": 6
+        }
+      }
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "amount_*number": 15000,
+    "currency_*string": "GBP",
+    "customerId_*number": 1045302,
+    "sourceAccountId_*string": "1042347",
+    "targetAccountId_*string": "1042224",
+    "status_*string": "failed",
+    "scheduledDate_*number": 1633132800,
+    "recurringOptions": {
+      "amountType_*string": "fixed",
+      "frequency": {
+        "iterate_*string": "daily",
+        "duration": {
+          "untilStop_*string": "no",
+          "untilDate_*number": 1635724800,
+          "numberOfTransfers_*number": 30
+        }
+      }
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "amount_*number": 20000,
+    "currency_*string": "JPY",
+    "customerId_*number": 1045303,
+    "sourceAccountId_*string": "1042348",
+    "targetAccountId_*string": "1042225",
+    "status_*string": "processing",
+    "scheduledDate_*number": 1633219200,
+    "recurringOptions": {
+      "amountType_*string": "variable",
+      "frequency": {
+        "iterate_*string": "yearly",
+        "duration": {
+          "untilStop_*string": "yes",
+          "untilDate_*number": 1635811200,
+          "numberOfTransfers_*number": 1
+        }
+      }
+    },
+    "statusCode": 200,
+    "scenario": "schedule transfer added successfully"
+  },
+  {
+    "amount_*number": 25000,
+    "currency_*string": "AUD",
+    "customerId_*number": 1045304,
+    "sourceAccountId_*string": "1042349",
+    "targetAccountId_*string": "1042226",
+    "status_*string": "completed",
+    "scheduledDate_*number": 1633305600,
+    "recurringOptions": {
+      "amountType_*string": "fixed",
+      "frequency": {
+        "iterate_*string": "quarterly",
+        "duration": {
+          "untilStop_*string": "no",
+          "untilDate_*number": 1635897600,
+          "numberOfTransfers_*number": 4
+        }
+      }
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
