@@ -1,0 +1,2633 @@
+{
+  "item": [
+    {
+      "id": "e6f7ad94-a41b-4233-968f-2e32040dd5a8",
+      "name": "Realtime API",
+      "request": {
+        "name": "Realtime API",
+        "description": {
+          "content": "Current weather or realtime weather API method allows a user to get up to date current weather information in json and xml. The data is returned as a Current Object.<br /><br />Current object contains current or realtime weather information for a given city.",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "current.json"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "q",
+              "value": "<string>",
+              "description": "(Required) Pass US Zipcode, UK Postcode, Canada Postalcode, IP address, Latitude/Longitude (decimal degree) or city name. Visit [request parameter section](https://www.weatherapi.com/docs/#intro-request) to learn more."
+            },
+            {
+              "disabled": false,
+              "key": "lang",
+              "value": "<string>",
+              "description": "Returns 'condition:text' field in API in the desired language.<br /> Visit [request parameter section](https://www.weatherapi.com/docs/#intro-request) to check 'lang-code'."
+            }
+          ],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": {
+          "type": "apikey",
+          "apikey": [
+            {
+              "key": "key",
+              "value": "key"
+            },
+            {
+              "key": "value",
+              "value": "{{apiKey}}"
+            },
+            {
+              "key": "in",
+              "value": "query"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "id": "dcca2153-2863-4b1e-965e-8012774e9c23",
+          "name": "Ok",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "current.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"location\": {\n    \"name\": \"New York\",\n    \"region\": \"New York\",\n    \"country\": \"United States of America\",\n    \"lat\": 40.71,\n    \"lon\": -74.01,\n    \"tz_id\": \"America/New_York\",\n    \"localtime_epoch\": 1658522976,\n    \"localtime\": \"2022-07-22 16:49\"\n  },\n  \"current\": {\n    \"last_updated_epoch\": 1658522700,\n    \"last_updated\": \"2022-07-22 16:45\",\n    \"temp_c\": 34.4,\n    \"temp_f\": 93.9,\n    \"is_day\": 1,\n    \"condition\": {\n      \"text\": \"Partly cloudy\",\n      \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/116.png\",\n      \"code\": 1003\n    },\n    \"wind_mph\": 16.1,\n    \"wind_kph\": 25.9,\n    \"wind_degree\": 180,\n    \"wind_dir\": \"S\",\n    \"pressure_mb\": 1011,\n    \"pressure_in\": 29.85,\n    \"precip_mm\": 0,\n    \"precip_in\": 0,\n    \"humidity\": 31,\n    \"cloud\": 75,\n    \"feelslike_c\": 37,\n    \"feelslike_f\": 98.6,\n    \"vis_km\": 16,\n    \"vis_miles\": 9,\n    \"uv\": 8,\n    \"gust_mph\": 11.6,\n    \"gust_kph\": 18.7,\n    \"air_quality\": {\n      \"co\": 293.70001220703125,\n      \"no2\": 18.5,\n      \"o3\": 234.60000610351562,\n      \"so2\": 12,\n      \"pm2_5\": 13.600000381469727,\n      \"pm10\": 15,\n      \"us-epa-index\": 1,\n      \"gb-defra-index\": 2\n    }\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "0a2157fe-5551-4a80-948d-bdfe8e87bc4f",
+          "name": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "current.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 1003,\n  \"message\": \"Parameter 'q' not provided.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "01e1e29a-3b83-4003-a764-158cbd184e55",
+          "name": "Error code 1002: API key not provided.<br />Error code 2006: API key provided is invalid",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "current.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 1002,\n  \"message\": \"API key not provided\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "c37b83d1-9530-4c5a-b537-209749007c79",
+          "name": "Error code 2007: API key has exceeded calls per month quota.<br />Error code 2008: API key has been disabled.<br />Error code 2009: API key does not have access to the resource. Please check pricing page for what is allowed in your API subscription plan.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "current.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 2007,\n  \"message\": \"API key has exceeded calls per month quota.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "1d086913-99fb-471b-bf55-96e137d4c45b",
+      "name": "Forecast API",
+      "request": {
+        "name": "Forecast API",
+        "description": {
+          "content": "Forecast weather API method returns, depending upon your price plan level, upto next 14 day weather forecast and weather alert as json or xml. The data is returned as a Forecast Object.<br /><br />Forecast object contains astronomy data, day weather forecast and hourly interval weather information for a given city.",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "forecast.json"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "q",
+              "value": "<string>",
+              "description": "(Required) Pass US Zipcode, UK Postcode, Canada Postalcode, IP address, Latitude/Longitude (decimal degree) or city name. Visit [request parameter section](https://www.weatherapi.com/docs/#intro-request) to learn more."
+            },
+            {
+              "disabled": false,
+              "key": "days",
+              "value": "<integer>",
+              "description": "(Required) Number of days of weather forecast. Value ranges from 1 to 14"
+            },
+            {
+              "disabled": false,
+              "key": "dt",
+              "value": "<date>",
+              "description": "Date should be between today and next 14 day in yyyy-MM-dd format. e.g. '2015-01-01'"
+            },
+            {
+              "disabled": false,
+              "key": "unixdt",
+              "value": "<integer>",
+              "description": "Please either pass 'dt' or 'unixdt' and not both in same request. unixdt should be between today and next 14 day in Unix format. e.g. 1490227200"
+            },
+            {
+              "disabled": false,
+              "key": "hour",
+              "value": "<integer>",
+              "description": "Must be in 24 hour. For example 5 pm should be hour=17, 6 am as hour=6"
+            },
+            {
+              "disabled": false,
+              "key": "lang",
+              "value": "<string>",
+              "description": "Returns 'condition:text' field in API in the desired language.<br /> Visit [request parameter section](https://www.weatherapi.com/docs/#intro-request) to check 'lang-code'."
+            },
+            {
+              "disabled": false,
+              "key": "alerts",
+              "value": "<string>",
+              "description": "Enable/Disable alerts in forecast API output. Example, alerts=yes or alerts=no."
+            },
+            {
+              "disabled": false,
+              "key": "aqi",
+              "value": "<string>",
+              "description": "Enable/Disable Air Quality data in forecast API output. Example, aqi=yes or aqi=no."
+            },
+            {
+              "disabled": false,
+              "key": "tp",
+              "value": "<integer>",
+              "description": "Get 15 min interval or 24 hour average data for Forecast and History API. Available for Enterprise clients only. E.g:- tp=15"
+            }
+          ],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": {
+          "type": "apikey",
+          "apikey": [
+            {
+              "key": "key",
+              "value": "key"
+            },
+            {
+              "key": "value",
+              "value": "{{apiKey}}"
+            },
+            {
+              "key": "in",
+              "value": "query"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "id": "f70eb02e-a89f-4327-b844-94270c50472a",
+          "name": "Ok",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "forecast.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "days",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "unixdt",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "hour",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "alerts",
+                  "value": "<string>"
+                },
+                {
+                  "key": "aqi",
+                  "value": "<string>"
+                },
+                {
+                  "key": "tp",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"location\": {\n    \"name\": \"New York\",\n    \"region\": \"New York\",\n    \"country\": \"United States of America\",\n    \"lat\": 40.71,\n    \"lon\": -74.01,\n    \"tz_id\": \"America/New_York\",\n    \"localtime_epoch\": 1658522976,\n    \"localtime\": \"2022-07-22 16:49\"\n  },\n  \"current\": {\n    \"last_updated_epoch\": 1658522700,\n    \"last_updated\": \"2022-07-22 16:45\",\n    \"temp_c\": 34.4,\n    \"temp_f\": 93.9,\n    \"is_day\": 1,\n    \"condition\": {\n      \"text\": \"Partly cloudy\",\n      \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/116.png\",\n      \"code\": 1003\n    },\n    \"wind_mph\": 16.1,\n    \"wind_kph\": 25.9,\n    \"wind_degree\": 180,\n    \"wind_dir\": \"S\",\n    \"pressure_mb\": 1011,\n    \"pressure_in\": 29.85,\n    \"precip_mm\": 0,\n    \"precip_in\": 0,\n    \"humidity\": 31,\n    \"cloud\": 75,\n    \"feelslike_c\": 37,\n    \"feelslike_f\": 98.6,\n    \"vis_km\": 16,\n    \"vis_miles\": 9,\n    \"uv\": 8,\n    \"gust_mph\": 11.6,\n    \"gust_kph\": 18.7,\n    \"air_quality\": {\n      \"co\": 293.70001220703125,\n      \"no2\": 18.5,\n      \"o3\": 234.60000610351562,\n      \"so2\": 12,\n      \"pm2_5\": 13.600000381469727,\n      \"pm10\": 15,\n      \"us-epa-index\": 1,\n      \"gb-defra-index\": 2\n    }\n  },\n  \"forecast\": {\n    \"forecastday\": [\n      {\n        \"date\": \"2022-07-22\",\n        \"date_epoch\": 1658448000,\n        \"day\": {\n          \"maxtemp_c\": 35.9,\n          \"maxtemp_f\": 96.6,\n          \"mintemp_c\": 26.3,\n          \"mintemp_f\": 79.3,\n          \"avgtemp_c\": 30.7,\n          \"avgtemp_f\": 87.3,\n          \"maxwind_mph\": 12.8,\n          \"maxwind_kph\": 20.5,\n          \"totalprecip_mm\": 0,\n          \"totalprecip_in\": 0,\n          \"avgvis_km\": 10,\n          \"avgvis_miles\": 6,\n          \"avghumidity\": 53,\n          \"daily_will_it_rain\": 0,\n          \"daily_chance_of_rain\": 0,\n          \"daily_will_it_snow\": 0,\n          \"daily_chance_of_snow\": 0,\n          \"condition\": {\n            \"text\": \"Sunny\",\n            \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n            \"code\": 1000\n          },\n          \"uv\": 8\n        },\n        \"astro\": {\n          \"sunrise\": \"05:44 AM\",\n          \"sunset\": \"08:20 PM\",\n          \"moonrise\": \"12:58 AM\",\n          \"moonset\": \"03:35 PM\",\n          \"moon_phase\": \"Last Quarter\",\n          \"moon_illumination\": \"string\"\n        },\n        \"hour\": [\n          {\n            \"time_epoch\": 1658462400,\n            \"time\": \"2022-07-22 00:00\",\n            \"temp_c\": 28.7,\n            \"temp_f\": 83.7,\n            \"is_day\": 0,\n            \"condition\": {\n              \"text\": \"Clear\",\n              \"icon\": \"//cdn.weatherapi.com/weather/64x64/night/113.png\",\n              \"code\": 1000\n            },\n            \"wind_mph\": 9.4,\n            \"wind_kph\": 15.1,\n            \"wind_degree\": 265,\n            \"wind_dir\": \"W\",\n            \"pressure_mb\": 1007,\n            \"pressure_in\": 29.73,\n            \"precip_mm\": 0,\n            \"precip_in\": 0,\n            \"humidity\": 58,\n            \"cloud\": 19,\n            \"feelslike_c\": 30.5,\n            \"feelslike_f\": 86.9,\n            \"windchill_c\": 28.7,\n            \"windchill_f\": 83.7,\n            \"heatindex_c\": 30.5,\n            \"heatindex_f\": 86.9,\n            \"dewpoint_c\": 19.6,\n            \"dewpoint_f\": 67.3,\n            \"will_it_rain\": 0,\n            \"chance_of_rain\": 0,\n            \"will_it_snow\": 0,\n            \"chance_of_snow\": 0,\n            \"vis_km\": 10,\n            \"vis_miles\": 6,\n            \"gust_mph\": 15,\n            \"gust_kph\": 24.1,\n            \"uv\": 1\n          },\n          {\n            \"time_epoch\": 1658462400,\n            \"time\": \"2022-07-22 00:00\",\n            \"temp_c\": 28.7,\n            \"temp_f\": 83.7,\n            \"is_day\": 0,\n            \"condition\": {\n              \"text\": \"Clear\",\n              \"icon\": \"//cdn.weatherapi.com/weather/64x64/night/113.png\",\n              \"code\": 1000\n            },\n            \"wind_mph\": 9.4,\n            \"wind_kph\": 15.1,\n            \"wind_degree\": 265,\n            \"wind_dir\": \"W\",\n            \"pressure_mb\": 1007,\n            \"pressure_in\": 29.73,\n            \"precip_mm\": 0,\n            \"precip_in\": 0,\n            \"humidity\": 58,\n            \"cloud\": 19,\n            \"feelslike_c\": 30.5,\n            \"feelslike_f\": 86.9,\n            \"windchill_c\": 28.7,\n            \"windchill_f\": 83.7,\n            \"heatindex_c\": 30.5,\n            \"heatindex_f\": 86.9,\n            \"dewpoint_c\": 19.6,\n            \"dewpoint_f\": 67.3,\n            \"will_it_rain\": 0,\n            \"chance_of_rain\": 0,\n            \"will_it_snow\": 0,\n            \"chance_of_snow\": 0,\n            \"vis_km\": 10,\n            \"vis_miles\": 6,\n            \"gust_mph\": 15,\n            \"gust_kph\": 24.1,\n            \"uv\": 1\n          }\n        ]\n      },\n      {\n        \"date\": \"2022-07-22\",\n        \"date_epoch\": 1658448000,\n        \"day\": {\n          \"maxtemp_c\": 35.9,\n          \"maxtemp_f\": 96.6,\n          \"mintemp_c\": 26.3,\n          \"mintemp_f\": 79.3,\n          \"avgtemp_c\": 30.7,\n          \"avgtemp_f\": 87.3,\n          \"maxwind_mph\": 12.8,\n          \"maxwind_kph\": 20.5,\n          \"totalprecip_mm\": 0,\n          \"totalprecip_in\": 0,\n          \"avgvis_km\": 10,\n          \"avgvis_miles\": 6,\n          \"avghumidity\": 53,\n          \"daily_will_it_rain\": 0,\n          \"daily_chance_of_rain\": 0,\n          \"daily_will_it_snow\": 0,\n          \"daily_chance_of_snow\": 0,\n          \"condition\": {\n            \"text\": \"Sunny\",\n            \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n            \"code\": 1000\n          },\n          \"uv\": 8\n        },\n        \"astro\": {\n          \"sunrise\": \"05:44 AM\",\n          \"sunset\": \"08:20 PM\",\n          \"moonrise\": \"12:58 AM\",\n          \"moonset\": \"03:35 PM\",\n          \"moon_phase\": \"Last Quarter\",\n          \"moon_illumination\": \"string\"\n        },\n        \"hour\": [\n          {\n            \"time_epoch\": 1658462400,\n            \"time\": \"2022-07-22 00:00\",\n            \"temp_c\": 28.7,\n            \"temp_f\": 83.7,\n            \"is_day\": 0,\n            \"condition\": {\n              \"text\": \"Clear\",\n              \"icon\": \"//cdn.weatherapi.com/weather/64x64/night/113.png\",\n              \"code\": 1000\n            },\n            \"wind_mph\": 9.4,\n            \"wind_kph\": 15.1,\n            \"wind_degree\": 265,\n            \"wind_dir\": \"W\",\n            \"pressure_mb\": 1007,\n            \"pressure_in\": 29.73,\n            \"precip_mm\": 0,\n            \"precip_in\": 0,\n            \"humidity\": 58,\n            \"cloud\": 19,\n            \"feelslike_c\": 30.5,\n            \"feelslike_f\": 86.9,\n            \"windchill_c\": 28.7,\n            \"windchill_f\": 83.7,\n            \"heatindex_c\": 30.5,\n            \"heatindex_f\": 86.9,\n            \"dewpoint_c\": 19.6,\n            \"dewpoint_f\": 67.3,\n            \"will_it_rain\": 0,\n            \"chance_of_rain\": 0,\n            \"will_it_snow\": 0,\n            \"chance_of_snow\": 0,\n            \"vis_km\": 10,\n            \"vis_miles\": 6,\n            \"gust_mph\": 15,\n            \"gust_kph\": 24.1,\n            \"uv\": 1\n          },\n          {\n            \"time_epoch\": 1658462400,\n            \"time\": \"2022-07-22 00:00\",\n            \"temp_c\": 28.7,\n            \"temp_f\": 83.7,\n            \"is_day\": 0,\n            \"condition\": {\n              \"text\": \"Clear\",\n              \"icon\": \"//cdn.weatherapi.com/weather/64x64/night/113.png\",\n              \"code\": 1000\n            },\n            \"wind_mph\": 9.4,\n            \"wind_kph\": 15.1,\n            \"wind_degree\": 265,\n            \"wind_dir\": \"W\",\n            \"pressure_mb\": 1007,\n            \"pressure_in\": 29.73,\n            \"precip_mm\": 0,\n            \"precip_in\": 0,\n            \"humidity\": 58,\n            \"cloud\": 19,\n            \"feelslike_c\": 30.5,\n            \"feelslike_f\": 86.9,\n            \"windchill_c\": 28.7,\n            \"windchill_f\": 83.7,\n            \"heatindex_c\": 30.5,\n            \"heatindex_f\": 86.9,\n            \"dewpoint_c\": 19.6,\n            \"dewpoint_f\": 67.3,\n            \"will_it_rain\": 0,\n            \"chance_of_rain\": 0,\n            \"will_it_snow\": 0,\n            \"chance_of_snow\": 0,\n            \"vis_km\": 10,\n            \"vis_miles\": 6,\n            \"gust_mph\": 15,\n            \"gust_kph\": 24.1,\n            \"uv\": 1\n          }\n        ]\n      }\n    ]\n  },\n  \"alerts\": {\n    \"alert\": [\n      {\n        \"headline\": \"NWS New York City - Upton (Long Island and New York City)\",\n        \"msgtype\": \"string\",\n        \"severity\": \"string\",\n        \"urgency\": \"string\",\n        \"areas\": \"string\",\n        \"category\": \"Extreme temperature value\",\n        \"certainty\": \"string\",\n        \"event\": \"Heat Advisory\",\n        \"note\": \"string\",\n        \"effective\": \"2022-07-21T19:38:00+00:00\",\n        \"expires\": \"2022-07-25T00:00:00+00:00\",\n        \"desc\": \"...HEAT ADVISORY REMAINS IN EFFECT UNTIL 8 PM EDT SUNDAY... * WHAT...Heat index values up to 105. * WHERE...Eastern Passaic Hudson Western Bergen Western Essex Eastern Bergen and Eastern Essex Counties. * WHEN...Until 8 PM EDT Sunday. * IMPACTS...High temperatures and high humidity may cause heat illnesses to occur.\",\n        \"instruction\": \"\"\n      },\n      {\n        \"headline\": \"NWS New York City - Upton (Long Island and New York City)\",\n        \"msgtype\": \"string\",\n        \"severity\": \"string\",\n        \"urgency\": \"string\",\n        \"areas\": \"string\",\n        \"category\": \"Extreme temperature value\",\n        \"certainty\": \"string\",\n        \"event\": \"Heat Advisory\",\n        \"note\": \"string\",\n        \"effective\": \"2022-07-21T19:38:00+00:00\",\n        \"expires\": \"2022-07-25T00:00:00+00:00\",\n        \"desc\": \"...HEAT ADVISORY REMAINS IN EFFECT UNTIL 8 PM EDT SUNDAY... * WHAT...Heat index values up to 105. * WHERE...Eastern Passaic Hudson Western Bergen Western Essex Eastern Bergen and Eastern Essex Counties. * WHEN...Until 8 PM EDT Sunday. * IMPACTS...High temperatures and high humidity may cause heat illnesses to occur.\",\n        \"instruction\": \"\"\n      }\n    ]\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "3b0aaca6-6cf9-430b-810d-7c63de104023",
+          "name": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "forecast.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "days",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "unixdt",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "hour",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "alerts",
+                  "value": "<string>"
+                },
+                {
+                  "key": "aqi",
+                  "value": "<string>"
+                },
+                {
+                  "key": "tp",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 1003,\n  \"message\": \"Parameter 'q' not provided.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "98eaeaaf-117f-4a05-acc8-75a16506a8fb",
+          "name": "Error code 1002: API key not provided.<br />Error code 2006: API key provided is invalid",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "forecast.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "days",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "unixdt",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "hour",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "alerts",
+                  "value": "<string>"
+                },
+                {
+                  "key": "aqi",
+                  "value": "<string>"
+                },
+                {
+                  "key": "tp",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 1002,\n  \"message\": \"API key not provided\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "fc6b8524-3e5a-4664-9049-00316f091482",
+          "name": "Error code 2007: API key has exceeded calls per month quota.<br />Error code 2008: API key has been disabled.<br />Error code 2009: API key does not have access to the resource. Please check pricing page for what is allowed in your API subscription plan.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "forecast.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "days",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "unixdt",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "hour",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "alerts",
+                  "value": "<string>"
+                },
+                {
+                  "key": "aqi",
+                  "value": "<string>"
+                },
+                {
+                  "key": "tp",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 2007,\n  \"message\": \"API key has exceeded calls per month quota.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "faa06c78-f3bb-43fe-85a1-441b2f4be234",
+      "name": "Future API",
+      "request": {
+        "name": "Future API",
+        "description": {
+          "content": "Future weather API method returns weather in a 3 hourly interval in future for a date between 14 days and 365 days from today in the future.",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "future.json"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "q",
+              "value": "<string>",
+              "description": "(Required) Pass US Zipcode, UK Postcode, Canada Postalcode, IP address, Latitude/Longitude (decimal degree) or city name. Visit [request parameter section](https://www.weatherapi.com/docs/#intro-request) to learn more."
+            },
+            {
+              "disabled": false,
+              "key": "dt",
+              "value": "<date>",
+              "description": "Date should be between 14 days and 300 days from today in the future in yyyy-MM-dd format (i.e. dt=2023-01-01)"
+            },
+            {
+              "disabled": false,
+              "key": "lang",
+              "value": "<string>",
+              "description": "Returns 'condition:text' field in API in the desired language.<br /> Visit [request parameter section](https://www.weatherapi.com/docs/#intro-request) to check 'lang-code'."
+            }
+          ],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": {
+          "type": "apikey",
+          "apikey": [
+            {
+              "key": "key",
+              "value": "key"
+            },
+            {
+              "key": "value",
+              "value": "{{apiKey}}"
+            },
+            {
+              "key": "in",
+              "value": "query"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "id": "7829237d-eb5d-44d8-94f8-19aa186c7b30",
+          "name": "Ok",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "future.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"location\": {\n    \"name\": \"New York\",\n    \"region\": \"New York\",\n    \"country\": \"United States of America\",\n    \"lat\": 40.71,\n    \"lon\": -74.01,\n    \"tz_id\": \"America/New_York\",\n    \"localtime_epoch\": 1658522976,\n    \"localtime\": \"2022-07-22 16:49\"\n  },\n  \"forecast\": {\n    \"forecastday\": [\n      {\n        \"date\": \"2022-07-22\",\n        \"date_epoch\": 1658448000,\n        \"day\": {\n          \"maxtemp_c\": 35.9,\n          \"maxtemp_f\": 96.6,\n          \"mintemp_c\": 26.3,\n          \"mintemp_f\": 79.3,\n          \"avgtemp_c\": 30.7,\n          \"avgtemp_f\": 87.3,\n          \"maxwind_mph\": 12.8,\n          \"maxwind_kph\": 20.5,\n          \"totalprecip_mm\": 0,\n          \"totalprecip_in\": 0,\n          \"avgvis_km\": 10,\n          \"avgvis_miles\": 6,\n          \"avghumidity\": 53,\n          \"daily_will_it_rain\": 0,\n          \"daily_chance_of_rain\": 0,\n          \"daily_will_it_snow\": 0,\n          \"daily_chance_of_snow\": 0,\n          \"condition\": {\n            \"text\": \"Sunny\",\n            \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n            \"code\": 1000\n          },\n          \"uv\": 8\n        },\n        \"astro\": {\n          \"sunrise\": \"05:44 AM\",\n          \"sunset\": \"08:20 PM\",\n          \"moonrise\": \"12:58 AM\",\n          \"moonset\": \"03:35 PM\",\n          \"moon_phase\": \"Last Quarter\",\n          \"moon_illumination\": \"string\"\n        },\n        \"hour\": [\n          {\n            \"time_epoch\": 1658462400,\n            \"time\": \"2022-07-22 00:00\",\n            \"temp_c\": 28.7,\n            \"temp_f\": 83.7,\n            \"is_day\": 0,\n            \"condition\": {\n              \"text\": \"Clear\",\n              \"icon\": \"//cdn.weatherapi.com/weather/64x64/night/113.png\",\n              \"code\": 1000\n            },\n            \"wind_mph\": 9.4,\n            \"wind_kph\": 15.1,\n            \"wind_degree\": 265,\n            \"wind_dir\": \"W\",\n            \"pressure_mb\": 1007,\n            \"pressure_in\": 29.73,\n            \"precip_mm\": 0,\n            \"precip_in\": 0,\n            \"humidity\": 58,\n            \"cloud\": 19,\n            \"feelslike_c\": 30.5,\n            \"feelslike_f\": 86.9,\n            \"windchill_c\": 28.7,\n            \"windchill_f\": 83.7,\n            \"heatindex_c\": 30.5,\n            \"heatindex_f\": 86.9,\n            \"dewpoint_c\": 19.6,\n            \"dewpoint_f\": 67.3,\n            \"will_it_rain\": 0,\n            \"chance_of_rain\": 0,\n            \"will_it_snow\": 0,\n            \"chance_of_snow\": 0,\n            \"vis_km\": 10,\n            \"vis_miles\": 6,\n            \"gust_mph\": 15,\n            \"gust_kph\": 24.1,\n            \"uv\": 1\n          },\n          {\n            \"time_epoch\": 1658462400,\n            \"time\": \"2022-07-22 00:00\",\n            \"temp_c\": 28.7,\n            \"temp_f\": 83.7,\n            \"is_day\": 0,\n            \"condition\": {\n              \"text\": \"Clear\",\n              \"icon\": \"//cdn.weatherapi.com/weather/64x64/night/113.png\",\n              \"code\": 1000\n            },\n            \"wind_mph\": 9.4,\n            \"wind_kph\": 15.1,\n            \"wind_degree\": 265,\n            \"wind_dir\": \"W\",\n            \"pressure_mb\": 1007,\n            \"pressure_in\": 29.73,\n            \"precip_mm\": 0,\n            \"precip_in\": 0,\n            \"humidity\": 58,\n            \"cloud\": 19,\n            \"feelslike_c\": 30.5,\n            \"feelslike_f\": 86.9,\n            \"windchill_c\": 28.7,\n            \"windchill_f\": 83.7,\n            \"heatindex_c\": 30.5,\n            \"heatindex_f\": 86.9,\n            \"dewpoint_c\": 19.6,\n            \"dewpoint_f\": 67.3,\n            \"will_it_rain\": 0,\n            \"chance_of_rain\": 0,\n            \"will_it_snow\": 0,\n            \"chance_of_snow\": 0,\n            \"vis_km\": 10,\n            \"vis_miles\": 6,\n            \"gust_mph\": 15,\n            \"gust_kph\": 24.1,\n            \"uv\": 1\n          }\n        ]\n      },\n      {\n        \"date\": \"2022-07-22\",\n        \"date_epoch\": 1658448000,\n        \"day\": {\n          \"maxtemp_c\": 35.9,\n          \"maxtemp_f\": 96.6,\n          \"mintemp_c\": 26.3,\n          \"mintemp_f\": 79.3,\n          \"avgtemp_c\": 30.7,\n          \"avgtemp_f\": 87.3,\n          \"maxwind_mph\": 12.8,\n          \"maxwind_kph\": 20.5,\n          \"totalprecip_mm\": 0,\n          \"totalprecip_in\": 0,\n          \"avgvis_km\": 10,\n          \"avgvis_miles\": 6,\n          \"avghumidity\": 53,\n          \"daily_will_it_rain\": 0,\n          \"daily_chance_of_rain\": 0,\n          \"daily_will_it_snow\": 0,\n          \"daily_chance_of_snow\": 0,\n          \"condition\": {\n            \"text\": \"Sunny\",\n            \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n            \"code\": 1000\n          },\n          \"uv\": 8\n        },\n        \"astro\": {\n          \"sunrise\": \"05:44 AM\",\n          \"sunset\": \"08:20 PM\",\n          \"moonrise\": \"12:58 AM\",\n          \"moonset\": \"03:35 PM\",\n          \"moon_phase\": \"Last Quarter\",\n          \"moon_illumination\": \"string\"\n        },\n        \"hour\": [\n          {\n            \"time_epoch\": 1658462400,\n            \"time\": \"2022-07-22 00:00\",\n            \"temp_c\": 28.7,\n            \"temp_f\": 83.7,\n            \"is_day\": 0,\n            \"condition\": {\n              \"text\": \"Clear\",\n              \"icon\": \"//cdn.weatherapi.com/weather/64x64/night/113.png\",\n              \"code\": 1000\n            },\n            \"wind_mph\": 9.4,\n            \"wind_kph\": 15.1,\n            \"wind_degree\": 265,\n            \"wind_dir\": \"W\",\n            \"pressure_mb\": 1007,\n            \"pressure_in\": 29.73,\n            \"precip_mm\": 0,\n            \"precip_in\": 0,\n            \"humidity\": 58,\n            \"cloud\": 19,\n            \"feelslike_c\": 30.5,\n            \"feelslike_f\": 86.9,\n            \"windchill_c\": 28.7,\n            \"windchill_f\": 83.7,\n            \"heatindex_c\": 30.5,\n            \"heatindex_f\": 86.9,\n            \"dewpoint_c\": 19.6,\n            \"dewpoint_f\": 67.3,\n            \"will_it_rain\": 0,\n            \"chance_of_rain\": 0,\n            \"will_it_snow\": 0,\n            \"chance_of_snow\": 0,\n            \"vis_km\": 10,\n            \"vis_miles\": 6,\n            \"gust_mph\": 15,\n            \"gust_kph\": 24.1,\n            \"uv\": 1\n          },\n          {\n            \"time_epoch\": 1658462400,\n            \"time\": \"2022-07-22 00:00\",\n            \"temp_c\": 28.7,\n            \"temp_f\": 83.7,\n            \"is_day\": 0,\n            \"condition\": {\n              \"text\": \"Clear\",\n              \"icon\": \"//cdn.weatherapi.com/weather/64x64/night/113.png\",\n              \"code\": 1000\n            },\n            \"wind_mph\": 9.4,\n            \"wind_kph\": 15.1,\n            \"wind_degree\": 265,\n            \"wind_dir\": \"W\",\n            \"pressure_mb\": 1007,\n            \"pressure_in\": 29.73,\n            \"precip_mm\": 0,\n            \"precip_in\": 0,\n            \"humidity\": 58,\n            \"cloud\": 19,\n            \"feelslike_c\": 30.5,\n            \"feelslike_f\": 86.9,\n            \"windchill_c\": 28.7,\n            \"windchill_f\": 83.7,\n            \"heatindex_c\": 30.5,\n            \"heatindex_f\": 86.9,\n            \"dewpoint_c\": 19.6,\n            \"dewpoint_f\": 67.3,\n            \"will_it_rain\": 0,\n            \"chance_of_rain\": 0,\n            \"will_it_snow\": 0,\n            \"chance_of_snow\": 0,\n            \"vis_km\": 10,\n            \"vis_miles\": 6,\n            \"gust_mph\": 15,\n            \"gust_kph\": 24.1,\n            \"uv\": 1\n          }\n        ]\n      }\n    ]\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "28c7fea8-3cd7-4905-8bb0-bfd87b39abc4",
+          "name": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "future.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 1003,\n  \"message\": \"Parameter 'q' not provided.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "b1b669d9-0c11-4af7-b028-1ae53c9a5a66",
+          "name": "Error code 1002: API key not provided.<br />Error code 2006: API key provided is invalid",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "future.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 1002,\n  \"message\": \"API key not provided\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "a487711f-d2ba-4e51-b813-c277ff6f803c",
+          "name": "Error code 2007: API key has exceeded calls per month quota.<br />Error code 2008: API key has been disabled.<br />Error code 2009: API key does not have access to the resource. Please check pricing page for what is allowed in your API subscription plan.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "future.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 2007,\n  \"message\": \"API key has exceeded calls per month quota.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "6362f9b1-5e74-4a2c-990a-aeb6340765bf",
+      "name": "History API",
+      "request": {
+        "name": "History API",
+        "description": {
+          "content": "History weather API method returns historical weather for a date on or after 1st Jan, 2010 as json. The data is returned as a Forecast Object.",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "history.json"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "q",
+              "value": "<string>",
+              "description": "(Required) Pass US Zipcode, UK Postcode, Canada Postalcode, IP address, Latitude/Longitude (decimal degree) or city name. Visit [request parameter section](https://www.weatherapi.com/docs/#intro-request) to learn more."
+            },
+            {
+              "disabled": false,
+              "key": "dt",
+              "value": "<date>",
+              "description": "(Required) Date on or after 1st Jan, 2015 in yyyy-MM-dd format"
+            },
+            {
+              "disabled": false,
+              "key": "unixdt",
+              "value": "<integer>",
+              "description": "Please either pass 'dt' or 'unixdt' and not both in same request.<br />unixdt should be on or after 1st Jan, 2015 in Unix format"
+            },
+            {
+              "disabled": false,
+              "key": "end_dt",
+              "value": "<date>",
+              "description": "Date on or after 1st Jan, 2015 in yyyy-MM-dd format<br />'end_dt' should be greater than 'dt' parameter and difference should not be more than 30 days between the two dates."
+            },
+            {
+              "disabled": false,
+              "key": "unixend_dt",
+              "value": "<integer>",
+              "description": "Date on or after 1st Jan, 2015 in Unix Timestamp format<br />unixend_dt has same restriction as 'end_dt' parameter. Please either pass 'end_dt' or 'unixend_dt' and not both in same request. e.g. unixend_dt=1490227200"
+            },
+            {
+              "disabled": false,
+              "key": "hour",
+              "value": "<integer>",
+              "description": "Must be in 24 hour. For example 5 pm should be hour=17, 6 am as hour=6"
+            },
+            {
+              "disabled": false,
+              "key": "lang",
+              "value": "<string>",
+              "description": "Returns 'condition:text' field in API in the desired language.<br /> Visit [request parameter section](https://www.weatherapi.com/docs/#intro-request) to check 'lang-code'."
+            }
+          ],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": {
+          "type": "apikey",
+          "apikey": [
+            {
+              "key": "key",
+              "value": "key"
+            },
+            {
+              "key": "value",
+              "value": "{{apiKey}}"
+            },
+            {
+              "key": "in",
+              "value": "query"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "id": "79fa761a-bd67-4a0a-8e13-32f3ee5950ee",
+          "name": "Ok",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "history.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "unixdt",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "end_dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "unixend_dt",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "hour",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"location\": {\n    \"name\": \"New York\",\n    \"region\": \"New York\",\n    \"country\": \"United States of America\",\n    \"lat\": 40.71,\n    \"lon\": -74.01,\n    \"tz_id\": \"America/New_York\",\n    \"localtime_epoch\": 1658522976,\n    \"localtime\": \"2022-07-22 16:49\"\n  },\n  \"forecast\": {\n    \"forecastday\": [\n      {\n        \"date\": \"2022-07-22\",\n        \"date_epoch\": 1658448000,\n        \"day\": {\n          \"maxtemp_c\": 35.9,\n          \"maxtemp_f\": 96.6,\n          \"mintemp_c\": 26.3,\n          \"mintemp_f\": 79.3,\n          \"avgtemp_c\": 30.7,\n          \"avgtemp_f\": 87.3,\n          \"maxwind_mph\": 12.8,\n          \"maxwind_kph\": 20.5,\n          \"totalprecip_mm\": 0,\n          \"totalprecip_in\": 0,\n          \"avgvis_km\": 10,\n          \"avgvis_miles\": 6,\n          \"avghumidity\": 53,\n          \"daily_will_it_rain\": 0,\n          \"daily_chance_of_rain\": 0,\n          \"daily_will_it_snow\": 0,\n          \"daily_chance_of_snow\": 0,\n          \"condition\": {\n            \"text\": \"Sunny\",\n            \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n            \"code\": 1000\n          },\n          \"uv\": 8\n        },\n        \"astro\": {\n          \"sunrise\": \"05:44 AM\",\n          \"sunset\": \"08:20 PM\",\n          \"moonrise\": \"12:58 AM\",\n          \"moonset\": \"03:35 PM\",\n          \"moon_phase\": \"Last Quarter\",\n          \"moon_illumination\": \"string\"\n        },\n        \"hour\": [\n          {\n            \"time_epoch\": 1658462400,\n            \"time\": \"2022-07-22 00:00\",\n            \"temp_c\": 28.7,\n            \"temp_f\": 83.7,\n            \"is_day\": 0,\n            \"condition\": {\n              \"text\": \"Clear\",\n              \"icon\": \"//cdn.weatherapi.com/weather/64x64/night/113.png\",\n              \"code\": 1000\n            },\n            \"wind_mph\": 9.4,\n            \"wind_kph\": 15.1,\n            \"wind_degree\": 265,\n            \"wind_dir\": \"W\",\n            \"pressure_mb\": 1007,\n            \"pressure_in\": 29.73,\n            \"precip_mm\": 0,\n            \"precip_in\": 0,\n            \"humidity\": 58,\n            \"cloud\": 19,\n            \"feelslike_c\": 30.5,\n            \"feelslike_f\": 86.9,\n            \"windchill_c\": 28.7,\n            \"windchill_f\": 83.7,\n            \"heatindex_c\": 30.5,\n            \"heatindex_f\": 86.9,\n            \"dewpoint_c\": 19.6,\n            \"dewpoint_f\": 67.3,\n            \"will_it_rain\": 0,\n            \"chance_of_rain\": 0,\n            \"will_it_snow\": 0,\n            \"chance_of_snow\": 0,\n            \"vis_km\": 10,\n            \"vis_miles\": 6,\n            \"gust_mph\": 15,\n            \"gust_kph\": 24.1,\n            \"uv\": 1\n          },\n          {\n            \"time_epoch\": 1658462400,\n            \"time\": \"2022-07-22 00:00\",\n            \"temp_c\": 28.7,\n            \"temp_f\": 83.7,\n            \"is_day\": 0,\n            \"condition\": {\n              \"text\": \"Clear\",\n              \"icon\": \"//cdn.weatherapi.com/weather/64x64/night/113.png\",\n              \"code\": 1000\n            },\n            \"wind_mph\": 9.4,\n            \"wind_kph\": 15.1,\n            \"wind_degree\": 265,\n            \"wind_dir\": \"W\",\n            \"pressure_mb\": 1007,\n            \"pressure_in\": 29.73,\n            \"precip_mm\": 0,\n            \"precip_in\": 0,\n            \"humidity\": 58,\n            \"cloud\": 19,\n            \"feelslike_c\": 30.5,\n            \"feelslike_f\": 86.9,\n            \"windchill_c\": 28.7,\n            \"windchill_f\": 83.7,\n            \"heatindex_c\": 30.5,\n            \"heatindex_f\": 86.9,\n            \"dewpoint_c\": 19.6,\n            \"dewpoint_f\": 67.3,\n            \"will_it_rain\": 0,\n            \"chance_of_rain\": 0,\n            \"will_it_snow\": 0,\n            \"chance_of_snow\": 0,\n            \"vis_km\": 10,\n            \"vis_miles\": 6,\n            \"gust_mph\": 15,\n            \"gust_kph\": 24.1,\n            \"uv\": 1\n          }\n        ]\n      },\n      {\n        \"date\": \"2022-07-22\",\n        \"date_epoch\": 1658448000,\n        \"day\": {\n          \"maxtemp_c\": 35.9,\n          \"maxtemp_f\": 96.6,\n          \"mintemp_c\": 26.3,\n          \"mintemp_f\": 79.3,\n          \"avgtemp_c\": 30.7,\n          \"avgtemp_f\": 87.3,\n          \"maxwind_mph\": 12.8,\n          \"maxwind_kph\": 20.5,\n          \"totalprecip_mm\": 0,\n          \"totalprecip_in\": 0,\n          \"avgvis_km\": 10,\n          \"avgvis_miles\": 6,\n          \"avghumidity\": 53,\n          \"daily_will_it_rain\": 0,\n          \"daily_chance_of_rain\": 0,\n          \"daily_will_it_snow\": 0,\n          \"daily_chance_of_snow\": 0,\n          \"condition\": {\n            \"text\": \"Sunny\",\n            \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n            \"code\": 1000\n          },\n          \"uv\": 8\n        },\n        \"astro\": {\n          \"sunrise\": \"05:44 AM\",\n          \"sunset\": \"08:20 PM\",\n          \"moonrise\": \"12:58 AM\",\n          \"moonset\": \"03:35 PM\",\n          \"moon_phase\": \"Last Quarter\",\n          \"moon_illumination\": \"string\"\n        },\n        \"hour\": [\n          {\n            \"time_epoch\": 1658462400,\n            \"time\": \"2022-07-22 00:00\",\n            \"temp_c\": 28.7,\n            \"temp_f\": 83.7,\n            \"is_day\": 0,\n            \"condition\": {\n              \"text\": \"Clear\",\n              \"icon\": \"//cdn.weatherapi.com/weather/64x64/night/113.png\",\n              \"code\": 1000\n            },\n            \"wind_mph\": 9.4,\n            \"wind_kph\": 15.1,\n            \"wind_degree\": 265,\n            \"wind_dir\": \"W\",\n            \"pressure_mb\": 1007,\n            \"pressure_in\": 29.73,\n            \"precip_mm\": 0,\n            \"precip_in\": 0,\n            \"humidity\": 58,\n            \"cloud\": 19,\n            \"feelslike_c\": 30.5,\n            \"feelslike_f\": 86.9,\n            \"windchill_c\": 28.7,\n            \"windchill_f\": 83.7,\n            \"heatindex_c\": 30.5,\n            \"heatindex_f\": 86.9,\n            \"dewpoint_c\": 19.6,\n            \"dewpoint_f\": 67.3,\n            \"will_it_rain\": 0,\n            \"chance_of_rain\": 0,\n            \"will_it_snow\": 0,\n            \"chance_of_snow\": 0,\n            \"vis_km\": 10,\n            \"vis_miles\": 6,\n            \"gust_mph\": 15,\n            \"gust_kph\": 24.1,\n            \"uv\": 1\n          },\n          {\n            \"time_epoch\": 1658462400,\n            \"time\": \"2022-07-22 00:00\",\n            \"temp_c\": 28.7,\n            \"temp_f\": 83.7,\n            \"is_day\": 0,\n            \"condition\": {\n              \"text\": \"Clear\",\n              \"icon\": \"//cdn.weatherapi.com/weather/64x64/night/113.png\",\n              \"code\": 1000\n            },\n            \"wind_mph\": 9.4,\n            \"wind_kph\": 15.1,\n            \"wind_degree\": 265,\n            \"wind_dir\": \"W\",\n            \"pressure_mb\": 1007,\n            \"pressure_in\": 29.73,\n            \"precip_mm\": 0,\n            \"precip_in\": 0,\n            \"humidity\": 58,\n            \"cloud\": 19,\n            \"feelslike_c\": 30.5,\n            \"feelslike_f\": 86.9,\n            \"windchill_c\": 28.7,\n            \"windchill_f\": 83.7,\n            \"heatindex_c\": 30.5,\n            \"heatindex_f\": 86.9,\n            \"dewpoint_c\": 19.6,\n            \"dewpoint_f\": 67.3,\n            \"will_it_rain\": 0,\n            \"chance_of_rain\": 0,\n            \"will_it_snow\": 0,\n            \"chance_of_snow\": 0,\n            \"vis_km\": 10,\n            \"vis_miles\": 6,\n            \"gust_mph\": 15,\n            \"gust_kph\": 24.1,\n            \"uv\": 1\n          }\n        ]\n      }\n    ]\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "c67fb69e-c671-4627-b64d-a10ba46bc28b",
+          "name": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "history.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "unixdt",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "end_dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "unixend_dt",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "hour",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 1003,\n  \"message\": \"Parameter 'q' not provided.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "765e55f1-d367-48a6-8e20-4a14f4ce484a",
+          "name": "Error code 1002: API key not provided.<br />Error code 2006: API key provided is invalid",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "history.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "unixdt",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "end_dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "unixend_dt",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "hour",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 1002,\n  \"message\": \"API key not provided\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "1c904002-5bae-4a54-891a-e4386291f8de",
+          "name": "Error code 2007: API key has exceeded calls per month quota.<br />Error code 2008: API key has been disabled.<br />Error code 2009: API key does not have access to the resource. Please check pricing page for what is allowed in your API subscription plan.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "history.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "unixdt",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "end_dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "unixend_dt",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "hour",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 2007,\n  \"message\": \"API key has exceeded calls per month quota.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "3246f376-14b8-493e-8817-15f8f5ae1ba5",
+      "name": "Marine Weather API",
+      "request": {
+        "name": "Marine Weather API",
+        "description": {
+          "content": "Marine weather API method returns upto next 7 day (depending upon your price plan level) marine and sailing weather forecast and tide data (depending upon your price plan level) as json or xml. The data is returned as a Marine Object.<br /><br />Marine object, depending upon your price plan level, contains astronomy data, day weather forecast and hourly interval weather information and tide data for a given sea/ocean point.",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "marine.json"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "q",
+              "value": "<string>",
+              "description": "(Required) Pass Latitude/Longitude (decimal degree) which is on a sea/ocean. Visit [request parameter section](https://www.weatherapi.com/docs/#intro-request) to learn more."
+            },
+            {
+              "disabled": false,
+              "key": "days",
+              "value": "<integer>",
+              "description": "(Required) Number of days of weather forecast. Value ranges from 1 to 7"
+            },
+            {
+              "disabled": false,
+              "key": "dt",
+              "value": "<date>",
+              "description": "Date should be between today and next 7 day in yyyy-MM-dd format. e.g. '2023-05-20'"
+            },
+            {
+              "disabled": false,
+              "key": "unixdt",
+              "value": "<integer>",
+              "description": "Please either pass 'dt' or 'unixdt' and not both in same request. unixdt should be between today and next 7 day in Unix format. e.g. 1490227200"
+            },
+            {
+              "disabled": false,
+              "key": "hour",
+              "value": "<integer>",
+              "description": "Must be in 24 hour. For example 5 pm should be hour=17, 6 am as hour=6"
+            },
+            {
+              "disabled": false,
+              "key": "lang",
+              "value": "<string>",
+              "description": "Returns 'condition:text' field in API in the desired language.<br /> Visit [request parameter section](https://www.weatherapi.com/docs/#intro-request) to check 'lang-code'."
+            }
+          ],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": {
+          "type": "apikey",
+          "apikey": [
+            {
+              "key": "key",
+              "value": "key"
+            },
+            {
+              "key": "value",
+              "value": "{{apiKey}}"
+            },
+            {
+              "key": "in",
+              "value": "query"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "id": "c6010cb8-830e-45de-ae65-b4a102f2be27",
+          "name": "Ok",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "marine.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "days",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "unixdt",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "hour",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"location\": {\n    \"name\": \"New York\",\n    \"region\": \"New York\",\n    \"country\": \"United States of America\",\n    \"lat\": 40.71,\n    \"lon\": -74.01,\n    \"tz_id\": \"America/New_York\",\n    \"localtime_epoch\": 1658522976,\n    \"localtime\": \"2022-07-22 16:49\"\n  },\n  \"forecast\": {\n    \"forecastday\": [\n      {\n        \"date\": \"2022-07-22\",\n        \"date_epoch\": 1658448000,\n        \"day\": {\n          \"maxtemp_c\": 35.9,\n          \"maxtemp_f\": 96.6,\n          \"mintemp_c\": 26.3,\n          \"mintemp_f\": 79.3,\n          \"avgtemp_c\": 30.7,\n          \"avgtemp_f\": 87.3,\n          \"maxwind_mph\": 12.8,\n          \"maxwind_kph\": 20.5,\n          \"totalprecip_mm\": 0,\n          \"totalprecip_in\": 0,\n          \"avgvis_km\": 10,\n          \"avgvis_miles\": 6,\n          \"avghumidity\": 53,\n          \"daily_will_it_rain\": 0,\n          \"daily_chance_of_rain\": 0,\n          \"daily_will_it_snow\": 0,\n          \"daily_chance_of_snow\": 0,\n          \"condition\": {\n            \"text\": \"Sunny\",\n            \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n            \"code\": 1000\n          },\n          \"uv\": 8\n        },\n        \"astro\": {\n          \"sunrise\": \"05:44 AM\",\n          \"sunset\": \"08:20 PM\",\n          \"moonrise\": \"12:58 AM\",\n          \"moonset\": \"03:35 PM\",\n          \"moon_phase\": \"Last Quarter\",\n          \"moon_illumination\": \"string\"\n        },\n        \"hour\": [\n          {\n            \"time_epoch\": 1658462400,\n            \"time\": \"2022-07-22 00:00\",\n            \"temp_c\": 28.7,\n            \"temp_f\": 83.7,\n            \"is_day\": 0,\n            \"condition\": {\n              \"text\": \"Clear\",\n              \"icon\": \"//cdn.weatherapi.com/weather/64x64/night/113.png\",\n              \"code\": 1000\n            },\n            \"wind_mph\": 9.4,\n            \"wind_kph\": 15.1,\n            \"wind_degree\": 265,\n            \"wind_dir\": \"W\",\n            \"pressure_mb\": 1007,\n            \"pressure_in\": 29.73,\n            \"precip_mm\": 0,\n            \"precip_in\": 0,\n            \"humidity\": 58,\n            \"cloud\": 19,\n            \"feelslike_c\": 30.5,\n            \"feelslike_f\": 86.9,\n            \"windchill_c\": 28.7,\n            \"windchill_f\": 83.7,\n            \"heatindex_c\": 30.5,\n            \"heatindex_f\": 86.9,\n            \"dewpoint_c\": 19.6,\n            \"dewpoint_f\": 67.3,\n            \"will_it_rain\": 0,\n            \"chance_of_rain\": 0,\n            \"will_it_snow\": 0,\n            \"chance_of_snow\": 0,\n            \"vis_km\": 10,\n            \"vis_miles\": 6,\n            \"gust_mph\": 15,\n            \"gust_kph\": 24.1,\n            \"sig_ht_mt\": 24.1,\n            \"swell_ht_mt\": 24.1,\n            \"swell_ht_ft\": 24.1,\n            \"swell_dir\": 24.1,\n            \"swell_dir_16_point\": 24.1,\n            \"swell_period_secs\": 24.1,\n            \"uv\": 1\n          },\n          {\n            \"time_epoch\": 1658462400,\n            \"time\": \"2022-07-22 00:00\",\n            \"temp_c\": 28.7,\n            \"temp_f\": 83.7,\n            \"is_day\": 0,\n            \"condition\": {\n              \"text\": \"Clear\",\n              \"icon\": \"//cdn.weatherapi.com/weather/64x64/night/113.png\",\n              \"code\": 1000\n            },\n            \"wind_mph\": 9.4,\n            \"wind_kph\": 15.1,\n            \"wind_degree\": 265,\n            \"wind_dir\": \"W\",\n            \"pressure_mb\": 1007,\n            \"pressure_in\": 29.73,\n            \"precip_mm\": 0,\n            \"precip_in\": 0,\n            \"humidity\": 58,\n            \"cloud\": 19,\n            \"feelslike_c\": 30.5,\n            \"feelslike_f\": 86.9,\n            \"windchill_c\": 28.7,\n            \"windchill_f\": 83.7,\n            \"heatindex_c\": 30.5,\n            \"heatindex_f\": 86.9,\n            \"dewpoint_c\": 19.6,\n            \"dewpoint_f\": 67.3,\n            \"will_it_rain\": 0,\n            \"chance_of_rain\": 0,\n            \"will_it_snow\": 0,\n            \"chance_of_snow\": 0,\n            \"vis_km\": 10,\n            \"vis_miles\": 6,\n            \"gust_mph\": 15,\n            \"gust_kph\": 24.1,\n            \"sig_ht_mt\": 24.1,\n            \"swell_ht_mt\": 24.1,\n            \"swell_ht_ft\": 24.1,\n            \"swell_dir\": 24.1,\n            \"swell_dir_16_point\": 24.1,\n            \"swell_period_secs\": 24.1,\n            \"uv\": 1\n          }\n        ]\n      },\n      {\n        \"date\": \"2022-07-22\",\n        \"date_epoch\": 1658448000,\n        \"day\": {\n          \"maxtemp_c\": 35.9,\n          \"maxtemp_f\": 96.6,\n          \"mintemp_c\": 26.3,\n          \"mintemp_f\": 79.3,\n          \"avgtemp_c\": 30.7,\n          \"avgtemp_f\": 87.3,\n          \"maxwind_mph\": 12.8,\n          \"maxwind_kph\": 20.5,\n          \"totalprecip_mm\": 0,\n          \"totalprecip_in\": 0,\n          \"avgvis_km\": 10,\n          \"avgvis_miles\": 6,\n          \"avghumidity\": 53,\n          \"daily_will_it_rain\": 0,\n          \"daily_chance_of_rain\": 0,\n          \"daily_will_it_snow\": 0,\n          \"daily_chance_of_snow\": 0,\n          \"condition\": {\n            \"text\": \"Sunny\",\n            \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n            \"code\": 1000\n          },\n          \"uv\": 8\n        },\n        \"astro\": {\n          \"sunrise\": \"05:44 AM\",\n          \"sunset\": \"08:20 PM\",\n          \"moonrise\": \"12:58 AM\",\n          \"moonset\": \"03:35 PM\",\n          \"moon_phase\": \"Last Quarter\",\n          \"moon_illumination\": \"string\"\n        },\n        \"hour\": [\n          {\n            \"time_epoch\": 1658462400,\n            \"time\": \"2022-07-22 00:00\",\n            \"temp_c\": 28.7,\n            \"temp_f\": 83.7,\n            \"is_day\": 0,\n            \"condition\": {\n              \"text\": \"Clear\",\n              \"icon\": \"//cdn.weatherapi.com/weather/64x64/night/113.png\",\n              \"code\": 1000\n            },\n            \"wind_mph\": 9.4,\n            \"wind_kph\": 15.1,\n            \"wind_degree\": 265,\n            \"wind_dir\": \"W\",\n            \"pressure_mb\": 1007,\n            \"pressure_in\": 29.73,\n            \"precip_mm\": 0,\n            \"precip_in\": 0,\n            \"humidity\": 58,\n            \"cloud\": 19,\n            \"feelslike_c\": 30.5,\n            \"feelslike_f\": 86.9,\n            \"windchill_c\": 28.7,\n            \"windchill_f\": 83.7,\n            \"heatindex_c\": 30.5,\n            \"heatindex_f\": 86.9,\n            \"dewpoint_c\": 19.6,\n            \"dewpoint_f\": 67.3,\n            \"will_it_rain\": 0,\n            \"chance_of_rain\": 0,\n            \"will_it_snow\": 0,\n            \"chance_of_snow\": 0,\n            \"vis_km\": 10,\n            \"vis_miles\": 6,\n            \"gust_mph\": 15,\n            \"gust_kph\": 24.1,\n            \"sig_ht_mt\": 24.1,\n            \"swell_ht_mt\": 24.1,\n            \"swell_ht_ft\": 24.1,\n            \"swell_dir\": 24.1,\n            \"swell_dir_16_point\": 24.1,\n            \"swell_period_secs\": 24.1,\n            \"uv\": 1\n          },\n          {\n            \"time_epoch\": 1658462400,\n            \"time\": \"2022-07-22 00:00\",\n            \"temp_c\": 28.7,\n            \"temp_f\": 83.7,\n            \"is_day\": 0,\n            \"condition\": {\n              \"text\": \"Clear\",\n              \"icon\": \"//cdn.weatherapi.com/weather/64x64/night/113.png\",\n              \"code\": 1000\n            },\n            \"wind_mph\": 9.4,\n            \"wind_kph\": 15.1,\n            \"wind_degree\": 265,\n            \"wind_dir\": \"W\",\n            \"pressure_mb\": 1007,\n            \"pressure_in\": 29.73,\n            \"precip_mm\": 0,\n            \"precip_in\": 0,\n            \"humidity\": 58,\n            \"cloud\": 19,\n            \"feelslike_c\": 30.5,\n            \"feelslike_f\": 86.9,\n            \"windchill_c\": 28.7,\n            \"windchill_f\": 83.7,\n            \"heatindex_c\": 30.5,\n            \"heatindex_f\": 86.9,\n            \"dewpoint_c\": 19.6,\n            \"dewpoint_f\": 67.3,\n            \"will_it_rain\": 0,\n            \"chance_of_rain\": 0,\n            \"will_it_snow\": 0,\n            \"chance_of_snow\": 0,\n            \"vis_km\": 10,\n            \"vis_miles\": 6,\n            \"gust_mph\": 15,\n            \"gust_kph\": 24.1,\n            \"sig_ht_mt\": 24.1,\n            \"swell_ht_mt\": 24.1,\n            \"swell_ht_ft\": 24.1,\n            \"swell_dir\": 24.1,\n            \"swell_dir_16_point\": 24.1,\n            \"swell_period_secs\": 24.1,\n            \"uv\": 1\n          }\n        ]\n      }\n    ]\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "404ee0a9-a1fa-49cb-9ec4-861833fece90",
+          "name": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "marine.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "days",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "unixdt",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "hour",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 1003,\n  \"message\": \"Parameter 'q' not provided.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "62793ddc-681c-4137-8789-b99fd4956f8c",
+          "name": "Error code 1002: API key not provided.<br />Error code 2006: API key provided is invalid",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "marine.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "days",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "unixdt",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "hour",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 1002,\n  \"message\": \"API key not provided\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "d04dbc3e-3b84-498c-ab5a-d2f269f4f565",
+          "name": "Error code 2007: API key has exceeded calls per month quota.<br />Error code 2008: API key has been disabled.<br />Error code 2009: API key does not have access to the resource. Please check pricing page for what is allowed in your API subscription plan.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "marine.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "days",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "unixdt",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "hour",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "lang",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 2007,\n  \"message\": \"API key has exceeded calls per month quota.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "760b82aa-43e3-4e93-a42b-0e648a7e2274",
+      "name": "Search/Autocomplete API",
+      "request": {
+        "name": "Search/Autocomplete API",
+        "description": {
+          "content": "WeatherAPI.com Search or Autocomplete API returns matching cities and towns as an array of Location object.",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "search.json"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "q",
+              "value": "<string>",
+              "description": "(Required) Pass US Zipcode, UK Postcode, Canada Postalcode, IP address, Latitude/Longitude (decimal degree) or city name. Visit [request parameter section](https://www.weatherapi.com/docs/#intro-request) to learn more."
+            }
+          ],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": {
+          "type": "apikey",
+          "apikey": [
+            {
+              "key": "key",
+              "value": "key"
+            },
+            {
+              "key": "value",
+              "value": "{{apiKey}}"
+            },
+            {
+              "key": "in",
+              "value": "query"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "id": "466707ec-de06-428e-83d8-32abf414d910",
+          "name": "Ok",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "search.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "[\n  {\n    \"id\": 2796590,\n    \"name\": \"Holborn\",\n    \"region\": \"Camden Greater London\",\n    \"country\": \"United Kingdom\",\n    \"lat\": 51.52,\n    \"lon\": -0.12,\n    \"url\": \"holborn-camden-greater-london-united-kingdom\"\n  },\n  {\n    \"id\": 2796590,\n    \"name\": \"Holborn\",\n    \"region\": \"Camden Greater London\",\n    \"country\": \"United Kingdom\",\n    \"lat\": 51.52,\n    \"lon\": -0.12,\n    \"url\": \"holborn-camden-greater-london-united-kingdom\"\n  }\n]",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "8c3f0341-a892-49be-819a-03fa34540958",
+          "name": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "search.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 1003,\n  \"message\": \"Parameter 'q' not provided.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "d979f3da-227a-4e40-ab87-b791e00b8215",
+          "name": "Error code 1002: API key not provided.<br />Error code 2006: API key provided is invalid",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "search.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 1002,\n  \"message\": \"API key not provided\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "c54d7049-0919-4d0d-8fa2-28da690f2408",
+          "name": "Error code 2007: API key has exceeded calls per month quota.<br />Error code 2008: API key has been disabled.<br />Error code 2009: API key does not have access to the resource. Please check pricing page for what is allowed in your API subscription plan.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "search.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 2007,\n  \"message\": \"API key has exceeded calls per month quota.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "90915b8b-73ae-45fa-b59a-a1197c166b50",
+      "name": "IP Lookup API",
+      "request": {
+        "name": "IP Lookup API",
+        "description": {
+          "content": "IP Lookup API method allows a user to get up to date information for an IP address.",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "ip.json"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "q",
+              "value": "<string>",
+              "description": "(Required) Pass IP address."
+            }
+          ],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": {
+          "type": "apikey",
+          "apikey": [
+            {
+              "key": "key",
+              "value": "key"
+            },
+            {
+              "key": "value",
+              "value": "{{apiKey}}"
+            },
+            {
+              "key": "in",
+              "value": "query"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "id": "fe51d743-6ec8-432d-81dc-624f0cdff24b",
+          "name": "Ok",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "ip.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"ip\": \"185.249.71.82\",\n  \"type\": \"ipv4\",\n  \"continent_code\": \"EU\",\n  \"continent_name\": \"Europe\",\n  \"country_code\": \"GB\",\n  \"country_name\": \"United Kingdom\",\n  \"is_eu\": \"string\",\n  \"geoname_id\": 2643743,\n  \"city\": \"London\",\n  \"region\": \"string\",\n  \"lat\": 51.5264,\n  \"lon\": -0.0841,\n  \"tz_id\": \"Europe/London\",\n  \"localtime_epoch\": 1658520645,\n  \"localtime\": \"2022-07-22 21:10\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "6d7d1611-46e4-405b-9a43-bf8b49ce4d55",
+          "name": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "ip.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 1003,\n  \"message\": \"Parameter 'q' not provided.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "798a0947-e066-466b-9edd-25b8a9d0bd6f",
+          "name": "Error code 1002: API key not provided.<br />Error code 2006: API key provided is invalid",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "ip.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 1002,\n  \"message\": \"API key not provided\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "0a934685-7526-4c41-85a3-d158e02ce4d9",
+          "name": "Error code 2007: API key has exceeded calls per month quota.<br />Error code 2008: API key has been disabled.<br />Error code 2009: API key does not have access to the resource. Please check pricing page for what is allowed in your API subscription plan.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "ip.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 2007,\n  \"message\": \"API key has exceeded calls per month quota.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "4c3f7814-1f8d-44bd-9f97-1759016b4c6f",
+      "name": "Time Zone API",
+      "request": {
+        "name": "Time Zone API",
+        "description": {
+          "content": "Return Location Object",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "timezone.json"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "q",
+              "value": "<string>",
+              "description": "(Required) Pass US Zipcode, UK Postcode, Canada Postalcode, IP address, Latitude/Longitude (decimal degree) or city name. Visit [request parameter section](https://www.weatherapi.com/docs/#intro-request) to learn more."
+            }
+          ],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": {
+          "type": "apikey",
+          "apikey": [
+            {
+              "key": "key",
+              "value": "key"
+            },
+            {
+              "key": "value",
+              "value": "{{apiKey}}"
+            },
+            {
+              "key": "in",
+              "value": "query"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "id": "e5928caa-62ad-4051-a260-66706e3d5191",
+          "name": "Ok",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "timezone.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"name\": \"New York\",\n  \"region\": \"New York\",\n  \"country\": \"United States of America\",\n  \"lat\": 40.71,\n  \"lon\": -74.01,\n  \"tz_id\": \"America/New_York\",\n  \"localtime_epoch\": 1658522976,\n  \"localtime\": \"2022-07-22 16:49\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "13f91a48-10c6-4bf2-9e57-13cc67bd34ba",
+          "name": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "timezone.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 1003,\n  \"message\": \"Parameter 'q' not provided.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "3cb4ed32-2a9c-464b-ba45-3f9318c8c659",
+          "name": "Error code 1002: API key not provided.<br />Error code 2006: API key provided is invalid",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "timezone.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 1002,\n  \"message\": \"API key not provided\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "5f60c48f-757c-4123-9181-e859b742b9bc",
+          "name": "Error code 2007: API key has exceeded calls per month quota.<br />Error code 2008: API key has been disabled.<br />Error code 2009: API key does not have access to the resource. Please check pricing page for what is allowed in your API subscription plan.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "timezone.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 2007,\n  \"message\": \"API key has exceeded calls per month quota.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "b7eb6e03-4c56-42d1-9397-879bd4a57ba2",
+      "name": "Astronomy API",
+      "request": {
+        "name": "Astronomy API",
+        "description": {
+          "content": "Return Location and Astronomy Object",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "astronomy.json"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "q",
+              "value": "<string>",
+              "description": "(Required) Pass US Zipcode, UK Postcode, Canada Postalcode, IP address, Latitude/Longitude (decimal degree) or city name. Visit [request parameter section](https://www.weatherapi.com/docs/#intro-request) to learn more."
+            },
+            {
+              "disabled": false,
+              "key": "dt",
+              "value": "<date>",
+              "description": "(Required) Date on or after 1st Jan, 2015 in yyyy-MM-dd format"
+            }
+          ],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": {
+          "type": "apikey",
+          "apikey": [
+            {
+              "key": "key",
+              "value": "key"
+            },
+            {
+              "key": "value",
+              "value": "{{apiKey}}"
+            },
+            {
+              "key": "in",
+              "value": "query"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "id": "b0a7cfcf-202c-45c2-b593-b1720761370e",
+          "name": "Ok",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "astronomy.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"location\": {\n    \"name\": \"New York\",\n    \"region\": \"New York\",\n    \"country\": \"United States of America\",\n    \"lat\": 40.71,\n    \"lon\": -74.01,\n    \"tz_id\": \"America/New_York\",\n    \"localtime_epoch\": 1658522976,\n    \"localtime\": \"2022-07-22 16:49\"\n  },\n  \"astronomy\": {\n    \"astro\": {\n      \"sunrise\": \"05:10 AM\",\n      \"sunset\": \"09:03 PM\",\n      \"moonrise\": \"12:29 AM\",\n      \"moonset\": \"04:01 PM\",\n      \"moon_phase\": \"Third Quarter\",\n      \"moon_illumination\": \"string\"\n    }\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "33450974-8e17-437a-9182-760b53916059",
+          "name": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "astronomy.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 1003,\n  \"message\": \"Parameter 'q' not provided.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "3f78a754-a5c8-4cea-bdc7-a46670b8780b",
+          "name": "Error code 1002: API key not provided.<br />Error code 2006: API key provided is invalid",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "astronomy.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 1002,\n  \"message\": \"API key not provided\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "4f0f4b9d-27e1-4622-b1cc-2b282e600443",
+          "name": "Error code 2007: API key has exceeded calls per month quota.<br />Error code 2008: API key has been disabled.<br />Error code 2009: API key does not have access to the resource. Please check pricing page for what is allowed in your API subscription plan.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "astronomy.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "dt",
+                  "value": "<date>"
+                },
+                {
+                  "key": "key",
+                  "value": "<API Key>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": 2007,\n  \"message\": \"API key has exceeded calls per month quota.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://api.weatherapi.com/v1",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "8a6db1ee-9bf6-427c-82b5-dff7a8356a49",
+    "name": "Weather API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "# Introduction\nWeatherAPI.com provides access to weather and geo data via a JSON/XML restful API. It allows developers to create desktop, web and mobile applications using this data very easy. We provide following data through our API:    \n- Real-time weather\n- 14 day weather forecast\n- Historical Weather\n- Marine Weather and Tide Data\n- Future Weather (Upto 365 days ahead)\n- Daily and hourly intervals\n- 15 min interval (Enterprise only)\n- Astronomy\n- Time zone\n- Location data\n- Sports\n- Search or Autocomplete API\n- Weather Alerts\n- Air Quality Data\n- Bulk Request\n\n# Getting Started  \n\nYou need to [signup](https://www.weatherapi.com/signup.aspx) and then you can find your API key under [your account](https://www.weatherapi.com/login.aspx), and start using API right away!\n\nTry our weather API by using interactive [API Explorer](https://www.weatherapi.com/api-explorer.aspx).\n\nWe also have SDK for popular framework/languages available on [Github](https://github.com/weatherapicom/) for quick integrations.\n\nIf you find any features missing or have any suggestions, please [contact us](https://www.weatherapi.com/contact.aspx).  \n\n# Authentication  \n\nAPI access to the data is protected by an API key. If at anytime, you find the API key has become vulnerable, please regenerate the key using Regenerate button next to the API key.  \n\nAuthentication to the WeatherAPI.com API is provided by passing your API key as request parameter through an API .    \n\n##  key parameter \nkey=YOUR API KEY",
+      "type": "text/plain"
+    }
+  }
+}
