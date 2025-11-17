@@ -31,7 +31,40 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.2.5</version>
+        <!--Plugin added by RoostGPT-->
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-report-plugin</artifactId>
+        <version>3.2.5</version>
+        <configuration>
+          <outputDirectory>testReport</outputDirectory>
+        </configuration>
+        <!--Plugin added by RoostGPT-->
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>2.1</version>
+        <configuration>
+          <outputDirectory>testReport</outputDirectory>
+        </configuration>
+        <!--Plugin added by RoostGPT-->
+      </plugin>
+      <plugin>
+        <groupId>io.spring.javaformat</groupId>
+        <artifactId>spring-javaformat-maven-plugin</artifactId>
+        <version>0.0.40</version>
+        <!--Plugin added by RoostGPT-->
+      </plugin>
     </plugins>
+    <pluginManagement>
+      <plugins/>
+    </pluginManagement>
   </build>
   <dependencies>
     <dependency>
