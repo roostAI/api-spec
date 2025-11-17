@@ -1,0 +1,45 @@
+[
+  {
+    "searchString": "john",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with proper search string"
+  },
+  {
+    "searchString": "",
+    "expected_statusCode": 400,
+    "scenario": "Test request with missing search string param"
+  },
+  {
+    "searchString": "search string",
+    "expected_statusCode": 400,
+    "scenario": "Test request with invalid search string format"
+  },
+  {
+    "searchString": null,
+    "expected_statusCode": 400,
+    "scenario": "Test request with null search string value"
+  },
+  {
+    "searchString": "nonexistent",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with search string that returns empty employee list"
+  },
+  {
+    "searchString": "john",
+    "expected_statusCode": 200,
+    "scenario": "Test that response contains all expected employee fields"
+  },
+  {
+    "searchString": "john",
+    "expected_statusCode": 200,
+    "scenario": "Test that response fields are of correct types"
+  },
+  {
+    "expected_statusCode": 401,
+    "scenario": "Test request without auth token returns 401"
+  },
+  {
+    "expected_statusCode": 401,
+    "scenario": "Test request with invalid auth token returns 401"
+  }
+]
