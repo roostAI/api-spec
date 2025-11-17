@@ -1,0 +1,29 @@
+[
+  {
+    "searchString": "john",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with proper query params"
+  },
+  {
+    "expected_statusCode": 400,
+    "scenario": "Test request with missing required query param"
+  },
+  {
+    "searchString": "1234",
+    "expected_statusCode": 400,
+    "scenario": "Test request with invalid query param value"
+  },
+  {
+    "searchString": "nonexistingemployee",
+    "expected_statusCode": 200,
+    "scenario": "Test request that returns empty response array"
+  },
+  {
+    "expected_statusCode": 401,
+    "scenario": "Test request without authentication token"
+  },
+  {
+    "expected_statusCode": 401,
+    "scenario": "Test request with invalid authentication token"
+  }
+]
