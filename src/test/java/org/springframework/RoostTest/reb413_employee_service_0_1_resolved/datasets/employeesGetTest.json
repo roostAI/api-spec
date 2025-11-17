@@ -1,0 +1,22 @@
+[
+  {
+    "searchString": "john",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with proper search string"
+  },
+  {
+    "searchString": "",
+    "expected_statusCode": 400,
+    "scenario": "Test a request without search string parameter"
+  },
+  {
+    "searchString": 123,
+    "expected_statusCode": 400,
+    "scenario": "Test a request with invalid search string type"
+  },
+  {
+    "searchString": "xyz",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with search string that returns empty response"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with a correct UUID employee ID"
+  },
+  {
+    "id": "invalid-uuid",
+    "expected_statusCode": 404,
+    "scenario": "Test a request with an invalid or non-existent employee ID"
+  },
+  {
+    "expected_statusCode": 400,
+    "scenario": "Test a request without providing the employee ID parameter"
+  },
+  {
+    "id": "not-a-uuid",
+    "expected_statusCode": 400,
+    "scenario": "Test a request with an employee ID in an invalid format (non-UUID string)"
+  }
+]
