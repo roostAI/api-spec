@@ -1,0 +1,17 @@
+[
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with correct UUID path parameter"
+  },
+  {
+    "id": "",
+    "expected_statusCode": 404,
+    "scenario": "Test a request with missing path parameter"
+  },
+  {
+    "id": "invalid-uuid",
+    "expected_statusCode": 404,
+    "scenario": "Test a request with invalid UUID path parameter format"
+  }
+]
