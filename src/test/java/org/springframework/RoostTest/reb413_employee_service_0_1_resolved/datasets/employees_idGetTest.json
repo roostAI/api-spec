@@ -1,0 +1,62 @@
+[
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "expected_statusCode": 200,
+    "scenario": "Valid employee ID returns employee details"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "expected_statusCode": 200,
+    "scenario": "Another valid employee ID with UUID format"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "expected_statusCode": 200,
+    "scenario": "Valid UUID format for employee ID"
+  },
+  {
+    "id": "A1B2C3D4-E5F6-4A3B-8C7D-5E6F7A8B9C0D",
+    "expected_statusCode": 200,
+    "scenario": "Valid UUID with uppercase characters to test case sensitivity handling"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000000",
+    "expected_statusCode": 200,
+    "scenario": "UUID with all zeros (edge case but valid format)"
+  },
+  {
+    "id": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+    "expected_statusCode": 200,
+    "scenario": "UUID with all f characters (edge case but valid format)"
+  },
+  {
+    "id": "12345678-1234-1234-1234-1234567890ab",
+    "expected_statusCode": 404,
+    "scenario": "Non-existent employee ID with valid UUID format returns not found"
+  },
+  {
+    "id": "99999999-9999-9999-9999-999999999999",
+    "expected_statusCode": 404,
+    "scenario": "Another non-existent employee ID with valid UUID format"
+  },
+  {
+    "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "expected_statusCode": 404,
+    "scenario": "Well-formed UUID that doesn't match any employee in the system"
+  },
+  {
+    "id": "00000000-0000-4000-0000-000000000001",
+    "expected_statusCode": 404,
+    "scenario": "Valid version 4 UUID that doesn't exist in the system"
+  },
+  {
+    "id": "123",
+    "expected_statusCode": 404,
+    "scenario": "Invalid UUID format that doesn't match any employee"
+  },
+  {
+    "id": "not-a-valid-uuid",
+    "expected_statusCode": 404,
+    "scenario": "String that doesn't conform to UUID format"
+  }
+]

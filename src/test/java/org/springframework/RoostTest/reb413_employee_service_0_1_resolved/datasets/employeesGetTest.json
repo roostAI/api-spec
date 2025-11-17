@@ -1,0 +1,101 @@
+[
+  {
+    "searchString": "analyst",
+    "expected_statusCode": 200,
+    "scenario": "Searching employees with valid search string 'analyst'"
+  },
+  {
+    "searchString": "",
+    "expected_statusCode": 200,
+    "scenario": "Searching employees with empty search string should return all employees"
+  },
+  {
+    "searchString": null,
+    "expected_statusCode": 200,
+    "scenario": "Searching employees with null search string (equivalent to omitting parameter)"
+  },
+  {
+    "expected_statusCode": 200,
+    "scenario": "Searching employees without providing the optional searchString parameter"
+  },
+  {
+    "searchString": "John Smith",
+    "expected_statusCode": 200,
+    "scenario": "Searching employees with multiple words in search string"
+  },
+  {
+    "searchString": "developer",
+    "expected_statusCode": 200,
+    "scenario": "Searching employees with job title 'developer'"
+  },
+  {
+    "searchString": "xyzabc123nonexistentemployee",
+    "expected_statusCode": 200,
+    "scenario": "Searching employees with search string that returns no results (empty array)"
+  },
+  {
+    "searchString": "manager",
+    "expected_statusCode": 200,
+    "scenario": "Searching employees with job title 'manager'"
+  },
+  {
+    "searchString": "john.smith@acme-corp.com",
+    "expected_statusCode": 200,
+    "scenario": "Searching employees with email address"
+  },
+  {
+    "searchString": "ANALYST",
+    "expected_statusCode": 200,
+    "scenario": "Testing case sensitivity with uppercase search string 'ANALYST'"
+  },
+  {
+    "searchString": "software engineer & architect",
+    "expected_statusCode": 200,
+    "scenario": "Searching employees with special characters in search string"
+  },
+  {
+    "searchString": "level 3 engineer",
+    "expected_statusCode": 200,
+    "scenario": "Searching employees with numeric values in search string"
+  },
+  {
+    "searchString": "eng",
+    "expected_statusCode": 200,
+    "scenario": "Testing partial word matching with substring 'eng' to find engineers"
+  },
+  {
+    "searchString": "@#$%^&*()_+",
+    "expected_statusCode": 200,
+    "scenario": "Searching employees with only special characters in search string"
+  },
+  {
+    "searchString": "123456",
+    "expected_statusCode": 200,
+    "scenario": "Searching employees with only numeric characters"
+  },
+  {
+    "searchString": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "expected_statusCode": 400,
+    "scenario": "Providing an excessively long search string (over 1000 characters) should return a bad request"
+  },
+  {
+    "searchString": "<script>alert('xss')</script>",
+    "expected_statusCode": 400,
+    "scenario": "Testing with potential XSS injection in search string"
+  },
+  {
+    "searchString": "'); DROP TABLE employees; --",
+    "expected_statusCode": 400,
+    "scenario": "Testing with potential SQL injection in search string"
+  },
+  {
+    "searchString": "\u0000\u0001\u0002\u0003",
+    "expected_statusCode": 400,
+    "scenario": "Testing with non-printable control characters in search string"
+  },
+  {
+    "searchString": "🔍👨‍💼👩‍💼📊",
+    "expected_statusCode": 400,
+    "scenario": "Testing with emoji characters in search string"
+  }
+]
