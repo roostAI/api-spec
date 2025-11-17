@@ -1,0 +1,31 @@
+[
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with proper path parameter"
+  },
+  {
+    "id": "",
+    "expected_statusCode": 404,
+    "scenario": "Test request with missing required path parameter 'id'"
+  },
+  {
+    "id": "invalidid",
+    "expected_statusCode": 404,
+    "scenario": "Test request with invalid format for path parameter 'id'"
+  },
+  {
+    "id": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+    "expected_statusCode": 404,
+    "scenario": "Test request for an employee that does not exist"
+  },
+  {
+    "expected_statusCode": 403,
+    "scenario": "Test request without providing any authentication token"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "expected_statusCode": 403,
+    "scenario": "Test request with an invalid/expired authentication token"
+  }
+]

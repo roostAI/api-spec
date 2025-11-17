@@ -1,0 +1,29 @@
+[
+  {
+    "searchString": "john",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with proper search string query param"
+  },
+  {
+    "searchString": "",
+    "expected_statusCode": 200,
+    "scenario": "Test with empty search string query param"
+  },
+  {
+    "expected_statusCode": 200,
+    "scenario": "Test with missing search string query param"
+  },
+  {
+    "searchString": "123",
+    "expected_statusCode": 400,
+    "scenario": "Test with invalid search string query param"
+  },
+  {
+    "expected_statusCode": 401,
+    "scenario": "Test without providing auth token"
+  },
+  {
+    "expected_statusCode": 401,
+    "scenario": "Test with invalid auth token"
+  }
+]
