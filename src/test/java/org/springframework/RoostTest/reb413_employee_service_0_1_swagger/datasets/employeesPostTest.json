@@ -1,0 +1,203 @@
+[
+  {
+    "body": {
+      "id": "e1a7c1f0-2b0a-4f9a-9e59-5a0caa7a9c01",
+      "jobTitle": "System Analyst",
+      "name": "John Smith",
+      "email": "john.smith@acme-corp.com"
+    },
+    "expected_statusCode": 201,
+    "scenario": "Create a new employee with a well-formed, valid JSON object (full payload)"
+  },
+  {
+    "body": {
+      "jobTitle": "Data Engineer",
+      "name": "Ava Thompson",
+      "email": "ava.thompson@acme-corp.com"
+    },
+    "expected_statusCode": 201,
+    "scenario": "Create an employee using the minimal valid set of required fields"
+  },
+  {
+    "body": {
+      "id": "b7f2c6f1-4d0a-4f32-8d89-fa8b8c382c2a",
+      "jobTitle": "Product Manager",
+      "name": "Michael O'Connor",
+      "email": "m.oconnor@acme-corp.com",
+      "nickname": "Mike",
+      "skills": [
+        "Agile",
+        "Roadmapping"
+      ],
+      "meta": {
+        "employeeType": "contractor",
+        "startDate": "2025-01-15"
+      }
+    },
+    "expected_statusCode": 201,
+    "scenario": "Include additional non-specified fields alongside valid fields (unknown fields tolerated)"
+  },
+  {
+    "body": {
+      "jobTitle": "Développeur Logiciel",
+      "name": "Zoë 李",
+      "email": "zoe.li@acme-corp.com"
+    },
+    "expected_statusCode": 201,
+    "scenario": "Use non-ASCII Unicode characters in text fields"
+  },
+  {
+    "body": {
+      "jobTitle": "Senior Principal Software Development Engineer in Test - Platform Reliability",
+      "name": "Alexandria Cassandra Montgomery-Windsor III",
+      "email": "alexandria.m-windsor.iii@acme-corp.com"
+    },
+    "expected_statusCode": 201,
+    "scenario": "Use long but valid string values within acceptable limits"
+  },
+  {
+    "body": {
+      "jobTitle": "QA Analyst",
+      "name": "Ravi Kumar",
+      "email": "ravi.kumar@acme-corp.com"
+    },
+    "expected_statusCode": 201,
+    "scenario": "Send a valid request without any Authorization header (security not required)"
+  },
+  {
+    "body": {
+      "jobTitle": "UX Designer",
+      "name": "Elena García",
+      "email": "elena.garcia@acme-corp.com"
+    },
+    "expected_statusCode": 201,
+    "scenario": "Send a valid request even if an invalid Authorization header is present (ignored by service)"
+  },
+  {
+    "body": {
+      "id": "e1a7c1f0-2b0a-4f9a-9e59-5a0caa7a9c01",
+      "jobTitle": "System Analyst",
+      "name": "John Smith",
+      "email": "john.smith@acme-corp.com"
+    },
+    "expected_statusCode": 409,
+    "scenario": "Attempt to create the same employee twice; second request should return 409 conflict"
+  },
+  {
+    "body": {
+      "jobTitle": "Data Engineer",
+      "name": "Ava Thompson",
+      "email": "ava.thompson@acme-corp.com"
+    },
+    "expected_statusCode": 409,
+    "scenario": "Concurrent duplicate creation of the same employee; this parallel request should return 409"
+  },
+  {
+    "rawBody": "{\"email\":\"john.smith@acme-corp.com\",\"name\":\"John Smith\",\"jobTitle\":\"System Analyst\",\"id\":\"e1a7c1f0-2b0a-4f9a-9e59-5a0caa7a9c01\"}",
+    "contentType": "application/json",
+    "expected_statusCode": 409,
+    "scenario": "Resend the same employee data with keys reordered; duplicate detection should return 409"
+  },
+  {
+    "omitBody": true,
+    "expected_statusCode": 400,
+    "scenario": "Send POST without a body"
+  },
+  {
+    "rawBody": "{}",
+    "contentType": "application/json",
+    "expected_statusCode": 400,
+    "scenario": "Send an empty JSON object as the employee payload"
+  },
+  {
+    "rawBody": "{\"name\":\"Alice\",\"jobTitle\":\"QA Engineer\",\"email\":\"alice@example.com\"",
+    "contentType": "application/json",
+    "expected_statusCode": 400,
+    "scenario": "Send malformed JSON (missing closing brace)"
+  },
+  {
+    "rawBody": "[{\"name\":\"Bob\",\"jobTitle\":\"Developer\",\"email\":\"bob@example.com\"}]",
+    "contentType": "application/json",
+    "expected_statusCode": 400,
+    "scenario": "Send a JSON array instead of an object"
+  },
+  {
+    "rawBody": "null",
+    "contentType": "application/json",
+    "expected_statusCode": 400,
+    "scenario": "Send the JSON literal null as the body"
+  },
+  {
+    "rawBody": "",
+    "contentType": "application/json",
+    "expected_statusCode": 400,
+    "scenario": "Send an empty string as body with JSON content type"
+  },
+  {
+    "rawBody": "   \n\t",
+    "contentType": "application/json",
+    "expected_statusCode": 400,
+    "scenario": "Send whitespace-only body"
+  },
+  {
+    "rawBody": "{\"name\":\"Cara\",\"jobTitle\":\"Developer\",\"email\":\"cara@example.com\"}",
+    "contentType": "text/plain",
+    "expected_statusCode": 400,
+    "scenario": "Send valid JSON with incorrect Content-Type header"
+  },
+  {
+    "rawBody": "{\"name\":\"Dan\",\"jobTitle\":\"DevOps Engineer\",\"email\":\"dan@example.com\"}",
+    "omitContentType": true,
+    "expected_statusCode": 400,
+    "scenario": "Send JSON body without Content-Type header"
+  },
+  {
+    "body": {
+      "jobTitle": 12345,
+      "name": 789,
+      "email": true
+    },
+    "expected_statusCode": 400,
+    "scenario": "Include fields with incorrect data types for required properties"
+  },
+  {
+    "body": {
+      "jobTitle": "Engineer",
+      "name": null,
+      "email": "null.name@acme-corp.com"
+    },
+    "expected_statusCode": 400,
+    "scenario": "Set a required field (name) to null"
+  },
+  {
+    "body": {
+      "name": "No Title",
+      "email": "notitle@acme-corp.com"
+    },
+    "expected_statusCode": 400,
+    "scenario": "Omit required field jobTitle"
+  },
+  {
+    "body": {
+      "jobTitle": "Technician",
+      "name": "No Email"
+    },
+    "expected_statusCode": 400,
+    "scenario": "Omit required field email"
+  },
+  {
+    "body": {
+      "jobTitle": "",
+      "name": "",
+      "email": ""
+    },
+    "expected_statusCode": 400,
+    "scenario": "Provide empty strings for all required fields"
+  },
+  {
+    "rawBody": "{ \"jobTitle\":\"HR Specialist\", \"name\":\"Tara Parker\", \"email\":\"tara@example.com\", }",
+    "contentType": "application/json",
+    "expected_statusCode": 400,
+    "scenario": "Send JSON with a trailing comma making it syntactically invalid"
+  }
+]
