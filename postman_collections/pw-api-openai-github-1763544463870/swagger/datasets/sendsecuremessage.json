@@ -1,0 +1,44 @@
+[
+  {
+    "authType_*string": "Authorized",
+    "firstName_*string": "James",
+    "lastName_*string": "William",
+    "email_*string": "John@gmail.com",
+    "phoneNumber_*number": 9787643445,
+    "topic_*string": "Routing and Account Number",
+    "message_*string": "Unable to find my routing number.",
+    "availableTime_*string": "nighttime",
+    "chatHistory_*string": "html formatted message sent as string",
+    "cif_*number": 1045310,
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "authType_*string": "Unauthorized",
+    "firstName_*string": "Robert",
+    "lastName_*string": "Smith",
+    "email_*string": "Robert@gmail.com",
+    "phoneNumber_*number": 9876543210,
+    "topic_*string": "Account Balance",
+    "message_*string": "Unable to check my account balance.",
+    "availableTime_*string": "morning",
+    "chatHistory_*string": "html formatted message sent as string",
+    "cif_*number": 1234567,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "authType_*string": "Authorized",
+    "firstName_*string": "Michael",
+    "lastName_*string": "Johnson",
+    "email_*string": "Michael@gmail.com",
+    "phoneNumber_*number": 9123456780,
+    "topic_*string": "Account Closure",
+    "message_*string": "Want to close my account.",
+    "availableTime_*string": "afternoon",
+    "chatHistory_*string": "html formatted message sent as string",
+    "cif_*number": 7654321,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
