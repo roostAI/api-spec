@@ -1,0 +1,68 @@
+[
+  {
+    "amount_*number": 5000,
+    "currency_*string": "USD",
+    "customerId_*number": 1045300,
+    "sourceAccountId_*string": "SA123456",
+    "targetAccountId_*string": "TA123456",
+    "status_*string": "Completed",
+    "scheduledDate_*number": 20220222,
+    "recurringOptions": {
+      "amountType_*string": "Fixed",
+      "frequency": {
+        "iterate_*string": "Monthly",
+        "duration": {
+          "untilStop_*string": "No",
+          "untilDate_*number": 20221231,
+          "numberOfTransfers_*number": 12
+        }
+      }
+    },
+    "statusCode": 200,
+    "scenario": "schedule transfer added successfully"
+  },
+  {
+    "amount_*number": 7000,
+    "currency_*string": "EUR",
+    "customerId_*number": 1045301,
+    "sourceAccountId_*string": "SA123457",
+    "targetAccountId_*string": "TA123457",
+    "status_*string": "Pending",
+    "scheduledDate_*number": 20220223,
+    "recurringOptions": {
+      "amountType_*string": "Variable",
+      "frequency": {
+        "iterate_*string": "Weekly",
+        "duration": {
+          "untilStop_*string": "Yes",
+          "untilDate_*number": 20221230,
+          "numberOfTransfers_*number": 52
+        }
+      }
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "amount_*number": 10000,
+    "currency_*string": "GBP",
+    "customerId_*number": 1045302,
+    "sourceAccountId_*string": "SA123458",
+    "targetAccountId_*string": "TA123458",
+    "status_*string": "Failed",
+    "scheduledDate_*number": 20220224,
+    "recurringOptions": {
+      "amountType_*string": "Fixed",
+      "frequency": {
+        "iterate_*string": "Daily",
+        "duration": {
+          "untilStop_*string": "No",
+          "untilDate_*number": 20221229,
+          "numberOfTransfers_*number": 365
+        }
+      }
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
