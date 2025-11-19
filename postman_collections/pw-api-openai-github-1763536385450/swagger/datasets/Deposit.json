@@ -1,0 +1,62 @@
+[
+  {
+    "customerId_*number": 1045300,
+    "sourceAccountId_*string": "1042345",
+    "amount_*string": "1042222",
+    "currency_*string": "USD",
+    "image": {
+      "frontImage_*string": "front_image_1.jpg",
+      "backImage_*string": "back_image_1.jpg"
+    },
+    "statusCode": 200,
+    "scenario": "Deposit success"
+  },
+  {
+    "customerId_*number": 1045301,
+    "sourceAccountId_*string": "1042346",
+    "amount_*string": "1042223",
+    "currency_*string": "EUR",
+    "image": {
+      "frontImage_*string": "front_image_2.jpg",
+      "backImage_*string": "back_image_2.jpg"
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 1045302,
+    "sourceAccountId_*string": "1042347",
+    "amount_*string": "1042224",
+    "currency_*string": "GBP",
+    "image": {
+      "frontImage_*string": "front_image_3.jpg",
+      "backImage_*string": "back_image_3.jpg"
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_*number": 1045303,
+    "sourceAccountId_*string": "1042348",
+    "amount_*string": "1042225",
+    "currency_*string": "JPY",
+    "image": {
+      "frontImage_*string": "front_image_4.jpg",
+      "backImage_*string": "back_image_4.jpg"
+    },
+    "statusCode": 200,
+    "scenario": "Deposit success"
+  },
+  {
+    "customerId_*number": 1045304,
+    "sourceAccountId_*string": "1042349",
+    "amount_*string": "1042226",
+    "currency_*string": "CAD",
+    "image": {
+      "frontImage_*string": "front_image_5.jpg",
+      "backImage_*string": "back_image_5.jpg"
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

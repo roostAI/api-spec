@@ -1,0 +1,67 @@
+[
+  {
+    "accountNumber_*string": "1042345",
+    "customerId_*number": 1045300,
+    "email_*string": "John@gmail.com",
+    "alternatePhoneNumber_*number": 9876543210,
+    "isAlternateMobileNumber_*boolean": true,
+    "phone_*number": 1234567890,
+    "isPrimaryMobileNumber_*boolean": true,
+    "location_*string": "New York",
+    "isStatement_*boolean": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber_*string": "2045678",
+    "customerId_*number": 2045300,
+    "email_*string": "Jane@gmail.com",
+    "alternatePhoneNumber_*number": 9876503210,
+    "isAlternateMobileNumber_*boolean": false,
+    "phone_*number": 1234507890,
+    "isPrimaryMobileNumber_*boolean": false,
+    "location_*string": "Los Angeles",
+    "isStatement_*boolean": false,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber_*string": "3048901",
+    "customerId_*number": 3045300,
+    "email_*string": "InvalidEmail",
+    "alternatePhoneNumber_*number": 987654321,
+    "isAlternateMobileNumber_*boolean": true,
+    "phone_*number": 123456789,
+    "isPrimaryMobileNumber_*boolean": true,
+    "location_*string": "InvalidLocation",
+    "isStatement_*boolean": true,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountNumber_*string": "4041234",
+    "customerId_*number": 4045300,
+    "email_*string": "InvalidEmail",
+    "alternatePhoneNumber_*number": 98765432,
+    "isAlternateMobileNumber_*boolean": false,
+    "phone_*number": 12345678,
+    "isPrimaryMobileNumber_*boolean": false,
+    "location_*string": "InvalidLocation",
+    "isStatement_*boolean": false,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountNumber_*string": "5045678",
+    "customerId_*number": 5045300,
+    "email_*string": "NonExistentEmail@gmail.com",
+    "alternatePhoneNumber_*number": 987650321,
+    "isAlternateMobileNumber_*boolean": true,
+    "phone_*number": 123450789,
+    "isPrimaryMobileNumber_*boolean": true,
+    "location_*string": "NonExistentLocation",
+    "isStatement_*boolean": true,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

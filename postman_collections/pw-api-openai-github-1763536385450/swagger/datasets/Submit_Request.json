@@ -1,0 +1,47 @@
+[
+  {
+    "value_object": {
+      "err": {
+        "message": "Operation completed successfully"
+      }
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "Operation completed successfully"
+      }
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "Invalid credentials provided"
+      }
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "Invalid credentials provided"
+      }
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "value_object": {
+      "err": {
+        "message": "Requested resource not found"
+      }
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

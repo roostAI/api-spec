@@ -1,0 +1,47 @@
+[
+  {
+    "sourcePin_*string": "1234",
+    "targetPin_*string": "5678",
+    "profileInfo.customerId_*string": "CUST1001",
+    "profileInfo.accountNumber_*string": "ACC2002",
+    "profileInfo.ssn_*string": "SSN3003",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "sourcePin_*string": "2345",
+    "targetPin_*string": "6789",
+    "profileInfo.customerId_*string": "CUST4004",
+    "profileInfo.accountNumber_*string": "ACC5005",
+    "profileInfo.ssn_*string": "SSN6006",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "sourcePin_*string": "3456",
+    "targetPin_*string": "7890",
+    "profileInfo.customerId_*string": "CUST7007",
+    "profileInfo.accountNumber_*string": "ACC8008",
+    "profileInfo.ssn_*string": "SSN9009",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "sourcePin_*string": "4567",
+    "targetPin_*string": "8901",
+    "profileInfo.customerId_*string": "CUST1010",
+    "profileInfo.accountNumber_*string": "ACC1111",
+    "profileInfo.ssn_*string": "SSN1212",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "sourcePin_*string": "5678",
+    "targetPin_*string": "9012",
+    "profileInfo.customerId_*string": "CUST1313",
+    "profileInfo.accountNumber_*string": "ACC1414",
+    "profileInfo.ssn_*string": "SSN1515",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
