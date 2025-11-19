@@ -1,0 +1,77 @@
+[
+  {
+    "customerId": 9045,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "AC12345678",
+      "cardNumber": "1234567890123456"
+    },
+    "accountInfo_1": {
+      "accountType": "Checking",
+      "accountNumber": "AC23456789",
+      "cardNumber": "2345678901234567"
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId": 1045300,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "AC34567890",
+      "cardNumber": "3456789012345678"
+    },
+    "accountInfo_1": {
+      "accountType": "Checking",
+      "accountNumber": "AC45678901",
+      "cardNumber": "4567890123456789"
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId": 9999,
+    "accountInfo_0": {
+      "accountType": "Invalid",
+      "accountNumber": "Invalid",
+      "cardNumber": "Invalid"
+    },
+    "accountInfo_1": {
+      "accountType": "Invalid",
+      "accountNumber": "Invalid",
+      "cardNumber": "Invalid"
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 8888,
+    "accountInfo_0": {
+      "accountType": "Invalid",
+      "accountNumber": "Invalid",
+      "cardNumber": "Invalid"
+    },
+    "accountInfo_1": {
+      "accountType": "Invalid",
+      "accountNumber": "Invalid",
+      "cardNumber": "Invalid"
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 7777,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "AC56789012",
+      "cardNumber": "5678901234567890"
+    },
+    "accountInfo_1": {
+      "accountType": "Checking",
+      "accountNumber": "AC67890123",
+      "cardNumber": "6789012345678901"
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  }
+]

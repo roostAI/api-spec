@@ -1,0 +1,62 @@
+[
+  {
+    "accountName_*string": "John Doe",
+    "accountNumber_*string": "1042345",
+    "customerId_*number": 1045300,
+    "cardNumber_*string": "1234567890123456",
+    "description_*string": "Internal Transfer",
+    "requestSubType_*string": "Subtype1",
+    "requestType_*string": "Type1",
+    "serviceType_*string": "Service1",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountName_*string": "Jane Doe",
+    "accountNumber_*string": "1042346",
+    "customerId_*number": 1045301,
+    "cardNumber_*string": "1234567890123457",
+    "description_*string": "External Transfer",
+    "requestSubType_*string": "Subtype2",
+    "requestType_*string": "Type2",
+    "serviceType_*string": "Service2",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountName_*string": "Invalid User",
+    "accountNumber_*string": "Invalid Number",
+    "customerId_*number": 9999999,
+    "cardNumber_*string": "Invalid Card Number",
+    "description_*string": "Invalid Description",
+    "requestSubType_*string": "Invalid Subtype",
+    "requestType_*string": "Invalid Type",
+    "serviceType_*string": "Invalid Service",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountName_*string": "Nonexistent User",
+    "accountNumber_*string": "Nonexistent Number",
+    "customerId_*number": 0,
+    "cardNumber_*string": "Nonexistent Card Number",
+    "description_*string": "Nonexistent Description",
+    "requestSubType_*string": "Nonexistent Subtype",
+    "requestType_*string": "Nonexistent Type",
+    "serviceType_*string": "Nonexistent Service",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "accountName_*string": "Empty User",
+    "accountNumber_*string": "",
+    "customerId_*number": 0,
+    "cardNumber_*string": "",
+    "description_*string": "",
+    "requestSubType_*string": "",
+    "requestType_*string": "",
+    "serviceType_*string": "",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]

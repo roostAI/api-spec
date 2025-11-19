@@ -1,0 +1,72 @@
+[
+  {
+    "authType_*string": "Authorized",
+    "firstName_*string": "James",
+    "lastName_*string": "William",
+    "email_*string": "John@gmail.com",
+    "phoneNumber_*number": 9787643445,
+    "topic_*string": "Routing and Account Number",
+    "message_*string": "Unable to find my routing number.",
+    "availableTime_*string": "nighttime",
+    "chatHistory_*string": "html formatted message sent as string",
+    "cif_*number": 1045310,
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "authType_*string": "Unauthorized",
+    "firstName_*string": "Robert",
+    "lastName_*string": "Smith",
+    "email_*string": "robert@gmail.com",
+    "phoneNumber_*number": 9876543210,
+    "topic_*string": "Account Balance",
+    "message_*string": "Unable to check my account balance.",
+    "availableTime_*string": "morning",
+    "chatHistory_*string": "html formatted message sent as string",
+    "cif_*number": 1234567,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "authType_*string": "Authorized",
+    "firstName_*string": "Michael",
+    "lastName_*string": "Johnson",
+    "email_*string": "michael@gmail.com",
+    "phoneNumber_*number": 9123456780,
+    "topic_*string": "Loan Details",
+    "message_*string": "Unable to get my loan details.",
+    "availableTime_*string": "afternoon",
+    "chatHistory_*string": "html formatted message sent as string",
+    "cif_*number": 2345678,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "authType_*string": "Unauthorized",
+    "firstName_*string": "David",
+    "lastName_*string": "Williams",
+    "email_*string": "david@gmail.com",
+    "phoneNumber_*number": 9871234560,
+    "topic_*string": "Credit Card Details",
+    "message_*string": "Unable to get my credit card details.",
+    "availableTime_*string": "evening",
+    "chatHistory_*string": "html formatted message sent as string",
+    "cif_*number": 3456789,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "authType_*string": "Authorized",
+    "firstName_*string": "Daniel",
+    "lastName_*string": "Brown",
+    "email_*string": "daniel@gmail.com",
+    "phoneNumber_*number": 9781234567,
+    "topic_*string": "Account Statement",
+    "message_*string": "Unable to get my account statement.",
+    "availableTime_*string": "nighttime",
+    "chatHistory_*string": "html formatted message sent as string",
+    "cif_*number": 4567890,
+    "statusCode": 200,
+    "scenario": "success"
+  }
+]
