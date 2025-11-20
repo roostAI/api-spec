@@ -1,0 +1,27 @@
+[
+  {
+    "searchString": "developer",
+    "statusCode": 200,
+    "scenario": "Search results matching the filter criteria"
+  },
+  {
+    "searchString": "developer",
+    "statusCode": 200,
+    "scenario": "Search results matching the filter criteria"
+  },
+  {
+    "searchString": "",
+    "statusCode": 400,
+    "scenario": "Bad input"
+  },
+  {
+    "searchString": "invalid_search_criteria_123",
+    "statusCode": 400,
+    "scenario": "Bad input"
+  },
+  {
+    "searchString": "nonexistent_value",
+    "statusCode": 400,
+    "scenario": "Bad input"
+  }
+]
