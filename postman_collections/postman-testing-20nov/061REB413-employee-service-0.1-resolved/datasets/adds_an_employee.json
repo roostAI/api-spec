@@ -1,0 +1,38 @@
+[
+  {
+    "id_*uuid": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "name_*string": "John Smith",
+    "email_*string": "john.smith@acme-corp.com",
+    "jobTitle_*string": "System Analyst",
+    "statusCode": 201,
+    "scenario": "employee created"
+  },
+  {
+    "id_*uuid": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "name_*string": "John Smith",
+    "statusCode": 201,
+    "scenario": "employee created"
+  },
+  {
+    "email_*string": "john.smith@acme-corp.com",
+    "jobTitle_*string": "System Analyst",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "id_*uuid": "invalid-uuid",
+    "name_*string": "John Smith",
+    "email_*string": "john.smith@acme-corp.com",
+    "jobTitle_*string": "System Analyst",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "id_*uuid": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "name_*string": "John Smith",
+    "email_*string": "john.smith@acme-corp.com",
+    "jobTitle_*string": "System Analyst",
+    "statusCode": 409,
+    "scenario": "an existing employee already exists"
+  }
+]
