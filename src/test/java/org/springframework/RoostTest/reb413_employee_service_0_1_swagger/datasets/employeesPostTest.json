@@ -1,0 +1,347 @@
+[
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "System Analyst",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "expected_statusCode": 201,
+    "scenario": "Test creating a new employee with all valid required fields"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "jobTitle": "Software Engineer",
+    "name": "Jane Doe",
+    "email": "jane.doe@acme-corp.com",
+    "expected_statusCode": 201,
+    "scenario": "Test creating employee with valid UUID and all required fields populated"
+  },
+  {
+    "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "jobTitle": "Senior Developer",
+    "name": "Robert Johnson",
+    "email": "robert.johnson@acme-corp.com",
+    "expected_statusCode": 201,
+    "scenario": "Test valid employee creation with different job title"
+  },
+  {
+    "jobTitle": "Data Analyst",
+    "name": "Sarah Williams",
+    "email": "sarah.williams@acme-corp.com",
+    "expected_statusCode": 201,
+    "scenario": "Test creating employee without optional ID field (only required fields)"
+  },
+  {
+    "id": "b8e3f2a1-9c7d-4e5f-8a6b-1c2d3e4f5a6b",
+    "jobTitle": "Project Manager",
+    "name": "Michael Brown",
+    "email": "michael.brown@acme-corp.com",
+    "expected_statusCode": 201,
+    "scenario": "Test valid employee with all required and optional fields"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "System Analyst",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "expected_statusCode": 409,
+    "scenario": "Test creating an employee that already exists in the system (duplicate ID)"
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9c0d-1e2f-3a4b5c6d7e8f",
+    "jobTitle": "Business Analyst",
+    "name": "Emily Davis",
+    "email": "john.smith@acme-corp.com",
+    "expected_statusCode": 409,
+    "scenario": "Test creating employee with duplicate email address"
+  },
+  {
+    "expected_statusCode": 400,
+    "scenario": "Test sending request with empty body"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "jobTitle": "Developer",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee without required name field"
+  },
+  {
+    "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "jobTitle": "Analyst",
+    "name": "Test User",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee without required email field"
+  },
+  {
+    "id": "b8e3f2a1-9c7d-4e5f-8a6b-1c2d3e4f5a6b",
+    "name": "Test User",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee without required jobTitle field"
+  },
+  {
+    "id": "invalid-uuid-format",
+    "jobTitle": "Engineer",
+    "name": "Test User",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with invalid UUID format for ID field"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "Manager",
+    "name": "Test User",
+    "email": "notanemail",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with malformed email address (missing @ and domain)"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "jobTitle": "Developer",
+    "name": "Test User",
+    "email": "test@",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with incomplete email format (missing domain)"
+  },
+  {
+    "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "jobTitle": "Analyst",
+    "name": "Test User",
+    "email": "@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with invalid email format (missing local part)"
+  },
+  {
+    "id": 12345,
+    "jobTitle": "Engineer",
+    "name": "Test User",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with wrong data type for ID field (number instead of string)"
+  },
+  {
+    "id": "b8e3f2a1-9c7d-4e5f-8a6b-1c2d3e4f5a6b",
+    "jobTitle": 12345,
+    "name": "Test User",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with wrong data type for jobTitle field (number instead of string)"
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9c0d-1e2f-3a4b5c6d7e8f",
+    "jobTitle": "Manager",
+    "name": 12345,
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with wrong data type for name field (number instead of string)"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "Developer",
+    "name": null,
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with null value for required name field"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "jobTitle": "Analyst",
+    "name": "Test User",
+    "email": null,
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with null value for required email field"
+  },
+  {
+    "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "jobTitle": null,
+    "name": "Test User",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with null value for required jobTitle field"
+  },
+  {
+    "id": "b8e3f2a1-9c7d-4e5f-8a6b-1c2d3e4f5a6b",
+    "jobTitle": "Manager",
+    "name": "",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with empty string for required name field"
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9c0d-1e2f-3a4b5c6d7e8f",
+    "jobTitle": "",
+    "name": "Test User",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with empty string for required jobTitle field"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "Developer",
+    "name": "Test User",
+    "email": "",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with empty string for required email field"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "jobTitle": "Manager",
+    "name": "   ",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with whitespace-only string for required name field"
+  },
+  {
+    "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "jobTitle": "   ",
+    "name": "Test User",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with whitespace-only string for required jobTitle field"
+  },
+  {
+    "id": "b8e3f2a1-9c7d-4e5f-8a6b-1c2d3e4f5a6b",
+    "jobTitle": "Developer",
+    "name": "ThisIsAnExtremelyLongNameThatExceedsTheMaximumAllowedLengthForTheNameFieldAndShouldBeRejectedByTheAPIValidationThisIsAnExtremelyLongNameThatExceedsTheMaximumAllowedLengthForTheNameFieldAndShouldBeRejectedByTheAPIValidationThisIsAnExtremelyLongNameThatExceedsTheMaximumAllowedLengthForTheNameFieldAndShouldBeRejectedByTheAPIValidationThisIsAnExtremelyLongNameThatExceedsTheMaximumAllowedLengthForTheNameFieldAndShouldBeRejectedByTheAPIValidationThisIsAnExtremelyLongNameThatExceedsTheMaximumAllowedLengthForTheNameFieldAndShouldBeRejectedByTheAPIValidation",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with name exceeding maximum length (1000+ characters)"
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9c0d-1e2f-3a4b5c6d7e8f",
+    "jobTitle": "ThisIsAnExtremelyLongJobTitleThatExceedsTheMaximumAllowedLengthForTheJobTitleFieldAndShouldBeRejectedByTheAPIValidationThisIsAnExtremelyLongJobTitleThatExceedsTheMaximumAllowedLengthForTheJobTitleFieldAndShouldBeRejectedByTheAPIValidationThisIsAnExtremelyLongJobTitleThatExceedsTheMaximumAllowedLengthForTheJobTitleFieldAndShouldBeRejectedByTheAPIValidationThisIsAnExtremelyLongJobTitleThatExceedsTheMaximumAllowedLengthForTheJobTitleFieldAndShouldBeRejectedByTheAPIValidation",
+    "name": "Test User",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with jobTitle exceeding maximum length"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "Manager",
+    "name": "@#$%^&*()",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with special characters in name field"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "jobTitle": "Developer",
+    "name": "Robert'; DROP TABLE employees;--",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with SQL injection attempt in name field"
+  },
+  {
+    "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "jobTitle": "Analyst",
+    "name": "<script>alert(1)</script>",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with XSS script in name field"
+  },
+  {
+    "id": "b8e3f2a1-9c7d-4e5f-8a6b-1c2d3e4f5a6b",
+    "jobTitle": "<script>alert('XSS')</script>",
+    "name": "Test User",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with XSS payload in jobTitle field"
+  },
+  {
+    "id": true,
+    "jobTitle": "Manager",
+    "name": "Test User",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with boolean value for ID field (wrong data type)"
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9c0d-1e2f-3a4b5c6d7e8f",
+    "jobTitle": true,
+    "name": "Test User",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with boolean value for jobTitle field (wrong data type)"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "Developer",
+    "name": ["John", "Doe"],
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with array value for name field (wrong data type)"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "jobTitle": ["Software", "Engineer"],
+    "name": "Test User",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with array value for jobTitle field (wrong data type)"
+  },
+  {
+    "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "jobTitle": "Manager",
+    "name": {"first": "John", "last": "Doe"},
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with object value for name field (wrong data type)"
+  },
+  {
+    "id": "b8e3f2a1-9c7d-4e5f-8a6b-1c2d3e4f5a6b",
+    "jobTitle": {"title": "Manager", "level": "Senior"},
+    "name": "Test User",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with object value for jobTitle field (wrong data type)"
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9c0d-1e2f-3a4b5c6d7e8f",
+    "jobTitle": "Developer",
+    "name": "Test User",
+    "email": "test@acme-corp.com",
+    "extraField": "unexpected value",
+    "expected_statusCode": 400,
+    "scenario": "Test creating employee with unexpected additional fields not defined in schema"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "Manager",
+    "name": "  John Smith  ",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 201,
+    "scenario": "Test creating employee with leading and trailing whitespace in name field"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "jobTitle": "  Software Engineer  ",
+    "name": "Test User",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 201,
+    "scenario": "Test creating employee with leading and trailing whitespace in jobTitle field"
+  },
+  {
+    "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "jobTitle": "Developer",
+    "name": "张伟",
+    "email": "zhang.wei@acme-corp.com",
+    "expected_statusCode": 201,
+    "scenario": "Test creating employee with Unicode characters (Chinese) in name field"
+  },
+  {
+    "id": "b8e3f2a1-9c7d-4e5f-8a6b-1c2d3e4f5a6b",
+    "jobTitle": "Analyst",
+    "name": "محمد علي",
+    "email": "mohammad.ali@acme-corp.com",
+    "expected_statusCode": 201,
+    "scenario": "Test creating employee with Unicode characters (Arabic) in name field"
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9c0d-1e2f-3a4b5c6d7e8f",
+    "jobTitle": "Manager",
+    "name": "Test User 😀",
+    "email": "test@acme-corp.com",
+    "expected_statusCode": 201,
+    "scenario": "Test creating employee with emoji in name field"
+  }
+]
