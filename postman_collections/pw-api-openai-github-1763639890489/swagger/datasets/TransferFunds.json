@@ -1,0 +1,54 @@
+[
+  {
+    "amount_*number": 5000,
+    "currency_*string": "USD",
+    "customerId_*number": 1045300,
+    "date_*string": "03-15-2021",
+    "sourceAccountId_*string": "1042345",
+    "targetAccountId_*string": "1042222",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "amount_*number": 7000,
+    "currency_*string": "USD",
+    "customerId_*number": 1045300,
+    "date_*string": "03-16-2021",
+    "sourceAccountId_*string": "1042345",
+    "targetAccountId_*string": "1042222",
+    "description_*string": "Internal Transfer",
+    "TransactionType_*string": "1063",
+    "PaymentType_*string": "Minimum Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "currency_*string": "USD",
+    "customerId_*number": 1045300,
+    "date_*string": "03-17-2021",
+    "sourceAccountId_*string": "1042345",
+    "targetAccountId_*string": "1042222",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "amount_*number": 8000,
+    "currency_*string": "EUR",
+    "customerId_*number": 1045300,
+    "date_*string": "03-18-2021",
+    "sourceAccountId_*string": "1042345",
+    "targetAccountId_*string": "1042222",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "amount_*number": 9000,
+    "currency_*string": "USD",
+    "customerId_*number": 1045301,
+    "date_*string": "03-19-2021",
+    "sourceAccountId_*string": "1042346",
+    "targetAccountId_*string": "1042223",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

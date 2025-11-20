@@ -1,0 +1,37 @@
+[
+  {
+    "usecase_0_*string": "Test Case 1",
+    "usecase_1_*string": "API Testing",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "usecase_0_*string": "Test Case 2",
+    "usecase_1_*string": "API Testing with optional fields",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "usecase_0_*string": "Test Case 3",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "usecase_0_*string": "Test Case 4",
+    "usecase_1_*string": "Invalid API Testing",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "usecase_0_*string": "Test Case 5",
+    "usecase_1_*string": "Invalid API Testing with invalid request params",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "usecase_0_*string": "Test Case 6",
+    "usecase_1_*string": "API Testing without authorization",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

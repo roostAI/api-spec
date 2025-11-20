@@ -1,0 +1,62 @@
+[
+  {
+    "amount_*number": 5000,
+    "currency_*string": "USD",
+    "customerId_*number": 1045300,
+    "sourceAccountId_*string": "1042345",
+    "targetAccountId_*string": "1042222",
+    "statusCode": 200,
+    "scenario": "schedule transfer added successfully"
+  },
+  {
+    "amount_*number": 10000,
+    "currency_*string": "EUR",
+    "customerId_*number": 1045301,
+    "sourceAccountId_*string": "1042346",
+    "targetAccountId_*string": "1042223",
+    "status_*string": "completed",
+    "scheduledDate_*number": 20220202,
+    "recurringOptions.amountType_*string": "fixed",
+    "recurringOptions.frequency.iterate_*string": "weekly",
+    "recurringOptions.frequency.duration.untilStop_*string": "no",
+    "recurringOptions.frequency.duration.untilDate_*number": 20221231,
+    "recurringOptions.frequency.duration.numberOfTransfers_*number": 52,
+    "statusCode": 200,
+    "scenario": "schedule transfer added successfully"
+  },
+  {
+    "currency_*string": "GBP",
+    "customerId_*number": 1045302,
+    "sourceAccountId_*string": "1042347",
+    "targetAccountId_*string": "1042224",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "amount_*number": 15000,
+    "currency_*string": "XYZ",
+    "customerId_*number": 1045303,
+    "sourceAccountId_*string": "1042348",
+    "targetAccountId_*string": "1042225",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "amount_*number": 20000,
+    "currency_*string": "JPY",
+    "customerId_*number": 9999999,
+    "sourceAccountId_*string": "9999999",
+    "targetAccountId_*string": "9999999",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "amount_*number": 25000,
+    "currency_*string": "CAD",
+    "customerId_*number": 1045304,
+    "sourceAccountId_*string": "1042349",
+    "targetAccountId_*string": "1042226",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

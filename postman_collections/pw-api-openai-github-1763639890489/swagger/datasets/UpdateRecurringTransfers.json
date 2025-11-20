@@ -1,0 +1,62 @@
+[
+  {
+    "customerId_*number": 1045300,
+    "paymentId_*string": "PAY12345",
+    "sourceAccountId_*string": "ACC12345",
+    "amount_*number": 5000,
+    "scheduledDate_*number": 20220215,
+    "targetAccountId_*string": "ACC54321",
+    "statusCode": 200,
+    "scenario": "Recurring transfer updated successfully"
+  },
+  {
+    "customerId_*number": 1045301,
+    "paymentId_*string": "PAY12346",
+    "sourceAccountId_*string": "ACC12346",
+    "amount_*number": 6000,
+    "scheduledDate_*number": 20220216,
+    "targetAccountId_*string": "ACC54322",
+    "recurringOptions.amountType_*string": "Fixed",
+    "recurringOptions.frequency.duration.untilStop_*string": "20230215",
+    "recurringOptions.frequency.duration.untilDate_*number": 20230215,
+    "recurringOptions.frequency.duration.numberOfTransfers_*number": 12,
+    "recurringOptions.frequency.iterate_*string": "Monthly",
+    "recurringOptions.updateTransferType_*string": "Immediate",
+    "statusCode": 200,
+    "scenario": "Recurring transfer updated successfully"
+  },
+  {
+    "customerId_*number": 1045302,
+    "paymentId_*string": "PAY12347",
+    "sourceAccountId_*string": "ACC12347",
+    "amount_*number": 7000,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "customerId_*number": 1045303,
+    "paymentId_*string": "PAY12348",
+    "sourceAccountId_*string": "ACC12348",
+    "amount_*number": 8000,
+    "scheduledDate_*number": 20220218,
+    "targetAccountId_*string": "ACC54324",
+    "recurringOptions.amountType_*string": "Variable",
+    "recurringOptions.frequency.duration.untilStop_*string": "20230218",
+    "recurringOptions.frequency.duration.untilDate_*number": 20230218,
+    "recurringOptions.frequency.duration.numberOfTransfers_*number": 24,
+    "recurringOptions.frequency.iterate_*string": "Weekly",
+    "recurringOptions.updateTransferType_*string": "Delayed",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 1045304,
+    "paymentId_*string": "PAY12349",
+    "sourceAccountId_*string": "ACC12349",
+    "amount_*number": 9000,
+    "scheduledDate_*number": 20220219,
+    "targetAccountId_*string": "ACC54325",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
