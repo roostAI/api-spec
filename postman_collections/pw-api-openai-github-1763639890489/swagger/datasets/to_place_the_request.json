@@ -1,0 +1,61 @@
+[
+  {
+    "accountName_*string": "John Doe",
+    "accountNumber_*string": "1234567890",
+    "customerId_*number": 12345,
+    "cardNumber_*string": "9876543210",
+    "description_*string": "Money Transfer",
+    "requestSubType_*string": "Online",
+    "requestType_*string": "Immediate",
+    "serviceType_*string": "Banking",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountName_*string": "Jane Doe",
+    "accountNumber_*string": "0987654321",
+    "customerId_*number": 67890,
+    "cardNumber_*string": "1234567890",
+    "description_*string": "Bill Payment",
+    "requestSubType_*string": "Mobile",
+    "requestType_*string": "Scheduled",
+    "serviceType_*string": "Banking",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountName_*string": "John Doe",
+    "accountNumber_*string": "1234567890",
+    "customerId_*number": 12345,
+    "description_*string": "Money Transfer",
+    "requestSubType_*string": "Online",
+    "requestType_*string": "Immediate",
+    "serviceType_*string": "Banking",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "accountName_*string": "Jane Doe",
+    "accountNumber_*string": "0987654321",
+    "customerId_*number": 67890,
+    "cardNumber_*string": "1234567890",
+    "description_*string": "Bill Payment",
+    "requestSubType_*string": "Mobile",
+    "requestType_*string": "Scheduled",
+    "serviceType_*string": "Banking",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountName_*string": "John Doe",
+    "accountNumber_*string": "1234567890",
+    "customerId_*number": 12345,
+    "cardNumber_*string": "9876543210",
+    "description_*string": "Money Transfer",
+    "requestSubType_*string": "Online",
+    "requestType_*string": "Immediate",
+    "serviceType_*string": "Banking",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

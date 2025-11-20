@@ -1,0 +1,57 @@
+[
+  {
+    "customerId_*number": 1045300,
+    "sourceAccountId_*string": "1042345",
+    "amount_*string": "1042222",
+    "currency_*string": "USD",
+    "statusCode": 200,
+    "scenario": "Deposit success"
+  },
+  {
+    "customerId_*number": 1045301,
+    "sourceAccountId_*string": "1042346",
+    "amount_*string": "1042223",
+    "currency_*string": "EUR",
+    "image": {
+      "frontImage_*string": "front_image_1",
+      "backImage_*string": "back_image_1"
+    },
+    "statusCode": 200,
+    "scenario": "Deposit success"
+  },
+  {
+    "sourceAccountId_*string": "1042347",
+    "amount_*string": "1042224",
+    "currency_*string": "GBP",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 1045302,
+    "sourceAccountId_*string": "1042348",
+    "amount_*string": "1042225",
+    "currency_*string": "JPY",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 1045303,
+    "sourceAccountId_*string": "1042349",
+    "amount_*string": "1042226",
+    "currency_*string": "AUD",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_*number": 1045304,
+    "sourceAccountId_*string": "1042350",
+    "amount_*string": "1042227",
+    "currency_*string": "CAD",
+    "image": {
+      "frontImage_*string": "front_image_2",
+      "backImage_*string": "back_image_2"
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

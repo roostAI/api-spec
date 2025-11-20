@@ -1,0 +1,55 @@
+[
+  {
+    "amount_*number": 5000,
+    "currency_*string": "USD",
+    "customerId_*number": 1045300,
+    "dueDate_*string": "2022-12-31",
+    "sourceAccountId_*string": "1042345",
+    "targetAccountId_*string": "1042222",
+    "transactionType_*number": 1,
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "amount_*number": 7000,
+    "currency_*string": "EUR",
+    "customerId_*number": 1045300,
+    "dueDate_*string": "2022-12-31",
+    "sourceAccountId_*string": "1042345",
+    "targetAccountId_*string": "1042222",
+    "transactionType_*number": 2,
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "amount_*number": 5000,
+    "currency_*string": "USD",
+    "dueDate_*string": "2022-12-31",
+    "sourceAccountId_*string": "1042345",
+    "targetAccountId_*string": "1042222",
+    "transactionType_*number": 1,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "amount_*number": 5000,
+    "currency_*string": "USD",
+    "customerId_*number": 1045300,
+    "sourceAccountId_*string": "1042345",
+    "targetAccountId_*string": "1042222",
+    "transactionType_*number": 1,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "amount_*number": 5000,
+    "currency_*string": "XYZ",
+    "customerId_*number": 1045300,
+    "dueDate_*string": "2022-12-31",
+    "sourceAccountId_*string": "1042345",
+    "targetAccountId_*string": "1042222",
+    "transactionType_*number": 1,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]
