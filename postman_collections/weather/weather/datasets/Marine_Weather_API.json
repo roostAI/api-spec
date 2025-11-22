@@ -1,0 +1,67 @@
+[
+  {
+    "q": "New York",
+    "days": 5,
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Paris",
+    "days": 7,
+    "dt": "2023-10-10",
+    "unixdt": 1696953600,
+    "hour": 14,
+    "lang": "en",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "days": 3,
+    "statusCode": 400,
+    "scenario": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "Invalid_City",
+    "days": 2,
+    "statusCode": 400,
+    "scenario": "Error code 1006: No location found matching parameter 'q'<br />Error code 1005: API request url is invalid.<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "London",
+    "days": 15,
+    "statusCode": 400,
+    "scenario": "Error code 1005: API request url is invalid.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "Tokyo",
+    "lang": "jp",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Berlin",
+    "days": 4,
+    "unixdt": "invalid_unix_time",
+    "statusCode": 400,
+    "scenario": "Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "Sydney",
+    "days": 3,
+    "hour": 25,
+    "statusCode": 400,
+    "scenario": "Error code 9999: Internal application error."
+  },
+  {
+    "q": "Mumbai",
+    "days": 1,
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Rio de Janeiro",
+    "dt": "invalid_date_format",
+    "statusCode": 400,
+    "scenario": "Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9999: Internal application error."
+  }
+]
