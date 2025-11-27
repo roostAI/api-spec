@@ -1,0 +1,47 @@
+[
+  {
+    "message": "Pipeline triggered successfully",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "message": "Workflow approved",
+    "requestId": "c9f7d2b0-1a3c-4e4e-9a73-4a2f5ed2c3b1",
+    "timestamp": "2025-11-27T09:15:30Z",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "statusCode": "default",
+    "scenario": "Unknown response class",
+    "details": "Missing required field: message"
+  },
+  {
+    "message": 404,
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "message": "Resource not found for project slug: gh/org/repo",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "message": "INVALID_STATUS_VALUE",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "message": "Build canceled by user",
+    "contentType": "application/json",
+    "apiVersion": "v2",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "message": true,
+    "traceId": "7f1a4eaf5b2d4c3d9e2a1b0c8d7e6f5a",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  }
+]

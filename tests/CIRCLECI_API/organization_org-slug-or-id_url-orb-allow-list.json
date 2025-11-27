@@ -1,0 +1,61 @@
+[
+  {
+    "org-slug-or-id": "acme-inc",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "org-slug-or-id": "e8b4c3a1-6f2d-4f9c-9b3e-d1b2a3c4e5f6",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "org-slug-or-id": "circleci-oss",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "INVALID ORG!",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "acme/inc",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "nonexistent-org-999999",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": ".",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "beta-labs",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "org-slug-or-id": "open-source",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "org-slug-or-id": "acme-inc ",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "org-slug-or-id": "acme-inc",
+    "statusCode": 202,
+    "scenario": "Successful responses: Accepted"
+  },
+  {
+    "org-slug-or-id": "d4f5a6b7-89c0-4f1a-9234-1a2b3c4d5e6f",
+    "statusCode": 202,
+    "scenario": "Successful responses: Accepted"
+  },
+  {
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "Acme Org!!",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "org-not-found-404",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "ADMIN",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "org-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "team42-devs",
+    "statusCode": 202,
+    "scenario": "Successful responses: Accepted"
+  },
+  {
+    "org-slug-or-id": "acme.co",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "00012345",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  }
+]

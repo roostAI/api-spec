@@ -1,0 +1,81 @@
+[
+  {
+    "project-slug": "gh/acme/payments-service",
+    "workflow-name": "build_and_test",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "gh/acme/checkout",
+    "workflow-name": "deploy_pipeline",
+    "all-branches": true,
+    "branch": "main",
+    "page-token": "pt_01JF3K9WQ2Z7N8V6X4C",
+    "start-date": "2025-09-01T00:00:00Z",
+    "end-date": "2025-09-30T23:59:59Z",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "gh/contoso/inventory",
+    "workflow-name": "nightly_tests",
+    "all-branches": false,
+    "branch": "release/2025.09",
+    "start-date": "2025-09-15T02:00:00Z",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "gh/contoso/billing",
+    "workflow-name": "security_scan",
+    "page-token": "pt_01JD8M2P7QAZXC4VBN",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "workflow-name": "build_and_test",
+    "all-branches": true,
+    "branch": "develop",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/example/analytics",
+    "all-branches": false,
+    "branch": "feature/new-dashboard",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/example/analytics",
+    "workflow-name": "data_pipeline",
+    "start-date": "2025-13-01T00:00:00Z",
+    "end-date": "2025-12-31T23:59:59Z",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/acme/checkout",
+    "workflow-name": "deploy_pipeline",
+    "start-date": "2025-10-10T00:00:00Z",
+    "end-date": "2025-09-01T00:00:00Z",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/unknown-org/nonexistent-repo",
+    "workflow-name": "does_not_exist",
+    "all-branches": false,
+    "branch": "main",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/acme/payments-service",
+    "workflow-name": "build_and_test",
+    "page-token": "pt invalid token $$$",
+    "branch": "feature/🔥-experiment",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  }
+]

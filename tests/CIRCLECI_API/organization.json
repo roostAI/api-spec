@@ -1,0 +1,87 @@
+[
+  {
+    "id": "b02d6e88-9f2d-4a4f-8c1b-21b6e2b434c1",
+    "name": "Acme Incorporated",
+    "slug": "github/acme-inc",
+    "vcs_type": "github",
+    "statusCode": 201,
+    "scenario": "Successful responses: Created"
+  },
+  {
+    "id": "d4f32bc1-5126-4e6b-9f7e-185aab47a3d8",
+    "name": "Globex Corporation",
+    "slug": "github/globex",
+    "vcs_type": "github",
+    "statusCode": 201,
+    "scenario": "Successful responses: Created"
+  },
+  {
+    "id": "2f1eec6b-1a7d-4a8b-bd6e-33290a4dcd4e",
+    "name": "Initech LLC",
+    "slug": "circleci/2f1eec6b-1a7d-4a8b-bd6e-33290a4dcd4e",
+    "vcs_type": "gitlab",
+    "statusCode": 201,
+    "scenario": "Successful responses: Created"
+  },
+  {
+    "id": "a1b2c3d4-55ee-46a0-9f01-1f2a3b4c5d6e",
+    "name": "Umbrella Corp",
+    "vcs_type": "github",
+    "message": "Bad Request: 'slug' is required.",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "name": "Vandelay Industries",
+    "slug": "github/vandelay",
+    "vcs_type": "github",
+    "message": "Bad Request: 'id' is required.",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "id": "9c0e7a9a-5b6e-4c2e-9086-3d5c8b0d7a10",
+    "name": "Soylent Corp",
+    "slug": "github/soylent",
+    "vcs_type": "svn",
+    "message": "Bad Request: 'vcs_type' must be one of ['github','bitbucket','gitlab'].",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "id": 987654,
+    "name": "Hooli",
+    "slug": "github/hooli",
+    "vcs_type": "github",
+    "message": "Bad Request: 'id' must be a string.",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "id": "7b3f6e1d-4a1c-4cfa-bbd7-79d2c3f8f112",
+    "name": "Stark Industries",
+    "slug": "github",
+    "vcs_type": "github",
+    "message": "Bad Request: 'slug' must be in form 'vcs-slug/org-name'.",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000000",
+    "name": "Nonexistent Org",
+    "slug": "github/nonexistent-org",
+    "vcs_type": "github",
+    "message": "Not Found: organization does not exist.",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "id": "1f2e3d4c-5b6a-7c8d-9e0f-112233445566",
+    "name": "Wayne Enterprises",
+    "slug": "github/wayne enterprises",
+    "vcs_type": "github",
+    "message": "Bad Request: 'slug' contains invalid characters.",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  }
+]

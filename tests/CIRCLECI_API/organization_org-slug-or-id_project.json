@@ -1,0 +1,51 @@
+[
+  {
+    "org-slug-or-id": "gh/CircleCI-Public",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "org-slug-or-id": "circleci/ec6887ec-7d44-4b31-b468-7e552408ee32",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "svn/legacy-org",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "gh/nonexistent-org-xyz-404",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "gh/%2Fbad%2Fslug",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "bb/Acme-Corp",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "org-slug-or-id": "gh/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "circleci/not-a-uuid",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "circleci/0f1e2d3c-4b5a-6789-abcd-ef0123456789",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  }
+]

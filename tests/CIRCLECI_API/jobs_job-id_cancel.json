@@ -1,0 +1,51 @@
+[
+  {
+    "job-id": "a6c8f3d1-9b2e-4c87-91f1-0ecf5b2b4f90",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "job-id": "job-784512",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "job-id": "!!!not_allowed!!!",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "job-id": "b2d3e4f5-1234-4f67-890a-1b2c3d4e5f60",
+    "statusCode": 401,
+    "scenario": "Client error responses: Unauthorized"
+  },
+  {
+    "job-id": "team-locked-99999",
+    "statusCode": 403,
+    "scenario": "Client error responses: Forbidden"
+  },
+  {
+    "job-id": "00000000-0000-0000-0000-000000000999",
+    "statusCode": 404,
+    "scenario": "Client error responses: Not Found"
+  },
+  {
+    "job-id": "unknown-state-123",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "job-id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "job-id": "expired-token-job-5678",
+    "statusCode": 401,
+    "scenario": "Client error responses: Unauthorized"
+  }
+]

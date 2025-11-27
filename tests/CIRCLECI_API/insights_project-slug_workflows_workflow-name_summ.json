@@ -1,0 +1,86 @@
+[
+  {
+    "project-slug": "gh/acme/monorepo",
+    "workflow-name": "build_and_test",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "gh/example-org/circleci-demo",
+    "workflow-name": "deploy",
+    "all-branches": true,
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "gh/acme/payment-service",
+    "workflow-name": "nightly_regression",
+    "all-branches": false,
+    "branch": "main",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "bb/team/legacy-app",
+    "workflow-name": "lint_and_scan",
+    "branch": "release/2025.11",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "workflow-name": "build_and_test",
+    "all-branches": true,
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/unknown-org/service-x",
+    "all-branches": false,
+    "branch": "develop",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/acme/monorepo",
+    "workflow-name": "deploy",
+    "all-branches": "yes",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/does-not-exist/repo-404",
+    "workflow-name": "nonexistent_workflow",
+    "branch": "nonexistent_branch",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/acme/monorepo",
+    "workflow-name": "@@@",
+    "all-branches": false,
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/example-org/circleci-demo",
+    "workflow-name": "build_and_test",
+    "all-branches": true,
+    "branch": "main",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/acme/mobile-app",
+    "workflow-name": "e2e_tests",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "gh/acme/payment-service",
+    "workflow-name": "canary_release",
+    "all-branches": false,
+    "branch": "feature/api-tests",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  }
+]

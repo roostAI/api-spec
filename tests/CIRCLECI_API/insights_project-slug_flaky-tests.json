@@ -1,0 +1,40 @@
+[
+  {
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "acme-inc/rocket-app",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "beta-labs/ci-sample",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "acme inc/rocket app",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "ghost-org/nonexistent-repo-404",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "!!!/???",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "data-team_42/build-matrix",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  }
+]
