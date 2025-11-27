@@ -1,0 +1,81 @@
+[
+  {
+    "org-slug": "acme-inc",
+    "reporting-window": "last-30-days",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "org-slug": "acme-inc",
+    "reporting-window": "last-90-days",
+    "project-names": {
+      "names": [
+        "api-preview-docs",
+        "mobile-app"
+      ],
+      "match": "any"
+    },
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "reporting-window": "last-30-days",
+    "project-names": {
+      "names": [
+        "api-preview-docs"
+      ],
+      "match": "any"
+    },
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug": "acme-inc",
+    "reporting-window": "last-13-months",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug": "org-not-found-404",
+    "reporting-window": "last-30-days",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug": "acme-inc",
+    "reporting-window": "last-30-days",
+    "project-names": {
+      "names": [
+        "nonexistent-project-xyz",
+        "ghost-service"
+      ],
+      "match": "all"
+    },
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug": "acme-inc",
+    "project-names": {
+      "names": [
+        "payments-service"
+      ],
+      "match": "any"
+    },
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug": "umbrella-corp",
+    "reporting-window": "last-7-days",
+    "project-names": {
+      "names": [
+        "bio-research",
+        "t-virus-tracker"
+      ],
+      "match": "any"
+    },
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  }
+]

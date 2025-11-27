@@ -1,0 +1,57 @@
+[
+  {
+    "project-slug": "gh/acme/api-service",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "gh/acme/api-service",
+    "page-token": "cGFnZV8xNjk4ODg4MDAwXzE",
+    "all-branches": true,
+    "branch": "develop",
+    "reporting-window": "last-30-days",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "gh/example/frontend-web",
+    "branch": "main",
+    "reporting-window": "last-7-days",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "page-token": "cGFnZV8yMDI1MTEyN19uZXh0",
+    "reporting-window": "last-60-days",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/example/mobile-app",
+    "reporting-window": "last-365-days",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/acme/does-not-exist",
+    "branch": "main",
+    "reporting-window": "last-30-days",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/example/backend-service",
+    "page-token": "expired-or-invalid",
+    "reporting-window": "last-30-days",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/example/backend-service",
+    "all-branches": false,
+    "branch": "release/2025.11",
+    "reporting-window": "last-90-days",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "pipeline-id": "7f9a2b3c-4d5e-678f-9012-3456789abcde",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "pipeline-id": "###INVALID###",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "pipeline-id": "pipeline-not-found-404",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "pipeline-id": "bad id with spaces",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "pipeline-id": "c1a2b3d4-e5f6-47a8-9b0c-d1e2f3a4b5c6",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  }
+]
