@@ -1,0 +1,79 @@
+[
+  {
+    "id": "0c14b7a1-8a7f-4ae0-8e52-90c7e468b7ab",
+    "vcs-type": "github",
+    "name": "Acme Engineering",
+    "avatar_url": "https://avatars.githubusercontent.com/u/424242?v=4",
+    "slug": "acme-engineering",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "id": "e2c0c8c4-8ed6-44e3-9ba2-5a36ee4069cb",
+    "vcs-type": "gitlab",
+    "name": "Globex DevOps",
+    "avatar_url": "https://gitlab.example.com/uploads/-/system/user/avatar/99/avatar.png",
+    "slug": "globex-devops",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "id": "d55eb3f1-8a56-41e6-9f56-4b50f1d86e7a",
+    "vcs-type": "bitbucket",
+    "name": "Initech",
+    "slug": "initech",
+    "message": "avatar_url is required",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "id": "3b4f1a57-889c-49db-8c1e-31b21c6c1f74",
+    "vcs-type": 123,
+    "name": "Umbrella Corp",
+    "avatar_url": "https://bitbucket.example.com/account/umbcorp/avatar",
+    "slug": "umbrella-corp",
+    "message": "vcs-type must be a string",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "id": "not-a-uuid",
+    "vcs-type": "github",
+    "name": "Soylent Industries",
+    "avatar_url": "https://avatars.example.com/u/88888",
+    "slug": "soylent-industries",
+    "message": "id must be a valid UUID",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "id": "1f0bd8a5-6b6a-4e87-8a8a-2b62e7de5f3d",
+    "vcs-type": "gitlab",
+    "name": "Wayne Enterprises",
+    "avatar_url": "not-a-url",
+    "slug": "wayne-enterprises",
+    "message": "avatar_url must be a valid URL",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000000",
+    "vcs-type": "github",
+    "name": "Nonexistent Org",
+    "avatar_url": "https://avatars.example.com/u/0",
+    "slug": "nonexistent-org",
+    "message": "Collaboration not found for the given id",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "id": "c49c25cb-cc5c-4a30-9f3b-7e2ce1b3fdc5",
+    "vcs-type": "bitbucket",
+    "name": 12345,
+    "avatar_url": "https://bitbucket.example.com/account/integ/avatar",
+    "slug": "integration-team",
+    "message": "name must be a string",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  }
+]

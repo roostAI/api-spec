@@ -1,0 +1,129 @@
+[
+  {
+    "project-slug": "acme/cool-app",
+    "reporting-window": "last-30-days",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "acme/cool-app",
+    "reporting-window": "last-14-days",
+    "branches": {
+      "include": [
+        "main",
+        "develop",
+        "release/1.2"
+      ],
+      "exclude": [
+        "legacy"
+      ]
+    },
+    "workflow-names": {
+      "include": [
+        "build-and-test",
+        "deploy"
+      ],
+      "exclude": [
+        "deprecated-job"
+      ]
+    },
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "contoso/api-service",
+    "reporting-window": "last-7-days",
+    "branches": {
+      "include": [
+        "main"
+      ]
+    },
+    "workflow-names": {
+      "include": [
+        "unit-tests"
+      ]
+    },
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "reporting-window": "last-30-days",
+    "branches": {
+      "include": [
+        "main",
+        "develop"
+      ]
+    },
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "acme/portal",
+    "branches": {
+      "include": [
+        "release/2.0"
+      ]
+    },
+    "workflow-names": {
+      "include": [
+        "integration-tests"
+      ]
+    },
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "acme/cool-app",
+    "reporting-window": "fiscal-year-2023",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "contoso/api-service",
+    "reporting-window": "last-14-days",
+    "branches": {
+      "include": [
+        "*invalid*branch*",
+        "HEAD~1"
+      ]
+    },
+    "workflow-names": {
+      "include": [
+        "@@bad_workflow@@"
+      ]
+    },
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "unknown/does-not-exist",
+    "reporting-window": "last-30-days",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "acme/cool-app",
+    "reporting-window": "last-7-days",
+    "workflow-names": {
+      "include": [
+        "nonexistent-workflow",
+        "ghost-job"
+      ]
+    },
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "globex/mobile-app",
+    "reporting-window": "last-60-days",
+    "workflow-names": {
+      "include": [
+        "build",
+        "smoke-tests",
+        "deploy-prod"
+      ]
+    },
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  }
+]

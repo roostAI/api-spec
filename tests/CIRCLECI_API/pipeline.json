@@ -1,0 +1,70 @@
+[
+  {
+    "org-slug": "gh/CircleCI-Public",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "org-slug": "gh/CircleCI-Public",
+    "page-token": "c3RhcnQ9MQ",
+    "mine": true,
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "org-slug": "gh/org-acme",
+    "mine": false,
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "org-slug": "bb/example-co",
+    "page-token": "eyJwYWdlIjoyfQ",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "page-token": "next_3_H7we4",
+    "mine": true,
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "mine": false,
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug": "gh/__nonexistent-org-xyz__",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug": "gh/qa-labs",
+    "page-token": "invalid!token",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug": "bb/nonexistent-team-001",
+    "mine": true,
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug": "not-a-valid-slug",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug": "gh/my-sandbox-org",
+    "page-token": "expired_page_token_2020",
+    "mine": true,
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  }
+]

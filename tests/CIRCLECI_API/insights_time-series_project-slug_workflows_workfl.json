@@ -1,0 +1,139 @@
+[
+  {
+    "project-slug": "gh/acme/backend-service",
+    "workflow-name": "build-and-test",
+    "granularity": "daily",
+    "start-date": "2024-09-01T00:00:00Z",
+    "end-date": "2024-09-30T23:59:59Z",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "gh/acme/backend-service",
+    "workflow-name": "deploy",
+    "branch": "main",
+    "granularity": "daily",
+    "start-date": "2024-10-01T00:00:00Z",
+    "end-date": "2024-10-31T23:59:59Z",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "gh/acme/mobile-app",
+    "workflow-name": "nightly-ci",
+    "branch": "develop",
+    "granularity": "hourly",
+    "start-date": "2024-08-01T00:00:00Z",
+    "end-date": "2024-08-07T23:59:59Z",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "workflow-name": "build-and-test",
+    "granularity": "daily",
+    "start-date": "2024-09-01T00:00:00Z",
+    "end-date": "2024-09-07T23:59:59Z",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/acme/backend-service",
+    "workflow-name": "build-and-test",
+    "granularity": "quarterly",
+    "start-date": "2024-08-01T00:00:00Z",
+    "end-date": "2024-08-31T23:59:59Z",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/acme/backend-service",
+    "workflow-name": "deploy",
+    "granularity": "daily",
+    "start-date": "2024/10/01T00:00:00Z",
+    "end-date": "2024-10-31T23:59:59Z",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/acme/mobile-app",
+    "workflow-name": "nightly-ci",
+    "granularity": "daily",
+    "start-date": "2024-11-01T00:00:00Z",
+    "end-date": "2024-10-01T00:00:00Z",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/unknown-org/missing-repo",
+    "workflow-name": "build-and-test",
+    "granularity": "daily",
+    "start-date": "2024-09-01T00:00:00Z",
+    "end-date": "2024-09-30T23:59:59Z",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/acme/backend-service",
+    "workflow-name": "unknown-workflow",
+    "granularity": "weekly",
+    "start-date": "2024-07-01T00:00:00Z",
+    "end-date": "2024-07-31T23:59:59Z",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/acme/backend-service",
+    "workflow-name": "deploy",
+    "branch": "refs/heads/..",
+    "granularity": "daily",
+    "start-date": "2024-10-01T00:00:00Z",
+    "end-date": "2024-10-31T23:59:59Z",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/acme/data-pipeline",
+    "workflow-name": "build-and-test",
+    "branch": "release/1.2",
+    "granularity": "weekly",
+    "start-date": "2024-06-01T00:00:00Z",
+    "end-date": "2024-06-30T23:59:59Z",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "gh/acme/mobile-app",
+    "workflow-name": "deploy",
+    "granularity": "daily",
+    "start-date": "2024-05-01T00:00:00Z",
+    "end-date": "2024-05-31T23:59:59Z",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "gh/acme/backend-service",
+    "workflow-name": "build-and-test",
+    "start-date": "2024-04-01T00:00:00Z",
+    "end-date": "2024-04-30T23:59:59Z",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/acme/backend-service",
+    "workflow-name": "build-and-test",
+    "granularity": "daily",
+    "start-date": "2099-01-01T00:00:00Z",
+    "end-date": "2099-12-31T23:59:59Z",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/acme/cli-tool",
+    "workflow-name": "build-and-test",
+    "granularity": "123",
+    "start-date": "2024-03-01T00:00:00Z",
+    "end-date": "2024-03-31T23:59:59Z",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  }
+]

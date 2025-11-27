@@ -1,0 +1,59 @@
+[
+  {
+    "project-slug": "gh/cli/cli",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "gh/circleci-public/api-preview",
+    "digest": "sha256:6a1b9c2d3e4f5a6b7c8d9e0f11223344556677889900aabbccddeeff00112233",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "gh/my-org/new-repo",
+    "statusCode": 201,
+    "scenario": "Successful responses: Created"
+  },
+  {
+    "project-slug": "bb/example-co/new-lib",
+    "digest": "sha256:d34db33f0badf00dfeedfacecafebabedeadbeefc001d00dc0ffee1234567890",
+    "statusCode": 201,
+    "scenario": "Successful responses: Created"
+  },
+  {
+    "digest": "sha256:0f1e2d3c4b5a69788796a5b4c3d2e1f00112233445566778899aabbccddeeff0",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "github//bad slug",
+    "digest": "sha256:111122223333444455556666777788889999aaaabbbbccccddddeeeeffff0000",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/does-not-exist/unknown-service",
+    "digest": "sha256:abcdefabcdefabcdefabcdefabcdefabcdefabcdefabcdefabcdefabcdefabcd",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/hashicorp/terraform",
+    "digest": "sha256:ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/microsoft/vscode",
+    "digest": "sha256:1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "gl/gitlab-org/gitlab",
+    "digest": "sha256:fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  }
+]

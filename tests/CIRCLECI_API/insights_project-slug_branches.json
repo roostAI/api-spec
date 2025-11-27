@@ -1,0 +1,42 @@
+[
+  {
+    "project-slug": "gh/acme-corp/ci-sample",
+    "workflow-name": "build",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "bb/roadrunner/tools-service",
+    "workflow-name": "deploy",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "workflow-name": "build",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/acme-corp/ci-sample",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/acme-corp/ci-sample",
+    "workflow-name": "#$/invalid*name",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/acme-corp/nonexistent-repo-404",
+    "workflow-name": "build",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "invalid slug format",
+    "workflow-name": "test",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  }
+]

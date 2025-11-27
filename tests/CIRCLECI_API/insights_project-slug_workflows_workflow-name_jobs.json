@@ -1,0 +1,93 @@
+[
+  {
+    "project-slug": "gh/acme/widget-service",
+    "workflow-name": "build_and_test",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "gh/circleci/public-project",
+    "workflow-name": "deploy",
+    "page-token": "c3VwZXIx",
+    "all-branches": false,
+    "branch": "main",
+    "reporting-window": "last-30-days",
+    "job-name": "unit_tests",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "gh/octo-org/ci-demo",
+    "workflow-name": "nightly",
+    "all-branches": true,
+    "reporting-window": "last-7-days",
+    "job-name": "build",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "gh/acme/widget-service",
+    "reporting-window": "last-30-days",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/acme/widget-service",
+    "workflow-name": "build_and_test",
+    "reporting-window": "last-365-days",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/circleci/public-project",
+    "workflow-name": "deploy",
+    "all-branches": "true",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/octo-org/ci-demo",
+    "workflow-name": "nightly",
+    "page-token": "!!!invalid-token!!!",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/unknown/repo-not-found-404",
+    "workflow-name": "build_and_test",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/acme/widget-service",
+    "workflow-name": "deploy",
+    "all-branches": false,
+    "branch": "develop",
+    "reporting-window": "last-90-days",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "project-slug": "gh/circleci/public-project",
+    "workflow-name": "build_and_test",
+    "job-name": "does_not_exist_404",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/octo-org/ci-demo",
+    "workflow-name": "nightly",
+    "all-branches": "False",
+    "reporting-window": "past-14-days",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "project-slug": "gh/circleci/public-project",
+    "workflow-name": "deploy",
+    "reporting-window": "last-30-days",
+    "page-token": "cGFnZToy",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  }
+]

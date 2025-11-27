@@ -1,0 +1,48 @@
+[
+  {
+    "org-slug-or-id": "acme-inc",
+    "allow-list-entry-id": "ba98990a-5a00-4cad-b55e-b44117b92e0c",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "org-slug-or-id": "1f2a88f9-3c6b-4d2b-9e34-1b2c3d4e5f6a",
+    "allow-list-entry-id": "0b6cbe1e-8be8-45af-9808-bede1a3275d4",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "org-slug-or-id": "orbit-labs",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "allow-list-entry-id": "3a1f6e2b-4c3d-4a8f-9f0e-2d1c7b8e9a0f",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "team-rocket",
+    "allow-list-entry-id": "not-a-uuid",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "!@#invalid org",
+    "allow-list-entry-id": "d2e4f6a8-bc9d-4e2f-a9b1-7c8d9e0f1a2b",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "unknown-org-404",
+    "allow-list-entry-id": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "org-slug-or-id": "deleted-org-410",
+    "allow-list-entry-id": "00000000-0000-0000-0000-000000000000",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "pipeline-id": "5034460f-c7c4-4c43-9457-de07e2029e7b",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "pipeline-id": "2fa1c8d2-5d3b-4b7f-90e0-3f6b1d8c2a4f",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "pipeline-id": "not-a-uuid",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "pipeline-id": "00000000-0000-0000-0000-000000000000",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "pipeline-id": "5034460f-c7c4-4c43-9457-de07e2029e7b-EXTRA",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "pipeline-id": "8c6e9f12-3b28-4c5e-a9d1-7f2a9d6e3c10",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "pipeline-id": "1234567890",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  }
+]

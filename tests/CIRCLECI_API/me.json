@@ -1,0 +1,67 @@
+[
+  {
+    "avatar_url": "https://avatars.example.com/u/12001.png",
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "login": "octocat",
+    "name": "Mona Lisa Octocat",
+    "statusCode": "200",
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "avatar_url": "https://cdn.example.org/avatars/engineering/jdoe.jpg",
+    "id": "ddeb27fb-d9a0-4624-be4d-4615062daed4",
+    "login": "jdoe",
+    "name": "John Doe",
+    "statusCode": "200",
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "avatar_url": "https://avatars.example.com/u/12002.png",
+    "id": "9f1c8d3a-5a3f-4b6b-9f1a-3c72e4c841f0",
+    "name": "Alice Johnson",
+    "message": "Missing required field: login",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "avatar_url": "https://avatars.example.com/u/12003.png",
+    "id": "12345",
+    "login": "bad_uuid_user",
+    "name": "Bad Uuid",
+    "message": "Invalid id format; expected UUID",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "avatar_url": 10101,
+    "id": true,
+    "login": 789,
+    "name": false,
+    "message": "Invalid data types for one or more fields",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "avatar_url": "https://avatars.example.com/u/404user.png",
+    "id": "0d3f2c6d-2147-4b0f-9bf0-6a39c2db4ad2",
+    "login": "unknown_user_404",
+    "name": "Unknown User",
+    "message": "User not found",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "message": "Malformed JSON in request body",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  },
+  {
+    "avatar_url": "not-a-url",
+    "id": "b8a7c5d2-9e3a-4f1b-9b6a-14a0d5f1c2e3",
+    "login": "url_invalid",
+    "name": "URL Invalid",
+    "message": "avatar_url must be a valid URL",
+    "statusCode": "default",
+    "scenario": "Unknown response class"
+  }
+]
