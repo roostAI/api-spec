@@ -1,0 +1,44 @@
+[
+  {
+    "customerId_1": 1045300,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_2": 1045301,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_3": 1045302,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_4": 1045303,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_5": 1045304,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_6": 1045305,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
