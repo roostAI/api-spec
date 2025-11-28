@@ -1,0 +1,61 @@
+[
+  {
+    "customerId_1": 7752,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_2": 3405,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_3": 8859,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_4": 6279,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_5": 8474,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_6": 3809,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_7": 7792,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_8": 3693,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_9": 3317,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_10": 730,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_11": 1045300,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
