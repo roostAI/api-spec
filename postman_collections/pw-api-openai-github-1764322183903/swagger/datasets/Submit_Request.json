@@ -1,0 +1,55 @@
+[
+  {
+    "value_object": {
+      "id": 123,
+      "name": "Test Object 1",
+      "description": "This is a test object"
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "value_object": {
+      "id": 456,
+      "name": "Test Object 2",
+      "description": "This is another test object"
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "value_object": {
+      "id": "invalid_id",
+      "name": "Test Object 3",
+      "description": "This is a test object with invalid id"
+    },
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "value_object": {
+      "name": "Test Object 4",
+      "description": "This is a test object with missing id"
+    },
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "value_object": {
+      "id": 789,
+      "name": "Test Object 5",
+      "description": "This is a test object with non-existent id"
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "value_object": {
+      "id": 1011,
+      "name": "Test Object 6",
+      "description": "This is a test object with unauthorized access"
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
