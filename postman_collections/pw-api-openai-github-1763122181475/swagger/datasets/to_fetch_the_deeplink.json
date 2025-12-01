@@ -1,0 +1,34 @@
+[
+  {
+    "usecase_0_*string": "Test Case 1",
+    "usecase_1_*string": "Scenario 1",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "usecase_0_*string": "Test Case 2",
+    "usecase_1_*string": "Scenario 2",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "usecase_0_*string": "Test Case 3",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "usecase_1_*string": "Scenario 4",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "usecase_0_*string": "Test Case 5",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "usecase_1_*string": "Scenario 6",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
