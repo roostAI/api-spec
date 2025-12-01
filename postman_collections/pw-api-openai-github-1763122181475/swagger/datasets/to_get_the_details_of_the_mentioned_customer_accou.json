@@ -1,0 +1,72 @@
+[
+  {
+    "customerId": 526374743,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "AC123456789",
+      "cardNumber": "1234567890123456"
+    },
+    "accountInfo_1": {
+      "accountType": "Current",
+      "accountNumber": "AC987654321",
+      "cardNumber": "6543210987654321"
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId": 526374743,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "AC123456789",
+      "cardNumber": "1234567890123456"
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId": 526374743,
+    "accountInfo_0": {
+      "accountType": "InvalidType",
+      "accountNumber": "AC123456789",
+      "cardNumber": "1234567890123456"
+    },
+    "accountInfo_1": {
+      "accountType": "Current",
+      "accountNumber": "AC987654321",
+      "cardNumber": "6543210987654321"
+    },
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "customerId": 526374743,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "AC123456789",
+      "cardNumber": "1234567890123456"
+    },
+    "accountInfo_1": {
+      "accountType": "Current",
+      "accountNumber": "AC987654321",
+      "cardNumber": "6543210987654321"
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 526374743,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "AC123456789",
+      "cardNumber": "1234567890123456"
+    },
+    "accountInfo_1": {
+      "accountType": "Current",
+      "accountNumber": "AC987654321",
+      "cardNumber": "6543210987654321"
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
