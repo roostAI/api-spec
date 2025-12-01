@@ -1,0 +1,60 @@
+[
+  {
+    "customerId_*number": 1045300,
+    "transactionsData_0.reasonCode_*string": "Fraudulent",
+    "transactionsData_0.transactionId_*number": 123456,
+    "transactionsData_1.reasonCode_*string": "Duplicate",
+    "transactionsData_1.transactionId_*number": 789012,
+    "emailId_*string": "John@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "customerId_*number": 1045301,
+    "transactionsData_0.reasonCode_*string": "Unauthorized",
+    "transactionsData_0.transactionId_*number": 234567,
+    "transactionsData_1.reasonCode_*string": "Incorrect",
+    "transactionsData_1.transactionId_*number": 890123,
+    "emailId_*string": "Jane@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "transactionsData_0.reasonCode_*string": "Fraudulent",
+    "transactionsData_0.transactionId_*number": 345678,
+    "transactionsData_1.reasonCode_*string": "Duplicate",
+    "transactionsData_1.transactionId_*number": 901234,
+    "emailId_*string": "Bob@yahoo.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 1045302,
+    "transactionsData_0.reasonCode_*string": "Invalid",
+    "transactionsData_0.transactionId_*number": 456789,
+    "transactionsData_1.reasonCode_*string": "Incorrect",
+    "transactionsData_1.transactionId_*number": 123456,
+    "emailId_*string": "Alice@yahoo.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 1045303,
+    "transactionsData_0.reasonCode_*string": "Fraudulent",
+    "transactionsData_0.transactionId_*number": 567890,
+    "transactionsData_1.reasonCode_*string": "Duplicate",
+    "transactionsData_1.transactionId_*number": 234567,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_*number": 1045304,
+    "transactionsData_0.reasonCode_*string": "Unauthorized",
+    "transactionsData_0.transactionId_*number": 678901,
+    "transactionsData_1.reasonCode_*string": "Incorrect",
+    "transactionsData_1.transactionId_*number": 345678,
+    "emailId_*string": "Charlie@yahoo.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

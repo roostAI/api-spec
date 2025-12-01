@@ -1,0 +1,45 @@
+[
+  {
+    "accountName_*string": "John Doe",
+    "accountNumber_*string": "1042345",
+    "customerId_*number": 1045300,
+    "description_*string": "Internal Transfer",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountName_*string": "Jane Smith",
+    "accountNumber_*string": "1042346",
+    "customerId_*number": 1045301,
+    "cardNumber_*string": "1234567890123456",
+    "description_*string": "External Transfer",
+    "requestSubType_*string": "Transfer",
+    "requestType_*string": "Money Transfer",
+    "serviceType_*string": "Banking",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountNumber_*string": "1042347",
+    "customerId_*number": 1045302,
+    "description_*string": "Internal Transfer",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "accountName_*string": "Invalid Name",
+    "accountNumber_*string": "Invalid Number",
+    "customerId_*number": 1045303,
+    "description_*string": "Invalid Description",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "accountName_*string": "Not Found",
+    "accountNumber_*string": "Not Found",
+    "customerId_*number": 1045304,
+    "description_*string": "Not Found",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
