@@ -1,0 +1,45 @@
+[
+  {
+    "customerId_1045300": 1045300,
+    "accountNumber_0_1234567890": "1234567890",
+    "accountNumber_1_0987654321": "0987654321",
+    "cardNumber_0_1111222233334444": "1111222233334444",
+    "cardNumber_1_5555666677778888": "5555666677778888",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_1045301": 1045301,
+    "accountNumber_0_1234567891": "1234567891",
+    "accountNumber_1_0987654322": "0987654322",
+    "cardNumber_0_1111222233334445": "1111222233334445",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_1045302": 1045302,
+    "accountNumber_0_1234567892": "1234567892",
+    "accountNumber_1_0987654323": "0987654323",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_1045303": 1045303,
+    "accountNumber_0_1234567893": "1234567893",
+    "cardNumber_0_1111222233334447": "1111222233334447",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_1045304": 1045304,
+    "accountNumber_0_1234567894": "1234567894",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_1045305": 1045305,
+    "cardNumber_0_1111222233334449": "1111222233334449",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
