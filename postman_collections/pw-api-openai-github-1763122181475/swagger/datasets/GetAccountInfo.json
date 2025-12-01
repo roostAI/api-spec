@@ -1,0 +1,102 @@
+[
+  {
+    "customerId_1": 1045300,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_2": 902811,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_3": 3190141,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_4": 8574050,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_5": 5857211,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_6": 8081649,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_7": 1419504,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_8": 6024317,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_9": 1581507,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_10": 1340736,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_11": 8182650,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_12": 1045300,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_13": 902811,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_14": 3190141,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_15": 8574050,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_16": 5857211,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_17": 8081649,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_18": 1419504,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_19": 6024317,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_20": 1581507,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
