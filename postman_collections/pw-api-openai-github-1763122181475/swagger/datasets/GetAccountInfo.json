@@ -1,0 +1,182 @@
+[
+  {
+    "customerId_number": 1045300,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_number": 7468973,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_number": 4710553,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_number": 2820498,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_number": 9621310,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_number": 5994183,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_number": 8931156,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_number": 7985140,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_number": 73901,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_number": 5966248,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_number": 4193333,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_number": 645,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_number": 1045300,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_number": 7468973,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_number": 4710553,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_number": 2820498,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_number": 9621310,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_number": 5994183,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_number": 8931156,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_number": 7985140,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_number": 73901,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_number": 5966248,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_number": 4193333,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_number": 645,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_number": 1045300,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_number": 7468973,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_number": 4710553,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_number": 2820498,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_number": 9621310,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_number": 5994183,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_number": 8931156,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_number": 7985140,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_number": 73901,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_number": 5966248,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_number": 4193333,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_number": 645,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

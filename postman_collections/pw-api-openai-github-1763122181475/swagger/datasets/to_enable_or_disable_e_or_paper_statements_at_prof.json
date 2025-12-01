@@ -1,0 +1,53 @@
+[
+  {
+    "customerId_*number": 1045300,
+    "email_*string": "John@gmail.com",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "customerId_*number": 1045301,
+    "email_*string": "John@gmail.com",
+    "secondaryEmail_*string": "John1@gmail.com",
+    "subscribe_*boolean": true,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "email_*string": "John@gmail.com",
+    "secondaryEmail_*string": "John1@gmail.com",
+    "subscribe_*boolean": true,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "customerId_*number": 1045302,
+    "email_*string": "John@gmail",
+    "secondaryEmail_*string": "John1@gmail.com",
+    "subscribe_*boolean": true,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "customerId_*number": 1045303,
+    "email_*string": "John@gmail.com",
+    "secondaryEmail_*string": "John1@gmail.com",
+    "subscribe_*boolean": "yes",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "customerId_*number": 9999999,
+    "email_*string": "John@gmail.com",
+    "secondaryEmail_*string": "John1@gmail.com",
+    "subscribe_*boolean": true,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_*number": 1045304,
+    "email_*string": "John@gmail.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

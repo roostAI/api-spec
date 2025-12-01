@@ -1,0 +1,55 @@
+[
+  {
+    "value_object": {
+      "name": "John Doe",
+      "age": 30,
+      "email": "johndoe@example.com"
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "value_object": {
+      "name": "Jane Doe",
+      "age": 25,
+      "email": "janedoe@example.com"
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "value_object": {
+      "name": "John Doe",
+      "age": "30",
+      "email": "johndoe@example.com"
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "value_object": {
+      "name": "John Doe",
+      "age": 30
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "value_object": {
+      "name": "John Doe",
+      "age": 30,
+      "email": "johndoe@example.com"
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "value_object": {
+      "name": "Jane Doe",
+      "age": 25,
+      "email": "janedoe@example.com"
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
