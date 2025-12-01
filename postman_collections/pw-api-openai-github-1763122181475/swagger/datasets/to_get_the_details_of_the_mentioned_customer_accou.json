@@ -1,0 +1,61 @@
+[
+  {
+    "customerId": 472,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "123456789",
+      "cardNumber": "1111222233334444"
+    },
+    "accountInfo_1": {
+      "accountType": "Current",
+      "accountNumber": "987654321",
+      "cardNumber": "5555666677778888"
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId": 1045300,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "123456789",
+      "cardNumber": "1111222233334444"
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId": 1045300,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "123456789"
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045300,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "123456789",
+      "cardNumber": "1111222233334444"
+    },
+    "accountInfo_1": {
+      "accountType": "Current",
+      "accountNumber": "987654321",
+      "cardNumber": "5555666677778888"
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045300,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "123456789",
+      "cardNumber": "1111222233334444"
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
