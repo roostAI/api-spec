@@ -1,0 +1,59 @@
+[
+  {
+    "authType_*string": "Authorized",
+    "firstName_*string": "James",
+    "lastName_*string": "William",
+    "email_*string": "John@gmail.com",
+    "phoneNumber_*number": 9787643445,
+    "topic_*string": "Routing and Account Number",
+    "message_*string": "Unable to find my routing number.",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "authType_*string": "Authorized",
+    "firstName_*string": "James",
+    "lastName_*string": "William",
+    "email_*string": "John@gmail.com",
+    "phoneNumber_*number": 9787643445,
+    "topic_*string": "Routing and Account Number",
+    "message_*string": "Unable to find my routing number.",
+    "availableTime_*string": "nighttime",
+    "chatHistory_*string": "html formatted message sent as string",
+    "cif_*number": 1045310,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "authType_*string": "Unauthorized",
+    "firstName_*string": "James",
+    "lastName_*string": "William",
+    "email_*string": "John@gmail.com",
+    "phoneNumber_*number": 9787643445,
+    "topic_*string": "Routing and Account Number",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "authType_*string": "Authorized",
+    "firstName_*string": "James",
+    "lastName_*string": "William",
+    "email_*string": "John@gmail.com",
+    "phoneNumber_*number": 9787643445,
+    "topic_*string": "Invalid Topic",
+    "message_*string": "Unable to find my routing number.",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "authType_*string": "Authorized",
+    "firstName_*string": "James",
+    "lastName_*string": "William",
+    "email_*string": "Invalid Email",
+    "phoneNumber_*number": 9787643445,
+    "topic_*string": "Routing and Account Number",
+    "message_*string": "Unable to find my routing number.",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
