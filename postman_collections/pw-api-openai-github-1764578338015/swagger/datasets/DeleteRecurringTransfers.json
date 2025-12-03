@@ -1,0 +1,47 @@
+[
+  {
+    "customerId_1045300": 1045300,
+    "paymentId_123456": "123456",
+    "updateTransferType_all": "all",
+    "sourceAccountId_1042345": "1042345",
+    "statusCode": 200,
+    "scenario": "Recurring transfer deleted successfully"
+  },
+  {
+    "customerId_1045301": 1045301,
+    "paymentId_123457": "123457",
+    "updateTransferType_all": "all",
+    "sourceAccountId_1042346": "1042346",
+    "statusCode": 200,
+    "scenario": "Recurring transfer deleted successfully"
+  },
+  {
+    "customerId_1045302": 1045302,
+    "paymentId_123458": "123458",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "paymentId_123459": "123459",
+    "updateTransferType_all": "all",
+    "sourceAccountId_1042347": "1042347",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_1045303": 1045303,
+    "paymentId_123460": "123460",
+    "updateTransferType_invalid": "invalid",
+    "sourceAccountId_1042348": "1042348",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_1045304": 1045304,
+    "paymentId_123461": "123461",
+    "updateTransferType_all": "all",
+    "sourceAccountId_invalid": "invalid",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
