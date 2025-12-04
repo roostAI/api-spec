@@ -1,0 +1,52 @@
+[
+  {
+    "customerId_*number": 1045300,
+    "cvv_*string": "123",
+    "debitCardNumber_*string": "1234456778901690",
+    "expiryDate_*string": "2025-01-01T00:00:00.000+0000",
+    "pin_*string": "1111",
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId_*number": 1045301,
+    "cvv_*string": "456",
+    "debitCardNumber_*string": "9876543210123456",
+    "expiryDate_*string": "2024-12-31T00:00:00.000+0000",
+    "pin_*string": "2222",
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId_*number": 1045302,
+    "cvv_*string": "789",
+    "debitCardNumber_*string": "1234567890123456",
+    "expiryDate_*string": "2023-12-31T00:00:00.000+0000",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 1045303,
+    "cvv_*string": "012",
+    "expiryDate_*string": "2022-12-31T00:00:00.000+0000",
+    "pin_*string": "3333",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 1045304,
+    "cvv_*string": "345",
+    "debitCardNumber_*string": "6543210987654321",
+    "pin_*string": "4444",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_*number": 1045305,
+    "cvv_*string": "678",
+    "expiryDate_*string": "2021-12-31T00:00:00.000+0000",
+    "pin_*string": "5555",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

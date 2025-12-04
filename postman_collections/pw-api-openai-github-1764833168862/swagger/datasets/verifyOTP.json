@@ -1,0 +1,34 @@
+[
+  {
+    "code_1": 1234,
+    "customerId_1": 1045300,
+    "statusCode": 200,
+    "scenario": "OTP verified successfully"
+  },
+  {
+    "code_2": 5678,
+    "customerId_2": 1045301,
+    "statusCode": 200,
+    "scenario": "OTP verified successfully"
+  },
+  {
+    "code_3": 9012,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_3": 1045302,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "code_4": 3456,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_4": 1045303,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
