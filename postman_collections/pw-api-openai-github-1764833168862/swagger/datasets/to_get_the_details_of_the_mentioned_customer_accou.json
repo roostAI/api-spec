@@ -1,0 +1,62 @@
+[
+  {
+    "customerId": 1045300,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "ACC123456",
+      "cardNumber": "1234567890123456"
+    },
+    "accountInfo_1": {
+      "accountType": "Current",
+      "accountNumber": "ACC654321",
+      "cardNumber": "6543210987654321"
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId": 1045301,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "ACC123457",
+      "cardNumber": "1234567890123457"
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId": 1045302,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "ACC123458",
+      "cardNumber": "1234567890123458"
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045303,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "ACC123459",
+      "cardNumber": "1234567890123459"
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045304,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "ACC123460",
+      "cardNumber": "1234567890123460"
+    },
+    "accountInfo_1": {
+      "accountType": "Current",
+      "accountNumber": "ACC654322",
+      "cardNumber": "6543210987654322"
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  }
+]

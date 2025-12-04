@@ -1,0 +1,61 @@
+[
+  {
+    "customerId_*number": 1045300,
+    "email_*string": "John@gmail.com",
+    "phone_*number": 1234567890,
+    "isPrimaryMobileNumber_*boolean": true,
+    "location_*string": "New York",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_*number": 1045300,
+    "email_*string": "John@gmail.com",
+    "alternatePhoneNumber_*number": 9876543210,
+    "isAlternateMobileNumber_*boolean": true,
+    "phone_*number": 1234567890,
+    "isPrimaryMobileNumber_*boolean": true,
+    "location_*string": "New York",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "email_*string": "John@gmail.com",
+    "phone_*number": 1234567890,
+    "isPrimaryMobileNumber_*boolean": true,
+    "location_*string": "New York",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "customerId_*number": 1045300,
+    "email_*string": "John@gmail.com",
+    "alternatePhoneNumber_*number": "invalid_number",
+    "isAlternateMobileNumber_*boolean": true,
+    "phone_*number": 1234567890,
+    "isPrimaryMobileNumber_*boolean": true,
+    "location_*string": "New York",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "customerId_*number": 1045300,
+    "email_*string": "John@gmail.com",
+    "phone_*number": 1234567890,
+    "isPrimaryMobileNumber_*boolean": "invalid_boolean",
+    "location_*string": "New York",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_*number": 1045300,
+    "email_*string": "John@gmail.com",
+    "alternatePhoneNumber_*number": 9876543210,
+    "isAlternateMobileNumber_*boolean": true,
+    "phone_*number": 1234567890,
+    "isPrimaryMobileNumber_*boolean": true,
+    "location_*string": "invalid_location",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
