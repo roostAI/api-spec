@@ -1,0 +1,52 @@
+[
+  {
+    "q": "London",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with proper query param"
+  },
+  {
+    "q": "",
+    "expected_statusCode": 400,
+    "scenario": "Test a request with missing 'q' query param"
+  },
+  {
+    "q": "London",
+    "expected_statusCode": 401,
+    "scenario": "Test a request with invalid API key"
+  },
+  {
+    "q": "London",
+    "expected_statusCode": 401,
+    "scenario": "Test a request without API key"
+  },
+  {
+    "q": "London",
+    "expected_statusCode": 403,
+    "scenario": "Test a request with API key that exceeded quota"
+  },
+  {
+    "q": "12345678901234567890123456789012345678901234567890",
+    "expected_statusCode": 400,
+    "scenario": "Test a request with 'q' query param exceeding maximum length"
+  },
+  {
+    "q": "New York",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with different city name"
+  },
+  {
+    "q": "12345",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with US Zipcode as 'q' query param"
+  },
+  {
+    "q": "51.52,-0.12",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with Latitude/Longitude as 'q' query param"
+  },
+  {
+    "q": "invalid_city_name",
+    "expected_statusCode": 400,
+    "scenario": "Test a request with invalid city name as 'q' query param"
+  }
+]

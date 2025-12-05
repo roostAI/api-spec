@@ -1,0 +1,44 @@
+[
+  {
+    "q": "90210",
+    "dt": "2022-07-22",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with proper query params"
+  },
+  {
+    "q": "",
+    "dt": "2022-07-22",
+    "expected_statusCode": 400,
+    "scenario": "Test a request with missing 'q' query param"
+  },
+  {
+    "q": "invalid_zipcode",
+    "dt": "2022-07-22",
+    "expected_statusCode": 400,
+    "scenario": "Test a request with invalid 'q' query param"
+  },
+  {
+    "q": "90210",
+    "dt": "",
+    "expected_statusCode": 400,
+    "scenario": "Test a request with missing 'dt' query param"
+  },
+  {
+    "q": "90210",
+    "dt": "invalid_date",
+    "expected_statusCode": 400,
+    "scenario": "Test a request with invalid 'dt' query param"
+  },
+  {
+    "q": "90210",
+    "dt": "2022-07-22",
+    "expected_statusCode": 401,
+    "scenario": "Test a request with missing API key"
+  },
+  {
+    "q": "90210",
+    "dt": "2022-07-22",
+    "expected_statusCode": 401,
+    "scenario": "Test a request with invalid API key"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "q": "New York",
+    "lang": "en",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with proper query params"
+  },
+  {
+    "q": "",
+    "lang": "en",
+    "expected_statusCode": 400,
+    "scenario": "Test request with missing required 'q' query param"
+  },
+  {
+    "q": "New York",
+    "lang": "en",
+    "expected_statusCode": 401,
+    "scenario": "Test request with invalid API key"
+  },
+  {
+    "q": "New York",
+    "lang": "en",
+    "expected_statusCode": 401,
+    "scenario": "Test request without API key"
+  },
+  {
+    "q": "InvalidCity",
+    "lang": "en",
+    "expected_statusCode": 400,
+    "scenario": "Test request with invalid 'q' query param"
+  },
+  {
+    "q": "New York",
+    "lang": "InvalidLang",
+    "expected_statusCode": 400,
+    "scenario": "Test request with invalid 'lang' query param"
+  },
+  {
+    "q": "New York",
+    "lang": "",
+    "expected_statusCode": 200,
+    "scenario": "Test request with missing optional 'lang' query param"
+  },
+  {
+    "q": "New York",
+    "lang": "en",
+    "expected_statusCode": 403,
+    "scenario": "Test request with API key that has exceeded calls per month quota"
+  }
+]
