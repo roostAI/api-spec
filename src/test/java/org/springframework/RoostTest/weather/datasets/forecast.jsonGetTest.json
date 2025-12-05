@@ -1,0 +1,34 @@
+```
+[
+  {
+    "q": "New York",
+    "days": 5,
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with proper query params"
+  },
+  {
+    "q": "NonExistentCity",
+    "days": 5,
+    "expected_statusCode": 400,
+    "scenario": "Test an invalid 'q' query param returns 400"
+  },
+  {
+    "q": "",
+    "days": "",
+    "expected_statusCode": 400,
+    "scenario": "Test missing required 'q' and 'days' query params returns 400"
+  },
+  {
+    "q": "New York",
+    "days": 5,
+    "expected_statusCode": 401,
+    "scenario": "Test an invalid API key returns 401"
+  },
+  {
+    "q": "New York",
+    "days": 5,
+    "expected_statusCode": 403,
+    "scenario": "Test an API key that has exceeded its quota returns 403"
+  },
+  {
+    "q": "New York",

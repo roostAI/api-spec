@@ -1,0 +1,89 @@
+[
+  {
+    "q": "40.71,-74.01",
+    "days": 3,
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with proper query params"
+  },
+  {
+    "q": "",
+    "days": 3,
+    "expected_statusCode": 400,
+    "scenario": "Test missing required 'q' param returns 400"
+  },
+  {
+    "q": "40.71,-74.01",
+    "days": 8,
+    "expected_statusCode": 400,
+    "scenario": "Test invalid 'days' param returns 400"
+  },
+  {
+    "q": "40.71,-74.01",
+    "days": 3,
+    "expected_statusCode": 401,
+    "scenario": "Test missing auth token returns 401"
+  },
+  {
+    "q": "40.71,-74.01",
+    "days": 3,
+    "expected_statusCode": 401,
+    "scenario": "Test invalid auth token returns 401"
+  },
+  {
+    "q": "40.71,-74.01",
+    "days": 3,
+    "dt": "2023-05-20",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with 'dt' param returns 200"
+  },
+  {
+    "q": "40.71,-74.01",
+    "days": 3,
+    "unixdt": 1490227200,
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with 'unixdt' param returns 200"
+  },
+  {
+    "q": "40.71,-74.01",
+    "days": 3,
+    "hour": 17,
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with 'hour' param returns 200"
+  },
+  {
+    "q": "40.71,-74.01",
+    "days": 3,
+    "lang": "en",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with 'lang' param returns 200"
+  },
+  {
+    "q": "40.71,-74.01",
+    "days": 3,
+    "dt": "2023-05-20",
+    "unixdt": 1490227200,
+    "expected_statusCode": 400,
+    "scenario": "Test a request with both 'dt' and 'unixdt' params returns 400"
+  },
+  {
+    "q": "40.71,-74.01",
+    "days": 3,
+    "hour": 25,
+    "expected_statusCode": 400,
+    "scenario": "Test a request with invalid 'hour' param returns 400"
+  },
+  {
+    "q": "40.71,-74.01",
+    "days": 3,
+    "lang": "abc",
+    "expected_statusCode": 400,
+    "scenario": "Test a request with invalid 'lang' param returns 400"
+  },
+  {
+    "q": "40.71,-74.01",
+    "days": 3,
+    "dt": "2023-05-20",
+    "expected_statusCode": 403,
+    "scenario": "Test a request with valid params but insufficient permissions returns 403"
+  }
+]
