@@ -1,0 +1,102 @@
+[
+  {
+    "q": "New York",
+    "dt": "2022-07-22",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with proper query params"
+  },
+  {
+    "q": "",
+    "dt": "",
+    "expected_statusCode": 400,
+    "scenario": "Test request missing required query params"
+  },
+  {
+    "q": "New York",
+    "dt": "22-07-2022",
+    "expected_statusCode": 400,
+    "scenario": "Test request with invalid date format in 'dt' query param"
+  },
+  {
+    "q": "New York",
+    "dt": "2022-07-22",
+    "expected_statusCode": 401,
+    "scenario": "Test request with invalid API key"
+  },
+  {
+    "q": "New York",
+    "dt": "2022-07-22",
+    "expected_statusCode": 403,
+    "scenario": "Test request with API key that has exceeded quota"
+  },
+  {
+    "q": "New York",
+    "dt": "2022-07-22",
+    "unixdt": 1658448000,
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with 'unixdt' query param"
+  },
+  {
+    "q": "New York",
+    "dt": "2022-07-22",
+    "end_dt": "2022-07-23",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with 'end_dt' query param"
+  },
+  {
+    "q": "New York",
+    "dt": "2022-07-22",
+    "unixend_dt": 1658534400,
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with 'unixend_dt' query param"
+  },
+  {
+    "q": "New York",
+    "dt": "2022-07-22",
+    "hour": 17,
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with 'hour' query param"
+  },
+  {
+    "q": "New York",
+    "dt": "2022-07-22",
+    "lang": "en",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with 'lang' query param"
+  },
+  {
+    "q": "New York",
+    "dt": "2022-07-22",
+    "unixdt": "1658448000",
+    "expected_statusCode": 400,
+    "scenario": "Test request with invalid 'unixdt' query param format"
+  },
+  {
+    "q": "New York",
+    "dt": "2022-07-22",
+    "end_dt": "22-07-2023",
+    "expected_statusCode": 400,
+    "scenario": "Test request with invalid 'end_dt' query param format"
+  },
+  {
+    "q": "New York",
+    "dt": "2022-07-22",
+    "unixend_dt": "1658534400",
+    "expected_statusCode": 400,
+    "scenario": "Test request with invalid 'unixend_dt' query param format"
+  },
+  {
+    "q": "New York",
+    "dt": "2022-07-22",
+    "hour": "17",
+    "expected_statusCode": 400,
+    "scenario": "Test request with invalid 'hour' query param format"
+  },
+  {
+    "q": "New York",
+    "dt": "2022-07-22",
+    "lang": 1,
+    "expected_statusCode": 400,
+    "scenario": "Test request with invalid 'lang' query param format"
+  }
+]

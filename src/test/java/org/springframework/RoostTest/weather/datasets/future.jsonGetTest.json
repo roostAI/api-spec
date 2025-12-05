@@ -1,0 +1,37 @@
+[
+  {
+    "q": "New York",
+    "dt": "2023-01-01",
+    "lang": "en",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with proper query params"
+  },
+  {
+    "q": "",
+    "dt": "2023-01-01",
+    "lang": "en",
+    "expected_statusCode": 400,
+    "scenario": "Test request with missing required 'q' query param"
+  },
+  {
+    "q": "New York",
+    "dt": "2023-01-01",
+    "lang": "en",
+    "expected_statusCode": 401,
+    "scenario": "Test request with invalid API key"
+  },
+  {
+    "q": "New York",
+    "dt": "2023-01-01",
+    "lang": "en",
+    "expected_statusCode": 403,
+    "scenario": "Test request with API key that exceeded quota"
+  },
+  {
+    "q": "New York",
+    "dt": "invalid-date",
+    "lang": "en",
+    "expected_statusCode": 400,
+    "scenario": "Test request with 'dt' query param in invalid date format"
+  }
+]
