@@ -1,0 +1,32 @@
+[
+  {
+    "q": "New York",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with proper query param"
+  },
+  {
+    "q": "",
+    "expected_statusCode": 400,
+    "scenario": "Test a request with missing 'q' query param"
+  },
+  {
+    "q": "InvalidLocation",
+    "expected_statusCode": 400,
+    "scenario": "Test a request with invalid 'q' query param"
+  },
+  {
+    "q": "New York",
+    "expected_statusCode": 401,
+    "scenario": "Test a request without API key"
+  },
+  {
+    "q": "New York",
+    "expected_statusCode": 401,
+    "scenario": "Test a request with invalid API key"
+  },
+  {
+    "q": "New York",
+    "expected_statusCode": 403,
+    "scenario": "Test a request with API key that exceeded quota"
+  }
+]

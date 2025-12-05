@@ -1,0 +1,32 @@
+[
+  {
+    "q": "185.249.71.82",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with proper IP address"
+  },
+  {
+    "q": "",
+    "expected_statusCode": 400,
+    "scenario": "Test a request with missing 'q' query param"
+  },
+  {
+    "q": "invalid_ip",
+    "expected_statusCode": 400,
+    "scenario": "Test a request with invalid 'q' query param"
+  },
+  {
+    "q": "185.249.71.82",
+    "expected_statusCode": 401,
+    "scenario": "Test a request with missing auth token"
+  },
+  {
+    "q": "185.249.71.82",
+    "expected_statusCode": 401,
+    "scenario": "Test a request with invalid auth token"
+  },
+  {
+    "q": "185.249.71.82",
+    "expected_statusCode": 403,
+    "scenario": "Test a request with exceeded calls per month quota"
+  }
+]
