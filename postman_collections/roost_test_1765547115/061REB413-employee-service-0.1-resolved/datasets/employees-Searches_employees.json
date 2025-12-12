@@ -1,0 +1,26 @@
+[
+  {
+    "searchString": "validSearchTerm",
+    "statusCode": 200,
+    "scenario": "Search results matching the filter criteria"
+  },
+  {
+    "searchString": "anotherValidSearchTerm",
+    "statusCode": 200,
+    "scenario": "Search results matching the filter criteria"
+  },
+  {
+    "statusCode": 400,
+    "scenario": "Bad input"
+  },
+  {
+    "searchString": "",
+    "statusCode": 400,
+    "scenario": "Bad input"
+  },
+  {
+    "searchString": 12345,
+    "statusCode": 400,
+    "scenario": "Bad input"
+  }
+]
