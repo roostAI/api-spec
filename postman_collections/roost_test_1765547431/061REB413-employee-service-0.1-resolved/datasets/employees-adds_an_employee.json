@@ -1,0 +1,36 @@
+[
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "jobTitle": "System Analyst",
+    "statusCode": 201,
+    "scenario": "employee created"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "name": "Alice Johnson",
+    "email": "alice.johnson@acme-corp.com",
+    "statusCode": 201,
+    "scenario": "employee created"
+  },
+  {
+    "jobTitle": "System Analyst",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "id": "123-invalid-uuid",
+    "name": "Charlie Brown",
+    "email": "charlie.brown@acme-corp.com",
+    "jobTitle": "Developer",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "name": "Eve Black",
+    "email": "eve.black@acme-corp.com",
+    "statusCode": 409,
+    "scenario": "an existing employee already exists"
+  }
+]
