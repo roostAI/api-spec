@@ -1,0 +1,26 @@
+[
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "statusCode": 200,
+    "scenario": "Successful operation"
+  },
+  {
+    "statusCode": 200,
+    "scenario": "Successful operation"
+  },
+  {
+    "id": "not-a-valid-uuid",
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid UUID format"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f085x",
+    "statusCode": 400,
+    "scenario": "Bad Request - UUID format with incorrect characters"
+  },
+  {
+    "id": "123",
+    "statusCode": 404,
+    "scenario": "Not found - Resource not found"
+  }
+]
