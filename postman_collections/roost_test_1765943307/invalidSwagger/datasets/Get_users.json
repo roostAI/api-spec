@@ -1,0 +1,26 @@
+[
+  {
+    "limit": "50",
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "limit": "75",
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "limit": "150",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "limit": "invalid_value",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]
