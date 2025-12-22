@@ -1,0 +1,66 @@
+[
+  {
+    "koreUserId": "user1",
+    "botId": "bot1",
+    "accountId": "acc1",
+    "customerId": 1045300,
+    "amount": "5000",
+    "currency": "USD",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "transactionType": 1,
+    "dueDate": "2022-12-31",
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "user2",
+    "botId": "bot2",
+    "accountId": "acc2",
+    "customerId": 1045301,
+    "amount": "6000",
+    "currency": "EUR",
+    "sourceAccountId": "1042346",
+    "targetAccountId": "1042223",
+    "transactionType": 2,
+    "dueDate": "2023-01-31",
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "user3",
+    "botId": "bot3",
+    "accountId": "acc3",
+    "customerId": 1045302,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user4",
+    "botId": "bot4",
+    "accountId": "acc4",
+    "customerId": 1045303,
+    "amount": "7000",
+    "currency": "GBP",
+    "sourceAccountId": "1042347",
+    "targetAccountId": "1042224",
+    "transactionType": 3,
+    "dueDate": "2023-02-28",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user5",
+    "botId": "bot5",
+    "accountId": "acc5",
+    "customerId": 1045304,
+    "amount": "8000",
+    "currency": "JPY",
+    "sourceAccountId": "1042348",
+    "targetAccountId": "1042225",
+    "transactionType": 4,
+    "dueDate": "2023-03-31",
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  }
+]
