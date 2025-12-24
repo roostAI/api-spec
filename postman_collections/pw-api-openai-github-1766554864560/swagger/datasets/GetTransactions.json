@@ -1,0 +1,66 @@
+[
+  {
+    "koreUserId": "user123",
+    "botId": "bot456",
+    "accountId": "acc789",
+    "customerId": 1045300,
+    "numOfTransactions": 10,
+    "status": "active",
+    "startDate": "2022-01-01",
+    "endDate": "2022-01-31",
+    "debitOrCredit": "debit",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user234",
+    "botId": "bot567",
+    "accountId": "acc890",
+    "customerId": 2045301,
+    "numOfTransactions": 20,
+    "status": "inactive",
+    "startDate": "2022-02-01",
+    "endDate": "2022-02-28",
+    "debitOrCredit": "credit",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user345",
+    "botId": "bot678",
+    "accountId": "acc901",
+    "numOfTransactions": 30,
+    "status": "active",
+    "startDate": "2022-03-01",
+    "endDate": "2022-03-31",
+    "debitOrCredit": "debit",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user456",
+    "botId": "bot789",
+    "accountId": "acc012",
+    "customerId": 3045302,
+    "numOfTransactions": 40,
+    "status": "inactive",
+    "startDate": "2022-04-01",
+    "endDate": "2022-04-30",
+    "debitOrCredit": "credit",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user567",
+    "botId": "bot890",
+    "accountId": "acc123",
+    "customerId": 4045303,
+    "numOfTransactions": 50,
+    "status": "active",
+    "startDate": "2022-05-01",
+    "endDate": "2022-05-31",
+    "debitOrCredit": "debit",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  }
+]
