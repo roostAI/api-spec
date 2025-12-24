@@ -1,0 +1,39 @@
+[
+  {
+    "q": "New York",
+    "days": 5,
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Los Angeles",
+    "days": 7,
+    "dt": "2023-10-15",
+    "unixdt": 1697366400,
+    "hour": 14,
+    "lang": "en",
+    "alerts": "true",
+    "aqi": "yes",
+    "tp": 25,
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "days": 3,
+    "statusCode": 400,
+    "scenario": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "InvalidCity",
+    "days": 15,
+    "statusCode": 400,
+    "scenario": "Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'"
+  },
+  {
+    "q": "Paris",
+    "days": 3,
+    "dt": "invalid-date",
+    "statusCode": 400,
+    "scenario": "Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding."
+  }
+]
