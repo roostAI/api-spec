@@ -1,0 +1,34 @@
+[
+  {
+    "q": "New York",
+    "dt": "2023-10-01",
+    "lang": "en",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Los Angeles",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "dt": "2023-10-02",
+    "lang": "fr",
+    "statusCode": 400,
+    "scenario": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "InvalidCity123",
+    "dt": "2023-10-03",
+    "lang": "es",
+    "statusCode": 400,
+    "scenario": "Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "Paris",
+    "dt": "invalid-date",
+    "lang": "en",
+    "statusCode": 400,
+    "scenario": "Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error."
+  }
+]
