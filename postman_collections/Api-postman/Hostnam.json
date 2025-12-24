@@ -1,0 +1,27 @@
+[
+  {
+    "hostname": "072-229-028-185.res.spectrum.com",
+    "statusCode": 200,
+    "scenario": "200 OK - Hostname"
+  },
+  {
+    "hostname": "sample_hostname_1",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "hostname": "sample_hostname_2",
+    "statusCode": 201,
+    "scenario": "201 Created"
+  },
+  {
+    "hostname": "sample_hostname_3",
+    "statusCode": 500,
+    "scenario": "Internal Server Error"
+  },
+  {
+    "hostname": "sample_hostname_4",
+    "statusCode": 204,
+    "scenario": "204 No Content"
+  }
+]
