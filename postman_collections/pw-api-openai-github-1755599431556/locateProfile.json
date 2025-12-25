@@ -1,0 +1,50 @@
+[
+  {
+    "accountNumber_*string": "1042345",
+    "customerId_*string": "1045300",
+    "ssNumber_*string": "99093427",
+    "ssnShort_*string": "76356522",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountNumber_*string": "1042346",
+    "customerId_*string": "1045301",
+    "ssNumber_*string": "99093428",
+    "ssnShort_*string": "76356523",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountNumber_*string": "abc123",
+    "customerId_*string": "xyz456",
+    "ssNumber_*string": "def789",
+    "ssnShort_*string": "ghi012",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountNumber_*string": "jkl345",
+    "customerId_*string": "mno678",
+    "ssNumber_*string": "pqr901",
+    "ssnShort_*string": "stu234",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountNumber_*string": "vwx567",
+    "customerId_*string": "yza890",
+    "ssNumber_*string": "bcd123",
+    "ssnShort_*string": "efg456",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "accountNumber_*string": "hij789",
+    "customerId_*string": "klm012",
+    "ssNumber_*string": "nop345",
+    "ssnShort_*string": "qrs678",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
