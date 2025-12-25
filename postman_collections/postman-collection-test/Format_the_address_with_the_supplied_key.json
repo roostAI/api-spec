@@ -1,0 +1,27 @@
+[
+  {
+    "global_address_key": "QVVTfjcuNzMwak9BVVNIQXpsQndBQUFBQUJBd0VBQUFBQk9uQ09FWUFoQUFJUUNDQUFBQUFBQVFBMk5UUTVBRFlBQVAuLlFnQUFBQUQuLi4uLkFBQUFBQUFBQUFBQUFBQUFBQUFBVENBMk5UUTVJRk4wSUV0cGJHUmhJRkprSURVME9RQUFBQUFBfjIy",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "global_address_key": "INVALID_KEY_12345",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "global_address_key": "QVVTfjcuNzMwak9BVVNIQXpsQndBQUFBQUJBd0VBQUFBQk9uQ09FWUFoQUFJUUNDQUFBQUFBQVFBMk5UUTVBRFlBQVAuLlFnQUFBQUQuLi4uLkFBQUFBQUFBQUFBQUFBQUFBQUFBVENBMk5UUTVJRk4wSUV0cGJHUmhJRkprSURVME9RQUFBQUFBfjIy",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "global_address_key": "INVALID_KEY_67890",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  },
+  {
+    "global_address_key": "QVVTfjcuNzMwak9BVVNIQXpsQndBQUFBQUJBd0VBQUFBQk9uQ09FWUFoQUFJUUNDQUFBQUFBQVFBMk5UUTVBRFlBQVAuLlFnQUFBQUQuLi4uLkFBQUFBQUFBQUFBQUFBQUFBQUFBVENBMk5UUTVJRk4wSUV0cGJHUmhJRkprSURVME9RQUFBQUFBfjIy",
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]
