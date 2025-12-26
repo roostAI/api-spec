@@ -1,0 +1,43 @@
+[
+  {
+    "koreUserId": "koreUser1",
+    "botId": "bot1",
+    "accountId": "account1",
+    "customerId": 1045300,
+    "emailId": "John@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "koreUser2",
+    "botId": "bot2",
+    "accountId": "account2",
+    "customerId": 1045301,
+    "emailId": "Jane@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "koreUser3",
+    "botId": "bot3",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser4",
+    "botId": "bot4",
+    "accountId": "account4",
+    "customerId": 1045304,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser5",
+    "botId": "bot5",
+    "accountId": "account5",
+    "customerId": 1045305,
+    "emailId": "InvalidEmail",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]
