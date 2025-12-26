@@ -1,0 +1,35 @@
+[
+  {
+    "sourcePin_*string": "1234",
+    "targetPin_*string": "5678",
+    "profileInfo": {
+      "customerId_*string": "CUST123",
+      "accountNumber_*string": "ACC456",
+      "ssn_*string": "789-01-2345"
+    },
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "sourcePin_*string": "4321",
+    "targetPin_*string": "8765",
+    "profileInfo": {
+      "customerId_*string": "CUST789",
+      "accountNumber_*string": "ACC321",
+      "ssn_*string": "123-45-6789"
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "sourcePin_*string": "1111",
+    "targetPin_*string": "2222",
+    "profileInfo": {
+      "customerId_*string": "CUST456",
+      "accountNumber_*string": "ACC654",
+      "ssn_*string": "987-65-4321"
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
