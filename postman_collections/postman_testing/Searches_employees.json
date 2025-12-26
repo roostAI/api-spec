@@ -1,0 +1,27 @@
+[
+  {
+    "searchString": "john.doe@example.com",
+    "statusCode": 200,
+    "scenario": "Search results matching the filter criteria"
+  },
+  {
+    "searchString": "jane.smith@example.com",
+    "statusCode": 200,
+    "scenario": "Search results matching the filter criteria"
+  },
+  {
+    "searchString": "invalid-email",
+    "statusCode": 400,
+    "scenario": "Bad input"
+  },
+  {
+    "searchString": "12345",
+    "statusCode": 400,
+    "scenario": "Bad input"
+  },
+  {
+    "searchString": "no-at-sign.com",
+    "statusCode": 400,
+    "scenario": "Bad input"
+  }
+]
