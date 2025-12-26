@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^statusCode^|^scenario
+user01^|^botA^|^account001^|^200^|^{"interaction":"complete","success":true,"duration":45}
+user02^|^botB^|^account002^|^404^|^{"interaction":"failed","success":false,"reason":"not_found"}
+user03^|^botC^|^account003^|^500^|^{"interaction":"error","success":false,"reason":"server_error"}
+user04^|^botA^|^account004^|^200^|^{"interaction":"complete","success":true,"duration":30}
+user05^|^botD^|^account005^|^403^|^{"interaction":"denied","success":false,"reason":"unauthorized"}
+user06^|^botE^|^account006^|^202^|^{"interaction":"pending","success":true,"estimated_time":120}
+user07^|^botF^|^account007^|^204^|^{"interaction":"no_content","success":true}
+user08^|^botG^|^account008^|^301^|^{"interaction":"redirect","success":true,"new_location":"url123"}
+user09^|^botH^|^account009^|^503^|^{"interaction":"unavailable","success":false,"reason":"maintenance"}
+user10^|^botI^|^account010^|^200^|^{"interaction":"complete","success":true,"duration":60}
