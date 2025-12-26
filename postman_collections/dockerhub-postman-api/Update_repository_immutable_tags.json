@@ -1,0 +1,47 @@
+[
+  {
+    "namespace": "acme",
+    "repository": "payment-service",
+    "immutable_tags_*boolean": false,
+    "immutable_tags_rules_0_*string": "protect:latest",
+    "immutable_tags_rules_1_*string": "protect:release-*",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "namespace": "ACME!",
+    "repository": "invalid repo name!",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "protect:[]",
+    "immutable_tags_rules_1_*string": "protect:releases/***",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "namespace": "private-org",
+    "repository": "internal-registry",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "protect:private-*",
+    "immutable_tags_rules_1_*string": "protect:secure/*?",
+    "statusCode": 401,
+    "scenario": "Unauthorized"
+  },
+  {
+    "namespace": "-restricted",
+    "repository": "Secured-Repo",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "protect:*",
+    "immutable_tags_rules_1_*string": "protect:..",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  },
+  {
+    "namespace": "nonexistent-xyz-12345",
+    "repository": "ghost-repo",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "protect:latest",
+    "immutable_tags_rules_1_*string": "protect:stable",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  }
+]
