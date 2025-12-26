@@ -1,0 +1,64 @@
+[
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "userCode": "UC12345",
+    "accountId": "AC12345",
+    "paymentId": "PID12345",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "scheduledDate": 20220401,
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "userCode": "UC12345",
+    "accountId": "AC12345",
+    "paymentId": "PID12345",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "userCode": "UC12345",
+    "accountId": "AC12345",
+    "paymentId": "PID12345",
+    "customerId": 1045300,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "userCode": "UC12345",
+    "accountId": "AC12345",
+    "paymentId": "PID12345",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "scheduledDate": 20220401,
+    "sourceAccountId": "1042345",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "userCode": "UC12345",
+    "accountId": "AC12345",
+    "paymentId": "PID12345",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "scheduledDate": 20220401,
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

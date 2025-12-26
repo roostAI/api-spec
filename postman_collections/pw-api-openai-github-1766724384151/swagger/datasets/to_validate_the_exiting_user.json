@@ -1,0 +1,43 @@
+[
+  {
+    "koreUserId": "KU12345",
+    "botId": "BID123",
+    "accountId": "ACID123",
+    "sourcePin": "SP123",
+    "targetPin": "TP123",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "KU12346",
+    "botId": "BID124",
+    "accountId": "ACID124",
+    "sourcePin": "SP124",
+    "targetPin": "TP124",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "KU12347",
+    "botId": "BID125",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12348",
+    "botId": "BID126",
+    "accountId": "ACID126",
+    "sourcePin": "SP126",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12349",
+    "botId": "BID127",
+    "accountId": "ACID127",
+    "sourcePin": "SP127",
+    "targetPin": "TP127",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]
