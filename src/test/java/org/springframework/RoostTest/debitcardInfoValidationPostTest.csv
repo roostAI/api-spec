@@ -1,0 +1,11 @@
+RequestBody^|^statusCode^|^bearer
+{"debitCardNumber": "4815252649587461", "pin": "1234", "cvv": "543", "expiryDate": "04/24", "customerId": 7896501}^|^200^|^Bearer acbdXYZ
+{"debitCardNumber": "9657852314789654", "pin": "4586", "cvv": "765", "expiryDate": "02/23", "customerId": 1287654}^|^200^|^Bearer htyuXWZ
+{"debitCardNumber": "3256987412365478", "pin": "9614", "cvv": "632", "expiryDate": "09/25", "customerId": 2451693}^|^401^|^Bearer pqezRTY
+{"debitCardNumber": "6591478236895147", "pin": "5894", "cvv": "489", "expiryDate": "07/25", "customerId": 9634857}^|^200^|^Bearer wslmABE
+{"debitCardNumber": "3658741256987412", "pin": "7418", "cvv": "127", "expiryDate": "10/22", "customerId": 8976425}^|^404^|^Bearer nqwxILP
+{"debitCardNumber": "1478526396587458", "pin": "9632", "cvv": "850", "expiryDate": "12/23", "customerId": 3652147}^|^200^|^Bearer zxocGHI
+{"debitCardNumber": "1254789636578524", "pin": "5478", "cvv": "256", "expiryDate": "08/24", "customerId": 4712965}^|^401^|^Bearer mlpnVWX
+{"debitCardNumber": "9536214789654758", "pin": "3592", "cvv": "639", "expiryDate": "01/23", "customerId": 6589741}^|^200^|^Bearer jklvUTS
+{"debitCardNumber": "1748523695462187", "pin": "1748", "cvv": "698", "expiryDate": "11/24", "customerId": 9853624}^|^404^|^Bearer urwxYZA
+{"debitCardNumber": "5496587238547856", "pin": "2635", "cvv": "782", "expiryDate": "05/22", "customerId": 2358746}^|^200^|^Bearer erqwMNO
