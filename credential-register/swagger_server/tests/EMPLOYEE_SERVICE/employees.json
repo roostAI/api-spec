@@ -1,0 +1,27 @@
+[
+  {
+    "searchString": "John Smith",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "searchString": "System Analyst",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "searchString": "",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "searchString": "InvalidJobTitle",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "searchString": "NonExistentName",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  }
+]
