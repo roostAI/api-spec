@@ -1,0 +1,165 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Employee Service",
+    "description": "",
+    "version": "0.1"
+  },
+  "servers": [
+    {
+      "url": "https://virtserver.swaggerhub.com/061REB413/employee-service/0.1",
+      "description": "SwaggerHub API Auto Mocking"
+    },
+    {
+      "url": "https://rwqqdvhwl4.execute-api.us-east-1.amazonaws.com/prod",
+      "description": "Live API Endpoint"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Employee"
+    }
+  ],
+  "paths": {
+    "/employees/{id}": {
+      "get": {
+        "tags": [
+          "Employee"
+        ],
+        "summary": "Gets an employee by ID.",
+        "description": "Retrieves an employee by the associated ID\n",
+        "operationId": "getEmployeeById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Employee ID",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Employee"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found"
+          }
+        }
+      }
+    },
+    "/employees": {
+      "get": {
+        "tags": [
+          "Employee"
+        ],
+        "summary": "Searches employees.",
+        "description": "By passing in the appropriate options you can apply filters to your search operationId: getEmployees\n",
+        "parameters": [
+          {
+            "name": "searchString",
+            "in": "query",
+            "description": "Pass an optional search string for the look up",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Search results matching the filter criteria",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Employee"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad input"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Employee"
+        ],
+        "summary": "adds an employee",
+        "description": "Adds an employee to the system",
+        "operationId": "addEmployee",
+        "requestBody": {
+          "description": "Employee to add",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Employee"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "employee created"
+          },
+          "400": {
+            "description": "invalid input, object invalid"
+          },
+          "409": {
+            "description": "an existing employee already exists"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Employee": {
+        "required": [
+          "email",
+          "jobTitle",
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid",
+            "example": "d290f1ee-6c54-4b01-90e6-d701748f0851"
+          },
+          "jobTitle": {
+            "type": "string",
+            "example": "System Analyst"
+          },
+          "name": {
+            "type": "string",
+            "example": "John Smith"
+          },
+          "email": {
+            "type": "string",
+            "example": "john.smith@acme-corp.com"
+          }
+        }
+      }
+    }
+  }
+}
