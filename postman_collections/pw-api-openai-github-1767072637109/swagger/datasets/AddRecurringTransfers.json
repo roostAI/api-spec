@@ -1,0 +1,87 @@
+[
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "currency": "USD",
+    "status": "active",
+    "scheduledDate": 20220222,
+    "statusCode": 200,
+    "scenario": "schedule transfer added successfully"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "currency": "USD",
+    "status": "active",
+    "scheduledDate": 20220222,
+    "recurringOptions": {
+      "amountType": "fixed",
+      "frequency": {
+        "iterate": 2,
+        "duration": {
+          "untilStop": true,
+          "untilDate": 20230222,
+          "numberOfTransfers": 10
+        }
+      }
+    },
+    "statusCode": 200,
+    "scenario": "schedule transfer added successfully"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "sourceAccountId": "1042345",
+    "currency": "USD",
+    "status": "active",
+    "scheduledDate": 20220222,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "currency": "EUR",
+    "status": "active",
+    "scheduledDate": 20220222,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "currency": "USD",
+    "status": "active",
+    "scheduledDate": 20220222,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
