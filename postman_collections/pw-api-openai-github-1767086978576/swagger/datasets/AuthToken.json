@@ -1,0 +1,35 @@
+[
+  {
+    "koreUserId": "user123",
+    "botId": "bot456",
+    "accountId": "acc789",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "user456",
+    "botId": "bot789",
+    "accountId": "acc123",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "user789",
+    "botId": "bot123",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user321",
+    "accountId": "acc654",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user654",
+    "botId": "bot321",
+    "accountId": "acc987",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

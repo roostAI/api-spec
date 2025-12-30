@@ -1,0 +1,55 @@
+[
+  {
+    "koreUserId": "koreUser1",
+    "botId": "bot1",
+    "userCode": "userCode1",
+    "accountId": "accountId1",
+    "paymentId": "paymentId1",
+    "updateTransferType": "all",
+    "customerId": 1045300,
+    "sourceAccountId": "1042345",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer deleted successfully"
+  },
+  {
+    "koreUserId": "koreUser2",
+    "botId": "bot2",
+    "userCode": "userCode2",
+    "accountId": "accountId2",
+    "paymentId": "paymentId2",
+    "updateTransferType": "all",
+    "customerId": 1045301,
+    "sourceAccountId": "1042346",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer deleted successfully"
+  },
+  {
+    "koreUserId": "koreUser3",
+    "botId": "bot3",
+    "userCode": "userCode3",
+    "accountId": "accountId3",
+    "paymentId": "paymentId3",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser4",
+    "botId": "bot4",
+    "userCode": "userCode4",
+    "accountId": "accountId4",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser5",
+    "botId": "bot5",
+    "userCode": "userCode5",
+    "accountId": "invalidAccountId",
+    "paymentId": "paymentId5",
+    "updateTransferType": "invalid",
+    "customerId": 1045302,
+    "sourceAccountId": "1042347",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]
