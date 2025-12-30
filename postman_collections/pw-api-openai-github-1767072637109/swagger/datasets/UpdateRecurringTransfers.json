@@ -1,0 +1,72 @@
+[
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "paymentId": "PID123",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "scheduledDate": 1632938400000,
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "statusCode": 200,
+    "scenario": "Recurring transfer updated successfully"
+  },
+  {
+    "koreUserId": "KU456",
+    "botId": "BOT456",
+    "userCode": "UC456",
+    "accountId": "AC456",
+    "paymentId": "PID456",
+    "customerId": 1045301,
+    "amount": "1042223",
+    "scheduledDate": 1632938400001,
+    "sourceAccountId": "1042346",
+    "targetAccountId": "1042223",
+    "statusCode": 200,
+    "scenario": "Recurring transfer updated successfully"
+  },
+  {
+    "koreUserId": "KU789",
+    "botId": "BOT789",
+    "userCode": "UC789",
+    "accountId": "AC789",
+    "paymentId": "PID789",
+    "customerId": 1045302,
+    "amount": "1042224",
+    "scheduledDate": 1632938400002,
+    "sourceAccountId": "1042347",
+    "targetAccountId": "1042224",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU012",
+    "botId": "BOT012",
+    "userCode": "UC012",
+    "accountId": "AC012",
+    "paymentId": "PID012",
+    "customerId": 1045303,
+    "amount": "1042225",
+    "scheduledDate": 1632938400003,
+    "sourceAccountId": "1042348",
+    "targetAccountId": "1042225",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU345",
+    "botId": "BOT345",
+    "userCode": "UC345",
+    "accountId": "AC345",
+    "paymentId": "PID345",
+    "customerId": 1045304,
+    "amount": "1042226",
+    "scheduledDate": 1632938400004,
+    "sourceAccountId": "1042349",
+    "targetAccountId": "1042226",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
