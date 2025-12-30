@@ -1,0 +1,43 @@
+[
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "accountId": "AC123",
+    "tenantId": "TEN123",
+    "environment": "production",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "accountId": "AC123",
+    "tenantId": "TEN123",
+    "environment": "production",
+    "channel": "web",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "accountId": "AC123",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "accountId": "AC123",
+    "tenantId": "TEN123",
+    "environment": "invalid_environment",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]
