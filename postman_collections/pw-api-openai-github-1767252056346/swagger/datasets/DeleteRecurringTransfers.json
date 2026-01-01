@@ -1,0 +1,57 @@
+[
+  {
+    "koreUserId": "KU12345",
+    "botId": "BID123",
+    "userCode": "UC123",
+    "accountId": "AID123",
+    "statusCode": 200,
+    "scenario": "Recurring transfer deleted successfully"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BID123",
+    "userCode": "UC123",
+    "accountId": "AID123",
+    "paymentId": "PID123",
+    "updateTransferType": "all",
+    "customerId": 1045300,
+    "sourceAccountId": "1042345",
+    "statusCode": 200,
+    "scenario": "Recurring transfer deleted successfully"
+  },
+  {
+    "botId": "BID123",
+    "userCode": "UC123",
+    "accountId": "AID123",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BID123",
+    "userCode": "UC123",
+    "accountId": "AID123",
+    "paymentId": "PID123",
+    "updateTransferType": "invalid",
+    "customerId": 1045300,
+    "sourceAccountId": "1042345",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BID123",
+    "userCode": "UC123",
+    "accountId": "invalid",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BID123",
+    "userCode": "UC123",
+    "accountId": "AID123",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
