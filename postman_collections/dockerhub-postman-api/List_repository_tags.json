@@ -1,0 +1,37 @@
+[
+  {
+    "page": "1",
+    "namespace": "library",
+    "repository": "nginx",
+    "statusCode": 200,
+    "scenario": "list repository tags"
+  },
+  {
+    "page": "2",
+    "namespace": "library",
+    "repository": "redis",
+    "statusCode": 200,
+    "scenario": "list repository tags"
+  },
+  {
+    "page": "1",
+    "namespace": "private-org",
+    "repository": "secret-app",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  },
+  {
+    "page": "1",
+    "namespace": "library",
+    "repository": "unknown-repo-xyz",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  },
+  {
+    "page": "1",
+    "namespace": "nonexistent-namespace-abc",
+    "repository": "ghost-image",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "namespace": "acmeinc",
+    "repository": "payments-service",
+    "immutable_tags_*boolean": false,
+    "immutable_tags_rules_0_*string": "release-*",
+    "immutable_tags_rules_1_*string": "prod/*",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "namespace": "!!invalid--ns",
+    "repository": "UPPERCASE REPO",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "###",
+    "immutable_tags_rules_1_*string": "??tag",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "namespace": "library",
+    "repository": "nginx",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "official/*",
+    "immutable_tags_rules_1_*string": "protected/*",
+    "statusCode": 401,
+    "scenario": "Unauthorized"
+  },
+  {
+    "namespace": "admin",
+    "repository": "core-platform",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "prod/*",
+    "immutable_tags_rules_1_*string": "critical/*",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  },
+  {
+    "namespace": "no-such-ns-9fz2",
+    "repository": "ghost-repo-xyz",
+    "immutable_tags_*boolean": false,
+    "immutable_tags_rules_0_*string": "legacy/*",
+    "immutable_tags_rules_1_*string": "old-release-*",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  }
+]
