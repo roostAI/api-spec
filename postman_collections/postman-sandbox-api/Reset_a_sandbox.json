@@ -1,0 +1,32 @@
+[
+  {
+    "undefined": "user123",
+    "action": "create",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "undefined": "user456",
+    "action": "update",
+    "statusCode": 201,
+    "scenario": "Resource Created"
+  },
+  {
+    "undefined": "user789",
+    "action": "delete",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "undefined": "invalid_user",
+    "action": "invalid_action",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  },
+  {
+    "undefined": "test_user",
+    "action": "fetch",
+    "statusCode": 500,
+    "scenario": "Internal Server Error"
+  }
+]
