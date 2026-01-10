@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+User1^|^Bot_A^|^Account_1^|^Key1^|^{"customerId": 101, "emailId": "user1@mail.com", "transactionsData": [{"transactionId": 123, "reasonCode": "P01"}]}^|^200^|^Bearer1
+User2^|^Bot_B^|^Account_2^|^Key2^|^{"customerId": 102, "emailId": "user2@mail.com", "transactionsData": [{"transactionId": 124, "reasonCode": "P02"}]}^|^200^|^Bearer2
+User3^|^Bot_C^|^Account_3^|^Key3^|^{"customerId": 103, "emailId": "user3@mail.com", "transactionsData": [{"transactionId": 125, "reasonCode": "P03"}]}^|^200^|^Bearer3
+User4^|^Bot_D^|^Account_4^|^Key4^|^{"customerId": 104, "emailId": "user4@mail.com", "transactionsData": [{"transactionId": 126, "reasonCode": "P04"}]}^|^200^|^Bearer4
+User5^|^Bot_E^|^Account_5^|^Key5^|^{"customerId": 105, "emailId": "user5@mail.com", "transactionsData": [{"transactionId": 127, "reasonCode": "P05"}]}^|^200^|^Bearer5
+User6^|^Bot_F^|^Account_6^|^Key6^|^{"customerId": 106, "emailId": "user6@mail.com", "transactionsData": [{"transactionId": 128, "reasonCode": "P06"}]}^|^200^|^Bearer6
+User7^|^Bot_G^|^Account_7^|^Key7^|^{"customerId": 107, "emailId": "user7@mail.com", "transactionsData": [{"transactionId": 129, "reasonCode": "P07"}]}^|^200^|^Bearer7
+User8^|^Bot_H^|^Account_8^|^Key8^|^{"customerId": 108, "emailId": "user8@mail.com", "transactionsData": [{"transactionId": 130, "reasonCode": "P08"}]}^|^200^|^Bearer8
+User9^|^Bot_I^|^Account_9^|^Key9^|^{"customerId": 109, "emailId": "user9@mail.com", "transactionsData": [{"transactionId": 131, "reasonCode": "P09"}]}^|^200^|^Bearer9
+User10^|^Bot_J^|^Account_10^|^Key10^|^{"customerId": 110, "emailId": "user10@mail.com", "transactionsData": [{"transactionId": 132, "reasonCode": "P10"}]}^|^200^|^Bearer10
