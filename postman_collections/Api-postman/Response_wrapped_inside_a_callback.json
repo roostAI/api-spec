@@ -1,0 +1,27 @@
+[
+  {
+    "callback": "callback_function_1",
+    "statusCode": 200,
+    "scenario": "200 OK – Response wrapped inside a callback"
+  },
+  {
+    "callback": "callback_function_2",
+    "statusCode": 200,
+    "scenario": "200 OK – Response wrapped inside a callback"
+  },
+  {
+    "callback": "callback_function_3",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "callback": "callback_function_4",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  },
+  {
+    "callback": "callback_function_5",
+    "statusCode": 500,
+    "scenario": "Internal Server Error"
+  }
+]

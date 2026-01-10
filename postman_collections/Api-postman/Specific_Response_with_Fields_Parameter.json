@@ -1,0 +1,27 @@
+[
+  {
+    "fields": "abc123",
+    "statusCode": 200,
+    "scenario": "200 OK - Specific Response with Fields Parameter"
+  },
+  {
+    "fields": "zip123",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "fields": "test_data",
+    "statusCode": 201,
+    "scenario": "200 OK - Specific Response with Fields Parameter"
+  },
+  {
+    "fields": "example123",
+    "statusCode": 500,
+    "scenario": "Server Error"
+  },
+  {
+    "fields": "data_test",
+    "statusCode": 204,
+    "scenario": "No Content"
+  }
+]
