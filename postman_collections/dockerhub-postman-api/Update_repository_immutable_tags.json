@@ -1,0 +1,47 @@
+[
+  {
+    "namespace": "acmeinc",
+    "repository": "inventory-service",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "release-*",
+    "immutable_tags_rules_1_*string": "prod-*",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "namespace": "acmeinc",
+    "repository": "Inventory Service",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "tag with spaces",
+    "immutable_tags_rules_1_*string": "??invalid??",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "namespace": "contoso-private",
+    "repository": "payments-api",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "stable-*",
+    "immutable_tags_rules_1_*string": "v*",
+    "statusCode": 401,
+    "scenario": "Unauthorized"
+  },
+  {
+    "namespace": "do-not-touch",
+    "repository": "restricted-config",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "locked-*",
+    "immutable_tags_rules_1_*string": "protected-*",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  },
+  {
+    "namespace": "ghost-namespace",
+    "repository": "nonexistent-repo-xyz",
+    "immutable_tags_*boolean": false,
+    "immutable_tags_rules_0_*string": "old-*",
+    "immutable_tags_rules_1_*string": "deprecated-*",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  }
+]
