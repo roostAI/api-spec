@@ -1,0 +1,10 @@
+jobTitle,name,email,id,statusCode,scenario
+Software Engineer,John Doe,johndoe@example.com,123,201,employee created
+Product Manager,Jane Smith,janesmith@example.com,124,201,employee created
+Data Analyst,Robert Brown,robertbrown@example.com,125,201,employee created
+Software Engineer,Emily Davis,emilydavis@example.com,126,400,invalid input, object invalid
+Product Manager,Michael Johnson,michaeljohnson@example.com,127,400,invalid input, object invalid
+Data Analyst,Sarah Miller,sarahmiller@example.com,128,400,invalid input, object invalid
+Software Engineer,James Wilson,jameswilson@example.com,129,409,an existing employee already exists
+Product Manager,Patricia Moore,patriciamoore@example.com,130,409,an existing employee already exists
+Data Analyst,Richard Taylor,richardtaylor@example.com,131,409,an existing employee already exists
