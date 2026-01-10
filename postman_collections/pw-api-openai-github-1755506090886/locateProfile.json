@@ -1,0 +1,50 @@
+[
+  {
+    "accountNumber_*string": "1042345",
+    "customerId_*string": "1045300",
+    "ssNumber_*string": "42717648",
+    "ssnShort_*string": "76938376",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountNumber_*string": "1042346",
+    "customerId_*string": "1045301",
+    "ssNumber_*string": "42717649",
+    "ssnShort_*string": "76938377",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountNumber_*string": "random_string1",
+    "customerId_*string": "random_string2",
+    "ssNumber_*string": "random_string3",
+    "ssnShort_*string": "random_string4",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountNumber_*string": "random_string5",
+    "customerId_*string": "random_string6",
+    "ssNumber_*string": "random_string7",
+    "ssnShort_*string": "random_string8",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountNumber_*string": "random_string9",
+    "customerId_*string": "random_string10",
+    "ssNumber_*string": "random_string11",
+    "ssnShort_*string": "random_string12",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "accountNumber_*string": "random_string13",
+    "customerId_*string": "random_string14",
+    "ssNumber_*string": "random_string15",
+    "ssnShort_*string": "random_string16",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
