@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+KU1001^|^BT101^|^AC200^|^Auth124^|^{ customerId: 112233, amount: 1000, currency: 'USD', sourceAccountId: 'SA100', targetAccountId: 'TA101', transactionType: 2, dueDate: '2022-12-30'}^|^200^|^BT101_token
+KU1002^|^BT102^|^AC201^|^Auth125^|^{ customerId: 112234, amount: 2000, currency: 'EUR', sourceAccountId: 'SA101', targetAccountId: 'TA102', transactionType: 2, dueDate: '2022-12-31'}^|^401^|^BT102_token
+KU1003^|^BT103^|^AC202^|^Auth126^|^{ customerId: 112235, amount: 3000, currency: 'GBP', sourceAccountId: 'SA102', targetAccountId: 'TA103', transactionType: 1, dueDate: '2022-12-31'}^|^200^|^BT103_token
+KU1004^|^BT104^|^AC203^|^Auth127^|^{ customerId: 112236, amount: 4000, currency: 'JPY', sourceAccountId: 'SA103', targetAccountId: 'TA104', transactionType: 1, dueDate: '2023-01-01'}^|^404^|^BT104_token
+KU1005^|^BT105^|^AC204^|^Auth128^|^{ customerId: 112237, amount: 5000, currency: 'CHF', sourceAccountId: 'SA104', targetAccountId: 'TA105', transactionType: 2, dueDate: '2023-01-02'}^|^200^|^BT105_token
+KU1006^|^BT106^|^AC205^|^Auth129^|^{ customerId: 112238, amount: 6000, currency: 'CAD', sourceAccountId: 'SA105', targetAccountId: 'TA106', transactionType: 2, dueDate: '2023-01-03'}^|^401^|^BT106_token
+KU1007^|^BT107^|^AC206^|^Auth130^|^{ customerId: 112239, amount: 7000, currency: 'AUD', sourceAccountId: 'SA106', targetAccountId: 'TA107', transactionType: 1, dueDate: '2023-01-04'}^|^200^|^BT107_token
+KU1008^|^BT108^|^AC207^|^Auth131^|^{ customerId: 112240, amount: 8000, currency: 'INR', sourceAccountId: 'SA107', targetAccountId: 'TA108', transactionType: 1, dueDate: '2023-01-05'}^|^404^|^BT108_token
+KU1009^|^BT109^|^AC208^|^Auth132^|^{ customerId: 112241, amount: 9000, currency: 'BRL', sourceAccountId: 'SA108', targetAccountId: 'TA109', transactionType: 2, dueDate: '2023-01-06'}^|^200^|^BT109_token
+KU1010^|^BT110^|^AC209^|^Auth133^|^{ customerId: 112242, amount: 10000, currency: 'CNY', sourceAccountId: 'SA109', targetAccountId: 'TA110', transactionType: 2, dueDate: '2023-01-07'}^|^401^|^BT110_token
