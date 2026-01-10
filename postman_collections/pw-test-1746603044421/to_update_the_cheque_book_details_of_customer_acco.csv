@@ -1,0 +1,10 @@
+accountNumber,customerId,numberOfChequeBooks,numberOfLeaves,statusCode,scenario
+123456,CUST789,2,50,200,successful operation
+789012,CUST345,1,25,200,successful operation
+456789,CUST123,3,75,200,successful operation
+891234,CUST567,2,50,401,Error: Authorisation failed.
+567890,CUST234,1,25,401,Error: Authorisation failed.
+234567,CUST901,3,75,401,Error: Authorisation failed.
+901234,CUST678,2,50,404,Error: Not Found
+678901,CUST345,1,25,404,Error: Not Found
+345678,CUST012,3,75,404,Error: Not Found

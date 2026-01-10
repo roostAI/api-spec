@@ -1,0 +1,6 @@
+accountNumber,customerId,numOfTransactions,status,startDate,endDate,type,value,amount1,currency,category,debitOrCredit,statusCode,scenario
+"mollit ip",34533244.77151477,10,"Lorem dolore tempor sed","2022-01-01","2022-01-31","tempor amet sed","string",-28304207.04693158,"magna aliquip commodo","Finance","nostrud qui cillum occa",200,"successful operation"
+"mollit ip",34533244.77151477,15,"Lorem dolore tempor sed","2022-02-01","2022-02-28","tempor amet sed","string",-28304207.04693158,"magna aliquip commodo","Investment","nostrud qui cillum occa",200,"successful operation"
+"mollit ip",34533244.77151477,20,"Lorem dolore tempor sed","2022-03-01","2022-03-31","tempor amet sed","string",-28304207.04693158,"magna aliquip commodo","Savings","nostrud qui cillum occa",200,"successful operation"
+"mollit ip",34533244.77151477,25,"Lorem dolore tempor sed","2022-04-01","2022-04-30","tempor amet sed","string",-28304207.04693158,"magna aliquip commodo","Loans","nostrud qui cillum occa",200,"successful operation"
+"mollit ip",34533244.77151477,30,"Lorem dolore tempor sed","2022-05-01","2022-05-31","tempor amet sed","string",-28304207.04693158,"magna aliquip commodo","Credit Card","nostrud qui cillum occa",200,"successful operation"

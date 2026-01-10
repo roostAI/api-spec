@@ -1,0 +1,10 @@
+amount,currency,customerId,dueDate,sourceAccountId,targetAccountId,transactionType,statusCode,scenario
+1000,USD,12345,2022-12-31,67890,09876,Credit Card Payment,200,Credit Card payment scheduled successfully
+1500,EUR,23456,2023-01-31,78901,10987,Credit Card Payment,200,Credit Card payment scheduled successfully
+2000,GBP,34567,2023-02-28,89012,21098,Credit Card Payment,200,Credit Card payment scheduled successfully
+2500,JPY,45678,2023-03-31,90123,32109,Credit Card Payment,401,Error: Authorisation failed.
+3000,AUD,56789,2023-04-30,01234,43210,Credit Card Payment,401,Error: Authorisation failed.
+3500,CAD,67890,2023-05-31,12345,54321,Credit Card Payment,401,Error: Authorisation failed.
+4000,CHF,78901,2023-06-30,23456,65432,Credit Card Payment,404,Error: Not Found
+4500,NZD,89012,2023-07-31,34567,76543,Credit Card Payment,404,Error: Not Found
+5000,ZAR,90123,2023-08-31,45678,87654,Credit Card Payment,404,Error: Not Found

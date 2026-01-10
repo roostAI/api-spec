@@ -1,0 +1,13 @@
+customerId,statusCode,scenario
+12345,200,verification code has been sent to your mobile number
+67890,401,Error: Authorisation failed.
+11223,404,Error: Not Found
+33445,200,verification code has been sent to your mobile number
+55667,401,Error: Authorisation failed.
+77889,404,Error: Not Found
+99001,200,verification code has been sent to your mobile number
+22002,401,Error: Authorisation failed.
+33003,404,Error: Not Found
+44004,200,verification code has been sent to your mobile number
+55005,401,Error: Authorisation failed.
+66006,404,Error: Not Found

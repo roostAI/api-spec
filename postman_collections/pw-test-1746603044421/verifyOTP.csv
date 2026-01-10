@@ -1,0 +1,10 @@
+code,customerId,statusCode,scenario
+123,CUST001,200,OTP verifid successfully
+456,CUST002,401,Error: Authorisation failed.
+789,CUST003,404,Error: Not Found
+321,CUST004,200,OTP verifid successfully
+654,CUST005,401,Error: Authorisation failed.
+987,CUST006,404,Error: Not Found
+135,CUST007,200,OTP verifid successfully
+246,CUST008,401,Error: Authorisation failed.
+369,CUST009,404,Error: Not Found

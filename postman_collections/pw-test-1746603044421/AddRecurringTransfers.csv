@@ -1,0 +1,7 @@
+amount,currency,customerId,sourceAccountId,targetAccountId,status,scheduledDate,amountType,iterate,untilStop,untilDate,numberOfTransfers,statusCode,scenario
+100,"USD","C123","S456","T789","Completed","2022-01-01","Debit","Yes","No","2022-12-31",10,200,"schedule transfer added successfully"
+200,"EUR","C456","S789","T123","Pending","2022-02-01","Credit","No","Yes","2022-11-30",5,401,"Error: Authorisation failed."
+300,"GBP","C789","S123","T456","Failed","2022-03-01","Debit","Yes","No","2022-10-31",15,404,"Error: Not Found"
+400,"JPY","C123","S456","T789","Completed","2022-04-01","Credit","No","Yes","2022-09-30",20,200,"schedule transfer added successfully"
+500,"AUD","C456","S789","T123","Pending","2022-05-01","Debit","Yes","No","2022-08-31",25,401,"Error: Authorisation failed."
+600,"CAD","C789","S123","T456","Failed","2022-06-01","Credit","No","Yes","2022-07-31",30,404,"Error: Not Found"

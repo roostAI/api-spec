@@ -1,0 +1,10 @@
+sourcePin,targetPin,statusCode,scenario
+1234,5678,200,"PINs matched"
+2345,6789,200,"PINs matched"
+3456,7890,200,"PINs matched"
+4567,8901,401,"Error: Authorisation failed."
+5678,9012,401,"Error: Authorisation failed."
+6789,0123,401,"Error: Authorisation failed."
+7890,1234,404,"Error: Not Found"
+8901,2345,404,"Error: Not Found"
+9012,3456,404,"Error: Not Found"

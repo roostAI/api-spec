@@ -1,0 +1,10 @@
+accountNumber,customerId,ssNumber,ssnShort,statusCode,scenario
+"proident ipsum velit","eiusmod ullamco cillum sit nisi",25023126.039815485,79858718.3568213,200,success
+"randomAccountNumber1","randomCustomerId1",randomSSNumber1,randomSSNShort1,401,"Error: Authorisation failed."
+"randomAccountNumber2","randomCustomerId2",randomSSNumber2,randomSSNShort2,404,"Error: Not Found"
+"proident ipsum velit","eiusmod ullamco cillum sit nisi",25023126.039815485,79858718.3568213,200,success
+"randomAccountNumber3","randomCustomerId3",randomSSNumber3,randomSSNShort3,401,"Error: Authorisation failed."
+"randomAccountNumber4","randomCustomerId4",randomSSNumber4,randomSSNShort4,404,"Error: Not Found"
+"proident ipsum velit","eiusmod ullamco cillum sit nisi",25023126.039815485,79858718.3568213,200,success
+"randomAccountNumber5","randomCustomerId5",randomSSNumber5,randomSSNShort5,401,"Error: Authorisation failed."
+"randomAccountNumber6","randomCustomerId6",randomSSNumber6,randomSSNShort6,404,"Error: Not Found"

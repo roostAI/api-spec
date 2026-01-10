@@ -1,0 +1,13 @@
+customerId,statusCode,scenario
+"ut ex",200,"successful operation"
+"random_value_1",401,"Error: Authorisation failed."
+"random_value_2",404,"Error: Not Found"
+"random_value_3",200,"successful operation"
+"random_value_4",401,"Error: Authorisation failed."
+"random_value_5",404,"Error: Not Found"
+"random_value_6",200,"successful operation"
+"random_value_7",401,"Error: Authorisation failed."
+"random_value_8",404,"Error: Not Found"
+"random_value_9",200,"successful operation"
+"random_value_10",401,"Error: Authorisation failed."
+"random_value_11",404,"Error: Not Found"

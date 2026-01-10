@@ -1,0 +1,11 @@
+customerId,sourceAccountId,amount,currency,frontImage,backImage,statusCode,scenario
+123456,789012,1000,USD,frontImage1.jpg,backImage1.jpg,200,Deposit success
+234567,890123,2000,EUR,frontImage2.jpg,backImage2.jpg,401,Error: Authorisation failed.
+345678,901234,3000,GBP,frontImage3.jpg,backImage3.jpg,404,Error: Not Found
+456789,012345,4000,JPY,frontImage4.jpg,backImage4.jpg,200,Deposit success
+567890,123456,5000,CAD,frontImage5.jpg,backImage5.jpg,401,Error: Authorisation failed.
+678901,234567,6000,AUD,frontImage6.jpg,backImage6.jpg,404,Error: Not Found
+789012,345678,7000,CHF,frontImage7.jpg,backImage7.jpg,200,Deposit success
+890123,456789,8000,CNY,frontImage8.jpg,backImage8.jpg,401,Error: Authorisation failed.
+901234,567890,9000,INR,frontImage9.jpg,backImage9.jpg,404,Error: Not Found
+012345,678901,10000,BRL,frontImage10.jpg,backImage10.jpg,200,Deposit success
