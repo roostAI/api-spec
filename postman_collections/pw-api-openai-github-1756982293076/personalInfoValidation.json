@@ -1,0 +1,52 @@
+[
+  {
+    "customerId_*number": 1045300,
+    "dob_*string": "1999-05-05T00:00:00.000+0000",
+    "ssn_*number": 104531234,
+    "secrectPassword_*string": "Sam",
+    "AccNumber_*string": "1042345",
+    "lastDepositAmt_*number": 500,
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId_*number": 2045301,
+    "dob_*string": "1989-04-04T00:00:00.000+0000",
+    "ssn_*number": 204531235,
+    "secrectPassword_*string": "John",
+    "AccNumber_*string": "2042346",
+    "lastDepositAmt_*number": 600,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 3045302,
+    "dob_*string": "1979-03-03T00:00:00.000+0000",
+    "ssn_*number": 304531236,
+    "secrectPassword_*string": "Jane",
+    "AccNumber_*string": "3042347",
+    "lastDepositAmt_*number": 700,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_*number": 4045303,
+    "dob_*string": "1969-02-02T00:00:00.000+0000",
+    "ssn_*number": 404531237,
+    "secrectPassword_*string": "Doe",
+    "AccNumber_*string": "4042348",
+    "lastDepositAmt_*number": 800,
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId_*number": 5045304,
+    "dob_*string": "1959-01-01T00:00:00.000+0000",
+    "ssn_*number": 504531238,
+    "secrectPassword_*string": "Smith",
+    "AccNumber_*string": "5042349",
+    "lastDepositAmt_*number": 900,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
