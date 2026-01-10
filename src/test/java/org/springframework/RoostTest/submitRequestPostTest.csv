@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+user1^|^bot1^|^acc1^|^auth1^|^{"key1":"value1","key2":"value2"}^|^200^|^bearer1
+user2^|^bot2^|^acc2^|^auth2^|^{"key1":"value3","key2":"value4"}^|^401^|^bearer2
+user3^|^bot3^|^acc3^|^auth3^|^{"key1":"value5","key2":"value6"}^|^404^|^bearer3
+user4^|^bot4^|^acc4^|^auth4^|^{"key1":"value7","key2":"value8"}^|^200^|^bearer4
+user5^|^bot5^|^acc5^|^auth5^|^{"key1":"value9","key2":"value10"}^|^401^|^bearer5
+user6^|^bot6^|^acc6^|^auth6^|^{"key1":"value11","key2":"value12"}^|^404^|^bearer6
+user7^|^bot7^|^acc7^|^auth7^|^{"key1":"value13","key2":"value14"}^|^200^|^bearer7
+user8^|^bot8^|^acc8^|^auth8^|^{"key1":"value15","key2":"value16"}^|^401^|^bearer8
+user9^|^bot9^|^acc9^|^auth9^|^{"key1":"value17","key2":"value18"}^|^404^|^bearer9
+user10^|^bot10^|^acc10^|^auth10^|^{"key1":"value19","key2":"value20"}^|^200^|^bearer10
