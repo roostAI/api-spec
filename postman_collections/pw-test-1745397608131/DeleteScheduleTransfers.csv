@@ -1,0 +1,7 @@
+customerId,paymentId,updateTransferType,sourceAccountId,statusCode,scenario
+1045300,"validPaymentId1","all","1042345",200,"Scheduled transfer deleted successfully"
+1045300,"validPaymentId2","all","1042345",200,"Scheduled transfer deleted successfully"
+-1,"invalidPaymentId1","none","invalidAccountId1",401,"Error: Authorisation failed."
+-1,"invalidPaymentId2","none","invalidAccountId2",401,"Error: Authorisation failed."
+-1,"invalidPaymentId3","none","invalidAccountId3",404,"Error: Not Found"
+-1,"invalidPaymentId4","none","invalidAccountId4",404,"Error: Not Found"

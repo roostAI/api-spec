@@ -1,0 +1,4 @@
+amount,currency,customerId,date,sourceAccountId,targetAccountId,description,TransactionType,PaymentType,statusCode,scenario
+"1042222","USD",1045300,"03-15-2021","1042345","1042222","Internal Transfer","1063","Minimum Payment",200,"Transaction success"
+"invalid","XXX",9999999,"invalid-date","invalid","invalid","Invalid Description","9999","Invalid Payment",401,"Error: Authorisation failed."
+"invalid","XXX",9999999,"invalid-date","invalid","invalid","Invalid Description","9999","Invalid Payment",404,"Error: Not Found"

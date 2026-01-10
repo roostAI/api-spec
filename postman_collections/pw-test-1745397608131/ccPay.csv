@@ -1,0 +1,5 @@
+amount,currency,customerId,dueDate,sourceAccountId,targetAccountId,transactionType,statusCode,scenario
+"1042222"^|"USD",1045300^|"2023-12-01"^|"1042345"^|"1042222",1,200^|"Credit Card payment scheduled successfully"
+"1042222"^|"USD",1045300^|"2023-12-02"^|"1042345"^|"1042222",2,200^|"Credit Card payment scheduled successfully"
+"invalid"^|"XXX",9999999^|"invalid-date"^|"invalid"^|"invalid",999,401^|"Error: Authorisation failed."
+"invalid"^|"YYY",8888888^|"invalid-date"^|"invalid"^|"invalid",888,404^|"Error: Not Found"

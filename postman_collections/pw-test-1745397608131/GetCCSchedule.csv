@@ -1,0 +1,4 @@
+customerId,status,statusCode,scenario
+1045300^|"nisi",200^|"schedule transfer list response"
+-999999^|"invalid",401^|"Error: Authorisation failed."
+-999999^|"invalid",404^|"Error: Not Found"

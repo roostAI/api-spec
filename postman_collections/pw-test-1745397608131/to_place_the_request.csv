@@ -1,0 +1,6 @@
+accountName,accountNumber,customerId,cardNumber,description,requestSubType,requestType,serviceType,statusCode,scenario
+"John Doe","1042345",1045300,"1234567890123456","Internal Transfer","subType1","type1","service1",200,"success"
+"Jane Smith","1042345",1045301,"6543210987654321","Internal Transfer","subType2","type2","service2",401,"Error: Authorisation failed."
+"Invalid User","invalid_number","invalid_id","invalid_card","Invalid Description","invalid_subType","invalid_type","invalid_service",404,"Error: Not Found"
+"Emily Davis","1042345",1045302,"1122334455667788","Internal Transfer","subType3","type3","service3",200,"success"
+"Michael Brown","1042345",1045303,"8877665544332211","Internal Transfer","subType4","type4","service4",401,"Error: Authorisation failed."

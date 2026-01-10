@@ -1,0 +1,6 @@
+"accountNumber","customerId","numberOfChequeBooks","numberOfLeaves","statusCode","scenario"
+"1042345",1045300,1,25,200,"successful operation"
+"1042345",1045300,2,50,200,"successful operation"
+"1042345",1045300,3,100,200,"successful operation"
+"invalid","invalid","invalid","invalid",401,"Error: Authorisation failed."
+"invalid","invalid","invalid","invalid",404,"Error: Not Found"

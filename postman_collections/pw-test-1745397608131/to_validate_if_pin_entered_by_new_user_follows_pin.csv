@@ -1,0 +1,7 @@
+"sourcePin","statusCode","scenario"
+"123456","200","PIN rules satisfied"
+"654321","401","Error: Authorisation failed."
+"789012","404","Error: Not Found"
+"234567","200","PIN rules satisfied"
+"345678","401","Error: Authorisation failed."
+"890123","404","Error: Not Found"

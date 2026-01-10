@@ -1,0 +1,5 @@
+customerId,email,alternatePhoneNumber,isAlternateMobileNumber,phone,isPrimaryMobileNumber,location,statusCode,scenario
+1045300,"John@gmail.com",1234567890,true,9876543210,true,"New York",200,"successful operation"
+1045300,"John@gmail.com",1234567890,true,9876543210,true,"New York",200,"successful operation"
+-1,"invalid_email",-1234567890,"not_a_boolean",-9876543210,"not_a_boolean","",401,"Error: Authorisation failed."
+-1,"invalid_email",-1234567890,"not_a_boolean",-9876543210,"not_a_boolean","",404,"Error: Not Found"
