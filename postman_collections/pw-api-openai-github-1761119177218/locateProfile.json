@@ -1,0 +1,42 @@
+[
+  {
+    "accountNumber_*string": "ACC123456",
+    "customerId_*string": "CUST789101",
+    "ssNumber_*string": "SSN112233",
+    "ssnShort_*string": "SSNS4444",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountNumber_*string": "ACC654321",
+    "customerId_*string": "CUST101112",
+    "ssNumber_*string": "SSN445566",
+    "ssnShort_*string": "SSNS7777",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountNumber_*string": "INVALID_ACC",
+    "customerId_*string": "INVALID_CUST",
+    "ssNumber_*string": "INVALID_SSN",
+    "ssnShort_*string": "INVALID_SSNS",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountNumber_*string": "NONEXISTENT_ACC",
+    "customerId_*string": "NONEXISTENT_CUST",
+    "ssNumber_*string": "NONEXISTENT_SSN",
+    "ssnShort_*string": "NONEXISTENT_SSNS",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "accountNumber_*string": "ACC987654",
+    "customerId_*string": "CUST131415",
+    "ssNumber_*string": "SSN778899",
+    "ssnShort_*string": "SSNS8888",
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]

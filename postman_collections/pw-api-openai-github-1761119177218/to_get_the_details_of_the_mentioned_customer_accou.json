@@ -1,0 +1,47 @@
+[
+  {
+    "customerId": 1045300,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "ACC123456",
+      "cardNumber": "CARD123456"
+    },
+    "accountInfo_1": {
+      "accountType": "Current",
+      "accountNumber": "ACC654321",
+      "cardNumber": "CARD654321"
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId": 2045301,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "ACC789012",
+      "cardNumber": "CARD789012"
+    },
+    "accountInfo_1": {
+      "accountType": "Current",
+      "accountNumber": "ACC210987",
+      "cardNumber": "CARD210987"
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 3045302,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "ACC345678",
+      "cardNumber": "CARD345678"
+    },
+    "accountInfo_1": {
+      "accountType": "Current",
+      "accountNumber": "ACC876543",
+      "cardNumber": "CARD876543"
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
