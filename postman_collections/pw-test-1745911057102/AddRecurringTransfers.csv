@@ -1,0 +1,11 @@
+amount,currency,customerId,sourceAccountId,targetAccountId,status,scheduledDate,amountType,iterate,untilStop,untilDate,numberOfTransfers,statusCode,scenario
+"1042222","USD",1045300,"1042345","1042222","completed",20220201,"fixed","yes","no",20220210,10,200,"schedule transfer added successfully"
+"1042222","USD",1045300,"1042345","1042222","failed",20220201,"variable","no","yes",20220210,5,401,"Error: Authorisation failed."
+"1042222","USD",1045300,"1042345","1042222","pending",20220201,"fixed","yes","no",20220210,7,404,"Error: Not Found"
+"1042222","USD",1045300,"1042345","1042222","completed",20220201,"variable","no","yes",20220210,3,200,"schedule transfer added successfully"
+"1042222","USD",1045300,"1042345","1042222","failed",20220201,"fixed","yes","no",20220210,8,401,"Error: Authorisation failed."
+"1042222","USD",1045300,"1042345","1042222","pending",20220201,"variable","no","yes",20220210,2,404,"Error: Not Found"
+"1042222","USD",1045300,"1042345","1042222","completed",20220201,"fixed","yes","no",20220210,6,200,"schedule transfer added successfully"
+"1042222","USD",1045300,"1042345","1042222","failed",20220201,"variable","no","yes",20220210,4,401,"Error: Authorisation failed."
+"1042222","USD",1045300,"1042345","1042222","pending",20220201,"fixed","yes","no",20220210,9,404,"Error: Not Found"
+"1042222","USD",1045300,"1042345","1042222","completed",20220201,"variable","no","yes",20220210,1,200,"schedule transfer added successfully"

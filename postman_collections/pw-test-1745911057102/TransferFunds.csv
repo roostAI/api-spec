@@ -1,0 +1,10 @@
+amount,currency,customerId,date,sourceAccountId,targetAccountId,description,TransactionType,PaymentType,statusCode,scenario
+1042222,USD,1045300,03-15-2021,1042345,1042222,Internal Transfer,1063,Minimum Payment,200,Transaction success
+1042222,USD,1045300,03-15-2021,1042345,1042222,Internal Transfer,1063,Minimum Payment,401,Error: Authorisation failed.
+1042222,USD,1045300,03-15-2021,1042345,1042222,Internal Transfer,1063,Minimum Payment,404,Error: Not Found
+1042222,USD,1045300,03-15-2021,1042345,1042222,Internal Transfer,1063,Minimum Payment,200,Transaction success
+1042222,USD,1045300,03-15-2021,1042345,1042222,Internal Transfer,1063,Minimum Payment,401,Error: Authorisation failed.
+1042222,USD,1045300,03-15-2021,1042345,1042222,Internal Transfer,1063,Minimum Payment,404,Error: Not Found
+1042222,USD,1045300,03-15-2021,1042345,1042222,Internal Transfer,1063,Minimum Payment,200,Transaction success
+1042222,USD,1045300,03-15-2021,1042345,1042222,Internal Transfer,1063,Minimum Payment,401,Error: Authorisation failed.
+1042222,USD,1045300,03-15-2021,1042345,1042222,Internal Transfer,1063,Minimum Payment,404,Error: Not Found
