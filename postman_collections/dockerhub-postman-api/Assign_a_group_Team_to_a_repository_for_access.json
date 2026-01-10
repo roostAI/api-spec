@@ -1,0 +1,42 @@
+[
+  {
+    "group_name": "devops-core",
+    "permission": "write",
+    "namespace": "acme-inc",
+    "repository": "payments-service",
+    "statusCode": 200,
+    "scenario": "Team assigned to repository successfully"
+  },
+  {
+    "group_name": "qa-automation",
+    "permission": "maintain",
+    "namespace": "platform",
+    "repository": "web-portal",
+    "statusCode": 200,
+    "scenario": "Team assigned to repository successfully"
+  },
+  {
+    "group_name": "contractors-external",
+    "permission": "superadmin",
+    "namespace": "acme-inc",
+    "repository": "payments-service",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  },
+  {
+    "group_name": "read-only-guests",
+    "permission": "admin",
+    "namespace": "core-systems",
+    "repository": "secrets-vault",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  },
+  {
+    "group_name": "data-platform",
+    "permission": "write",
+    "namespace": "unknown-namespace-9x",
+    "repository": "nonexistent-repo-xyz123",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  }
+]

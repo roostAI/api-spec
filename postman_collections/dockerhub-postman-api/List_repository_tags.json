@@ -1,0 +1,37 @@
+[
+  {
+    "page": "1",
+    "namespace": "library",
+    "repository": "nginx",
+    "statusCode": 200,
+    "scenario": "list repository tags"
+  },
+  {
+    "page": "2",
+    "namespace": "acmeinc",
+    "repository": "backend-api",
+    "statusCode": 200,
+    "scenario": "list repository tags"
+  },
+  {
+    "page": "abc",
+    "namespace": "MYORG",
+    "repository": "private repo",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  },
+  {
+    "page": "-1",
+    "namespace": "ghost/team",
+    "repository": "no@repo",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  },
+  {
+    "page": "0",
+    "namespace": "testnamespace!",
+    "repository": "UPPERCASE",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  }
+]

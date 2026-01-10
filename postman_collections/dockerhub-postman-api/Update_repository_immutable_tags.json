@@ -1,0 +1,47 @@
+[
+  {
+    "namespace": "incididunt-sit",
+    "repository": "duis-velit-ut-sed",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "sed ut nulla magna proident",
+    "immutable_tags_rules_1_*string": "commo",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "namespace": "bad namespace!",
+    "repository": "UPPER/INVALID?",
+    "immutable_tags_*boolean": false,
+    "immutable_tags_rules_0_*string": "*",
+    "immutable_tags_rules_1_*string": ".",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "namespace": "__root__",
+    "repository": "..",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "??invalid??",
+    "immutable_tags_rules_1_*string": "tag with spaces",
+    "statusCode": 401,
+    "scenario": "Unauthorized"
+  },
+  {
+    "namespace": "forbidden/namespace",
+    "repository": "admin$repo",
+    "immutable_tags_*boolean": false,
+    "immutable_tags_rules_0_*string": "[invalid-regex",
+    "immutable_tags_rules_1_*string": "<script>alert(1)</script>",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  },
+  {
+    "namespace": "unknown-org",
+    "repository": "missing-repo",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "nonexistent-rule",
+    "immutable_tags_rules_1_*string": "deadbeef",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  }
+]
