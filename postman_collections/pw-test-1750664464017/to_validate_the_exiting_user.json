@@ -1,0 +1,38 @@
+[
+  {
+    "sourcePin": "1234",
+    "targetPin": "5678",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "sourcePin": "9876",
+    "targetPin": "5432",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "sourcePin": "1111",
+    "targetPin": "2222",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "sourcePin": "3333",
+    "targetPin": "4444",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "sourcePin": "5555",
+    "targetPin": "6666",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "sourcePin": "7777",
+    "targetPin": "8888",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "sourcePin": "1234",
+    "targetPin": "5678",
+    "profileInfo": {
+      "customerId": "CUST123",
+      "accountNumber": "ACC456",
+      "ssn": "789-01-2345"
+    },
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "sourcePin": "4321",
+    "targetPin": "8765",
+    "profileInfo": {
+      "customerId": "CUST789",
+      "accountNumber": "ACC321",
+      "ssn": "123-45-6789"
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "sourcePin": "1122",
+    "targetPin": "3344",
+    "profileInfo": {
+      "customerId": "CUST456",
+      "accountNumber": "ACC654",
+      "ssn": "987-65-4321"
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "sourcePin": "2233",
+    "targetPin": "4455",
+    "profileInfo": {
+      "customerId": "CUST321",
+      "accountNumber": "ACC987",
+      "ssn": "654-32-1987"
+    },
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "sourcePin": "5566",
+    "targetPin": "7788",
+    "profileInfo": {
+      "customerId": "CUST654",
+      "accountNumber": "ACC123",
+      "ssn": "321-98-7654"
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "customerId": 1045300,
+    "transactionsData_0": {
+      "reasonCode": "Fraudulent transaction",
+      "transactionId": 123456
+    },
+    "transactionsData_1": {
+      "reasonCode": "Duplicate transaction",
+      "transactionId": 789012
+    },
+    "emailId": "John@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "customerId": 1045301,
+    "transactionsData_0": {
+      "reasonCode": "Unrecognized transaction",
+      "transactionId": 234567
+    },
+    "transactionsData_1": {
+      "reasonCode": "Incorrect amount",
+      "transactionId": 890123
+    },
+    "emailId": "Jane@gmail.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045302,
+    "transactionsData_0": {
+      "reasonCode": "Card not present",
+      "transactionId": 345678
+    },
+    "transactionsData_1": {
+      "reasonCode": "Expired card",
+      "transactionId": 901234
+    },
+    "emailId": "Tom@hotmail.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

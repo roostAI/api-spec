@@ -1,0 +1,38 @@
+[
+  {
+    "accountName": "John Doe",
+    "accountNumber": "123456789",
+    "customerId": 1001,
+    "cardNumber": "9876543210123456",
+    "description": "Money Transfer",
+    "requestSubType": "Transfer",
+    "requestType": "Transaction",
+    "serviceType": "Banking",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountName": "Jane Smith",
+    "accountNumber": "234567890",
+    "customerId": 1002,
+    "cardNumber": "1234567890123456",
+    "description": "Bill Payment",
+    "requestSubType": "Payment",
+    "requestType": "Transaction",
+    "serviceType": "Banking",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountName": "Alice Johnson",
+    "accountNumber": "345678901",
+    "customerId": 1003,
+    "cardNumber": "2345678901234567",
+    "description": "Account Update",
+    "requestSubType": "Update",
+    "requestType": "Account",
+    "serviceType": "Banking",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
