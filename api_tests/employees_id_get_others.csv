@@ -1,0 +1,12 @@
+id
+a1b2c3d4-e5f6-47a8-8b9c-0d1e2f3a4b5c
+f9e8d7c6-b5a4-43b2-9c1d-2e3f4a5b6c7d
+1a2b3c4d-5e6f-47a8-a9b0-c1d2e3f4a5b6
+8f7e6d5c-4b3a-42c1-8d9e-0f1a2b3c4d5e
+c0ffee00-d3ad-4b3f-a00d-cafe12345678
+not-a-uuid-string-123
+12345678-abcd-efgh-ijkl-mnopqrstuvwx
+short-uuid
+this_is_too_long_for_any_uuid_format_even_if_it_had_dashes
+just_a_word
+12345-67890-ABCD
