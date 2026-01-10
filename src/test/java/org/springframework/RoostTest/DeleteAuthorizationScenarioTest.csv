@@ -1,0 +1,7 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+DELETE^|^http://localhost:8080/authorizations/ID^|^Authorization: Bearer token_example^|^{ }^|^200^|^{
+    "message": "Authorization deleted successfully"
+}
+GET^|^http://localhost:8080/authorizations^|^Authorization: Bearer token_example^|^{ }^|^200^|^{
+    "authorizations": []
+}
