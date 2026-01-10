@@ -1,0 +1,32 @@
+[
+  {
+    "username": "john_doe",
+    "age": 30,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "username": "jane_doe",
+    "age": 25,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "username": "invalid_user!",
+    "age": -5,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "username": "",
+    "age": 150,
+    "statusCode": 422,
+    "scenario": "Unprocessable Entity"
+  },
+  {
+    "username": "test_user",
+    "age": "twenty",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]
