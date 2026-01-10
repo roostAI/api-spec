@@ -1,0 +1,42 @@
+[
+  {
+    "customerId_*number": 1045300,
+    "email_*string": "John@gmail.com",
+    "secondaryEmail_*string": "John1@gmail.com",
+    "subscribe_*boolean": true,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "customerId_*number": 987654,
+    "email_*string": "invalid_email",
+    "secondaryEmail_*string": "invalid_secondary_email",
+    "subscribe_*boolean": "not_boolean",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 123456,
+    "email_*string": "not_found_email@gmail.com",
+    "secondaryEmail_*string": "not_found_secondary_email@gmail.com",
+    "subscribe_*boolean": false,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_*number": 789012,
+    "email_*string": "another_invalid_email",
+    "secondaryEmail_*string": "another_invalid_secondary_email",
+    "subscribe_*boolean": "not_boolean",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 345678,
+    "email_*string": "yet_another_not_found_email@gmail.com",
+    "secondaryEmail_*string": "yet_another_not_found_secondary_email@gmail.com",
+    "subscribe_*boolean": true,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
