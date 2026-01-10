@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+user1^|^bot1^|^acc1^|^auth1^|^{"customerId": 123, "sourceAccountId": "srcAcc1", "amount": "100", "currency": "USD", "image": {"frontImage": "frontImg1", "backImage": "backImg1"}}^|^200^|^bearer1
+user2^|^bot2^|^acc2^|^auth2^|^{"customerId": 456, "sourceAccountId": "srcAcc2", "amount": "200", "currency": "EUR", "image": {"frontImage": "frontImg2", "backImage": "backImg2"}}^|^401^|^bearer2
+user3^|^bot3^|^acc3^|^auth3^|^{"customerId": 789, "sourceAccountId": "srcAcc3", "amount": "300", "currency": "GBP", "image": {"frontImage": "frontImg3", "backImage": "backImg3"}}^|^404^|^bearer3
+user4^|^bot4^|^acc4^|^auth4^|^{"customerId": 321, "sourceAccountId": "srcAcc4", "amount": "400", "currency": "JPY", "image": {"frontImage": "frontImg4", "backImage": "backImg4"}}^|^200^|^bearer4
+user5^|^bot5^|^acc5^|^auth5^|^{"customerId": 654, "sourceAccountId": "srcAcc5", "amount": "500", "currency": "AUD", "image": {"frontImage": "frontImg5", "backImage": "backImg5"}}^|^401^|^bearer5
+user6^|^bot6^|^acc6^|^auth6^|^{"customerId": 987, "sourceAccountId": "srcAcc6", "amount": "600", "currency": "CAD", "image": {"frontImage": "frontImg6", "backImage": "backImg6"}}^|^404^|^bearer6
+user7^|^bot7^|^acc7^|^auth7^|^{"customerId": 135, "sourceAccountId": "srcAcc7", "amount": "700", "currency": "CHF", "image": {"frontImage": "frontImg7", "backImage": "backImg7"}}^|^200^|^bearer7
+user8^|^bot8^|^acc8^|^auth8^|^{"customerId": 246, "sourceAccountId": "srcAcc8", "amount": "800", "currency": "INR", "image": {"frontImage": "frontImg8", "backImage": "backImg8"}}^|^401^|^bearer8
+user9^|^bot9^|^acc9^|^auth9^|^{"customerId": 369, "sourceAccountId": "srcAcc9", "amount": "900", "currency": "CNY", "image": {"frontImage": "frontImg9", "backImage": "backImg9"}}^|^404^|^bearer9
+user10^|^bot10^|^acc10^|^auth10^|^{"customerId": 159, "sourceAccountId": "srcAcc10", "amount": "1000", "currency": "BRL", "image": {"frontImage": "frontImg10", "backImage": "backImg10"}}^|^200^|^bearer10
