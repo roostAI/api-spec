@@ -1,0 +1,29 @@
+[
+  {
+    "customerId_*number": 1045300,
+    "cvv_*string": "123",
+    "debitCardNumber_*string": "1234456778901690",
+    "expiryDate_*string": "2025-01-01T00:00:00.000+0000",
+    "pin_*string": "1111",
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId_*number": 1045301,
+    "cvv_*string": "abc",
+    "debitCardNumber_*string": "invalid_card_number",
+    "expiryDate_*string": "invalid_date",
+    "pin_*string": "abcd",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 1045302,
+    "cvv_*string": "xyz",
+    "debitCardNumber_*string": "non_existent_card_number",
+    "expiryDate_*string": "non_existent_date",
+    "pin_*string": "xyz1",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

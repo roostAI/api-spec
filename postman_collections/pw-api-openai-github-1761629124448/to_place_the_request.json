@@ -1,0 +1,62 @@
+[
+  {
+    "accountName_*string": "John Doe",
+    "accountNumber_*string": "1042345",
+    "customerId_*number": 1045300,
+    "cardNumber_*string": "1234567890123456",
+    "description_*string": "Internal Transfer",
+    "requestSubType_*string": "Money Transfer",
+    "requestType_*string": "Transaction",
+    "serviceType_*string": "Banking",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountName_*string": "Jane Doe",
+    "accountNumber_*string": "1042346",
+    "customerId_*number": 1045301,
+    "cardNumber_*string": "2345678901234567",
+    "description_*string": "External Transfer",
+    "requestSubType_*string": "Bill Payment",
+    "requestType_*string": "Transaction",
+    "serviceType_*string": "Banking",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountName_*string": "Robert Smith",
+    "accountNumber_*string": "1042347",
+    "customerId_*number": 1045302,
+    "cardNumber_*string": "3456789012345678",
+    "description_*string": "Account Closure",
+    "requestSubType_*string": "Account Management",
+    "requestType_*string": "Administration",
+    "serviceType_*string": "Banking",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "accountName_*string": "Alice Johnson",
+    "accountNumber_*string": "1042348",
+    "customerId_*number": 1045303,
+    "cardNumber_*string": "4567890123456789",
+    "description_*string": "Account Opening",
+    "requestSubType_*string": "Account Management",
+    "requestType_*string": "Administration",
+    "serviceType_*string": "Banking",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountName_*string": "Charlie Brown",
+    "accountNumber_*string": "1042349",
+    "customerId_*number": 1045304,
+    "cardNumber_*string": "5678901234567890",
+    "description_*string": "Loan Application",
+    "requestSubType_*string": "Loan Services",
+    "requestType_*string": "Application",
+    "serviceType_*string": "Banking",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

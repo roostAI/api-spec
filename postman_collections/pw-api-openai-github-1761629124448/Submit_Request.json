@@ -1,0 +1,27 @@
+[
+  {
+    "value_object": "{\"err\":{\"message\":\"Successful operation\"}}",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "value_object": "{\"err\":{\"message\":\"Error: Authorisation failed.\"}}",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "value_object": "{\"err\":{\"message\":\"Error: Not Found\"}}",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "value_object": "{\"err\":{\"message\":\"Random Error Message\"}}",
+    "statusCode": 500,
+    "scenario": "Server Error"
+  },
+  {
+    "value_object": "{\"err\":{\"message\":\"Another Random Error Message\"}}",
+    "statusCode": 503,
+    "scenario": "Service Unavailable"
+  }
+]
