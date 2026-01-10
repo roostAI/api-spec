@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+usr1^|^bot123^|^acc001^|^Auth456^|^{"type":"request","value":"Initiate"}^|^200^|^Bearer 123abc
+usr2^|^bot456^|^acc002^|^Auth789^|^{"type":"request","value":"Continue"}^|^401^|^Bearer def456
+usr3^|^bot789^|^acc003^|^Auth111^|^{"type":"request","value":"Terminate"}^|^404^|^Bearer ghi789
+usr4^|^bot321^|^acc004^|^Auth222^|^{"type":"request","value":"Stop"}^|^200^|^Bearer jkl321
+usr5^|^bot654^|^acc005^|^Auth333^|^{"type":"request","value":"Resume"}^|^401^|^Bearer mno654
+usr6^|^bot987^|^acc006^|^Auth444^|^{"type":"request","value":"Pause"}^|^404^|^Bearer pqr987
+usr7^|^bot135^|^acc007^|^Auth555^|^{"type":"request","value":"Start"}^|^200^|^Bearer stu135
+usr8^|^bot246^|^acc008^|^Auth666^|^{"type":"request","value":"End"}^|^401^|^Bearer vwx246
+usr9^|^bot258^|^acc009^|^Auth777^|^{"type":"request","value":"Hold"}^|^404^|^Bearer yza258
+usr10^|^bot369^|^acc010^|^Auth888^|^{"type":"request","value":"Release"}^|^200^|^Bearer bcd369
