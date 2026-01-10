@@ -1,0 +1,6 @@
+accountNumber,customerId,numOfTransactions,status,startDate,endDate,type,value,amount1,currency,category,debitOrCredit,statusCode,scenario
+1042345,1045300,10,"sint esse","2022-01-01","2022-01-31","exercitation","string",-39611004.46409147,"USD","sit dolore","commodo",200,successful operation
+"do",53449552.38813701,15,"sint esse","2022-02-01","2022-02-28","exercitation","string",-39611004.46409147,"sed ut in","sit dolore","commodo",200,successful operation
+"do",53449552.38813701,20,"sint esse","2022-03-01","2022-03-31","exercitation","string",-39611004.46409147,"sed ut in","sit dolore","commodo",200,successful operation
+1042345,1045300,25,"sint esse","2022-04-01","2022-04-30","exercitation","string",-39611004.46409147,"USD","sit dolore","commodo",200,successful operation
+"do",53449552.38813701,30,"sint esse","2022-05-01","2022-05-31","exercitation","string",-39611004.46409147,"sed ut in","sit dolore","commodo",200,successful operation
