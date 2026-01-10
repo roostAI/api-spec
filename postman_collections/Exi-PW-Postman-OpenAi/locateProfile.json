@@ -1,0 +1,42 @@
+[
+  {
+    "accountNumber_*string": "1042345",
+    "customerId_*string": "1045300",
+    "ssNumber_*string": "123-45-6789",
+    "ssnShort_*string": "6789",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountNumber_*string": "invalid_account",
+    "customerId_*string": "invalid_customer",
+    "ssNumber_*string": "invalid_ssn",
+    "ssnShort_*string": "invalid_short_ssn",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountNumber_*string": "nonexistent_account",
+    "customerId_*string": "nonexistent_customer",
+    "ssNumber_*string": "nonexistent_ssn",
+    "ssnShort_*string": "nonexistent_short_ssn",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "accountNumber_*string": "1042346",
+    "customerId_*string": "1045301",
+    "ssNumber_*string": "987-65-4321",
+    "ssnShort_*string": "4321",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountNumber_*string": "1042347",
+    "customerId_*string": "1045302",
+    "ssNumber_*string": "111-22-3333",
+    "ssnShort_*string": "3333",
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]

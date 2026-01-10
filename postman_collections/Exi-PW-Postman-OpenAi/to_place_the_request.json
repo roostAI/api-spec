@@ -1,0 +1,62 @@
+[
+  {
+    "accountName_*string": "John Doe",
+    "accountNumber_*string": "1042345",
+    "customerId_*number": 1045300,
+    "cardNumber_*string": "1234-5678-9012-3456",
+    "description_*string": "Internal Transfer",
+    "requestSubType_*string": "Transfer",
+    "requestType_*string": "Banking",
+    "serviceType_*string": "Online",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountName_*string": "Jane Smith",
+    "accountNumber_*string": "9876543",
+    "customerId_*number": 2045301,
+    "cardNumber_*string": "6543-2109-8765-4321",
+    "description_*string": "External Payment",
+    "requestSubType_*string": "Payment",
+    "requestType_*string": "Finance",
+    "serviceType_*string": "Mobile",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountName_*string": "Alice Johnson",
+    "accountNumber_*string": "1122334",
+    "customerId_*number": 3045302,
+    "cardNumber_*string": "1111-2222-3333-4444",
+    "description_*string": "Bill Payment",
+    "requestSubType_*string": "Billing",
+    "requestType_*string": "Utility",
+    "serviceType_*string": "Web",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "accountName_*string": "Bob Brown",
+    "accountNumber_*string": "5566778",
+    "customerId_*number": 4045303,
+    "cardNumber_*string": "5555-6666-7777-8888",
+    "description_*string": "Loan Payment",
+    "requestSubType_*string": "Loan",
+    "requestType_*string": "Credit",
+    "serviceType_*string": "Branch",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountName_*string": "Charlie Green",
+    "accountNumber_*string": "9988776",
+    "customerId_*number": 5045304,
+    "cardNumber_*string": "9999-8888-7777-6666",
+    "description_*string": "Account Opening",
+    "requestSubType_*string": "Account",
+    "requestType_*string": "New Account",
+    "serviceType_*string": "In-Person",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
