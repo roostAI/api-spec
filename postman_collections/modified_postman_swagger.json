@@ -1,0 +1,1244 @@
+{
+  "item": [
+    {
+      "id": "dfe6ca50-dc58-4cb6-8403-28b5fa3c74e9",
+      "name": "Submit Request",
+      "request": {
+        "name": "Submit Request",
+        "description": {
+          "content": "Meta API request",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "submitRequest"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "disabled": false,
+            "key": "koreUserId",
+            "value": "{{koreUserId}}",
+            "description": ""
+          },
+          {
+            "disabled": false,
+            "key": "botId",
+            "value": "{{botId}}",
+            "description": ""
+          },
+          {
+            "disabled": false,
+            "key": "accountId",
+            "value": "{{accountId}}",
+            "description": ""
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "POST",
+        "auth": null,
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": [
+        {
+          "id": "432553fc-ae3d-4b24-b9e5-dfdf20c26e15",
+          "name": "successful operation",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "submitRequest"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "botId",
+                "value": "{{botId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "accountId",
+                "value": "{{accountId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "Authorization",
+                "value": "{{Authorization}}",
+                "description": ""
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain"
+            }
+          ],
+          "body": "",
+          "cookie": [],
+          "_postman_previewlanguage": "text"
+        },
+        {
+          "id": "18b2a36f-5b28-4049-a6ab-d167239979d9",
+          "name": "Error: Authorisation failed.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "submitRequest"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "botId",
+                "value": "{{botId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "accountId",
+                "value": "{{accountId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "Authorization",
+                "value": "{{Authorization}}",
+                "description": ""
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"err\": {\n    \"message\": \"ea sed magna Ut ut\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "dcb341cf-42e8-48c8-8c14-450d48a4f30d",
+          "name": "Error: Not Found",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "submitRequest"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "botId",
+                "value": "{{botId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "accountId",
+                "value": "{{accountId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "Authorization",
+                "value": "{{Authorization}}",
+                "description": ""
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"err\": {\n    \"message\": \"ea sed magna Ut ut\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test pw-test-1747119315184 using AI Type Open AI and AI Model gpt-4\n\n\nTest generated for submitRequest for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 200){\n    pm.test(\"successful operation\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"OK\");\n      });\n\n    }\n\nif (pm.response.code == 401){\n    pm.test(\"Error: Authorisation failed.\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `err` field',function(){\n            pm.expect(responseData.err).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.err).to.eql(JSON.parse(pm.request.body).err);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 404){\n    pm.test(\"Error: Not Found\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Found\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `err` field',function(){\n            pm.expect(responseData.err).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.err).to.eql(JSON.parse(pm.request.body).err);\n\n          })\n\n          });\n\n        }\n"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "bfe95ae3-9326-4567-bc7e-fe34032b7b5e",
+      "name": "AuthToken",
+      "request": {
+        "name": "AuthToken",
+        "description": {
+          "content": "Get authentication token",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "authToken"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "disabled": false,
+            "key": "koreUserId",
+            "value": "{{koreUserId}}",
+            "description": ""
+          },
+          {
+            "disabled": false,
+            "key": "botId",
+            "value": "{{botId}}",
+            "description": ""
+          },
+          {
+            "disabled": false,
+            "key": "accountId",
+            "value": "{{accountId}}",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "POST",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "a7d7ae3d-0357-4078-b5dd-9824500969d3",
+          "name": "successful login",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "authToken"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "botId",
+                "value": "{{botId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "accountId",
+                "value": "{{accountId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"token\": \"token\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "0d12ef4b-1939-4504-93b6-0cce0aaef990",
+          "name": "Error: Authorisation failed.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "authToken"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "botId",
+                "value": "{{botId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "accountId",
+                "value": "{{accountId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {}
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"err\": {\n    \"message\": \"ea sed magna Ut ut\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "fcc2a637-c342-4d30-a32c-eaf9ef0eac58",
+          "name": "Error: Not Found",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "authToken"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "botId",
+                "value": "{{botId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "accountId",
+                "value": "{{accountId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {}
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"err\": {\n    \"message\": \"ea sed magna Ut ut\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test pw-test-1747119315184 using AI Type Open AI and AI Model gpt-4\n\n\nTest generated for authToken for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 200){\n    pm.test(\"successful login\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"OK\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `token` field',function(){\n            pm.expect(responseData.token).to.exist.and.to.be.a(\"string\");\n          pm.expect(responseData.token).to.eql(JSON.parse(pm.request.body).token);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 401){\n    pm.test(\"Error: Authorisation failed.\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `err` field',function(){\n            pm.expect(responseData.err).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.err).to.eql(JSON.parse(pm.request.body).err);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 404){\n    pm.test(\"Error: Not Found\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Found\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `err` field',function(){\n            pm.expect(responseData.err).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.err).to.eql(JSON.parse(pm.request.body).err);\n\n          })\n\n          });\n\n        }\n"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "ea4c6874-3c37-4eb3-b2ef-ff0abbd04bab",
+      "name": "Deposit",
+      "request": {
+        "name": "Deposit",
+        "description": {
+          "content": "Deposit amount to customer's account",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "deposit"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "disabled": false,
+            "key": "koreUserId",
+            "value": "{{koreUserId}}",
+            "description": ""
+          },
+          {
+            "disabled": false,
+            "description": "(Required) ",
+            "key": "botId",
+            "value": "{{botId}}"
+          },
+          {
+            "disabled": false,
+            "description": "(Required) ",
+            "key": "accountId",
+            "value": "{{accountId}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "POST",
+        "auth": null,
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"customerId\": \"{{customerId}}\",\n    \"sourceAccountId\": \"{{sourceAccountId}}\",\n    \"amount\": \"{{amount}}\",\n    \"currency\": \"{{currency}}\",\n    \"image\": {\n        \"frontImage\": \"{{frontImage}}\",\n        \"backImage\": \"{{backImage}}\"\n    }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": [
+        {
+          "id": "bbd2eea2-3863-4b17-be17-9d142445e1df",
+          "name": "Deposit success",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "deposit"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "botId",
+                "value": "{{botId}}"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "accountId",
+                "value": "{{accountId}}"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"customerId\": \"{{customerId}}\",\n    \"sourceAccountId\": \"{{sourceAccountId}}\",\n    \"amount\": \"{{amount}}\",\n    \"currency\": \"{{currency}}\",\n    \"image\": {\n        \"frontImage\": \"{{frontImage}}\",\n        \"backImage\": \"{{backImage}}\"\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain"
+            }
+          ],
+          "body": "",
+          "cookie": [],
+          "_postman_previewlanguage": "text"
+        },
+        {
+          "id": "d67c7619-206c-4f86-831a-d4149f6eb2a7",
+          "name": "Error: Authorisation failed.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "deposit"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "botId",
+                "value": "{{botId}}"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "accountId",
+                "value": "{{accountId}}"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"customerId\": \"{{customerId}}\",\n    \"sourceAccountId\": \"{{sourceAccountId}}\",\n    \"amount\": \"{{amount}}\",\n    \"currency\": \"{{currency}}\",\n    \"image\": {\n        \"frontImage\": \"{{frontImage}}\",\n        \"backImage\": \"{{backImage}}\"\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"err\": {\n    \"message\": \"ea sed magna Ut ut\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "ffa29d79-9ded-47a6-bca9-6c080eb1b2a6",
+          "name": "Error: Not Found",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "deposit"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "botId",
+                "value": "{{botId}}"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "accountId",
+                "value": "{{accountId}}"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"customerId\": \"{{customerId}}\",\n    \"sourceAccountId\": \"{{sourceAccountId}}\",\n    \"amount\": \"{{amount}}\",\n    \"currency\": \"{{currency}}\",\n    \"image\": {\n        \"frontImage\": \"{{frontImage}}\",\n        \"backImage\": \"{{backImage}}\"\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"err\": {\n    \"message\": \"ea sed magna Ut ut\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test pw-test-1747119315184 using AI Type Open AI and AI Model gpt-4\n\n\nTest generated for deposit for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 200){\n    pm.test(\"Deposit success\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"OK\");\n      });\n\n    }\n\nif (pm.response.code == 401){\n    pm.test(\"Error: Authorisation failed.\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `err` field',function(){\n            pm.expect(responseData.err).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.err).to.eql(JSON.parse(pm.request.body).err);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 404){\n    pm.test(\"Error: Not Found\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Found\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `err` field',function(){\n            pm.expect(responseData.err).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.err).to.eql(JSON.parse(pm.request.body).err);\n\n          })\n\n          });\n\n        }\n"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "e56918ac-d453-4330-9b2b-2bb9f6ea2994",
+      "name": "GetAccountInfo",
+      "request": {
+        "name": "GetAccountInfo",
+        "description": {
+          "content": "fetch customer account details",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "GetAccountInfo"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "disabled": false,
+            "key": "koreUserId",
+            "value": "{{koreUserId}}",
+            "description": ""
+          },
+          {
+            "disabled": false,
+            "description": "(Required) ",
+            "key": "botId",
+            "value": "{{botId}}"
+          },
+          {
+            "disabled": false,
+            "description": "(Required) ",
+            "key": "accountId",
+            "value": "{{accountId}}"
+          },
+          {
+            "disabled": false,
+            "key": "X_Auth_token",
+            "value": "{{X_Auth_token}}",
+            "description": ""
+          },
+          {
+            "disabled": false,
+            "key": "X_CORRELATION_ID",
+            "value": "{{X_CORRELATION_ID}}",
+            "description": ""
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "POST",
+        "auth": null,
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"customerId\": \"{{customerId}}\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": [
+        {
+          "id": "ef883c1b-8ceb-4526-98d2-eaa29c0f3055",
+          "name": "successful operation",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "GetAccountInfo"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "botId",
+                "value": "{{botId}}"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "accountId",
+                "value": "{{accountId}}"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "X_Auth_token",
+                "value": "{{X_Auth_token}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "X_CORRELATION_ID",
+                "value": "{{X_CORRELATION_ID}}",
+                "description": ""
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"customerId\": \"{{customerId}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"customerId\": -97312038.3315877,\n  \"accounts\": [\n    {\n      \"customerId\": -6607856.454704568,\n      \"accountName\": \"enim sint ut cupidatat\",\n      \"accountNickname\": \"dolor magna officia\",\n      \"accountNumber\": \"officia Lorem nulla dolor\",\n      \"accountType\": \"qui occaecat\",\n      \"activatedDate\": \"velit cupidatat ad reprehenderit eu\",\n      \"availableBalance\": 29557554.168714613,\n      \"availableCash\": -65161465.68161769,\n      \"availableCashLimit\": -24497766.991792336,\n      \"availableCredit\": 33738503.527658105,\n      \"bankName\": \"dolor consequat sint\",\n      \"branchName\": \"Duis\",\n      \"cardName\": \"mollit culpa ipsum\",\n      \"cardNumber\": \"ea sed\",\n      \"cardStatus\": \"nisi incididunt qui Lorem\",\n      \"cardType\": \"magna aliquip culpa in\",\n      \"creditLimit\": 91776394.51266074,\n      \"currency\": \"dolore esse laboris exercitation\",\n      \"currentBalance\": -58933651.23364194,\n      \"deactivatedDate\": \"non ad reprehenderit eiusmod fugiat\",\n      \"dueAmount\": 37552386.557592005,\n      \"dueDate\": \"culpa \",\n      \"earlyWithdrawalPenalty\": 77927776.15375027,\n      \"email\": \"enim deserunt nisi\",\n      \"expDate\": \"aliqua Excepteur sit officia\",\n      \"fdType\": \"s\",\n      \"image\": \"eu labore\",\n      \"interestRate\": 56592555.04510689,\n      \"internalTransferFromEnabled\": true,\n      \"internalTransferToEnabled\": true,\n      \"isPrimaryMobile\": false,\n      \"isAlternateMobileNumber\": false,\n      \"isStatement\": false,\n      \"lastDrawDate\": \"officia consequat enim dolor laborum\",\n      \"loanMaturityDate\": \"Ut commodo reprehenderit qui\",\n      \"loanOriginationDate\": \"culpa aliqua irure mollit\",\n      \"location\": \"sunt\",\n      \"lastUpdated\": \"in est cillum incididunt\",\n      \"maxTransactionLimit\": \"eu ut\",\n      \"maturityDate\": \"id ipsum quis esse\",\n      \"minimumPaymentDue\": \"id laboris\",\n      \"minimumBalance\": \"consequat adipisicing enim\",\n      \"monthlyPayment\": -61933448.40902899,\n      \"openingBalance\": 189798.0978704989,\n      \"originalLoanAmount\": 70279625.5705052,\n      \"P2PLimit\": -82528557.07324418,\n      \"p2pEnabled\": -74630322.66500437,\n      \"paybillEnabled\": true,\n      \"payoffAmount\": -89192054.31305236,\n      \"personalBankerName\": \"sit consec\",\n      \"personalBankerContact\": {\n        \"email\": \"aut\",\n        \"mobileNumber\": \"culpa\"\n      },\n      \"phone\": 32501477.05451782,\n      \"postedBalance\": -38346610.9076549,\n      \"principalBalance\": \"nulla aliqua dolor\",\n      \"productCode\": \"anim magna culpa\",\n      \"productName\": \"eiusmod laborum\",\n      \"propertyAddress\": \"id minim sit\",\n      \"rewardPoints\": \"officia ut ullamco\",\n      \"routingNumber\": \"sunt veniam\",\n      \"statementDate\": \"pariatur nostrud Ut incididunt\",\n      \"status\": \"tempor ullamco cupidatat et\",\n      \"swiftCode\": \"nostrud\",\n      \"totalBalance\": 82727897.86925921,\n      \"unbilledAmount\": 52301124.626178384,\n      \"valueAtMaturity\": 13415444.139378384,\n      \"holdAmount\": -29898476.501423314,\n      \"unclearFundsAmount\": 14610680.56591697,\n      \"averageMonthlyBalance\": -94103068.33304869,\n      \"netWithdrawableBalance\": 77375179.88999608,\n      \"totalTenure\": \"culpa exercitation\",\n      \"remainingTenure\": \"ad qu\",\n      \"debitAccountNumber\": \"nostrud dolor ea in\",\n      \"lateFee\": -48137561.93974061,\n      \"bounceCharge\": -13737946.319295615,\n      \"totalCharges\": 12757401.697134703,\n      \"overDueAmount\": 21230610.765779406,\n      \"cardDetails\": [\n        {\n          \"cardName\": \"sint pa\",\n          \"cardNumber\": \"pariatur aliquip Excepteur ut\",\n          \"cardStatus\": \"labore sunt nulla\",\n          \"cardImage\": \"aute in quis non\",\n          \"cardType\": \"quis ea eu\",\n          \"expDate\": \"ullamco sint reprehenderit Ut\",\n          \"displayCardStatus\": \"voluptate nostrud\",\n          \"primaryCard\": \"amet veniam sit dolore\",\n          \"cardChannelInfo\": {\n            \"ATM\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            },\n            \"offline\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            },\n            \"international\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            },\n            \"online\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            },\n            \"contactless\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            }\n          },\n          \"cardRestrictions\": {\n            \"countries\": [\n              {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            ],\n            \"MCC\": [\n              {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            ]\n          },\n          \"blockReason\": \"in sunt aliqua Lorem\",\n          \"nameOnCard\": \"eu nostrud\",\n          \"cardNetwork\": \"ullamco aute\",\n          \"autopay\": {\n            \"enabled\": true,\n            \"sourceAccountId\": \"adipisicing exercitation sint occaecat\",\n            \"paymentType\": \"nostrud sint culpa\",\n            \"onStatementDate\": false,\n            \"dayOfMonth\": \"sed pariatur amet\"\n          },\n          \"dueAmount\": 40764123.42482048,\n          \"dueDate\": \"non\",\n          \"minimumPaymentDue\": -18407498.7765114,\n          \"partialPaymentPaid\": 67854428.96331936\n        },\n        {\n          \"cardName\": \"reprehenderit\",\n          \"cardNumber\": \"nulla Lorem veniam mollit\",\n          \"cardStatus\": \"laborum sed in\",\n          \"cardImage\": \"aliqua culpa\",\n          \"cardType\": \"proident\",\n          \"expDate\": \"dolor\",\n          \"displayCardStatus\": \"sed amet deserunt qui laboris\",\n          \"primaryCard\": \"non\",\n          \"cardChannelInfo\": {\n            \"ATM\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            },\n            \"offline\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            },\n            \"international\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            },\n            \"online\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            },\n            \"contactless\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            }\n          },\n          \"cardRestrictions\": {\n            \"countries\": [\n              {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            ],\n            \"MCC\": [\n              {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            ]\n          },\n          \"blockReason\": \"in ut ad voluptate officia\",\n          \"nameOnCard\": \"est voluptate\",\n          \"cardNetwork\": \"minim reprehenderit ad do\",\n          \"autopay\": {\n            \"enabled\": false,\n            \"sourceAccountId\": \"Excepteur\",\n            \"paymentType\": \"eiusmod velit sed\",\n            \"onStatementDate\": false,\n            \"dayOfMonth\": \"nisi reprehenderit dolor\"\n          },\n          \"dueAmount\": -34513637.19307356,\n          \"dueDate\": \"tempor in in elit\",\n          \"minimumPaymentDue\": 7498484.1604727805,\n          \"partialPaymentPaid\": -44300264.36815173\n        }\n      ],\n      \"IsCrossAccount\": false\n    },\n    {\n      \"customerId\": -71830534.11745672,\n      \"accountName\": \"est amet qui\",\n      \"accountNickname\": \"Lorem aliquip exercitat\",\n      \"accountNumber\": \"voluptate sint\",\n      \"accountType\": \"consequat aliqua\",\n      \"activatedDate\": \"culpa quis minim dolor\",\n      \"availableBalance\": -14000190.986156762,\n      \"availableCash\": 22089739.41554597,\n      \"availableCashLimit\": 97045442.8920084,\n      \"availableCredit\": 59615100.97938144,\n      \"bankName\": \"labore\",\n      \"branchName\": \"voluptate deserunt Excepteur\",\n      \"cardName\": \"exercitation cillum dolor esse\",\n      \"cardNumber\": \"nostrud nulla in dolore\",\n      \"cardStatus\": \"reprehenderit irure Lorem\",\n      \"cardType\": \"est cupidatat velit\",\n      \"creditLimit\": 55247923.37073019,\n      \"currency\": \"in reprehenderit\",\n      \"currentBalance\": 64868985.21614233,\n      \"deactivatedDate\": \"sunt\",\n      \"dueAmount\": 42308957.72989595,\n      \"dueDate\": \"enim magna\",\n      \"earlyWithdrawalPenalty\": -45029536.871199,\n      \"email\": \"ad non cillum\",\n      \"expDate\": \"tempor dolore magna est ea\",\n      \"fdType\": \"Ut enim tempor\",\n      \"image\": \"reprehenderit velit\",\n      \"interestRate\": -86205288.75262208,\n      \"internalTransferFromEnabled\": true,\n      \"internalTransferToEnabled\": true,\n      \"isPrimaryMobile\": true,\n      \"isAlternateMobileNumber\": true,\n      \"isStatement\": true,\n      \"lastDrawDate\": \"do in eu\",\n      \"loanMaturityDate\": \"ea ut\",\n      \"loanOriginationDate\": \"sunt labore ut ullamco et\",\n      \"location\": \"aliquip quis Excepteur\",\n      \"lastUpdated\": \"velit dolor officia mollit\",\n      \"maxTransactionLimit\": \"sit labore commodo Ut\",\n      \"maturityDate\": \"anim Ut\",\n      \"minimumPaymentDue\": \"dolore irure\",\n      \"minimumBalance\": \"proident\",\n      \"monthlyPayment\": -86000853.31609355,\n      \"openingBalance\": -77303636.34695059,\n      \"originalLoanAmount\": 39136615.50281641,\n      \"P2PLimit\": 84472651.70628837,\n      \"p2pEnabled\": 71901425.8170625,\n      \"paybillEnabled\": false,\n      \"payoffAmount\": 71838742.86716887,\n      \"personalBankerName\": \"nisi fugiat\",\n      \"personalBankerContact\": {\n        \"email\": \"veniam\",\n        \"mobileNumber\": \"officia quis eu\"\n      },\n      \"phone\": 93382055.90520269,\n      \"postedBalance\": -32946268.022660166,\n      \"principalBalance\": \"veniam aliquip minim\",\n      \"productCode\": \"Duis tempor amet sint proident\",\n      \"productName\": \"eiusmod irure cupidatat\",\n      \"propertyAddress\": \"quis\",\n      \"rewardPoints\": \"ullamco nostrud sed\",\n      \"routingNumber\": \"eiusmod id elit\",\n      \"statementDate\": \"Duis Excepteur laboris\",\n      \"status\": \"Excepteur\",\n      \"swiftCode\": \"consec\",\n      \"totalBalance\": -71539052.7141809,\n      \"unbilledAmount\": 32380125.142387643,\n      \"valueAtMaturity\": 85506309.21996531,\n      \"holdAmount\": 93134887.4691714,\n      \"unclearFundsAmount\": -44280755.53949391,\n      \"averageMonthlyBalance\": 36050184.386787534,\n      \"netWithdrawableBalance\": 15453859.7970161,\n      \"totalTenure\": \"veniam nulla\",\n      \"remainingTenure\": \"quis amet est v\",\n      \"debitAccountNumber\": \"fugiat est nulla occaecat Lorem\",\n      \"lateFee\": 2194991.6483031064,\n      \"bounceCharge\": -76899171.60611156,\n      \"totalCharges\": -85573747.46923813,\n      \"overDueAmount\": -1898044.610776633,\n      \"cardDetails\": [\n        {\n          \"cardName\": \"occaecat\",\n          \"cardNumber\": \"aliqua ea ci\",\n          \"cardStatus\": \"Excepteur ut\",\n          \"cardImage\": \"dolore id in qui\",\n          \"cardType\": \"sint occaecat dolore Excepteur dolor\",\n          \"expDate\": \"fugiat anim\",\n          \"displayCardStatus\": \"n\",\n          \"primaryCard\": \"ut dolor amet dolore irure\",\n          \"cardChannelInfo\": {\n            \"ATM\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            },\n            \"offline\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            },\n            \"international\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            },\n            \"online\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            },\n            \"contactless\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            }\n          },\n          \"cardRestrictions\": {\n            \"countries\": [\n              {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            ],\n            \"MCC\": [\n              {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            ]\n          },\n          \"blockReason\": \"elit non\",\n          \"nameOnCard\": \"sed adipisicing eiusmod\",\n          \"cardNetwork\": \"exercitation\",\n          \"autopay\": {\n            \"enabled\": false,\n            \"sourceAccountId\": \"tempor Ut sint\",\n            \"paymentType\": \"dolore est sunt\",\n            \"onStatementDate\": false,\n            \"dayOfMonth\": \"incididunt dolor in nulla\"\n          },\n          \"dueAmount\": 30179491.9372849,\n          \"dueDate\": \"sint\",\n          \"minimumPaymentDue\": -21698688.678003505,\n          \"partialPaymentPaid\": -97329150.64451522\n        },\n        {\n          \"cardName\": \"fu\",\n          \"cardNumber\": \"p\",\n          \"cardStatus\": \"qui sed eiusmod\",\n          \"cardImage\": \"sint sed nostrud aliqua\",\n          \"cardType\": \"in pariatur aliqua\",\n          \"expDate\": \"est reprehenderit in\",\n          \"displayCardStatus\": \"anim ad pariatur qui\",\n          \"primaryCard\": \"et\",\n          \"cardChannelInfo\": {\n            \"ATM\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            },\n            \"offline\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            },\n            \"international\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            },\n            \"online\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            },\n            \"contactless\": {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            }\n          },\n          \"cardRestrictions\": {\n            \"countries\": [\n              {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            ],\n            \"MCC\": [\n              {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            ]\n          },\n          \"blockReason\": \"commodo\",\n          \"nameOnCard\": \"consectetur pariatur nisi dolor velit\",\n          \"cardNetwork\": \"qui enim laboris eiusmod\",\n          \"autopay\": {\n            \"enabled\": false,\n            \"sourceAccountId\": \"cupidatat Excepteur\",\n            \"paymentType\": \"veniam voluptate adipisicing\",\n            \"onStatementDate\": true,\n            \"dayOfMonth\": \"Ut aliquip adipisicing dolore\"\n          },\n          \"dueAmount\": -91880061.5768117,\n          \"dueDate\": \"Excepteur\",\n          \"minimumPaymentDue\": -22257875.92187856,\n          \"partialPaymentPaid\": 32327228.200627103\n        }\n      ],\n      \"IsCrossAccount\": false\n    }\n  ]\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "80c02b33-7f72-4f3e-b677-8f1aa820ffc3",
+          "name": "Error: Authorisation failed.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "GetAccountInfo"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "botId",
+                "value": "{{botId}}"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "accountId",
+                "value": "{{accountId}}"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "X_Auth_token",
+                "value": "{{X_Auth_token}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "X_CORRELATION_ID",
+                "value": "{{X_CORRELATION_ID}}",
+                "description": ""
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"customerId\": \"{{customerId}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"err\": {\n    \"message\": \"ea sed magna Ut ut\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "670b7a04-b621-4d02-91a4-e6310c19d2fc",
+          "name": "Error: Not Found",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "GetAccountInfo"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "botId",
+                "value": "{{botId}}"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "accountId",
+                "value": "{{accountId}}"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "X_Auth_token",
+                "value": "{{X_Auth_token}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "X_CORRELATION_ID",
+                "value": "{{X_CORRELATION_ID}}",
+                "description": ""
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"customerId\": \"{{customerId}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"err\": {\n    \"message\": \"ea sed magna Ut ut\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test pw-test-1747119315184 using AI Type Open AI and AI Model gpt-4\n\n\nTest generated for GetAccountInfo for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 200){\n    pm.test(\"successful operation\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"OK\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `customerId` field',function(){\n            pm.expect(responseData.customerId).to.exist.and.to.be.a(\"number\");\n          pm.expect(responseData.customerId).to.eql(JSON.parse(pm.request.body).customerId);\n\n          })\n\n          pm.test('Response has the `accounts` field',function(){\n            pm.expect(responseData.accounts).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.accounts).to.eql(JSON.parse(pm.request.body).accounts);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 401){\n    pm.test(\"Error: Authorisation failed.\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `err` field',function(){\n            pm.expect(responseData.err).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.err).to.eql(JSON.parse(pm.request.body).err);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 404){\n    pm.test(\"Error: Not Found\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Found\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `err` field',function(){\n            pm.expect(responseData.err).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.err).to.eql(JSON.parse(pm.request.body).err);\n\n          })\n\n          });\n\n        }\n"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}
