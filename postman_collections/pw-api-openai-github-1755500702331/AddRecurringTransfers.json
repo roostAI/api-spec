@@ -1,0 +1,50 @@
+[
+  {
+    "amount_*number": 5000,
+    "currency_*string": "USD",
+    "customerId_*number": 1045300,
+    "sourceAccountId_*string": "1042345",
+    "targetAccountId_*string": "1042222",
+    "status_*string": "completed",
+    "scheduledDate_*number": 20220222,
+    "recurringOptions.amountType_*string": "fixed",
+    "recurringOptions.frequency.iterate_*string": "monthly",
+    "recurringOptions.frequency.duration.untilStop_*string": "no",
+    "recurringOptions.frequency.duration.untilDate_*number": 20231231,
+    "recurringOptions.frequency.duration.numberOfTransfers_*number": 12,
+    "statusCode": 200,
+    "scenario": "schedule transfer added successfully"
+  },
+  {
+    "amount_*number": 10000,
+    "currency_*string": "EUR",
+    "customerId_*number": 1045301,
+    "sourceAccountId_*string": "1042346",
+    "targetAccountId_*string": "1042223",
+    "status_*string": "pending",
+    "scheduledDate_*number": 20220301,
+    "recurringOptions.amountType_*string": "variable",
+    "recurringOptions.frequency.iterate_*string": "weekly",
+    "recurringOptions.frequency.duration.untilStop_*string": "yes",
+    "recurringOptions.frequency.duration.untilDate_*number": 0,
+    "recurringOptions.frequency.duration.numberOfTransfers_*number": 52,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "amount_*number": 15000,
+    "currency_*string": "GBP",
+    "customerId_*number": 1045302,
+    "sourceAccountId_*string": "1042347",
+    "targetAccountId_*string": "1042224",
+    "status_*string": "failed",
+    "scheduledDate_*number": 20220401,
+    "recurringOptions.amountType_*string": "fixed",
+    "recurringOptions.frequency.iterate_*string": "daily",
+    "recurringOptions.frequency.duration.untilStop_*string": "no",
+    "recurringOptions.frequency.duration.untilDate_*number": 20230401,
+    "recurringOptions.frequency.duration.numberOfTransfers_*number": 365,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
