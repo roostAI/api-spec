@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^X_Auth_token^|^X_CORRELATION_ID^|^RequestBody^|^statusCode^|^bearer
+user1^|^bot123^|^account567^|^Auth-Key-xyz^|^abcd1234^|^1^|^{"customerId":1234}^|^200^|^Bearer-token1
+user2^|^bot456^|^account890^|^Auth-Key-abc^|^efgh5678^|^2^|^{"customerId":5678}^|^401^|^Bearer-token2
+user3^|^bot789^|^account123^|^Auth-Key-def^|^ijkl9012^|^3^|^{"customerId":9012}^|^404^|^Bearer-token3
+user4^|^bot321^|^account456^|^Auth-Key-ghi^|^mnop3456^|^4^|^{"customerId":3456}^|^200^|^Bearer-token4
+user5^|^bot654^|^account789^|^Auth-Key-jkl^|^qrst7890^|^5^|^{"customerId":7890}^|^401^|^Bearer-token5
+user6^|^bot987^|^account321^|^Auth-Key-mno^|^uvwx1234^|^6^|^{"customerId":1234}^|^404^|^Bearer-token6
+user7^|^bot135^|^account642^|^Auth-Key-pqr^|^yzab5678^|^7^|^{"customerId":5678}^|^200^|^Bearer-token7
+user8^|^bot246^|^account753^|^Auth-Key-stu^|^cdef9012^|^8^|^{"customerId":9012}^|^401^|^Bearer-token8
+user9^|^bot357^|^account864^|^Auth-Key-vwx^|^ghij3456^|^9^|^{"customerId":3456}^|^404^|^Bearer-token9
+user10^|^bot468^|^account975^|^Auth-Key-xyz^|^klmn7890^|^10^|^{"customerId":7890}^|^200^|^Bearer-token10
