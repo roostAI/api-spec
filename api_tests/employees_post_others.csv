@@ -1,0 +1,13 @@
+id^|^jobTitle^|^name^|^email^|^statusCode^|^scenario
+1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d^|^Software Engineer^|^Alice Wonderland^|^alice.w@example.com^|^Active^|^Onboarding
+not-a-uuid^|^Marketing Manager^|^Bob The Builder^|^bob@invalid^|^Pending^|^Offboarding
+f8e7d6c5-b4a3-2c1b-0a98-76543210fedc^|^System Analyst^|^Charlie O'Conner^|^charlie.o@corp.net^|^TRUE^|^Promotion
+0a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5d^|^Data Scientist^|^Diana Prince^|^diana@.com^|^Active^|^ 
+12345^|^54321^|^Null Name^|^bad-email^|^789^|^no_scenario_here
+ ^|^HR Generalist^|^Eve Adams^|^eve.a@domain.com^|^Inactive^|^Review
+b1c2d3e4-f5a6-7b8c-9d0e-1f2a3b4c5d6e^|^Project Manager^|^Frank 'The Tank'^|^frank.t@project.org^|^Active^|^Planning
+c2d3e4f5-a6b7-c8d9-e0f1-a2b3c4d5e6f7^|^HR Specialist^|^123456789^|^hr@domain^|^Pending^|^Hiring
+shortid^|^Accountant^|^Grace Hopper^|^very.long.and.invalid.email.address.that.exceeds.typical.limits@domain.com.with.more.text^|^Active^|^Finance
+d3e4f5a6-b7c8-d9e0-f1a2-b3c4d5e6f7a8^|^Customer Support^|^Henry Smith^|^ ^|^On Hold^|^Support
+987654321^|^Dev^|^Ivy Green^|^ivy.g@devco.io^|^Active^|^Development
+e4f5a6b7-c8d9-e0f1-a2b3-c4d5e6f7a8b9^|^100^|^ ^|^leo.k@test.com^|^Not_A_Real_Status^|^Testing
