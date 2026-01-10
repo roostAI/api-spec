@@ -1,0 +1,47 @@
+[
+  {
+    "customerId": 84082453,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "SAV123456789",
+      "cardNumber": "1234567890123456"
+    },
+    "accountInfo_1": {
+      "accountType": "Checking",
+      "accountNumber": "CHK987654321",
+      "cardNumber": "6543210987654321"
+    },
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId": 1045300,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "SAV098765432",
+      "cardNumber": "0987654321098765"
+    },
+    "accountInfo_1": {
+      "accountType": "Checking",
+      "accountNumber": "CHK123456789",
+      "cardNumber": "5678901234567890"
+    },
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 12345678,
+    "accountInfo_0": {
+      "accountType": "Savings",
+      "accountNumber": "SAV876543210",
+      "cardNumber": "8765432109876543"
+    },
+    "accountInfo_1": {
+      "accountType": "Checking",
+      "accountNumber": "CHK098765432",
+      "cardNumber": "3456789012345678"
+    },
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
