@@ -1,0 +1,7 @@
+accountName,accountNumber,customerId,cardNumber,description,requestSubType,requestType,serviceType,statusCode,scenario
+"John Doe","1042345",1045300,"1234567890","Internal Transfer","SubType1","Type1","Service1",200,"success"
+"Jane Doe","2045678",2045301,"2345678901","External Transfer","SubType2","Type2","Service2",401,"Error: Authorisation failed."
+"Jim Doe","3048901",3045302,"3456789012","Wire Transfer","SubType3","Type3","Service3",404,"Error: Not Found"
+"Jill Doe","4041234",4045303,"4567890123","Online Transfer","SubType4","Type4","Service4",200,"success"
+"Jack Doe","5045678",5045304,"5678901234","Mobile Transfer","SubType5","Type5","Service5",401,"Error: Authorisation failed."
+"Jerry Doe","6048901",6045305,"6789012345","ATM Transfer","SubType6","Type6","Service6",404,"Error: Not Found"

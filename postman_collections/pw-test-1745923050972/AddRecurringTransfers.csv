@@ -1,0 +1,4 @@
+amount,currency,customerId,sourceAccountId,targetAccountId,status,scheduledDate,amountType,iterate,untilStop,untilDate,numberOfTransfers,statusCode,scenario
+1042222,"USD",1045300,"1042345","1042222","active",20220301,"fixed","yes","no",20230301,10,200,"schedule transfer added successfully"
+"0","EUR",0,"0000000","0000000","inactive",20210301,"variable","no","yes",20220301,0,401,"Error: Authorisation failed."
+"9999999","JPY",9999999,"9999999","9999999","pending",20250301,"fixed","yes","no",20260301,99,404,"Error: Not Found"

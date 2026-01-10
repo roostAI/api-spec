@@ -1,0 +1,6 @@
+accountNumber,customerId,numOfTransactions,status,startDate,endDate,type,value,amount1,currency,category,debitOrCredit,statusCode,scenario
+"est cillum aliquip",75165238.64182028,5,"incididunt aute in ea cillum","2022-01-01","2022-01-31","proident et","string",-37497855.05831511,"Lorem veniam voluptate qui aute","sed laborum reprehenderit","sunt occaecat",200,"successful operation"
+"est cillum aliquip",75165238.64182028,10,"incididunt aute in ea cillum","2022-02-01","2022-02-28","proident et","string",-37497855.05831511,"Lorem veniam voluptate qui aute","sed laborum reprehenderit","sunt occaecat",200,"successful operation"
+"est cillum aliquip",75165238.64182028,15,"incididunt aute in ea cillum","2022-03-01","2022-03-31","proident et","string",-37497855.05831511,"Lorem veniam voluptate qui aute","sed laborum reprehenderit","sunt occaecat",200,"successful operation"
+"est cillum aliquip",75165238.64182028,20,"incididunt aute in ea cillum","2022-04-01","2022-04-30","proident et","string",-37497855.05831511,"Lorem veniam voluptate qui aute","sed laborum reprehenderit","sunt occaecat",200,"successful operation"
+"est cillum aliquip",75165238.64182028,25,"incididunt aute in ea cillum","2022-05-01","2022-05-31","proident et","string",-37497855.05831511,"Lorem veniam voluptate qui aute","sed laborum reprehenderit","sunt occaecat",200,"successful operation"
