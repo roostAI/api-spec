@@ -1,0 +1,10 @@
+customerId,statusCode,scenario
+1045300,200,"successful operation"
+-81718423,401,"Error: Authorisation failed."
+87715592,404,"Error: Not Found"
+1045300,200,"successful operation"
+-81718423,401,"Error: Authorisation failed."
+87715592,404,"Error: Not Found"
+1045300,200,"successful operation"
+-81718423,401,"Error: Authorisation failed."
+87715592,404,"Error: Not Found"

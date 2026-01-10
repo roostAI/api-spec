@@ -1,0 +1,6 @@
+accountNumber,customerId,numOfTransactions,status,startDate,endDate,type,value,amount1,currency,category,debitOrCredit,statusCode,scenario
+"1042345",1045300,10,"occaecat velit minim veniam","2022-01-01","2022-01-31","minim","veniam cillum exercitation",58713213.91359511,"USD","nisi ut","est ipsum",200,"successful operation"
+"1042346",1045301,15,"occaecat velit minim veniam","2022-02-01","2022-02-28","minim","veniam cillum exercitation",58713213.91359511,"USD","nisi ut","est ipsum",200,"successful operation"
+"1042347",1045302,20,"occaecat velit minim veniam","2022-03-01","2022-03-31","minim","veniam cillum exercitation",58713213.91359511,"USD","nisi ut","est ipsum",200,"successful operation"
+"1042348",1045303,25,"occaecat velit minim veniam","2022-04-01","2022-04-30","minim","veniam cillum exercitation",58713213.91359511,"USD","nisi ut","est ipsum",200,"successful operation"
+"1042349",1045304,30,"occaecat velit minim veniam","2022-05-01","2022-05-31","minim","veniam cillum exercitation",58713213.91359511,"USD","nisi ut","est ipsum",200,"successful operation"

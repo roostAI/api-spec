@@ -1,0 +1,10 @@
+amount,currency,customerId,date,sourceAccountId,targetAccountId,description,TransactionType,PaymentType,statusCode,scenario
+1042222,USD,1045300,03-15-2021,1042345,1042222,Internal Transfer,1063,Minimum Payment,200,Transaction success
+1042223,EUR,1045301,03-16-2021,1042346,1042223,External Transfer,1064,Full Payment,401,Error: Authorisation failed.
+1042224,GBP,1045302,03-17-2021,1042347,1042224,Internal Transfer,1065,Minimum Payment,404,Error: Not Found
+1042225,JPY,1045303,03-18-2021,1042348,1042225,External Transfer,1066,Full Payment,200,Transaction success
+1042226,AUD,1045304,03-19-2021,1042349,1042226,Internal Transfer,1067,Minimum Payment,401,Error: Authorisation failed.
+1042227,CAD,1045305,03-20-2021,1042350,1042227,External Transfer,1068,Full Payment,404,Error: Not Found
+1042228,CHF,1045306,03-21-2021,1042351,1042228,Internal Transfer,1069,Minimum Payment,200,Transaction success
+1042229,SEK,1045307,03-22-2021,1042352,1042229,External Transfer,1070,Full Payment,401,Error: Authorisation failed.
+1042230,NZD,1045308,03-23-2021,1042353,1042230,Internal Transfer,1071,Minimum Payment,404,Error: Not Found

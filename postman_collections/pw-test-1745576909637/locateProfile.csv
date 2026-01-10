@@ -1,0 +1,10 @@
+accountNumber,customerId,ssNumber,ssnShort,statusCode,scenario
+"aliqua consequat dolor commodo nulla","nisi in",-47089834.06575955,75308096.7476961,200,success
+"1042345",1045300,"randomString1","randomString2",401,Error: Authorisation failed.
+"1042345",1045300,"randomString3","randomString4",404,Error: Not Found
+"aliqua consequat dolor commodo nulla","nisi in",-47089834.06575955,75308096.7476961,200,success
+"1042345",1045300,"randomString5","randomString6",401,Error: Authorisation failed.
+"1042345",1045300,"randomString7","randomString8",404,Error: Not Found
+"aliqua consequat dolor commodo nulla","nisi in",-47089834.06575955,75308096.7476961,200,success
+"1042345",1045300,"randomString9","randomString10",401,Error: Authorisation failed.
+"1042345",1045300,"randomString11","randomString12",404,Error: Not Found

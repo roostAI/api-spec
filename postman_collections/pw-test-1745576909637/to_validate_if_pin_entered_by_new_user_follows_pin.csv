@@ -1,0 +1,10 @@
+sourcePin,statusCode,scenario
+"1234ABCD",200,"PIN rules satisfied"
+"5678EFGH",401,"Error: Authorisation failed."
+"9012IJKL",404,"Error: Not Found"
+"3456MNOP",200,"PIN rules satisfied"
+"7890QRST",401,"Error: Authorisation failed."
+"2345UVWX",404,"Error: Not Found"
+"6789YZAB",200,"PIN rules satisfied"
+"0123CDEF",401,"Error: Authorisation failed."
+"4567GHIJ",404,"Error: Not Found"
