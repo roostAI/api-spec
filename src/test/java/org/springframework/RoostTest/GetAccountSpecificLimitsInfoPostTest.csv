@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^X_Auth_token^|^X_CORRELATION_ID^|^RequestBody^|^statusCode^|^bearer
+user1^|^bot1^|^acc1^|^auth1^|^token1^|^123456^|^{"customerId": 1, "accountNumber": ["123456"], "cardNumber": ["1234"] }^|^200^|^
+user2^|^bot2^|^acc2^|^auth2^|^token2^|^123457^|^{"customerId": 2, "accountNumber": ["123457"], "cardNumber": ["1235"] }^|^401^|^
+user3^|^bot3^|^acc3^|^auth3^|^token3^|^123458^|^{"customerId": 3, "accountNumber": ["123458"], "cardNumber": ["1236"] }^|^404^|^
+user4^|^bot4^|^acc4^|^auth4^|^token4^|^123459^|^{"customerId": 4, "accountNumber": ["123459"], "cardNumber": ["1237"] }^|^200^|^
+user5^|^bot5^|^acc5^|^auth5^|^token5^|^123460^|^{"customerId": 5, "accountNumber": ["123460"], "cardNumber": ["1238"] }^|^401^|^
+user6^|^bot6^|^acc6^|^auth6^|^token6^|^123461^|^{"customerId": 6, "accountNumber": ["123461"], "cardNumber": ["1239"] }^|^404^|^
+user7^|^bot7^|^acc7^|^auth7^|^token7^|^123462^|^{"customerId": 7, "accountNumber": ["123462"], "cardNumber": ["1240"] }^|^200^|^
+user8^|^bot8^|^acc8^|^auth8^|^token8^|^123463^|^{"customerId": 8, "accountNumber": ["123463"], "cardNumber": ["1241"] }^|^401^|^
+user9^|^bot9^|^acc9^|^auth9^|^token9^|^123464^|^{"customerId": 9, "accountNumber": ["123464"], "cardNumber": ["1242"] }^|^404^|^
+user10^|^bot10^|^acc10^|^auth10^|^token10^|^123465^|^{"customerId": 10, "accountNumber": ["123465"], "cardNumber": ["1243"] }^|^200^|^
