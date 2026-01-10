@@ -1,0 +1,11 @@
+RequestBody^|^statusCode^|^Token
+{"name":"John Doe","image":"aGVsbG8gd29ybGQ=","settings":{"theme":"dark","notifications":true}}^|^200^|^abc123def456
+{"name":"Jane Smith","image":null,"settings":{"theme":"light","notifications":false}}^|^200^|^ghi789jkl012
+{"name":"Bob Johnson","image":"SGVsbG8gd29ybGQ=","settings":{"theme":"dark","notifications":true}}^|^400^|^mno345pqr678
+{"name":"Alice Williams","image":null,"settings":{"theme":"light","notifications":false}}^|^401^|^stu901vwx234
+{"name":"Charlie Brown","image":"SGVsbG8gd29ybGQ=","settings":{"theme":"dark","notifications":true}}^|^200^|^yz0123abc456
+{"name":"Megan Davis","image":null,"settings":{"theme":"light","notifications":false}}^|^400^|^def789ghi012
+{"name":"Bill Miller","image":"SGVsbG8gd29ybGQ=","settings":{"theme":"dark","notifications":true}}^|^401^|^jkl345mno678
+{"name":"Emma Wilson","image":null,"settings":{"theme":"light","notifications":false}}^|^200^|^pqr901stu234
+{"name":"Lucas Anderson","image":"SGVsbG8gd29ybGQ=","settings":{"theme":"dark","notifications":true}}^|^400^|^vwx123yz0456
+{"name":"Olivia Thomas","image":null,"settings":{"theme":"light","notifications":false}}^|^401^|^abc789def012

@@ -1,0 +1,12 @@
+RequestBody^|^statusCode^|^Token
+{"name":"John","age":30,"city":"New York"}^|^200^|^123abc
+{"name":"Jane","age":25,"city":"Chicago"}^|^200^|^456def
+{"name":"Bob","age":35,"city":"Los Angeles"}^|^401^|^789ghi
+{"name":"Alice","age":28,"city":"San Francisco"}^|^200^|^012jkl
+{"name":"Charlie","age":32,"city":"Boston"}^|^400^|^345mno
+{"name":"Eve","age":22,"city":"Seattle"}^|^200^|^678pqr
+{"name":"Frank","age":30,"city":"Austin"}^|^401^|^901stu
+{"name":"Grace","age":27,"city":"Denver"}^|^200^|^234vwx
+{"name":"Heidi","age":33,"city":"Miami"}^|^400^|^567yz1
+{"name":"Ivan","age":29,"city":"Atlanta"}^|^200^|^8902ab
+{"name":"Judy","age":31,"city":"Dallas"}^|^401^|^345cd3
