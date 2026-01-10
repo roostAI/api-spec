@@ -1,0 +1,50 @@
+[
+  {
+    "customerId_*number": 1045300,
+    "paymentId_*string": "PAY12345",
+    "sourceAccountId_*string": "ACC12345",
+    "amount_*number": 5000,
+    "scheduledDate_*number": 20220228,
+    "targetAccountId_*string": "ACC54321",
+    "recurringOptions.amountType_*string": "Fixed",
+    "recurringOptions.frequency.duration.untilStop_*string": "2023-12-31",
+    "recurringOptions.frequency.duration.untilDate_*number": 20231231,
+    "recurringOptions.frequency.duration.numberOfTransfers_*number": 12,
+    "recurringOptions.frequency.iterate_*string": "Monthly",
+    "recurringOptions.updateTransferType_*string": "Immediate",
+    "statusCode": 200,
+    "scenario": "Recurring transfer updated successfully"
+  },
+  {
+    "customerId_*number": 1045301,
+    "paymentId_*string": "PAY12346",
+    "sourceAccountId_*string": "ACC12346",
+    "amount_*number": 6000,
+    "scheduledDate_*number": 20220301,
+    "targetAccountId_*string": "ACC54322",
+    "recurringOptions.amountType_*string": "Variable",
+    "recurringOptions.frequency.duration.untilStop_*string": "2024-01-31",
+    "recurringOptions.frequency.duration.untilDate_*number": 20240131,
+    "recurringOptions.frequency.duration.numberOfTransfers_*number": 24,
+    "recurringOptions.frequency.iterate_*string": "Bi-Monthly",
+    "recurringOptions.updateTransferType_*string": "Delayed",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 1045302,
+    "paymentId_*string": "PAY12347",
+    "sourceAccountId_*string": "ACC12347",
+    "amount_*number": 7000,
+    "scheduledDate_*number": 20220302,
+    "targetAccountId_*string": "ACC54323",
+    "recurringOptions.amountType_*string": "Fixed",
+    "recurringOptions.frequency.duration.untilStop_*string": "2024-02-28",
+    "recurringOptions.frequency.duration.untilDate_*number": 20240228,
+    "recurringOptions.frequency.duration.numberOfTransfers_*number": 24,
+    "recurringOptions.frequency.iterate_*string": "Quarterly",
+    "recurringOptions.updateTransferType_*string": "Immediate",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

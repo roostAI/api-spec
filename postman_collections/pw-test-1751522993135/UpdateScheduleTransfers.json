@@ -1,0 +1,52 @@
+[
+  {
+    "customerId_*number": 1045300,
+    "paymentId_*string": "pay_123456",
+    "sourceAccountId_*string": "acc_123456",
+    "amount_*number": 5000,
+    "scheduledDate_*number": 20220501,
+    "targetAccountId_*string": "acc_654321",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "customerId_*number": 1045301,
+    "paymentId_*string": "pay_123457",
+    "sourceAccountId_*string": "acc_123457",
+    "amount_*number": 6000,
+    "scheduledDate_*number": 20220502,
+    "targetAccountId_*string": "acc_654322",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 1045302,
+    "paymentId_*string": "pay_123458",
+    "sourceAccountId_*string": "acc_123458",
+    "amount_*number": 7000,
+    "scheduledDate_*number": 20220503,
+    "targetAccountId_*string": "acc_654323",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_*number": 1045303,
+    "paymentId_*string": "pay_123459",
+    "sourceAccountId_*string": "acc_123459",
+    "amount_*number": 8000,
+    "scheduledDate_*number": 20220504,
+    "targetAccountId_*string": "acc_654324",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "customerId_*number": 1045304,
+    "paymentId_*string": "pay_123460",
+    "sourceAccountId_*string": "acc_123460",
+    "amount_*number": 9000,
+    "scheduledDate_*number": 20220505,
+    "targetAccountId_*string": "acc_654325",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

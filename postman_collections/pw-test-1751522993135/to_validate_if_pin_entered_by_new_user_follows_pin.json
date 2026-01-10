@@ -1,0 +1,32 @@
+[
+  {
+    "sourcePin_*string": "1234ABCD",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "sourcePin_*string": "5678EFGH",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "sourcePin_*string": "90XYZ",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "sourcePin_*string": "12JKL",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "sourcePin_*string": "345MNO",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "sourcePin_*string": "678PQR",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

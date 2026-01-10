@@ -1,0 +1,57 @@
+[
+  {
+    "amount_*number": 1500,
+    "currency_*string": "USD",
+    "customerId_*number": 1045300,
+    "dueDate_*string": "2022-12-31",
+    "sourceAccountId_*string": "1042345",
+    "targetAccountId_*string": "1042222",
+    "transactionType_*number": 1,
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "amount_*number": 2000,
+    "currency_*string": "EUR",
+    "customerId_*number": 1045301,
+    "dueDate_*string": "2023-01-01",
+    "sourceAccountId_*string": "1042346",
+    "targetAccountId_*string": "1042223",
+    "transactionType_*number": 2,
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "amount_*number": 3000,
+    "currency_*string": "GBP",
+    "customerId_*number": 1045302,
+    "dueDate_*string": "2023-02-01",
+    "sourceAccountId_*string": "1042347",
+    "targetAccountId_*string": "1042224",
+    "transactionType_*number": 3,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "amount_*number": 4000,
+    "currency_*string": "JPY",
+    "customerId_*number": 1045303,
+    "dueDate_*string": "2023-03-01",
+    "sourceAccountId_*string": "1042348",
+    "targetAccountId_*string": "1042225",
+    "transactionType_*number": 4,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "amount_*number": 5000,
+    "currency_*string": "AUD",
+    "customerId_*number": 1045304,
+    "dueDate_*string": "2023-04-01",
+    "sourceAccountId_*string": "1042349",
+    "targetAccountId_*string": "1042226",
+    "transactionType_*number": 5,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

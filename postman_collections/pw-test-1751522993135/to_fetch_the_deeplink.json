@@ -1,0 +1,32 @@
+[
+  {
+    "usecase_0_*string": "User Registration",
+    "usecase_1_*string": "Email Verification",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "usecase_0_*string": "User Login",
+    "usecase_1_*string": "Password Reset",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "usecase_0_*string": "Invalid User",
+    "usecase_1_*string": "Invalid Email",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "usecase_0_*string": "Non-existent User",
+    "usecase_1_*string": "Non-existent Email",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "usecase_0_*string": "User Profile Update",
+    "usecase_1_*string": "Change Password",
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]
