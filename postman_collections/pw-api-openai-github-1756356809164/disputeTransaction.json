@@ -1,0 +1,32 @@
+[
+  {
+    "customerId_*number": 1045300,
+    "transactionsData_0.reasonCode_*string": "Transaction Approved",
+    "transactionsData_0.transactionId_*number": 123456,
+    "transactionsData_1.reasonCode_*string": "Transaction Declined",
+    "transactionsData_1.transactionId_*number": 789012,
+    "emailId_*string": "John@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "customerId_*number": 1045301,
+    "transactionsData_0.reasonCode_*string": "Transaction Pending",
+    "transactionsData_0.transactionId_*number": 234567,
+    "transactionsData_1.reasonCode_*string": "Transaction Cancelled",
+    "transactionsData_1.transactionId_*number": 890123,
+    "emailId_*string": "Jane@gmail.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 1045302,
+    "transactionsData_0.reasonCode_*string": "Transaction Failed",
+    "transactionsData_0.transactionId_*number": 345678,
+    "transactionsData_1.reasonCode_*string": "Transaction Completed",
+    "transactionsData_1.transactionId_*number": 901234,
+    "emailId_*string": "Mark@hotmail.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
