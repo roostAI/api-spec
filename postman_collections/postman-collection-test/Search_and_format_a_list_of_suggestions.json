@@ -1,0 +1,47 @@
+[
+  {
+    "country_iso_*string": "GB",
+    "datasets_0_*string": "global",
+    "max_suggestions_*number": 5,
+    "components.unspecified_0_*string": "address",
+    "layouts_0_*string": "default_classic",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "US",
+    "datasets_0_*string": "local",
+    "max_suggestions_*number": 10,
+    "components.unspecified_0_*string": "postal",
+    "layouts_0_*string": "modern",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "FR",
+    "datasets_0_*string": "europe",
+    "max_suggestions_*number": 3,
+    "components.unspecified_0_*string": "location",
+    "layouts_0_*string": "simple",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "country_iso_*string": "XYZ",
+    "datasets_0_*string": "unknown",
+    "max_suggestions_*number": -1,
+    "components.unspecified_0_*string": "invalid",
+    "layouts_0_*string": "none",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "country_iso_*string": "123",
+    "datasets_0_*string": "test",
+    "max_suggestions_*number": 0,
+    "components.unspecified_0_*string": "error",
+    "layouts_0_*string": "invalid",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]
