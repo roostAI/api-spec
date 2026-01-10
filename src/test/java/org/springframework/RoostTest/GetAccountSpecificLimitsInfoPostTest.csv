@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^X_Auth_token^|^X_CORRELATION_ID^|^RequestBody^|^statusCode^|^bearer
+User1^|^Bot1^|^Acc1^|^Auth1^|^Token1^|^987654^|^{"customerId": 54982, "accountNumber": ["Acc54982"], "cardNumber": ["Card54982"] }^|^200^|^Bearer1
+User2^|^Bot2^|^Acc2^|^Auth2^|^Token2^|^123456^|^{"customerId": 11345, "accountNumber": ["Acc11345"], "cardNumber": ["Card11345"] }^|^401^|^Bearer2
+User3^|^Bot3^|^Acc3^|^Auth3^|^Token3^|^654321^|^{"customerId": 34981, "accountNumber": ["Acc34981"], "cardNumber": ["Card34981"] }^|^404^|^Bearer3
+User4^|^Bot4^|^Acc4^|^Auth4^|^Token4^|^234567^|^{"customerId": 79321, "accountNumber": ["Acc79321"], "cardNumber": ["Card79321"] }^|^200^|^Bearer4
+User5^|^Bot5^|^Acc5^|^Auth5^|^Token5^|^765432^|^{"customerId": 27593, "accountNumber": ["Acc27593"], "cardNumber": ["Card27593"] }^|^401^|^Bearer5
+User6^|^Bot6^|^Acc6^|^Auth6^|^Token6^|^345678^|^{"customerId": 36451, "accountNumber": ["Acc36451"], "cardNumber": ["Card36451"] }^|^404^|^Bearer6
+User7^|^Bot7^|^Acc7^|^Auth7^|^Token7^|^876543^|^{"customerId": 27496, "accountNumber": ["Acc27496"], "cardNumber": ["Card27496"] }^|^200^|^Bearer7
+User8^|^Bot8^|^Acc8^|^Auth8^|^Token8^|^456789^|^{"customerId": 98123, "accountNumber": ["Acc98123"], "cardNumber": ["Card98123"] }^|^401^|^Bearer8
+User9^|^Bot9^|^Acc9^|^Auth9^|^Token9^|^987654^|^{"customerId": 45679, "accountNumber": ["Acc45679"], "cardNumber": ["Card45679"] }^|^404^|^Bearer9
+User10^|^Bot10^|^Acc10^|^Auth10^|^Token10^|^567890^|^{"customerId": 12345, "accountNumber": ["Acc12345"], "cardNumber": ["Card12345"] }^|^200^|^Bearer10
