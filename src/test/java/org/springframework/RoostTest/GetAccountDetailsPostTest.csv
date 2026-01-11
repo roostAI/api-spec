@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^X_Auth_token^|^X_CORRELATION_ID^|^RequestBody^|^statusCode^|^bearer
+user123^|^botA1^|^account456^|^auth789^|^tokenXYZ^|^123456^|^{"customerId": 1234, "accountInfo": [{"accountType": "Savings", "accountNumber": "ABCD1234", "cardNumber": "123412341234"}]}^|^200^|^bearer512
+user321^|^botB1^|^account654^|^auth987^|^tokenZYX^|^654321^|^{"customerId": 4321, "accountInfo": [{"accountType": "Checking", "accountNumber": "DCBA4321", "cardNumber": "432143214321"}]}^|^401^|^bearer215
+user231^|^botC1^|^account546^|^auth879^|^tokenYXZ^|^231564^|^{"customerId": 1324, "accountInfo": [{"accountType": "Savings", "accountNumber": "BCDA1243", "cardNumber": "241324132413"}]}^|^404^|^bearer125
+user312^|^botD1^|^account465^|^auth978^|^tokenXZY^|^312654^|^{"customerId": 3124, "accountInfo": [{"accountType": "Checking", "accountNumber": "CDBA2134", "cardNumber": "321431243124"}]}^|^200^|^bearer521
+user132^|^botE1^|^account564^|^auth798^|^tokenZXY^|^132546^|^{"customerId": 4213, "accountInfo": [{"accountType": "Savings", "accountNumber": "BDCA1423", "cardNumber": "413241324132"}]}^|^401^|^bearer251
+user213^|^botF1^|^account645^|^auth897^|^tokenYXW^|^213456^|^{"customerId": 3412, "accountInfo": [{"accountType": "Checking", "accountNumber": "DABC3412", "cardNumber": "234123412341"}]}^|^404^|^bearer152
+user123^|^botG1^|^account456^|^auth789^|^tokenXYU^|^123654^|^{"customerId": 1234, "accountInfo": [{"accountType": "Savings", "accountNumber": "ABCD4321", "cardNumber": "123412341234"}]}^|^200^|^bearer512
+user321^|^botH1^|^account654^|^auth987^|^tokenZTY^|^654123^|^{"customerId": 4321, "accountInfo": [{"accountType": "Checking", "accountNumber": "DCBA1234", "cardNumber": "432143214321"}]}^|^401^|^bearer215
+user231^|^botI1^|^account546^|^auth879^|^tokenYXA^|^231564^|^{"customerId": 1324, "accountInfo": [{"accountType": "Savings", "accountNumber": "BCDA3412", "cardNumber": "241324132413"}]}^|^404^|^bearer125
+user312^|^botJ1^|^account465^|^auth978^|^tokenXZY^|^312654^|^{"customerId": 3124, "accountInfo": [{"accountType": "Checking", "accountNumber": "CDBA4123", "cardNumber": "321431243124"}]}^|^200^|^bearer521
