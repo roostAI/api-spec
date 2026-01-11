@@ -1,0 +1,11 @@
+field1^|^field2^|^statusCode^|^scenario
+123^|^abc^|^200^|^Test1
+456^|^def^|^400^|^Test2
+789^|^ghi^|^500^|^Test3
+012^|^jkl^|^200^|^Test4
+345^|^mno^|^400^|^Test5
+678^|^pqr^|^500^|^Test6
+901^|^stu^|^200^|^Test7
+234^|^vwx^|^400^|^Test8
+567^|^yz^|^500^|^Test9
+890^|^abc^|^200^|^Test10
