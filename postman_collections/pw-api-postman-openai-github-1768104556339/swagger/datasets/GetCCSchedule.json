@@ -1,0 +1,124 @@
+[
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "status": "Active",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "KU124",
+    "botId": "BID124",
+    "accountId": "AC124",
+    "customerId": 1045301,
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "KU125",
+    "botId": "BID125",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU126",
+    "botId": "BID126",
+    "accountId": "AC126",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU127",
+    "botId": "BID127",
+    "accountId": "AC127",
+    "customerId": 1045302,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU128",
+    "botId": "BID128",
+    "accountId": "AC128",
+    "customerId": 1045303,
+    "status": "Inactive",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU129",
+    "botId": "BID129",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU130",
+    "botId": "BID130",
+    "accountId": "AC130",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU131",
+    "botId": "BID131",
+    "accountId": "AC131",
+    "customerId": 1045304,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU132",
+    "botId": "BID132",
+    "accountId": "AC132",
+    "customerId": 1045305,
+    "status": "Active",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU133",
+    "botId": "BID133",
+    "accountId": "AC133",
+    "customerId": 1045306,
+    "status": "Inactive",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU134",
+    "botId": "BID134",
+    "accountId": "AC134",
+    "customerId": 1045307,
+    "status": "Active",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "KU135",
+    "botId": "BID135",
+    "accountId": "AC135",
+    "customerId": 1045308,
+    "status": "Inactive",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "KU136",
+    "botId": "BID136",
+    "accountId": "AC136",
+    "customerId": 1045309,
+    "status": "Active",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU137",
+    "botId": "BID137",
+    "accountId": "AC137",
+    "customerId": 1045310,
+    "status": "Inactive",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
