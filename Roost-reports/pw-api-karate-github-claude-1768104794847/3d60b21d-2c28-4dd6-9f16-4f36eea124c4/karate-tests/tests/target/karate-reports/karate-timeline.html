@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"example_get[1:19]","start":1768106554749,"end":1768106555362,"title":"example_get[1:19] 04:42:34.749-04:42:35.362 Test example endpoint with valid authentication"},{"id":2,"group":1,"content":"example_get[2:24]","start":1768106555367,"end":1768106555981,"title":"example_get[2:24] 04:42:35.367-04:42:35.981 Test example endpoint response validation","className":"failed"},{"id":3,"group":1,"content":"example_get[3:30]","start":1768106555989,"end":1768106556586,"title":"example_get[3:30] 04:42:35.989-04:42:36.586 Test example endpoint with invalid authentication","className":"failed"},{"id":4,"group":1,"content":"example_get[4:36]","start":1768106556590,"end":1768106557181,"title":"example_get[4:36] 04:42:36.590-04:42:37.181 Test example endpoint without authentication","className":"failed"},{"id":5,"group":1,"content":"ping_get[1:18]","start":1768106553039,"end":1768106554283,"title":"ping_get[1:18] 04:42:33.039-04:42:34.283 Test ping endpoint for server heartbeat"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
