@@ -1,0 +1,242 @@
+[
+  {
+    "koreUserId": "koreUser1",
+    "botId": "bot1",
+    "accountId": "acc1",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "phone": 1234567890,
+    "isPrimaryMobileNumber": true,
+    "location": "New York",
+    "isStatement": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "koreUser2",
+    "botId": "bot2",
+    "accountId": "acc2",
+    "accountNumber": [
+      "1042346"
+    ],
+    "customerId": 1045301,
+    "email": "Jane@gmail.com",
+    "phone": 1234567891,
+    "isPrimaryMobileNumber": false,
+    "location": "Los Angeles",
+    "isStatement": false,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "koreUser3",
+    "botId": "bot3",
+    "accountId": "acc3",
+    "accountNumber": [
+      "1042347"
+    ],
+    "customerId": 1045302,
+    "email": "Jake@gmail.com",
+    "phone": 1234567892,
+    "isPrimaryMobileNumber": true,
+    "location": "Chicago",
+    "isStatement": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "koreUser4",
+    "botId": "bot4",
+    "accountId": "acc4",
+    "accountNumber": [
+      "1042348"
+    ],
+    "customerId": 1045303,
+    "email": "Jill@gmail.com",
+    "phone": 1234567893,
+    "isPrimaryMobileNumber": false,
+    "location": "Houston",
+    "isStatement": false,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "koreUser5",
+    "botId": "bot5",
+    "accountId": "acc5",
+    "accountNumber": [
+      "1042349"
+    ],
+    "customerId": 1045304,
+    "email": "Judy@gmail.com",
+    "phone": 1234567894,
+    "isPrimaryMobileNumber": true,
+    "location": "Phoenix",
+    "isStatement": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "koreUser6",
+    "botId": "bot6",
+    "accountId": "acc6",
+    "accountNumber": [
+      "1042350"
+    ],
+    "customerId": 1045305,
+    "email": "Jack@gmail.com",
+    "phone": 1234567895,
+    "isPrimaryMobileNumber": false,
+    "location": "Philadelphia",
+    "isStatement": false,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser7",
+    "botId": "bot7",
+    "accountId": "acc7",
+    "accountNumber": [
+      "1042351"
+    ],
+    "customerId": 1045306,
+    "email": "Jenny@gmail.com",
+    "phone": 1234567896,
+    "isPrimaryMobileNumber": true,
+    "location": "San Antonio",
+    "isStatement": true,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser8",
+    "botId": "bot8",
+    "accountId": "acc8",
+    "accountNumber": [
+      "1042352"
+    ],
+    "customerId": 1045307,
+    "email": "Jerry@gmail.com",
+    "phone": 1234567897,
+    "isPrimaryMobileNumber": false,
+    "location": "San Diego",
+    "isStatement": false,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser9",
+    "botId": "bot9",
+    "accountId": "acc9",
+    "accountNumber": [
+      "1042353"
+    ],
+    "customerId": 1045308,
+    "email": "Jessie@gmail.com",
+    "phone": 1234567898,
+    "isPrimaryMobileNumber": true,
+    "location": "Dallas",
+    "isStatement": true,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser10",
+    "botId": "bot10",
+    "accountId": "acc10",
+    "accountNumber": [
+      "1042354"
+    ],
+    "customerId": 1045309,
+    "email": "Jasmine@gmail.com",
+    "phone": 1234567899,
+    "isPrimaryMobileNumber": false,
+    "location": "San Jose",
+    "isStatement": false,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser11",
+    "botId": "bot11",
+    "accountId": "acc11",
+    "accountNumber": [
+      "1042355"
+    ],
+    "customerId": 1045310,
+    "email": "Jacob@gmail.com",
+    "phone": 1234567800,
+    "isPrimaryMobileNumber": true,
+    "location": "Austin",
+    "isStatement": true,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser12",
+    "botId": "bot12",
+    "accountId": "acc12",
+    "accountNumber": [
+      "1042356"
+    ],
+    "customerId": 1045311,
+    "email": "Jaden@gmail.com",
+    "phone": 1234567801,
+    "isPrimaryMobileNumber": false,
+    "location": "Jacksonville",
+    "isStatement": false,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser13",
+    "botId": "bot13",
+    "accountId": "acc13",
+    "accountNumber": [
+      "1042357"
+    ],
+    "customerId": 1045312,
+    "email": "Jared@gmail.com",
+    "phone": 1234567802,
+    "isPrimaryMobileNumber": true,
+    "location": "Fort Worth",
+    "isStatement": true,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser14",
+    "botId": "bot14",
+    "accountId": "acc14",
+    "accountNumber": [
+      "1042358"
+    ],
+    "customerId": 1045313,
+    "email": "Jenna@gmail.com",
+    "phone": 1234567803,
+    "isPrimaryMobileNumber": false,
+    "location": "Columbus",
+    "isStatement": false,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser15",
+    "botId": "bot15",
+    "accountId": "acc15",
+    "accountNumber": [
+      "1042359"
+    ],
+    "customerId": 1045314,
+    "email": "Jesse@gmail.com",
+    "phone": 1234567804,
+    "isPrimaryMobileNumber": true,
+    "location": "San Francisco",
+    "isStatement": true,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
