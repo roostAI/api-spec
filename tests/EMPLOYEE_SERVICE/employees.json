@@ -1,0 +1,42 @@
+[
+  {
+    "searchString": "Software Engineer",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "searchString": "Product Manager",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "searchString": "Data Analyst",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "searchString": "john.smith@acme-corp.com",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "searchString": "System Analyst",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "searchString": "",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "searchString": "   ",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "searchString": "invalid@search@query",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  }
+]
