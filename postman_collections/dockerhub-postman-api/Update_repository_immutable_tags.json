@@ -1,0 +1,47 @@
+[
+  {
+    "namespace": "acme",
+    "repository": "payments-api",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "protect:release-*",
+    "immutable_tags_rules_1_*string": "retain:latest",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "namespace": "acme corp!",
+    "repository": "payments api?",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "[invalid-regex",
+    "immutable_tags_rules_1_*string": "??",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "namespace": "///",
+    "repository": "../etc/passwd",
+    "immutable_tags_*boolean": false,
+    "immutable_tags_rules_0_*string": "****",
+    "immutable_tags_rules_1_*string": "INVALID||RULE",
+    "statusCode": 401,
+    "scenario": "Unauthorized"
+  },
+  {
+    "namespace": "admin#team",
+    "repository": "system$repo",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "protect:{unclosed",
+    "immutable_tags_rules_1_*string": "deny:**",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  },
+  {
+    "namespace": "ghost-ns-9zq",
+    "repository": "unknown-repo-xyz",
+    "immutable_tags_*boolean": true,
+    "immutable_tags_rules_0_*string": "protect:*",
+    "immutable_tags_rules_1_*string": "retain:latest",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  }
+]
