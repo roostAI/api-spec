@@ -1,0 +1,77 @@
+[
+  {
+    "laureateID": 1,
+    "statusCode": 200,
+    "scenario": "Successful call of Laureate given the ID"
+  },
+  {
+    "laureateID": 2,
+    "statusCode": 200,
+    "scenario": "Successful call of Laureate given the ID"
+  },
+  {
+    "laureateID": 3,
+    "statusCode": 200,
+    "scenario": "Successful call of Laureate given the ID"
+  },
+  {
+    "laureateID": 4,
+    "statusCode": 200,
+    "scenario": "Successful call of Laureate given the ID"
+  },
+  {
+    "laureateID": 5,
+    "statusCode": 200,
+    "scenario": "Successful call of Laureate given the ID"
+  },
+  {
+    "laureateID": 0,
+    "statusCode": 400,
+    "scenario": "Bad request. The request could not be understood by the server due to malformed syntax, modifications needed."
+  },
+  {
+    "laureateID": -1,
+    "statusCode": 400,
+    "scenario": "Bad request. The request could not be understood by the server due to malformed syntax, modifications needed."
+  },
+  {
+    "laureateID": "invalid",
+    "statusCode": 400,
+    "scenario": "Bad request. The request could not be understood by the server due to malformed syntax, modifications needed."
+  },
+  {
+    "laureateID": 999999,
+    "statusCode": 404,
+    "scenario": "Not Found. The requested resource could not be found but may be available again in the future."
+  },
+  {
+    "laureateID": 1000000,
+    "statusCode": 404,
+    "scenario": "Not Found. The requested resource could not be found but may be available again in the future."
+  },
+  {
+    "laureateID": 6,
+    "statusCode": 200,
+    "scenario": "Successful call of Laureate given the ID"
+  },
+  {
+    "laureateID": 7,
+    "statusCode": 200,
+    "scenario": "Successful call of Laureate given the ID"
+  },
+  {
+    "laureateID": 8,
+    "statusCode": 200,
+    "scenario": "Successful call of Laureate given the ID"
+  },
+  {
+    "laureateID": 9,
+    "statusCode": 200,
+    "scenario": "Successful call of Laureate given the ID"
+  },
+  {
+    "laureateID": 10,
+    "statusCode": 200,
+    "scenario": "Successful call of Laureate given the ID"
+  }
+]

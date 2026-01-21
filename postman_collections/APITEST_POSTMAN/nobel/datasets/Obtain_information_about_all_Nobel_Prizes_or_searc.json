@@ -1,0 +1,152 @@
+[
+  {
+    "offset": 1,
+    "limit": 10,
+    "sort": "asc",
+    "nobelPrizeYear": 2020,
+    "nobelPrizeCategory": "phy",
+    "format": "json",
+    "csvLang": "en",
+    "statusCode": 200,
+    "scenario": "Successful call of Nobel Prize(s) according to the filled fields"
+  },
+  {
+    "offset": 5,
+    "limit": 20,
+    "sort": "desc",
+    "nobelPrizeYear": 2019,
+    "nobelPrizeCategory": "med",
+    "format": "csv",
+    "csvLang": "se",
+    "statusCode": 200,
+    "scenario": "Successful call of Nobel Prize(s) according to the filled fields"
+  },
+  {
+    "offset": 1,
+    "limit": 15,
+    "nobelPrizeYear": 2018,
+    "nobelPrizeCategory": "lit",
+    "format": "json",
+    "statusCode": 200,
+    "scenario": "Successful call of Nobel Prize(s) according to the filled fields"
+  },
+  {
+    "offset": 2,
+    "limit": 5,
+    "nobelPrizeYear": 2021,
+    "nobelPrizeCategory": "eco",
+    "statusCode": 200,
+    "scenario": "Successful call of Nobel Prize(s) according to the filled fields"
+  },
+  {
+    "offset": 3,
+    "limit": 25,
+    "sort": "asc",
+    "nobelPrizeYear": 2017,
+    "nobelPrizeCategory": "che",
+    "format": "csv",
+    "csvLang": "no",
+    "statusCode": 200,
+    "scenario": "Successful call of Nobel Prize(s) according to the filled fields"
+  },
+  {
+    "offset": 1,
+    "limit": 10,
+    "sort": "asc",
+    "nobelPrizeYear": 2020,
+    "nobelPrizeCategory": "phy",
+    "format": "json",
+    "csvLang": "en",
+    "statusCode": 400,
+    "scenario": "Bad request. The request could not be understood by the server due to malformed syntax, modifications needed."
+  },
+  {
+    "offset": 5,
+    "limit": 20,
+    "sort": "desc",
+    "nobelPrizeYear": 2019,
+    "nobelPrizeCategory": "med",
+    "format": "csv",
+    "csvLang": "se",
+    "statusCode": 400,
+    "scenario": "Bad request. The request could not be understood by the server due to malformed syntax, modifications needed."
+  },
+  {
+    "offset": 1,
+    "limit": 15,
+    "nobelPrizeYear": 2018,
+    "nobelPrizeCategory": "lit",
+    "format": "json",
+    "statusCode": 400,
+    "scenario": "Bad request. The request could not be understood by the server due to malformed syntax, modifications needed."
+  },
+  {
+    "offset": 2,
+    "limit": 5,
+    "nobelPrizeYear": 2021,
+    "nobelPrizeCategory": "eco",
+    "statusCode": 400,
+    "scenario": "Bad request. The request could not be understood by the server due to malformed syntax, modifications needed."
+  },
+  {
+    "offset": 3,
+    "limit": 25,
+    "sort": "asc",
+    "nobelPrizeYear": 2017,
+    "nobelPrizeCategory": "che",
+    "format": "csv",
+    "csvLang": "no",
+    "statusCode": 400,
+    "scenario": "Bad request. The request could not be understood by the server due to malformed syntax, modifications needed."
+  },
+  {
+    "offset": 1,
+    "limit": 10,
+    "sort": "asc",
+    "nobelPrizeYear": 2020,
+    "nobelPrizeCategory": "phy",
+    "format": "json",
+    "csvLang": "en",
+    "statusCode": 404,
+    "scenario": "Not Found. The requested resource could not be found but may be available again in the future."
+  },
+  {
+    "offset": 5,
+    "limit": 20,
+    "sort": "desc",
+    "nobelPrizeYear": 2019,
+    "nobelPrizeCategory": "med",
+    "format": "csv",
+    "csvLang": "se",
+    "statusCode": 404,
+    "scenario": "Not Found. The requested resource could not be found but may be available again in the future."
+  },
+  {
+    "offset": 1,
+    "limit": 15,
+    "nobelPrizeYear": 2018,
+    "nobelPrizeCategory": "lit",
+    "format": "json",
+    "statusCode": 404,
+    "scenario": "Not Found. The requested resource could not be found but may be available again in the future."
+  },
+  {
+    "offset": 2,
+    "limit": 5,
+    "nobelPrizeYear": 2021,
+    "nobelPrizeCategory": "eco",
+    "statusCode": 404,
+    "scenario": "Not Found. The requested resource could not be found but may be available again in the future."
+  },
+  {
+    "offset": 3,
+    "limit": 25,
+    "sort": "asc",
+    "nobelPrizeYear": 2017,
+    "nobelPrizeCategory": "che",
+    "format": "csv",
+    "csvLang": "no",
+    "statusCode": 404,
+    "scenario": "Not Found. The requested resource could not be found but may be available again in the future."
+  }
+]
