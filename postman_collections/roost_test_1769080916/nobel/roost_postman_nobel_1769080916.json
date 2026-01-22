@@ -1,0 +1,1724 @@
+{
+  "item": [
+    {
+      "id": "56e2b932-aeaa-4650-9fda-23b10c19c913",
+      "name": "Obtain information about all Nobel Prizes or search for a specific set of Nobel Prizes. Note that not all information about the Laureates are provided in the output, as a request of making this endpoints response lighter. Call the laureates endpoint for full information.",
+      "request": {
+        "name": "Obtain information about all Nobel Prizes or search for a specific set of Nobel Prizes. Note that not all information about the Laureates are provided in the output, as a request of making this endpoints response lighter. Call the laureates endpoint for full information.",
+        "description": {
+          "content": "Obtain information about all Nobel Prizes or search for a specific set of Nobel Prizes. Note that not all information about the Laureates are provided in the output, as a request of making this endpoints response lighter. Call the laureates endpoint for full information.",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "nobelPrizes"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "offset",
+              "value": "<integer>",
+              "description": "The number of items to skip before starting to collect the result set"
+            },
+            {
+              "disabled": false,
+              "key": "limit",
+              "value": "<integer>",
+              "description": "The numbers of items to return"
+            },
+            {
+              "disabled": false,
+              "key": "sort",
+              "value": "<string>",
+              "description": "The sort order (result is sorted by year)"
+            },
+            {
+              "disabled": false,
+              "key": "nobelPrizeYear",
+              "value": "<integer>",
+              "description": "Year the Nobel Prize was awarded, in the form of YYYY"
+            },
+            {
+              "disabled": false,
+              "key": "yearTo",
+              "value": "<integer>",
+              "description": "Used in combination with nobelPrizeYear to specify a range of years to return results from. NobelPrizeYear is required"
+            },
+            {
+              "disabled": false,
+              "key": "nobelPrizeCategory",
+              "value": "<string>",
+              "description": "Nobel Prize category"
+            },
+            {
+              "disabled": false,
+              "key": "format",
+              "value": "<string>",
+              "description": "Format of output (Default = json)"
+            },
+            {
+              "disabled": false,
+              "key": "csvLang",
+              "value": "<string>",
+              "description": "Language of output if format is csv (Default = en)"
+            }
+          ],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "e1a20e3c-ae4d-4b2b-a870-1ac5f3f1009a",
+          "name": "Successful call of Nobel Prize(s) according to the filled fields",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "nobelPrizes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "offset",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "limit",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "sort",
+                  "value": "<string>"
+                },
+                {
+                  "key": "nobelPrizeYear",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "yearTo",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "nobelPrizeCategory",
+                  "value": "<string>"
+                },
+                {
+                  "key": "format",
+                  "value": "<string>"
+                },
+                {
+                  "key": "csvLang",
+                  "value": "<string>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"nobelPrizes\": [\n    {\n      \"awardYear\": 1989,\n      \"category\": {\n        \"en\": \"English\",\n        \"se\": \"Svenska\",\n        \"false\": \"Norsk\"\n      },\n      \"categoryFullName\": {\n        \"en\": \"English\",\n        \"se\": \"Svenska\",\n        \"false\": \"Norsk\"\n      },\n      \"dateAwarded\": \"2015-11-12\",\n      \"prizeAmount\": 1000000,\n      \"prizeAmountAdjusted\": 1000000,\n      \"topMotivation\": {\n        \"en\": \"English\",\n        \"se\": \"Svenska\",\n        \"false\": \"Norsk\"\n      },\n      \"laureates\": [\n        {\n          \"id\": 34,\n          \"name\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"portion\": \"1\",\n          \"sortOrder\": \"1\",\n          \"motivation\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"links\": [\n            {\n              \"rel\": \"string\",\n              \"href\": \"string\",\n              \"action\": \"string\",\n              \"types\": \"string\"\n            },\n            {\n              \"rel\": \"string\",\n              \"href\": \"string\",\n              \"action\": \"string\",\n              \"types\": \"string\"\n            }\n          ]\n        },\n        {\n          \"id\": 34,\n          \"name\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"portion\": \"1\",\n          \"sortOrder\": \"1\",\n          \"motivation\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"links\": [\n            {\n              \"rel\": \"string\",\n              \"href\": \"string\",\n              \"action\": \"string\",\n              \"types\": \"string\"\n            },\n            {\n              \"rel\": \"string\",\n              \"href\": \"string\",\n              \"action\": \"string\",\n              \"types\": \"string\"\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"awardYear\": 1989,\n      \"category\": {\n        \"en\": \"English\",\n        \"se\": \"Svenska\",\n        \"false\": \"Norsk\"\n      },\n      \"categoryFullName\": {\n        \"en\": \"English\",\n        \"se\": \"Svenska\",\n        \"false\": \"Norsk\"\n      },\n      \"dateAwarded\": \"2015-11-12\",\n      \"prizeAmount\": 1000000,\n      \"prizeAmountAdjusted\": 1000000,\n      \"topMotivation\": {\n        \"en\": \"English\",\n        \"se\": \"Svenska\",\n        \"false\": \"Norsk\"\n      },\n      \"laureates\": [\n        {\n          \"id\": 34,\n          \"name\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"portion\": \"1\",\n          \"sortOrder\": \"1\",\n          \"motivation\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"links\": [\n            {\n              \"rel\": \"string\",\n              \"href\": \"string\",\n              \"action\": \"string\",\n              \"types\": \"string\"\n            },\n            {\n              \"rel\": \"string\",\n              \"href\": \"string\",\n              \"action\": \"string\",\n              \"types\": \"string\"\n            }\n          ]\n        },\n        {\n          \"id\": 34,\n          \"name\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"portion\": \"1\",\n          \"sortOrder\": \"1\",\n          \"motivation\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"links\": [\n            {\n              \"rel\": \"string\",\n              \"href\": \"string\",\n              \"action\": \"string\",\n              \"types\": \"string\"\n            },\n            {\n              \"rel\": \"string\",\n              \"href\": \"string\",\n              \"action\": \"string\",\n              \"types\": \"string\"\n            }\n          ]\n        }\n      ]\n    }\n  ],\n  \"meta\": {\n    \"offset\": 5446,\n    \"limit\": 5600,\n    \"nobelPrizeYear\": 3750,\n    \"yearTo\": 6357,\n    \"nobelPrizeCategory\": \"eco\",\n    \"count\": 9352\n  },\n  \"links\": [\n    {\n      \"first\": \"string\",\n      \"prev\": \"string\",\n      \"self\": \"string\",\n      \"next\": \"string\",\n      \"last\": \"string\"\n    },\n    {\n      \"first\": \"string\",\n      \"prev\": \"string\",\n      \"self\": \"string\",\n      \"next\": \"string\",\n      \"last\": \"string\"\n    }\n  ]\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "f93db31a-e29b-4352-a1bc-07722c6455e6",
+          "name": "Bad request.The request could not be understood by the server due to malformed syntax, modifications needed.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "nobelPrizes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "offset",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "limit",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "sort",
+                  "value": "<string>"
+                },
+                {
+                  "key": "nobelPrizeYear",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "yearTo",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "nobelPrizeCategory",
+                  "value": "<string>"
+                },
+                {
+                  "key": "format",
+                  "value": "<string>"
+                },
+                {
+                  "key": "csvLang",
+                  "value": "<string>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": \"404\",\n  \"message\": \"There is not Laureate born that date\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "a5593fb8-2fe5-40ca-b7b0-a3da0c95cc23",
+          "name": "Not Found. The requested resource could not be found but may be available again in the future.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "nobelPrizes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "offset",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "limit",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "sort",
+                  "value": "<string>"
+                },
+                {
+                  "key": "nobelPrizeYear",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "yearTo",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "nobelPrizeCategory",
+                  "value": "<string>"
+                },
+                {
+                  "key": "format",
+                  "value": "<string>"
+                },
+                {
+                  "key": "csvLang",
+                  "value": "<string>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": \"404\",\n  \"message\": \"There is not Laureate born that date\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "d767c4b8-f625-4b5f-92e2-9be5088db316",
+          "name": "Unprocessable Entity. The request was well-formed but was unable to be followed due to semantic errors.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "nobelPrizes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "offset",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "limit",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "sort",
+                  "value": "<string>"
+                },
+                {
+                  "key": "nobelPrizeYear",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "yearTo",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "nobelPrizeCategory",
+                  "value": "<string>"
+                },
+                {
+                  "key": "format",
+                  "value": "<string>"
+                },
+                {
+                  "key": "csvLang",
+                  "value": "<string>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Unprocessable Entity (WebDAV) (RFC 4918)",
+          "code": 422,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": \"404\",\n  \"message\": \"There is not Laureate born that date\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "058fe836-429e-44a4-8dd6-45b0b8e01d9c",
+      "name": "Obtain information about one specific Nobel Prize. Used as unique identifier for links.",
+      "request": {
+        "name": "Obtain information about one specific Nobel Prize. Used as unique identifier for links.",
+        "description": {
+          "content": "Obtain information about one specific Nobel Prize. Used as unique identifier for links.",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "nobelPrize",
+            ":category",
+            ":year"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "category",
+              "description": "(Required) Nobel Prize category"
+            },
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<integer>",
+              "key": "year",
+              "description": "(Required) Year of the awarded Nobel Prize, in the form of YYYY"
+            }
+          ]
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "3544fb34-015f-4ea7-bf13-67e695d59b4f",
+          "name": "Successful call of the Nobel Prize giving the category and year",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "nobelPrize",
+                ":category",
+                ":year"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "category",
+                  "description": "(Required) Nobel Prize category"
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<integer>",
+                  "key": "year",
+                  "description": "(Required) Year of the awarded Nobel Prize, in the form of YYYY"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"nobelPrize\": {\n    \"awardYear\": 1989,\n    \"category\": {\n      \"en\": \"English\",\n      \"se\": \"Svenska\",\n      \"false\": \"Norsk\"\n    },\n    \"categoryFullName\": {\n      \"en\": \"English\",\n      \"se\": \"Svenska\",\n      \"false\": \"Norsk\"\n    },\n    \"dateAwarded\": \"2015-11-12\",\n    \"prizeAmount\": 1000000,\n    \"prizeAmountAdjusted\": 1000000,\n    \"topMotivation\": {\n      \"en\": \"English\",\n      \"se\": \"Svenska\",\n      \"false\": \"Norsk\"\n    },\n    \"laureates\": [\n      {\n        \"id\": 34,\n        \"name\": {\n          \"en\": \"English\",\n          \"se\": \"Svenska\",\n          \"false\": \"Norsk\"\n        },\n        \"portion\": \"1\",\n        \"sortOrder\": \"1\",\n        \"motivation\": {\n          \"en\": \"English\",\n          \"se\": \"Svenska\",\n          \"false\": \"Norsk\"\n        },\n        \"links\": [\n          {\n            \"rel\": \"string\",\n            \"href\": \"string\",\n            \"action\": \"string\",\n            \"types\": \"string\"\n          },\n          {\n            \"rel\": \"string\",\n            \"href\": \"string\",\n            \"action\": \"string\",\n            \"types\": \"string\"\n          }\n        ]\n      },\n      {\n        \"id\": 34,\n        \"name\": {\n          \"en\": \"English\",\n          \"se\": \"Svenska\",\n          \"false\": \"Norsk\"\n        },\n        \"portion\": \"1\",\n        \"sortOrder\": \"1\",\n        \"motivation\": {\n          \"en\": \"English\",\n          \"se\": \"Svenska\",\n          \"false\": \"Norsk\"\n        },\n        \"links\": [\n          {\n            \"rel\": \"string\",\n            \"href\": \"string\",\n            \"action\": \"string\",\n            \"types\": \"string\"\n          },\n          {\n            \"rel\": \"string\",\n            \"href\": \"string\",\n            \"action\": \"string\",\n            \"types\": \"string\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "b2a2a57e-75eb-4d1d-b41f-c6c9020536ab",
+          "name": "Bad request.The request could not be understood by the server due to malformed syntax, modifications needed.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "nobelPrize",
+                ":category",
+                ":year"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "category",
+                  "description": "(Required) Nobel Prize category"
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<integer>",
+                  "key": "year",
+                  "description": "(Required) Year of the awarded Nobel Prize, in the form of YYYY"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": \"404\",\n  \"message\": \"There is not Laureate born that date\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "2b08982a-4e25-4521-9d8a-9a64a8fc7532",
+          "name": "Not Found. The requested resource could not be found but may be available again in the future.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "nobelPrize",
+                ":category",
+                ":year"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "category",
+                  "description": "(Required) Nobel Prize category"
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<integer>",
+                  "key": "year",
+                  "description": "(Required) Year of the awarded Nobel Prize, in the form of YYYY"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": \"404\",\n  \"message\": \"There is not Laureate born that date\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "781fe43d-f627-424b-abe6-39150ae3eeba",
+          "name": "Unprocessable Entity. The request was well-formed but was unable to be followed due to semantic errors.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "nobelPrize",
+                ":category",
+                ":year"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "category",
+                  "description": "(Required) Nobel Prize category"
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<integer>",
+                  "key": "year",
+                  "description": "(Required) Year of the awarded Nobel Prize, in the form of YYYY"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Unprocessable Entity (WebDAV) (RFC 4918)",
+          "code": 422,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": \"404\",\n  \"message\": \"There is not Laureate born that date\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "e839172d-d879-4677-b9c7-44fd23401760",
+      "name": "Obtain information about Nobel Prize Laureates (persons and organizations) and their Nobel Prize(s), or search for a set of Laureates. Returns full information about the Laureates and Prizes.",
+      "request": {
+        "name": "Obtain information about Nobel Prize Laureates (persons and organizations) and their Nobel Prize(s), or search for a set of Laureates. Returns full information about the Laureates and Prizes.",
+        "description": {
+          "content": "Obtain information about Nobel Prize Laureates (persons and organizations) and their Nobel Prize(s), or search for a set of Laureates. Returns full information about the Laureates and Prizes.",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "laureates"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "offset",
+              "value": "<integer>",
+              "description": "The number of items to skip before starting to collect the result set"
+            },
+            {
+              "disabled": false,
+              "key": "limit",
+              "value": "<integer>",
+              "description": "The numbers of items to return"
+            },
+            {
+              "disabled": false,
+              "key": "sort",
+              "value": "<string>",
+              "description": "Sort order, result is sorted alphabetically by known name"
+            },
+            {
+              "disabled": false,
+              "key": "ID",
+              "value": "<integer>",
+              "description": "Numeric ID of the Laureate (unique key for each Nobel Laureate)"
+            },
+            {
+              "disabled": false,
+              "key": "name",
+              "value": "<string>",
+              "description": "Laureate's name (person or organization)"
+            },
+            {
+              "disabled": false,
+              "key": "gender",
+              "value": "<string>",
+              "description": "Laureate's gender if person"
+            },
+            {
+              "disabled": false,
+              "key": "motivation",
+              "value": "<string>",
+              "description": "Text in Laureate's motivation"
+            },
+            {
+              "disabled": false,
+              "key": "affiliation",
+              "value": "<string>",
+              "description": "Affiliation(s) for the Laureate at the time of the award"
+            },
+            {
+              "disabled": false,
+              "key": "residence",
+              "value": "<string>",
+              "description": "Laureate's place of residence at the time is awarded"
+            },
+            {
+              "disabled": false,
+              "key": "birthDate",
+              "value": "<date>",
+              "description": "Birth date of Laureate if Person. Search by year in the form of YYYY, by month -MM-, by day -DD or YYYY-MM-DD"
+            },
+            {
+              "disabled": false,
+              "key": "birthDateTo",
+              "value": "<date>",
+              "description": "Return Laureates born within a range of years between birthDate and birthDateTo. BirthDate field is required"
+            },
+            {
+              "disabled": false,
+              "key": "deathDate",
+              "value": "<date>",
+              "description": "Death date of Laureate if Person. Search by year in the form of YYYY, by month -MM-, by day -DD or YYYY-MM-DD"
+            },
+            {
+              "disabled": false,
+              "key": "deathDateTo",
+              "value": "<date>",
+              "description": "Return Laureates deceased within a range of years between deathDate and deathhDateTo. DeathDate field is required"
+            },
+            {
+              "disabled": false,
+              "key": "foundedDate",
+              "value": "<date>",
+              "description": "Founding date of Laureate if Organization. Search by year in the form of YYYY, by month -MM-, by day -DD or YYYY-MM-DD"
+            },
+            {
+              "disabled": false,
+              "key": "birthCity",
+              "value": "<utf-8>",
+              "description": "Laureate's city of birth if person"
+            },
+            {
+              "disabled": false,
+              "key": "birthCountry",
+              "value": "<utf-8>",
+              "description": "Laureate's country of birth if person"
+            },
+            {
+              "disabled": false,
+              "key": "birthContinent",
+              "value": "<string>",
+              "description": "Laureate's continent of birth if person. Continent as in geonames.org standard"
+            },
+            {
+              "disabled": false,
+              "key": "deathCity",
+              "value": "<utf-8>",
+              "description": "Laureate's city of death if person"
+            },
+            {
+              "disabled": false,
+              "key": "deathCountry",
+              "value": "<utf-8>",
+              "description": "Laureate's country of death if person"
+            },
+            {
+              "disabled": false,
+              "key": "deathContinent",
+              "value": "<string>",
+              "description": "Laureate's continent of death if person. Continent as in geonames.org standard"
+            },
+            {
+              "disabled": false,
+              "key": "foundedCity",
+              "value": "<utf-8>",
+              "description": "City where organization was founded"
+            },
+            {
+              "disabled": false,
+              "key": "foundedCountry",
+              "value": "<utf-8>",
+              "description": "Country where organization was founded"
+            },
+            {
+              "disabled": false,
+              "key": "foundedContinent",
+              "value": "<string>",
+              "description": "Continent where organization was founded. Continent as in geonames.org standard"
+            },
+            {
+              "disabled": false,
+              "key": "HeadquartersCity",
+              "value": "<utf-8>",
+              "description": "City where organization's hearquarters are"
+            },
+            {
+              "disabled": false,
+              "key": "HeadquartersCountry",
+              "value": "<utf-8>",
+              "description": "Country where organization's hearquarters are"
+            },
+            {
+              "disabled": false,
+              "key": "HeadquartersContinent",
+              "value": "<string>",
+              "description": "Continent where organization's hearquarters are. Continent as in geonames.org standard"
+            },
+            {
+              "disabled": false,
+              "key": "nobelPrizeYear",
+              "value": "<integer>",
+              "description": "The year the Nobel Prize was awarded, in the form of YYYY"
+            },
+            {
+              "disabled": false,
+              "key": "yearTo",
+              "value": "<integer>",
+              "description": "Used in combination with nobelPrizeYear to specify a range of years between nobelPrizeYear and YearTo. nobelPrizeYear is required"
+            },
+            {
+              "disabled": false,
+              "key": "nobelPrizeCategory",
+              "value": "<string>",
+              "description": "Nobel Prize category."
+            },
+            {
+              "disabled": false,
+              "key": "format",
+              "value": "<string>",
+              "description": "Output format (Default = json)."
+            },
+            {
+              "disabled": false,
+              "key": "csvLang",
+              "value": "<string>",
+              "description": "Language if output format is csv (default = en)."
+            }
+          ],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "3487af61-5892-4764-b201-fd07eb2c5d42",
+          "name": "Successful call of Laureate(s).",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "laureates"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "offset",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "limit",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "sort",
+                  "value": "<string>"
+                },
+                {
+                  "key": "ID",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "name",
+                  "value": "<string>"
+                },
+                {
+                  "key": "gender",
+                  "value": "<string>"
+                },
+                {
+                  "key": "motivation",
+                  "value": "<string>"
+                },
+                {
+                  "key": "affiliation",
+                  "value": "<string>"
+                },
+                {
+                  "key": "residence",
+                  "value": "<string>"
+                },
+                {
+                  "key": "birthDate",
+                  "value": "<date>"
+                },
+                {
+                  "key": "birthDateTo",
+                  "value": "<date>"
+                },
+                {
+                  "key": "deathDate",
+                  "value": "<date>"
+                },
+                {
+                  "key": "deathDateTo",
+                  "value": "<date>"
+                },
+                {
+                  "key": "foundedDate",
+                  "value": "<date>"
+                },
+                {
+                  "key": "birthCity",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "birthCountry",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "birthContinent",
+                  "value": "<string>"
+                },
+                {
+                  "key": "deathCity",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "deathCountry",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "deathContinent",
+                  "value": "<string>"
+                },
+                {
+                  "key": "foundedCity",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "foundedCountry",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "foundedContinent",
+                  "value": "<string>"
+                },
+                {
+                  "key": "HeadquartersCity",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "HeadquartersCountry",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "HeadquartersContinent",
+                  "value": "<string>"
+                },
+                {
+                  "key": "nobelPrizeYear",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "yearTo",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "nobelPrizeCategory",
+                  "value": "<string>"
+                },
+                {
+                  "key": "format",
+                  "value": "<string>"
+                },
+                {
+                  "key": "csvLang",
+                  "value": "<string>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"laureates\": [\n    {\n      \"id\": 456,\n      \"laureateIfPerson\": {\n        \"knownName\": {\n          \"en\": \"English\",\n          \"se\": \"Svenska\",\n          \"false\": \"Norsk\"\n        },\n        \"givenName\": {\n          \"en\": \"English\",\n          \"se\": \"Svenska\",\n          \"false\": \"Norsk\"\n        },\n        \"familyName\": {\n          \"en\": \"English\",\n          \"se\": \"Svenska\",\n          \"false\": \"Norsk\"\n        },\n        \"fullName\": {\n          \"en\": \"English\",\n          \"se\": \"Svenska\",\n          \"false\": \"Norsk\"\n        },\n        \"filename\": \"filename\",\n        \"penname\": \"Penname\",\n        \"gender\": \"female\",\n        \"birth\": {\n          \"date\": \"1989-04-25\",\n          \"place\": {\n            \"city\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"country\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"cityNow\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\",\n              \"sameAs\": [\n                \"https://\",\n                \"https://\"\n              ]\n            },\n            \"countryNow\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\",\n              \"sameAs\": [\n                \"https://\",\n                \"https://\"\n              ]\n            },\n            \"continent\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"locationString\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            }\n          }\n        },\n        \"death\": {\n          \"date\": \"1989-04-25\",\n          \"place\": {\n            \"city\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"country\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"cityNow\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\",\n              \"sameAs\": [\n                \"https://\",\n                \"https://\"\n              ]\n            },\n            \"countryNow\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\",\n              \"sameAs\": [\n                \"https://\",\n                \"https://\"\n              ]\n            },\n            \"continent\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"locationString\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            }\n          }\n        }\n      },\n      \"laureateIfOrg\": {\n        \"orgName\": {\n          \"en\": \"English\",\n          \"se\": \"Svenska\",\n          \"false\": \"Norsk\"\n        },\n        \"nativeName\": \"Native name\",\n        \"acronym\": \"Acronym\",\n        \"founded\": {\n          \"date\": \"1989-04-25\",\n          \"place\": {\n            \"city\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"country\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"cityNow\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\",\n              \"sameAs\": [\n                \"https://\",\n                \"https://\"\n              ]\n            },\n            \"countryNow\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\",\n              \"sameAs\": [\n                \"https://\",\n                \"https://\"\n              ]\n            },\n            \"continent\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"locationString\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            }\n          }\n        },\n        \"dissolution\": {\n          \"date\": \"1989-04-25\",\n          \"place\": {\n            \"city\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"country\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"cityNow\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\",\n              \"sameAs\": [\n                \"https://\",\n                \"https://\"\n              ]\n            },\n            \"countryNow\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\",\n              \"sameAs\": [\n                \"https://\",\n                \"https://\"\n              ]\n            },\n            \"continent\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"locationString\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            }\n          }\n        },\n        \"headquarters\": {\n          \"city\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"country\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"cityNow\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\",\n            \"sameAs\": [\n              \"https://\",\n              \"https://\"\n            ]\n          },\n          \"countryNow\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\",\n            \"sameAs\": [\n              \"https://\",\n              \"https://\"\n            ]\n          },\n          \"continent\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"locationString\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          }\n        }\n      },\n      \"wikipedia\": {\n        \"slug\": \"slug\",\n        \"english\": \"https://en.wikipedia.org/wiki/\"\n      },\n      \"wikidata\": {\n        \"id\": \"id\",\n        \"url\": \"https://www.wikidata.org/wiki/\"\n      },\n      \"sameAs\": [\n        \"https://\",\n        \"https://\"\n      ],\n      \"links\": [\n        {\n          \"rel\": \"string\",\n          \"href\": \"string\",\n          \"action\": \"string\",\n          \"types\": \"string\"\n        },\n        {\n          \"rel\": \"string\",\n          \"href\": \"string\",\n          \"action\": \"string\",\n          \"types\": \"string\"\n        }\n      ],\n      \"nobelPrizes\": [\n        {\n          \"awardYear\": 1989,\n          \"category\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"categoryFullName\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"sortOrder\": \"1\",\n          \"portion\": \"1\",\n          \"dateAwarded\": \"1989-04-25\",\n          \"prizeStatus\": \"received\",\n          \"motivation\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"prizeAmount\": 1000000,\n          \"prizeAmountAdjusted\": 1000000,\n          \"affiliations\": [\n            {\n              \"name\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"nameNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"nativeName\": \"Le romenic universitet\",\n              \"city\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"country\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"cityNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"countryNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"locationString\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              }\n            },\n            {\n              \"name\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"nameNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"nativeName\": \"Le romenic universitet\",\n              \"city\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"country\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"cityNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"countryNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"locationString\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              }\n            }\n          ],\n          \"residences\": [\n            {\n              \"city\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"country\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"cityNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"countryNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"locationString\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              }\n            },\n            {\n              \"city\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"country\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"cityNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"countryNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"locationString\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              }\n            }\n          ],\n          \"links\": [\n            {\n              \"rel\": \"string\",\n              \"href\": \"string\",\n              \"action\": \"string\",\n              \"types\": \"string\"\n            },\n            {\n              \"rel\": \"string\",\n              \"href\": \"string\",\n              \"action\": \"string\",\n              \"types\": \"string\"\n            }\n          ]\n        },\n        {\n          \"awardYear\": 1989,\n          \"category\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"categoryFullName\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"sortOrder\": \"1\",\n          \"portion\": \"1\",\n          \"dateAwarded\": \"1989-04-25\",\n          \"prizeStatus\": \"received\",\n          \"motivation\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"prizeAmount\": 1000000,\n          \"prizeAmountAdjusted\": 1000000,\n          \"affiliations\": [\n            {\n              \"name\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"nameNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"nativeName\": \"Le romenic universitet\",\n              \"city\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"country\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"cityNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"countryNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"locationString\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              }\n            },\n            {\n              \"name\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"nameNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"nativeName\": \"Le romenic universitet\",\n              \"city\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"country\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"cityNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"countryNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"locationString\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              }\n            }\n          ],\n          \"residences\": [\n            {\n              \"city\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"country\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"cityNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"countryNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"locationString\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              }\n            },\n            {\n              \"city\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"country\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"cityNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"countryNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"locationString\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              }\n            }\n          ],\n          \"links\": [\n            {\n              \"rel\": \"string\",\n              \"href\": \"string\",\n              \"action\": \"string\",\n              \"types\": \"string\"\n            },\n            {\n              \"rel\": \"string\",\n              \"href\": \"string\",\n              \"action\": \"string\",\n              \"types\": \"string\"\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"id\": 456,\n      \"laureateIfPerson\": {\n        \"knownName\": {\n          \"en\": \"English\",\n          \"se\": \"Svenska\",\n          \"false\": \"Norsk\"\n        },\n        \"givenName\": {\n          \"en\": \"English\",\n          \"se\": \"Svenska\",\n          \"false\": \"Norsk\"\n        },\n        \"familyName\": {\n          \"en\": \"English\",\n          \"se\": \"Svenska\",\n          \"false\": \"Norsk\"\n        },\n        \"fullName\": {\n          \"en\": \"English\",\n          \"se\": \"Svenska\",\n          \"false\": \"Norsk\"\n        },\n        \"filename\": \"filename\",\n        \"penname\": \"Penname\",\n        \"gender\": \"female\",\n        \"birth\": {\n          \"date\": \"1989-04-25\",\n          \"place\": {\n            \"city\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"country\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"cityNow\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\",\n              \"sameAs\": [\n                \"https://\",\n                \"https://\"\n              ]\n            },\n            \"countryNow\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\",\n              \"sameAs\": [\n                \"https://\",\n                \"https://\"\n              ]\n            },\n            \"continent\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"locationString\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            }\n          }\n        },\n        \"death\": {\n          \"date\": \"1989-04-25\",\n          \"place\": {\n            \"city\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"country\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"cityNow\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\",\n              \"sameAs\": [\n                \"https://\",\n                \"https://\"\n              ]\n            },\n            \"countryNow\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\",\n              \"sameAs\": [\n                \"https://\",\n                \"https://\"\n              ]\n            },\n            \"continent\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"locationString\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            }\n          }\n        }\n      },\n      \"laureateIfOrg\": {\n        \"orgName\": {\n          \"en\": \"English\",\n          \"se\": \"Svenska\",\n          \"false\": \"Norsk\"\n        },\n        \"nativeName\": \"Native name\",\n        \"acronym\": \"Acronym\",\n        \"founded\": {\n          \"date\": \"1989-04-25\",\n          \"place\": {\n            \"city\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"country\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"cityNow\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\",\n              \"sameAs\": [\n                \"https://\",\n                \"https://\"\n              ]\n            },\n            \"countryNow\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\",\n              \"sameAs\": [\n                \"https://\",\n                \"https://\"\n              ]\n            },\n            \"continent\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"locationString\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            }\n          }\n        },\n        \"dissolution\": {\n          \"date\": \"1989-04-25\",\n          \"place\": {\n            \"city\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"country\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"cityNow\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\",\n              \"sameAs\": [\n                \"https://\",\n                \"https://\"\n              ]\n            },\n            \"countryNow\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\",\n              \"sameAs\": [\n                \"https://\",\n                \"https://\"\n              ]\n            },\n            \"continent\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            },\n            \"locationString\": {\n              \"en\": \"English\",\n              \"se\": \"Svenska\",\n              \"false\": \"Norsk\"\n            }\n          }\n        },\n        \"headquarters\": {\n          \"city\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"country\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"cityNow\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\",\n            \"sameAs\": [\n              \"https://\",\n              \"https://\"\n            ]\n          },\n          \"countryNow\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\",\n            \"sameAs\": [\n              \"https://\",\n              \"https://\"\n            ]\n          },\n          \"continent\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"locationString\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          }\n        }\n      },\n      \"wikipedia\": {\n        \"slug\": \"slug\",\n        \"english\": \"https://en.wikipedia.org/wiki/\"\n      },\n      \"wikidata\": {\n        \"id\": \"id\",\n        \"url\": \"https://www.wikidata.org/wiki/\"\n      },\n      \"sameAs\": [\n        \"https://\",\n        \"https://\"\n      ],\n      \"links\": [\n        {\n          \"rel\": \"string\",\n          \"href\": \"string\",\n          \"action\": \"string\",\n          \"types\": \"string\"\n        },\n        {\n          \"rel\": \"string\",\n          \"href\": \"string\",\n          \"action\": \"string\",\n          \"types\": \"string\"\n        }\n      ],\n      \"nobelPrizes\": [\n        {\n          \"awardYear\": 1989,\n          \"category\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"categoryFullName\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"sortOrder\": \"1\",\n          \"portion\": \"1\",\n          \"dateAwarded\": \"1989-04-25\",\n          \"prizeStatus\": \"received\",\n          \"motivation\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"prizeAmount\": 1000000,\n          \"prizeAmountAdjusted\": 1000000,\n          \"affiliations\": [\n            {\n              \"name\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"nameNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"nativeName\": \"Le romenic universitet\",\n              \"city\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"country\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"cityNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"countryNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"locationString\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              }\n            },\n            {\n              \"name\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"nameNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"nativeName\": \"Le romenic universitet\",\n              \"city\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"country\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"cityNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"countryNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"locationString\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              }\n            }\n          ],\n          \"residences\": [\n            {\n              \"city\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"country\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"cityNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"countryNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"locationString\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              }\n            },\n            {\n              \"city\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"country\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"cityNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"countryNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"locationString\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              }\n            }\n          ],\n          \"links\": [\n            {\n              \"rel\": \"string\",\n              \"href\": \"string\",\n              \"action\": \"string\",\n              \"types\": \"string\"\n            },\n            {\n              \"rel\": \"string\",\n              \"href\": \"string\",\n              \"action\": \"string\",\n              \"types\": \"string\"\n            }\n          ]\n        },\n        {\n          \"awardYear\": 1989,\n          \"category\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"categoryFullName\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"sortOrder\": \"1\",\n          \"portion\": \"1\",\n          \"dateAwarded\": \"1989-04-25\",\n          \"prizeStatus\": \"received\",\n          \"motivation\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"prizeAmount\": 1000000,\n          \"prizeAmountAdjusted\": 1000000,\n          \"affiliations\": [\n            {\n              \"name\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"nameNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"nativeName\": \"Le romenic universitet\",\n              \"city\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"country\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"cityNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"countryNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"locationString\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              }\n            },\n            {\n              \"name\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"nameNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"nativeName\": \"Le romenic universitet\",\n              \"city\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"country\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"cityNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"countryNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"locationString\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              }\n            }\n          ],\n          \"residences\": [\n            {\n              \"city\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"country\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"cityNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"countryNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"locationString\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              }\n            },\n            {\n              \"city\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"country\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              },\n              \"cityNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"countryNow\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\",\n                \"sameAs\": [\n                  \"https://\",\n                  \"https://\"\n                ]\n              },\n              \"locationString\": {\n                \"en\": \"English\",\n                \"se\": \"Svenska\",\n                \"false\": \"Norsk\"\n              }\n            }\n          ],\n          \"links\": [\n            {\n              \"rel\": \"string\",\n              \"href\": \"string\",\n              \"action\": \"string\",\n              \"types\": \"string\"\n            },\n            {\n              \"rel\": \"string\",\n              \"href\": \"string\",\n              \"action\": \"string\",\n              \"types\": \"string\"\n            }\n          ]\n        }\n      ]\n    }\n  ],\n  \"meta\": {\n    \"offset\": 5319,\n    \"limit\": 7710,\n    \"sort\": \"string\",\n    \"ID\": 3753,\n    \"name\": \"string\",\n    \"gender\": \"string\",\n    \"motivation\": \"string\",\n    \"affiliation\": \"string\",\n    \"residence\": \"string\",\n    \"birthDate\": \"string\",\n    \"birthDateTo\": \"string\",\n    \"deathDate\": \"string\",\n    \"deathDateTo\": \"string\",\n    \"foundedDate\": \"string\",\n    \"birthCity\": \"string\",\n    \"birthCountry\": \"string\",\n    \"birthContinent\": \"string\",\n    \"deathCity\": \"string\",\n    \"deathCountry\": \"string\",\n    \"deathContinent\": \"string\",\n    \"foundedCity\": \"string\",\n    \"foundedCountry\": \"string\",\n    \"foundedContinent\": \"string\",\n    \"headquartersCity\": \"string\",\n    \"headquartersCountry\": \"string\",\n    \"headquartersContinent\": \"string\",\n    \"nobelPrizeYear\": 4086,\n    \"yearTo\": 4792,\n    \"nobelPrizeCategory\": \"string\",\n    \"count\": 2550\n  },\n  \"links\": [\n    {\n      \"first\": \"string\",\n      \"prev\": \"string\",\n      \"self\": \"string\",\n      \"next\": \"string\",\n      \"last\": \"string\"\n    },\n    {\n      \"first\": \"string\",\n      \"prev\": \"string\",\n      \"self\": \"string\",\n      \"next\": \"string\",\n      \"last\": \"string\"\n    }\n  ]\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "dc2b5418-c57d-4fb8-951e-df183d36a3d1",
+          "name": "Bad request.The request could not be understood by the server due to malformed syntax, modifications needed.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "laureates"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "offset",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "limit",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "sort",
+                  "value": "<string>"
+                },
+                {
+                  "key": "ID",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "name",
+                  "value": "<string>"
+                },
+                {
+                  "key": "gender",
+                  "value": "<string>"
+                },
+                {
+                  "key": "motivation",
+                  "value": "<string>"
+                },
+                {
+                  "key": "affiliation",
+                  "value": "<string>"
+                },
+                {
+                  "key": "residence",
+                  "value": "<string>"
+                },
+                {
+                  "key": "birthDate",
+                  "value": "<date>"
+                },
+                {
+                  "key": "birthDateTo",
+                  "value": "<date>"
+                },
+                {
+                  "key": "deathDate",
+                  "value": "<date>"
+                },
+                {
+                  "key": "deathDateTo",
+                  "value": "<date>"
+                },
+                {
+                  "key": "foundedDate",
+                  "value": "<date>"
+                },
+                {
+                  "key": "birthCity",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "birthCountry",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "birthContinent",
+                  "value": "<string>"
+                },
+                {
+                  "key": "deathCity",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "deathCountry",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "deathContinent",
+                  "value": "<string>"
+                },
+                {
+                  "key": "foundedCity",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "foundedCountry",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "foundedContinent",
+                  "value": "<string>"
+                },
+                {
+                  "key": "HeadquartersCity",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "HeadquartersCountry",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "HeadquartersContinent",
+                  "value": "<string>"
+                },
+                {
+                  "key": "nobelPrizeYear",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "yearTo",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "nobelPrizeCategory",
+                  "value": "<string>"
+                },
+                {
+                  "key": "format",
+                  "value": "<string>"
+                },
+                {
+                  "key": "csvLang",
+                  "value": "<string>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": \"404\",\n  \"message\": \"There is not Laureate born that date\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "f6e0aa12-4dba-4cc2-8653-366491e85305",
+          "name": "Not Found. The requested resource could not be found but may be available again in the future.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "laureates"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "offset",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "limit",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "sort",
+                  "value": "<string>"
+                },
+                {
+                  "key": "ID",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "name",
+                  "value": "<string>"
+                },
+                {
+                  "key": "gender",
+                  "value": "<string>"
+                },
+                {
+                  "key": "motivation",
+                  "value": "<string>"
+                },
+                {
+                  "key": "affiliation",
+                  "value": "<string>"
+                },
+                {
+                  "key": "residence",
+                  "value": "<string>"
+                },
+                {
+                  "key": "birthDate",
+                  "value": "<date>"
+                },
+                {
+                  "key": "birthDateTo",
+                  "value": "<date>"
+                },
+                {
+                  "key": "deathDate",
+                  "value": "<date>"
+                },
+                {
+                  "key": "deathDateTo",
+                  "value": "<date>"
+                },
+                {
+                  "key": "foundedDate",
+                  "value": "<date>"
+                },
+                {
+                  "key": "birthCity",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "birthCountry",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "birthContinent",
+                  "value": "<string>"
+                },
+                {
+                  "key": "deathCity",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "deathCountry",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "deathContinent",
+                  "value": "<string>"
+                },
+                {
+                  "key": "foundedCity",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "foundedCountry",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "foundedContinent",
+                  "value": "<string>"
+                },
+                {
+                  "key": "HeadquartersCity",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "HeadquartersCountry",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "HeadquartersContinent",
+                  "value": "<string>"
+                },
+                {
+                  "key": "nobelPrizeYear",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "yearTo",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "nobelPrizeCategory",
+                  "value": "<string>"
+                },
+                {
+                  "key": "format",
+                  "value": "<string>"
+                },
+                {
+                  "key": "csvLang",
+                  "value": "<string>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": \"404\",\n  \"message\": \"There is not Laureate born that date\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "6fe5a22d-f353-4112-a5ce-d460b9b3dfa6",
+          "name": "Unprocessable Entity. The request was well-formed but was unable to be followed due to semantic errors.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "laureates"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "offset",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "limit",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "sort",
+                  "value": "<string>"
+                },
+                {
+                  "key": "ID",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "name",
+                  "value": "<string>"
+                },
+                {
+                  "key": "gender",
+                  "value": "<string>"
+                },
+                {
+                  "key": "motivation",
+                  "value": "<string>"
+                },
+                {
+                  "key": "affiliation",
+                  "value": "<string>"
+                },
+                {
+                  "key": "residence",
+                  "value": "<string>"
+                },
+                {
+                  "key": "birthDate",
+                  "value": "<date>"
+                },
+                {
+                  "key": "birthDateTo",
+                  "value": "<date>"
+                },
+                {
+                  "key": "deathDate",
+                  "value": "<date>"
+                },
+                {
+                  "key": "deathDateTo",
+                  "value": "<date>"
+                },
+                {
+                  "key": "foundedDate",
+                  "value": "<date>"
+                },
+                {
+                  "key": "birthCity",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "birthCountry",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "birthContinent",
+                  "value": "<string>"
+                },
+                {
+                  "key": "deathCity",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "deathCountry",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "deathContinent",
+                  "value": "<string>"
+                },
+                {
+                  "key": "foundedCity",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "foundedCountry",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "foundedContinent",
+                  "value": "<string>"
+                },
+                {
+                  "key": "HeadquartersCity",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "HeadquartersCountry",
+                  "value": "<utf-8>"
+                },
+                {
+                  "key": "HeadquartersContinent",
+                  "value": "<string>"
+                },
+                {
+                  "key": "nobelPrizeYear",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "yearTo",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "nobelPrizeCategory",
+                  "value": "<string>"
+                },
+                {
+                  "key": "format",
+                  "value": "<string>"
+                },
+                {
+                  "key": "csvLang",
+                  "value": "<string>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Unprocessable Entity (WebDAV) (RFC 4918)",
+          "code": 422,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": \"404\",\n  \"message\": \"There is not Laureate born that date\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "e0322e69-14d6-4d32-96f0-ebc75cdb5159",
+      "name": "Obtain information about an specific Nobel Prize Laureate. Used as unique identifier.",
+      "request": {
+        "name": "Obtain information about an specific Nobel Prize Laureate. Used as unique identifier.",
+        "description": {
+          "content": "Obtain information about an specific Nobel Prize Laureate. Used as unique identifier.",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "laureate",
+            ":laureateID"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<integer>",
+              "key": "laureateID",
+              "description": "(Required) Numeric Laureate's ID. Unique key."
+            }
+          ]
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "501ec0c2-ec01-4ffe-9153-99ae03c5532b",
+          "name": "Successful call of Laureate given the ID",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "laureate",
+                ":laureateID"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<integer>",
+                  "key": "laureateID",
+                  "description": "(Required) Numeric Laureate's ID. Unique key."
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "10a5b7fb-fc1f-483a-a9d2-f4d0cdb8ef04",
+          "name": "Bad request.The request could not be understood by the server due to malformed syntax, modifications needed.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "laureate",
+                ":laureateID"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<integer>",
+                  "key": "laureateID",
+                  "description": "(Required) Numeric Laureate's ID. Unique key."
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": \"404\",\n  \"message\": \"There is not Laureate born that date\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "4cd62df1-d751-417e-b544-fb75a06a2cf0",
+          "name": "Not Found. The requested resource could not be found but may be available again in the future.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "laureate",
+                ":laureateID"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<integer>",
+                  "key": "laureateID",
+                  "description": "(Required) Numeric Laureate's ID. Unique key."
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": \"404\",\n  \"message\": \"There is not Laureate born that date\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "2aa8a04c-9eff-4bd1-97fb-40965b279818",
+          "name": "Unprocessable Entity. The request was well-formed but was unable to be followed due to semantic errors.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "laureate",
+                ":laureateID"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<integer>",
+                  "key": "laureateID",
+                  "description": "(Required) Numeric Laureate's ID. Unique key."
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Unprocessable Entity (WebDAV) (RFC 4918)",
+          "code": 422,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": \"404\",\n  \"message\": \"There is not Laureate born that date\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "http://api.nobelprize.org/2.1",
+      "key": "baseUrl"
+    },
+    {
+      "type": "number",
+      "value": 200,
+      "key": "statusCode"
+    }
+  ],
+  "info": {
+    "_postman_id": "bec3049b-9050-4678-8b80-74dbc9a09689",
+    "name": "Nobel Prize Master Data",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Information about the Nobel Prizes and the Nobel Prize Laureates",
+      "type": "text/plain"
+    }
+  }
+}
