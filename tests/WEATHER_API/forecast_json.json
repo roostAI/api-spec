@@ -1,0 +1,76 @@
+[
+  {
+    "q": "New York",
+    "days": 3,
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "q": "Los Angeles",
+    "days": 5,
+    "lang": "en",
+    "alerts": "yes",
+    "aqi": "yes",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "days": 3,
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "q": "InvalidLocation123",
+    "days": 2,
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "q": "Paris",
+    "days": -1,
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "q": "Tokyo",
+    "days": 7,
+    "lang": "jp",
+    "alerts": "no",
+    "aqi": "no",
+    "tp": 3,
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "q": "London",
+    "days": 0,
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "q": "Sydney",
+    "days": 10,
+    "unixdt": 1672531199,
+    "hour": 14,
+    "lang": "en",
+    "alerts": "yes",
+    "aqi": "yes",
+    "tp": 2,
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "q": "Berlin",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "q": "Moscow",
+    "days": 3,
+    "lang": "ru",
+    "alerts": "yes",
+    "aqi": "yes",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  }
+]

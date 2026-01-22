@@ -1,0 +1,48 @@
+[
+  {
+    "q": "New York",
+    "days": 3,
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "q": "Los Angeles",
+    "days": 5,
+    "dt": "2023-10-15",
+    "lang": "en",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "days": 2,
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "q": "InvalidLocation123",
+    "days": 1,
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "q": "Miami",
+    "days": -1,
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "q": "Tokyo",
+    "days": 7,
+    "unixdt": 1672531199,
+    "hour": 25,
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "q": "London",
+    "days": 10,
+    "lang": "xx",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  }
+]
