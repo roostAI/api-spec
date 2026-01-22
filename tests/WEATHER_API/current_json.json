@@ -1,0 +1,39 @@
+[
+  {
+    "q": "New York",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "q": "Los Angeles",
+    "lang": "en",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "lang": "en",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "q": "InvalidCityName123",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "q": "Paris",
+    "lang": "invalid_lang_code",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "q": "Tokyo",
+    "statusCode": 401,
+    "scenario": "Client error responses: Unauthorized"
+  },
+  {
+    "q": "London",
+    "statusCode": 403,
+    "scenario": "Client error responses: Forbidden"
+  }
+]

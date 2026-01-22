@@ -1,0 +1,41 @@
+[
+  {
+    "q": "New York",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "q": "Los Angeles",
+    "dt": "2023-10-15",
+    "lang": "en",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "dt": "2023-10-15",
+    "lang": "en",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "q": "InvalidCityName",
+    "dt": "2023-10-15",
+    "lang": "en",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "q": "Paris",
+    "dt": "invalid-date",
+    "lang": "en",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "q": "Tokyo",
+    "dt": "2023-10-15",
+    "lang": "xx",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "q": "New York",
+    "dt": "2023-10-01",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "q": "Los Angeles",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "dt": "2023-10-01",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "q": "InvalidLocation123",
+    "dt": "2023-10-01",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "q": "San Francisco",
+    "dt": "InvalidDate",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "q": "",
+    "dt": "2023-10-01",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "q": "Chicago",
+    "dt": "2023-10-01",
+    "statusCode": 401,
+    "scenario": "Client error responses: Unauthorized"
+  },
+  {
+    "q": "Miami",
+    "dt": "2023-10-01",
+    "statusCode": 403,
+    "scenario": "Client error responses: Forbidden"
+  }
+]
