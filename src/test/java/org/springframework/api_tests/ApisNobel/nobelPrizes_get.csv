@@ -1,0 +1,2 @@
+offset,limit,sort,nobelPrizeYear,yearTo,nobelPrizeCategory,format,csvLang
+"1","10","asc","2000","2010","eco","json","en"
