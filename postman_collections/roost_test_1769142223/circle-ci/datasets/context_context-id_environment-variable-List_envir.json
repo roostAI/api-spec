@@ -1,0 +1,82 @@
+[
+  {
+    "context-id": "123e4567-e89b-12d3-a456-426614174000",
+    "statusCode": 200,
+    "scenario": "A paginated list of environment variables"
+  },
+  {
+    "context-id": "123e4567-e89b-12d3-a456-426614174001",
+    "page-token": "token123",
+    "statusCode": 200,
+    "scenario": "A paginated list of environment variables"
+  },
+  {
+    "page-token": "token456",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "context-id": "invalid-uuid",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "context-id": "123e4567-e89b-12d3-a456-426614174002",
+    "statusCode": 200,
+    "scenario": "A paginated list of environment variables"
+  },
+  {
+    "context-id": "123e4567-e89b-12d3-a456-426614174003",
+    "page-token": "token789",
+    "statusCode": 200,
+    "scenario": "A paginated list of environment variables"
+  },
+  {
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "context-id": "123e4567-e89b-12d3-a456-426614174004",
+    "page-token": "token000",
+    "statusCode": 200,
+    "scenario": "A paginated list of environment variables"
+  },
+  {
+    "context-id": "123e4567-e89b-12d3-a456-426614174005",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "context-id": "123e4567-e89b-12d3-a456-426614174006",
+    "page-token": "token111",
+    "statusCode": 200,
+    "scenario": "A paginated list of environment variables"
+  },
+  {
+    "context-id": "123e4567-e89b-12d3-a456-426614174007",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "context-id": "123e4567-e89b-12d3-a456-426614174008",
+    "page-token": "token222",
+    "statusCode": 200,
+    "scenario": "A paginated list of environment variables"
+  },
+  {
+    "context-id": "123e4567-e89b-12d3-a456-426614174009",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "context-id": "123e4567-e89b-12d3-a456-426614174010",
+    "page-token": "token333",
+    "statusCode": 200,
+    "scenario": "A paginated list of environment variables"
+  },
+  {
+    "context-id": "123e4567-e89b-12d3-a456-426614174011",
+    "statusCode": 500,
+    "scenario": "Error response."
+  }
+]

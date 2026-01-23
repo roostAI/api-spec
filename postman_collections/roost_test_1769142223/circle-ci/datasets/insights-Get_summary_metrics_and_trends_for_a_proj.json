@@ -1,0 +1,89 @@
+[
+  {
+    "project-slug": "project-alpha",
+    "reporting-window": "last-7-days",
+    "statusCode": 200,
+    "scenario": "Aggregated summary metrics and trends by workflow and branches"
+  },
+  {
+    "project-slug": "project-beta",
+    "reporting-window": "last-30-days",
+    "statusCode": 200,
+    "scenario": "Aggregated summary metrics and trends by workflow and branches"
+  },
+  {
+    "project-slug": "project-gamma",
+    "statusCode": 200,
+    "scenario": "Aggregated summary metrics and trends by workflow and branches"
+  },
+  {
+    "project-slug": "project-delta",
+    "reporting-window": "last-90-days",
+    "statusCode": 200,
+    "scenario": "Aggregated summary metrics and trends by workflow and branches"
+  },
+  {
+    "project-slug": "project-epsilon",
+    "reporting-window": "last-60-days",
+    "statusCode": 200,
+    "scenario": "Aggregated summary metrics and trends by workflow and branches"
+  },
+  {
+    "project-slug": "project-zeta",
+    "reporting-window": "last-24-hours",
+    "statusCode": 200,
+    "scenario": "Aggregated summary metrics and trends by workflow and branches"
+  },
+  {
+    "reporting-window": "last-7-days",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-eta",
+    "reporting-window": "invalid-window",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-theta",
+    "reporting-window": "last-30-days",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-iota",
+    "reporting-window": "last-90-days",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-kappa",
+    "reporting-window": "last-60-days",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-lambda",
+    "reporting-window": "last-24-hours",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-mu",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-nu",
+    "reporting-window": "not-in-enum",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-xi",
+    "reporting-window": "last-7-days",
+    "statusCode": 500,
+    "scenario": "Error response."
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "project-slug": "project-alpha",
+    "branch": "main",
+    "page-token": "token123",
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "project-slug": "project-beta",
+    "branch": "develop",
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "project-slug": "project-gamma",
+    "branch": "feature-branch",
+    "page-token": "token456",
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "project-slug": "project-delta",
+    "branch": "release",
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "project-slug": "project-epsilon",
+    "branch": "hotfix",
+    "page-token": "token789",
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "branch": "main",
+    "page-token": "token123",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-zeta",
+    "page-token": "token456",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-eta",
+    "branch": "invalid-branch",
+    "page-token": "token789",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-theta",
+    "branch": "main",
+    "page-token": "invalid-token",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-iota",
+    "branch": "main",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-kappa",
+    "branch": "main",
+    "page-token": "token123",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-lambda",
+    "branch": "main",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-mu",
+    "branch": "main",
+    "page-token": "token123",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-nu",
+    "branch": "main",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-xi",
+    "branch": "main",
+    "page-token": "token123",
+    "statusCode": 500,
+    "scenario": "Error response."
+  }
+]

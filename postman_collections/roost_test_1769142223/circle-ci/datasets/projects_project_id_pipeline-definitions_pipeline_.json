@@ -1,0 +1,91 @@
+[
+  {
+    "project": "Project Alpha",
+    "pipeline_definition": "Pipeline 1",
+    "statusCode": 200,
+    "scenario": "Successful response."
+  },
+  {
+    "project": "Project Beta",
+    "pipeline_definition": "Pipeline 2",
+    "statusCode": 200,
+    "scenario": "Successful response."
+  },
+  {
+    "project": "Project Gamma",
+    "statusCode": 400,
+    "scenario": "Unexpected request body provided."
+  },
+  {
+    "project": "Project Delta",
+    "pipeline_definition": "Invalid Pipeline",
+    "statusCode": 400,
+    "scenario": "Unexpected request body provided."
+  },
+  {
+    "project": "Project Epsilon",
+    "pipeline_definition": "Pipeline 3",
+    "statusCode": 404,
+    "scenario": "Entity not found."
+  },
+  {
+    "project": "Project Zeta",
+    "pipeline_definition": "Pipeline 4",
+    "statusCode": 401,
+    "scenario": "Credentials provided are invalid."
+  },
+  {
+    "project": "Project Eta",
+    "pipeline_definition": "Pipeline 5",
+    "statusCode": 500,
+    "scenario": "Internal server error."
+  },
+  {
+    "project": "Project Theta",
+    "pipeline_definition": "Pipeline 6",
+    "statusCode": 200,
+    "scenario": "Successful response."
+  },
+  {
+    "project": "Project Iota",
+    "pipeline_definition": "Pipeline 7",
+    "statusCode": 400,
+    "scenario": "Unexpected request body provided."
+  },
+  {
+    "project": "Project Kappa",
+    "pipeline_definition": "Pipeline 8",
+    "statusCode": 404,
+    "scenario": "Entity not found."
+  },
+  {
+    "project": "Project Lambda",
+    "pipeline_definition": "Pipeline 9",
+    "statusCode": 401,
+    "scenario": "Credentials provided are invalid."
+  },
+  {
+    "project": "Project Mu",
+    "pipeline_definition": "Pipeline 10",
+    "statusCode": 500,
+    "scenario": "Internal server error."
+  },
+  {
+    "project": "Project Nu",
+    "pipeline_definition": "Pipeline 11",
+    "statusCode": 200,
+    "scenario": "Successful response."
+  },
+  {
+    "project": "Project Xi",
+    "pipeline_definition": "Pipeline 12",
+    "statusCode": 400,
+    "scenario": "Unexpected request body provided."
+  },
+  {
+    "project": "Project Omicron",
+    "pipeline_definition": "Pipeline 13",
+    "statusCode": 404,
+    "scenario": "Entity not found."
+  }
+]

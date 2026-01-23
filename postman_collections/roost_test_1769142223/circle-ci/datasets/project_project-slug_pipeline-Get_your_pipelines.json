@@ -1,0 +1,84 @@
+[
+  {
+    "project-slug": "project-alpha",
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "project-slug": "project-beta",
+    "page-token": "token123",
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "project-slug": "project-gamma",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "page-token": "token456",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-delta",
+    "page-token": "token789",
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "project-slug": "project-epsilon",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-zeta",
+    "page-token": "token101",
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "project-slug": "project-eta",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-theta",
+    "page-token": "token202",
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "project-slug": "project-iota",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-kappa",
+    "page-token": "token303",
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "project-slug": "project-lambda",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-mu",
+    "page-token": "token404",
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "project-slug": "project-nu",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-xi",
+    "page-token": "token505",
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  }
+]

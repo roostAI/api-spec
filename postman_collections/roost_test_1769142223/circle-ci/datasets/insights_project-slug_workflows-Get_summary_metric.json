@@ -1,0 +1,111 @@
+[
+  {
+    "project-slug": "project-alpha",
+    "statusCode": 200,
+    "scenario": "A paginated list of summary metrics by workflow"
+  },
+  {
+    "project-slug": "project-beta",
+    "page-token": "token123",
+    "all-branches": true,
+    "branch": "main",
+    "reporting-window": "last-7-days",
+    "statusCode": 200,
+    "scenario": "A paginated list of summary metrics by workflow"
+  },
+  {
+    "project-slug": "project-gamma",
+    "page-token": "token456",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-delta",
+    "reporting-window": "last-30-days",
+    "statusCode": 200,
+    "scenario": "A paginated list of summary metrics by workflow"
+  },
+  {
+    "project-slug": "project-epsilon",
+    "page-token": "token789",
+    "all-branches": false,
+    "statusCode": 200,
+    "scenario": "A paginated list of summary metrics by workflow"
+  },
+  {
+    "project-slug": "project-zeta",
+    "branch": "develop",
+    "reporting-window": "last-60-days",
+    "statusCode": 200,
+    "scenario": "A paginated list of summary metrics by workflow"
+  },
+  {
+    "project-slug": "project-eta",
+    "page-token": "token101",
+    "all-branches": true,
+    "branch": "feature-branch",
+    "reporting-window": "last-24-hours",
+    "statusCode": 200,
+    "scenario": "A paginated list of summary metrics by workflow"
+  },
+  {
+    "project-slug": "project-theta",
+    "reporting-window": "last-90-days",
+    "statusCode": 200,
+    "scenario": "A paginated list of summary metrics by workflow"
+  },
+  {
+    "project-slug": "project-iota",
+    "page-token": "token202",
+    "all-branches": false,
+    "branch": "hotfix",
+    "statusCode": 200,
+    "scenario": "A paginated list of summary metrics by workflow"
+  },
+  {
+    "project-slug": "project-kappa",
+    "page-token": "token303",
+    "reporting-window": "invalid-window",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-lambda",
+    "branch": "release",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-mu",
+    "page-token": "token404",
+    "all-branches": true,
+    "reporting-window": "last-7-days",
+    "statusCode": 200,
+    "scenario": "A paginated list of summary metrics by workflow"
+  },
+  {
+    "project-slug": "project-nu",
+    "page-token": "token505",
+    "all-branches": false,
+    "branch": "staging",
+    "reporting-window": "last-30-days",
+    "statusCode": 200,
+    "scenario": "A paginated list of summary metrics by workflow"
+  },
+  {
+    "project-slug": "project-xi",
+    "page-token": "token606",
+    "all-branches": true,
+    "branch": "main",
+    "reporting-window": "last-60-days",
+    "statusCode": 200,
+    "scenario": "A paginated list of summary metrics by workflow"
+  },
+  {
+    "project-slug": "project-omicron",
+    "page-token": "token707",
+    "branch": "invalid-branch",
+    "statusCode": 500,
+    "scenario": "Error response."
+  }
+]

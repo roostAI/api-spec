@@ -1,0 +1,90 @@
+[
+  {
+    "project-slug": "project-alpha",
+    "workflow-name": "build-deploy",
+    "statusCode": 200,
+    "scenario": "A list of branches for a project"
+  },
+  {
+    "project-slug": "project-beta",
+    "workflow-name": "test-suite",
+    "statusCode": 200,
+    "scenario": "A list of branches for a project"
+  },
+  {
+    "project-slug": "project-gamma",
+    "statusCode": 200,
+    "scenario": "A list of branches for a project"
+  },
+  {
+    "project-slug": "project-delta",
+    "workflow-name": "release",
+    "statusCode": 200,
+    "scenario": "A list of branches for a project"
+  },
+  {
+    "project-slug": "project-epsilon",
+    "workflow-name": "deploy",
+    "statusCode": 200,
+    "scenario": "A list of branches for a project"
+  },
+  {
+    "project-slug": "project-zeta",
+    "workflow-name": "invalid-workflow",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-eta",
+    "workflow-name": "",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-theta",
+    "workflow-name": "test",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-iota",
+    "workflow-name": "build",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-kappa",
+    "workflow-name": "deploy",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "workflow-name": "build-deploy",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-lambda",
+    "workflow-name": "invalid",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-mu",
+    "workflow-name": "test-suite",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-nu",
+    "workflow-name": "release",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-xi",
+    "workflow-name": "deploy",
+    "statusCode": 500,
+    "scenario": "Error response."
+  }
+]

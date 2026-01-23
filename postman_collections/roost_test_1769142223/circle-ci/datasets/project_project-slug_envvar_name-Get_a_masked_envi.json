@@ -1,0 +1,89 @@
+[
+  {
+    "project-slug": "project-alpha",
+    "name": "Alpha Project",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "project-slug": "project-beta",
+    "name": "Beta Project",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "project-slug": "project-gamma",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "project-slug": "project-delta",
+    "name": "Delta Project",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "project-slug": "project-epsilon",
+    "name": "Epsilon Project",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "project-slug": "project-zeta",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "name": "Eta Project",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "project-slug": "project-theta",
+    "name": "Theta Project",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "project-slug": "project-iota",
+    "name": "Iota Project",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "project-slug": "project-kappa",
+    "name": "Kappa Project",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "project-slug": "project-lambda",
+    "name": "Lambda Project",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "project-slug": "project-mu",
+    "name": "Mu Project",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "project-slug": "project-nu",
+    "name": "Nu Project",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "project-slug": "project-xi",
+    "name": "Xi Project",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "project-slug": "project-omicron",
+    "name": "Omicron Project",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]

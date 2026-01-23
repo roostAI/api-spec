@@ -1,0 +1,90 @@
+[
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174000",
+    "projectID": "123e4567-e89b-12d3-a456-426614174001",
+    "statusCode": 200,
+    "scenario": "Claims successfully fetched."
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174002",
+    "projectID": "123e4567-e89b-12d3-a456-426614174003",
+    "statusCode": 200,
+    "scenario": "Claims successfully fetched."
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174004",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "projectID": "123e4567-e89b-12d3-a456-426614174005",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "orgID": "invalid-uuid",
+    "projectID": "123e4567-e89b-12d3-a456-426614174006",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174007",
+    "projectID": "invalid-uuid",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174008",
+    "projectID": "123e4567-e89b-12d3-a456-426614174009",
+    "statusCode": 403,
+    "scenario": "The user is forbidden from making this request"
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174010",
+    "projectID": "123e4567-e89b-12d3-a456-426614174011",
+    "statusCode": 500,
+    "scenario": "Something unexpected happened on the server."
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174012",
+    "projectID": "123e4567-e89b-12d3-a456-426614174013",
+    "statusCode": 200,
+    "scenario": "Claims successfully fetched."
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174014",
+    "projectID": "123e4567-e89b-12d3-a456-426614174015",
+    "statusCode": 200,
+    "scenario": "Claims successfully fetched."
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174016",
+    "projectID": "123e4567-e89b-12d3-a456-426614174017",
+    "statusCode": 200,
+    "scenario": "Claims successfully fetched."
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174018",
+    "projectID": "123e4567-e89b-12d3-a456-426614174019",
+    "statusCode": 200,
+    "scenario": "Claims successfully fetched."
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174020",
+    "projectID": "123e4567-e89b-12d3-a456-426614174021",
+    "statusCode": 200,
+    "scenario": "Claims successfully fetched."
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174022",
+    "projectID": "123e4567-e89b-12d3-a456-426614174023",
+    "statusCode": 200,
+    "scenario": "Claims successfully fetched."
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174024",
+    "projectID": "123e4567-e89b-12d3-a456-426614174025",
+    "statusCode": 200,
+    "scenario": "Claims successfully fetched."
+  }
+]

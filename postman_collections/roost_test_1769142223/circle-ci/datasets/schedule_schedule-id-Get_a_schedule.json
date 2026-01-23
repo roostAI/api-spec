@@ -1,0 +1,77 @@
+[
+  {
+    "schedule-id": "123e4567-e89b-12d3-a456-426614174000",
+    "statusCode": 200,
+    "scenario": "A schedule object."
+  },
+  {
+    "schedule-id": "987e6543-e21b-34d3-b456-426614174001",
+    "statusCode": 200,
+    "scenario": "A schedule object."
+  },
+  {
+    "schedule-id": "123e4567-e89b-12d3-a456-426614174002",
+    "statusCode": 200,
+    "scenario": "A schedule object."
+  },
+  {
+    "schedule-id": "123e4567-e89b-12d3-a456-426614174003",
+    "statusCode": 200,
+    "scenario": "A schedule object."
+  },
+  {
+    "schedule-id": "123e4567-e89b-12d3-a456-426614174004",
+    "statusCode": 200,
+    "scenario": "A schedule object."
+  },
+  {
+    "schedule-id": "123e4567-e89b-12d3-a456-426614174005",
+    "statusCode": 200,
+    "scenario": "A schedule object."
+  },
+  {
+    "schedule-id": "123e4567-e89b-12d3-a456-426614174006",
+    "statusCode": 200,
+    "scenario": "A schedule object."
+  },
+  {
+    "schedule-id": "123e4567-e89b-12d3-a456-426614174007",
+    "statusCode": 200,
+    "scenario": "A schedule object."
+  },
+  {
+    "schedule-id": "123e4567-e89b-12d3-a456-426614174008",
+    "statusCode": 200,
+    "scenario": "A schedule object."
+  },
+  {
+    "schedule-id": "123e4567-e89b-12d3-a456-426614174009",
+    "statusCode": 200,
+    "scenario": "A schedule object."
+  },
+  {
+    "schedule-id": "invalid-uuid-format",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "schedule-id": "123e4567-e89b-12d3-a456-42661417400x",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "schedule-id": "",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "schedule-id": "123e4567-e89b-12d3-a456-426614174010",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "schedule-id": "123e4567-e89b-12d3-a456-426614174011",
+    "statusCode": 500,
+    "scenario": "Error response."
+  }
+]

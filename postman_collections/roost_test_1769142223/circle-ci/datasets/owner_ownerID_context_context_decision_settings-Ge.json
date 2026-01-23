@@ -1,0 +1,90 @@
+[
+  {
+    "ownerID": "12345",
+    "context": "user_profile",
+    "statusCode": 200,
+    "scenario": "Decision settings successfully retrieved."
+  },
+  {
+    "ownerID": "67890",
+    "context": "account_settings",
+    "statusCode": 200,
+    "scenario": "Decision settings successfully retrieved."
+  },
+  {
+    "ownerID": "54321",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "context": "invalid_context",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "ownerID": "00000",
+    "context": "non_existent",
+    "statusCode": 404,
+    "scenario": "Resource not found"
+  },
+  {
+    "ownerID": "invalid_owner",
+    "context": "user_profile",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "ownerID": "12345",
+    "context": "user_profile",
+    "statusCode": 401,
+    "scenario": "The request is unauthorized"
+  },
+  {
+    "ownerID": "67890",
+    "context": "account_settings",
+    "statusCode": 403,
+    "scenario": "The user is forbidden from making this request"
+  },
+  {
+    "ownerID": "54321",
+    "context": "user_profile",
+    "statusCode": 500,
+    "scenario": "Something unexpected happened on the server."
+  },
+  {
+    "ownerID": "12345",
+    "context": "user_profile",
+    "statusCode": 200,
+    "scenario": "Decision settings successfully retrieved."
+  },
+  {
+    "ownerID": "67890",
+    "context": "account_settings",
+    "statusCode": 200,
+    "scenario": "Decision settings successfully retrieved."
+  },
+  {
+    "ownerID": "54321",
+    "context": "user_profile",
+    "statusCode": 200,
+    "scenario": "Decision settings successfully retrieved."
+  },
+  {
+    "ownerID": "invalid_owner",
+    "context": "invalid_context",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "ownerID": "12345",
+    "context": "non_existent",
+    "statusCode": 404,
+    "scenario": "Resource not found"
+  },
+  {
+    "ownerID": "67890",
+    "context": "user_profile",
+    "statusCode": 403,
+    "scenario": "The user is forbidden from making this request"
+  }
+]

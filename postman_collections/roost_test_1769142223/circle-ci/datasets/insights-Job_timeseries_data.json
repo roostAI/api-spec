@@ -1,0 +1,146 @@
+[
+  {
+    "project-slug": "project-123",
+    "workflow-name": "build-deploy",
+    "branch": "main",
+    "granularity": "daily",
+    "start-date": "2023-10-01T00:00:00Z",
+    "end-date": "2023-10-31T23:59:59Z",
+    "statusCode": 200,
+    "scenario": "An array of timeseries data, one entry per job."
+  },
+  {
+    "project-slug": "project-456",
+    "workflow-name": "test-suite",
+    "branch": "develop",
+    "granularity": "hourly",
+    "start-date": "2023-09-01T00:00:00Z",
+    "end-date": "2023-09-30T23:59:59Z",
+    "statusCode": 200,
+    "scenario": "An array of timeseries data, one entry per job."
+  },
+  {
+    "project-slug": "project-789",
+    "workflow-name": "release",
+    "branch": "feature-branch",
+    "granularity": "daily",
+    "statusCode": 200,
+    "scenario": "An array of timeseries data, one entry per job."
+  },
+  {
+    "project-slug": "project-101",
+    "workflow-name": "integration-test",
+    "branch": "hotfix",
+    "granularity": "hourly",
+    "start-date": "2023-08-01T00:00:00Z",
+    "end-date": "2023-08-31T23:59:59Z",
+    "statusCode": 200,
+    "scenario": "An array of timeseries data, one entry per job."
+  },
+  {
+    "project-slug": "project-202",
+    "workflow-name": "code-quality",
+    "granularity": "daily",
+    "start-date": "2023-07-01T00:00:00Z",
+    "end-date": "2023-07-31T23:59:59Z",
+    "statusCode": 200,
+    "scenario": "An array of timeseries data, one entry per job."
+  },
+  {
+    "project-slug": "project-303",
+    "workflow-name": "security-scan",
+    "branch": "main",
+    "granularity": "hourly",
+    "statusCode": 200,
+    "scenario": "An array of timeseries data, one entry per job."
+  },
+  {
+    "workflow-name": "build-deploy",
+    "branch": "main",
+    "granularity": "daily",
+    "start-date": "2023-10-01T00:00:00Z",
+    "end-date": "2023-10-31T23:59:59Z",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "project-slug": "project-404",
+    "workflow-name": "test-suite",
+    "branch": "develop",
+    "granularity": "weekly",
+    "start-date": "2023-09-01T00:00:00Z",
+    "end-date": "2023-09-30T23:59:59Z",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "project-slug": "project-505",
+    "workflow-name": "release",
+    "branch": "feature-branch",
+    "granularity": "daily",
+    "start-date": "2023-09-31T00:00:00Z",
+    "end-date": "2023-09-30T23:59:59Z",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "project-slug": "project-606",
+    "workflow-name": "integration-test",
+    "branch": "hotfix",
+    "granularity": "hourly",
+    "start-date": "2023-08-01T00:00:00Z",
+    "end-date": "2023-08-31T23:59:59Z",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-707",
+    "workflow-name": "code-quality",
+    "branch": "nonexistent-branch",
+    "granularity": "daily",
+    "start-date": "2023-07-01T00:00:00Z",
+    "end-date": "2023-07-31T23:59:59Z",
+    "statusCode": 404,
+    "scenario": "Resource not found"
+  },
+  {
+    "project-slug": "project-808",
+    "workflow-name": "security-scan",
+    "branch": "main",
+    "granularity": "hourly",
+    "start-date": "2023-06-01T00:00:00Z",
+    "end-date": "2023-06-31T23:59:59Z",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "project-slug": "project-909",
+    "workflow-name": "build-deploy",
+    "branch": "main",
+    "granularity": "hourly",
+    "start-date": "2023-05-01T00:00:00Z",
+    "end-date": "2023-05-31T23:59:59Z",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-010",
+    "workflow-name": "test-suite",
+    "branch": "develop",
+    "granularity": "daily",
+    "start-date": "2023-04-01T00:00:00Z",
+    "end-date": "2023-04-30T23:59:59Z",
+    "statusCode": 404,
+    "scenario": "Resource not found"
+  },
+  {
+    "project-slug": "project-111",
+    "workflow-name": "release",
+    "branch": "feature-branch",
+    "granularity": "hourly",
+    "start-date": "2023-03-01T00:00:00Z",
+    "end-date": "2023-03-31T23:59:59Z",
+    "statusCode": 500,
+    "scenario": "Error response."
+  }
+]

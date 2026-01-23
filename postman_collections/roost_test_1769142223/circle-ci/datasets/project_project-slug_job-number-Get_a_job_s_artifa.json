@@ -1,0 +1,89 @@
+[
+  {
+    "job-number": 12345,
+    "project-slug": "example-project",
+    "statusCode": 200,
+    "scenario": "A paginated list of the job's artifacts."
+  },
+  {
+    "job-number": 67890,
+    "project-slug": "test-project",
+    "statusCode": 200,
+    "scenario": "A paginated list of the job's artifacts."
+  },
+  {
+    "job-number": 11111,
+    "statusCode": 200,
+    "scenario": "A paginated list of the job's artifacts."
+  },
+  {
+    "job-number": 22222,
+    "project-slug": "optional-project",
+    "statusCode": 200,
+    "scenario": "A paginated list of the job's artifacts."
+  },
+  {
+    "project-slug": "missing-job-number",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "job-number": 33333,
+    "project-slug": "invalid-enum",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "job-number": 44444,
+    "project-slug": "not-found",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "job-number": 55555,
+    "project-slug": "another-project",
+    "statusCode": 200,
+    "scenario": "A paginated list of the job's artifacts."
+  },
+  {
+    "job-number": 66666,
+    "project-slug": "yet-another-project",
+    "statusCode": 200,
+    "scenario": "A paginated list of the job's artifacts."
+  },
+  {
+    "job-number": 77777,
+    "statusCode": 200,
+    "scenario": "A paginated list of the job's artifacts."
+  },
+  {
+    "job-number": 88888,
+    "project-slug": "missing-project-slug",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "job-number": 99999,
+    "project-slug": "invalid-project",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "job-number": 10101,
+    "project-slug": "resource-not-found",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "job-number": 20202,
+    "project-slug": "valid-project",
+    "statusCode": 200,
+    "scenario": "A paginated list of the job's artifacts."
+  },
+  {
+    "job-number": 30303,
+    "project-slug": "another-valid-project",
+    "statusCode": 200,
+    "scenario": "A paginated list of the job's artifacts."
+  }
+]

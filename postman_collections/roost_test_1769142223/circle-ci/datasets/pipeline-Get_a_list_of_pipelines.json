@@ -1,0 +1,91 @@
+[
+  {
+    "org-slug": "valid-org",
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "org-slug": "valid-org",
+    "page-token": "token123",
+    "mine": true,
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "org-slug": "valid-org",
+    "page-token": "token123",
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "org-slug": "valid-org",
+    "mine": false,
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "page-token": "token123",
+    "mine": true,
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "org-slug": "invalid-org",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "org-slug": "valid-org",
+    "page-token": "invalid-token",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "org-slug": "valid-org",
+    "mine": "not-a-boolean",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "org-slug": "",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "org-slug": "valid-org",
+    "page-token": "",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "org-slug": "valid-org",
+    "mine": true,
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "org-slug": "valid-org",
+    "page-token": "token456",
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "org-slug": "valid-org",
+    "page-token": "token789",
+    "mine": false,
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "org-slug": "valid-org",
+    "page-token": "token123",
+    "mine": false,
+    "statusCode": 200,
+    "scenario": "A sequence of pipelines."
+  },
+  {
+    "org-slug": "missing-org",
+    "statusCode": 500,
+    "scenario": "Error response."
+  }
+]

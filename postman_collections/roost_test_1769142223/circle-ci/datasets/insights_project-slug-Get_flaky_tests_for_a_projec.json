@@ -1,0 +1,77 @@
+[
+  {
+    "project-slug": "project-alpha",
+    "statusCode": 200,
+    "scenario": "A list of flaky tests for a project"
+  },
+  {
+    "project-slug": "project-beta",
+    "statusCode": 200,
+    "scenario": "A list of flaky tests for a project"
+  },
+  {
+    "project-slug": "project-gamma",
+    "statusCode": 200,
+    "scenario": "A list of flaky tests for a project"
+  },
+  {
+    "project-slug": "project-delta",
+    "statusCode": 200,
+    "scenario": "A list of flaky tests for a project"
+  },
+  {
+    "project-slug": "project-epsilon",
+    "statusCode": 200,
+    "scenario": "A list of flaky tests for a project"
+  },
+  {
+    "project-slug": "project-zeta",
+    "statusCode": 200,
+    "scenario": "A list of flaky tests for a project"
+  },
+  {
+    "project-slug": "project-eta",
+    "statusCode": 200,
+    "scenario": "A list of flaky tests for a project"
+  },
+  {
+    "project-slug": "project-theta",
+    "statusCode": 200,
+    "scenario": "A list of flaky tests for a project"
+  },
+  {
+    "project-slug": "project-iota",
+    "statusCode": 200,
+    "scenario": "A list of flaky tests for a project"
+  },
+  {
+    "project-slug": "project-kappa",
+    "statusCode": 200,
+    "scenario": "A list of flaky tests for a project"
+  },
+  {
+    "project-slug": "project-lambda",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-mu",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-nu",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-xi",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-omicron",
+    "statusCode": 500,
+    "scenario": "Error response."
+  }
+]

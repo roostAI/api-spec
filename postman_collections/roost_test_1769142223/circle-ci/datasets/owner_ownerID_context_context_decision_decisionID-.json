@@ -1,0 +1,102 @@
+[
+  {
+    "ownerID": "owner123",
+    "decisionID": "decision456",
+    "statusCode": 200,
+    "scenario": "Policy-Bundle retrieved successfully for given decision log ID"
+  },
+  {
+    "ownerID": "owner789",
+    "context": "contextABC",
+    "decisionID": "decision101",
+    "statusCode": 200,
+    "scenario": "Policy-Bundle retrieved successfully for given decision log ID"
+  },
+  {
+    "ownerID": "owner123",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "ownerID": "owner123",
+    "context": "contextXYZ",
+    "decisionID": "invalid_decision_id",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "ownerID": "invalid_owner_id",
+    "context": "contextXYZ",
+    "decisionID": "decision456",
+    "statusCode": 404,
+    "scenario": "There was no decision log found for given decision_id, and owner_id."
+  },
+  {
+    "ownerID": "owner123",
+    "context": "contextXYZ",
+    "decisionID": "decision456",
+    "statusCode": 401,
+    "scenario": "The request is unauthorized"
+  },
+  {
+    "ownerID": "owner123",
+    "context": "contextXYZ",
+    "decisionID": "decision456",
+    "statusCode": 403,
+    "scenario": "The user is forbidden from making this request"
+  },
+  {
+    "ownerID": "owner123",
+    "context": "contextXYZ",
+    "decisionID": "decision456",
+    "statusCode": 500,
+    "scenario": "Something unexpected happened on the server."
+  },
+  {
+    "context": "contextXYZ",
+    "decisionID": "decision456",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "ownerID": "owner123",
+    "context": "contextXYZ",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "ownerID": "owner123",
+    "context": "contextXYZ",
+    "decisionID": "decision456",
+    "statusCode": 404,
+    "scenario": "There was no decision log found for given decision_id, and owner_id."
+  },
+  {
+    "ownerID": "owner123",
+    "context": "contextXYZ",
+    "decisionID": "decision456",
+    "statusCode": 401,
+    "scenario": "The request is unauthorized"
+  },
+  {
+    "ownerID": "owner123",
+    "context": "contextXYZ",
+    "decisionID": "decision456",
+    "statusCode": 403,
+    "scenario": "The user is forbidden from making this request"
+  },
+  {
+    "ownerID": "owner123",
+    "context": "contextXYZ",
+    "decisionID": "decision456",
+    "statusCode": 500,
+    "scenario": "Something unexpected happened on the server."
+  },
+  {
+    "ownerID": "owner123",
+    "context": "contextXYZ",
+    "decisionID": "decision456",
+    "statusCode": 200,
+    "scenario": "Policy-Bundle retrieved successfully for given decision log ID"
+  }
+]

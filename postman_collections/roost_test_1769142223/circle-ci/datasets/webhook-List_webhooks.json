@@ -1,0 +1,91 @@
+[
+  {
+    "scope-id": "123e4567-e89b-12d3-a456-426614174000",
+    "scope-type": "project",
+    "statusCode": 200,
+    "scenario": "A list of webhooks"
+  },
+  {
+    "scope-id": "123e4567-e89b-12d3-a456-426614174001",
+    "scope-type": "project",
+    "statusCode": 200,
+    "scenario": "A list of webhooks"
+  },
+  {
+    "scope-id": "123e4567-e89b-12d3-a456-426614174002",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "scope-id": "invalid-uuid",
+    "scope-type": "project",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "scope-id": "123e4567-e89b-12d3-a456-426614174003",
+    "scope-type": "invalid-scope",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "scope-id": "123e4567-e89b-12d3-a456-426614174004",
+    "scope-type": "project",
+    "statusCode": 404,
+    "scenario": "Resource Not Found"
+  },
+  {
+    "scope-id": "123e4567-e89b-12d3-a456-426614174005",
+    "scope-type": "project",
+    "statusCode": 200,
+    "scenario": "A list of webhooks"
+  },
+  {
+    "scope-id": "123e4567-e89b-12d3-a456-426614174006",
+    "scope-type": "project",
+    "statusCode": 200,
+    "scenario": "A list of webhooks"
+  },
+  {
+    "scope-id": "123e4567-e89b-12d3-a456-426614174007",
+    "scope-type": "project",
+    "statusCode": 200,
+    "scenario": "A list of webhooks"
+  },
+  {
+    "scope-id": "123e4567-e89b-12d3-a456-426614174008",
+    "scope-type": "project",
+    "statusCode": 200,
+    "scenario": "A list of webhooks"
+  },
+  {
+    "scope-id": "123e4567-e89b-12d3-a456-426614174009",
+    "scope-type": "project",
+    "statusCode": 200,
+    "scenario": "A list of webhooks"
+  },
+  {
+    "scope-id": "123e4567-e89b-12d3-a456-426614174010",
+    "scope-type": "project",
+    "statusCode": 200,
+    "scenario": "A list of webhooks"
+  },
+  {
+    "scope-id": "123e4567-e89b-12d3-a456-426614174011",
+    "scope-type": "project",
+    "statusCode": 200,
+    "scenario": "A list of webhooks"
+  },
+  {
+    "scope-id": "123e4567-e89b-12d3-a456-426614174012",
+    "scope-type": "project",
+    "statusCode": 200,
+    "scenario": "A list of webhooks"
+  },
+  {
+    "scope-id": "123e4567-e89b-12d3-a456-426614174013",
+    "scope-type": "project",
+    "statusCode": 200,
+    "scenario": "A list of webhooks"
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174000",
+    "statusCode": 200,
+    "scenario": "Claims successfully fetched."
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174001",
+    "statusCode": 200,
+    "scenario": "Claims successfully fetched."
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174002",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174003",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174004",
+    "statusCode": 403,
+    "scenario": "The user is forbidden from making this request"
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174005",
+    "statusCode": 403,
+    "scenario": "The user is forbidden from making this request"
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174006",
+    "statusCode": 500,
+    "scenario": "Something unexpected happened on the server."
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174007",
+    "statusCode": 500,
+    "scenario": "Something unexpected happened on the server."
+  },
+  {
+    "orgID": "invalid-uuid-format",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174008",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174009",
+    "statusCode": 403,
+    "scenario": "The user is forbidden from making this request"
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174010",
+    "statusCode": 500,
+    "scenario": "Something unexpected happened on the server."
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174011",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174012",
+    "statusCode": 403,
+    "scenario": "The user is forbidden from making this request"
+  },
+  {
+    "orgID": "123e4567-e89b-12d3-a456-426614174013",
+    "statusCode": 500,
+    "scenario": "Something unexpected happened on the server."
+  }
+]

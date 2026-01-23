@@ -1,0 +1,90 @@
+[
+  {
+    "project-slug": "project-alpha",
+    "digest": "sha256",
+    "statusCode": 200,
+    "scenario": "A sequence of checkout keys."
+  },
+  {
+    "project-slug": "project-beta",
+    "digest": "md5",
+    "statusCode": 200,
+    "scenario": "A sequence of checkout keys."
+  },
+  {
+    "project-slug": "project-gamma",
+    "digest": "sha256",
+    "statusCode": 200,
+    "scenario": "A sequence of checkout keys."
+  },
+  {
+    "project-slug": "project-delta",
+    "digest": "md5",
+    "statusCode": 200,
+    "scenario": "A sequence of checkout keys."
+  },
+  {
+    "project-slug": "project-epsilon",
+    "statusCode": 200,
+    "scenario": "A sequence of checkout keys."
+  },
+  {
+    "project-slug": "project-zeta",
+    "digest": "sha256",
+    "statusCode": 200,
+    "scenario": "A sequence of checkout keys."
+  },
+  {
+    "project-slug": "project-eta",
+    "digest": "md5",
+    "statusCode": 200,
+    "scenario": "A sequence of checkout keys."
+  },
+  {
+    "project-slug": "project-theta",
+    "digest": "sha256",
+    "statusCode": 200,
+    "scenario": "A sequence of checkout keys."
+  },
+  {
+    "project-slug": "project-iota",
+    "digest": "md5",
+    "statusCode": 200,
+    "scenario": "A sequence of checkout keys."
+  },
+  {
+    "project-slug": "project-kappa",
+    "digest": "sha256",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-lambda",
+    "digest": "invalid-digest",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "digest": "md5",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-mu",
+    "digest": "sha512",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-nu",
+    "digest": "md5",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-xi",
+    "digest": "sha256",
+    "statusCode": 500,
+    "scenario": "Error response."
+  }
+]

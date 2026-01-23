@@ -1,0 +1,79 @@
+[
+  {
+    "context": "validContext123",
+    "statusCode": 200,
+    "scenario": "Successful response."
+  },
+  {
+    "context": "validContext123",
+    "additionalField": "optionalValue",
+    "statusCode": 200,
+    "scenario": "Successful response."
+  },
+  {
+    "statusCode": 400,
+    "scenario": "Context ID provided is invalid."
+  },
+  {
+    "context": "invalidContext!",
+    "statusCode": 400,
+    "scenario": "Context ID provided is invalid."
+  },
+  {
+    "context": "nonExistentContext",
+    "statusCode": 404,
+    "scenario": "Entity not found."
+  },
+  {
+    "context": "validContext123",
+    "statusCode": 401,
+    "scenario": "Credentials provided are invalid."
+  },
+  {
+    "context": "validContext123",
+    "statusCode": 429,
+    "scenario": "API rate limits exceeded."
+  },
+  {
+    "context": "validContext123",
+    "statusCode": 500,
+    "scenario": "Internal server error."
+  },
+  {
+    "context": "validContext123",
+    "additionalField": "optionalValue",
+    "statusCode": 500,
+    "scenario": "Internal server error."
+  },
+  {
+    "context": "validContext123",
+    "statusCode": 404,
+    "scenario": "Entity not found."
+  },
+  {
+    "context": "validContext123",
+    "additionalField": "optionalValue",
+    "statusCode": 401,
+    "scenario": "Credentials provided are invalid."
+  },
+  {
+    "context": "validContext123",
+    "statusCode": 429,
+    "scenario": "API rate limits exceeded."
+  },
+  {
+    "context": "validContext123",
+    "statusCode": 400,
+    "scenario": "Context ID provided is invalid."
+  },
+  {
+    "context": "invalidContext!",
+    "statusCode": 404,
+    "scenario": "Entity not found."
+  },
+  {
+    "context": "nonExistentContext",
+    "statusCode": 401,
+    "scenario": "Credentials provided are invalid."
+  }
+]

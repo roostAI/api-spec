@@ -1,0 +1,105 @@
+[
+  {
+    "provider": "GitHub",
+    "organization": "OpenAI",
+    "project": "ChatGPT",
+    "statusCode": 200,
+    "scenario": "Successful response."
+  },
+  {
+    "provider": "GitHub",
+    "organization": "OpenAI",
+    "project": "ChatGPT",
+    "statusCode": 200,
+    "scenario": "Successful response."
+  },
+  {
+    "provider": "GitHub",
+    "organization": "OpenAI",
+    "statusCode": 200,
+    "scenario": "Successful response."
+  },
+  {
+    "provider": "GitHub",
+    "organization": "OpenAI",
+    "project": "ChatGPT",
+    "statusCode": 401,
+    "scenario": "Credentials provided are invalid."
+  },
+  {
+    "provider": "GitHub",
+    "organization": "OpenAI",
+    "project": "ChatGPT",
+    "statusCode": 403,
+    "scenario": "None or insufficient credentials provided."
+  },
+  {
+    "provider": "GitHub",
+    "organization": "OpenAI",
+    "project": "ChatGPT",
+    "statusCode": 404,
+    "scenario": "Insufficient credentials for a private project, OR the organization, project, or repository does not exist."
+  },
+  {
+    "provider": "GitHub",
+    "organization": "OpenAI",
+    "project": "NonExistentProject",
+    "statusCode": 404,
+    "scenario": "Insufficient credentials for a private project, OR the organization, project, or repository does not exist."
+  },
+  {
+    "provider": "GitHub",
+    "organization": "OpenAI",
+    "project": "ChatGPT",
+    "statusCode": 429,
+    "scenario": "API rate limits exceeded."
+  },
+  {
+    "provider": "GitHub",
+    "organization": "OpenAI",
+    "project": "ChatGPT",
+    "statusCode": 500,
+    "scenario": "Internal server error."
+  },
+  {
+    "provider": "GitHub",
+    "organization": "OpenAI",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "provider": "GitHub",
+    "organization": "OpenAI",
+    "project": 12345,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "provider": "GitHub",
+    "organization": "OpenAI",
+    "project": "ChatGPT",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "provider": "GitHub",
+    "organization": "OpenAI",
+    "project": "ChatGPT",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "provider": "GitHub",
+    "organization": "OpenAI",
+    "project": "ChatGPT",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "provider": "GitHub",
+    "organization": "OpenAI",
+    "project": "ChatGPT",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]
