@@ -1,0 +1,89 @@
+[
+  {
+    "job-number": 12345,
+    "project-slug": "project-alpha",
+    "statusCode": 200,
+    "scenario": "A paginated list of test results."
+  },
+  {
+    "job-number": 67890,
+    "project-slug": "project-beta",
+    "statusCode": 200,
+    "scenario": "A paginated list of test results."
+  },
+  {
+    "job-number": 11223,
+    "statusCode": 200,
+    "scenario": "A paginated list of test results."
+  },
+  {
+    "job-number": 44556,
+    "project-slug": "project-gamma",
+    "statusCode": 200,
+    "scenario": "A paginated list of test results."
+  },
+  {
+    "job-number": 78901,
+    "project-slug": "project-delta",
+    "statusCode": 200,
+    "scenario": "A paginated list of test results."
+  },
+  {
+    "project-slug": "project-epsilon",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "job-number": "invalid-number",
+    "project-slug": "project-zeta",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "job-number": 23456,
+    "project-slug": "project-eta",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "job-number": 34567,
+    "project-slug": "invalid-slug",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "job-number": 45678,
+    "project-slug": "project-theta",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "job-number": 56789,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "job-number": 67890,
+    "project-slug": "project-iota",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "job-number": 78901,
+    "project-slug": "project-kappa",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "job-number": 89012,
+    "project-slug": "project-lambda",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "job-number": 90123,
+    "project-slug": "project-mu",
+    "statusCode": 500,
+    "scenario": "Error response."
+  }
+]

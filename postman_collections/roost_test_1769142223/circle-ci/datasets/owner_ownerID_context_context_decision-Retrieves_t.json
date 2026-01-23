@@ -1,0 +1,149 @@
+[
+  {
+    "ownerID": "user123",
+    "context": "projectA",
+    "status": "active",
+    "after": "2023-01-01T00:00:00Z",
+    "before": "2023-12-31T23:59:59Z",
+    "branch": "main",
+    "offset": 0,
+    "statusCode": 200,
+    "scenario": "Decision logs successfully retrieved."
+  },
+  {
+    "ownerID": "user456",
+    "context": "projectB",
+    "status": "inactive",
+    "after": "2023-06-01T00:00:00Z",
+    "before": "2023-06-30T23:59:59Z",
+    "statusCode": 200,
+    "scenario": "Decision logs successfully retrieved."
+  },
+  {
+    "ownerID": "user789",
+    "context": "projectC",
+    "status": "active",
+    "after": "2023-03-01T00:00:00Z",
+    "before": "2023-03-31T23:59:59Z",
+    "branch": "develop",
+    "statusCode": 200,
+    "scenario": "Decision logs successfully retrieved."
+  },
+  {
+    "ownerID": "user101",
+    "context": "projectD",
+    "status": "active",
+    "after": "2023-04-01T00:00:00Z",
+    "before": "2023-04-30T23:59:59Z",
+    "branch": "feature",
+    "offset": 10,
+    "statusCode": 200,
+    "scenario": "Decision logs successfully retrieved."
+  },
+  {
+    "ownerID": "user102",
+    "context": "projectE",
+    "status": "inactive",
+    "after": "2023-05-01T00:00:00Z",
+    "before": "2023-05-31T23:59:59Z",
+    "statusCode": 200,
+    "scenario": "Decision logs successfully retrieved."
+  },
+  {
+    "ownerID": "user103",
+    "context": "projectF",
+    "status": "active",
+    "after": "2023-07-01T00:00:00Z",
+    "before": "2023-07-31T23:59:59Z",
+    "branch": "hotfix",
+    "statusCode": 200,
+    "scenario": "Decision logs successfully retrieved."
+  },
+  {
+    "ownerID": "user104",
+    "context": "projectG",
+    "status": "active",
+    "after": "2023-08-01T00:00:00Z",
+    "before": "2023-08-31T23:59:59Z",
+    "statusCode": 200,
+    "scenario": "Decision logs successfully retrieved."
+  },
+  {
+    "ownerID": "user105",
+    "context": "projectH",
+    "status": "inactive",
+    "after": "2023-09-01T00:00:00Z",
+    "before": "2023-09-30T23:59:59Z",
+    "branch": "release",
+    "statusCode": 200,
+    "scenario": "Decision logs successfully retrieved."
+  },
+  {
+    "ownerID": "user106",
+    "context": "projectI",
+    "status": "active",
+    "after": "2023-10-01T00:00:00Z",
+    "before": "2023-10-31T23:59:59Z",
+    "branch": "main",
+    "offset": 5,
+    "statusCode": 200,
+    "scenario": "Decision logs successfully retrieved."
+  },
+  {
+    "ownerID": "user107",
+    "context": "projectJ",
+    "status": "active",
+    "after": "2023-11-01T00:00:00Z",
+    "before": "2023-11-30T23:59:59Z",
+    "statusCode": 200,
+    "scenario": "Decision logs successfully retrieved."
+  },
+  {
+    "context": "projectK",
+    "status": "active",
+    "after": "2023-12-01T00:00:00Z",
+    "before": "2023-12-31T23:59:59Z",
+    "branch": "main",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "ownerID": "user109",
+    "context": "projectL",
+    "status": "unknown",
+    "after": "2023-01-01T00:00:00Z",
+    "before": "2023-12-31T23:59:59Z",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "ownerID": "user110",
+    "context": "projectM",
+    "status": "active",
+    "after": "invalid-date",
+    "before": "2023-12-31T23:59:59Z",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "ownerID": "user111",
+    "context": "projectN",
+    "status": "active",
+    "after": "2023-01-01T00:00:00Z",
+    "before": "2023-12-31T23:59:59Z",
+    "branch": "nonexistent",
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  },
+  {
+    "ownerID": "user112",
+    "context": "projectO",
+    "status": "active",
+    "after": "2023-01-01T00:00:00Z",
+    "before": "2023-12-31T23:59:59Z",
+    "branch": "main",
+    "offset": -1,
+    "statusCode": 400,
+    "scenario": "The request is malformed (e.g, a given path parameter is invalid)"
+  }
+]

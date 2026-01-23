@@ -1,0 +1,112 @@
+[
+  {
+    "project-slug": "project-alpha",
+    "workflow-name": "build-deploy",
+    "branch": "main",
+    "statusCode": 200,
+    "scenario": "A list of test metrics by workflow"
+  },
+  {
+    "project-slug": "project-beta",
+    "workflow-name": "test-suite",
+    "branch": "develop",
+    "all-branches": true,
+    "statusCode": 200,
+    "scenario": "A list of test metrics by workflow"
+  },
+  {
+    "project-slug": "project-gamma",
+    "workflow-name": "release",
+    "statusCode": 200,
+    "scenario": "A list of test metrics by workflow"
+  },
+  {
+    "project-slug": "project-delta",
+    "workflow-name": "integration",
+    "branch": "feature-xyz",
+    "all-branches": false,
+    "statusCode": 200,
+    "scenario": "A list of test metrics by workflow"
+  },
+  {
+    "project-slug": "project-epsilon",
+    "workflow-name": "deploy",
+    "branch": "hotfix",
+    "statusCode": 200,
+    "scenario": "A list of test metrics by workflow"
+  },
+  {
+    "workflow-name": "missing-project",
+    "branch": "main",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "invalid-project",
+    "workflow-name": "build",
+    "branch": "main",
+    "all-branches": "yes",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-zeta",
+    "workflow-name": "deploy",
+    "branch": "unknown-branch",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-eta",
+    "workflow-name": "test",
+    "branch": "main",
+    "all-branches": null,
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-theta",
+    "workflow-name": "release",
+    "branch": "main",
+    "all-branches": "false",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-iota",
+    "workflow-name": "integration",
+    "branch": "main",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-kappa",
+    "workflow-name": "build",
+    "branch": "main",
+    "all-branches": true,
+    "statusCode": 200,
+    "scenario": "A list of test metrics by workflow"
+  },
+  {
+    "project-slug": "project-lambda",
+    "workflow-name": "deploy",
+    "branch": "release",
+    "statusCode": 200,
+    "scenario": "A list of test metrics by workflow"
+  },
+  {
+    "project-slug": "project-mu",
+    "workflow-name": "test",
+    "branch": "develop",
+    "all-branches": false,
+    "statusCode": 200,
+    "scenario": "A list of test metrics by workflow"
+  },
+  {
+    "project-slug": "project-nu",
+    "workflow-name": "integration",
+    "branch": "feature-abc",
+    "statusCode": 200,
+    "scenario": "A list of test metrics by workflow"
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "statusCode": 200,
+    "scenario": "A workflow object."
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174001",
+    "statusCode": 200,
+    "scenario": "A workflow object."
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174002",
+    "statusCode": 200,
+    "scenario": "A workflow object."
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174003",
+    "statusCode": 200,
+    "scenario": "A workflow object."
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174004",
+    "statusCode": 200,
+    "scenario": "A workflow object."
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174005",
+    "statusCode": 200,
+    "scenario": "A workflow object."
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174006",
+    "statusCode": 200,
+    "scenario": "A workflow object."
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174007",
+    "statusCode": 200,
+    "scenario": "A workflow object."
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174008",
+    "statusCode": 200,
+    "scenario": "A workflow object."
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174009",
+    "statusCode": 200,
+    "scenario": "A workflow object."
+  },
+  {
+    "id": "invalid-uuid-format",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-42661417400z",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-42661417400-",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-42661417400",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "id": "",
+    "statusCode": 500,
+    "scenario": "Error response."
+  }
+]

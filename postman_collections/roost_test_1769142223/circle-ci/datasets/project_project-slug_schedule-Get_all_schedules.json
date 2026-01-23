@@ -1,0 +1,84 @@
+[
+  {
+    "project-slug": "project-alpha",
+    "statusCode": 200,
+    "scenario": "A sequence of schedules."
+  },
+  {
+    "project-slug": "project-beta",
+    "page-token": "token123",
+    "statusCode": 200,
+    "scenario": "A sequence of schedules."
+  },
+  {
+    "project-slug": "project-gamma",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "page-token": "token456",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-delta",
+    "page-token": "token789",
+    "statusCode": 200,
+    "scenario": "A sequence of schedules."
+  },
+  {
+    "project-slug": "project-epsilon",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-zeta",
+    "page-token": "token101",
+    "statusCode": 200,
+    "scenario": "A sequence of schedules."
+  },
+  {
+    "project-slug": "project-eta",
+    "page-token": "token202",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-theta",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-iota",
+    "page-token": "token303",
+    "statusCode": 200,
+    "scenario": "A sequence of schedules."
+  },
+  {
+    "project-slug": "project-kappa",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-lambda",
+    "page-token": "token404",
+    "statusCode": 200,
+    "scenario": "A sequence of schedules."
+  },
+  {
+    "project-slug": "project-mu",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-nu",
+    "page-token": "token505",
+    "statusCode": 200,
+    "scenario": "A sequence of schedules."
+  },
+  {
+    "project-slug": "project-xi",
+    "statusCode": 500,
+    "scenario": "Error response."
+  }
+]

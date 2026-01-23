@@ -1,0 +1,77 @@
+[
+  {
+    "project": "Project Alpha",
+    "statusCode": 200,
+    "scenario": "Successful response."
+  },
+  {
+    "project": "Project Beta",
+    "statusCode": 200,
+    "scenario": "Successful response."
+  },
+  {
+    "project": "Project Gamma",
+    "statusCode": 200,
+    "scenario": "Successful response."
+  },
+  {
+    "project": "Project Delta",
+    "statusCode": 200,
+    "scenario": "Successful response."
+  },
+  {
+    "project": "Project Epsilon",
+    "statusCode": 200,
+    "scenario": "Successful response."
+  },
+  {
+    "project": "Project Zeta",
+    "statusCode": 400,
+    "scenario": "Unexpected request body provided."
+  },
+  {
+    "project": "Project Eta",
+    "statusCode": 400,
+    "scenario": "Unexpected request body provided."
+  },
+  {
+    "project": "Project Theta",
+    "statusCode": 400,
+    "scenario": "Unexpected request body provided."
+  },
+  {
+    "project": "Project Iota",
+    "statusCode": 400,
+    "scenario": "Unexpected request body provided."
+  },
+  {
+    "project": "Project Kappa",
+    "statusCode": 401,
+    "scenario": "Credentials provided are invalid."
+  },
+  {
+    "project": "Project Lambda",
+    "statusCode": 401,
+    "scenario": "Credentials provided are invalid."
+  },
+  {
+    "project": "Project Mu",
+    "statusCode": 404,
+    "scenario": "Entity not found."
+  },
+  {
+    "project": "Project Nu",
+    "statusCode": 404,
+    "scenario": "Entity not found."
+  },
+  {
+    "project": "Project Xi",
+    "statusCode": 500,
+    "scenario": "Internal server error."
+  },
+  {
+    "project": "Project Omicron",
+    "statusCode": 500,
+    "scenario": "Internal server error."
+  }
+]

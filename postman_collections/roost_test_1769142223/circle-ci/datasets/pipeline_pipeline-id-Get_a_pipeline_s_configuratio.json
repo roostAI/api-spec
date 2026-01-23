@@ -1,0 +1,77 @@
+[
+  {
+    "pipeline-id": "123e4567-e89b-12d3-a456-426614174000",
+    "statusCode": 200,
+    "scenario": "The configuration strings for the pipeline."
+  },
+  {
+    "pipeline-id": "123e4567-e89b-12d3-a456-426614174001",
+    "statusCode": 200,
+    "scenario": "The configuration strings for the pipeline."
+  },
+  {
+    "pipeline-id": "123e4567-e89b-12d3-a456-426614174002",
+    "statusCode": 200,
+    "scenario": "The configuration strings for the pipeline."
+  },
+  {
+    "pipeline-id": "123e4567-e89b-12d3-a456-426614174003",
+    "statusCode": 200,
+    "scenario": "The configuration strings for the pipeline."
+  },
+  {
+    "pipeline-id": "123e4567-e89b-12d3-a456-426614174004",
+    "statusCode": 200,
+    "scenario": "The configuration strings for the pipeline."
+  },
+  {
+    "pipeline-id": "123e4567-e89b-12d3-a456-426614174005",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "pipeline-id": "123e4567-e89b-12d3-a456-426614174006",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "pipeline-id": "123e4567-e89b-12d3-a456-426614174007",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "pipeline-id": "123e4567-e89b-12d3-a456-426614174008",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "pipeline-id": "123e4567-e89b-12d3-a456-426614174009",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "pipeline-id": "invalid-uuid-format",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "pipeline-id": "123e4567-e89b-12d3-a456-42661417400a",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "pipeline-id": "123e4567-e89b-12d3-a456-42661417400b",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "pipeline-id": "123e4567-e89b-12d3-a456-42661417400c",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "pipeline-id": "123e4567-e89b-12d3-a456-42661417400d",
+    "statusCode": 500,
+    "scenario": "Error response."
+  }
+]

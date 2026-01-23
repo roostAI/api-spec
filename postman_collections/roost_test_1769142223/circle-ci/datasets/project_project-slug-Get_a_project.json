@@ -1,0 +1,77 @@
+[
+  {
+    "project-slug": "valid-project-1",
+    "statusCode": 200,
+    "scenario": "A project object"
+  },
+  {
+    "project-slug": "valid-project-2",
+    "statusCode": 200,
+    "scenario": "A project object"
+  },
+  {
+    "project-slug": "valid-project-3",
+    "statusCode": 200,
+    "scenario": "A project object"
+  },
+  {
+    "project-slug": "valid-project-4",
+    "statusCode": 200,
+    "scenario": "A project object"
+  },
+  {
+    "project-slug": "valid-project-5",
+    "statusCode": 200,
+    "scenario": "A project object"
+  },
+  {
+    "project-slug": "valid-project-6",
+    "statusCode": 200,
+    "scenario": "A project object"
+  },
+  {
+    "project-slug": "valid-project-7",
+    "statusCode": 200,
+    "scenario": "A project object"
+  },
+  {
+    "project-slug": "valid-project-8",
+    "statusCode": 200,
+    "scenario": "A project object"
+  },
+  {
+    "project-slug": "valid-project-9",
+    "statusCode": 200,
+    "scenario": "A project object"
+  },
+  {
+    "project-slug": "valid-project-10",
+    "statusCode": 200,
+    "scenario": "A project object"
+  },
+  {
+    "project-slug": "",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "invalid-project-1",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "invalid-project-2",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "invalid-project-3",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "invalid-project-4",
+    "statusCode": 500,
+    "scenario": "Error response."
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "owner-id": "123e4567-e89b-12d3-a456-426614174000",
+    "statusCode": 200,
+    "scenario": "A paginated list of contexts"
+  },
+  {
+    "owner-id": "123e4567-e89b-12d3-a456-426614174000",
+    "owner-slug": "example-slug",
+    "owner-type": "account",
+    "page-token": "token123",
+    "statusCode": 200,
+    "scenario": "A paginated list of contexts"
+  },
+  {
+    "owner-id": "123e4567-e89b-12d3-a456-426614174000",
+    "owner-type": "organization",
+    "statusCode": 200,
+    "scenario": "A paginated list of contexts"
+  },
+  {
+    "owner-id": "123e4567-e89b-12d3-a456-426614174000",
+    "owner-slug": "example-slug",
+    "statusCode": 200,
+    "scenario": "A paginated list of contexts"
+  },
+  {
+    "owner-id": "123e4567-e89b-12d3-a456-426614174000",
+    "owner-type": "account",
+    "statusCode": 200,
+    "scenario": "A paginated list of contexts"
+  },
+  {
+    "owner-slug": "example-slug",
+    "owner-type": "account",
+    "page-token": "token123",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "owner-id": "invalid-uuid",
+    "owner-slug": "example-slug",
+    "owner-type": "account",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "owner-id": "123e4567-e89b-12d3-a456-426614174000",
+    "owner-type": "invalid-type",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "owner-id": "123e4567-e89b-12d3-a456-426614174000",
+    "owner-slug": "example-slug",
+    "owner-type": "account",
+    "page-token": "invalid-token",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "owner-id": "123e4567-e89b-12d3-a456-426614174000",
+    "owner-slug": "example-slug",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "owner-id": "123e4567-e89b-12d3-a456-426614174000",
+    "owner-type": "organization",
+    "page-token": "token123",
+    "statusCode": 200,
+    "scenario": "A paginated list of contexts"
+  },
+  {
+    "owner-id": "123e4567-e89b-12d3-a456-426614174000",
+    "owner-slug": "example-slug",
+    "owner-type": "organization",
+    "statusCode": 200,
+    "scenario": "A paginated list of contexts"
+  },
+  {
+    "owner-id": "123e4567-e89b-12d3-a456-426614174000",
+    "owner-type": "account",
+    "page-token": "token123",
+    "statusCode": 200,
+    "scenario": "A paginated list of contexts"
+  },
+  {
+    "owner-id": "123e4567-e89b-12d3-a456-426614174000",
+    "owner-slug": "example-slug",
+    "owner-type": "invalid-type",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "owner-id": "123e4567-e89b-12d3-a456-426614174000",
+    "owner-slug": "example-slug",
+    "owner-type": "account",
+    "page-token": "token123",
+    "statusCode": 200,
+    "scenario": "A paginated list of contexts"
+  }
+]

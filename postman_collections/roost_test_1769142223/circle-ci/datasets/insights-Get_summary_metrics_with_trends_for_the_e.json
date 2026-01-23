@@ -1,0 +1,90 @@
+[
+  {
+    "org-slug": "example-org",
+    "reporting-window": "last-7-days",
+    "statusCode": 200,
+    "scenario": "summary metrics with trends for an entire org and it's projects."
+  },
+  {
+    "org-slug": "example-org",
+    "reporting-window": "last-30-days",
+    "statusCode": 200,
+    "scenario": "summary metrics with trends for an entire org and it's projects."
+  },
+  {
+    "org-slug": "example-org",
+    "statusCode": 200,
+    "scenario": "summary metrics with trends for an entire org and it's projects."
+  },
+  {
+    "org-slug": "example-org",
+    "reporting-window": "last-90-days",
+    "statusCode": 200,
+    "scenario": "summary metrics with trends for an entire org and it's projects."
+  },
+  {
+    "org-slug": "example-org",
+    "reporting-window": "last-24-hours",
+    "statusCode": 200,
+    "scenario": "summary metrics with trends for an entire org and it's projects."
+  },
+  {
+    "org-slug": "example-org",
+    "reporting-window": "last-60-days",
+    "statusCode": 200,
+    "scenario": "summary metrics with trends for an entire org and it's projects."
+  },
+  {
+    "org-slug": "example-org",
+    "reporting-window": "invalid-window",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "org-slug": "invalid-org",
+    "reporting-window": "last-7-days",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "reporting-window": "last-30-days",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "org-slug": "example-org",
+    "reporting-window": "last-100-days",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "org-slug": "example-org",
+    "reporting-window": "last-7-days",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "org-slug": "example-org",
+    "reporting-window": "last-30-days",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "org-slug": "example-org",
+    "reporting-window": "last-90-days",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "org-slug": "example-org",
+    "reporting-window": "last-24-hours",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "org-slug": "example-org",
+    "reporting-window": "last-60-days",
+    "statusCode": 500,
+    "scenario": "Error response."
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "project": "Project Alpha",
+    "trigger": "auto",
+    "statusCode": 200,
+    "scenario": "Successful response."
+  },
+  {
+    "project": "Project Beta",
+    "trigger": "manual",
+    "statusCode": 200,
+    "scenario": "Successful response."
+  },
+  {
+    "project": "Project Gamma",
+    "statusCode": 400,
+    "scenario": "Unexpected request body provided."
+  },
+  {
+    "project": "InvalidProject",
+    "trigger": "auto",
+    "statusCode": 400,
+    "scenario": "Unexpected request body provided."
+  },
+  {
+    "project": "Project Delta",
+    "trigger": "invalid_trigger",
+    "statusCode": 400,
+    "scenario": "Unexpected request body provided."
+  },
+  {
+    "project": "Project Epsilon",
+    "trigger": "auto",
+    "statusCode": 404,
+    "scenario": "Entity not found."
+  },
+  {
+    "project": "Project Zeta",
+    "trigger": "manual",
+    "statusCode": 401,
+    "scenario": "Credentials provided are invalid."
+  },
+  {
+    "project": "Project Eta",
+    "trigger": "auto",
+    "statusCode": 500,
+    "scenario": "Internal server error."
+  },
+  {
+    "project": "Project Theta",
+    "trigger": "manual",
+    "statusCode": 200,
+    "scenario": "Successful response."
+  },
+  {
+    "project": "Project Iota",
+    "trigger": "auto",
+    "statusCode": 200,
+    "scenario": "Successful response."
+  },
+  {
+    "project": "Project Kappa",
+    "statusCode": 400,
+    "scenario": "Unexpected request body provided."
+  },
+  {
+    "project": "Project Lambda",
+    "trigger": "invalid_trigger",
+    "statusCode": 400,
+    "scenario": "Unexpected request body provided."
+  },
+  {
+    "project": "Project Mu",
+    "trigger": "auto",
+    "statusCode": 404,
+    "scenario": "Entity not found."
+  },
+  {
+    "project": "Project Nu",
+    "trigger": "manual",
+    "statusCode": 401,
+    "scenario": "Credentials provided are invalid."
+  },
+  {
+    "project": "Project Xi",
+    "trigger": "auto",
+    "statusCode": 500,
+    "scenario": "Internal server error."
+  }
+]

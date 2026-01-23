@@ -1,0 +1,90 @@
+[
+  {
+    "project-slug": "project-alpha",
+    "fingerprint": "abc123",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "project-slug": "project-beta",
+    "fingerprint": "def456",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "project-slug": "project-gamma",
+    "fingerprint": "ghi789",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "project-slug": "project-delta",
+    "fingerprint": "jkl012",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "project-slug": "project-epsilon",
+    "fingerprint": "mno345",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "project-slug": "project-zeta",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "fingerprint": "pqr678",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "project-slug": "project-eta",
+    "fingerprint": "stu901",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "project-slug": "project-theta",
+    "fingerprint": "invalid_fingerprint",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "project-slug": "project-iota",
+    "fingerprint": "vwx234",
+    "statusCode": 404,
+    "scenario": "Resource Not Found"
+  },
+  {
+    "project-slug": "project-kappa",
+    "fingerprint": "yz1234",
+    "statusCode": 404,
+    "scenario": "Resource Not Found"
+  },
+  {
+    "project-slug": "project-lambda",
+    "fingerprint": "invalid_fingerprint_2",
+    "statusCode": 404,
+    "scenario": "Resource Not Found"
+  },
+  {
+    "project-slug": "project-mu",
+    "fingerprint": "abc567",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-nu",
+    "fingerprint": "def890",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-xi",
+    "fingerprint": "ghi123",
+    "statusCode": 500,
+    "scenario": "Error response."
+  }
+]

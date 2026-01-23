@@ -1,0 +1,90 @@
+[
+  {
+    "org": "AcmeCorp",
+    "usage_export_job": "job_12345",
+    "statusCode": 200,
+    "scenario": "Usage export fetched successfully"
+  },
+  {
+    "org": "TechSolutions",
+    "usage_export_job": "job_67890",
+    "statusCode": 200,
+    "scenario": "Usage export fetched successfully"
+  },
+  {
+    "org": "InnovateLLC",
+    "statusCode": 400,
+    "scenario": "Unexpected request body provided."
+  },
+  {
+    "org": "GlobalTech",
+    "usage_export_job": "invalid_job_id",
+    "statusCode": 400,
+    "scenario": "Unexpected request body provided."
+  },
+  {
+    "org": "FutureEnterprises",
+    "usage_export_job": 123456,
+    "statusCode": 400,
+    "scenario": "Unexpected request body provided."
+  },
+  {
+    "org": "NextGen",
+    "usage_export_job": "job_54321",
+    "statusCode": 401,
+    "scenario": "Credentials provided are invalid."
+  },
+  {
+    "org": "PioneerTech",
+    "usage_export_job": "job_98765",
+    "statusCode": 404,
+    "scenario": "Entity not found."
+  },
+  {
+    "org": "VisionaryInc",
+    "usage_export_job": "job_11111",
+    "statusCode": 429,
+    "scenario": "API rate limits exceeded."
+  },
+  {
+    "org": "TechPioneers",
+    "usage_export_job": "job_22222",
+    "statusCode": 500,
+    "scenario": "Internal server error."
+  },
+  {
+    "org": "InnovatorsHub",
+    "usage_export_job": "job_33333",
+    "statusCode": 200,
+    "scenario": "Usage export fetched successfully"
+  },
+  {
+    "org": "CreativeSolutions",
+    "usage_export_job": "job_44444",
+    "statusCode": 200,
+    "scenario": "Usage export fetched successfully"
+  },
+  {
+    "org": "TechGurus",
+    "statusCode": 400,
+    "scenario": "Unexpected request body provided."
+  },
+  {
+    "org": "FutureTech",
+    "usage_export_job": "job_invalid",
+    "statusCode": 400,
+    "scenario": "Unexpected request body provided."
+  },
+  {
+    "org": "InnovateNow",
+    "usage_export_job": "job_55555",
+    "statusCode": 401,
+    "scenario": "Credentials provided are invalid."
+  },
+  {
+    "org": "TechInnovators",
+    "usage_export_job": "job_66666",
+    "statusCode": 404,
+    "scenario": "Entity not found."
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "project-slug": "project-alpha",
+    "pipeline-number": 101,
+    "statusCode": 200,
+    "scenario": "A pipeline object."
+  },
+  {
+    "project-slug": "project-beta",
+    "pipeline-number": 202,
+    "statusCode": 200,
+    "scenario": "A pipeline object."
+  },
+  {
+    "project-slug": "project-gamma",
+    "statusCode": 200,
+    "scenario": "A pipeline object."
+  },
+  {
+    "project-slug": "project-delta",
+    "pipeline-number": 303,
+    "statusCode": 200,
+    "scenario": "A pipeline object."
+  },
+  {
+    "project-slug": "project-epsilon",
+    "pipeline-number": 404,
+    "statusCode": 200,
+    "scenario": "A pipeline object."
+  },
+  {
+    "project-slug": "project-zeta",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "pipeline-number": 505,
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-eta",
+    "pipeline-number": "invalid-number",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-theta",
+    "pipeline-number": 606,
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-iota",
+    "pipeline-number": 707,
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-kappa",
+    "pipeline-number": -1,
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-lambda",
+    "pipeline-number": 808,
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-mu",
+    "pipeline-number": 909,
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-nu",
+    "pipeline-number": 1010,
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-xi",
+    "pipeline-number": 1111,
+    "statusCode": 500,
+    "scenario": "Error response."
+  }
+]

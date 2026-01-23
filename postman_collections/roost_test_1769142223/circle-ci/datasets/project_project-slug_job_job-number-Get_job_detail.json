@@ -1,0 +1,90 @@
+[
+  {
+    "job-number": 12345,
+    "project-slug": "project-alpha",
+    "statusCode": 200,
+    "scenario": "Job details."
+  },
+  {
+    "job-number": 67890,
+    "project-slug": "project-beta",
+    "statusCode": 200,
+    "scenario": "Job details."
+  },
+  {
+    "job-number": 11223,
+    "project-slug": "project-gamma",
+    "statusCode": 200,
+    "scenario": "Job details."
+  },
+  {
+    "job-number": 44556,
+    "project-slug": "project-delta",
+    "statusCode": 200,
+    "scenario": "Job details."
+  },
+  {
+    "job-number": 77889,
+    "project-slug": "project-epsilon",
+    "statusCode": 200,
+    "scenario": "Job details."
+  },
+  {
+    "job-number": 33445,
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "project-slug": "project-zeta",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "job-number": "invalid-number",
+    "project-slug": "project-eta",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "job-number": 99887,
+    "project-slug": 12345,
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "job-number": 55667,
+    "project-slug": "project-theta",
+    "statusCode": 500,
+    "scenario": "Error response."
+  },
+  {
+    "job-number": 22334,
+    "project-slug": "project-iota",
+    "statusCode": 200,
+    "scenario": "Job details."
+  },
+  {
+    "job-number": 66778,
+    "project-slug": "project-kappa",
+    "statusCode": 200,
+    "scenario": "Job details."
+  },
+  {
+    "job-number": 88990,
+    "project-slug": "project-lambda",
+    "statusCode": 200,
+    "scenario": "Job details."
+  },
+  {
+    "job-number": 10112,
+    "project-slug": "project-mu",
+    "statusCode": 200,
+    "scenario": "Job details."
+  },
+  {
+    "job-number": 13141,
+    "project-slug": "project-nu",
+    "statusCode": 200,
+    "scenario": "Job details."
+  }
+]

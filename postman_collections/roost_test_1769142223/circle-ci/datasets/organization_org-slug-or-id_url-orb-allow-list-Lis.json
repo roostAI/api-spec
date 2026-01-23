@@ -1,0 +1,77 @@
+[
+  {
+    "org-slug-or-id": "valid-org-123",
+    "statusCode": 200,
+    "scenario": "URL Orb allow-list entries"
+  },
+  {
+    "org-slug-or-id": "valid-org-456",
+    "statusCode": 200,
+    "scenario": "URL Orb allow-list entries"
+  },
+  {
+    "org-slug-or-id": "valid-org-789",
+    "statusCode": 200,
+    "scenario": "URL Orb allow-list entries"
+  },
+  {
+    "org-slug-or-id": "invalid-org-!@#",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "org-slug-or-id": "",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "org-slug-or-id": "nonexistent-org",
+    "statusCode": 404,
+    "scenario": "Resource Not Found"
+  },
+  {
+    "org-slug-or-id": "valid-org-abc",
+    "statusCode": 200,
+    "scenario": "URL Orb allow-list entries"
+  },
+  {
+    "org-slug-or-id": "valid-org-def",
+    "statusCode": 200,
+    "scenario": "URL Orb allow-list entries"
+  },
+  {
+    "org-slug-or-id": "valid-org-ghi",
+    "statusCode": 200,
+    "scenario": "URL Orb allow-list entries"
+  },
+  {
+    "org-slug-or-id": "123-invalid-org",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "org-slug-or-id": "valid-org-jkl",
+    "statusCode": 200,
+    "scenario": "URL Orb allow-list entries"
+  },
+  {
+    "org-slug-or-id": "valid-org-mno",
+    "statusCode": 200,
+    "scenario": "URL Orb allow-list entries"
+  },
+  {
+    "org-slug-or-id": "valid-org-pqr",
+    "statusCode": 200,
+    "scenario": "URL Orb allow-list entries"
+  },
+  {
+    "org-slug-or-id": "org-with-special-characters-*&^%",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "org-slug-or-id": "valid-org-stu",
+    "statusCode": 200,
+    "scenario": "URL Orb allow-list entries"
+  }
+]
