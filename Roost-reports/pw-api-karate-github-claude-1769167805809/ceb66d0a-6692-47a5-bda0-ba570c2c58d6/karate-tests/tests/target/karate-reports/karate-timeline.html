@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"example_get[1:19]","start":1769168762593,"end":1769168766170,"title":"example_get[1:19] 11:46:02.593-11:46:06.170 GET \/example - Successful response"},{"id":2,"group":1,"content":"example_get[2:24]","start":1769168766215,"end":1769168767292,"title":"example_get[2:24] 11:46:06.215-11:46:07.292 GET \/example - Verify response headers","className":"failed"},{"id":3,"group":1,"content":"example_get[3:30]","start":1769168767329,"end":1769168768139,"title":"example_get[3:30] 11:46:07.329-11:46:08.139 GET \/example - Unauthorized access without token","className":"failed"},{"id":4,"group":1,"content":"example_get[4:36]","start":1769168768148,"end":1769168769009,"title":"example_get[4:36] 11:46:08.148-11:46:09.009 GET \/example - Invalid authorization token","className":"failed"},{"id":5,"group":1,"content":"ping_get[1:18]","start":1769168771446,"end":1769168772203,"title":"ping_get[1:18] 11:46:11.446-11:46:12.203 Test ping endpoint for server heartbeat"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
