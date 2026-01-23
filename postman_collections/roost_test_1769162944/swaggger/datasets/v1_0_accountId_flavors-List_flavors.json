@@ -1,0 +1,77 @@
+[
+  {
+    "accountId": "12345",
+    "statusCode": 200,
+    "scenario": "200 response"
+  },
+  {
+    "accountId": "67890",
+    "statusCode": 200,
+    "scenario": "200 response"
+  },
+  {
+    "accountId": "54321",
+    "statusCode": 200,
+    "scenario": "200 response"
+  },
+  {
+    "accountId": "09876",
+    "statusCode": 200,
+    "scenario": "200 response"
+  },
+  {
+    "accountId": "11223",
+    "statusCode": 200,
+    "scenario": "200 response"
+  },
+  {
+    "accountId": "44556",
+    "statusCode": 200,
+    "scenario": "200 response"
+  },
+  {
+    "accountId": "77889",
+    "statusCode": 200,
+    "scenario": "200 response"
+  },
+  {
+    "accountId": "99000",
+    "statusCode": 200,
+    "scenario": "200 response"
+  },
+  {
+    "accountId": "invalid_id",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "accountId": "",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "accountId": "12345",
+    "statusCode": 404,
+    "scenario": "Resource Not Found"
+  },
+  {
+    "accountId": "00000",
+    "statusCode": 404,
+    "scenario": "Resource Not Found"
+  },
+  {
+    "accountId": "abcde",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "accountId": "99999",
+    "statusCode": 404,
+    "scenario": "Resource Not Found"
+  },
+  {
+    "accountId": "11111",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]
