@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"example_get[1:19]","start":1769502370573,"end":1769502372316,"title":"example_get[1:19] 08:26:10.573-08:26:12.316 Test example endpoint with valid authentication"},{"id":2,"group":1,"content":"example_get[2:24]","start":1769502372325,"end":1769502373113,"title":"example_get[2:24] 08:26:12.325-08:26:13.113 Test example endpoint response validation","className":"failed"},{"id":3,"group":1,"content":"example_get[3:30]","start":1769502373123,"end":1769502373920,"title":"example_get[3:30] 08:26:13.123-08:26:13.920 Test example endpoint with invalid authentication"},{"id":4,"group":1,"content":"example_get[4:36]","start":1769502373926,"end":1769502374583,"title":"example_get[4:36] 08:26:13.926-08:26:14.583 Test example endpoint without authentication"},{"id":5,"group":1,"content":"ping_get[1:18]","start":1769502375223,"end":1769502375995,"title":"ping_get[1:18] 08:26:15.223-08:26:15.995 Test ping endpoint returns OK status","className":"failed"},{"id":6,"group":1,"content":"ping_get[2:23]","start":1769502375999,"end":1769502376756,"title":"ping_get[2:23] 08:26:15.999-08:26:16.756 Verify ping endpoint response headers","className":"failed"},{"id":7,"group":1,"content":"ping_get[3:29]","start":1769502376762,"end":1769502377535,"title":"ping_get[3:29] 08:26:16.762-08:26:17.535 Test ping endpoint with different HTTP methods"},{"id":8,"group":1,"content":"ping_get[4:34]","start":1769502377541,"end":1769502378301,"title":"ping_get[4:34] 08:26:17.541-08:26:18.301 Test ping endpoint with HEAD method"},{"id":9,"group":1,"content":"ping_get[5:39]","start":1769502378306,"end":1769502379077,"title":"ping_get[5:39] 08:26:18.306-08:26:19.077 Test ping endpoint with PUT method"},{"id":10,"group":1,"content":"ping_get[6:44]","start":1769502379082,"end":1769502379855,"title":"ping_get[6:44] 08:26:19.082-08:26:19.855 Test ping endpoint with DELETE method"},{"id":11,"group":1,"content":"ping_get[7:49]","start":1769502379860,"end":1769502380623,"title":"ping_get[7:49] 08:26:19.860-08:26:20.623 Test ping endpoint with PATCH method"},{"id":12,"group":1,"content":"ping_get[8:54]","start":1769502380627,"end":1769502381287,"title":"ping_get[8:54] 08:26:20.627-08:26:21.287 Verify ping endpoint response time"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
