@@ -1,0 +1,145 @@
+[
+  {
+    "koreUserId": "koreUser1",
+    "botId": "bot1",
+    "userCode": "userCode1",
+    "accountId": "accountId1",
+    "paymentId": "97087c6c24788b1d",
+    "updateTransferType": "all",
+    "customerId": 1045300,
+    "sourceAccountId": "1042345",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer deleted successfully"
+  },
+  {
+    "koreUserId": "koreUser2",
+    "botId": "bot2",
+    "userCode": "userCode2",
+    "accountId": "accountId2",
+    "paymentId": "97087c6c24788b1e",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer deleted successfully"
+  },
+  {
+    "koreUserId": "koreUser3",
+    "botId": "bot3",
+    "userCode": "userCode3",
+    "accountId": "accountId3",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser4",
+    "botId": "bot4",
+    "userCode": "userCode4",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser5",
+    "botId": "bot5",
+    "userCode": "userCode5",
+    "accountId": "accountId5",
+    "paymentId": "97087c6c24788b1f",
+    "updateTransferType": "all",
+    "customerId": 1045301,
+    "sourceAccountId": "1042346",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser6",
+    "botId": "bot6",
+    "userCode": "userCode6",
+    "accountId": "accountId6",
+    "paymentId": "97087c6c24788b1g",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser7",
+    "botId": "bot7",
+    "userCode": "userCode7",
+    "accountId": "accountId7",
+    "paymentId": "97087c6c24788b1h",
+    "updateTransferType": "all",
+    "customerId": 1045302,
+    "sourceAccountId": "1042347",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer deleted successfully"
+  },
+  {
+    "koreUserId": "koreUser8",
+    "botId": "bot8",
+    "userCode": "userCode8",
+    "accountId": "accountId8",
+    "paymentId": "97087c6c24788b1i",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer deleted successfully"
+  },
+  {
+    "koreUserId": "koreUser9",
+    "botId": "bot9",
+    "userCode": "userCode9",
+    "accountId": "accountId9",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser10",
+    "botId": "bot10",
+    "userCode": "userCode10",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser11",
+    "botId": "bot11",
+    "userCode": "userCode11",
+    "accountId": "accountId11",
+    "paymentId": "97087c6c24788b1j",
+    "updateTransferType": "all",
+    "customerId": 1045303,
+    "sourceAccountId": "1042348",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser12",
+    "botId": "bot12",
+    "userCode": "userCode12",
+    "accountId": "accountId12",
+    "paymentId": "97087c6c24788b1k",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser13",
+    "botId": "bot13",
+    "userCode": "userCode13",
+    "accountId": "accountId13",
+    "paymentId": "97087c6c24788b1l",
+    "updateTransferType": "all",
+    "customerId": 1045304,
+    "sourceAccountId": "1042349",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer deleted successfully"
+  },
+  {
+    "koreUserId": "koreUser14",
+    "botId": "bot14",
+    "userCode": "userCode14",
+    "accountId": "accountId14",
+    "paymentId": "97087c6c24788b1m",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer deleted successfully"
+  },
+  {
+    "koreUserId": "koreUser15",
+    "botId": "bot15",
+    "userCode": "userCode15",
+    "accountId": "accountId15",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
