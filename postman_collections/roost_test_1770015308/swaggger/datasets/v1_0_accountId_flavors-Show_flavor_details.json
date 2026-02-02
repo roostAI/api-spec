@@ -1,0 +1,86 @@
+[
+  {
+    "accountId": "12345",
+    "statusCode": 200,
+    "scenario": "200 response"
+  },
+  {
+    "accountId": "67890",
+    "flavorId": "flavorA",
+    "statusCode": 200,
+    "scenario": "200 response"
+  },
+  {
+    "flavorId": "flavorB",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "accountId": "invalid_account",
+    "flavorId": "flavorC",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "accountId": "12345",
+    "flavorId": "invalid_flavor",
+    "statusCode": 404,
+    "scenario": "Resource Not Found"
+  },
+  {
+    "accountId": "54321",
+    "statusCode": 200,
+    "scenario": "200 response"
+  },
+  {
+    "accountId": "98765",
+    "flavorId": "flavorD",
+    "statusCode": 200,
+    "scenario": "200 response"
+  },
+  {
+    "flavorId": "flavorE",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "accountId": "invalid_account",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "accountId": "67890",
+    "flavorId": "flavorF",
+    "statusCode": 200,
+    "scenario": "200 response"
+  },
+  {
+    "accountId": "12345",
+    "flavorId": "flavorG",
+    "statusCode": 200,
+    "scenario": "200 response"
+  },
+  {
+    "accountId": "invalid_account",
+    "flavorId": "invalid_flavor",
+    "statusCode": 404,
+    "scenario": "Resource Not Found"
+  },
+  {
+    "accountId": "54321",
+    "flavorId": "flavorH",
+    "statusCode": 200,
+    "scenario": "200 response"
+  },
+  {
+    "accountId": "98765",
+    "statusCode": 200,
+    "scenario": "200 response"
+  },
+  {
+    "accountId": "67890",
+    "flavorId": "invalid_flavor",
+    "statusCode": 404,
+    "scenario": "Resource Not Found"
+  }
+]
