@@ -1,0 +1,157 @@
+[
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "ssNumber": "SSN123",
+    "accountNumber": [
+      "1042345"
+    ],
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU124",
+    "botId": "BID124",
+    "accountId": "AC124",
+    "customerId": 1045301,
+    "ssNumber": "SSN124",
+    "accountNumber": [
+      "1042346"
+    ],
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU125",
+    "botId": "BID125",
+    "accountId": "AC125",
+    "customerId": 1045302,
+    "ssNumber": "SSN125",
+    "accountNumber": [
+      "1042347"
+    ],
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU126",
+    "botId": "BID126",
+    "accountId": "AC126",
+    "customerId": 1045303,
+    "ssNumber": "SSN126",
+    "accountNumber": [
+      "1042348"
+    ],
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU127",
+    "botId": "BID127",
+    "accountId": "AC127",
+    "customerId": 1045304,
+    "ssNumber": "SSN127",
+    "accountNumber": [
+      "1042349"
+    ],
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU128",
+    "botId": "BID128",
+    "accountId": "AC128",
+    "customerId": 1045305,
+    "ssNumber": "SSN128",
+    "accountNumber": [
+      "1042350"
+    ],
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU129",
+    "botId": "BID129",
+    "accountId": "AC129",
+    "customerId": 1045306,
+    "ssNumber": "SSN129",
+    "accountNumber": [
+      "1042351"
+    ],
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU130",
+    "botId": "BID130",
+    "accountId": "AC130",
+    "customerId": 1045307,
+    "ssNumber": "SSN130",
+    "accountNumber": [
+      "1042352"
+    ],
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU131",
+    "botId": "BID131",
+    "accountId": "AC131",
+    "customerId": 1045308,
+    "ssNumber": "SSN131",
+    "accountNumber": [
+      "1042353"
+    ],
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU132",
+    "botId": "BID132",
+    "accountId": "AC132",
+    "customerId": 1045309,
+    "ssNumber": "SSN132",
+    "accountNumber": [
+      "1042354"
+    ],
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU133",
+    "botId": "BID133",
+    "accountId": "AC133",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU134",
+    "botId": "BID134",
+    "accountId": "AC134",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU135",
+    "botId": "BID135",
+    "accountId": "AC135",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU136",
+    "botId": "BID136",
+    "accountId": "AC136",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU137",
+    "botId": "BID137",
+    "accountId": "AC137",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
