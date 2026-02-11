@@ -1,0 +1,197 @@
+[
+  {
+    "koreUserId": "koreUser1",
+    "botId": "bot1",
+    "accountId": "account1",
+    "customerId": 1045300,
+    "ssNumber": "ssNumber1",
+    "ssnShort": "ssnShort1",
+    "accountNumber": [
+      "1042345"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "koreUser2",
+    "botId": "bot2",
+    "accountId": "account2",
+    "customerId": 1045301,
+    "ssNumber": "ssNumber2",
+    "ssnShort": "ssnShort2",
+    "accountNumber": [
+      "1042346"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "koreUser3",
+    "botId": "bot3",
+    "accountId": "account3",
+    "customerId": 1045302,
+    "ssNumber": "ssNumber3",
+    "ssnShort": "ssnShort3",
+    "accountNumber": [
+      "1042347"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "koreUser4",
+    "botId": "bot4",
+    "accountId": "account4",
+    "customerId": 1045303,
+    "ssNumber": "ssNumber4",
+    "ssnShort": "ssnShort4",
+    "accountNumber": [
+      "1042348"
+    ],
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser5",
+    "botId": "bot5",
+    "accountId": "account5",
+    "customerId": 1045304,
+    "ssNumber": "ssNumber5",
+    "ssnShort": "ssnShort5",
+    "accountNumber": [
+      "1042349"
+    ],
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser6",
+    "botId": "bot6",
+    "accountId": "account6",
+    "customerId": 1045305,
+    "ssNumber": "ssNumber6",
+    "ssnShort": "ssnShort6",
+    "accountNumber": [
+      "1042350"
+    ],
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser7",
+    "botId": "bot7",
+    "accountId": "account7",
+    "customerId": 1045306,
+    "ssNumber": "ssNumber7",
+    "ssnShort": "ssnShort7",
+    "accountNumber": [
+      "1042351"
+    ],
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser8",
+    "botId": "bot8",
+    "accountId": "account8",
+    "customerId": 1045307,
+    "ssNumber": "ssNumber8",
+    "ssnShort": "ssnShort8",
+    "accountNumber": [
+      "1042352"
+    ],
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser9",
+    "botId": "bot9",
+    "accountId": "account9",
+    "customerId": 1045308,
+    "ssNumber": "ssNumber9",
+    "ssnShort": "ssnShort9",
+    "accountNumber": [
+      "1042353"
+    ],
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser10",
+    "botId": "bot10",
+    "accountId": "account10",
+    "customerId": 1045309,
+    "ssNumber": "ssNumber10",
+    "ssnShort": "ssnShort10",
+    "accountNumber": [
+      "1042354"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "koreUser11",
+    "botId": "bot11",
+    "accountId": "account11",
+    "customerId": 1045310,
+    "ssNumber": "ssNumber11",
+    "ssnShort": "ssnShort11",
+    "accountNumber": [
+      "1042355"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "koreUser12",
+    "botId": "bot12",
+    "accountId": "account12",
+    "customerId": 1045311,
+    "ssNumber": "ssNumber12",
+    "ssnShort": "ssnShort12",
+    "accountNumber": [
+      "1042356"
+    ],
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser13",
+    "botId": "bot13",
+    "accountId": "account13",
+    "customerId": 1045312,
+    "ssNumber": "ssNumber13",
+    "ssnShort": "ssnShort13",
+    "accountNumber": [
+      "1042357"
+    ],
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser14",
+    "botId": "bot14",
+    "accountId": "account14",
+    "customerId": 1045313,
+    "ssNumber": "ssNumber14",
+    "ssnShort": "ssnShort14",
+    "accountNumber": [
+      "1042358"
+    ],
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser15",
+    "botId": "bot15",
+    "accountId": "account15",
+    "customerId": 1045314,
+    "ssNumber": "ssNumber15",
+    "ssnShort": "ssnShort15",
+    "accountNumber": [
+      "1042359"
+    ],
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
