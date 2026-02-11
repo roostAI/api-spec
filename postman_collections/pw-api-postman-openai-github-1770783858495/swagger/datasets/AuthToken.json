@@ -1,0 +1,88 @@
+[
+  {
+    "koreUserId": "user123",
+    "botId": "bot456",
+    "accountId": "acc789",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "user124",
+    "botId": "bot457",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "user125",
+    "botId": "bot458",
+    "accountId": "acc790",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "user126",
+    "accountId": "acc791",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "user127",
+    "botId": "bot459",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "user128",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "botId": "bot460",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountId": "acc792",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user129",
+    "botId": "bot461",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user130",
+    "accountId": "acc793",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user131",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "bot462",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "accountId": "acc794",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user132",
+    "botId": "bot463",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user133",
+    "accountId": "acc795",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

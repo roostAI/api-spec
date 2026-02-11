@@ -1,0 +1,157 @@
+[
+  {
+    "koreUserId": "user123",
+    "botId": "bot456",
+    "accountId": "acc789",
+    "authType": "Authorized",
+    "firstName": "James",
+    "lastName": "William",
+    "email": "John@gmail.com",
+    "phoneNumber": 9787643445,
+    "topic": "Routing and Account Number",
+    "message": "Unable to find my routing number.",
+    "availableTime": "nighttime",
+    "chatHistory": "html formatted message sent as string",
+    "cif": 1045310,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user456",
+    "botId": "bot789",
+    "accountId": "acc123",
+    "authType": "Unauthorized",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user789",
+    "botId": "bot123",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user321",
+    "botId": "bot654",
+    "accountId": "acc987",
+    "authType": "Authorized",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "JohnDoe@gmail.com",
+    "phoneNumber": 1234567890,
+    "topic": "Account Balance",
+    "message": "I want to check my account balance.",
+    "availableTime": "morning",
+    "chatHistory": "html formatted message sent as string",
+    "cif": 987654,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user654",
+    "botId": "bot321",
+    "accountId": "acc456",
+    "authType": "Unauthorized",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user987",
+    "botId": "bot654",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user111",
+    "botId": "bot222",
+    "accountId": "acc333",
+    "authType": "Authorized",
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "JaneDoe@gmail.com",
+    "phoneNumber": 9876543210,
+    "topic": "Account Closure",
+    "message": "I want to close my account.",
+    "availableTime": "afternoon",
+    "chatHistory": "html formatted message sent as string",
+    "cif": 123456,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user222",
+    "botId": "bot333",
+    "accountId": "acc111",
+    "authType": "Unauthorized",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user333",
+    "botId": "bot111",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user444",
+    "botId": "bot555",
+    "accountId": "acc666",
+    "authType": "Authorized",
+    "firstName": "Robert",
+    "lastName": "Smith",
+    "email": "RobertSmith@gmail.com",
+    "phoneNumber": 4567891230,
+    "topic": "Account Transfer",
+    "message": "I want to transfer money to another account.",
+    "availableTime": "evening",
+    "chatHistory": "html formatted message sent as string",
+    "cif": 654321,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user555",
+    "botId": "bot666",
+    "accountId": "acc444",
+    "authType": "Unauthorized",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user666",
+    "botId": "bot444",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user777",
+    "botId": "bot888",
+    "accountId": "acc999",
+    "authType": "Authorized",
+    "firstName": "Michael",
+    "lastName": "Johnson",
+    "email": "MichaelJohnson@gmail.com",
+    "phoneNumber": 3216549870,
+    "topic": "Account Update",
+    "message": "I want to update my account details.",
+    "availableTime": "nighttime",
+    "chatHistory": "html formatted message sent as string",
+    "cif": 789123,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user888",
+    "botId": "bot999",
+    "accountId": "acc777",
+    "authType": "Unauthorized",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user999",
+    "botId": "bot777",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
