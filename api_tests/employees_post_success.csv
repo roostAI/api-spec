@@ -1,0 +1,13 @@
+id^|^jobTitle^|^name^|^email^|^statusCode^|^scenario
+d290f1ee-6c54-4b01-90e6-d701748f0851^|^Software Engineer^|^Alice Smith^|^alice.smith@example.com^|^200^|^Positive Flow
+e0a3f7c1-2d8b-4a59-b1c2-6f9d8a7b6c5d^|^Product Manager^|^Bob Johnson^|^bob.johnson@acme-corp.com^|^201^|^Success - Record Created
+f1b4d8e2-7e6a-4b02-a3d4-7g0e9f8c7b6a^|^UX Designer^|^Charlie Williams^|^charlie.williams@testco.org^|^404^|^Negative Path - Not Found
+0c2a1b3d-4e5f-4a6b-c7d8-8h1i0j9k8l7m^|^Marketing Specialist^|^Diana Brown^|^diana.brown@sample-inc.net^|^500^|^Data Error - Missing Field
+1d3b2c4e-5f6a-4b7c-d8e9-9j2k1l0m9n8o^|^Sales Representative^|^Eve Jones^|^eve.jones@example.com^|^400^|^Validation Error
+2e4c3d5f-6a7b-4c8d-e9f0-0k3l2m1n0o9p^|^Financial Analyst^|^Frank Garcia^|^frank.garcia@acme-corp.com^|^204^|^Success - Data Retrieved
+3f5d4e6a-7b8c-4d9e-f0a1-1l4m3n2o1p0q^|^QA Tester^|^Grace Miller^|^grace.miller@testco.org^|^403^|^Failure - Authorization Denied
+4a6e5f7b-8c9d-4e0f-a1b2-2m5n4o3p2q1r^|^DevOps Engineer^|^Heidi Davis^|^heidi.davis@sample-inc.net^|^200^|^Performance Test - High Load
+5b7f6a8c-9d0e-4f1a-b2c3-3n6o5p4q3r2s^|^Project Manager^|^Ivan Rodriguez^|^ivan.rodriguez@example.com^|^405^|^Negative Path - Invalid Input
+6c8g7b9d-0e1f-4a2b-c3d4-4o7p6q5r4s3t^|^Business Analyst^|^Judy Martinez^|^judy.martinez@acme-corp.com^|^202^|^Edge Case - Max Length
+7d9h8c0e-1f2a-4b3c-d4e5-5p8q7r6s5t4u^|^System Analyst^|^Kyle Hernandez^|^kyle.hernandez@testco.org^|^503^|^Data Error - Missing Field
+8e0i9d1f-2a3b-4c4d-e5f6-6q9r8s7t6u5v^|^IT Support Specialist^|^Liam Lopez^|^liam.lopez@sample-inc.net^|^200^|^Positive Flow
