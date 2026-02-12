@@ -1,0 +1,77 @@
+[
+  {
+    "searchString": "example search",
+    "statusCode": 200,
+    "scenario": "Search results matching the filter criteria"
+  },
+  {
+    "searchString": "another example search",
+    "statusCode": 200,
+    "scenario": "Search results matching the filter criteria"
+  },
+  {
+    "searchString": "search with optional fields",
+    "statusCode": 200,
+    "scenario": "Search results matching the filter criteria"
+  },
+  {
+    "searchString": "",
+    "statusCode": 400,
+    "scenario": "Bad input"
+  },
+  {
+    "searchString": "invalid search string with special characters !@#$%",
+    "statusCode": 400,
+    "scenario": "Bad input"
+  },
+  {
+    "searchString": "1234567890",
+    "statusCode": 400,
+    "scenario": "Bad input"
+  },
+  {
+    "searchString": "searchStringExceedingMaximumAllowedLengthForTestingPurposes",
+    "statusCode": 400,
+    "scenario": "Bad input"
+  },
+  {
+    "searchString": "valid search",
+    "statusCode": 200,
+    "scenario": "Search results matching the filter criteria"
+  },
+  {
+    "searchString": "test search",
+    "statusCode": 200,
+    "scenario": "Search results matching the filter criteria"
+  },
+  {
+    "searchString": "search with numbers 123",
+    "statusCode": 200,
+    "scenario": "Search results matching the filter criteria"
+  },
+  {
+    "searchString": "search with mixed case",
+    "statusCode": 200,
+    "scenario": "Search results matching the filter criteria"
+  },
+  {
+    "searchString": "search with underscores_and-dashes",
+    "statusCode": 200,
+    "scenario": "Search results matching the filter criteria"
+  },
+  {
+    "searchString": "search with spaces",
+    "statusCode": 200,
+    "scenario": "Search results matching the filter criteria"
+  },
+  {
+    "searchString": "search with special characters @#",
+    "statusCode": 400,
+    "scenario": "Bad input"
+  },
+  {
+    "searchString": "nonexistent search term",
+    "statusCode": 400,
+    "scenario": "Bad input"
+  }
+]
