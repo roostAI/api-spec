@@ -1,0 +1,37 @@
+[
+  {
+    "page": "1",
+    "namespace": "library",
+    "repository": "nginx",
+    "statusCode": 200,
+    "scenario": "list repository tags"
+  },
+  {
+    "page": "2",
+    "namespace": "bitnami",
+    "repository": "redis",
+    "statusCode": 200,
+    "scenario": "list repository tags"
+  },
+  {
+    "page": "abc",
+    "namespace": "private org",
+    "repository": "internal$svc",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  },
+  {
+    "page": "0",
+    "namespace": "ghost/org",
+    "repository": "nginx??",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  },
+  {
+    "page": "NaN",
+    "namespace": "nonexistent#team",
+    "repository": "..",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  }
+]
