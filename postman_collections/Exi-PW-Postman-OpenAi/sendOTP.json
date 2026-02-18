@@ -1,0 +1,27 @@
+[
+  {
+    "customerId_number": 1045300,
+    "statusCode": 200,
+    "scenario": "verification code has been sent to your mobile number"
+  },
+  {
+    "customerId_number": 1045301,
+    "statusCode": 200,
+    "scenario": "verification code has been sent to your mobile number"
+  },
+  {
+    "customerId_number": 9999999,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_number": 8888888,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_number": 7777777,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "sourcePin_*string": "1234",
+    "targetPin_*string": "5678",
+    "profileInfo.customerId_*string": "CUST123456",
+    "profileInfo.accountNumber_*string": "ACC987654321",
+    "profileInfo.ssn_*string": "123-45-6789",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "sourcePin_*string": "abcd",
+    "targetPin_*string": "efgh",
+    "profileInfo.customerId_*string": "CUST654321",
+    "profileInfo.accountNumber_*string": "ACC123456789",
+    "profileInfo.ssn_*string": "987-65-4321",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "sourcePin_*string": "9999",
+    "targetPin_*string": "8888",
+    "profileInfo.customerId_*string": "CUST111222",
+    "profileInfo.accountNumber_*string": "ACC222333444",
+    "profileInfo.ssn_*string": "111-22-3333",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "sourcePin_*string": "2468",
+    "targetPin_*string": "1357",
+    "profileInfo.customerId_*string": "CUST333444",
+    "profileInfo.accountNumber_*string": "ACC555666777",
+    "profileInfo.ssn_*string": "222-33-4444",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "sourcePin_*string": "abcd1234",
+    "targetPin_*string": "efgh5678",
+    "profileInfo.customerId_*string": "CUST555666",
+    "profileInfo.accountNumber_*string": "ACC888999000",
+    "profileInfo.ssn_*string": "333-44-5555",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

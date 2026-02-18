@@ -1,0 +1,27 @@
+[
+  {
+    "customerId_number": 1045300,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_number": -76583928.2422812,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_number": -93537243.16500421,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_number": 1234567,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_number": -99999999.999,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

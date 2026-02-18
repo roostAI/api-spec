@@ -1,0 +1,27 @@
+[
+  {
+    "sourcePin_*string": "1234",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "sourcePin_*string": "5678",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "sourcePin_*string": "abcd",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "sourcePin_*string": "efgh",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "sourcePin_*string": "ijkl",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
