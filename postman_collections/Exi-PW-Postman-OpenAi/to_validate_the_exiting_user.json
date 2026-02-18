@@ -1,0 +1,32 @@
+[
+  {
+    "sourcePin_*string": "123456",
+    "targetPin_*string": "654321",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "sourcePin_*string": "abcdef",
+    "targetPin_*string": "fedcba",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "sourcePin_*string": "789012",
+    "targetPin_*string": "210987",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "sourcePin_*string": "112233",
+    "targetPin_*string": "332211",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "sourcePin_*string": "ghijkl",
+    "targetPin_*string": "lkjihg",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "customerId_*number": 1045300,
+    "accountNumber_0_*string": "ACC1234567890",
+    "accountNumber_1_*string": "ACC0987654321",
+    "cardNumber_0_*string": "CARD1234567890123",
+    "cardNumber_1_*string": "CARD0987654321098",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_*number": 9999999,
+    "accountNumber_0_*string": "INVALID_ACC_000",
+    "accountNumber_1_*string": "INVALID_ACC_111",
+    "cardNumber_0_*string": "INVALID_CARD_0000",
+    "cardNumber_1_*string": "INVALID_CARD_1111",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": 8888888,
+    "accountNumber_0_*string": "NOT_FOUND_ACC_000",
+    "accountNumber_1_*string": "NOT_FOUND_ACC_111",
+    "cardNumber_0_*string": "NOT_FOUND_CARD_0000",
+    "cardNumber_1_*string": "NOT_FOUND_CARD_1111",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_*number": 1045301,
+    "accountNumber_0_*string": "ACC2345678901",
+    "accountNumber_1_*string": "ACC1234567890",
+    "cardNumber_0_*string": "CARD2345678901234",
+    "cardNumber_1_*string": "CARD1234567890123",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "customerId_*number": 7777777,
+    "accountNumber_0_*string": "ERROR_ACC_000",
+    "accountNumber_1_*string": "ERROR_ACC_111",
+    "cardNumber_0_*string": "ERROR_CARD_0000",
+    "cardNumber_1_*string": "ERROR_CARD_1111",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

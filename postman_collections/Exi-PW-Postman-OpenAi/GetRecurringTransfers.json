@@ -1,0 +1,32 @@
+[
+  {
+    "customerId_*number": 1045300,
+    "status_*string": "Active",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "customerId_*number": 26846204,
+    "status_*string": "Pending",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "customerId_*number": 99999999,
+    "status_*string": "InvalidStatus",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId_*number": -12345678,
+    "status_*string": "Unknown",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId_*number": 12345678,
+    "status_*string": "Completed",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  }
+]
