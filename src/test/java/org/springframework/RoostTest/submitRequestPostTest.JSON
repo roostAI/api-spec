@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "description": "Validate login with correct credentials",
+    "input": {
+      "username": "testUser",
+      "password": "correctPassword"
+    },
+    "expectedOutput": {
+      "status": "success",
+      "message": "Login successful"
+    }
+  },
+  {
+    "id": 2,
+    "description": "Validate login with incorrect password",
+    "input": {
+      "username": "testUser",
+      "password": "wrongPassword"
+    },
+    "expectedOutput": {
+      "status": "failure",
+      "message": "Invalid password"
+    }
+  },
+  {
+    "id": 3,
+    "description": "Validate login with non-existent user",
+    "input": {
+      "username": "nonExistentUser",
+      "password": "somePassword"
+    },
+    "expectedOutput": {
+      "status": "failure",
+      "message": "User not found"
+    }
+  },
+  {
+    "id": 4,
+    "description": "Validate login with empty username",
+    "input": {
+      "username": "",
+      "password": "somePassword"
+    },
+    "expectedOutput": {
+      "status": "failure",
+      "message": "Username cannot be empty"
+    }
+  },
+  {
+    "id": 5,
+    "description": "Validate login with empty password",
+    "input": {
+      "username": "testUser",
+      "password": ""
+    },
+    "expectedOutput": {
+      "status": "failure",
+      "message": "Password cannot be empty"
+    }
+  },
+  {
+    "id": 6,
+    "description": "Validate successful logout",
+    "input": {
+      "action": "logout",
+      "sessionId": "validSessionId"
+    },
+    "expectedOutput": {
+      "status": "success",
+      "message": "Logout successful"
+    }
+  },
+  {
+    "id": 7,
+    "description": "Validate logout with invalid session ID",
+    "input": {
+      "action": "logout",
+      "sessionId": "invalidSessionId"
+    },
+    "expectedOutput": {
+      "status": "failure",
+      "message": "Invalid session ID"
+    }
+  },
+  {
+    "id": 8,
+    "description": "Validate session timeout behavior",
+    "input": {
+      "username": "testUser",
+      "loggedInDuration": 3601
+    },
+    "expectedOutput": {
+      "status": "failure",
+      "message": "Session timed out"
+    }
+  },
+  {
+    "id": 9,
+    "description": "Validate password complexity requirement",
+    "input": {
+      "newPassword": "simplepass"
+    },
+    "expectedOutput": {
+      "status": "failure",
+      "message": "Password should meet complexity requirements"
+    }
+  },
+  {
+    "id": 10,
+    "description": "Validate password change with correct old password",
+    "input": {
+      "username": "testUser",
+      "oldPassword": "correctPassword",
+      "newPassword": "ComplexP@ssword123"
+    },
+    "expectedOutput": {
+      "status": "success",
+      "message": "Password successfully updated"
+    }
+  }
+]
