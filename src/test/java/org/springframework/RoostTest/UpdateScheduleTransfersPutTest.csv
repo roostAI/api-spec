@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^userCode^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+user1^|^bot1^|^code1^|^acc1^|^auth1^|^{"paymentId":"pay1","customerId":123,"amount":1000,"scheduledDate":20220202,"sourceAccountId":"src1","targetAccountId":"tgt1"}^|^200^|^bearer1
+user2^|^bot2^|^code2^|^acc2^|^auth2^|^{"paymentId":"pay2","customerId":456,"amount":2000,"scheduledDate":20220203,"sourceAccountId":"src2","targetAccountId":"tgt2"}^|^401^|^bearer2
+user3^|^bot3^|^code3^|^acc3^|^auth3^|^{"paymentId":"pay3","customerId":789,"amount":3000,"scheduledDate":20220204,"sourceAccountId":"src3","targetAccountId":"tgt3"}^|^404^|^bearer3
+user4^|^bot4^|^code4^|^acc4^|^auth4^|^{"paymentId":"pay4","customerId":321,"amount":4000,"scheduledDate":20220205,"sourceAccountId":"src4","targetAccountId":"tgt4"}^|^200^|^bearer4
+user5^|^bot5^|^code5^|^acc5^|^auth5^|^{"paymentId":"pay5","customerId":654,"amount":5000,"scheduledDate":20220206,"sourceAccountId":"src5","targetAccountId":"tgt5"}^|^401^|^bearer5
+user6^|^bot6^|^code6^|^acc6^|^auth6^|^{"paymentId":"pay6","customerId":987,"amount":6000,"scheduledDate":20220207,"sourceAccountId":"src6","targetAccountId":"tgt6"}^|^404^|^bearer6
+user7^|^bot7^|^code7^|^acc7^|^auth7^|^{"paymentId":"pay7","customerId":135,"amount":7000,"scheduledDate":20220208,"sourceAccountId":"src7","targetAccountId":"tgt7"}^|^200^|^bearer7
+user8^|^bot8^|^code8^|^acc8^|^auth8^|^{"paymentId":"pay8","customerId":246,"amount":8000,"scheduledDate":20220209,"sourceAccountId":"src8","targetAccountId":"tgt8"}^|^401^|^bearer8
+user9^|^bot9^|^code9^|^acc9^|^auth9^|^{"paymentId":"pay9","customerId":369,"amount":9000,"scheduledDate":20220210,"sourceAccountId":"src9","targetAccountId":"tgt9"}^|^404^|^bearer9
+user10^|^bot10^|^code10^|^acc10^|^auth10^|^{"paymentId":"pay10","customerId":159,"amount":10000,"scheduledDate":20220211,"sourceAccountId":"src10","targetAccountId":"tgt10"}^|^200^|^bearer10
