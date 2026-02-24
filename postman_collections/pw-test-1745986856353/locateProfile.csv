@@ -1,0 +1,4 @@
+accountNumber,customerId,ssNumber,ssnShort,statusCode,scenario
+"id i","Duis occaecat nulla",53928905.679466546,-27091438.07515724,200,"success"
+"1042345",1045300,"randomSSN1","randomSSNShort1",401,"Error: Authorisation failed."
+"1042345",1045300,"randomSSN2","randomSSNShort2",404,"Error: Not Found"

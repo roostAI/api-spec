@@ -1,0 +1,10 @@
+amount,currency,customerId,dueDate,sourceAccountId,targetAccountId,transactionType,statusCode,scenario
+1042222,USD,1045300,2022-12-01,1042345,1042222,1,200,Credit Card payment scheduled successfully
+1042222,USD,1045300,2022-12-01,1042345,1042222,1,401,Error: Authorisation failed.
+1042222,USD,1045300,2022-12-01,1042345,1042222,1,404,Error: Not Found
+1050000,EUR,1045301,2022-12-02,1042346,1042223,2,200,Credit Card payment scheduled successfully
+1050000,EUR,1045301,2022-12-02,1042346,1042223,2,401,Error: Authorisation failed.
+1050000,EUR,1045301,2022-12-02,1042346,1042223,2,404,Error: Not Found
+1060000,GBP,1045302,2022-12-03,1042347,1042224,3,200,Credit Card payment scheduled successfully
+1060000,GBP,1045302,2022-12-03,1042347,1042224,3,401,Error: Authorisation failed.
+1060000,GBP,1045302,2022-12-03,1042347,1042224,3,404,Error: Not Found

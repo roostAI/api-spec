@@ -1,0 +1,6 @@
+accountNumber,customerId,numOfTransactions,status,startDate,endDate,type,value,amount1,currency,category,debitOrCredit,statusCode,scenario
+1042345,1045300,10,"active","2022-01-01","2022-01-31","debit","purchase",100.00,"USD","groceries","debit",200,"successful operation"
+1042346,1045301,5,"inactive","2022-02-01","2022-02-28","credit","refund",50.00,"USD","electronics","credit",200,"successful operation"
+1042347,1045302,15,"active","2022-03-01","2022-03-31","debit","purchase",200.00,"USD","clothing","debit",200,"successful operation"
+1042348,1045303,20,"inactive","2022-04-01","2022-04-30","credit","refund",150.00,"USD","home goods","credit",200,"successful operation"
+1042349,1045304,25,"active","2022-05-01","2022-05-31","debit","purchase",250.00,"USD","automotive","debit",200,"successful operation"

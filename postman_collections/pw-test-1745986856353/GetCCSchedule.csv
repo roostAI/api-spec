@@ -1,0 +1,7 @@
+customerId,status,statusCode,scenario
+1045300,"incidi",200,"schedule transfer list response"
+-95903927,"Error: Authorisation failed.",401,"Error: Authorisation failed."
+-57466818,"Error: Not Found",404,"Error: Not Found"
+1045300,"fugiat laboris",200,"schedule transfer list response"
+-95903927,"Error: Authorisation failed.",401,"Error: Authorisation failed."
+-57466818,"Error: Not Found",404,"Error: Not Found"

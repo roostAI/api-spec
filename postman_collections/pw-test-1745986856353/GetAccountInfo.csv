@@ -1,0 +1,22 @@
+customerId,statusCode,scenario
+1045300,200,successful operation
+1054301,401,Error: Authorisation failed.
+1063202,404,Error: Not Found
+1072103,200,successful operation
+1081004,401,Error: Authorisation failed.
+1090905,404,Error: Not Found
+1100806,200,successful operation
+1110707,401,Error: Authorisation failed.
+1120608,404,Error: Not Found
+1130509,200,successful operation
+1140410,401,Error: Authorisation failed.
+1150311,404,Error: Not Found
+1160212,200,successful operation
+1170113,401,Error: Authorisation failed.
+1180014,404,Error: Not Found
+1190915,200,successful operation
+1200816,401,Error: Authorisation failed.
+1210717,404,Error: Not Found
+1220618,200,successful operation
+1230519,401,Error: Authorisation failed.
+1240420,404,Error: Not Found

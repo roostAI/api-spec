@@ -1,0 +1,10 @@
+customerId,paymentId,updateTransferType,sourceAccountId,statusCode,scenario
+1045300,"PAY123","all","1042345",200,Scheduled transfer deleted successfully
+1045301,"PAY124","all","1042346",200,Scheduled transfer deleted successfully
+1045302,"PAY125","all","1042347",200,Scheduled transfer deleted successfully
+1045303,"PAY126","all","1042348",401,Error: Authorisation failed.
+1045304,"PAY127","all","1042349",401,Error: Authorisation failed.
+1045305,"PAY128","all","1042350",401,Error: Authorisation failed.
+1045306,"PAY129","all","1042351",404,Error: Not Found
+1045307,"PAY130","all","1042352",404,Error: Not Found
+1045308,"PAY131","all","1042353",404,Error: Not Found

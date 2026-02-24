@@ -1,0 +1,4 @@
+customerId,status,statusCode,scenario
+1045300,"sunt",200,"schedule transfer list response"
+57368746.02665067,"consequat",401,"Error: Authorisation failed."
+36190443.5550136,"consequat",404,"Error: Not Found"
