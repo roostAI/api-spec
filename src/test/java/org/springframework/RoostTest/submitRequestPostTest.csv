@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+userid001^|^bot123^|^acc007^|^Auth-bearer 123^|^{"key1":"value1","key2":"value2"}^|^200^|^bearer-001
+userid002^|^bot124^|^acc008^|^Auth-bearer 124^|^{"key1":"value3","key2":"value4"}^|^401^|^bearer-002
+userid003^|^bot125^|^acc009^|^Auth-bearer 125^|^{"key1":"value5","key2":"value6"}^|^404^|^bearer-003
+userid004^|^bot126^|^acc010^|^Auth-bearer 126^|^{"key1":"value7","key2":"value8"}^|^200^|^bearer-004
+userid005^|^bot127^|^acc011^|^Auth-bearer 127^|^{"key1":"value9","key2":"value10"}^|^401^|^bearer-005
+userid006^|^bot128^|^acc012^|^Auth-bearer 128^|^{"key1":"value11","key2":"value12"}^|^404^|^bearer-006
+userid007^|^bot129^|^acc013^|^Auth-bearer 129^|^{"key1":"value13","key2":"value14"}^|^200^|^bearer-007
+userid008^|^bot130^|^acc014^|^Auth-bearer 130^|^{"key1":"value15","key2":"value16"}^|^401^|^bearer-008
+userid009^|^bot131^|^acc015^|^Auth-bearer 131^|^{"key1":"value17","key2":"value18"}^|^404^|^bearer-009
+userid010^|^bot132^|^acc016^|^Auth-bearer 132^|^{"key1":"value19","key2":"value20"}^|^200^|^bearer-010
