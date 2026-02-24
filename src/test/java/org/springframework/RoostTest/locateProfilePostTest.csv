@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+USR1^|^BOT1^|^ACC1^|^Auth1^|^{"customerId": "CUST1", "ssNumber": "SS1", "ssnShort": "SS1", "accountNumber": "ACC1"}^|^200^|^Bearer1
+USR2^|^BOT2^|^ACC2^|^Auth2^|^{"customerId": "CUST2", "ssNumber": "SS2", "ssnShort": "SS2", "accountNumber": "ACC2"}^|^200^|^Bearer2
+USR3^|^BOT3^|^ACC3^|^Auth3^|^{"customerId": "CUST3", "ssNumber": "SS3", "ssnShort": "SS3", "accountNumber": "ACC3"}^|^404^|^Bearer3
+USR4^|^BOT4^|^ACC4^|^Auth4^|^{"customerId": "CUST4", "ssNumber": "SS4", "ssnShort": "SS4", "accountNumber": "ACC4"}^|^401^|^Bearer4
+USR5^|^BOT5^|^ACC5^|^Auth5^|^{"customerId": "CUST5", "ssNumber": "SS5", "ssnShort": "SS5", "accountNumber": "ACC5"}^|^200^|^Bearer5
+USR6^|^BOT6^|^ACC6^|^Auth6^|^{"customerId": "CUST6", "ssNumber": "SS6", "ssnShort": "SS6", "accountNumber": "ACC6"}^|^401^|^Bearer6
+USR7^|^BOT7^|^ACC7^|^Auth7^|^{"customerId": "CUST7", "ssNumber": "SS7", "ssnShort": "SS7", "accountNumber": "ACC7"}^|^200^|^Bearer7
+USR8^|^BOT8^|^ACC8^|^Auth8^|^{"customerId": "CUST8", "ssNumber": "SS8", "ssnShort": "SS8", "accountNumber": "ACC8"}^|^404^|^Bearer8
+USR9^|^BOT9^|^ACC9^|^Auth9^|^{"customerId": "CUST9", "ssNumber": "SS9", "ssnShort": "SS9", "accountNumber": "ACC9"}^|^200^|^Bearer9
+USR10^|^BOT10^|^ACC10^|^Auth10^|^{"customerId": "CUST10", "ssNumber": "SS10", "ssnShort": "SS10", "accountNumber": "ACC10"}^|^401^|^Bearer10
