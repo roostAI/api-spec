@@ -1,0 +1,6 @@
+accountNumber,customerId,numOfTransactions,status,startDate,endDate,type,value,amount1,currency,category,debitOrCredit,statusCode,scenario
+"ipsum exercitation ex dolore",6491275.733196035,10,"quis laboris deserunt","2022-01-01","2022-01-31","in in qui","string",8595192.492221981,"velit esse","et Lorem","cillum amet dolore officia",200,"successful operation"
+"ipsum exercitation ex dolore",6491275.733196035,15,"quis laboris deserunt","2022-02-01","2022-02-28","in in qui","string",8595192.492221981,"velit esse","et Lorem","cillum amet dolore officia",200,"successful operation"
+"ipsum exercitation ex dolore",6491275.733196035,20,"quis laboris deserunt","2022-03-01","2022-03-31","in in qui","string",8595192.492221981,"velit esse","et Lorem","cillum amet dolore officia",200,"successful operation"
+"ipsum exercitation ex dolore",6491275.733196035,25,"quis laboris deserunt","2022-04-01","2022-04-30","in in qui","string",8595192.492221981,"velit esse","et Lorem","cillum amet dolore officia",200,"successful operation"
+"ipsum exercitation ex dolore",6491275.733196035,30,"quis laboris deserunt","2022-05-01","2022-05-31","in in qui","string",8595192.492221981,"velit esse","et Lorem","cillum amet dolore officia",200,"successful operation"

@@ -1,0 +1,10 @@
+accountNumber,customerId,ssNumber,ssnShort,statusCode,scenario
+"dolor exercitation e","ullamco et incididunt dolor",31907610.034279004,-19413743.86466661,200,"success"
+"1042345",1045300,"randomSSNumber1","randomSSNShort1",401,"Error: Authorisation failed."
+"1042345",1045300,"randomSSNumber2","randomSSNShort2",404,"Error: Not Found"
+"dolor exercitation e","ullamco et incididunt dolor",31907610.034279004,-19413743.86466661,200,"success"
+"1042345",1045300,"randomSSNumber3","randomSSNShort3",401,"Error: Authorisation failed."
+"1042345",1045300,"randomSSNumber4","randomSSNShort4",404,"Error: Not Found"
+"dolor exercitation e","ullamco et incididunt dolor",31907610.034279004,-19413743.86466661,200,"success"
+"1042345",1045300,"randomSSNumber5","randomSSNShort5",401,"Error: Authorisation failed."
+"1042345",1045300,"randomSSNumber6","randomSSNShort6",404,"Error: Not Found"
