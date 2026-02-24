@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^userCode^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+user179^|^botA1^|^ucode001^|^account90^|^Bearer e31a726c4f^|^{"customerId": 8104, "status": "active"}^|^200^|^bearer1
+user125^|^botB2^|^ucode002^|^account22^|^Bearer 84207dbd7e^|^{"customerId": 9012, "status": "inactive"}^|^401^|^bearer2
+user163^|^botC3^|^ucode003^|^account33^|^Bearer c3fed787ac^|^{"customerId": 7008, "status": "active"}^|^200^|^bearer3
+user001^|^botA1^|^ucode004^|^account14^|^Bearer 827bf00d54^|^{"customerId": 6201, "status": "inactive"}^|^404^|^bearer4
+user092^|^botB2^|^ucode005^|^account55^|^Bearer e31a854c5f^|^{"customerId": 4104, "status": "active"}^|^200^|^bearer5
+user083^|^botC3^|^ucode006^|^account66^|^Bearer 84203dbe7f^|^{"customerId": 5306, "status": "inactive"}^|^401^|^bearer6
+user074^|^botA1^|^ucode007^|^account77^|^Bearer c3fec7db87^|^{"customerId": 4501, "status": "active"}^|^200^|^bearer7
+user065^|^botB2^|^ucode008^|^account88^|^Bearer 827bdfa1bf^|^{"customerId": 3404, "status": "inactive"}^|^404^|^bearer8
+user056^|^botC3^|^ucode009^|^account99^|^Bearer e3118c3fa6^|^{"customerId": 2308, "status": "active"}^|^200^|^bearer9
+user047^|^botA1^|^ucode010^|^account00^|^Bearer 8420dbda7f^|^{"customerId": 1202, "status": "inactive"}^|^401^|^bearer10

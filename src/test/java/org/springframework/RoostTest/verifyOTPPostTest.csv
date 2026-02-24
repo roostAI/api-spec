@@ -1,0 +1,11 @@
+RequestBody^|^statusCode^|^bearer
+{"customerId": 12345, "code": 67890}^|^200^|^Bearer_abc123xyz
+{"customerId": 54321, "code": 98765}^|^401^|^Bearer_def456mno
+{"customerId": 23456, "code": 78901}^|^200^|^Bearer_ghi789pqr
+{"customerId": 65432, "code": 10987}^|^404^|^Bearer_jkl012stu
+{"customerId": 34567, "code": 89012}^|^200^|^Bearer_mno345vwx
+{"customerId": 76543, "code": 21098}^|^401^|^Bearer_pqr678yz1
+{"customerId": 45678, "code": 90123}^|^200^|^Bearer_stu901234
+{"customerId": 87654, "code": 32109}^|^404^|^Bearer_vwx234567
+{"customerId": 56789, "code": 01234}^|^200^|^Bearer_yz3098765
+{"customerId": 98765, "code": 43210}^|^401^|^Bearer_123456789
