@@ -1,0 +1,6 @@
+accountNumber,customerId,numOfTransactions,status,startDate,endDate,type,value,amount1,currency,category,debitOrCredit,statusCode,scenario
+1042345,1045300,10,"Active","2022-01-01","2022-12-31","Transaction","Payment",1000,"USD","[""Groceries"",""Bills""]","Debit",200,"successful operation"
+1042346,1045301,15,"Inactive","2022-02-01","2022-12-31","Transaction","Refund",2000,"USD","[""Rent"",""Bills""]","Credit",200,"successful operation"
+1042347,1045302,20,"Active","2022-03-01","2022-12-31","Transaction","Payment",3000,"USD","[""Groceries"",""Bills""]","Debit",200,"successful operation"
+1042348,1045303,25,"Inactive","2022-04-01","2022-12-31","Transaction","Refund",4000,"USD","[""Rent"",""Bills""]","Credit",200,"successful operation"
+1042349,1045304,30,"Active","2022-05-01","2022-12-31","Transaction","Payment",5000,"USD","[""Groceries"",""Bills""]","Debit",200,"successful operation"
