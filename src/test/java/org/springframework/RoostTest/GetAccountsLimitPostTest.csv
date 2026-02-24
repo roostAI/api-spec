@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^X_Auth_token^|^X_CORRELATION_ID^|^RequestBody^|^statusCode^|^bearer
+USER123^|^BOT456^|^ACC789^|^Auth123abc^|^XAuth_456def^|^123456789^|^{"customerId": 987654321}^|^200^|^Bearer_123abc
+USER124^|^BOT457^|^ACC790^|^Auth124abc^|^XAuth_457def^|^123456788^|^{"customerId": 987654322}^|^401^|^Bearer_124abc
+USER125^|^BOT458^|^ACC791^|^Auth125abc^|^XAuth_458def^|^123456787^|^{"customerId": 987654323}^|^200^|^Bearer_125abc
+USER126^|^BOT459^|^ACC792^|^Auth126abc^|^XAuth_459def^|^123456786^|^{"customerId": 987654324}^|^404^|^Bearer_126abc
+USER127^|^BOT460^|^ACC793^|^Auth127abc^|^XAuth_460def^|^123456785^|^{"customerId": 987654325}^|^200^|^Bearer_127abc
+USER128^|^BOT461^|^ACC794^|^Auth128abc^|^XAuth_461def^|^123456784^|^{"customerId": 987654326}^|^401^|^Bearer_128abc
+USER129^|^BOT462^|^ACC795^|^Auth129abc^|^XAuth_462def^|^123456783^|^{"customerId": 987654327}^|^200^|^Bearer_129abc
+USER130^|^BOT463^|^ACC796^|^Auth130abc^|^XAuth_463def^|^123456782^|^{"customerId": 987654328}^|^404^|^Bearer_130abc
+USER131^|^BOT464^|^ACC797^|^Auth131abc^|^XAuth_464def^|^123456781^|^{"customerId": 987654329}^|^200^|^Bearer_131abc
+USER132^|^BOT465^|^ACC798^|^Auth132abc^|^XAuth_465def^|^123456780^|^{"customerId": 987654330}^|^401^|^Bearer_132abc
