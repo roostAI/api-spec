@@ -1,0 +1,11 @@
+sourcePin,targetPin,statusCode,scenario
+"PIN123","PIN456",200,"PINs matched"
+"PIN789","PIN1011",401,"Error: Authorisation failed."
+"PIN1213","PIN1415",404,"Error: Not Found"
+"PIN1617","PIN1819",200,"PINs matched"
+"PIN2021","PIN2223",401,"Error: Authorisation failed."
+"PIN2425","PIN2627",404,"Error: Not Found"
+"PIN2829","PIN3031",200,"PINs matched"
+"PIN3233","PIN3435",401,"Error: Authorisation failed."
+"PIN3637","PIN3839",404,"Error: Not Found"
+"PIN4041","PIN4243",200,"PINs matched"

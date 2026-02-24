@@ -1,0 +1,10 @@
+customerId,email,secondaryEmail,subscribe,statusCode,scenario
+1045300,John@gmail.com,John1@gmail.com,true,200,success
+1045301,Jane@gmail.com,Jane1@gmail.com,false,200,success
+1045302,Robert@gmail.com,Robert1@gmail.com,true,200,success
+1045303,Emma@gmail.com,Emma1@gmail.com,false,401,Error: Authorisation failed.
+1045304,Oliver@gmail.com,Oliver1@gmail.com,true,401,Error: Authorisation failed.
+1045305,Sophia@gmail.com,Sophia1@gmail.com,false,401,Error: Authorisation failed.
+1045306,Lucas@gmail.com,Lucas1@gmail.com,true,404,Error: Not Found
+1045307,Mia@gmail.com,Mia1@gmail.com,false,404,Error: Not Found
+1045308,Ethan@gmail.com,Ethan1@gmail.com,true,404,Error: Not Found

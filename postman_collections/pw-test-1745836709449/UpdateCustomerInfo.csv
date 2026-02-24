@@ -1,0 +1,11 @@
+customerId,email,alternatePhoneNumber,isAlternateMobileNumber,phone,isPrimaryMobileNumber,location,statusCode,scenario
+1045300,"John@gmail.com",1234567890,true,9876543210,true,"New York",200,successful operation
+2045301,"Jane@gmail.com",2345678901,false,8765432109,false,"Los Angeles",401,Error: Authorisation failed.
+3045302,"Doe@gmail.com",3456789012,true,7654321098,true,"Chicago",404,Error: Not Found
+4045303,"Smith@gmail.com",4567890123,false,6543210987,false,"Houston",200,successful operation
+5045304,"Brown@gmail.com",5678901234,true,5432109876,true,"Phoenix",401,Error: Authorisation failed.
+6045305,"Taylor@gmail.com",6789012345,false,4321098765,false,"Philadelphia",404,Error: Not Found
+7045306,"Wilson@gmail.com",7890123456,true,3210987654,true,"San Antonio",200,successful operation
+8045307,"Johnson@gmail.com",8901234567,false,2109876543,false,"San Diego",401,Error: Authorisation failed.
+9045308,"Williams@gmail.com",9012345678,true,1098765432,true,"Dallas",404,Error: Not Found
+10045309,"Jones@gmail.com",0123456789,false,0987654321,false,"San Jose",200,successful operation
