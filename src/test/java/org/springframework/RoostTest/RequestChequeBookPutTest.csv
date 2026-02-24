@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+user1^|^bot1^|^acc1^|^auth1^|^{"customerId": 123, "numberOfChequeBooks": 2, "numberOfLeaves": 50, "accountNumber": "acc123"}^|^200^|^bearer1
+user2^|^bot2^|^acc2^|^auth2^|^{"customerId": 124, "numberOfChequeBooks": 3, "numberOfLeaves": 60, "accountNumber": "acc124"}^|^401^|^bearer2
+user3^|^bot3^|^acc3^|^auth3^|^{"customerId": 125, "numberOfChequeBooks": 4, "numberOfLeaves": 70, "accountNumber": "acc125"}^|^404^|^bearer3
+user4^|^bot4^|^acc4^|^auth4^|^{"customerId": 126, "numberOfChequeBooks": 5, "numberOfLeaves": 80, "accountNumber": "acc126"}^|^200^|^bearer4
+user5^|^bot5^|^acc5^|^auth5^|^{"customerId": 127, "numberOfChequeBooks": 6, "numberOfLeaves": 90, "accountNumber": "acc127"}^|^401^|^bearer5
+user6^|^bot6^|^acc6^|^auth6^|^{"customerId": 128, "numberOfChequeBooks": 7, "numberOfLeaves": 100, "accountNumber": "acc128"}^|^404^|^bearer6
+user7^|^bot7^|^acc7^|^auth7^|^{"customerId": 129, "numberOfChequeBooks": 8, "numberOfLeaves": 110, "accountNumber": "acc129"}^|^200^|^bearer7
+user8^|^bot8^|^acc8^|^auth8^|^{"customerId": 130, "numberOfChequeBooks": 9, "numberOfLeaves": 120, "accountNumber": "acc130"}^|^401^|^bearer8
+user9^|^bot9^|^acc9^|^auth9^|^{"customerId": 131, "numberOfChequeBooks": 10, "numberOfLeaves": 130, "accountNumber": "acc131"}^|^404^|^bearer9
+user10^|^bot10^|^acc10^|^auth10^|^{"customerId": 132, "numberOfChequeBooks": 11, "numberOfLeaves": 140, "accountNumber": "acc132"}^|^200^|^bearer10
