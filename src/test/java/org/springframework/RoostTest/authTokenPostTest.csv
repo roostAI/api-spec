@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+user01^|^bot001^|^acct10^|^auth_key_01^|^{"id": 1, "name": "john"}^|^200^|^bearer_token01
+user02^|^bot002^|^acct11^|^auth_key_02^|^{"id": 2, "name": "doe"}^|^200^|^bearer_token02
+user03^|^bot003^|^acct12^|^auth_key_03^|^{"id": 3, "name": "mike"}^|^401^|^bearer_token03
+user04^|^bot004^|^acct13^|^auth_key_04^|^{"id": 4, "name": "smith"}^|^404^|^bearer_token04
+user05^|^bot005^|^acct14^|^auth_key_05^|^{"id": 5, "name": "david"}^|^200^|^bearer_token05
+user06^|^bot006^|^acct15^|^auth_key_06^|^{"id": 6, "name": "sam"}^|^200^|^bearer_token06
+user07^|^bot007^|^acct16^|^auth_key_07^|^{"id": 7, "name": "peter"}^|^401^|^bearer_token07
+user08^|^bot008^|^acct17^|^auth_key_08^|^{"id": 8, "name": "paul"}^|^404^|^bearer_token08
+user09^|^bot009^|^acct18^|^auth_key_09^|^{"id": 9, "name": "jacob"}^|^200^|^bearer_token09
+user10^|^bot010^|^acct19^|^auth_key_10^|^{"id": 10, "name": "jackson"}^|^200^|^bearer_token10

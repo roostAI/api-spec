@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+KU001^|^BI001^|^AI001^|^AuthKU001^|^{"sourcePin":"SP001","targetPin":"TP001"}^|^200^|^BeKU001
+KU002^|^BI002^|^AI002^|^AuthKU002^|^{"sourcePin":"SP002","targetPin":"TP002"}^|^200^|^BeKU002
+KU003^|^BI003^|^AI003^|^AuthKU003^|^{"sourcePin":"SP003","targetPin":"TP003"}^|^401^|^BeKU003
+KU004^|^BI004^|^AI004^|^AuthKU004^|^{"sourcePin":"SP004","targetPin":"TP004"}^|^404^|^BeKU004
+KU005^|^BI005^|^AI005^|^AuthKU005^|^{"sourcePin":"SP005","targetPin":"TP005"}^|^200^|^BeKU005
+KU006^|^BI006^|^AI006^|^AuthKU006^|^{"sourcePin":"SP006","targetPin":"TP006"}^|^200^|^BeKU006
+KU007^|^BI007^|^AI007^|^AuthKU007^|^{"sourcePin":"SP007","targetPin":"TP007"}^|^401^|^BeKU007
+KU008^|^BI008^|^AI008^|^AuthKU008^|^{"sourcePin":"SP008","targetPin":"TP008"}^|^404^|^BeKU008
+KU009^|^BI009^|^AI009^|^AuthKU009^|^{"sourcePin":"SP009","targetPin":"TP009"}^|^200^|^BeKU009
+KU010^|^BI010^|^AI010^|^AuthKU010^|^{"sourcePin":"SP010","targetPin":"TP010"}^|^200^|^BeKU010
