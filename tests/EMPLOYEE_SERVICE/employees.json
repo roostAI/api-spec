@@ -1,0 +1,42 @@
+[
+  {
+    "searchString": "Software Engineer",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "searchString": "Product Manager",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "searchString": "Data Analyst",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "searchString": "UX Designer",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "searchString": "DevOps Engineer",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "searchString": "",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "searchString": "InvalidJobTitle123!@#",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "searchString": "NonExistentRole",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  }
+]
