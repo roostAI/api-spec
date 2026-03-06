@@ -1,0 +1,151 @@
+[
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "accountId": "AC123",
+    "tenantId": "TEN123",
+    "environment": "production",
+    "channel": "web",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU456",
+    "botId": "BOT456",
+    "accountId": "AC456",
+    "tenantId": "TEN456",
+    "environment": "development",
+    "channel": "mobile",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU789",
+    "botId": "BOT789",
+    "accountId": "AC789",
+    "tenantId": "TEN789",
+    "environment": "staging",
+    "channel": "desktop",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU321",
+    "botId": "BOT321",
+    "accountId": "AC321",
+    "tenantId": "TEN321",
+    "environment": "production",
+    "channel": "web",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "botId": "BOT654",
+    "accountId": "AC654",
+    "tenantId": "TEN654",
+    "environment": "development",
+    "channel": "mobile",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU987",
+    "botId": "BOT987",
+    "accountId": "AC987",
+    "tenantId": "TEN987",
+    "environment": "staging",
+    "channel": "desktop",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU111",
+    "botId": "BOT111",
+    "accountId": "AC111",
+    "tenantId": "TEN111",
+    "environment": "production",
+    "channel": "web",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU222",
+    "botId": "BOT222",
+    "accountId": "AC222",
+    "tenantId": "TEN222",
+    "environment": "development",
+    "channel": "mobile",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU333",
+    "botId": "BOT333",
+    "accountId": "AC333",
+    "tenantId": "TEN333",
+    "environment": "staging",
+    "channel": "desktop",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU444",
+    "botId": "BOT444",
+    "accountId": "AC444",
+    "tenantId": "TEN444",
+    "environment": "production",
+    "channel": "web",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU555",
+    "botId": "BOT555",
+    "accountId": "AC555",
+    "tenantId": "TEN555",
+    "environment": "development",
+    "channel": "mobile",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU666",
+    "botId": "BOT666",
+    "accountId": "AC666",
+    "tenantId": "TEN666",
+    "environment": "staging",
+    "channel": "desktop",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU777",
+    "botId": "BOT777",
+    "accountId": "AC777",
+    "tenantId": "TEN777",
+    "environment": "production",
+    "channel": "web",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU888",
+    "botId": "BOT888",
+    "accountId": "AC888",
+    "tenantId": "TEN888",
+    "environment": "development",
+    "channel": "mobile",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU999",
+    "botId": "BOT999",
+    "accountId": "AC999",
+    "tenantId": "TEN999",
+    "environment": "staging",
+    "channel": "desktop",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
