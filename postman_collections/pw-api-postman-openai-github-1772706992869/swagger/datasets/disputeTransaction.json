@@ -1,0 +1,116 @@
+[
+  {
+    "koreUserId": "kore123",
+    "botId": "bot123",
+    "accountId": "acc123",
+    "customerId": 1045300,
+    "emailId": "John@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "kore456",
+    "botId": "bot456",
+    "accountId": "acc456",
+    "customerId": 1045301,
+    "emailId": "Jane@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "kore789",
+    "botId": "bot789",
+    "accountId": "acc789",
+    "customerId": 1045302,
+    "emailId": "Doe@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "kore321",
+    "botId": "bot321",
+    "accountId": "acc321",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "kore654",
+    "botId": "bot654",
+    "accountId": "acc654",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "kore987",
+    "botId": "bot987",
+    "accountId": "acc987",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "kore111",
+    "botId": "bot111",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "kore222",
+    "botId": "bot222",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "kore333",
+    "botId": "bot333",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "kore444",
+    "botId": "bot444",
+    "accountId": "acc444",
+    "customerId": 1045303,
+    "emailId": "Smith@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "kore555",
+    "botId": "bot555",
+    "accountId": "acc555",
+    "customerId": 1045304,
+    "emailId": "Brown@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "kore666",
+    "botId": "bot666",
+    "accountId": "acc666",
+    "customerId": 1045305,
+    "emailId": "Johnson@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "kore777",
+    "botId": "bot777",
+    "accountId": "acc777",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "kore888",
+    "botId": "bot888",
+    "accountId": "acc888",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "kore999",
+    "botId": "bot999",
+    "accountId": "acc999",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
