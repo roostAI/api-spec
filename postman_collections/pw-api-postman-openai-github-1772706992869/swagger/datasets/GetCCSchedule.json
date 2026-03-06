@@ -1,0 +1,123 @@
+[
+  {
+    "koreUserId": "koreUser1",
+    "botId": "bot1",
+    "accountId": "account1",
+    "customerId": 1045300,
+    "status": "active",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "koreUser2",
+    "botId": "bot2",
+    "accountId": "account2",
+    "customerId": 1045301,
+    "status": "inactive",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "koreUser3",
+    "botId": "bot3",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser4",
+    "botId": "bot4",
+    "accountId": "account4",
+    "customerId": 1045304,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser5",
+    "botId": "bot5",
+    "accountId": "account5",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser6",
+    "botId": "bot6",
+    "accountId": "account6",
+    "customerId": 1045306,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser7",
+    "botId": "bot7",
+    "accountId": "account7",
+    "customerId": 1045307,
+    "status": "active",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "koreUser8",
+    "botId": "bot8",
+    "accountId": "account8",
+    "customerId": 1045308,
+    "status": "inactive",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "koreUser9",
+    "botId": "bot9",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser10",
+    "botId": "bot10",
+    "accountId": "account10",
+    "customerId": 1045310,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser11",
+    "botId": "bot11",
+    "accountId": "account11",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser12",
+    "botId": "bot12",
+    "accountId": "account12",
+    "customerId": 1045312,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser13",
+    "botId": "bot13",
+    "accountId": "account13",
+    "customerId": 1045313,
+    "status": "active",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "koreUser14",
+    "botId": "bot14",
+    "accountId": "account14",
+    "customerId": 1045314,
+    "status": "inactive",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "koreUser15",
+    "botId": "bot15",
+    "accountId": "account15",
+    "customerId": 1045315,
+    "status": "active",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  }
+]
