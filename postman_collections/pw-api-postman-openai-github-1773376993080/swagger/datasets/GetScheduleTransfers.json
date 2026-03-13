@@ -1,0 +1,131 @@
+[
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "userCode": "UC12345",
+    "accountId": "AC12345",
+    "customerId": 1045300,
+    "status": "active",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "KU12346",
+    "botId": "BOT12346",
+    "userCode": "UC12346",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12347",
+    "botId": "BOT12347",
+    "userCode": "UC12347",
+    "accountId": "AC12347",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12348",
+    "botId": "BOT12348",
+    "userCode": "UC12348",
+    "accountId": "AC12348",
+    "customerId": 1045301,
+    "status": "inactive",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "KU12349",
+    "botId": "BOT12349",
+    "userCode": "UC12349",
+    "accountId": "AC12349",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12350",
+    "botId": "BOT12350",
+    "userCode": "UC12350",
+    "accountId": "AC12350",
+    "customerId": 1045302,
+    "status": "active",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "KU12351",
+    "botId": "BOT12351",
+    "userCode": "UC12351",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12352",
+    "botId": "BOT12352",
+    "userCode": "UC12352",
+    "accountId": "AC12352",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12353",
+    "botId": "BOT12353",
+    "userCode": "UC12353",
+    "accountId": "AC12353",
+    "customerId": 1045303,
+    "status": "inactive",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "KU12354",
+    "botId": "BOT12354",
+    "userCode": "UC12354",
+    "accountId": "AC12354",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12355",
+    "botId": "BOT12355",
+    "userCode": "UC12355",
+    "accountId": "AC12355",
+    "customerId": 1045304,
+    "status": "active",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "KU12356",
+    "botId": "BOT12356",
+    "userCode": "UC12356",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12357",
+    "botId": "BOT12357",
+    "userCode": "UC12357",
+    "accountId": "AC12357",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12358",
+    "botId": "BOT12358",
+    "userCode": "UC12358",
+    "accountId": "AC12358",
+    "customerId": 1045305,
+    "status": "inactive",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "KU12359",
+    "botId": "BOT12359",
+    "userCode": "UC12359",
+    "accountId": "AC12359",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
