@@ -1,0 +1,152 @@
+[
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "accountId": "ACC12345",
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "accountId": "ACC12345",
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "secondaryEmail": "John1@gmail.com",
+    "subscribe": true,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "botId": "BOT12345",
+    "accountId": "ACC12345",
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "accountId": "ACC12345",
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "secondaryEmail": "John1@gmail.com",
+    "subscribe": "invalid",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "accountId": "ACC12345",
+    "customerId": "invalid",
+    "email": "John@gmail.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "accountId": "ACC12345",
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "accountId": "ACC12345",
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "secondaryEmail": "John1@gmail.com",
+    "subscribe": true,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "accountId": "ACC12345",
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "accountId": "ACC12345",
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "secondaryEmail": "John1@gmail.com",
+    "subscribe": false,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "accountId": "ACC12345",
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "secondaryEmail": "John1@gmail.com",
+    "subscribe": true,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "accountId": "ACC12345",
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "accountId": "ACC12345",
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "secondaryEmail": "John1@gmail.com",
+    "subscribe": "invalid",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "accountId": "ACC12345",
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "accountId": "ACC12345",
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "secondaryEmail": "John1@gmail.com",
+    "subscribe": false,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT12345",
+    "accountId": "ACC12345",
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "secondaryEmail": "John1@gmail.com",
+    "subscribe": true,
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]

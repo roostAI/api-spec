@@ -1,0 +1,119 @@
+[
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "status": "active",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "KU124",
+    "botId": "BOT124",
+    "accountId": "AC124",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "KU125",
+    "botId": "BOT125",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "KU126",
+    "botId": "BOT126",
+    "accountId": "AC126",
+    "customerId": 1045301,
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "KU127",
+    "botId": "BOT127",
+    "accountId": "AC127",
+    "customerId": 1045302,
+    "status": "inactive",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "KU128",
+    "botId": "BOT128",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU129",
+    "botId": "BOT129",
+    "accountId": "AC129",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU130",
+    "botId": "BOT130",
+    "accountId": "AC130",
+    "customerId": 1045303,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU131",
+    "botId": "BOT131",
+    "accountId": "AC131",
+    "customerId": 1045304,
+    "status": "active",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU132",
+    "botId": "BOT132",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU133",
+    "botId": "BOT133",
+    "accountId": "AC133",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU134",
+    "botId": "BOT134",
+    "accountId": "AC134",
+    "customerId": 1045305,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU135",
+    "botId": "BOT135",
+    "accountId": "AC135",
+    "customerId": 1045306,
+    "status": "inactive",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU136",
+    "botId": "BOT136",
+    "accountId": "AC136",
+    "customerId": 1045307,
+    "status": "active",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU137",
+    "botId": "BOT137",
+    "accountId": "AC137",
+    "customerId": 1045308,
+    "status": "inactive",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

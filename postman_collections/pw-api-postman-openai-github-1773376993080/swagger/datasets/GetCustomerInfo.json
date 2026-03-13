@@ -1,0 +1,101 @@
+[
+  {
+    "koreUserId": "user123",
+    "botId": "bot456",
+    "accountId": "acc789",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user124",
+    "botId": "bot457",
+    "accountId": "acc790",
+    "customerId": 1045301,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user125",
+    "botId": "bot458",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user126",
+    "accountId": "acc791",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user127",
+    "botId": "bot459",
+    "accountId": "acc792",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user128",
+    "botId": "bot460",
+    "accountId": "acc793",
+    "customerId": 1045302,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user129",
+    "botId": "bot461",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user130",
+    "accountId": "acc794",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "botId": "bot462",
+    "accountId": "acc795",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user131",
+    "botId": "bot463",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user132",
+    "botId": "bot464",
+    "accountId": "acc796",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user133",
+    "botId": "bot465",
+    "accountId": "acc797",
+    "customerId": 1045303,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user134",
+    "botId": "bot466",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user135",
+    "accountId": "acc798",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "botId": "bot467",
+    "accountId": "acc799",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "paymentId": "PID123",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "paymentId": "PID123",
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "paymentId": "PID123",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "paymentId": "PID123",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "scheduledDate": 20220202,
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "paymentId": "PID123",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "scheduledDate": 20220202,
+    "sourceAccountId": "1042345",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "paymentId": "PID123",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "scheduledDate": 20220202,
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "paymentId": "PID123",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "paymentId": "PID123",
+    "customerId": 1045300,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "paymentId": "PID123",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "paymentId": "PID123",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "scheduledDate": 20220202,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "paymentId": "PID123",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "scheduledDate": 20220202,
+    "sourceAccountId": "1042345",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "paymentId": "PID123",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "scheduledDate": 20220202,
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "paymentId": "PID123",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "scheduledDate": 20220202,
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
