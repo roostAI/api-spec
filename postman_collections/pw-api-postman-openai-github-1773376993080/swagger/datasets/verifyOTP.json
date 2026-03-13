@@ -1,0 +1,84 @@
+[
+  {
+    "code": 1234,
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "OTP verified successfully"
+  },
+  {
+    "code": 1234,
+    "statusCode": 200,
+    "scenario": "OTP verified successfully"
+  },
+  {
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "OTP verified successfully"
+  },
+  {
+    "code": 1235,
+    "customerId": 1045301,
+    "statusCode": 200,
+    "scenario": "OTP verified successfully"
+  },
+  {
+    "code": 1236,
+    "statusCode": 401,
+    "scenario": "Error: Authorization failed."
+  },
+  {
+    "customerId": 1045302,
+    "statusCode": 401,
+    "scenario": "Error: Authorization failed."
+  },
+  {
+    "code": 1237,
+    "customerId": 1045303,
+    "statusCode": 401,
+    "scenario": "Error: Authorization failed."
+  },
+  {
+    "code": 1238,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045304,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "code": 1239,
+    "customerId": 1045305,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "code": "abc",
+    "customerId": 1045306,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "code": 1240,
+    "customerId": "xyz",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "code": 1241,
+    "customerId": 1045307,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "code": 1242,
+    "customerId": 1045308,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]

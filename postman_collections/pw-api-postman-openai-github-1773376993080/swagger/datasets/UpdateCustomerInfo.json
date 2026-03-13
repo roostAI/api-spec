@@ -1,0 +1,138 @@
+[
+  {
+    "koreUserId": "kore123",
+    "botId": "bot123",
+    "accountId": "acc123",
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "kore456",
+    "botId": "bot456",
+    "accountId": "acc456",
+    "customerId": 1045301,
+    "email": "Jane@gmail.com",
+    "phone": 1234567890,
+    "isPrimaryMobileNumber": true,
+    "location": "New York",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "kore789",
+    "botId": "bot789",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "kore1011",
+    "botId": "bot1011",
+    "accountId": "acc1011",
+    "customerId": 1045302,
+    "email": "invalid_email",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "kore1213",
+    "botId": "bot1213",
+    "accountId": "acc1213",
+    "customerId": 1045303,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "kore1415",
+    "botId": "bot1415",
+    "accountId": "acc1415",
+    "customerId": 1045304,
+    "email": "Sam@gmail.com",
+    "alternatePhoneNumber": 9876543210,
+    "isAlternateMobileNumber": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "kore1617",
+    "botId": "bot1617",
+    "accountId": "acc1617",
+    "customerId": 1045305,
+    "email": "Emma@gmail.com",
+    "phone": 1234567891,
+    "isPrimaryMobileNumber": false,
+    "location": "Los Angeles",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "kore1819",
+    "botId": "bot1819",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "kore2021",
+    "botId": "bot2021",
+    "accountId": "acc2021",
+    "customerId": 1045306,
+    "email": "invalid_email",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "kore2223",
+    "botId": "bot2223",
+    "accountId": "acc2223",
+    "customerId": 1045307,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "kore2425",
+    "botId": "bot2425",
+    "accountId": "acc2425",
+    "customerId": 1045308,
+    "email": "Oliver@gmail.com",
+    "alternatePhoneNumber": 9876543211,
+    "isAlternateMobileNumber": false,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "kore2627",
+    "botId": "bot2627",
+    "accountId": "acc2627",
+    "customerId": 1045309,
+    "email": "Sophia@gmail.com",
+    "phone": 1234567892,
+    "isPrimaryMobileNumber": true,
+    "location": "Chicago",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "kore2829",
+    "botId": "bot2829",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "kore3031",
+    "botId": "bot3031",
+    "accountId": "acc3031",
+    "customerId": 1045310,
+    "email": "invalid_email",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "kore3233",
+    "botId": "bot3233",
+    "accountId": "acc3233",
+    "customerId": 1045311,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

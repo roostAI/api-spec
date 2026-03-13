@@ -1,0 +1,99 @@
+[
+  {
+    "koreUserId": "KU123456",
+    "botId": "BOT123",
+    "accountId": "ACC123",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "KU123457",
+    "botId": "BOT124",
+    "accountId": "ACC124",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "KU123458",
+    "botId": "BOT125",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "KU123459",
+    "botId": "BOT126",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "KU123460",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU123461",
+    "botId": "BOT127",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU123462",
+    "botId": "BOT128",
+    "accountId": "ACC125",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU123463",
+    "botId": "BOT129",
+    "accountId": "ACC126",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU123464",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU123465",
+    "botId": "BOT130",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU123466",
+    "botId": "BOT131",
+    "accountId": "ACC127",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU123467",
+    "botId": "BOT132",
+    "accountId": "ACC128",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU123468",
+    "botId": "BOT133",
+    "accountId": "ACC129",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "KU123469",
+    "botId": "BOT134",
+    "accountId": "ACC130",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "KU123470",
+    "botId": "BOT135",
+    "accountId": "ACC131",
+    "statusCode": 200,
+    "scenario": "successful login"
+  }
+]
