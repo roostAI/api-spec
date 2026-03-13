@@ -1,0 +1,41 @@
+[
+  {
+    "id": "emp001",
+    "jobTitle": "Software Engineer",
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "statusCode": 201,
+    "scenario": "Successful responses: Created"
+  },
+  {
+    "id": "emp002",
+    "jobTitle": "Data Analyst",
+    "name": "Jane Doe",
+    "email": "jane.doe@example.com",
+    "statusCode": 201,
+    "scenario": "Successful responses: Created"
+  },
+  {
+    "jobTitle": "Product Manager",
+    "name": "Robert Smith",
+    "email": "robert.smith@example.com",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "id": "emp004",
+    "jobTitle": "123456",
+    "name": "Emily Johnson",
+    "email": "emily.johnson@example.com",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "id": "emp005",
+    "jobTitle": "HR Manager",
+    "name": "Michael Brown",
+    "email": "michael.brown@example.com",
+    "statusCode": 409,
+    "scenario": "Client error responses: Conflict"
+  }
+]
