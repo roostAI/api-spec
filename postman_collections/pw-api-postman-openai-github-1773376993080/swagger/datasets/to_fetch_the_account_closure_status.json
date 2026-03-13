@@ -1,0 +1,169 @@
+[
+  {
+    "koreUserId": "user1",
+    "botId": "bot1",
+    "accountId": "acc1",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user2",
+    "botId": "bot2",
+    "accountId": "acc2",
+    "_0.accountName": "Account1",
+    "_0.accountNumber": 123456,
+    "_0.customerId": "cust1",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user3",
+    "botId": "bot3",
+    "accountId": "acc3",
+    "_0.accountName": "Account2",
+    "_0.accountNumber": 789012,
+    "_0.customerId": "cust2",
+    "_0.description": "Test Account",
+    "_0.estimation": 1000,
+    "_0.modifyDate": "2022-01-01",
+    "_0.requestDate": "2022-01-02",
+    "_0.requestId": "req1",
+    "_0.requestSubType": "subType1",
+    "_0.requestType": "type1",
+    "_0.status": "active",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user4",
+    "botId": "bot4",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user5",
+    "botId": "bot5",
+    "accountId": "acc5",
+    "_0.accountName": "Account3",
+    "_0.accountNumber": 345678,
+    "_0.customerId": "cust3",
+    "_0.description": "Test Account 2",
+    "_0.estimation": 2000,
+    "_0.modifyDate": "2022-02-01",
+    "_0.requestDate": "2022-02-02",
+    "_0.requestId": "req2",
+    "_0.requestSubType": "subType2",
+    "_0.requestType": "type2",
+    "_0.status": "inactive",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user6",
+    "botId": "bot6",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user7",
+    "botId": "bot7",
+    "accountId": "acc7",
+    "_0.accountName": "Account4",
+    "_0.accountNumber": 901234,
+    "_0.customerId": "cust4",
+    "_0.description": "Test Account 3",
+    "_0.estimation": 3000,
+    "_0.modifyDate": "2022-03-01",
+    "_0.requestDate": "2022-03-02",
+    "_0.requestId": "req3",
+    "_0.requestSubType": "subType3",
+    "_0.requestType": "type3",
+    "_0.status": "active",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user8",
+    "botId": "bot8",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user9",
+    "botId": "bot9",
+    "accountId": "acc9",
+    "_0.accountName": "Account5",
+    "_0.accountNumber": 567890,
+    "_0.customerId": "cust5",
+    "_0.description": "Test Account 4",
+    "_0.estimation": 4000,
+    "_0.modifyDate": "2022-04-01",
+    "_0.requestDate": "2022-04-02",
+    "_0.requestId": "req4",
+    "_0.requestSubType": "subType4",
+    "_0.requestType": "type4",
+    "_0.status": "inactive",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user10",
+    "botId": "bot10",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user11",
+    "botId": "bot11",
+    "accountId": "acc11",
+    "_0.accountName": "Account6",
+    "_0.accountNumber": 234567,
+    "_0.customerId": "cust6",
+    "_0.description": "Test Account 5",
+    "_0.estimation": 5000,
+    "_0.modifyDate": "2022-05-01",
+    "_0.requestDate": "2022-05-02",
+    "_0.requestId": "req5",
+    "_0.requestSubType": "subType5",
+    "_0.requestType": "type5",
+    "_0.status": "active",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user12",
+    "botId": "bot12",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user13",
+    "botId": "bot13",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user14",
+    "botId": "bot14",
+    "accountId": "acc14",
+    "_0.accountName": "Account7",
+    "_0.accountNumber": 890123,
+    "_0.customerId": "cust7",
+    "_0.description": "Test Account 6",
+    "_0.estimation": 6000,
+    "_0.modifyDate": "2022-06-01",
+    "_0.requestDate": "2022-06-02",
+    "_0.requestId": "req6",
+    "_0.requestSubType": "subType6",
+    "_0.requestType": "type6",
+    "_0.status": "inactive",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user15",
+    "botId": "bot15",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

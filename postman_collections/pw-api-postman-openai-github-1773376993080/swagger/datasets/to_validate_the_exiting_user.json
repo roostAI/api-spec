@@ -1,0 +1,110 @@
+[
+  {
+    "koreUserId": "KU123",
+    "botId": "B123",
+    "accountId": "A123",
+    "sourcePin": "SP123",
+    "targetPin": "TP123",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "KU124",
+    "botId": "B124",
+    "accountId": "A124",
+    "sourcePin": "SP124",
+    "targetPin": "TP124",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "KU125",
+    "botId": "B125",
+    "accountId": "A125",
+    "sourcePin": "SP125",
+    "targetPin": "TP125",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "KU126",
+    "botId": "B126",
+    "accountId": "A126",
+    "sourcePin": "SP126",
+    "targetPin": "TP126",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "KU127",
+    "botId": "B127",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU128",
+    "botId": "B128",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU129",
+    "botId": "B129",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU130",
+    "botId": "B130",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU131",
+    "botId": "B131",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU132",
+    "botId": "B132",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU133",
+    "botId": "B133",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU134",
+    "botId": "B134",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU135",
+    "botId": "B135",
+    "accountId": "A135",
+    "sourcePin": "SP135",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU136",
+    "botId": "B136",
+    "accountId": "A136",
+    "sourcePin": "SP136",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU137",
+    "botId": "B137",
+    "accountId": "A137",
+    "sourcePin": "SP137",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]

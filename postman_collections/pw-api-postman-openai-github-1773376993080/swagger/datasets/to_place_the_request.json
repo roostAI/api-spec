@@ -1,0 +1,211 @@
+[
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "accountName": "John Doe",
+    "accountNumber": [
+      "1042345"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "accountName": "John Doe",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "accountName": "John Doe",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "description": "Internal Transfer",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "accountName": "John Doe",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "description": "Internal Transfer",
+    "requestSubType": "SubType1",
+    "requestType": "Type1",
+    "serviceType": "Service1",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "accountName": "John Doe",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "description": "Internal Transfer",
+    "requestSubType": "SubType1",
+    "requestType": "Type1",
+    "serviceType": "Service1",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "accountName": "John Doe",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "description": "Internal Transfer",
+    "requestSubType": "SubType1",
+    "requestType": "Type1",
+    "serviceType": "Service1",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "accountName": "John Doe",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "description": "Internal Transfer",
+    "requestSubType": "SubType1",
+    "requestType": "Type1",
+    "serviceType": "Service1",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "accountName": "John Doe",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "description": "Internal Transfer",
+    "requestSubType": "SubType1",
+    "requestType": "Type1",
+    "serviceType": "Service1",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "accountName": "John Doe",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "description": "Internal Transfer",
+    "requestSubType": "SubType1",
+    "requestType": "Type1",
+    "serviceType": "Service1",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "accountName": "John Doe",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "description": "Internal Transfer",
+    "requestSubType": "SubType1",
+    "requestType": "Type1",
+    "serviceType": "Service1",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "accountName": "John Doe",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "description": "Internal Transfer",
+    "requestSubType": "SubType1",
+    "requestType": "Type1",
+    "serviceType": "Service1",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "accountName": "John Doe",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "description": "Internal Transfer",
+    "requestSubType": "SubType1",
+    "requestType": "Type1",
+    "serviceType": "Service1",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "accountName": "John Doe",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "description": "Internal Transfer",
+    "requestSubType": "SubType1",
+    "requestType": "Type1",
+    "serviceType": "Service1",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
