@@ -1,0 +1,214 @@
+[
+  {
+    "koreUserId": "koreUser1",
+    "botId": "bot1",
+    "accountId": "acc1",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "phone": 1234567890,
+    "isPrimaryMobileNumber": true,
+    "location": "New York",
+    "isStatement": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "koreUser2",
+    "botId": "bot2",
+    "accountId": "acc2",
+    "accountNumber": [
+      "1042346"
+    ],
+    "customerId": 1045301,
+    "email": "Jane@gmail.com",
+    "alternatePhoneNumber": 9876543210,
+    "isAlternateMobileNumber": true,
+    "location": "Los Angeles",
+    "isStatement": false,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "koreUser3",
+    "botId": "bot3",
+    "accountId": "acc3",
+    "accountNumber": [
+      "1042347"
+    ],
+    "customerId": 1045302,
+    "email": "Tom@gmail.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser4",
+    "botId": "bot4",
+    "accountId": "acc4",
+    "accountNumber": [
+      "1042348"
+    ],
+    "customerId": 1045303,
+    "email": "Jerry@gmail.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser5",
+    "botId": "bot5",
+    "accountId": "acc5",
+    "accountNumber": [
+      "1042349"
+    ],
+    "customerId": 1045304,
+    "email": "Mickey@gmail.com",
+    "phone": 1234567891,
+    "isPrimaryMobileNumber": false,
+    "location": "Chicago",
+    "isStatement": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "koreUser6",
+    "botId": "bot6",
+    "accountId": "acc6",
+    "accountNumber": [
+      "1042350"
+    ],
+    "customerId": 1045305,
+    "email": "Minnie@gmail.com",
+    "alternatePhoneNumber": 9876543211,
+    "isAlternateMobileNumber": false,
+    "location": "San Francisco",
+    "isStatement": false,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "koreUser7",
+    "botId": "bot7",
+    "accountId": "acc7",
+    "accountNumber": [
+      "1042351"
+    ],
+    "customerId": 1045306,
+    "email": "Donald@gmail.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser8",
+    "botId": "bot8",
+    "accountId": "acc8",
+    "accountNumber": [
+      "1042352"
+    ],
+    "customerId": 1045307,
+    "email": "Daisy@gmail.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser9",
+    "botId": "bot9",
+    "accountId": "acc9",
+    "accountNumber": [
+      "1042353"
+    ],
+    "customerId": 1045308,
+    "email": "Goofy@gmail.com",
+    "phone": 1234567892,
+    "isPrimaryMobileNumber": true,
+    "location": "Seattle",
+    "isStatement": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "koreUser10",
+    "botId": "bot10",
+    "accountId": "acc10",
+    "accountNumber": [
+      "1042354"
+    ],
+    "customerId": 1045309,
+    "email": "Pluto@gmail.com",
+    "alternatePhoneNumber": 9876543212,
+    "isAlternateMobileNumber": true,
+    "location": "Boston",
+    "isStatement": false,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "koreUser11",
+    "botId": "bot11",
+    "accountId": "acc11",
+    "accountNumber": [
+      "1042355"
+    ],
+    "customerId": 1045310,
+    "email": "Clarabelle@gmail.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser12",
+    "botId": "bot12",
+    "accountId": "acc12",
+    "accountNumber": [
+      "1042356"
+    ],
+    "customerId": 1045311,
+    "email": "Max@gmail.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser13",
+    "botId": "bot13",
+    "accountId": "acc13",
+    "accountNumber": [
+      "1042357"
+    ],
+    "customerId": 1045312,
+    "email": "Horace@gmail.com",
+    "phone": 1234567893,
+    "isPrimaryMobileNumber": false,
+    "location": "Houston",
+    "isStatement": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "koreUser14",
+    "botId": "bot14",
+    "accountId": "acc14",
+    "accountNumber": [
+      "1042358"
+    ],
+    "customerId": 1045313,
+    "email": "Pete@gmail.com",
+    "alternatePhoneNumber": 9876543213,
+    "isAlternateMobileNumber": false,
+    "location": "Phoenix",
+    "isStatement": false,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "koreUser15",
+    "botId": "bot15",
+    "accountId": "acc15",
+    "accountNumber": [
+      "1042359"
+    ],
+    "customerId": 1045314,
+    "email": "Scrooge@gmail.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

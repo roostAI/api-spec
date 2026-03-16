@@ -1,0 +1,129 @@
+[
+  {
+    "koreUserId": "koreUser1",
+    "botId": "bot1",
+    "accountId": "account1",
+    "customerId": 1045300,
+    "emailId": "John@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "koreUser2",
+    "botId": "bot2",
+    "accountId": "account2",
+    "customerId": 1045301,
+    "emailId": "Jane@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "koreUser3",
+    "botId": "bot3",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser4",
+    "botId": "bot4",
+    "accountId": "account4",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser5",
+    "botId": "bot5",
+    "accountId": "account5",
+    "customerId": 1045305,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser6",
+    "botId": "bot6",
+    "accountId": "account6",
+    "customerId": 1045306,
+    "emailId": "InvalidEmail",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser7",
+    "botId": "bot7",
+    "accountId": "account7",
+    "customerId": 1045307,
+    "emailId": "James@yahoo.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser8",
+    "botId": "bot8",
+    "accountId": "account8",
+    "customerId": 1045308,
+    "emailId": "Julia@yahoo.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser9",
+    "botId": "bot9",
+    "accountId": "account9",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser10",
+    "botId": "bot10",
+    "accountId": "account10",
+    "customerId": 1045310,
+    "emailId": "Jack@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "koreUser11",
+    "botId": "bot11",
+    "accountId": "account11",
+    "customerId": 1045311,
+    "emailId": "Jill@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "koreUser12",
+    "botId": "bot12",
+    "accountId": "account12",
+    "customerId": 1045312,
+    "emailId": "Jerry@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "koreUser13",
+    "botId": "bot13",
+    "accountId": "account13",
+    "customerId": 1045313,
+    "emailId": "Jenny@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "koreUser14",
+    "botId": "bot14",
+    "accountId": "account14",
+    "customerId": 1045314,
+    "emailId": "Jessie@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "koreUser15",
+    "botId": "bot15",
+    "accountId": "account15",
+    "customerId": 1045315,
+    "emailId": "Jasmine@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  }
+]

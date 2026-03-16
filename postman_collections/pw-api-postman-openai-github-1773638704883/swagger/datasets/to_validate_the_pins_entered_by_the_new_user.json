@@ -1,0 +1,125 @@
+[
+  {
+    "koreUserId": "user123",
+    "botId": "bot456",
+    "accountId": "account789",
+    "sourcePin": "1234",
+    "targetPin": "5678",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "user123",
+    "botId": "bot456",
+    "accountId": "account789",
+    "sourcePin": "1234",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user123",
+    "botId": "bot456",
+    "sourcePin": "1234",
+    "targetPin": "5678",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user123",
+    "accountId": "account789",
+    "sourcePin": "1234",
+    "targetPin": "5678",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "botId": "bot456",
+    "accountId": "account789",
+    "sourcePin": "1234",
+    "targetPin": "5678",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user123",
+    "botId": "bot456",
+    "accountId": "account789",
+    "sourcePin": "1234",
+    "targetPin": "5678",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user123",
+    "botId": "bot456",
+    "accountId": "account789",
+    "sourcePin": "1234",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user123",
+    "botId": "bot456",
+    "sourcePin": "1234",
+    "targetPin": "5678",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user123",
+    "accountId": "account789",
+    "sourcePin": "1234",
+    "targetPin": "5678",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "bot456",
+    "accountId": "account789",
+    "sourcePin": "1234",
+    "targetPin": "5678",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user123",
+    "botId": "bot456",
+    "accountId": "account789",
+    "sourcePin": "1234",
+    "targetPin": "5678",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "user123",
+    "botId": "bot456",
+    "accountId": "account789",
+    "sourcePin": "1234",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "user123",
+    "botId": "bot456",
+    "sourcePin": "1234",
+    "targetPin": "5678",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "user123",
+    "accountId": "account789",
+    "sourcePin": "1234",
+    "targetPin": "5678",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "botId": "bot456",
+    "accountId": "account789",
+    "sourcePin": "1234",
+    "targetPin": "5678",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  }
+]

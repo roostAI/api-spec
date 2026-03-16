@@ -1,0 +1,148 @@
+[
+  {
+    "koreUserId": "koreUser1",
+    "botId": "bot1",
+    "userCode": "userCode1",
+    "accountId": "accountId1",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "currency": "USD",
+    "status": "active",
+    "scheduledDate": 20220222,
+    "statusCode": 200,
+    "scenario": "schedule transfer added successfully"
+  },
+  {
+    "koreUserId": "koreUser2",
+    "botId": "bot2",
+    "userCode": "userCode2",
+    "accountId": "accountId2",
+    "customerId": 1045301,
+    "amount": "1042223",
+    "sourceAccountId": "1042346",
+    "targetAccountId": "1042223",
+    "currency": "EUR",
+    "status": "inactive",
+    "scheduledDate": 20220223,
+    "statusCode": 200,
+    "scenario": "schedule transfer added successfully"
+  },
+  {
+    "koreUserId": "koreUser3",
+    "botId": "bot3",
+    "userCode": "userCode3",
+    "accountId": "accountId3",
+    "customerId": 1045302,
+    "amount": "1042224",
+    "sourceAccountId": "1042347",
+    "targetAccountId": "1042224",
+    "currency": "GBP",
+    "status": "active",
+    "scheduledDate": 20220224,
+    "statusCode": 200,
+    "scenario": "schedule transfer added successfully"
+  },
+  {
+    "koreUserId": "koreUser4",
+    "botId": "bot4",
+    "userCode": "userCode4",
+    "accountId": "accountId4",
+    "customerId": 1045303,
+    "amount": "1042225",
+    "sourceAccountId": "1042348",
+    "targetAccountId": "1042225",
+    "currency": "JPY",
+    "status": "inactive",
+    "scheduledDate": 20220225,
+    "statusCode": 200,
+    "scenario": "schedule transfer added successfully"
+  },
+  {
+    "koreUserId": "koreUser5",
+    "botId": "bot5",
+    "userCode": "userCode5",
+    "accountId": "accountId5",
+    "customerId": 1045304,
+    "amount": "1042226",
+    "sourceAccountId": "1042349",
+    "targetAccountId": "1042226",
+    "currency": "AUD",
+    "status": "active",
+    "scheduledDate": 20220226,
+    "statusCode": 200,
+    "scenario": "schedule transfer added successfully"
+  },
+  {
+    "koreUserId": "koreUser6",
+    "botId": "bot6",
+    "userCode": "userCode6",
+    "accountId": "accountId6",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser7",
+    "botId": "bot7",
+    "userCode": "userCode7",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser8",
+    "botId": "bot8",
+    "userCode": "userCode8",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser9",
+    "botId": "bot9",
+    "userCode": "userCode9",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser10",
+    "botId": "bot10",
+    "userCode": "userCode10",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser11",
+    "botId": "bot11",
+    "userCode": "userCode11",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser12",
+    "botId": "bot12",
+    "userCode": "userCode12",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser13",
+    "botId": "bot13",
+    "userCode": "userCode13",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser14",
+    "botId": "bot14",
+    "userCode": "userCode14",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser15",
+    "botId": "bot15",
+    "userCode": "userCode15",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
