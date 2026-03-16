@@ -1,0 +1,124 @@
+[
+  {
+    "koreUserId": "user123",
+    "botId": "bot456",
+    "accountId": "account789",
+    "tenantId": "tenant1011",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user124",
+    "botId": "bot457",
+    "accountId": "account790",
+    "tenantId": "tenant1012",
+    "environment": "production",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user125",
+    "botId": "bot458",
+    "accountId": "account791",
+    "tenantId": "tenant1013",
+    "environment": "development",
+    "channel": "web",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "botId": "bot459",
+    "accountId": "account792",
+    "tenantId": "tenant1014",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user126",
+    "accountId": "account793",
+    "tenantId": "tenant1015",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user127",
+    "botId": "bot460",
+    "tenantId": "tenant1016",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user128",
+    "botId": "bot461",
+    "accountId": "account794",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user129",
+    "botId": "bot462",
+    "accountId": "account795",
+    "tenantId": "tenant1017",
+    "environment": "staging",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user130",
+    "botId": "bot463",
+    "accountId": "account796",
+    "tenantId": "tenant1018",
+    "environment": "production",
+    "channel": "mobile",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user131",
+    "botId": "bot464",
+    "accountId": "account797",
+    "tenantId": "tenant1019",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user132",
+    "botId": "bot465",
+    "accountId": "account798",
+    "tenantId": "tenant1020",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user133",
+    "botId": "bot466",
+    "accountId": "account799",
+    "tenantId": "tenant1021",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user134",
+    "botId": "bot467",
+    "accountId": "account800",
+    "tenantId": "tenant1022",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user135",
+    "botId": "bot468",
+    "accountId": "account801",
+    "tenantId": "tenant1023",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user136",
+    "botId": "bot469",
+    "accountId": "account802",
+    "tenantId": "tenant1024",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

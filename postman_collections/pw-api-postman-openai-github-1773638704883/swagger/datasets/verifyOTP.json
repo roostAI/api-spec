@@ -1,0 +1,84 @@
+[
+  {
+    "code": 1234,
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "OTP verifid successfully"
+  },
+  {
+    "code": 5678,
+    "customerId": 1045301,
+    "statusCode": 200,
+    "scenario": "OTP verifid successfully"
+  },
+  {
+    "code": 9012,
+    "customerId": 1045302,
+    "statusCode": 200,
+    "scenario": "OTP verifid successfully"
+  },
+  {
+    "customerId": 1045303,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "code": 3456,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "code": 7890,
+    "customerId": 1045304,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "code": 2345,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045305,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "code": 6789,
+    "customerId": 1045306,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "code": 1011,
+    "customerId": 1045307,
+    "statusCode": 200,
+    "scenario": "OTP verifid successfully"
+  },
+  {
+    "code": 1213,
+    "customerId": 1045308,
+    "statusCode": 200,
+    "scenario": "OTP verifid successfully"
+  },
+  {
+    "code": 1415,
+    "customerId": 1045309,
+    "statusCode": 200,
+    "scenario": "OTP verifid successfully"
+  },
+  {
+    "customerId": 1045310,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "code": 1617,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
