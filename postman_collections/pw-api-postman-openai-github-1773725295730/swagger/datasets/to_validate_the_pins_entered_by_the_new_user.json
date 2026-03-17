@@ -1,0 +1,119 @@
+[
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "accountId": "AC123",
+    "sourcePin": "1234",
+    "targetPin": "5678",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "KU456",
+    "botId": "BOT456",
+    "accountId": "AC456",
+    "sourcePin": "7890",
+    "targetPin": "2345",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "KU789",
+    "botId": "BOT789",
+    "accountId": "AC789",
+    "sourcePin": "3456",
+    "targetPin": "6789",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "KU321",
+    "botId": "BOT321",
+    "accountId": "AC321",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU654",
+    "botId": "BOT654",
+    "accountId": "AC654",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU987",
+    "botId": "BOT987",
+    "accountId": "AC987",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU111",
+    "botId": "BOT111",
+    "accountId": "AC111",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU222",
+    "botId": "BOT222",
+    "accountId": "AC222",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU333",
+    "botId": "BOT333",
+    "accountId": "AC333",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU444",
+    "botId": "BOT444",
+    "accountId": "AC444",
+    "sourcePin": "4444",
+    "targetPin": "5555",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "KU555",
+    "botId": "BOT555",
+    "accountId": "AC555",
+    "sourcePin": "6666",
+    "targetPin": "7777",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "KU666",
+    "botId": "BOT666",
+    "accountId": "AC666",
+    "sourcePin": "8888",
+    "targetPin": "9999",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "KU777",
+    "botId": "BOT777",
+    "accountId": "AC777",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU888",
+    "botId": "BOT888",
+    "accountId": "AC888",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU999",
+    "botId": "BOT999",
+    "accountId": "AC999",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

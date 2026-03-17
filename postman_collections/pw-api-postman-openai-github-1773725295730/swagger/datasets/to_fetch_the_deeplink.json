@@ -1,0 +1,132 @@
+[
+  {
+    "koreUserId": "user1",
+    "botId": "bot1",
+    "accountId": "account1",
+    "tenantId": "tenant1",
+    "environment": "dev",
+    "channel": "web",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user2",
+    "botId": "bot2",
+    "accountId": "account2",
+    "tenantId": "tenant2",
+    "environment": "prod",
+    "channel": "mobile",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user3",
+    "botId": "bot3",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user4",
+    "botId": "bot4",
+    "accountId": "account4",
+    "tenantId": "tenant4",
+    "environment": "test",
+    "channel": "web",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user5",
+    "botId": "bot5",
+    "accountId": "account5",
+    "tenantId": "tenant5",
+    "environment": "dev",
+    "channel": "mobile",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user6",
+    "botId": "bot6",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user7",
+    "botId": "bot7",
+    "accountId": "account7",
+    "tenantId": "tenant7",
+    "environment": "prod",
+    "channel": "web",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user8",
+    "botId": "bot8",
+    "accountId": "account8",
+    "tenantId": "tenant8",
+    "environment": "test",
+    "channel": "mobile",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user9",
+    "botId": "bot9",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user10",
+    "botId": "bot10",
+    "accountId": "account10",
+    "tenantId": "tenant10",
+    "environment": "dev",
+    "channel": "web",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user11",
+    "botId": "bot11",
+    "accountId": "account11",
+    "tenantId": "tenant11",
+    "environment": "prod",
+    "channel": "mobile",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user12",
+    "botId": "bot12",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user13",
+    "botId": "bot13",
+    "accountId": "account13",
+    "tenantId": "tenant13",
+    "environment": "test",
+    "channel": "web",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user14",
+    "botId": "bot14",
+    "accountId": "account14",
+    "tenantId": "tenant14",
+    "environment": "dev",
+    "channel": "mobile",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user15",
+    "botId": "bot15",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

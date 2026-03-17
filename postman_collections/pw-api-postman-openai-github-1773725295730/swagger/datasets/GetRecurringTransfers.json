@@ -1,0 +1,140 @@
+[
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "status": "active",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "status": "active",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "status": "active",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "status": "active",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "customerId": 1045300,
+    "status": "active",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "status": "active",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "status": "inactive",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045301,
+    "status": "active",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC124",
+    "customerId": 1045300,
+    "status": "active",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12346",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "status": "active",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT124",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "status": "active",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

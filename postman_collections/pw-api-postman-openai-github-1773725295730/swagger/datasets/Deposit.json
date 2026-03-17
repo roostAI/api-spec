@@ -1,0 +1,152 @@
+[
+  {
+    "koreUserId": "user1",
+    "botId": "bot1",
+    "accountId": "acc1",
+    "customerId": 1045300,
+    "sourceAccountId": "1042345",
+    "amount": "1042222",
+    "currency": "USD",
+    "statusCode": 200,
+    "scenario": "Deposit success"
+  },
+  {
+    "koreUserId": "user2",
+    "botId": "bot2",
+    "accountId": "acc2",
+    "customerId": 1045301,
+    "sourceAccountId": "1042346",
+    "amount": "1042223",
+    "currency": "EUR",
+    "statusCode": 200,
+    "scenario": "Deposit success"
+  },
+  {
+    "koreUserId": "user3",
+    "botId": "bot3",
+    "accountId": "acc3",
+    "customerId": 1045302,
+    "sourceAccountId": "1042347",
+    "amount": "1042224",
+    "currency": "GBP",
+    "statusCode": 200,
+    "scenario": "Deposit success"
+  },
+  {
+    "koreUserId": "user4",
+    "botId": "bot4",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user5",
+    "botId": "bot5",
+    "accountId": "acc5",
+    "customerId": 1045304,
+    "sourceAccountId": "1042349",
+    "amount": "1042226",
+    "currency": "JPY",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user6",
+    "botId": "bot6",
+    "accountId": "acc6",
+    "customerId": 1045305,
+    "sourceAccountId": "1042350",
+    "amount": "1042227",
+    "currency": "CAD",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user7",
+    "botId": "bot7",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user8",
+    "botId": "bot8",
+    "accountId": "acc8",
+    "customerId": 1045307,
+    "sourceAccountId": "1042352",
+    "amount": "1042229",
+    "currency": "AUD",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user9",
+    "botId": "bot9",
+    "accountId": "acc9",
+    "customerId": 1045308,
+    "sourceAccountId": "1042353",
+    "amount": "1042230",
+    "currency": "NZD",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user10",
+    "botId": "bot10",
+    "accountId": "acc10",
+    "customerId": 1045309,
+    "sourceAccountId": "1042354",
+    "amount": "1042231",
+    "currency": "INR",
+    "statusCode": 200,
+    "scenario": "Deposit success"
+  },
+  {
+    "koreUserId": "user11",
+    "botId": "bot11",
+    "accountId": "acc11",
+    "customerId": 1045310,
+    "sourceAccountId": "1042355",
+    "amount": "1042232",
+    "currency": "CNY",
+    "statusCode": 200,
+    "scenario": "Deposit success"
+  },
+  {
+    "koreUserId": "user12",
+    "botId": "bot12",
+    "accountId": "acc12",
+    "customerId": 1045311,
+    "sourceAccountId": "1042356",
+    "amount": "1042233",
+    "currency": "HKD",
+    "statusCode": 200,
+    "scenario": "Deposit success"
+  },
+  {
+    "koreUserId": "user13",
+    "botId": "bot13",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user14",
+    "botId": "bot14",
+    "accountId": "acc14",
+    "customerId": 1045313,
+    "sourceAccountId": "1042358",
+    "amount": "1042235",
+    "currency": "SGD",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user15",
+    "botId": "bot15",
+    "accountId": "acc15",
+    "customerId": 1045314,
+    "sourceAccountId": "1042359",
+    "amount": "1042236",
+    "currency": "CHF",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
