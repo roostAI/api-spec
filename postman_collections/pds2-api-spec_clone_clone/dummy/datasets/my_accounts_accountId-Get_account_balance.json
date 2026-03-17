@@ -1,0 +1,76 @@
+[
+  {
+    "accountId": "ACC001",
+    "statusCode": 200,
+    "scenario": "Successful response"
+  },
+  {
+    "accountId": "ACC002",
+    "statusCode": 200,
+    "scenario": "Successful response"
+  },
+  {
+    "accountId": "ACC003",
+    "statusCode": 200,
+    "scenario": "Successful response"
+  },
+  {
+    "accountId": "ACC004",
+    "statusCode": 200,
+    "scenario": "Successful response"
+  },
+  {
+    "accountId": "ACC005",
+    "statusCode": 200,
+    "scenario": "Successful response"
+  },
+  {
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing required field accountId"
+  },
+  {
+    "accountId": "",
+    "statusCode": 400,
+    "scenario": "Bad Request - Empty accountId"
+  },
+  {
+    "accountId": "INVALID_ACC_123456789012345678901234567890",
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid accountId format"
+  },
+  {
+    "accountId": "12345",
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid accountId format"
+  },
+  {
+    "accountId": "ACC@#$%",
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid characters in accountId"
+  },
+  {
+    "accountId": "NONEXISTENT001",
+    "statusCode": 404,
+    "scenario": "Resource not found - Account does not exist"
+  },
+  {
+    "accountId": "DELETED002",
+    "statusCode": 404,
+    "scenario": "Resource not found - Deleted account"
+  },
+  {
+    "accountId": "SUSPENDED003",
+    "statusCode": 404,
+    "scenario": "Resource not found - Suspended account"
+  },
+  {
+    "accountId": "ACC999",
+    "statusCode": 404,
+    "scenario": "Resource not found - Invalid account reference"
+  },
+  {
+    "accountId": "TEST_ACCOUNT_001",
+    "statusCode": 200,
+    "scenario": "Successful response"
+  }
+]
