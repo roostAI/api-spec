@@ -1,0 +1,129 @@
+[
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440000",
+    "Date": "2024-01-15T10:30:00Z",
+    "Digest": "SHA-256=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "Signature": "keyId=\"test-key\",algorithm=\"rsa-sha256\",headers=\"(request-target) date digest\",signature=\"base64signature\"",
+    "TPP-Signature-Certificate": "MIIDXTCCAkWgAwIBAgIJAKoK/heBjcOuMA0GCSqGSIb3DQEBBQUAMEUxCzAJBgNV",
+    "User-Involved": true,
+    "TPP-Name": "TestBank TPP",
+    "transactionIdentification": "TXN123456789",
+    "statusCode": 200,
+    "scenario": "Successfully retrieved standing order detail"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440001",
+    "Date": "2024-01-15T11:00:00Z",
+    "transactionIdentification": "TXN987654321",
+    "statusCode": 200,
+    "scenario": "Successfully retrieved standing order detail"
+  },
+  {
+    "Date": "2024-01-15T12:00:00Z",
+    "Digest": "SHA-256=invalid_digest_value",
+    "transactionIdentification": "TXN555666777",
+    "statusCode": 400,
+    "scenario": "BAD REQUEST\nRequest validation failed or required input is missing"
+  },
+  {
+    "X-Request-ID": "invalid-uuid-format",
+    "Date": "2024-01-15T13:00:00Z",
+    "transactionIdentification": "TXN888999000",
+    "statusCode": 400,
+    "scenario": "BAD REQUEST\nRequest validation failed or required input is missing"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440002",
+    "Date": "2024-01-15T14:00:00Z",
+    "Digest": "SHA-256=validDigestValue123",
+    "Signature": "invalid_signature_format",
+    "transactionIdentification": "TXN111222333",
+    "statusCode": 401,
+    "scenario": "UNAUTHORISED\nInvalid/missing access token or certificate"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440003",
+    "Date": "2024-01-15T15:00:00Z",
+    "TPP-Signature-Certificate": "invalid_certificate",
+    "transactionIdentification": "TXN444555666",
+    "statusCode": 401,
+    "scenario": "UNAUTHORISED\nInvalid/missing access token or certificate"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440004",
+    "Date": "2024-01-15T16:00:00Z",
+    "Digest": "SHA-256=anotherValidDigest456",
+    "User-Involved": false,
+    "TPP-Name": "UnauthorizedTPP",
+    "transactionIdentification": "TXN777888999",
+    "statusCode": 403,
+    "scenario": "FORBIDDEN\nCaller is not allowed to invoke this operation"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440005",
+    "Date": "2024-01-15T17:00:00Z",
+    "Signature": "keyId=\"forbidden-key\",algorithm=\"rsa-sha256\"",
+    "transactionIdentification": "TXN000111222",
+    "statusCode": 403,
+    "scenario": "FORBIDDEN\nCaller is not allowed to invoke this operation"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440006",
+    "Date": "2024-01-15T18:00:00Z",
+    "Digest": "SHA-256=validDigest789",
+    "transactionIdentification": "NONEXISTENT_TXN_ID",
+    "statusCode": 404,
+    "scenario": "ID_NOT_FOUND\nThe standingOrderId or signId does not exist or is invalid"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440007",
+    "Date": "2024-01-15T19:00:00Z",
+    "TPP-Name": "ValidTPP",
+    "transactionIdentification": "INVALID_FORMAT_123!@#",
+    "statusCode": 404,
+    "scenario": "ID_NOT_FOUND\nThe standingOrderId or signId does not exist or is invalid"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440008",
+    "Date": "2024-01-15T20:00:00Z",
+    "Digest": "SHA-256=serverErrorDigest",
+    "Signature": "keyId=\"server-error-key\"",
+    "transactionIdentification": "TXN_SERVER_ERROR",
+    "statusCode": 500,
+    "scenario": "INTERNAL SERVER ERROR\nUnexpected error occurred"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440009",
+    "Date": "2024-01-15T21:00:00Z",
+    "Digest": "SHA-256=completeTestDigest",
+    "Signature": "keyId=\"complete-test\",algorithm=\"rsa-sha256\",headers=\"date digest\"",
+    "TPP-Signature-Certificate": "MIIDXTCompleteTestCertificate",
+    "User-Involved": true,
+    "TPP-Name": "CompleteTestTPP",
+    "transactionIdentification": "TXN_COMPLETE_TEST",
+    "statusCode": 200,
+    "scenario": "Successfully retrieved standing order detail"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440010",
+    "User-Involved": "invalid_boolean",
+    "transactionIdentification": "TXN_BOOL_ERROR",
+    "statusCode": 400,
+    "scenario": "BAD REQUEST\nRequest validation failed or required input is missing"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440011",
+    "Date": "invalid_date_format",
+    "transactionIdentification": "TXN_DATE_ERROR",
+    "statusCode": 400,
+    "scenario": "BAD REQUEST\nRequest validation failed or required input is missing"
+  },
+  {
+    "Date": "2024-01-15T22:00:00Z",
+    "Digest": "SHA-256=systemFailureDigest",
+    "TPP-Name": "SystemFailureTPP",
+    "transactionIdentification": "TXN_SYSTEM_FAILURE",
+    "statusCode": 500,
+    "scenario": "INTERNAL SERVER ERROR\nUnexpected error occurred"
+  }
+]

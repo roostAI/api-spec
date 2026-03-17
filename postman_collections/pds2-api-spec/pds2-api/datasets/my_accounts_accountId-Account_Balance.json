@@ -1,0 +1,119 @@
+[
+  {
+    "X-Request-ID": "123e4567-e89b-12d3-a456-426614174000",
+    "accountId": "ACC123456789",
+    "currency": "USD",
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "X-Request-ID": "987fcdeb-51a2-43d1-9f4a-123456789012",
+    "Date": "Thu, 05 Jan 2024 12:00:00 GMT",
+    "Digest": "SHA-256=X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=",
+    "Signature": "keyId=\"test-key-1\",algorithm=\"rsa-sha256\",headers=\"(request-target) host date digest\",signature=\"qdx+H7PHHDZgy4y/Ahn9Tny9V3GP6YgBPyUXMmoxWtLbHpUnXS2mg2+SbrQDMCJypxBLSPQR2aAjn7ndmw2iicw3HMbe8VfEdKFYRqzic+efkb3nndiv/x1xSHDJWeSWkx3ButlYSuBskLu6kd9Fswtemr3lgdDEmn04swr2Os0=\"",
+    "TPP-Signature-Certificate": "MIIEowIBAjCCA4ugAwIBAgIJANEHdl0yo7CXMA0GCSqGSIb3DQEBCwUAMIGYMQswCQYDVQQGEwJVUzELMAkGA1UECAwCQ0ExFjAUBgNVBAcMDU1vdW50YWluIFZpZXcxFDASBgNVBAoMC1BheVBhbCBJbmMuMRMwEQYDVQQLDApzYW5kYm94XzEuMDEuMAkGA1UEAwwCc2Q=",
+    "User-Involved": true,
+    "TPP-Name": "Sample TPP Provider",
+    "accountId": "ACC987654321",
+    "currency": "EUR",
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "X-Request-ID": "456e7890-a12b-34c5-d678-901234567890",
+    "accountId": "ACC555666777",
+    "currency": "GBP",
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "accountId": "ACC111222333",
+    "currency": "USD",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID\n\nThe value of the parameter is not valid AC09 (InvalidAccountCurrency)"
+  },
+  {
+    "X-Request-ID": "invalid-uuid-format",
+    "accountId": "ACC444555666",
+    "currency": "JPY",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID\n\nThe value of the parameter is not valid AC09 (InvalidAccountCurrency)"
+  },
+  {
+    "X-Request-ID": "789e0123-b45c-67d8-e901-234567890123",
+    "currency": "USD",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID\n\nThe value of the parameter is not valid AC09 (InvalidAccountCurrency)"
+  },
+  {
+    "X-Request-ID": "abc12345-def6-7890-ghij-klmnopqrstuv",
+    "accountId": "ACC777888999",
+    "currency": "XYZ",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID\n\nThe value of the parameter is not valid AC09 (InvalidAccountCurrency)"
+  },
+  {
+    "X-Request-ID": "234e5678-c90d-12e3-f456-789012345678",
+    "accountId": "",
+    "currency": "EUR",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID\n\nThe value of the parameter is not valid AC09 (InvalidAccountCurrency)"
+  },
+  {
+    "X-Request-ID": "345e6789-d01e-23f4-5678-901234567890",
+    "accountId": "ACC123456789",
+    "currency": "USD",
+    "statusCode": 401,
+    "scenario": "UNAUTHORISED\n\nInvalid/missing access token = user is not authenticated\n\nor\n\nInvalid/missing certificate = provider is not authenticated"
+  },
+  {
+    "Date": "Invalid Date Format",
+    "accountId": "ACC987654321",
+    "currency": "EUR",
+    "statusCode": 401,
+    "scenario": "UNAUTHORISED\n\nInvalid/missing access token = user is not authenticated\n\nor\n\nInvalid/missing certificate = provider is not authenticated"
+  },
+  {
+    "X-Request-ID": "567e8901-f23g-45h6-i789-012345678901",
+    "Signature": "invalid-signature-format",
+    "accountId": "ACC111222333",
+    "currency": "GBP",
+    "statusCode": 403,
+    "scenario": "FORBIDDEN\n\nAuthentication with an invalid certificate or expired access token, a call that does not match a third-party license."
+  },
+  {
+    "X-Request-ID": "678e9012-g34h-56i7-j890-123456789012",
+    "TPP-Signature-Certificate": "expired-certificate",
+    "accountId": "ACC444555666",
+    "currency": "USD",
+    "statusCode": 403,
+    "scenario": "FORBIDDEN\n\nAuthentication with an invalid certificate or expired access token, a call that does not match a third-party license."
+  },
+  {
+    "X-Request-ID": "789e0123-h45i-67j8-k901-234567890123",
+    "accountId": "INVALID_ACCOUNT_ID",
+    "currency": "EUR",
+    "statusCode": 404,
+    "scenario": "PAGE_NOT_FOUND\n\nRequest for a non-existing page\n\nor\n\nID_NOT_FOUND\n\nInvalid or unknown account ID"
+  },
+  {
+    "X-Request-ID": "890e1234-i56j-78k9-l012-345678901234",
+    "accountId": "NON_EXISTENT_ACC",
+    "currency": "JPY",
+    "statusCode": 404,
+    "scenario": "PAGE_NOT_FOUND\n\nRequest for a non-existing page\n\nor\n\nID_NOT_FOUND\n\nInvalid or unknown account ID"
+  },
+  {
+    "X-Request-ID": "901e2345-j67k-89l0-m123-456789012345",
+    "Date": "Fri, 06 Jan 2024 14:30:00 GMT",
+    "Digest": "SHA-256=Y59F0rPllarrveuts9oKSKO4PWEVpzXyBg8lcv0ECQF=",
+    "Signature": "keyId=\"test-key-2\",algorithm=\"rsa-sha256\",headers=\"(request-target) host date digest\",signature=\"rdx+I8QIIEahz5z/Bin0Uoz0W4HQ7ZhCQzVYNnpyXuMcIqVoYT3nh3+TcsRENCKzqyCSMTQS3bBko8o4oenx3Jjd4INcf9WgFeLoSpzjd+fglc4ooeju/y2yTIEKXfTXly4CvumZTvCslM7le9Ftwufnr4mheCFno15txs3Pt1=\"",
+    "TPP-Signature-Certificate": "MIIFpjCCA46gAwIBAgIJAOEIdm1zp8DYMA0GCSqGSIb3DQEBCwUAMIGZMQswCQYDVQQGEwJVUzELMAkGA1UECAwCQ0ExFjAUBgNVBAcMDU1vdW50YWluIFZpZXcxFDASBgNVBAoMC1BheVBhbCBJbmMuMRMwEQYDVQQLDApzYW5kYm94XzIuMDEuMAkGA1UEAwwCc2U=",
+    "User-Involved": false,
+    "TPP-Name": "Another TPP Provider",
+    "accountId": "ACC000111222",
+    "currency": "CHF",
+    "statusCode": 404,
+    "scenario": "PAGE_NOT_FOUND\n\nRequest for a non-existing page\n\nor\n\nID_NOT_FOUND\n\nInvalid or unknown account ID"
+  }
+]
