@@ -1,0 +1,132 @@
+[
+  {
+    "standingOrderId": "SO123456789",
+    "signId": "SIGN001234",
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440000",
+    "Date": "Mon, 01 Jan 2024 12:00:00 GMT",
+    "Digest": "SHA-256=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "Signature": "keyId=\"test-key\",algorithm=\"rsa-sha256\",headers=\"date digest\",signature=\"base64signature\"",
+    "TPP-Signature-Certificate": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4f5wg5l2hKsTeNem...",
+    "User-Involved": true,
+    "TPP-Name": "Test TPP Bank",
+    "redirectToTPPUrl": "https://tpp.client.com/auth/success",
+    "statusCode": 200,
+    "scenario": "OK The URL for the status page was successfully generated"
+  },
+  {
+    "standingOrderId": "SO987654321",
+    "signId": "SIGN009876",
+    "X-Request-ID": "123e4567-e89b-12d3-a456-426614174000",
+    "statusCode": 200,
+    "scenario": "OK The URL for the status page was successfully generated"
+  },
+  {
+    "standingOrderId": "SO555666777",
+    "signId": "SIGN005566",
+    "X-Request-ID": "987fcdeb-51a2-43d1-b345-123456789abc",
+    "Date": "Tue, 15 Jan 2024 14:30:00 GMT",
+    "Digest": "SHA-256=X48E9qOVxyo2ujSjv0OkU7vvb4KpOl2gEwJ8CqC8k=",
+    "Signature": "keyId=\"prod-key\",algorithm=\"rsa-sha256\",headers=\"date digest x-request-id\",signature=\"prodSignature123\"",
+    "TPP-Signature-Certificate": "MIIDXTCCAkWgAwIBAgIJAKoK/heBjcOuMA0GCSqGSIb3DQEBBQUAMEUxCzAJBgNV...",
+    "User-Involved": false,
+    "TPP-Name": "Premium Banking Solutions",
+    "redirectToTPPUrl": "https://premium-bank.com/redirect/success",
+    "statusCode": 200,
+    "scenario": "OK The URL for the status page was successfully generated"
+  },
+  {
+    "signId": "SIGN001234",
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440000",
+    "statusCode": 400,
+    "scenario": "BAD REQUEST Request validation failed or required input is missing"
+  },
+  {
+    "standingOrderId": "SO123456789",
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440000",
+    "statusCode": 400,
+    "scenario": "BAD REQUEST Request validation failed or required input is missing"
+  },
+  {
+    "standingOrderId": "SO123456789",
+    "signId": "SIGN001234",
+    "statusCode": 400,
+    "scenario": "BAD REQUEST Request validation failed or required input is missing"
+  },
+  {
+    "standingOrderId": "SO123456789",
+    "signId": "SIGN001234",
+    "X-Request-ID": "invalid-uuid-format",
+    "statusCode": 400,
+    "scenario": "BAD REQUEST Request validation failed or required input is missing"
+  },
+  {
+    "standingOrderId": "SO123456789",
+    "signId": "SIGN001234",
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440000",
+    "User-Involved": "invalid_boolean",
+    "redirectToTPPUrl": "not-a-valid-url",
+    "statusCode": 400,
+    "scenario": "BAD REQUEST Request validation failed or required input is missing"
+  },
+  {
+    "standingOrderId": "SO123456789",
+    "signId": "SIGN001234",
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440000",
+    "statusCode": 401,
+    "scenario": "UNAUTHORISED Invalid/missing access token or certificate"
+  },
+  {
+    "standingOrderId": "SO123456789",
+    "signId": "SIGN001234",
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440000",
+    "Signature": "invalid_signature_format",
+    "TPP-Signature-Certificate": "invalid_certificate",
+    "statusCode": 401,
+    "scenario": "UNAUTHORISED Invalid/missing access token or certificate"
+  },
+  {
+    "standingOrderId": "SO123456789",
+    "signId": "SIGN001234",
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440000",
+    "TPP-Name": "Unauthorized TPP",
+    "statusCode": 403,
+    "scenario": "FORBIDDEN Caller is not allowed to invoke this operation"
+  },
+  {
+    "standingOrderId": "SO123456789",
+    "signId": "SIGN001234",
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440000",
+    "User-Involved": false,
+    "statusCode": 403,
+    "scenario": "FORBIDDEN Caller is not allowed to invoke this operation"
+  },
+  {
+    "standingOrderId": "INVALID_SO_ID",
+    "signId": "SIGN001234",
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440000",
+    "statusCode": 404,
+    "scenario": "ID_NOT_FOUND The standingOrderId or signId does not exist or is invalid"
+  },
+  {
+    "standingOrderId": "SO123456789",
+    "signId": "INVALID_SIGN_ID",
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440000",
+    "statusCode": 404,
+    "scenario": "ID_NOT_FOUND The standingOrderId or signId does not exist or is invalid"
+  },
+  {
+    "standingOrderId": "NONEXISTENT_ORDER",
+    "signId": "NONEXISTENT_SIGN",
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440000",
+    "statusCode": 404,
+    "scenario": "ID_NOT_FOUND The standingOrderId or signId does not exist or is invalid"
+  },
+  {
+    "standingOrderId": "SO123456789",
+    "signId": "SIGN001234",
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440000",
+    "Date": "Wed, 31 Jan 2024 10:15:00 GMT",
+    "statusCode": 500,
+    "scenario": "INTERNAL SERVER ERROR Unexpected error occurred"
+  }
+]

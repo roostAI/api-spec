@@ -1,0 +1,143 @@
+[
+  {
+    "standingOrderId": "SO123456789",
+    "signId": "SIGN001",
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440000",
+    "Date": "2024-01-15T10:30:00Z",
+    "Digest": "SHA-256=X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=",
+    "Signature": "keyId=\"test-key-1\",algorithm=\"rsa-sha256\",headers=\"(request-target) host date\",signature=\"qdx+H7PHHDZgy4y/Ahn9Tny9V3GP6YgBPyUXMmoxWtLbHpUnXS2mg2+SbrQDMCJypxBLSPQR2aAjn7ndmw2iicw3HMbe8VfEdKFYRqzic+efkb3nndiv/x1xSHDJWeSWkx3ButlYSuBskLu6kd9Km32kapRhCRZc3BTxtEt1=\"",
+    "TPP-Signature-Certificate": "MIIDXTCCAkWgAwIBAgIJANLhm3aMmKSTMA0GCSqGSIb3DQEBCwUAMEUxCzAJBgNV",
+    "User-Involved": true,
+    "TPP-Name": "TechnicalProvider",
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "standingOrderId": "SO987654321",
+    "signId": "SIGN002",
+    "X-Request-ID": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "standingOrderId": "SO555666777",
+    "signId": "SIGN003",
+    "X-Request-ID": "6ba7b811-9dad-11d1-80b4-00c04fd430c8",
+    "Date": "2024-01-16T14:20:00Z",
+    "Digest": "SHA-256=Y58F0rPollrrvets9nPKSKO4PWEVpzXyCg8lcv0ECQF=",
+    "Signature": "keyId=\"test-key-2\",algorithm=\"rsa-sha256\",headers=\"(request-target) host date\",signature=\"rdx+H8QIIEahz5y/Bin0Uoz0W4HQ7ZhCQzVYNnpyXuMdIqVoYT3nh3+TcsRENCKzqyCSMTRS3bBko8oenjw3idx4INcf9WgFlLGZSraju+fglc4ooejw/y2ySIEKXfTXly4CvumZTvClmM77le0Ln43lbqSiDSZd4CVyufFu2=\"",
+    "TPP-Signature-Certificate": "MIIDYUCCAkmgAwIBAgIJAOMim4bNnLTUMA0GCSqGSIb3DQEBCwUAMFYxCzAJBgNV",
+    "User-Involved": false,
+    "TPP-Name": "BankingProvider",
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "signId": "SIGN004",
+    "X-Request-ID": "6ba7b812-9dad-11d1-80b4-00c04fd430c8",
+    "Date": "2024-01-17T09:15:00Z",
+    "statusCode": 400,
+    "scenario": "AUTH_LIMIT_EXCEEDED\n\nThe resource may not be authorized with this method"
+  },
+  {
+    "standingOrderId": "SO444555666",
+    "X-Request-ID": "6ba7b813-9dad-11d1-80b4-00c04fd430c8",
+    "Date": "2024-01-17T11:30:00Z",
+    "statusCode": 400,
+    "scenario": "AUTH_LIMIT_EXCEEDED\n\nThe resource may not be authorized with this method"
+  },
+  {
+    "standingOrderId": "INVALID_ID",
+    "signId": "INVALID_SIGN",
+    "X-Request-ID": "invalid-uuid-format",
+    "Date": "invalid-date-format",
+    "User-Involved": "not-boolean",
+    "statusCode": 400,
+    "scenario": "AUTH_LIMIT_EXCEEDED\n\nThe resource may not be authorized with this method"
+  },
+  {
+    "standingOrderId": "SO123456789",
+    "signId": "SIGN005",
+    "X-Request-ID": "6ba7b814-9dad-11d1-80b4-00c04fd430c8",
+    "statusCode": 401,
+    "scenario": "UNAUTHORISED\n\nInvalid/missing access token = user is not authenticated\n\nor\n\nInvalid/missing certificate = provider is not authenticated"
+  },
+  {
+    "standingOrderId": "SO987654321",
+    "signId": "SIGN006",
+    "X-Request-ID": "6ba7b815-9dad-11d1-80b4-00c04fd430c8",
+    "Date": "2024-01-18T13:45:00Z",
+    "TPP-Name": "UnauthorizedProvider",
+    "statusCode": 401,
+    "scenario": "UNAUTHORISED\n\nInvalid/missing access token = user is not authenticated\n\nor\n\nInvalid/missing certificate = provider is not authenticated"
+  },
+  {
+    "standingOrderId": "SO111222333",
+    "signId": "SIGN007",
+    "X-Request-ID": "6ba7b816-9dad-11d1-80b4-00c04fd430c8",
+    "Date": "2024-01-18T16:20:00Z",
+    "Digest": "SHA-256=Z69G1sQpmmssvfut0oQLTLP5QXFWq4YzDh9md1FDRH=",
+    "User-Involved": true,
+    "statusCode": 403,
+    "scenario": "FORBIDDEN\n\nInvalid/missing certificate = provider is not authenticated"
+  },
+  {
+    "standingOrderId": "SO444555666",
+    "signId": "SIGN008",
+    "X-Request-ID": "6ba7b817-9dad-11d1-80b4-00c04fd430c8",
+    "TPP-Signature-Certificate": "INVALID_CERTIFICATE_FORMAT",
+    "TPP-Name": "ForbiddenProvider",
+    "statusCode": 403,
+    "scenario": "FORBIDDEN\n\nInvalid/missing certificate = provider is not authenticated"
+  },
+  {
+    "standingOrderId": "SO_NOTFOUND",
+    "signId": "SIGN_NOTFOUND",
+    "X-Request-ID": "6ba7b818-9dad-11d1-80b4-00c04fd430c8",
+    "Date": "2024-01-19T08:30:00Z",
+    "User-Involved": false,
+    "statusCode": 404,
+    "scenario": "ID_NOT_FOUND\n\nThe requested transaction ID does not exist."
+  },
+  {
+    "standingOrderId": "NONEXISTENT123",
+    "signId": "NONEXISTENT456",
+    "X-Request-ID": "6ba7b819-9dad-11d1-80b4-00c04fd430c8",
+    "Date": "2024-01-19T12:15:00Z",
+    "Digest": "SHA-256=A70H2tRqnnttwgvu1pRMUMQ6RYGXr5Z0Ei0oe2GESI=",
+    "TPP-Name": "NotFoundProvider",
+    "statusCode": 404,
+    "scenario": "ID_NOT_FOUND\n\nThe requested transaction ID does not exist."
+  },
+  {
+    "standingOrderId": "SO777888999",
+    "signId": "SIGN009",
+    "X-Request-ID": "6ba7b820-9dad-11d1-80b4-00c04fd430c8",
+    "Date": "2024-01-20T10:00:00Z",
+    "statusCode": 501,
+    "scenario": "NOT_IMPLEMENTED\n\nMethod not implemented"
+  },
+  {
+    "standingOrderId": "SO000111222",
+    "signId": "SIGN010",
+    "X-Request-ID": "6ba7b821-9dad-11d1-80b4-00c04fd430c8",
+    "Signature": "keyId=\"test-key-3\",algorithm=\"rsa-sha256\",headers=\"(request-target) host date\",signature=\"sdx+I9RJJFbiz6z/Cjo1Vpz1X5IR8aiDR0WZOoqzYvNeJrWpZU4oi4+UdtSFODL0rzDTNUS4cCko9penow4jey5JOdg0XhGmMHaTtsbv+gmnd5ppfkx/z3zTJFLYgUYm05DvvnaTvDmrN88mf1Mo44mbqTjESaXdWNtSAeL\"",
+    "User-Involved": true,
+    "TPP-Name": "NotImplementedProvider",
+    "statusCode": 501,
+    "scenario": "NOT_IMPLEMENTED\n\nMethod not implemented"
+  },
+  {
+    "standingOrderId": "SO333444555",
+    "signId": "SIGN011",
+    "X-Request-ID": "6ba7b822-9dad-11d1-80b4-00c04fd430c8",
+    "Date": "2024-01-21T14:45:00Z",
+    "Digest": "SHA-256=B81I3uSronouwhuv2qSNVNR7SZHYs6a1Fj1pf3HFTJc=",
+    "Signature": "keyId=\"test-key-4\",algorithm=\"rsa-sha256\",headers=\"(request-target) host date\",signature=\"tex+J0SKKGcjz7A/Dkp2Wq02Y6JS9bjER1XaPprzZwOfKsXqaV5pj5+VeuTGPEM1s0EUOVt5dDlp0qfopp5kfz6KPeh1YiHnNIbUuscy+hnoe6qqglk/04aSKGMZhVZn16EvwobuUwEnrO99ng2Mp55ocrkUkTZeXOuTBgM\"",
+    "TPP-Signature-Certificate": "MIIDZVCCAl2gAwIBAgIJAONjn5cOoMVVMA0GCSqGSIb3DQEBCwUAMFcxCzAJBgNV",
+    "User-Involved": false,
+    "TPP-Name": "ComprehensiveProvider",
+    "statusCode": 200,
+    "scenario": "OK"
+  }
+]
