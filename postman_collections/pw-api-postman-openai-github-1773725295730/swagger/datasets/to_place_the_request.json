@@ -1,0 +1,214 @@
+[
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "accountId": "AC123",
+    "accountName": "John's Account",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "description": "Internal Transfer",
+    "requestSubType": "SubType1",
+    "requestType": "Type1",
+    "serviceType": "Service1",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12346",
+    "botId": "BOT124",
+    "accountId": "AC124",
+    "accountName": "Jane's Account",
+    "accountNumber": [
+      "1042346"
+    ],
+    "customerId": 1045301,
+    "description": "External Transfer",
+    "requestSubType": "SubType2",
+    "requestType": "Type2",
+    "serviceType": "Service2",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12347",
+    "botId": "BOT125",
+    "accountId": "AC125",
+    "accountName": "Bob's Account",
+    "accountNumber": [
+      "1042347"
+    ],
+    "customerId": 1045302,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12348",
+    "botId": "BOT126",
+    "accountId": "AC126",
+    "accountName": "Alice's Account",
+    "accountNumber": [
+      "1042348"
+    ],
+    "customerId": 1045303,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12349",
+    "botId": "BOT127",
+    "accountId": "AC127",
+    "accountName": "Charlie's Account",
+    "accountNumber": [
+      "1042349"
+    ],
+    "customerId": 1045304,
+    "description": "Internal Transfer",
+    "requestSubType": "SubType3",
+    "requestType": "Type3",
+    "serviceType": "Service3",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12350",
+    "botId": "BOT128",
+    "accountId": "AC128",
+    "accountName": "Daisy's Account",
+    "accountNumber": [
+      "1042350"
+    ],
+    "customerId": 1045305,
+    "description": "External Transfer",
+    "requestSubType": "SubType4",
+    "requestType": "Type4",
+    "serviceType": "Service4",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12351",
+    "botId": "BOT129",
+    "accountId": "AC129",
+    "accountName": "Eve's Account",
+    "accountNumber": [
+      "1042351"
+    ],
+    "customerId": 1045306,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12352",
+    "botId": "BOT130",
+    "accountId": "AC130",
+    "accountName": "Frank's Account",
+    "accountNumber": [
+      "1042352"
+    ],
+    "customerId": 1045307,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12353",
+    "botId": "BOT131",
+    "accountId": "AC131",
+    "accountName": "Grace's Account",
+    "accountNumber": [
+      "1042353"
+    ],
+    "customerId": 1045308,
+    "description": "Internal Transfer",
+    "requestSubType": "SubType5",
+    "requestType": "Type5",
+    "serviceType": "Service5",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12354",
+    "botId": "BOT132",
+    "accountId": "AC132",
+    "accountName": "Hank's Account",
+    "accountNumber": [
+      "1042354"
+    ],
+    "customerId": 1045309,
+    "description": "External Transfer",
+    "requestSubType": "SubType6",
+    "requestType": "Type6",
+    "serviceType": "Service6",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12355",
+    "botId": "BOT133",
+    "accountId": "AC133",
+    "accountName": "Irene's Account",
+    "accountNumber": [
+      "1042355"
+    ],
+    "customerId": 1045310,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12356",
+    "botId": "BOT134",
+    "accountId": "AC134",
+    "accountName": "Jack's Account",
+    "accountNumber": [
+      "1042356"
+    ],
+    "customerId": 1045311,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12357",
+    "botId": "BOT135",
+    "accountId": "AC135",
+    "accountName": "Katie's Account",
+    "accountNumber": [
+      "1042357"
+    ],
+    "customerId": 1045312,
+    "description": "Internal Transfer",
+    "requestSubType": "SubType7",
+    "requestType": "Type7",
+    "serviceType": "Service7",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12358",
+    "botId": "BOT136",
+    "accountId": "AC136",
+    "accountName": "Luke's Account",
+    "accountNumber": [
+      "1042358"
+    ],
+    "customerId": 1045313,
+    "description": "External Transfer",
+    "requestSubType": "SubType8",
+    "requestType": "Type8",
+    "serviceType": "Service8",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12359",
+    "botId": "BOT137",
+    "accountId": "AC137",
+    "accountName": "Mia's Account",
+    "accountNumber": [
+      "1042359"
+    ],
+    "customerId": 1045314,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
