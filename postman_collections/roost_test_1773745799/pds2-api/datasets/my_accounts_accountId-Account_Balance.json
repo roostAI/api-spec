@@ -1,0 +1,130 @@
+[
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440000",
+    "Date": "Mon, 10 Oct 2023 14:30:00 GMT",
+    "accountId": "ACC123456789",
+    "currency": "USD",
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440001",
+    "Date": "Tue, 11 Oct 2023 15:45:00 GMT",
+    "Digest": "SHA-256=X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=",
+    "Signature": "keyId=\"test-key-a\",algorithm=\"rsa-sha256\",signature=\"Ef7MlxLXoBovhil",
+    "TPP-Signature-Certificate": "MIIEowIBAjCCA6ugAwIBAgIJAKoK/heBjcOuMA0GCSqGSIb3DQEBBQUAMIGUMQswCQ",
+    "User-Involved": true,
+    "TPP-Name": "Test Bank TPP",
+    "accountId": "ACC987654321",
+    "currency": "EUR",
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440002",
+    "Date": "Wed, 12 Oct 2023 09:15:00 GMT",
+    "accountId": "ACC555666777",
+    "currency": "GBP",
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440003",
+    "Date": "Thu, 13 Oct 2023 11:30:00 GMT",
+    "Digest": "SHA-256=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "User-Involved": false,
+    "TPP-Name": "Financial Services Ltd",
+    "accountId": "ACC111222333",
+    "currency": "CHF",
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "Date": "Fri, 14 Oct 2023 16:00:00 GMT",
+    "accountId": "ACC444555666",
+    "currency": "USD",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID The value of the parameter is not valid AC09 (InvalidAccountCurrency)"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440005",
+    "accountId": "ACC777888999",
+    "currency": "USD",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID The value of the parameter is not valid AC09 (InvalidAccountCurrency)"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440006",
+    "Date": "Sat, 15 Oct 2023 13:45:00 GMT",
+    "currency": "USD",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID The value of the parameter is not valid AC09 (InvalidAccountCurrency)"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440007",
+    "Date": "Sun, 16 Oct 2023 10:20:00 GMT",
+    "accountId": "ACC123987654",
+    "currency": "XYZ",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID The value of the parameter is not valid AC09 (InvalidAccountCurrency)"
+  },
+  {
+    "X-Request-ID": "invalid-uuid-format",
+    "Date": "Mon, 17 Oct 2023 08:30:00 GMT",
+    "accountId": "ACC456123789",
+    "currency": "INVALID",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID The value of the parameter is not valid AC09 (InvalidAccountCurrency)"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440009",
+    "Date": "Tue, 18 Oct 2023 12:15:00 GMT",
+    "accountId": "ACC789456123",
+    "currency": "USD",
+    "statusCode": 401,
+    "scenario": "UNAUTHORISED Invalid/missing access token = user is not authenticated or Invalid/missing certificate = provider is not authenticated"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440010",
+    "Date": "Wed, 19 Oct 2023 14:45:00 GMT",
+    "accountId": "ACC321654987",
+    "currency": "EUR",
+    "statusCode": 401,
+    "scenario": "UNAUTHORISED Invalid/missing access token = user is not authenticated or Invalid/missing certificate = provider is not authenticated"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440011",
+    "Date": "Thu, 20 Oct 2023 09:00:00 GMT",
+    "Digest": "SHA-256=invalid_digest_format",
+    "Signature": "expired_signature",
+    "TPP-Signature-Certificate": "invalid_certificate",
+    "accountId": "ACC654987321",
+    "currency": "GBP",
+    "statusCode": 403,
+    "scenario": "FORBIDDEN Authentication with an invalid certificate or expired access token, a call that does not match a third-party license."
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440012",
+    "Date": "Fri, 21 Oct 2023 17:30:00 GMT",
+    "accountId": "ACC987321654",
+    "currency": "CHF",
+    "statusCode": 403,
+    "scenario": "FORBIDDEN Authentication with an invalid certificate or expired access token, a call that does not match a third-party license."
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440013",
+    "Date": "Sat, 22 Oct 2023 11:10:00 GMT",
+    "accountId": "NONEXISTENT_ACCOUNT",
+    "currency": "USD",
+    "statusCode": 404,
+    "scenario": "PAGE_NOT_FOUND Request for a non-existing page or ID_NOT_FOUND Invalid or unknown account ID"
+  },
+  {
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440014",
+    "Date": "Sun, 23 Oct 2023 15:50:00 GMT",
+    "accountId": "ACC000000000",
+    "currency": "EUR",
+    "statusCode": 404,
+    "scenario": "PAGE_NOT_FOUND Request for a non-existing page or ID_NOT_FOUND Invalid or unknown account ID"
+  }
+]
