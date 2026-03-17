@@ -1,0 +1,150 @@
+[
+  {
+    "accountId": "ACC123456789",
+    "currency": "USD",
+    "fromDate": "2024-01-01T00:00:00Z",
+    "toDate": "2024-12-31T23:59:59Z",
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "accountId": "ACC987654321",
+    "currency": "EUR",
+    "fromDate": "2024-01-01T00:00:00Z",
+    "toDate": "2024-06-30T23:59:59Z",
+    "size": 10,
+    "page": 1,
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440000",
+    "Date": "Mon, 01 Jan 2024 12:00:00 GMT",
+    "Digest": "SHA-256=X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=",
+    "Signature": "keyId=\"rsa-key-1\",algorithm=\"rsa-sha256\",signature=\"base64signature\"",
+    "TPP-Signature-Certificate": "MIIDXTCCAkWgAwIBAgIJAKoK/heBjcOuMA0GCSqGSIb3DQEBBQUAMEUxCzAJBgNV",
+    "User-Involved": true,
+    "TPP-Name": "Test Bank TPP",
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "accountId": "ACC555666777",
+    "currency": "GBP",
+    "fromDate": "2024-03-01T00:00:00Z",
+    "toDate": "2024-03-31T23:59:59Z",
+    "size": 25,
+    "page": 2,
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "currency": "USD",
+    "fromDate": "2024-01-01T00:00:00Z",
+    "toDate": "2024-12-31T23:59:59Z",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID - Missing required accountId"
+  },
+  {
+    "accountId": "ACC123456789",
+    "fromDate": "2024-01-01T00:00:00Z",
+    "toDate": "2024-12-31T23:59:59Z",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID - Missing required currency"
+  },
+  {
+    "accountId": "ACC123456789",
+    "currency": "USD",
+    "toDate": "2024-12-31T23:59:59Z",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID - Missing required fromDate"
+  },
+  {
+    "accountId": "ACC123456789",
+    "currency": "USD",
+    "fromDate": "2024-01-01T00:00:00Z",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID - Missing required toDate"
+  },
+  {
+    "accountId": "ACC123456789",
+    "currency": "XYZ",
+    "fromDate": "2024-01-01T00:00:00Z",
+    "toDate": "2024-12-31T23:59:59Z",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID - AC09 (InvalidAccountCurrency): currency not supported according to the table of exchanges"
+  },
+  {
+    "accountId": "ACC123456789",
+    "currency": "USD",
+    "fromDate": "2025-01-01T00:00:00Z",
+    "toDate": "2024-12-31T23:59:59Z",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID - DT01 (InvalidDate): Date in future"
+  },
+  {
+    "accountId": "ACC123456789",
+    "currency": "USD",
+    "fromDate": "invalid-date",
+    "toDate": "2024-12-31T23:59:59Z",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID - DT01 (InvalidDate): Invalid format"
+  },
+  {
+    "accountId": "ACC123456789",
+    "currency": "USD",
+    "fromDate": "2024-01-01T00:00:00Z",
+    "toDate": "2024-12-31T23:59:59Z",
+    "size": -5,
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID - Invalid size parameter"
+  },
+  {
+    "accountId": "ACC123456789",
+    "currency": "USD",
+    "fromDate": "2024-01-01T00:00:00Z",
+    "toDate": "2024-12-31T23:59:59Z",
+    "statusCode": 401,
+    "scenario": "UNAUTHORISED - Invalid/missing access token = user is not authenticated"
+  },
+  {
+    "accountId": "ACC123456789",
+    "currency": "USD",
+    "fromDate": "2024-01-01T00:00:00Z",
+    "toDate": "2024-12-31T23:59:59Z",
+    "X-Request-ID": "invalid-uuid",
+    "statusCode": 401,
+    "scenario": "UNAUTHORISED - Invalid/missing certificate = provider is not authenticated"
+  },
+  {
+    "accountId": "ACC123456789",
+    "currency": "USD",
+    "fromDate": "2024-01-01T00:00:00Z",
+    "toDate": "2024-12-31T23:59:59Z",
+    "TPP-Signature-Certificate": "expired-certificate",
+    "statusCode": 403,
+    "scenario": "FORBIDDEN - Authentication with an invalid certificate or expired access token"
+  },
+  {
+    "accountId": "ACC123456789",
+    "currency": "USD",
+    "fromDate": "2024-01-01T00:00:00Z",
+    "toDate": "2024-12-31T23:59:59Z",
+    "TPP-Name": "Unlicensed TPP",
+    "statusCode": 403,
+    "scenario": "FORBIDDEN - A call that does not match a third-party license"
+  },
+  {
+    "accountId": "INVALID_ACCOUNT_ID",
+    "currency": "USD",
+    "fromDate": "2024-01-01T00:00:00Z",
+    "toDate": "2024-12-31T23:59:59Z",
+    "statusCode": 404,
+    "scenario": "ID_NOT_FOUND - Invalid or unknown account ID"
+  },
+  {
+    "accountId": "ACC123456789",
+    "currency": "USD",
+    "fromDate": "2024-01-01T00:00:00Z",
+    "toDate": "2024-12-31T23:59:59Z",
+    "page": 9999,
+    "statusCode": 404,
+    "scenario": "PAGE_NOT_FOUND - Request for a non-existing page"
+  }
+]
