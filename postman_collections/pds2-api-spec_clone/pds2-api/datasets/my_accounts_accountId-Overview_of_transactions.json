@@ -1,0 +1,161 @@
+[
+  {
+    "X-Request-ID": "123e4567-e89b-12d3-a456-426614174000",
+    "Date": "2024-01-15T10:30:00Z",
+    "Digest": "SHA-256=abc123def456",
+    "Signature": "keyId=\"test-key\",algorithm=\"rsa-sha256\",signature=\"base64signature\"",
+    "TPP-Signature-Certificate": "MIIDXTCCAkWgAwIBAgIJAKoK/heBjcOuMA0GCSqGSIb3DQEBBQUAMEUxCzAJBgNV",
+    "User-Involved": true,
+    "TPP-Name": "Test Bank TPP",
+    "accountId": "ACC123456789",
+    "currency": "EUR",
+    "fromDate": "2024-01-01T00:00:00Z",
+    "toDate": "2024-01-31T23:59:59Z",
+    "size": 20,
+    "page": 1,
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "X-Request-ID": "987f6543-e21c-43d2-b567-123456789abc",
+    "accountId": "ACC987654321",
+    "currency": "USD",
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "X-Request-ID": "456a7890-b12c-34d5-e678-901234567def",
+    "Date": "2024-02-15T14:45:00Z",
+    "Digest": "SHA-256=xyz789uvw012",
+    "Signature": "keyId=\"prod-key\",algorithm=\"rsa-sha256\",signature=\"productionsignature\"",
+    "TPP-Signature-Certificate": "MIIDYTCCAkmgAwIBAgIJALpL/hfCkdPvNB1GCSqGSIb3DQEBBQUAMFUxDzANBgNV",
+    "User-Involved": false,
+    "TPP-Name": "Corporate Banking TPP",
+    "accountId": "ACC555666777",
+    "currency": "GBP",
+    "fromDate": "2024-02-01T00:00:00Z",
+    "toDate": "2024-02-28T23:59:59Z",
+    "size": 50,
+    "page": 2,
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "X-Request-ID": "321b6547-f32d-45e6-f789-234567890ghi",
+    "accountId": "ACC111222333",
+    "currency": "CHF",
+    "fromDate": "2024-03-01T00:00:00Z",
+    "toDate": "2024-03-15T23:59:59Z",
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "Date": "2024-01-20T16:20:00Z",
+    "Digest": "SHA-256=missing123",
+    "currency": "EUR",
+    "fromDate": "2024-01-01T00:00:00Z",
+    "toDate": "2024-01-31T23:59:59Z",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID - Missing required X-Request-ID"
+  },
+  {
+    "X-Request-ID": "invalid-uuid-format",
+    "accountId": "ACC444555666",
+    "currency": "EUR",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID - Invalid X-Request-ID format"
+  },
+  {
+    "X-Request-ID": "654c9876-d43e-21f5-g890-345678901jkl",
+    "accountId": "ACC777888999",
+    "currency": "XYZ",
+    "fromDate": "2024-01-01T00:00:00Z",
+    "toDate": "2024-01-31T23:59:59Z",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID - AC09 (InvalidAccountCurrency): currency not supported according to the table of exchanges"
+  },
+  {
+    "X-Request-ID": "789d1234-e56f-78g9-h012-456789012mno",
+    "accountId": "ACC101112131",
+    "currency": "EUR",
+    "fromDate": "2025-12-01T00:00:00Z",
+    "toDate": "2025-12-31T23:59:59Z",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID - DT01 (InvalidDate): Date in future"
+  },
+  {
+    "X-Request-ID": "012e5678-f90a-12b3-c456-567890123pqr",
+    "accountId": "ACC141516171",
+    "currency": "EUR",
+    "fromDate": "invalid-date-format",
+    "toDate": "2024-01-31T23:59:59Z",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID - DT01 (InvalidDate): Invalid format"
+  },
+  {
+    "X-Request-ID": "345f7890-a12b-34c5-d678-678901234stu",
+    "accountId": "ACC181920212",
+    "currency": "EUR",
+    "size": -5,
+    "page": 0,
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID - Invalid size and page parameters"
+  },
+  {
+    "accountId": "ACC222333444",
+    "currency": "EUR",
+    "fromDate": "2024-01-01T00:00:00Z",
+    "toDate": "2024-01-31T23:59:59Z",
+    "statusCode": 401,
+    "scenario": "UNAUTHORISED - Invalid/missing access token = user is not authenticated"
+  },
+  {
+    "X-Request-ID": "678g0123-b45c-67d8-e901-789012345vwx",
+    "Date": "invalid-certificate-data",
+    "accountId": "ACC555777999",
+    "currency": "EUR",
+    "statusCode": 401,
+    "scenario": "UNAUTHORISED - Invalid/missing certificate = provider is not authenticated"
+  },
+  {
+    "X-Request-ID": "901h4567-c89d-01e2-f345-890123456yz0",
+    "Date": "2024-01-15T10:30:00Z",
+    "Digest": "SHA-256=expired123",
+    "Signature": "expired-signature",
+    "TPP-Signature-Certificate": "EXPIRED_CERTIFICATE_DATA",
+    "accountId": "ACC666888000",
+    "currency": "EUR",
+    "statusCode": 403,
+    "scenario": "FORBIDDEN - Authentication with an invalid certificate or expired access token"
+  },
+  {
+    "X-Request-ID": "234i8901-d23e-45f6-g789-901234567abc",
+    "Date": "2024-01-15T10:30:00Z",
+    "TPP-Name": "Unlicensed TPP",
+    "accountId": "ACC123987456",
+    "currency": "EUR",
+    "statusCode": 403,
+    "scenario": "FORBIDDEN - A call that does not match a third-party license"
+  },
+  {
+    "X-Request-ID": "567j2345-e67f-89g0-h123-234567890def",
+    "Date": "2024-01-15T10:30:00Z",
+    "Digest": "SHA-256=notfound123",
+    "accountId": "NONEXISTENT_ACCOUNT_ID",
+    "currency": "EUR",
+    "fromDate": "2024-01-01T00:00:00Z",
+    "toDate": "2024-01-31T23:59:59Z",
+    "statusCode": 404,
+    "scenario": "ID_NOT_FOUND - Invalid or unknown account ID"
+  },
+  {
+    "X-Request-ID": "890k6789-f01a-23b4-c567-345678901ghi",
+    "Date": "2024-01-15T10:30:00Z",
+    "accountId": "ACC147258369",
+    "currency": "EUR",
+    "size": 25,
+    "page": 999999,
+    "statusCode": 404,
+    "scenario": "PAGE_NOT_FOUND - Request for a non-existing page"
+  }
+]

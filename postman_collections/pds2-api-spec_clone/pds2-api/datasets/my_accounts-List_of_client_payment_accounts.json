@@ -1,0 +1,133 @@
+[
+  {
+    "size": 10,
+    "page": 1,
+    "X-Request-ID": "123e4567-e89b-12d3-a456-426614174000",
+    "Date": "Thu, 05 Jan 2023 21:31:40 GMT",
+    "Digest": "SHA-256=X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=",
+    "Signature": "keyId=\"SN=3035AAC5A6FD333E\",algorithm=\"rsa-sha256\",headers=\"(request-target) host date digest\",signature=\"Base64(RSA-SHA256(signing string))\"",
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "size": 20,
+    "page": 2,
+    "X-Request-ID": "987fcdeb-51a2-43d1-b234-123456789abc",
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "size": 50,
+    "page": 1,
+    "X-Request-ID": "456def78-9012-3456-7890-abcdef123456",
+    "Date": "Fri, 15 Dec 2023 14:22:30 GMT",
+    "Digest": "SHA-256=Y49F0rPpljjrvets9oOKSKO4PXEVpzXyCg8mev0ECQF=",
+    "Signature": "keyId=\"SN=4046BBC6B7GE444F\",algorithm=\"rsa-sha256\",headers=\"(request-target) host date digest\",signature=\"Base64(RSA-SHA256(signing string))\"",
+    "TPP-Signature-Certificate": "MIIFQTCCAymgAwIBAgIESrsYITANBgkqhkiG9w0BAQsFADA...",
+    "User-Involved": true,
+    "TPP-Name": "Example Bank TPP",
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "page": 1,
+    "X-Request-ID": "789abc12-3456-789a-bcde-f123456789ab",
+    "Date": "Mon, 08 Jan 2024 10:15:45 GMT",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID - The value of the parameter is not valid"
+  },
+  {
+    "size": 100,
+    "X-Request-ID": "321fed65-4321-6543-2109-876543210fed",
+    "Date": "Tue, 12 Mar 2024 16:45:20 GMT",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID - The value of the parameter is not valid"
+  },
+  {
+    "size": -5,
+    "page": 0,
+    "X-Request-ID": "654cba98-7654-3210-fedc-ba9876543210",
+    "Date": "Wed, 20 Feb 2024 09:30:15 GMT",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID - The value of the parameter is not valid"
+  },
+  {
+    "size": 25,
+    "page": 3,
+    "X-Request-ID": "invalid-uuid-format",
+    "Date": "Thu, 25 Apr 2024 12:00:00 GMT",
+    "statusCode": 400,
+    "scenario": "PARAMETER_INVALID - The value of the parameter is not valid"
+  },
+  {
+    "size": 15,
+    "page": 2,
+    "X-Request-ID": "111aaa22-3333-4444-5555-666677778888",
+    "statusCode": 401,
+    "scenario": "UNAUTHORISED - Invalid/missing access token = user is not authenticated or Invalid/missing certificate = provider is not authenticated"
+  },
+  {
+    "size": 30,
+    "page": 1,
+    "X-Request-ID": "222bbb33-4444-5555-6666-777788889999",
+    "Date": "Fri, 30 Jun 2024 18:45:30 GMT",
+    "statusCode": 401,
+    "scenario": "UNAUTHORISED - Invalid/missing access token = user is not authenticated or Invalid/missing certificate = provider is not authenticated"
+  },
+  {
+    "size": 40,
+    "page": 5,
+    "X-Request-ID": "333ccc44-5555-6666-7777-888899990000",
+    "Date": "Sat, 15 Jul 2024 20:30:45 GMT",
+    "Digest": "SHA-256=InvalidDigestFormat123",
+    "Signature": "invalid-signature-format",
+    "statusCode": 403,
+    "scenario": "FORBIDDEN - Authentication with an invalid certificate or expired access token, a call that does not match a third-party license."
+  },
+  {
+    "size": 35,
+    "page": 4,
+    "X-Request-ID": "444ddd55-6666-7777-8888-999900001111",
+    "Date": "Sun, 25 Aug 2024 11:15:20 GMT",
+    "TPP-Signature-Certificate": "ExpiredCertificate123",
+    "statusCode": 403,
+    "scenario": "FORBIDDEN - Authentication with an invalid certificate or expired access token, a call that does not match a third-party license."
+  },
+  {
+    "size": 999999,
+    "page": 999999,
+    "X-Request-ID": "555eee66-7777-8888-9999-000011112222",
+    "Date": "Mon, 10 Sep 2024 13:22:10 GMT",
+    "statusCode": 404,
+    "scenario": "PAGE_NOT_FOUND - Request for a non-existing page"
+  },
+  {
+    "size": 5,
+    "page": 100000,
+    "X-Request-ID": "666fff77-8888-9999-0000-111122223333",
+    "Date": "Tue, 05 Oct 2024 15:40:55 GMT",
+    "statusCode": 404,
+    "scenario": "PAGE_NOT_FOUND - Request for a non-existing page"
+  },
+  {
+    "size": 12,
+    "page": 6,
+    "X-Request-ID": "777ggg88-9999-0000-1111-222233334444",
+    "Date": "Wed, 18 Nov 2024 08:25:35 GMT",
+    "Digest": "SHA-256=Z50G1sQqmkkrvftu0pPLTLP5QYFWq4YzDh9ncv1FDRG=",
+    "Signature": "keyId=\"SN=5057CCD7C8HF555G\",algorithm=\"rsa-sha256\",headers=\"(request-target) host date digest\",signature=\"Base64(RSA-SHA256(signing string))\"",
+    "User-Involved": false,
+    "statusCode": 200,
+    "scenario": "OK"
+  },
+  {
+    "size": 8,
+    "page": 1,
+    "X-Request-ID": "888hhh99-0000-1111-2222-333344445555",
+    "Date": "Thu, 12 Dec 2024 19:50:25 GMT",
+    "TPP-Name": "Global Finance TPP",
+    "User-Involved": true,
+    "statusCode": 200,
+    "scenario": "OK"
+  }
+]
