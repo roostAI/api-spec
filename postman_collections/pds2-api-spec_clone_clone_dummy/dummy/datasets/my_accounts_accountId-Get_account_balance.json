@@ -1,0 +1,76 @@
+[
+  {
+    "accountId": "acc_123456789",
+    "statusCode": 200,
+    "scenario": "Successful response"
+  },
+  {
+    "accountId": "acc_987654321",
+    "statusCode": 200,
+    "scenario": "Successful response"
+  },
+  {
+    "accountId": "acc_456789123",
+    "statusCode": 200,
+    "scenario": "Successful response"
+  },
+  {
+    "accountId": "acc_789123456",
+    "statusCode": 200,
+    "scenario": "Successful response"
+  },
+  {
+    "accountId": "acc_321654987",
+    "statusCode": 200,
+    "scenario": "Successful response"
+  },
+  {
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing required field"
+  },
+  {
+    "accountId": "",
+    "statusCode": 400,
+    "scenario": "Bad Request - Empty accountId"
+  },
+  {
+    "accountId": null,
+    "statusCode": 400,
+    "scenario": "Bad Request - Null accountId"
+  },
+  {
+    "accountId": 123456,
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid data type"
+  },
+  {
+    "accountId": "invalid-account-format",
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid account format"
+  },
+  {
+    "accountId": "acc_nonexistent123",
+    "statusCode": 404,
+    "scenario": "Resource not found"
+  },
+  {
+    "accountId": "acc_deleted456",
+    "statusCode": 404,
+    "scenario": "Resource not found"
+  },
+  {
+    "accountId": "acc_suspended789",
+    "statusCode": 404,
+    "scenario": "Resource not found"
+  },
+  {
+    "accountId": "acc_inactive012",
+    "statusCode": 404,
+    "scenario": "Resource not found"
+  },
+  {
+    "accountId": "acc_archived345",
+    "statusCode": 404,
+    "scenario": "Resource not found"
+  }
+]
