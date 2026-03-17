@@ -1,0 +1,119 @@
+[
+  {
+    "transactionIdentification": "TXN123456789",
+    "X-Request-ID": "550e8400-e29b-41d4-a716-446655440000",
+    "statusCode": 200,
+    "scenario": "Successfully retrieved standing order detail"
+  },
+  {
+    "transactionIdentification": "TXN987654321",
+    "X-Request-ID": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+    "Date": "Mon, 10 Jun 2024 08:30:00 GMT",
+    "Digest": "SHA-256=X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=",
+    "Signature": "keyId=\"test-key-1\",algorithm=\"rsa-sha256\",headers=\"(request-target) host date digest\",signature=\"KgXdF5..\"",
+    "TPP-Signature-Certificate": "MIIFvTCCA6WgAwIBAgIJAN...",
+    "User-Involved": true,
+    "TPP-Name": "Example TPP Bank",
+    "statusCode": 200,
+    "scenario": "Successfully retrieved standing order detail"
+  },
+  {
+    "transactionIdentification": "TXN456789123",
+    "X-Request-ID": "7ba7b811-9dad-11d1-80b4-00c04fd430c9",
+    "Date": "Tue, 11 Jun 2024 10:15:00 GMT",
+    "User-Involved": false,
+    "TPP-Name": "Financial Services Corp",
+    "statusCode": 200,
+    "scenario": "Successfully retrieved standing order detail"
+  },
+  {
+    "X-Request-ID": "8ba7b812-9dad-11d1-80b4-00c04fd430c0",
+    "Date": "Wed, 12 Jun 2024 14:20:00 GMT",
+    "statusCode": 400,
+    "scenario": "BAD REQUEST\nRequest validation failed or required input is missing"
+  },
+  {
+    "transactionIdentification": "",
+    "X-Request-ID": "9ba7b813-9dad-11d1-80b4-00c04fd430c1",
+    "statusCode": 400,
+    "scenario": "BAD REQUEST\nRequest validation failed or required input is missing"
+  },
+  {
+    "transactionIdentification": "TXN789456123",
+    "X-Request-ID": "invalid-uuid-format",
+    "statusCode": 400,
+    "scenario": "BAD REQUEST\nRequest validation failed or required input is missing"
+  },
+  {
+    "transactionIdentification": "TXN321654987",
+    "X-Request-ID": "aba7b814-9dad-11d1-80b4-00c04fd430c2",
+    "User-Involved": "invalid_boolean",
+    "statusCode": 400,
+    "scenario": "BAD REQUEST\nRequest validation failed or required input is missing"
+  },
+  {
+    "transactionIdentification": "TXN654987321",
+    "X-Request-ID": "bba7b815-9dad-11d1-80b4-00c04fd430c3",
+    "statusCode": 401,
+    "scenario": "UNAUTHORISED\nInvalid/missing access token or certificate"
+  },
+  {
+    "transactionIdentification": "TXN111222333",
+    "X-Request-ID": "cba7b816-9dad-11d1-80b4-00c04fd430c4",
+    "Date": "Thu, 13 Jun 2024 16:45:00 GMT",
+    "statusCode": 401,
+    "scenario": "UNAUTHORISED\nInvalid/missing access token or certificate"
+  },
+  {
+    "transactionIdentification": "TXN444555666",
+    "X-Request-ID": "dba7b817-9dad-11d1-80b4-00c04fd430c5",
+    "TPP-Signature-Certificate": "invalid_certificate_format",
+    "statusCode": 401,
+    "scenario": "UNAUTHORISED\nInvalid/missing access token or certificate"
+  },
+  {
+    "transactionIdentification": "TXN777888999",
+    "X-Request-ID": "eba7b818-9dad-11d1-80b4-00c04fd430c6",
+    "Date": "Fri, 14 Jun 2024 09:30:00 GMT",
+    "TPP-Name": "Restricted Access TPP",
+    "statusCode": 403,
+    "scenario": "FORBIDDEN\nCaller is not allowed to invoke this operation"
+  },
+  {
+    "transactionIdentification": "TXN555666777",
+    "X-Request-ID": "fba7b819-9dad-11d1-80b4-00c04fd430c7",
+    "User-Involved": false,
+    "statusCode": 403,
+    "scenario": "FORBIDDEN\nCaller is not allowed to invoke this operation"
+  },
+  {
+    "transactionIdentification": "INVALID_TXN_ID",
+    "X-Request-ID": "0ba7b820-9dad-11d1-80b4-00c04fd430c8",
+    "statusCode": 404,
+    "scenario": "ID_NOT_FOUND\nThe standingOrderId or signId does not exist or is invalid"
+  },
+  {
+    "transactionIdentification": "NONEXISTENT123",
+    "X-Request-ID": "1ba7b821-9dad-11d1-80b4-00c04fd430c9",
+    "Date": "Sat, 15 Jun 2024 11:00:00 GMT",
+    "Digest": "SHA-256=InvalidDigestValue",
+    "statusCode": 404,
+    "scenario": "ID_NOT_FOUND\nThe standingOrderId or signId does not exist or is invalid"
+  },
+  {
+    "transactionIdentification": "TXN999000111",
+    "X-Request-ID": "2ba7b822-9dad-11d1-80b4-00c04fd430c0",
+    "Date": "Sun, 16 Jun 2024 13:45:00 GMT",
+    "TPP-Name": "System Error TPP",
+    "statusCode": 500,
+    "scenario": "INTERNAL SERVER ERROR\nUnexpected error occurred"
+  },
+  {
+    "transactionIdentification": "TXN222333444",
+    "X-Request-ID": "3ba7b823-9dad-11d1-80b4-00c04fd430c1",
+    "User-Involved": true,
+    "Signature": "corrupted_signature_data",
+    "statusCode": 500,
+    "scenario": "INTERNAL SERVER ERROR\nUnexpected error occurred"
+  }
+]
