@@ -1,0 +1,91 @@
+[
+  {
+    "category": "che",
+    "year": 2022,
+    "statusCode": 200,
+    "scenario": "Successful call of the Nobel Prize giving the category and year"
+  },
+  {
+    "category": "eco",
+    "year": 2021,
+    "statusCode": 200,
+    "scenario": "Successful call of the Nobel Prize giving the category and year"
+  },
+  {
+    "category": "lit",
+    "year": 2020,
+    "statusCode": 200,
+    "scenario": "Successful call of the Nobel Prize giving the category and year"
+  },
+  {
+    "category": "pea",
+    "year": 2019,
+    "statusCode": 200,
+    "scenario": "Successful call of the Nobel Prize giving the category and year"
+  },
+  {
+    "category": "phy",
+    "year": 2018,
+    "statusCode": 200,
+    "scenario": "Successful call of the Nobel Prize giving the category and year"
+  },
+  {
+    "category": "med",
+    "year": 2017,
+    "statusCode": 200,
+    "scenario": "Successful call of the Nobel Prize giving the category and year"
+  },
+  {
+    "category": "che",
+    "statusCode": 400,
+    "scenario": "Bad request. The request could not be understood by the server due to malformed syntax, modifications needed."
+  },
+  {
+    "category": "eco",
+    "year": 1899,
+    "statusCode": 400,
+    "scenario": "Bad request. The request could not be understood by the server due to malformed syntax, modifications needed."
+  },
+  {
+    "category": "invalid_category",
+    "year": 2022,
+    "statusCode": 400,
+    "scenario": "Bad request. The request could not be understood by the server due to malformed syntax, modifications needed."
+  },
+  {
+    "category": "lit",
+    "year": "invalid_year",
+    "statusCode": 400,
+    "scenario": "Bad request. The request could not be understood by the server due to malformed syntax, modifications needed."
+  },
+  {
+    "category": "pea",
+    "year": 2022,
+    "statusCode": 404,
+    "scenario": "Not Found. The requested resource could not be found but may be available again in the future."
+  },
+  {
+    "category": "phy",
+    "year": 2022,
+    "statusCode": 422,
+    "scenario": "Unprocessable Entity. The request was well-formed but was unable to be followed due to semantic errors."
+  },
+  {
+    "category": "med",
+    "year": 2022,
+    "statusCode": 422,
+    "scenario": "Unprocessable Entity. The request was well-formed but was unable to be followed due to semantic errors."
+  },
+  {
+    "category": "che",
+    "year": 2022,
+    "statusCode": 404,
+    "scenario": "Not Found. The requested resource could not be found but may be available again in the future."
+  },
+  {
+    "category": "eco",
+    "year": 2022,
+    "statusCode": 404,
+    "scenario": "Not Found. The requested resource could not be found but may be available again in the future."
+  }
+]
