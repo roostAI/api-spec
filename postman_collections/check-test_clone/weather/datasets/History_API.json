@@ -1,0 +1,132 @@
+[
+  {
+    "q": "New York",
+    "dt": "2023-10-01",
+    "unixdt": 1696118400,
+    "hour": 14,
+    "lang": "en",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Los Angeles",
+    "dt": "2023-10-02",
+    "unixdt": 1696204800,
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "London",
+    "dt": "2023-10-03",
+    "unixdt": 1696291200,
+    "hour": 9,
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Tokyo",
+    "dt": "2023-10-04",
+    "unixdt": 1696377600,
+    "lang": "ja",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Paris",
+    "dt": "2023-10-05",
+    "unixdt": 1696464000,
+    "hour": 16,
+    "lang": "fr",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "dt": "2023-10-06",
+    "unixdt": 1696550400,
+    "hour": 10,
+    "lang": "en",
+    "statusCode": 400,
+    "scenario": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "InvalidCity",
+    "dt": "2023-10-07",
+    "unixdt": 1696636800,
+    "hour": 12,
+    "lang": "en",
+    "statusCode": 400,
+    "scenario": "Error code 1006: No location found matching parameter 'q'<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "Berlin",
+    "dt": "2023-10-08",
+    "unixdt": 1696723200,
+    "hour": 15,
+    "lang": "de",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Sydney",
+    "dt": "2023-10-09",
+    "unixdt": 1696809600,
+    "hour": 22,
+    "lang": "en",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Moscow",
+    "dt": "2023-10-10",
+    "unixdt": 1696896000,
+    "hour": 18,
+    "lang": "ru",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Beijing",
+    "dt": "2023-10-11",
+    "unixdt": 1696982400,
+    "hour": 20,
+    "lang": "zh",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Rio de Janeiro",
+    "dt": "2023-10-12",
+    "unixdt": 1697068800,
+    "hour": 13,
+    "lang": "pt",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "InvalidCity",
+    "dt": "2023-10-13",
+    "unixdt": 1697155200,
+    "hour": 11,
+    "lang": "en",
+    "statusCode": 400,
+    "scenario": "Error code 1006: No location found matching parameter 'q'<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "Mumbai",
+    "dt": "2023-10-14",
+    "unixdt": 1697241600,
+    "hour": 19,
+    "lang": "hi",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Cape Town",
+    "dt": "2023-10-15",
+    "unixdt": 1697328000,
+    "hour": 17,
+    "lang": "af",
+    "statusCode": 200,
+    "scenario": "Ok"
+  }
+]
