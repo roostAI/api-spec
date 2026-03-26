@@ -1,0 +1,99 @@
+[
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "email": "john.smith@acme-corp.com",
+    "statusCode": 201,
+    "scenario": "employee created"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "email": "john.smith@acme-corp.com",
+    "jobTitle": "System Analyst",
+    "name": "John Smith",
+    "statusCode": 201,
+    "scenario": "employee created"
+  },
+  {
+    "email": "john.smith@acme-corp.com",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "id": "invalid-uuid",
+    "email": "john.smith@acme-corp.com",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "email": "john.smith",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "email": "john.smith@acme-corp.com",
+    "jobTitle": "Invalid Job Title",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "email": "john.smith@acme-corp.com",
+    "statusCode": 409,
+    "scenario": "an existing employee already exists"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "name": "John Smith",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "email": "john.smith@acme-corp.com",
+    "jobTitle": "System Analyst",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "System Analyst",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "email": "john.smith@acme-corp.com",
+    "jobTitle": "System Analyst",
+    "name": "John Smith",
+    "statusCode": 409,
+    "scenario": "an existing employee already exists"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "email": "john.smith@acme-corp.com",
+    "jobTitle": "System Analyst",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "email": "john.smith@acme-corp.com",
+    "name": "John Smith",
+    "statusCode": 409,
+    "scenario": "an existing employee already exists"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "email": "john.smith@acme-corp.com",
+    "jobTitle": "System Analyst",
+    "name": "John Smith",
+    "statusCode": 201,
+    "scenario": "employee created"
+  }
+]
