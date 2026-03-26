@@ -1,0 +1,11 @@
+
+-r ../test-requirements.txt
+-r ../requirements.txt
+-r ../test-requirements.txt
+connexion
+Flask
+flask_testing
+pytest
+python_dateutil
+six
+validator
