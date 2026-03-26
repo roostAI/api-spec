@@ -1,0 +1,41 @@
+[
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "System Analyst",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "id": "bbec9ecf-ecab-42cd-964a-2bef2ce63444",
+    "jobTitle": "Project Manager",
+    "name": "Jane Doe",
+    "email": "jane.doe@acme-corp.com",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "System Analyst",
+    "name": "John Smith",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "id": "not-a-uuid",
+    "jobTitle": "Developer",
+    "name": "Alice Brown",
+    "email": "alice.brown@acme-corp.com",
+    "statusCode": 404,
+    "scenario": "Client error responses: Not Found"
+  },
+  {
+    "id": "e09a8e12-7ff6-432d-8f09-dc4bef58ec2c",
+    "jobTitle": "",
+    "name": "Eve Adams",
+    "email": "eve.adams@acme-corp.com",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]
