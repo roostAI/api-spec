@@ -1,0 +1,110 @@
+[
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "statusCode": 201,
+    "scenario": "employee created"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "jobTitle": "System Analyst",
+    "statusCode": 201,
+    "scenario": "employee created"
+  },
+  {
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "id": "invalid-uuid",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "name": "John Smith",
+    "email": "invalid-email",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "jobTitle": "Unknown Job",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "statusCode": 409,
+    "scenario": "an existing employee already exists"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "jobTitle": "System Analyst",
+    "statusCode": 409,
+    "scenario": "an existing employee already exists"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "name": "Jane Doe",
+    "email": "jane.doe@acme-corp.com",
+    "statusCode": 201,
+    "scenario": "employee created"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "name": "Jane Doe",
+    "email": "jane.doe@acme-corp.com",
+    "jobTitle": "Developer",
+    "statusCode": 201,
+    "scenario": "employee created"
+  },
+  {
+    "name": "Jane Doe",
+    "email": "jane.doe@acme-corp.com",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "id": "invalid-uuid",
+    "name": "Jane Doe",
+    "email": "jane.doe@acme-corp.com",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "name": "Jane Doe",
+    "email": "invalid-email",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "name": "Jane Doe",
+    "email": "jane.doe@acme-corp.com",
+    "jobTitle": "Unknown Job",
+    "statusCode": 400,
+    "scenario": "invalid input, object invalid"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "name": "Jane Doe",
+    "email": "jane.doe@acme-corp.com",
+    "statusCode": 409,
+    "scenario": "an existing employee already exists"
+  }
+]
