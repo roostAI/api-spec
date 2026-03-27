@@ -1,0 +1,10 @@
+accountNumber,customerId,ssNumber,ssnShort,statusCode,scenario
+"culpa consectetur qui","sunt elit nulla eiusmod",-76339068.4369623,-65762551.019004166,200,"success"
+"1234567890","randomCustomerId1",-12345678.123456,-87654321.123456,401,"Error: Authorisation failed."
+"0987654321","randomCustomerId2",-23456789.123456,-98765432.123456,404,"Error: Not Found"
+"culpa consectetur qui","sunt elit nulla eiusmod",-76339068.4369623,-65762551.019004166,200,"success"
+"1122334455","randomCustomerId3",-34567890.123456,-10987654.123456,401,"Error: Authorisation failed."
+"5566778899","randomCustomerId4",-45678901.123456,-21098765.123456,404,"Error: Not Found"
+"culpa consectetur qui","sunt elit nulla eiusmod",-76339068.4369623,-65762551.019004166,200,"success"
+"7788990011","randomCustomerId5",-56789012.123456,-32109876.123456,401,"Error: Authorisation failed."
+"9900112233","randomCustomerId6",-67890123.123456,-43210987.123456,404,"Error: Not Found"

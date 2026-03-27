@@ -1,0 +1,7 @@
+customerId,cvv,debitCardNumber,expiryDate,pin,statusCode,scenario
+123456,789,456123789456,12/24,1234,200,Validated Successfully
+234567,890,567234890567,01/25,2345,200,Validated Successfully
+345678,901,678345901678,02/26,3456,401,Error: Authorisation failed.
+456789,012,789456012789,03/27,4567,401,Error: Authorisation failed.
+567890,123,890567123890,04/28,5678,404,Error: Not Found
+678901,234,901678234901,05/29,6789,404,Error: Not Found

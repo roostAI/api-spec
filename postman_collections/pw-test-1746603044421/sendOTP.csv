@@ -1,0 +1,10 @@
+customerId,statusCode,scenario
+123456,200,"verification code has been sent to your mobile number"
+789012,401,"Error: Authorisation failed."
+345678,404,"Error: Not Found"
+901234,200,"verification code has been sent to your mobile number"
+567890,401,"Error: Authorisation failed."
+234567,404,"Error: Not Found"
+890123,200,"verification code has been sent to your mobile number"
+678901,401,"Error: Authorisation failed."
+456789,404,"Error: Not Found"

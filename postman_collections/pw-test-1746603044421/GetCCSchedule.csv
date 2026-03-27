@@ -1,0 +1,7 @@
+customerId,status,statusCode,scenario
+17808398.726435333,"veniam",200,"schedule transfer list response"
+-61231493.1567671,"nostrud voluptate aliqua",200,"schedule transfer list response"
+12345678,"error",401,"Error: Authorisation failed."
+87654321,"error",401,"Error: Authorisation failed."
+11223344,"error",404,"Error: Not Found"
+44332211,"error",404,"Error: Not Found"

@@ -1,0 +1,7 @@
+authType,firstName,lastName,email,phoneNumber,topic,message,availableTime,chatHistory,cif,statusCode,scenario
+OAuth,"John","Doe","johndoe@example.com","1234567890","Query","Need help with account","9AM-5PM","Previous chat history","CIF123456",200,"success"
+Basic,"Jane","Smith","janesmith@example.com","0987654321","Complaint","Account blocked","10AM-6PM","Previous chat history","CIF654321",401,"Error: Authorisation failed."
+Bearer,"Alice","Johnson","alicejohnson@example.com","1122334455","Feedback","Great service","11AM-7PM","Previous chat history","CIF112233",404,"Error: Not Found"
+OAuth,"Bob","Williams","bobwilliams@example.com","2233445566","Query","Unable to login","12PM-8PM","Previous chat history","CIF445566",200,"success"
+Basic,"Charlie","Brown","charliebrown@example.com","3344556677","Complaint","Payment issue","1PM-9PM","Previous chat history","CIF778899",401,"Error: Authorisation failed."
+Bearer,"David","Miller","davidmiller@example.com","4455667788","Feedback","Need more features","2PM-10PM","Previous chat history","CIF889900",404,"Error: Not Found"

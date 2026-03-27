@@ -1,0 +1,10 @@
+sourcePin,statusCode,scenario
+1234,200,"PIN rules satisfied"
+5678,401,"Error: Authorisation failed."
+9012,404,"Error: Not Found"
+3456,200,"PIN rules satisfied"
+7890,401,"Error: Authorisation failed."
+2345,404,"Error: Not Found"
+6789,200,"PIN rules satisfied"
+0123,401,"Error: Authorisation failed."
+4567,404,"Error: Not Found"

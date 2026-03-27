@@ -1,0 +1,11 @@
+code,customerId,statusCode,scenario
+API001,CUST123,200,"OTP verified successfully"
+API002,CUST456,401,"Error: Authorisation failed."
+API003,CUST789,404,"Error: Not Found"
+API004,CUST321,200,"OTP verified successfully"
+API005,CUST654,401,"Error: Authorisation failed."
+API006,CUST987,404,"Error: Not Found"
+API007,CUST213,200,"OTP verified successfully"
+API008,CUST546,401,"Error: Authorisation failed."
+API009,CUST879,404,"Error: Not Found"
+API010,CUST132,200,"OTP verified successfully"

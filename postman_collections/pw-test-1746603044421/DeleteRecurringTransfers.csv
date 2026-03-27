@@ -1,0 +1,11 @@
+customerId,paymentId,updateTransferType,sourceAccountId,statusCode,scenario
+12345,pay001,Immediate,acc001,200,Recurring transfer deleted successfully
+67890,pay002,Scheduled,acc002,401,Error: Authorisation failed.
+11223,pay003,Immediate,acc003,404,Error: Not Found
+33445,pay004,Scheduled,acc004,200,Recurring transfer deleted successfully
+55667,pay005,Immediate,acc005,401,Error: Authorisation failed.
+77889,pay006,Scheduled,acc006,404,Error: Not Found
+99001,pay007,Immediate,acc007,200,Recurring transfer deleted successfully
+22334,pay008,Scheduled,acc008,401,Error: Authorisation failed.
+44556,pay009,Immediate,acc009,404,Error: Not Found
+66778,pay010,Scheduled,acc010,200,Recurring transfer deleted successfully

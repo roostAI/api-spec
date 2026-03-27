@@ -1,0 +1,12 @@
+customerId,statusCode,scenario
+"amet",200,"successful operation"
+"random1",401,"Error: Authorisation failed."
+"random2",404,"Error: Not Found"
+"random3",200,"successful operation"
+"random4",401,"Error: Authorisation failed."
+"random5",404,"Error: Not Found"
+"random6",200,"successful operation"
+"random7",401,"Error: Authorisation failed."
+"random8",404,"Error: Not Found"
+"random9",200,"successful operation"
+"random10",401,"Error: Authorisation failed."
