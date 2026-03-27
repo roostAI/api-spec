@@ -1,0 +1,38 @@
+[
+  {
+    "accountName_*string": "John Doe",
+    "accountNumber_*string": "1042345",
+    "customerId_*number": 1045300,
+    "cardNumber_*string": "1234567890123456",
+    "description_*string": "Internal Transfer",
+    "requestSubType_*string": "SubType1",
+    "requestType_*string": "Type1",
+    "serviceType_*string": "Service1",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountName_*string": "Jane Doe",
+    "accountNumber_*string": "2045678",
+    "customerId_*number": 2045301,
+    "cardNumber_*string": "2345678901234567",
+    "description_*string": "External Transfer",
+    "requestSubType_*string": "SubType2",
+    "requestType_*string": "Type2",
+    "serviceType_*string": "Service2",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountName_*string": "Sam Smith",
+    "accountNumber_*string": "3046789",
+    "customerId_*number": 3045302,
+    "cardNumber_*string": "3456789012345678",
+    "description_*string": "Wire Transfer",
+    "requestSubType_*string": "SubType3",
+    "requestType_*string": "Type3",
+    "serviceType_*string": "Service3",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
