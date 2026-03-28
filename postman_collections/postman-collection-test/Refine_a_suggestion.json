@@ -1,0 +1,32 @@
+[
+  {
+    "key": "R0JSfjcuNzMwUk1HQlJGQWpsQndBQUFBQUJBUUVBQVFBQUFBQ0ltWHVSZ0NFd2doTUFJQUFBQUFBQkFFRndZWEowYldWdWRDQXhOUUEzT1FBQS4uOVFBQUFBQVAuLi4uOEFBQUFBQUFBQUFBQUFBQUFBQUEtLX40Mg",
+    "refinement_string": "Verified match",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "key": "InvalidKey123",
+    "refinement_string": "Invalid refinement",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "key": "R0JSfjcuNzMwVU9HQlJGQWpsQndBQUFBQUJBd0VBQUFBQWlKbDdrWUFoTUlJVEFDQUFBQUFBQVFCQmNHRnlkRzFsYm5RZ01UVUFOemtBQVAuLlVBQUFBQUQuLi4uLkFBQUFBQUFBQUFBQUFBQUFBQUFBUVhCaGNuUnRaVzUwSURFMUxDQTNPU0JUZEdGMGFXOXVJRkp2WVdRc0lFdEZURlJaTENCR2FXWmxBQUFBQ",
+    "refinement_string": "Enter selection",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "key": "AnotherInvalidKey456",
+    "refinement_string": "Incorrect refinement",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  },
+  {
+    "key": "R0JSfjcuNzMwUk1HQlJGQWpsQndBQUFBQUJBUUVBQVFBQUFBQ0ltWHVSZ0NFd2doTUFJQUFBQUFBQkFFRndZWEowYldWdWRDQXhOUUEzT1FBQS4uOVFBQUFBQVAuLi4uOEFBQUFBQUFBQUFBQUFBQUFBQUEtLX40Mg",
+    "refinement_string": "Verified match",
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]
