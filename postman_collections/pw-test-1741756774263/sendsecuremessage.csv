@@ -1,0 +1,11 @@
+authType,firstName,lastName,email,phoneNumber,topic,message,availableTime,chatHistory,cif,statusCode,scenario
+Authorized,James,William,John@gmail.com,9787643445,Routing and Account Number,Unable to find my routing number.,nighttime,html formatted message sent as string,1045310,200,success
+Unauthorized,Robert,Smith,Robert@gmail.com,9787643446,Account Balance,I can't check my balance.,morning,html formatted message sent as string,1045311,401,Error: Authorisation failed.
+Authorized,Michael,Johnson,Michael@gmail.com,9787643447,Account Closure,I want to close my account.,afternoon,html formatted message sent as string,1045312,404,Error: Not Found
+Unauthorized,Sarah,Brown,Sarah@gmail.com,9787643448,Account Opening,I want to open a new account.,evening,html formatted message sent as string,1045313,401,Error: Authorisation failed.
+Authorized,Emma,Davis,Emma@gmail.com,9787643449,Loan Application,I want to apply for a loan.,nighttime,html formatted message sent as string,1045314,200,success
+Unauthorized,Oliver,Miller,Oliver@gmail.com,9787643450,Credit Card Application,I want to apply for a credit card.,morning,html formatted message sent as string,1045315,404,Error: Not Found
+Authorized,Lucas,Wilson,Lucas@gmail.com,9787643451,Account Transfer,I want to transfer my account.,afternoon,html formatted message sent as string,1045316,200,success
+Unauthorized,Mia,Moore,Mia@gmail.com,9787643452,Account Update,I want to update my account details.,evening,html formatted message sent as string,1045317,401,Error: Authorisation failed.
+Authorized,Ethan,Taylor,Ethan@gmail.com,9787643453,Account Closure,I want to close my account.,nighttime,html formatted message sent as string,1045318,404,Error: Not Found
+Unauthorized,Ava,Anderson,Ava@gmail.com,9787643454,Account Opening,I want to open a new account.,morning,html formatted message sent as string,1045319,200,success

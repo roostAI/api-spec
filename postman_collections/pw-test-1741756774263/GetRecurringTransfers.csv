@@ -1,0 +1,4 @@
+customerId,status,statusCode,scenario
+1045300,"non esse",200,"schedule transfer list response"
+47251272.61821091,"Error: Authorisation failed.",401,"Error: Authorisation failed."
+98561042.5179426,"Error: Not Found",404,"Error: Not Found"
