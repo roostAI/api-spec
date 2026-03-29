@@ -1,0 +1,884 @@
+{
+  "item": [
+    {
+      "name": "Submit Request",
+      "request": {
+        "name": "Submit Request",
+        "description": {
+          "content": "Meta API request",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "submitRequest"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "disabled": false,
+            "key": "koreUserId",
+            "value": "{{koreUserId}}",
+            "description": ""
+          },
+          {
+            "disabled": false,
+            "key": "botId",
+            "value": "{{botId}}",
+            "description": ""
+          },
+          {
+            "disabled": false,
+            "key": "accountId",
+            "value": "{{accountId}}",
+            "description": ""
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "POST",
+        "auth": null,
+        "body": {
+          "mode": "raw",
+          "raw": "<object>",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": [
+        {
+          "name": "successful operation",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "submitRequest"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "botId",
+                "value": "{{botId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "accountId",
+                "value": "{{accountId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "Authorization",
+                "value": "{{Authorization}}",
+                "description": ""
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "<object>",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain"
+            }
+          ],
+          "body": "",
+          "cookie": [],
+          "_postman_previewlanguage": "text"
+        },
+        {
+          "name": "Error: Authorisation failed.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "submitRequest"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "botId",
+                "value": "{{botId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "accountId",
+                "value": "{{accountId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "Authorization",
+                "value": "{{Authorization}}",
+                "description": ""
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "<object>",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"err\": {\n    \"message\": \"do est\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Error: Not Found",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "submitRequest"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "botId",
+                "value": "{{botId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "accountId",
+                "value": "{{accountId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "Authorization",
+                "value": "{{Authorization}}",
+                "description": ""
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "<object>",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"err\": {\n    \"message\": \"do est\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test pw-test-1750054742619 using AI Type Open AI and AI Model gpt-4\n\n\nTest generated for submitRequest for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n         console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\nif (pm.response.code == 200){\n    pm.test(\"successful operation\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"OK\");\n    });\n\n}\n\nif (pm.response.code == 401){\n    pm.test(\"Error: Authorisation failed.\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n        pm.test('Response has the `err` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`err`)){\n                if(pm.expect(ld.get(pm.response.json(), `err`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `err`, null)).to.equal(\"object\");\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `err.message` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`err.message`)){\n                if(pm.expect(ld.get(pm.response.json(), `err.message`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `err.message`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n\n    });\n\n}\n\nif (pm.response.code == 404){\n    pm.test(\"Error: Not Found\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Found\");\n        pm.test('Response has the `err` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`err`)){\n                if(pm.expect(ld.get(pm.response.json(), `err`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `err`, null)).to.equal(\"object\");\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `err.message` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`err.message`)){\n                if(pm.expect(ld.get(pm.response.json(), `err.message`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `err.message`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n\n    });\n\n}\n"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "name": "AuthToken",
+      "request": {
+        "name": "AuthToken",
+        "description": {
+          "content": "Get authentication token",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "authToken"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "disabled": false,
+            "key": "koreUserId",
+            "value": "{{koreUserId}}",
+            "description": ""
+          },
+          {
+            "disabled": false,
+            "key": "botId",
+            "value": "{{botId}}",
+            "description": ""
+          },
+          {
+            "disabled": false,
+            "key": "accountId",
+            "value": "{{accountId}}",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "POST",
+        "auth": null
+      },
+      "response": [
+        {
+          "name": "successful login",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "authToken"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "botId",
+                "value": "{{botId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "accountId",
+                "value": "{{accountId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"token\": \"token\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Error: Authorisation failed.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "authToken"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "botId",
+                "value": "{{botId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "accountId",
+                "value": "{{accountId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {}
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"err\": {\n    \"message\": \"do est\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Error: Not Found",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "authToken"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "botId",
+                "value": "{{botId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "key": "accountId",
+                "value": "{{accountId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {}
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"err\": {\n    \"message\": \"do est\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test pw-test-1750054742619 using AI Type Open AI and AI Model gpt-4\n\n\nTest generated for authToken for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n         console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\nif (pm.response.code == 200){\n    pm.test(\"successful login\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"OK\");\n        pm.test('Response has the `token` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`token`)){\n                if(pm.expect(ld.get(pm.response.json(), `token`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `token`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n\n    });\n\n}\n\nif (pm.response.code == 401){\n    pm.test(\"Error: Authorisation failed.\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n        pm.test('Response has the `err` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`err`)){\n                if(pm.expect(ld.get(pm.response.json(), `err`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `err`, null)).to.equal(\"object\");\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `err.message` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`err.message`)){\n                if(pm.expect(ld.get(pm.response.json(), `err.message`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `err.message`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n\n    });\n\n}\n\nif (pm.response.code == 404){\n    pm.test(\"Error: Not Found\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Found\");\n        pm.test('Response has the `err` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`err`)){\n                if(pm.expect(ld.get(pm.response.json(), `err`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `err`, null)).to.equal(\"object\");\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `err.message` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`err.message`)){\n                if(pm.expect(ld.get(pm.response.json(), `err.message`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `err.message`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n\n    });\n\n}\n"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "name": "Deposit",
+      "request": {
+        "name": "Deposit",
+        "description": {
+          "content": "Deposit amount to customer's account",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "deposit"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "disabled": false,
+            "key": "koreUserId",
+            "value": "{{koreUserId}}",
+            "description": ""
+          },
+          {
+            "disabled": false,
+            "description": "(Required) ",
+            "key": "botId",
+            "value": "{{botId}}"
+          },
+          {
+            "disabled": false,
+            "description": "(Required) ",
+            "key": "accountId",
+            "value": "{{accountId}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "POST",
+        "auth": null,
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"customerId\": {{customerId_*number}},\n    \"sourceAccountId\": {{sourceAccountId_*string}},\n    \"amount\": {{amount_*string}},\n    \"currency\": {{currency_*string}},\n    \"image\": {\n        \"frontImage\": {{image.frontImage_*string}},\n        \"backImage\": {{image.backImage_*string}}\n    }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": [
+        {
+          "name": "Deposit success",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "deposit"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "botId",
+                "value": "{{botId}}"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "accountId",
+                "value": "{{accountId}}"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"customerId\": {{customerId_*number}},\n    \"sourceAccountId\": {{sourceAccountId_*number}},\n    \"amount\": {{amount_*number}},\n    \"currency\": {{currency_*string}},\n    \"image\": {\n        \"frontImage\": {{image.frontImage_*string}},\n        \"backImage\": {{image.backImage_*string}}\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain"
+            }
+          ],
+          "body": "",
+          "cookie": [],
+          "_postman_previewlanguage": "text"
+        },
+        {
+          "name": "Error: Authorisation failed.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "deposit"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "botId",
+                "value": "{{botId}}"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "accountId",
+                "value": "{{accountId}}"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"customerId\": {{customerId_*number}},\n    \"sourceAccountId\": {{sourceAccountId_*number}},\n    \"amount\": {{amount_*number}},\n    \"currency\": {{currency_*string}},\n    \"image\": {\n        \"frontImage\": {{image.frontImage_*string}},\n        \"backImage\": {{image.backImage_*string}}\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"err\": {\n    \"message\": \"do est\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Error: Not Found",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "deposit"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "disabled": false,
+                "key": "koreUserId",
+                "value": "{{koreUserId}}",
+                "description": ""
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "botId",
+                "value": "{{botId}}"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "accountId",
+                "value": "{{accountId}}"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"customerId\": {{customerId_*number}},\n    \"sourceAccountId\": {{sourceAccountId_*number}},\n    \"amount\": {{amount_*number}},\n    \"currency\": {{currency_*string}},\n    \"image\": {\n        \"frontImage\": {{image.frontImage_*string}},\n        \"backImage\": {{image.backImage_*string}}\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"err\": {\n    \"message\": \"do est\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test pw-test-1750054742619 using AI Type Open AI and AI Model gpt-4\n\n\nTest generated for deposit for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n         console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\nif (pm.response.code == 200){\n    pm.test(\"Deposit success\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"OK\");\n    });\n\n}\n\nif (pm.response.code == 401){\n    pm.test(\"Error: Authorisation failed.\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n        pm.test('Response has the `err` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`err`)){\n                if(pm.expect(ld.get(pm.response.json(), `err`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `err`, null)).to.equal(\"object\");\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `err.message` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`err.message`)){\n                if(pm.expect(ld.get(pm.response.json(), `err.message`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `err.message`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n\n    });\n\n}\n\nif (pm.response.code == 404){\n    pm.test(\"Error: Not Found\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Found\");\n        pm.test('Response has the `err` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`err`)){\n                if(pm.expect(ld.get(pm.response.json(), `err`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `err`, null)).to.equal(\"object\");\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `err.message` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`err.message`)){\n                if(pm.expect(ld.get(pm.response.json(), `err.message`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `err.message`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n\n    });\n\n}\n"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}
