@@ -1,0 +1,44 @@
+[
+  {
+    "customerId": 1045300,
+    "transactionsData_0": {
+      "reasonCode": "Transaction Error",
+      "transactionId": 123456
+    },
+    "transactionsData_1": {
+      "reasonCode": "Payment Declined",
+      "transactionId": 789012
+    },
+    "emailId": "John@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "customerId": 1045301,
+    "transactionsData_0": {
+      "reasonCode": "Invalid Transaction",
+      "transactionId": 234567
+    },
+    "transactionsData_1": {
+      "reasonCode": "Card Expired",
+      "transactionId": 890123
+    },
+    "emailId": "Jane@gmail.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045302,
+    "transactionsData_0": {
+      "reasonCode": "Insufficient Balance",
+      "transactionId": 345678
+    },
+    "transactionsData_1": {
+      "reasonCode": "Card Blocked",
+      "transactionId": 901234
+    },
+    "emailId": "Robert@hotmail.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

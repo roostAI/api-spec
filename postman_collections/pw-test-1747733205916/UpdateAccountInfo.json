@@ -1,0 +1,67 @@
+[
+  {
+    "accountNumber": "1042345",
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "alternatePhoneNumber": 9876543210,
+    "isAlternateMobileNumber": true,
+    "phone": 1234567890,
+    "isPrimaryMobileNumber": false,
+    "location": "New York",
+    "isStatement": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber": "2046789",
+    "customerId": 2045301,
+    "email": "Jane@gmail.com",
+    "alternatePhoneNumber": 9876543211,
+    "isAlternateMobileNumber": false,
+    "phone": 1234567891,
+    "isPrimaryMobileNumber": true,
+    "location": "Los Angeles",
+    "isStatement": false,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountNumber": "3041234",
+    "customerId": 3045302,
+    "email": "Doe@gmail.com",
+    "alternatePhoneNumber": 9876543212,
+    "isAlternateMobileNumber": true,
+    "phone": 1234567892,
+    "isPrimaryMobileNumber": false,
+    "location": "Chicago",
+    "isStatement": true,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "accountNumber": "4045678",
+    "customerId": 4045303,
+    "email": "Smith@gmail.com",
+    "alternatePhoneNumber": 9876543213,
+    "isAlternateMobileNumber": false,
+    "phone": 1234567893,
+    "isPrimaryMobileNumber": true,
+    "location": "San Francisco",
+    "isStatement": false,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber": "5049012",
+    "customerId": 5045304,
+    "email": "Brown@gmail.com",
+    "alternatePhoneNumber": 9876543214,
+    "isAlternateMobileNumber": true,
+    "phone": 1234567894,
+    "isPrimaryMobileNumber": false,
+    "location": "Boston",
+    "isStatement": true,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

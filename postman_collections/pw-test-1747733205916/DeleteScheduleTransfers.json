@@ -1,0 +1,42 @@
+[
+  {
+    "customerId": 1045301,
+    "paymentId": "PAY12345",
+    "updateTransferType": "all",
+    "sourceAccountId": "1042346",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer deleted successfully"
+  },
+  {
+    "customerId": 1045302,
+    "paymentId": "PAY12346",
+    "updateTransferType": "partial",
+    "sourceAccountId": "1042347",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer deleted successfully"
+  },
+  {
+    "customerId": 1045303,
+    "paymentId": "PAY12347",
+    "updateTransferType": "all",
+    "sourceAccountId": "1042348",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045304,
+    "paymentId": "PAY12348",
+    "updateTransferType": "partial",
+    "sourceAccountId": "1042349",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045305,
+    "paymentId": "PAY12349",
+    "updateTransferType": "all",
+    "sourceAccountId": "1042350",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

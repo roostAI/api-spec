@@ -1,0 +1,10 @@
+customerId,accountInfo,statusCode,scenario
+-15619871.642549172,"mollit officia nostrud est",200,"successful operation"
+12345678,"random account info",401,"Error: Authorisation failed."
+98765432,"another random account info",404,"Error: Not Found"
+-15619871.642549172,"mollit officia nostrud est",200,"successful operation"
+23456789,"random account info 2",401,"Error: Authorisation failed."
+87654321,"another random account info 2",404,"Error: Not Found"
+-15619871.642549172,"mollit officia nostrud est",200,"successful operation"
+34567890,"random account info 3",401,"Error: Authorisation failed."
+76543210,"another random account info 3",404,"Error: Not Found"

@@ -1,0 +1,98 @@
+[
+  {
+    "accountNumber_0": "ACC123456789",
+    "accountNumber_1": "ACC987654321",
+    "customerId": "CUST112233",
+    "numOfTransactions": 5,
+    "status": "Active",
+    "startDate": "2022-01-01",
+    "endDate": "2022-01-31",
+    "sort": {
+      "type": "date",
+      "value": "desc"
+    },
+    "transactionAmount": {
+      "amount1": 1000,
+      "currency": "USD"
+    },
+    "category_0": {
+      "codeType": "expense",
+      "value_0": "groceries",
+      "value_1": "utilities",
+      "source": "manual"
+    },
+    "category_1": {
+      "codeType": "income",
+      "value_0": "salary",
+      "value_1": "bonus",
+      "source": "automatic"
+    },
+    "debitOrCredit": "debit",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber_0": "ACC112233445",
+    "accountNumber_1": "ACC556677889",
+    "customerId": "CUST998877",
+    "numOfTransactions": 10,
+    "status": "Inactive",
+    "startDate": "2022-02-01",
+    "endDate": "2022-02-28",
+    "sort": {
+      "type": "amount",
+      "value": "asc"
+    },
+    "transactionAmount": {
+      "amount1": 2000,
+      "currency": "EUR"
+    },
+    "category_0": {
+      "codeType": "expense",
+      "value_0": "rent",
+      "value_1": "transport",
+      "source": "manual"
+    },
+    "category_1": {
+      "codeType": "income",
+      "value_0": "dividends",
+      "value_1": "rental income",
+      "source": "automatic"
+    },
+    "debitOrCredit": "credit",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber_0": "ACC778899001",
+    "accountNumber_1": "ACC223344556",
+    "customerId": "CUST667788",
+    "numOfTransactions": 3,
+    "status": "Pending",
+    "startDate": "2022-03-01",
+    "endDate": "2022-03-31",
+    "sort": {
+      "type": "category",
+      "value": "desc"
+    },
+    "transactionAmount": {
+      "amount1": 500,
+      "currency": "GBP"
+    },
+    "category_0": {
+      "codeType": "expense",
+      "value_0": "education",
+      "value_1": "healthcare",
+      "source": "manual"
+    },
+    "category_1": {
+      "codeType": "income",
+      "value_0": "freelance",
+      "value_1": "investment",
+      "source": "automatic"
+    },
+    "debitOrCredit": "debit",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  }
+]

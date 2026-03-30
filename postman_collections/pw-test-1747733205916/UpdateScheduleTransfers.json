@@ -1,0 +1,52 @@
+[
+  {
+    "customerId": 1045301,
+    "paymentId": "PAY12345",
+    "sourceAccountId": "ACC12345",
+    "amount": 1000,
+    "scheduledDate": 20220401,
+    "targetAccountId": "ACC67890",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "customerId": 1045302,
+    "paymentId": "PAY67890",
+    "sourceAccountId": "ACC67890",
+    "amount": 2000,
+    "scheduledDate": 20220402,
+    "targetAccountId": "ACC12345",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "customerId": 1045303,
+    "paymentId": "PAY11223",
+    "sourceAccountId": "ACC11223",
+    "amount": 3000,
+    "scheduledDate": 20220403,
+    "targetAccountId": "ACC33211",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045304,
+    "paymentId": "PAY44556",
+    "sourceAccountId": "ACC44556",
+    "amount": 4000,
+    "scheduledDate": 20220404,
+    "targetAccountId": "ACC55644",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045305,
+    "paymentId": "PAY77889",
+    "sourceAccountId": "ACC77889",
+    "amount": 5000,
+    "scheduledDate": 20220405,
+    "targetAccountId": "ACC99877",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

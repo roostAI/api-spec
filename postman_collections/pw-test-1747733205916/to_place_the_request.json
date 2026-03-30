@@ -1,0 +1,62 @@
+[
+  {
+    "accountName": "John Doe",
+    "accountNumber": "123456789",
+    "customerId": 12345,
+    "cardNumber": "987654321",
+    "description": "Account Transfer",
+    "requestSubType": "Internal",
+    "requestType": "Transfer",
+    "serviceType": "Banking",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountName": "Jane Doe",
+    "accountNumber": "987654321",
+    "customerId": 67890,
+    "cardNumber": "123456789",
+    "description": "Account Deposit",
+    "requestSubType": "External",
+    "requestType": "Deposit",
+    "serviceType": "Banking",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountName": "Bob Smith",
+    "accountNumber": "246813579",
+    "customerId": 11223,
+    "cardNumber": "135792468",
+    "description": "Account Withdrawal",
+    "requestSubType": "Internal",
+    "requestType": "Withdrawal",
+    "serviceType": "Banking",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "accountName": "Alice Johnson",
+    "accountNumber": "864209753",
+    "customerId": 44556,
+    "cardNumber": "753159862",
+    "description": "Account Enquiry",
+    "requestSubType": "External",
+    "requestType": "Enquiry",
+    "serviceType": "Banking",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "accountName": "Charlie Brown",
+    "accountNumber": "159753486",
+    "customerId": 77889,
+    "cardNumber": "951357468",
+    "description": "Account Closure",
+    "requestSubType": "Internal",
+    "requestType": "Closure",
+    "serviceType": "Banking",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
