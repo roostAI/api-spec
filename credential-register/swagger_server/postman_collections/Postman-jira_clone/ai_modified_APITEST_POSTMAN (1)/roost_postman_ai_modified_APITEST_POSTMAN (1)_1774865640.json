@@ -1,0 +1,153 @@
+{
+  "item": [
+    {
+      "id": "0e71a2ab-d698-403c-b0f7-766be55b12c7",
+      "name": "Get API Configuration",
+      "request": {
+        "name": "Get API Configuration",
+        "description": {
+          "content": "Retrieve the current configuration settings for the API.",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "api",
+            "config"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "3d67f36d-7dfb-457a-8ecb-24f3f50d3500",
+          "name": "Successful response",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "api",
+                "config"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"TEST_NAME\": \"APITEST_POSTMAN\",\n  \"TEST_LANGUAGE\": \"nodejs\",\n  \"TEST_FRAMEWORK\": \"postman\",\n  \"HTTP_VERBS_FOR_TESTING\": \"get\",\n  \"AI_TYPE\": \"openai\",\n  \"ROOST_DOMAIN\": \"dev.roost.ai\",\n  \"TELEMETRY\": true,\n  \"GIT_TYPE\": \"github\",\n  \"HOSTED_TYPE\": \"cloud\",\n  \"SOURCE_OWNER_NAME\": \"roostAI\",\n  \"SOURCE_REPO_NAME\": \"api-spec\",\n  \"SOURCE_BASE_BRANCH\": \"main\",\n  \"JAVA_BUILD_TOOL\": \"maven\",\n  \"GITOPS\": true,\n  \"API_SPEC_TYPE\": \"swagger\",\n  \"API_SPEC_SOURCE\": \"gitpath\",\n  \"API_SPEC_FILE_PATH\": \"apis/nobel.json\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "3b8177b7-ee40-4b86-8063-9b1bdb485f20",
+          "name": "Bad Request",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "api",
+                "config"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain"
+            }
+          ],
+          "body": "",
+          "cookie": [],
+          "_postman_previewlanguage": "text"
+        },
+        {
+          "id": "482fbc1a-3bda-47f7-ba54-5839ba089456",
+          "name": "Internal Server Error",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "api",
+                "config"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Internal Server Error",
+          "code": 500,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain"
+            }
+          ],
+          "body": "",
+          "cookie": [],
+          "_postman_previewlanguage": "text"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "ee3faaa6-1985-43f1-ba90-5f4efc84bad3",
+    "name": "RoostGPT API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "API for RoostGPT configuration and management",
+      "type": "text/plain"
+    }
+  }
+}
