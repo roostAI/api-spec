@@ -1,0 +1,37 @@
+[
+  {
+    "namespace": "library",
+    "repository": "nginx",
+    "tag": "1.25.3-alpine",
+    "statusCode": 200,
+    "scenario": "repository tag"
+  },
+  {
+    "namespace": "hashicorp",
+    "repository": "vault",
+    "tag": "1.17.2",
+    "statusCode": 200,
+    "scenario": "repository tag"
+  },
+  {
+    "namespace": "adm!n",
+    "repository": "my repo",
+    "tag": "latest/evil",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  },
+  {
+    "namespace": "unknownuser12345",
+    "repository": "missing-image",
+    "tag": "0.0.0-missing",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  },
+  {
+    "namespace": "ops-team",
+    "repository": "Repo#1",
+    "tag": "release candidate",
+    "statusCode": 403,
+    "scenario": "Forbidden"
+  }
+]
