@@ -1,0 +1,7 @@
+amount,currency,customerId,sourceAccountId,targetAccountId,status,scheduledDate,amountType,iterate,untilStop,untilDate,numberOfTransfers,statusCode,scenario
+"1042222","USD",1045300,"1042345","1042222","active",20220202,"fixed","yes","no",20230303,5,200,"schedule transfer added successfully"
+"1042223","EUR",1045301,"1042346","1042223","inactive",20220203,"variable","no","yes",20230304,6,401,"Error: Authorisation failed."
+"1042224","GBP",1045302,"1042347","1042224","pending",20220204,"fixed","yes","no",20230305,7,404,"Error: Not Found"
+"1042225","JPY",1045303,"1042348","1042225","active",20220205,"variable","no","yes",20230306,8,200,"schedule transfer added successfully"
+"1042226","CAD",1045304,"1042349","1042226","inactive",20220206,"fixed","yes","no",20230307,9,401,"Error: Authorisation failed."
+"1042227","AUD",1045305,"1042350","1042227","pending",20220207,"variable","no","yes",20230308,10,404,"Error: Not Found"
