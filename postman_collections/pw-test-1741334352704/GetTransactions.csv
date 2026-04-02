@@ -1,0 +1,6 @@
+accountNumber,customerId,numOfTransactions,status,startDate,endDate,type,value,amount1,currency,category,debitOrCredit,statusCode,scenario
+"commodo laboris",73642149.91528252,10,"irure ullamco","2022-01-01","2022-01-31","debit","purchase",65366174.72251788,"Lorem ea ex","groceries","ex sit in incididunt",200,"successful operation"
+"commodo laboris",73642149.91528252,15,"irure ullamco","2022-02-01","2022-02-28","credit","refund",65366174.72251788,"Lorem ea ex","utilities","ex sit in incididunt",200,"successful operation"
+"commodo laboris",73642149.91528252,20,"irure ullamco","2022-03-01","2022-03-31","debit","purchase",65366174.72251788,"Lorem ea ex","entertainment","ex sit in incididunt",200,"successful operation"
+"commodo laboris",73642149.91528252,25,"irure ullamco","2022-04-01","2022-04-30","credit","refund",65366174.72251788,"Lorem ea ex","groceries","ex sit in incididunt",200,"successful operation"
+"commodo laboris",73642149.91528252,30,"irure ullamco","2022-05-01","2022-05-31","debit","purchase",65366174.72251788,"Lorem ea ex","utilities","ex sit in incididunt",200,"successful operation"

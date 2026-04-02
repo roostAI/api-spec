@@ -1,0 +1,4 @@
+authType,firstName,lastName,email,phoneNumber,topic,message,availableTime,chatHistory,cif,statusCode,scenario
+Authorized,James,William,John@gmail.com,9787643445,"Routing and Account Number","Unable to find my routing number.",nighttime,"html formatted message sent as string",1045310,200,success
+Unauthorized,"RandomName1","RandomLastName1","random1@gmail.com",1234567890,"Random Topic1","Random Message1",morning,"random chat history1",1234567,401,"Error: Authorisation failed."
+Unauthorized,"RandomName2","RandomLastName2","random2@gmail.com",2345678901,"Random Topic2","Random Message2",afternoon,"random chat history2",2345678,404,"Error: Not Found"

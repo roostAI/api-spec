@@ -1,0 +1,5 @@
+accountName,accountNumber,customerId,cardNumber,description,requestSubType,requestType,serviceType,statusCode,scenario
+"John Doe","1042345",1045300,"1234567890","Internal Transfer","SubType1","Type1","Service1",200,"success"
+"Jane Doe","1042346",1045301,"1234567891","Internal Transfer","SubType2","Type2","Service2",200,"success"
+"Random User","0000000",0000000,"0000000000","Invalid Transfer","InvalidSubType","InvalidType","InvalidService",401,"Error: Authorisation failed."
+"Nonexistent User","9999999",9999999,"9999999999","Nonexistent Transfer","NonexistentSubType","NonexistentType","NonexistentService",404,"Error: Not Found"
