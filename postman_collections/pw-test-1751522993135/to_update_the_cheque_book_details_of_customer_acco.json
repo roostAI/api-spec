@@ -1,0 +1,42 @@
+[
+  {
+    "accountNumber_*string": "1042345",
+    "customerId_*number": 1045300,
+    "numberOfChequeBooks_*number": 2,
+    "numberOfLeaves_*number": 50,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber_*string": "1042346",
+    "customerId_*number": 1045301,
+    "numberOfChequeBooks_*number": 3,
+    "numberOfLeaves_*number": 60,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "accountNumber_*string": "XYZ123",
+    "customerId_*number": 999999,
+    "numberOfChequeBooks_*number": 5,
+    "numberOfLeaves_*number": 100,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountNumber_*string": "ABC789",
+    "customerId_*number": 888888,
+    "numberOfChequeBooks_*number": 4,
+    "numberOfLeaves_*number": 80,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountNumber_*string": "DEF456",
+    "customerId_*number": 777777,
+    "numberOfChequeBooks_*number": 1,
+    "numberOfLeaves_*number": 20,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

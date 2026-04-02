@@ -1,0 +1,38 @@
+[
+  {
+    "usecase_0_*string": "User registration",
+    "usecase_1_*string": "Email verification",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "usecase_0_*string": "Password reset",
+    "usecase_1_*string": "Two-factor authentication",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "usecase_0_*string": "Invalid user",
+    "usecase_1_*string": "Invalid email",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "usecase_0_*string": "Invalid password",
+    "usecase_1_*string": "Invalid two-factor code",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "usecase_0_*string": "Non-existent user",
+    "usecase_1_*string": "Non-existent email",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "usecase_0_*string": "Non-existent password",
+    "usecase_1_*string": "Non-existent two-factor code",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
