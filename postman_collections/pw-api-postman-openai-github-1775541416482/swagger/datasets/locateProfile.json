@@ -1,0 +1,197 @@
+[
+  {
+    "koreUserId": "user1",
+    "botId": "bot1",
+    "accountId": "acc1",
+    "customerId": 1045300,
+    "ssNumber": "ss1",
+    "ssnShort": "ssn1",
+    "accountNumber": [
+      "1042345"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user2",
+    "botId": "bot2",
+    "accountId": "acc2",
+    "customerId": 1045301,
+    "ssNumber": "ss2",
+    "ssnShort": "ssn2",
+    "accountNumber": [
+      "1042346"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user3",
+    "botId": "bot3",
+    "accountId": "acc3",
+    "customerId": 1045302,
+    "ssNumber": "ss3",
+    "ssnShort": "ssn3",
+    "accountNumber": [
+      "1042347"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user4",
+    "botId": "bot4",
+    "accountId": "acc4",
+    "customerId": 1045303,
+    "ssNumber": "ss4",
+    "ssnShort": "ssn4",
+    "accountNumber": [
+      "1042348"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user5",
+    "botId": "bot5",
+    "accountId": "acc5",
+    "customerId": 1045304,
+    "ssNumber": "ss5",
+    "ssnShort": "ssn5",
+    "accountNumber": [
+      "1042349"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user6",
+    "botId": "bot6",
+    "accountId": "acc6",
+    "customerId": 1045305,
+    "ssNumber": "ss6",
+    "ssnShort": "ssn6",
+    "accountNumber": [
+      "1042350"
+    ],
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user7",
+    "botId": "bot7",
+    "accountId": "acc7",
+    "customerId": 1045306,
+    "ssNumber": "ss7",
+    "ssnShort": "ssn7",
+    "accountNumber": [
+      "1042351"
+    ],
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user8",
+    "botId": "bot8",
+    "accountId": "acc8",
+    "customerId": 1045307,
+    "ssNumber": "ss8",
+    "ssnShort": "ssn8",
+    "accountNumber": [
+      "1042352"
+    ],
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user9",
+    "botId": "bot9",
+    "accountId": "acc9",
+    "customerId": 1045308,
+    "ssNumber": "ss9",
+    "ssnShort": "ssn9",
+    "accountNumber": [
+      "1042353"
+    ],
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user10",
+    "botId": "bot10",
+    "accountId": "acc10",
+    "customerId": 1045309,
+    "ssNumber": "ss10",
+    "ssnShort": "ssn10",
+    "accountNumber": [
+      "1042354"
+    ],
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user11",
+    "botId": "bot11",
+    "accountId": "acc11",
+    "customerId": 1045310,
+    "ssNumber": "ss11",
+    "ssnShort": "ssn11",
+    "accountNumber": [
+      "1042355"
+    ],
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user12",
+    "botId": "bot12",
+    "accountId": "acc12",
+    "customerId": 1045311,
+    "ssNumber": "ss12",
+    "ssnShort": "ssn12",
+    "accountNumber": [
+      "1042356"
+    ],
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user13",
+    "botId": "bot13",
+    "accountId": "acc13",
+    "customerId": 1045312,
+    "ssNumber": "ss13",
+    "ssnShort": "ssn13",
+    "accountNumber": [
+      "1042357"
+    ],
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user14",
+    "botId": "bot14",
+    "accountId": "acc14",
+    "customerId": 1045313,
+    "ssNumber": "ss14",
+    "ssnShort": "ssn14",
+    "accountNumber": [
+      "1042358"
+    ],
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user15",
+    "botId": "bot15",
+    "accountId": "acc15",
+    "customerId": 1045314,
+    "ssNumber": "ss15",
+    "ssnShort": "ssn15",
+    "accountNumber": [
+      "1042359"
+    ],
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

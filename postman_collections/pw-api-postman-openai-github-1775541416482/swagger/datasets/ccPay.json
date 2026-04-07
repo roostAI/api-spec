@@ -1,0 +1,160 @@
+[
+  {
+    "koreUserId": "user1",
+    "botId": "bot1",
+    "accountId": "acc1",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "currency": "USD",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "transactionType": 1,
+    "dueDate": "2022-12-31",
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "user2",
+    "botId": "bot2",
+    "accountId": "acc2",
+    "customerId": 1045301,
+    "amount": "1042223",
+    "currency": "EUR",
+    "sourceAccountId": "1042346",
+    "targetAccountId": "1042223",
+    "transactionType": 2,
+    "dueDate": "2023-01-01",
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "user3",
+    "botId": "bot3",
+    "accountId": "acc3",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user4",
+    "botId": "bot4",
+    "accountId": "acc4",
+    "customerId": 1045302,
+    "amount": "1042224",
+    "currency": "GBP",
+    "sourceAccountId": "1042347",
+    "targetAccountId": "1042224",
+    "transactionType": 3,
+    "dueDate": "2023-02-01",
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "user5",
+    "botId": "bot5",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user6",
+    "botId": "bot6",
+    "accountId": "acc6",
+    "customerId": 1045303,
+    "amount": "1042225",
+    "currency": "JPY",
+    "sourceAccountId": "1042348",
+    "targetAccountId": "1042225",
+    "transactionType": 4,
+    "dueDate": "2023-03-01",
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "user7",
+    "botId": "bot7",
+    "accountId": "acc7",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user8",
+    "botId": "bot8",
+    "accountId": "acc8",
+    "customerId": 1045304,
+    "amount": "1042226",
+    "currency": "CAD",
+    "sourceAccountId": "1042349",
+    "targetAccountId": "1042226",
+    "transactionType": 5,
+    "dueDate": "2023-04-01",
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "user9",
+    "botId": "bot9",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user10",
+    "botId": "bot10",
+    "accountId": "acc10",
+    "customerId": 1045305,
+    "amount": "1042227",
+    "currency": "AUD",
+    "sourceAccountId": "1042350",
+    "targetAccountId": "1042227",
+    "transactionType": 6,
+    "dueDate": "2023-05-01",
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "user11",
+    "botId": "bot11",
+    "accountId": "acc11",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user12",
+    "botId": "bot12",
+    "accountId": "acc12",
+    "customerId": 1045306,
+    "amount": "1042228",
+    "currency": "INR",
+    "sourceAccountId": "1042351",
+    "targetAccountId": "1042228",
+    "transactionType": 7,
+    "dueDate": "2023-06-01",
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "user13",
+    "botId": "bot13",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user14",
+    "botId": "bot14",
+    "accountId": "acc14",
+    "customerId": 1045307,
+    "amount": "1042229",
+    "currency": "CNY",
+    "sourceAccountId": "1042352",
+    "targetAccountId": "1042229",
+    "transactionType": 8,
+    "dueDate": "2023-07-01",
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "user15",
+    "botId": "bot15",
+    "accountId": "acc15",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

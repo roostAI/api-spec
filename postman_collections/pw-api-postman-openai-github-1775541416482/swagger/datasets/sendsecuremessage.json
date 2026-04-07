@@ -1,0 +1,173 @@
+[
+  {
+    "koreUserId": "user1",
+    "botId": "bot1",
+    "accountId": "acc1",
+    "authType": "Authorized",
+    "firstName": "James",
+    "lastName": "William",
+    "email": "John@gmail.com",
+    "phoneNumber": 9787643445,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user2",
+    "botId": "bot2",
+    "accountId": "acc2",
+    "authType": "Authorized",
+    "firstName": "James",
+    "lastName": "William",
+    "email": "John@gmail.com",
+    "phoneNumber": 9787643445,
+    "topic": "Routing and Account Number",
+    "message": "Unable to find my routing number.",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user3",
+    "botId": "bot3",
+    "accountId": "acc3",
+    "authType": "Unauthorized",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user4",
+    "botId": "bot4",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user5",
+    "botId": "bot5",
+    "accountId": "acc5",
+    "authType": "Authorized",
+    "firstName": "James",
+    "lastName": "William",
+    "email": "John@gmail.com",
+    "phoneNumber": 9787643445,
+    "topic": "Routing and Account Number",
+    "message": "Unable to find my routing number.",
+    "availableTime": "nighttime",
+    "chatHistory": "html formatted message sent as string",
+    "cif": 1045310,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user6",
+    "botId": "bot6",
+    "accountId": "acc6",
+    "authType": "Authorized",
+    "firstName": "James",
+    "lastName": "William",
+    "email": "John@gmail.com",
+    "phoneNumber": 9787643445,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user7",
+    "botId": "bot7",
+    "accountId": "acc7",
+    "authType": "Authorized",
+    "firstName": "James",
+    "lastName": "William",
+    "email": "John@gmail.com",
+    "phoneNumber": 9787643445,
+    "topic": "Routing and Account Number",
+    "message": "Unable to find my routing number.",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user8",
+    "botId": "bot8",
+    "accountId": "acc8",
+    "authType": "Unauthorized",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user9",
+    "botId": "bot9",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user10",
+    "botId": "bot10",
+    "accountId": "acc10",
+    "authType": "Authorized",
+    "firstName": "James",
+    "lastName": "William",
+    "email": "John@gmail.com",
+    "phoneNumber": 9787643445,
+    "topic": "Routing and Account Number",
+    "message": "Unable to find my routing number.",
+    "availableTime": "nighttime",
+    "chatHistory": "html formatted message sent as string",
+    "cif": 1045310,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user11",
+    "botId": "bot11",
+    "accountId": "acc11",
+    "authType": "Authorized",
+    "firstName": "James",
+    "lastName": "William",
+    "email": "John@gmail.com",
+    "phoneNumber": 9787643445,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user12",
+    "botId": "bot12",
+    "accountId": "acc12",
+    "authType": "Authorized",
+    "firstName": "James",
+    "lastName": "William",
+    "email": "John@gmail.com",
+    "phoneNumber": 9787643445,
+    "topic": "Routing and Account Number",
+    "message": "Unable to find my routing number.",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user13",
+    "botId": "bot13",
+    "accountId": "acc13",
+    "authType": "Unauthorized",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user14",
+    "botId": "bot14",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user15",
+    "botId": "bot15",
+    "accountId": "acc15",
+    "authType": "Authorized",
+    "firstName": "James",
+    "lastName": "William",
+    "email": "John@gmail.com",
+    "phoneNumber": 9787643445,
+    "topic": "Routing and Account Number",
+    "message": "Unable to find my routing number.",
+    "availableTime": "nighttime",
+    "chatHistory": "html formatted message sent as string",
+    "cif": 1045310,
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]

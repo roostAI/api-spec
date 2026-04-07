@@ -1,0 +1,125 @@
+[
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "accountId": "ACC123",
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU12346",
+    "botId": "BOT124",
+    "accountId": "ACC124",
+    "customerId": 1045301,
+    "numberOfChequeBooks": 2,
+    "numberOfLeaves": 50,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU12347",
+    "botId": "BOT125",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12348",
+    "botId": "BOT126",
+    "accountId": "ACC125",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12349",
+    "botId": "BOT127",
+    "accountId": "ACC126",
+    "customerId": 1045302,
+    "numberOfChequeBooks": 3,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU12350",
+    "botId": "BOT128",
+    "accountId": "ACC127",
+    "customerId": 1045303,
+    "numberOfChequeBooks": 4,
+    "numberOfLeaves": 100,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU12351",
+    "botId": "BOT129",
+    "accountId": "ACC128",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12352",
+    "botId": "BOT130",
+    "accountId": "ACC129",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12353",
+    "botId": "BOT131",
+    "accountId": "ACC130",
+    "customerId": 1045304,
+    "numberOfChequeBooks": 5,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU12354",
+    "botId": "BOT132",
+    "accountId": "ACC131",
+    "customerId": 1045305,
+    "numberOfChequeBooks": 6,
+    "numberOfLeaves": 150,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU12355",
+    "botId": "BOT133",
+    "accountId": "ACC132",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12356",
+    "botId": "BOT134",
+    "accountId": "ACC133",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12357",
+    "botId": "BOT135",
+    "accountId": "ACC134",
+    "customerId": 1045306,
+    "numberOfChequeBooks": 7,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU12358",
+    "botId": "BOT136",
+    "accountId": "ACC135",
+    "customerId": 1045307,
+    "numberOfChequeBooks": 8,
+    "numberOfLeaves": 200,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU12359",
+    "botId": "BOT137",
+    "accountId": "ACC136",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
