@@ -1,0 +1,127 @@
+[
+  {
+    "customerId": 1045300,
+    "dob": "1999-05-05T00:00:00.000+0000",
+    "ssn": 104531234,
+    "secrectPassword": "Sam",
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045301,
+    "dob": "1999-05-06T00:00:00.000+0000",
+    "ssn": 104531235,
+    "secrectPassword": "John",
+    "AccNumber": "1042346",
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045302,
+    "dob": "1999-05-07T00:00:00.000+0000",
+    "ssn": 104531236,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045303,
+    "dob": "1999-05-08T00:00:00.000+0000",
+    "ssn": 104531237,
+    "secrectPassword": "David",
+    "AccNumber": "1042347",
+    "lastDepositAmt": 500,
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045304,
+    "dob": "1999-05-09T00:00:00.000+0000",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045305,
+    "dob": "1999-05-10T00:00:00.000+0000",
+    "ssn": 104531238,
+    "secrectPassword": "Mike",
+    "AccNumber": "1042348",
+    "lastDepositAmt": 600,
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045306,
+    "dob": "1999-05-11T00:00:00.000+0000",
+    "ssn": 104531239,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045307,
+    "dob": "1999-05-12T00:00:00.000+0000",
+    "ssn": 104531240,
+    "secrectPassword": "Alex",
+    "AccNumber": "1042349",
+    "lastDepositAmt": 700,
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045308,
+    "dob": "1999-05-13T00:00:00.000+0000",
+    "ssn": 104531241,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045309,
+    "dob": "1999-05-14T00:00:00.000+0000",
+    "ssn": 104531242,
+    "secrectPassword": "Tom",
+    "AccNumber": "1042350",
+    "lastDepositAmt": 800,
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045310,
+    "dob": "1999-05-15T00:00:00.000+0000",
+    "ssn": 104531243,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045311,
+    "dob": "1999-05-16T00:00:00.000+0000",
+    "ssn": 104531244,
+    "secrectPassword": "Jerry",
+    "AccNumber": "1042351",
+    "lastDepositAmt": 900,
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045312,
+    "dob": "1999-05-17T00:00:00.000+0000",
+    "ssn": 104531245,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045313,
+    "dob": "1999-05-18T00:00:00.000+0000",
+    "ssn": 104531246,
+    "secrectPassword": "Harry",
+    "AccNumber": "1042352",
+    "lastDepositAmt": 1000,
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045314,
+    "dob": "1999-05-19T00:00:00.000+0000",
+    "ssn": 104531247,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

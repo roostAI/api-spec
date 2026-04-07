@@ -1,0 +1,107 @@
+[
+  {
+    "koreUserId": "user123",
+    "botId": "bot456",
+    "accountId": "account789",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user124",
+    "botId": "bot457",
+    "accountId": "account790",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user125",
+    "botId": "bot458",
+    "accountId": "account791",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user126",
+    "botId": "bot459",
+    "accountId": "account792",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user127",
+    "botId": "bot460",
+    "accountId": "account793",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user128",
+    "botId": "bot461",
+    "accountId": "account794",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user129",
+    "botId": "bot462",
+    "accountId": "account795",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user130",
+    "botId": "bot463",
+    "accountId": "account796",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user131",
+    "botId": "bot464",
+    "accountId": "account797",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user132",
+    "botId": "bot465",
+    "accountId": "account798",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user133",
+    "botId": "bot466",
+    "accountId": "account799",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user134",
+    "botId": "bot467",
+    "accountId": "account800",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user135",
+    "botId": "bot468",
+    "accountId": "account801",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user136",
+    "botId": "bot469",
+    "accountId": "account802",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user137",
+    "botId": "bot470",
+    "accountId": "account803",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

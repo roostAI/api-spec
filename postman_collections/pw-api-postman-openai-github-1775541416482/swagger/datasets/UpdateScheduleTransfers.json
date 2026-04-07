@@ -1,0 +1,172 @@
+[
+  {
+    "koreUserId": "KU123",
+    "botId": "B123",
+    "userCode": "UC123",
+    "accountId": "A123",
+    "paymentId": "P123",
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "KU124",
+    "botId": "B124",
+    "userCode": "UC124",
+    "accountId": "A124",
+    "paymentId": "P124",
+    "customerId": 1045301,
+    "amount": "1042223",
+    "scheduledDate": 20220202,
+    "sourceAccountId": "1042346",
+    "targetAccountId": "1042223",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "KU125",
+    "botId": "B125",
+    "userCode": "UC125",
+    "accountId": "A125",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU126",
+    "botId": "B126",
+    "userCode": "UC126",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU127",
+    "botId": "B127",
+    "userCode": "UC127",
+    "accountId": "A127",
+    "paymentId": "P127",
+    "customerId": 1045302,
+    "amount": "1042224",
+    "scheduledDate": 20220203,
+    "sourceAccountId": "1042347",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "KU128",
+    "botId": "B128",
+    "userCode": "UC128",
+    "accountId": "A128",
+    "paymentId": "P128",
+    "customerId": 1045303,
+    "amount": "1042225",
+    "scheduledDate": 20220204,
+    "sourceAccountId": "1042348",
+    "targetAccountId": "1042224",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "KU129",
+    "botId": "B129",
+    "userCode": "UC129",
+    "accountId": "A129",
+    "paymentId": "P129",
+    "customerId": 1045304,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU130",
+    "botId": "B130",
+    "userCode": "UC130",
+    "accountId": "A130",
+    "paymentId": "P130",
+    "customerId": 1045305,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU131",
+    "botId": "B131",
+    "userCode": "UC131",
+    "accountId": "A131",
+    "paymentId": "P131",
+    "customerId": 1045306,
+    "amount": "1042226",
+    "scheduledDate": 20220205,
+    "sourceAccountId": "1042349",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "KU132",
+    "botId": "B132",
+    "userCode": "UC132",
+    "accountId": "A132",
+    "paymentId": "P132",
+    "customerId": 1045307,
+    "amount": "1042227",
+    "scheduledDate": 20220206,
+    "sourceAccountId": "1042350",
+    "targetAccountId": "1042225",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "KU133",
+    "botId": "B133",
+    "userCode": "UC133",
+    "accountId": "A133",
+    "paymentId": "P133",
+    "customerId": 1045308,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU134",
+    "botId": "B134",
+    "userCode": "UC134",
+    "accountId": "A134",
+    "paymentId": "P134",
+    "customerId": 1045309,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU135",
+    "botId": "B135",
+    "userCode": "UC135",
+    "accountId": "A135",
+    "paymentId": "P135",
+    "customerId": 1045310,
+    "amount": "1042228",
+    "scheduledDate": 20220207,
+    "sourceAccountId": "1042351",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "KU136",
+    "botId": "B136",
+    "userCode": "UC136",
+    "accountId": "A136",
+    "paymentId": "P136",
+    "customerId": 1045311,
+    "amount": "1042229",
+    "scheduledDate": 20220208,
+    "sourceAccountId": "1042352",
+    "targetAccountId": "1042226",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "KU137",
+    "botId": "B137",
+    "userCode": "UC137",
+    "accountId": "A137",
+    "paymentId": "P137",
+    "customerId": 1045312,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]
