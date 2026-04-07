@@ -1,0 +1,27 @@
+[
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "id": "c328fd32-9c0c-41ee-82a9-e5112e6e4b04",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "id": "",
+    "statusCode": 404,
+    "scenario": "Client error responses: Not Found"
+  },
+  {
+    "id": "not-a-uuid",
+    "statusCode": 404,
+    "scenario": "Client error responses: Not Found"
+  },
+  {
+    "id": "2e7efb1c-9999-4a9a-992f-3f6e6e6f6e99",
+    "statusCode": 404,
+    "scenario": "Client error responses: Not Found"
+  }
+]
