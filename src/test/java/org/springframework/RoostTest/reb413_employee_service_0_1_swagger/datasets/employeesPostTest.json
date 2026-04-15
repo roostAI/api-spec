@@ -1,0 +1,58 @@
+[
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "System Analyst",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "expected_statusCode": 201,
+    "scenario": "Test a valid request to add an employee"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test an invalid request to add an employee with missing jobTitle"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "System Analyst",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "expected_statusCode": 409,
+    "scenario": "Test a request to add an employee that already exists"
+  },
+  {
+    "id": "",
+    "jobTitle": "",
+    "name": "",
+    "email": "",
+    "expected_statusCode": 400,
+    "scenario": "Test a request to add an employee with empty body"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "System Analyst",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "expected_statusCode": 201,
+    "scenario": "Test a valid request to add an employee with all fields filled"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "System Analyst",
+    "name": "",
+    "email": "john.smith@acme-corp.com",
+    "expected_statusCode": 400,
+    "scenario": "Test an invalid request to add an employee with missing name"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "System Analyst",
+    "name": "John Smith",
+    "email": "",
+    "expected_statusCode": 400,
+    "scenario": "Test an invalid request to add an employee with missing email"
+  }
+]
