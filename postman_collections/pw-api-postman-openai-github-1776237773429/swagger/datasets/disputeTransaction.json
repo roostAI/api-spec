@@ -1,0 +1,131 @@
+[
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "emailId": "John@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "KU124",
+    "botId": "BOT124",
+    "accountId": "AC124",
+    "customerId": 1045301,
+    "emailId": "Jane@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "KU125",
+    "botId": "BOT125",
+    "accountId": "AC125",
+    "customerId": 1045302,
+    "emailId": "Sam@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "KU126",
+    "botId": "BOT126",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU127",
+    "botId": "BOT127",
+    "accountId": "AC127",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU128",
+    "botId": "BOT128",
+    "accountId": "AC128",
+    "customerId": 1045303,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU129",
+    "botId": "BOT129",
+    "accountId": "AC129",
+    "customerId": 1045304,
+    "emailId": "InvalidEmail",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU130",
+    "botId": "BOT130",
+    "accountId": "AC130",
+    "customerId": 1045305,
+    "emailId": "Tom@yahoo.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU131",
+    "botId": "BOT131",
+    "accountId": "AC131",
+    "customerId": 1045306,
+    "emailId": "Jerry@yahoo.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU132",
+    "botId": "BOT132",
+    "accountId": "AC132",
+    "customerId": 1045307,
+    "emailId": "Spike@yahoo.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU133",
+    "botId": "BOT133",
+    "accountId": "AC133",
+    "customerId": 1045308,
+    "emailId": "Tyke@yahoo.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU134",
+    "botId": "BOT134",
+    "accountId": "AC134",
+    "customerId": 1045309,
+    "emailId": "Butch@yahoo.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU135",
+    "botId": "BOT135",
+    "accountId": "AC135",
+    "customerId": 1045310,
+    "emailId": "Nibbles@yahoo.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU136",
+    "botId": "BOT136",
+    "accountId": "AC136",
+    "customerId": 1045311,
+    "emailId": "Mammy@yahoo.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU137",
+    "botId": "BOT137",
+    "accountId": "AC137",
+    "customerId": 1045312,
+    "emailId": "Papa@yahoo.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

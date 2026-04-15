@@ -1,0 +1,91 @@
+[
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU124",
+    "botId": "BID124",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU125",
+    "botId": "BID125",
+    "accountId": "AC125",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU126",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "botId": "BID127",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountId": "AC128",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU129",
+    "botId": "BID129",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU130",
+    "accountId": "AC130",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "BID131",
+    "accountId": "AC131",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU132",
+    "botId": "BID132",
+    "accountId": "AC132",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU133",
+    "botId": "BID133",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU134",
+    "accountId": "AC134",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "botId": "BID135",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "accountId": "AC136",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU137",
+    "botId": "BID137",
+    "accountId": "AC137",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

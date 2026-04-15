@@ -1,0 +1,142 @@
+[
+  {
+    "koreUserId": "koreUser1",
+    "botId": "bot1",
+    "accountId": "account1",
+    "tenantId": "tenant1",
+    "environment": "prod",
+    "channel": "web",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "koreUser2",
+    "botId": "bot2",
+    "accountId": "account2",
+    "tenantId": "tenant2",
+    "environment": "dev",
+    "channel": "mobile",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "koreUser3",
+    "botId": "bot3",
+    "accountId": "account3",
+    "tenantId": "tenant3",
+    "environment": "test",
+    "channel": "web",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "koreUser4",
+    "botId": "bot4",
+    "accountId": "account4",
+    "tenantId": "tenant4",
+    "environment": "prod",
+    "channel": "mobile",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "koreUser5",
+    "botId": "bot5",
+    "accountId": "account5",
+    "tenantId": "tenant5",
+    "environment": "dev",
+    "channel": "web",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "botId": "bot6",
+    "accountId": "account6",
+    "tenantId": "tenant6",
+    "environment": "test",
+    "channel": "mobile",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser7",
+    "accountId": "account7",
+    "tenantId": "tenant7",
+    "environment": "prod",
+    "channel": "web",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser8",
+    "botId": "bot8",
+    "tenantId": "tenant8",
+    "environment": "dev",
+    "channel": "mobile",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser9",
+    "botId": "bot9",
+    "accountId": "account9",
+    "environment": "test",
+    "channel": "web",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser10",
+    "botId": "bot10",
+    "accountId": "account10",
+    "tenantId": "tenant10",
+    "channel": "mobile",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser11",
+    "botId": "bot11",
+    "accountId": "account11",
+    "tenantId": "tenant11",
+    "environment": "prod",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser12",
+    "botId": "bot12",
+    "accountId": "account12",
+    "tenantId": "tenant12",
+    "channel": "web",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser13",
+    "botId": "bot13",
+    "accountId": "account13",
+    "environment": "dev",
+    "channel": "mobile",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser14",
+    "botId": "bot14",
+    "tenantId": "tenant14",
+    "environment": "test",
+    "channel": "web",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser15",
+    "accountId": "account15",
+    "tenantId": "tenant15",
+    "environment": "prod",
+    "channel": "mobile",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

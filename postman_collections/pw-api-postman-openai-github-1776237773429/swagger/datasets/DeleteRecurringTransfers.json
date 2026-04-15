@@ -1,0 +1,126 @@
+[
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "statusCode": 200,
+    "scenario": "Recurring transfer deleted successfully"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "Recurring transfer deleted successfully"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "paymentId": "PID123",
+    "statusCode": 200,
+    "scenario": "Recurring transfer deleted successfully"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "userCode": "UC123",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "paymentId": "PID123",
+    "updateTransferType": "all",
+    "sourceAccountId": "1042345",
+    "statusCode": 200,
+    "scenario": "Recurring transfer deleted successfully"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "paymentId": "PID123",
+    "updateTransferType": "all",
+    "statusCode": 200,
+    "scenario": "Recurring transfer deleted successfully"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "paymentId": "PID123",
+    "statusCode": 200,
+    "scenario": "Recurring transfer deleted successfully"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "Recurring transfer deleted successfully"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "statusCode": 200,
+    "scenario": "Recurring transfer deleted successfully"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "statusCode": 200,
+    "scenario": "Recurring transfer deleted successfully"
+  }
+]

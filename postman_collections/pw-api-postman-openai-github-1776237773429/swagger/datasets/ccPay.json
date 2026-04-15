@@ -1,0 +1,120 @@
+[
+  {
+    "koreUserId": "user1",
+    "botId": "bot1",
+    "accountId": "acc1",
+    "customerId": 1045300,
+    "amount": "1000",
+    "currency": "USD",
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "user2",
+    "botId": "bot2",
+    "accountId": "acc2",
+    "customerId": 1045301,
+    "amount": "2000",
+    "currency": "EUR",
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "user3",
+    "botId": "bot3",
+    "accountId": "acc3",
+    "customerId": 1045302,
+    "amount": "3000",
+    "currency": "GBP",
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "user4",
+    "botId": "bot4",
+    "accountId": "acc4",
+    "customerId": 1045303,
+    "amount": "4000",
+    "currency": "JPY",
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "user5",
+    "botId": "bot5",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user6",
+    "botId": "bot6",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user7",
+    "botId": "bot7",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user8",
+    "botId": "bot8",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user9",
+    "botId": "bot9",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user10",
+    "botId": "bot10",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user11",
+    "botId": "bot11",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user12",
+    "botId": "bot12",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user13",
+    "botId": "bot13",
+    "accountId": "acc13",
+    "customerId": 1045313,
+    "amount": "13000",
+    "currency": "CAD",
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "user14",
+    "botId": "bot14",
+    "accountId": "acc14",
+    "customerId": 1045314,
+    "amount": "14000",
+    "currency": "AUD",
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "user15",
+    "botId": "bot15",
+    "accountId": "acc15",
+    "customerId": 1045315,
+    "amount": "15000",
+    "currency": "NZD",
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  }
+]
