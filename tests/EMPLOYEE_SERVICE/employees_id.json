@@ -1,0 +1,38 @@
+[
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "System Analyst",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "id": "32e23ab0-dc9d-49b7-8a9a-c2e7f23ab123",
+    "jobTitle": "Senior Programmer",
+    "name": "Jane Doe",
+    "email": "jane.doe@acme-corp.com",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "System Analyst",
+    "email": "john.smith@acme-corp.com",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "id": "not-a-uuid",
+    "jobTitle": "System Analyst",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "id": "99999999-aaaa-bbbb-cccc-000000000000",
+    "statusCode": 404,
+    "scenario": "Client error responses: Not Found"
+  }
+]
