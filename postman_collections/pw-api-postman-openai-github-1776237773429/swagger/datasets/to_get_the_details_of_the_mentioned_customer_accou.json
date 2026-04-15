@@ -1,0 +1,108 @@
+[
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU124",
+    "botId": "BOT124",
+    "accountId": "AC124",
+    "customerId": 1045301,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU125",
+    "botId": "BOT125",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU126",
+    "botId": "BOT126",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU127",
+    "botId": "BOT127",
+    "accountId": "AC127",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU128",
+    "botId": "BOT128",
+    "accountId": "AC128",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU129",
+    "botId": "BOT129",
+    "accountId": "AC129",
+    "customerId": 1045302,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU130",
+    "botId": "BOT130",
+    "accountId": "AC130",
+    "customerId": 1045303,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU131",
+    "botId": "BOT131",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU132",
+    "botId": "BOT132",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU133",
+    "botId": "BOT133",
+    "accountId": "AC133",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU134",
+    "botId": "BOT134",
+    "accountId": "AC134",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU135",
+    "botId": "BOT135",
+    "accountId": "AC135",
+    "customerId": 1045304,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU136",
+    "botId": "BOT136",
+    "accountId": "AC136",
+    "customerId": 1045305,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU137",
+    "botId": "BOT137",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

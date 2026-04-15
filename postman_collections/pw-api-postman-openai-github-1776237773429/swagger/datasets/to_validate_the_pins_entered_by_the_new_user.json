@@ -1,0 +1,137 @@
+[
+  {
+    "koreUserId": "user123",
+    "botId": "bot456",
+    "accountId": "account789",
+    "sourcePin": "1234",
+    "targetPin": "5678",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "user321",
+    "botId": "bot654",
+    "accountId": "account987",
+    "sourcePin": "4321",
+    "targetPin": "8765",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "user111",
+    "botId": "bot222",
+    "accountId": "account333",
+    "sourcePin": "4444",
+    "targetPin": "5555",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "user999",
+    "botId": "bot888",
+    "accountId": "account777",
+    "sourcePin": "6666",
+    "targetPin": "9999",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "user777",
+    "botId": "bot666",
+    "accountId": "account555",
+    "sourcePin": "7777",
+    "targetPin": "8888",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "user555",
+    "botId": "bot444",
+    "accountId": "account333",
+    "sourcePin": "9999",
+    "targetPin": "1111",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user333",
+    "botId": "bot222",
+    "accountId": "account111",
+    "sourcePin": "2222",
+    "targetPin": "3333",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user222",
+    "botId": "bot111",
+    "accountId": "account000",
+    "sourcePin": "4444",
+    "targetPin": "5555",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user000",
+    "botId": "bot999",
+    "accountId": "account888",
+    "sourcePin": "6666",
+    "targetPin": "7777",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user888",
+    "botId": "bot777",
+    "accountId": "account666",
+    "sourcePin": "8888",
+    "targetPin": "9999",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user666",
+    "botId": "bot555",
+    "accountId": "account444",
+    "sourcePin": "1111",
+    "targetPin": "2222",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user444",
+    "botId": "bot333",
+    "accountId": "account222",
+    "sourcePin": "3333",
+    "targetPin": "4444",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user222",
+    "botId": "bot111",
+    "accountId": "account000",
+    "sourcePin": "5555",
+    "targetPin": "6666",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user000",
+    "botId": "bot999",
+    "accountId": "account888",
+    "sourcePin": "7777",
+    "targetPin": "8888",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user888",
+    "botId": "bot777",
+    "accountId": "account666",
+    "sourcePin": "9999",
+    "targetPin": "1111",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
