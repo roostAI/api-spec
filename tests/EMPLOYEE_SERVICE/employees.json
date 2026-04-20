@@ -1,0 +1,55 @@
+[
+  {
+    "id": "emp001",
+    "jobTitle": "Software Engineer",
+    "statusCode": 201,
+    "scenario": "Successful responses: Created"
+  },
+  {
+    "id": "emp002",
+    "jobTitle": "HR Manager",
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "statusCode": 201,
+    "scenario": "Successful responses: Created"
+  },
+  {
+    "jobTitle": "Data Scientist",
+    "name": "Bob Lee",
+    "email": "bob.lee@example.com",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "id": "emp003",
+    "jobTitle": "",
+    "name": "Charlie Green",
+    "email": "charlie.green@example.com",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "id": "",
+    "jobTitle": "Operations Lead",
+    "name": "Daniel Smith",
+    "email": "daniel.smith@example.com",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "id": "emp002",
+    "jobTitle": "HR Manager",
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "statusCode": 409,
+    "scenario": "Client error responses: Conflict"
+  },
+  {
+    "id": "emp999",
+    "jobTitle": "Accountant",
+    "name": "Evelyn White",
+    "email": "evelyn.white@invalid",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  }
+]
