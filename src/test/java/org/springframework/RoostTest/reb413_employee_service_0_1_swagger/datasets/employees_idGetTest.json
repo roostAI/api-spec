@@ -1,0 +1,22 @@
+[
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with proper path param"
+  },
+  {
+    "id": "invalid-id",
+    "expected_statusCode": 404,
+    "scenario": "Test an invalid 'id' path param returns 404"
+  },
+  {
+    "id": "",
+    "expected_statusCode": 404,
+    "scenario": "Test a missing 'id' path param returns 404"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "expected_statusCode": 200,
+    "scenario": "Test the response contains all required fields"
+  }
+]
