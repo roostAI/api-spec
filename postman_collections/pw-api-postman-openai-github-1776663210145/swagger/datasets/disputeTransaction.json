@@ -1,0 +1,129 @@
+[
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "emailId": "John@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "KU124",
+    "botId": "BID124",
+    "accountId": "AC124",
+    "customerId": 1045301,
+    "emailId": "Jane@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "KU125",
+    "botId": "BID125",
+    "accountId": "AC125",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU126",
+    "botId": "BID126",
+    "customerId": 1045302,
+    "emailId": "Robert@yahoo.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU127",
+    "accountId": "AC127",
+    "customerId": 1045303,
+    "emailId": "Emma@yahoo.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU128",
+    "botId": "BID128",
+    "accountId": "AC128",
+    "customerId": 1045304,
+    "emailId": "Oliver@yahoo.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU129",
+    "botId": "BID129",
+    "accountId": "AC129",
+    "customerId": 1045305,
+    "emailId": "Sophia@yahoo.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU130",
+    "botId": "BID130",
+    "accountId": "AC130",
+    "customerId": 1045306,
+    "emailId": "Mia@yahoo.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU131",
+    "botId": "BID131",
+    "accountId": "AC131",
+    "customerId": 1045307,
+    "emailId": "Lucas@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "KU132",
+    "botId": "BID132",
+    "accountId": "AC132",
+    "customerId": 1045308,
+    "emailId": "Ella@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "KU133",
+    "botId": "BID133",
+    "accountId": "AC133",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU134",
+    "botId": "BID134",
+    "customerId": 1045309,
+    "emailId": "Liam@yahoo.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU135",
+    "accountId": "AC135",
+    "customerId": 1045310,
+    "emailId": "Ava@yahoo.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU136",
+    "botId": "BID136",
+    "accountId": "AC136",
+    "customerId": 1045311,
+    "emailId": "Noah@yahoo.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU137",
+    "botId": "BID137",
+    "accountId": "AC137",
+    "customerId": 1045312,
+    "emailId": "Isabella@yahoo.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

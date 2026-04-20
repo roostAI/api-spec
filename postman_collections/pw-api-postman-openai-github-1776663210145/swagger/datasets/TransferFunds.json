@@ -1,0 +1,156 @@
+[
+  {
+    "koreUserId": "user1",
+    "botId": "bot1",
+    "userCode": "code1",
+    "accountId": "acc1",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "currency": "USD",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "koreUserId": "user2",
+    "botId": "bot2",
+    "userCode": "code2",
+    "accountId": "acc2",
+    "customerId": 1045301,
+    "amount": "1042223",
+    "currency": "EUR",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "date": "03-16-2021",
+    "description": "Internal Transfer",
+    "TransactionType": "1063",
+    "PaymentType": "Minimum Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "koreUserId": "user3",
+    "botId": "bot3",
+    "userCode": "code3",
+    "accountId": "acc3",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user4",
+    "botId": "bot4",
+    "userCode": "code4",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user5",
+    "botId": "bot5",
+    "userCode": "code5",
+    "accountId": "acc5",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user6",
+    "botId": "bot6",
+    "userCode": "code6",
+    "accountId": "acc6",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user7",
+    "botId": "bot7",
+    "userCode": "code7",
+    "accountId": "acc7",
+    "customerId": 1045307,
+    "amount": "1042227",
+    "currency": "GBP",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "koreUserId": "user8",
+    "botId": "bot8",
+    "userCode": "code8",
+    "accountId": "acc8",
+    "customerId": 1045308,
+    "amount": "1042228",
+    "currency": "JPY",
+    "sourceAccountId": "1042348",
+    "targetAccountId": "1042228",
+    "date": "03-17-2021",
+    "description": "Internal Transfer",
+    "TransactionType": "1063",
+    "PaymentType": "Minimum Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "koreUserId": "user9",
+    "botId": "bot9",
+    "userCode": "code9",
+    "accountId": "acc9",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user10",
+    "botId": "bot10",
+    "userCode": "code10",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user11",
+    "botId": "bot11",
+    "userCode": "code11",
+    "accountId": "acc11",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user12",
+    "botId": "bot12",
+    "userCode": "code12",
+    "accountId": "acc12",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user13",
+    "botId": "bot13",
+    "userCode": "code13",
+    "accountId": "acc13",
+    "customerId": 1045313,
+    "amount": "10422213",
+    "currency": "AUD",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "koreUserId": "user14",
+    "botId": "bot14",
+    "userCode": "code14",
+    "accountId": "acc14",
+    "customerId": 1045314,
+    "amount": "10422214",
+    "currency": "CAD",
+    "sourceAccountId": "10423414",
+    "targetAccountId": "10422214",
+    "date": "03-18-2021",
+    "description": "Internal Transfer",
+    "TransactionType": "1063",
+    "PaymentType": "Minimum Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "koreUserId": "user15",
+    "botId": "bot15",
+    "userCode": "code15",
+    "accountId": "acc15",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

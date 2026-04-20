@@ -1,0 +1,141 @@
+[
+  {
+    "koreUserId": "koreUser1",
+    "botId": "bot1",
+    "accountId": "account1",
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "koreUser2",
+    "botId": "bot2",
+    "accountId": "account2",
+    "customerId": 1045301,
+    "email": "John1@gmail.com",
+    "secondaryEmail": "John2@gmail.com",
+    "subscribe": true,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "koreUser3",
+    "botId": "bot3",
+    "accountId": "account3",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "koreUser4",
+    "botId": "bot4",
+    "accountId": "account4",
+    "customerId": 1045302,
+    "email": "John3@gmail.com",
+    "secondaryEmail": "John4@gmail.com",
+    "subscribe": "true",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "koreUser5",
+    "botId": "bot5",
+    "accountId": "account5",
+    "customerId": "1045303",
+    "email": "John5@gmail.com",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "koreUser6",
+    "botId": "bot6",
+    "accountId": "account6",
+    "customerId": 1045304,
+    "email": "John6@gmail.com",
+    "secondaryEmail": "John7@gmail.com",
+    "subscribe": false,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "koreUser7",
+    "botId": "bot7",
+    "accountId": "account7",
+    "customerId": 1045305,
+    "email": "John8@gmail.com",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "koreUser8",
+    "botId": "bot8",
+    "accountId": "account8",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser9",
+    "botId": "bot9",
+    "accountId": "account9",
+    "customerId": 1045306,
+    "email": "John9@gmail.com",
+    "secondaryEmail": "John10@gmail.com",
+    "subscribe": true,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "koreUser10",
+    "botId": "bot10",
+    "accountId": "account10",
+    "customerId": 1045307,
+    "email": "John11@gmail.com",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "koreUser11",
+    "botId": "bot11",
+    "accountId": "account11",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser12",
+    "botId": "bot12",
+    "accountId": "account12",
+    "customerId": 1045308,
+    "email": "John12@gmail.com",
+    "secondaryEmail": "John13@gmail.com",
+    "subscribe": false,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "koreUser13",
+    "botId": "bot13",
+    "accountId": "account13",
+    "customerId": 1045309,
+    "email": "John14@gmail.com",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "koreUser14",
+    "botId": "bot14",
+    "accountId": "account14",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser15",
+    "botId": "bot15",
+    "accountId": "account15",
+    "customerId": 1045310,
+    "email": "John15@gmail.com",
+    "secondaryEmail": "John16@gmail.com",
+    "subscribe": true,
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]
