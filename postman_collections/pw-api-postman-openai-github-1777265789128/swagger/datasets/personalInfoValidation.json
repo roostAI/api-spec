@@ -1,0 +1,131 @@
+[
+  {
+    "customerId": 1045300,
+    "dob": "1999-05-05T00:00:00.000+0000",
+    "ssn": 104531234,
+    "secrectPassword": "Sam",
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045300,
+    "dob": "1999-05-05T00:00:00.000+0000",
+    "ssn": 104531234,
+    "secrectPassword": "Sam",
+    "AccNumber": "1042345",
+    "lastDepositAmt": 500,
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045300,
+    "dob": "1999-05-05T00:00:00.000+0000",
+    "ssn": 104531234,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "customerId": 1045300,
+    "dob": "1999-05-05T00:00:00.000+0000",
+    "ssn": "invalid_ssn",
+    "secrectPassword": "Sam",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "customerId": "invalid_customerId",
+    "dob": "1999-05-05T00:00:00.000+0000",
+    "ssn": 104531234,
+    "secrectPassword": "Sam",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045300,
+    "dob": "invalid_dob",
+    "ssn": 104531234,
+    "secrectPassword": "Sam",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "customerId": 1045300,
+    "dob": "1999-05-05T00:00:00.000+0000",
+    "ssn": 104531234,
+    "secrectPassword": "invalid_secrectPassword",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "customerId": 1045300,
+    "dob": "1999-05-05T00:00:00.000+0000",
+    "ssn": 104531234,
+    "secrectPassword": "Sam",
+    "AccNumber": "invalid_AccNumber",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "customerId": 1045300,
+    "dob": "1999-05-05T00:00:00.000+0000",
+    "ssn": 104531234,
+    "secrectPassword": "Sam",
+    "AccNumber": "1042345",
+    "lastDepositAmt": "invalid_lastDepositAmt",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "customerId": 1045300,
+    "dob": "1999-05-05T00:00:00.000+0000",
+    "ssn": 104531234,
+    "secrectPassword": "Sam",
+    "AccNumber": "1042345",
+    "lastDepositAmt": 500,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045300,
+    "dob": "1999-05-05T00:00:00.000+0000",
+    "ssn": 104531234,
+    "secrectPassword": "Sam",
+    "AccNumber": "1042345",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045300,
+    "dob": "1999-05-05T00:00:00.000+0000",
+    "ssn": 104531234,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045300,
+    "dob": "1999-05-05T00:00:00.000+0000",
+    "ssn": 104531234,
+    "secrectPassword": "Sam",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045300,
+    "dob": "1999-05-05T00:00:00.000+0000",
+    "ssn": 104531234,
+    "secrectPassword": "Sam",
+    "AccNumber": "1042345",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045300,
+    "dob": "1999-05-05T00:00:00.000+0000",
+    "ssn": 104531234,
+    "secrectPassword": "Sam",
+    "AccNumber": "1042345",
+    "lastDepositAmt": 500,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

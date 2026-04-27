@@ -1,0 +1,162 @@
+[
+  {
+    "koreUserId": "koreUser1",
+    "botId": "bot1",
+    "userCode": "userCode1",
+    "accountId": "acc1",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "currency": "USD",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "date": "03-15-2021",
+    "description": "Internal Transfer",
+    "TransactionType": "1063",
+    "PaymentType": "Minimum Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "koreUserId": "koreUser2",
+    "botId": "bot2",
+    "userCode": "userCode2",
+    "accountId": "acc2",
+    "customerId": 1045301,
+    "amount": "1042223",
+    "currency": "EUR",
+    "sourceAccountId": "1042346",
+    "targetAccountId": "1042223",
+    "date": "03-16-2021",
+    "description": "Internal Transfer",
+    "TransactionType": "1064",
+    "PaymentType": "Minimum Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "koreUserId": "koreUser3",
+    "botId": "bot3",
+    "userCode": "userCode3",
+    "accountId": "acc3",
+    "customerId": 1045302,
+    "amount": "1042224",
+    "currency": "GBP",
+    "sourceAccountId": "1042347",
+    "targetAccountId": "1042224",
+    "date": "03-17-2021",
+    "description": "Internal Transfer",
+    "TransactionType": "1065",
+    "PaymentType": "Minimum Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "koreUserId": "koreUser4",
+    "botId": "bot4",
+    "userCode": "userCode4",
+    "accountId": "acc4",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser5",
+    "botId": "bot5",
+    "userCode": "userCode5",
+    "accountId": "acc5",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser6",
+    "botId": "bot6",
+    "userCode": "userCode6",
+    "accountId": "acc6",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser7",
+    "botId": "bot7",
+    "userCode": "userCode7",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser8",
+    "botId": "bot8",
+    "userCode": "userCode8",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser9",
+    "botId": "bot9",
+    "userCode": "userCode9",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser10",
+    "botId": "bot10",
+    "userCode": "userCode10",
+    "accountId": "acc10",
+    "customerId": 1045309,
+    "amount": "1042229",
+    "currency": "JPY",
+    "sourceAccountId": "1042349",
+    "targetAccountId": "1042229",
+    "date": "03-19-2021",
+    "description": "Internal Transfer",
+    "TransactionType": "1067",
+    "PaymentType": "Minimum Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "koreUserId": "koreUser11",
+    "botId": "bot11",
+    "userCode": "userCode11",
+    "accountId": "acc11",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser12",
+    "botId": "bot12",
+    "userCode": "userCode12",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser13",
+    "botId": "bot13",
+    "userCode": "userCode13",
+    "accountId": "acc13",
+    "customerId": 1045312,
+    "amount": "1042232",
+    "currency": "CAD",
+    "sourceAccountId": "1042352",
+    "targetAccountId": "1042232",
+    "date": "03-20-2021",
+    "description": "Internal Transfer",
+    "TransactionType": "1068",
+    "PaymentType": "Minimum Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "koreUserId": "koreUser14",
+    "botId": "bot14",
+    "userCode": "userCode14",
+    "accountId": "acc14",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser15",
+    "botId": "bot15",
+    "userCode": "userCode15",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

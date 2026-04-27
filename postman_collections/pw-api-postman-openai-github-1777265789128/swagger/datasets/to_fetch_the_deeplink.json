@@ -1,0 +1,136 @@
+[
+  {
+    "koreUserId": "KU12345",
+    "botId": "B12345",
+    "accountId": "A12345",
+    "tenantId": "T12345",
+    "environment": "production",
+    "channel": "web",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU12346",
+    "botId": "B12346",
+    "accountId": "A12346",
+    "tenantId": "T12346",
+    "environment": "development",
+    "channel": "mobile",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU12347",
+    "botId": "B12347",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12348",
+    "botId": "B12348",
+    "accountId": "A12348",
+    "tenantId": "T12348",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12349",
+    "botId": "B12349",
+    "accountId": "A12349",
+    "tenantId": "T12349",
+    "environment": "staging",
+    "channel": "web",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12350",
+    "botId": "B12350",
+    "accountId": "A12350",
+    "tenantId": "T12350",
+    "environment": "production",
+    "channel": "mobile",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12351",
+    "botId": "B12351",
+    "accountId": "A12351",
+    "tenantId": "T12351",
+    "environment": "development",
+    "channel": "web",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU12352",
+    "botId": "B12352",
+    "accountId": "A12352",
+    "tenantId": "T12352",
+    "environment": "staging",
+    "channel": "mobile",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU12353",
+    "botId": "B12353",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12354",
+    "botId": "B12354",
+    "accountId": "A12354",
+    "tenantId": "T12354",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12355",
+    "botId": "B12355",
+    "accountId": "A12355",
+    "tenantId": "T12355",
+    "environment": "production",
+    "channel": "web",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12356",
+    "botId": "B12356",
+    "accountId": "A12356",
+    "tenantId": "T12356",
+    "environment": "development",
+    "channel": "mobile",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12357",
+    "botId": "B12357",
+    "accountId": "A12357",
+    "tenantId": "T12357",
+    "environment": "staging",
+    "channel": "web",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU12358",
+    "botId": "B12358",
+    "accountId": "A12358",
+    "tenantId": "T12358",
+    "environment": "production",
+    "channel": "mobile",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "KU12359",
+    "botId": "B12359",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

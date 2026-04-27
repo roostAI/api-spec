@@ -1,0 +1,137 @@
+[
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "sourcePin": "SP123",
+    "targetPin": "TP123",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "KU124",
+    "botId": "BID124",
+    "accountId": "AC124",
+    "sourcePin": "SP124",
+    "targetPin": "TP124",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "KU125",
+    "botId": "BID125",
+    "accountId": "AC125",
+    "sourcePin": "SP125",
+    "targetPin": "TP125",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "KU126",
+    "botId": "BID126",
+    "accountId": "AC126",
+    "sourcePin": "SP126",
+    "targetPin": "TP126",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "KU127",
+    "botId": "BID127",
+    "accountId": "AC127",
+    "sourcePin": "SP127",
+    "targetPin": "TP127",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "KU128",
+    "botId": "BID128",
+    "accountId": "AC128",
+    "sourcePin": "SP128",
+    "targetPin": "TP128",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU129",
+    "botId": "BID129",
+    "accountId": "AC129",
+    "sourcePin": "SP129",
+    "targetPin": "TP129",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU130",
+    "botId": "BID130",
+    "accountId": "AC130",
+    "sourcePin": "SP130",
+    "targetPin": "TP130",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU131",
+    "botId": "BID131",
+    "accountId": "AC131",
+    "sourcePin": "SP131",
+    "targetPin": "TP131",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU132",
+    "botId": "BID132",
+    "accountId": "AC132",
+    "sourcePin": "SP132",
+    "targetPin": "TP132",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU133",
+    "botId": "BID133",
+    "accountId": "AC133",
+    "sourcePin": "SP133",
+    "targetPin": "TP133",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU134",
+    "botId": "BID134",
+    "accountId": "AC134",
+    "sourcePin": "SP134",
+    "targetPin": "TP134",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU135",
+    "botId": "BID135",
+    "accountId": "AC135",
+    "sourcePin": "SP135",
+    "targetPin": "TP135",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU136",
+    "botId": "BID136",
+    "accountId": "AC136",
+    "sourcePin": "SP136",
+    "targetPin": "TP136",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU137",
+    "botId": "BID137",
+    "accountId": "AC137",
+    "sourcePin": "SP137",
+    "targetPin": "TP137",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
