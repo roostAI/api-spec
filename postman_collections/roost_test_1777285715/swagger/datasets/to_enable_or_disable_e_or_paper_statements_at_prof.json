@@ -1,0 +1,142 @@
+[
+  {
+    "koreUserId": "u-7721",
+    "botId": "st-9928",
+    "accountId": "acc-1001",
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-7722",
+    "botId": "st-9929",
+    "accountId": "acc-1002",
+    "customerId": 1045301,
+    "email": "Alice@gmail.com",
+    "secondaryEmail": "Alice.work@gmail.com",
+    "subscribe": true,
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-7723",
+    "botId": "st-9930",
+    "accountId": "acc-1003",
+    "customerId": 1045302,
+    "email": "Bob@gmail.com",
+    "secondaryEmail": "Bob.alt@gmail.com",
+    "subscribe": false,
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "botId": "st-9931",
+    "accountId": "acc-1004",
+    "customerId": 1045303,
+    "email": "missing_user@gmail.com",
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing Required Field koreUserId"
+  },
+  {
+    "koreUserId": "u-7724",
+    "botId": "st-9932",
+    "accountId": "acc-1005",
+    "email": "missing_id@gmail.com",
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing Required Field customerId"
+  },
+  {
+    "koreUserId": "u-7725",
+    "botId": "st-9933",
+    "accountId": "acc-1006",
+    "customerId": "invalid_type_string",
+    "email": "bad_type@gmail.com",
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid Data Type for customerId"
+  },
+  {
+    "koreUserId": "u-7726",
+    "botId": "st-9934",
+    "accountId": "acc-1007",
+    "customerId": 1045304,
+    "email": "unauthorized_user@gmail.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-7727",
+    "botId": "st-9935",
+    "accountId": "acc-1008",
+    "customerId": 1045305,
+    "email": "expired_session@gmail.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-non-existent",
+    "botId": "st-9936",
+    "accountId": "acc-1009",
+    "customerId": 9999999,
+    "email": "notfound@gmail.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-7728",
+    "botId": "st-invalid-bot",
+    "accountId": "acc-1010",
+    "customerId": 1045306,
+    "email": "botnotfound@gmail.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-7729",
+    "botId": "st-9937",
+    "accountId": "acc-1011",
+    "customerId": 1045307,
+    "email": "charlie@gmail.com",
+    "subscribe": true,
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-7730",
+    "botId": "st-9938",
+    "accountId": "acc-1012",
+    "customerId": 1045308,
+    "email": "invalid_email_format",
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid Email Format"
+  },
+  {
+    "koreUserId": "u-7731",
+    "botId": "st-9939",
+    "accountId": "acc-invalid-id",
+    "customerId": 1045309,
+    "email": "accnotfound@gmail.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-7732",
+    "botId": "st-9940",
+    "accountId": "acc-1013",
+    "customerId": 1045310,
+    "email": "david@gmail.com",
+    "secondaryEmail": "david2@gmail.com",
+    "subscribe": false,
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-7733",
+    "botId": "st-9941",
+    "accountId": "acc-1014",
+    "customerId": 1045311,
+    "email": "eve@gmail.com",
+    "statusCode": 200,
+    "scenario": "success"
+  }
+]

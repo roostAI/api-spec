@@ -1,0 +1,139 @@
+[
+  {
+    "koreUserId": "user_9921",
+    "botId": "bot_finance_01",
+    "accountId": "ACC-77281",
+    "customerId": 1045300,
+    "amount": "1500.50",
+    "currency": "USD",
+    "statusCode": 200,
+    "scenario": "Deposit success"
+  },
+  {
+    "koreUserId": "user_8832",
+    "botId": "bot_finance_01",
+    "accountId": "ACC-11209",
+    "customerId": 1045301,
+    "sourceAccountId": "1042345",
+    "amount": "250.00",
+    "currency": "EUR",
+    "image.frontImage": "base64_encoded_front_string_data",
+    "image.backImage": "base64_encoded_back_string_data",
+    "statusCode": 200,
+    "scenario": "Deposit success"
+  },
+  {
+    "koreUserId": "user_7743",
+    "botId": "bot_finance_01",
+    "accountId": "ACC-55432",
+    "customerId": 1045302,
+    "amount": "1042222",
+    "currency": "GBP",
+    "statusCode": 200,
+    "scenario": "Deposit success"
+  },
+  {
+    "koreUserId": "user_6654",
+    "botId": "bot_finance_01",
+    "accountId": "ACC-99887",
+    "customerId": 1045303,
+    "sourceAccountId": "1042999",
+    "amount": "50.25",
+    "currency": "USD",
+    "image.frontImage": "img_data_001",
+    "image.backImage": "img_data_002",
+    "statusCode": 200,
+    "scenario": "Deposit success"
+  },
+  {
+    "koreUserId": "user_5565",
+    "botId": "bot_finance_01",
+    "accountId": "ACC-33445",
+    "customerId": 1045304,
+    "amount": "3000",
+    "currency": "JPY",
+    "statusCode": 200,
+    "scenario": "Deposit success"
+  },
+  {
+    "koreUserId": "user_invalid_auth",
+    "botId": "bot_finance_01",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user_expired_token",
+    "botId": "bot_finance_01",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user_9921",
+    "botId": "bot_finance_01",
+    "accountId": "NON_EXISTENT_ACC",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user_9921",
+    "botId": "INVALID_BOT_ID",
+    "accountId": "ACC-77281",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user_9921",
+    "botId": "bot_finance_01",
+    "accountId": "ACC-77281",
+    "amount": "100.00",
+    "currency": "USD",
+    "statusCode": 400,
+    "scenario": "Bad Request: Missing customerId"
+  },
+  {
+    "koreUserId": "user_9921",
+    "botId": "bot_finance_01",
+    "accountId": "ACC-77281",
+    "customerId": 1045300,
+    "currency": "USD",
+    "statusCode": 400,
+    "scenario": "Bad Request: Missing amount"
+  },
+  {
+    "koreUserId": "user_9921",
+    "botId": "bot_finance_01",
+    "accountId": "ACC-77281",
+    "customerId": 1045300,
+    "amount": "100.00",
+    "currency": "INVALID_CURRENCY_CODE",
+    "statusCode": 400,
+    "scenario": "Bad Request: Invalid currency enum"
+  },
+  {
+    "koreUserId": "user_9921",
+    "accountId": "ACC-77281",
+    "customerId": 1045300,
+    "amount": "100.00",
+    "currency": "USD",
+    "statusCode": 400,
+    "scenario": "Bad Request: Missing botId"
+  },
+  {
+    "botId": "bot_finance_01",
+    "accountId": "ACC-77281",
+    "customerId": 1045300,
+    "amount": "100.00",
+    "currency": "USD",
+    "statusCode": 400,
+    "scenario": "Bad Request: Missing koreUserId"
+  },
+  {
+    "koreUserId": "user_9921",
+    "botId": "bot_finance_01",
+    "customerId": 1045300,
+    "amount": "100.00",
+    "currency": "USD",
+    "statusCode": 400,
+    "scenario": "Bad Request: Missing accountId"
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "koreUserId": "u-88234-x",
+    "botId": "st-9921-bot",
+    "accountId": "ACC-55012",
+    "paymentId": "PMT-77210",
+    "statusCode": 200,
+    "scenario": "Recurring transfer deleted successfully"
+  },
+  {
+    "koreUserId": "u-11223-y",
+    "botId": "st-4456-bot",
+    "userCode": "USR-990",
+    "accountId": "ACC-11223",
+    "customerId": 1045300,
+    "paymentId": "PMT-88321",
+    "updateTransferType": "all",
+    "sourceAccountId": "1042345",
+    "statusCode": 200,
+    "scenario": "Recurring transfer deleted successfully"
+  },
+  {
+    "koreUserId": "u-55432-z",
+    "botId": "st-1122-bot",
+    "accountId": "ACC-99887",
+    "paymentId": "PMT-44556",
+    "updateTransferType": "single",
+    "statusCode": 200,
+    "scenario": "Recurring transfer deleted successfully"
+  },
+  {
+    "koreUserId": "u-77654-a",
+    "botId": "st-3344-bot",
+    "accountId": "ACC-33445",
+    "paymentId": "PMT-11223",
+    "customerId": 2055400,
+    "statusCode": 200,
+    "scenario": "Recurring transfer deleted successfully"
+  },
+  {
+    "koreUserId": "u-99887-b",
+    "botId": "st-5566-bot",
+    "accountId": "ACC-66778",
+    "paymentId": "PMT-99887",
+    "sourceAccountId": "2045678",
+    "statusCode": 200,
+    "scenario": "Recurring transfer deleted successfully"
+  },
+  {
+    "koreUserId": "u-invalid-auth",
+    "botId": "st-9921-bot",
+    "accountId": "ACC-55012",
+    "paymentId": "PMT-77210",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-88234-x",
+    "botId": "st-expired",
+    "accountId": "ACC-55012",
+    "paymentId": "PMT-77210",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-88234-x",
+    "botId": "st-9921-bot",
+    "accountId": "ACC-NONEXISTENT",
+    "paymentId": "PMT-77210",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-88234-x",
+    "botId": "st-9921-bot",
+    "accountId": "ACC-55012",
+    "paymentId": "PMT-MISSING-999",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-88234-x",
+    "botId": "st-9921-bot",
+    "accountId": "ACC-55012",
+    "paymentId": "PMT-77210",
+    "sourceAccountId": "9999999",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "st-9921-bot",
+    "accountId": "ACC-55012",
+    "paymentId": "PMT-77210",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "u-88234-x",
+    "accountId": "ACC-55012",
+    "paymentId": "PMT-77210",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "u-88234-x",
+    "botId": "st-9921-bot",
+    "accountId": "ACC-55012",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "u-88234-x",
+    "botId": "st-9921-bot",
+    "accountId": "ACC-55012",
+    "paymentId": "PMT-77210",
+    "updateTransferType": "invalid_enum_value",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "u-88234-x",
+    "botId": "st-9921-bot",
+    "accountId": "ACC-55012",
+    "paymentId": "PMT-77210",
+    "customerId": "not-a-number",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]

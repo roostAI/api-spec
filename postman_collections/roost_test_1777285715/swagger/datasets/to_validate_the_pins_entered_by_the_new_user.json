@@ -1,0 +1,140 @@
+[
+  {
+    "koreUserId": "u-882731",
+    "botId": "st-9921",
+    "accountId": "acc-7721",
+    "sourcePin": "1234",
+    "targetPin": "1234",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "u-112233",
+    "botId": "st-4455",
+    "accountId": "acc-9900",
+    "sourcePin": "5678",
+    "targetPin": "5678",
+    "profileInfo.customerId": "CUST-101",
+    "profileInfo.accountNumber": "9876543210",
+    "profileInfo.ssn": "999-12-3456",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "u-invalid-auth",
+    "botId": "st-9921",
+    "accountId": "acc-7721",
+    "sourcePin": "1234",
+    "targetPin": "1234",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-882731",
+    "botId": "st-nonexistent",
+    "accountId": "acc-0000",
+    "sourcePin": "1234",
+    "targetPin": "1234",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-882731",
+    "accountId": "acc-7721",
+    "sourcePin": "1234",
+    "targetPin": "1234",
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing botId"
+  },
+  {
+    "koreUserId": "u-554433",
+    "botId": "st-1122",
+    "accountId": "acc-3344",
+    "sourcePin": "9999",
+    "targetPin": "9999",
+    "profileInfo.customerId": "CUST-202",
+    "profileInfo.accountNumber": "1122334455",
+    "profileInfo.ssn": "888-44-5555",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "u-882731",
+    "botId": "st-9921",
+    "accountId": "acc-7721",
+    "targetPin": "1234",
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing sourcePin"
+  },
+  {
+    "koreUserId": "u-expired",
+    "botId": "st-9921",
+    "accountId": "acc-7721",
+    "sourcePin": "1234",
+    "targetPin": "1234",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-882731",
+    "botId": "st-9921",
+    "accountId": "acc-not-found",
+    "sourcePin": "1234",
+    "targetPin": "1234",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-998877",
+    "botId": "st-6677",
+    "accountId": "acc-1122",
+    "sourcePin": "0000",
+    "targetPin": "0000",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "u-882731",
+    "botId": "st-9921",
+    "sourcePin": "1234",
+    "targetPin": "1234",
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing accountId"
+  },
+  {
+    "botId": "st-9921",
+    "accountId": "acc-7721",
+    "sourcePin": "1234",
+    "targetPin": "1234",
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing koreUserId"
+  },
+  {
+    "koreUserId": "u-776655",
+    "botId": "st-3322",
+    "accountId": "acc-4455",
+    "sourcePin": "4321",
+    "targetPin": "4321",
+    "profileInfo.customerId": "CUST-303",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "u-882731",
+    "botId": "st-9921",
+    "accountId": "acc-7721",
+    "sourcePin": "INVALID_FORMAT",
+    "targetPin": "1234",
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid sourcePin format"
+  },
+  {
+    "koreUserId": "u-unknown",
+    "botId": "st-9921",
+    "accountId": "acc-7721",
+    "sourcePin": "1234",
+    "targetPin": "1234",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

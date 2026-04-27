@@ -1,0 +1,162 @@
+[
+  {
+    "koreUserId": "user_8821",
+    "botId": "bot_9920",
+    "paymentId": "pay_556677",
+    "amount": "1500.50",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "user_8821",
+    "botId": "bot_9920",
+    "userCode": "UC_991",
+    "accountId": "ACC_1122",
+    "customerId": 1045300,
+    "paymentId": "pay_556677",
+    "amount": "1042222",
+    "scheduledDate": 1735689600,
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "user_4432",
+    "botId": "bot_1122",
+    "paymentId": "pay_990011",
+    "amount": "500.00",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "user_7765",
+    "botId": "bot_3344",
+    "userCode": "UC_772",
+    "accountId": "ACC_5566",
+    "customerId": 2055400,
+    "paymentId": "pay_112233",
+    "amount": "250.75",
+    "scheduledDate": 1738368000,
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "koreUserId": "user_1100",
+    "botId": "bot_5566",
+    "paymentId": "pay_445566",
+    "amount": "9999.99",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer updated successfully"
+  },
+  {
+    "botId": "bot_9920",
+    "paymentId": "pay_556677",
+    "amount": "1500.50",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user_8821",
+    "userCode": "INVALID_CODE",
+    "paymentId": "pay_556677",
+    "amount": "1500.50",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user_8821",
+    "botId": "bot_9920",
+    "accountId": "ACC_EXPIRED",
+    "paymentId": "pay_556677",
+    "amount": "1500.50",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user_9999",
+    "botId": "bot_0000",
+    "paymentId": "pay_000000",
+    "amount": "0.00",
+    "sourceAccountId": "0000000",
+    "targetAccountId": "0000000",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "unauthorized_user",
+    "botId": "bot_9920",
+    "paymentId": "pay_556677",
+    "amount": "1500.50",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user_8821",
+    "botId": "bot_9920",
+    "paymentId": "NON_EXISTENT_PAY_ID",
+    "amount": "1500.50",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user_8821",
+    "botId": "bot_9920",
+    "customerId": 9999999,
+    "paymentId": "pay_556677",
+    "amount": "1500.50",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user_8821",
+    "botId": "bot_9920",
+    "paymentId": "pay_556677",
+    "amount": "1500.50",
+    "sourceAccountId": "9999999",
+    "targetAccountId": "1042222",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user_8821",
+    "botId": "bot_9920",
+    "paymentId": "pay_556677",
+    "amount": "1500.50",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "8888888",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user_8821",
+    "botId": "bot_9920",
+    "accountId": "MISSING_ACC_ID",
+    "paymentId": "pay_556677",
+    "amount": "1500.50",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

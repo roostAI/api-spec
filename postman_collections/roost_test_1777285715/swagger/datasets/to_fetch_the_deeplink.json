@@ -1,0 +1,162 @@
+[
+  {
+    "koreUserId": "u-7721-991",
+    "botId": "st-9921-001",
+    "accountId": "acc-5544-11",
+    "tenantId": "t-8822-33",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-8832-112",
+    "botId": "st-1122-445",
+    "accountId": "acc-6677-22",
+    "tenantId": "t-9933-44",
+    "environment": "production",
+    "channel": "rtm",
+    "usecase_0": "user_onboarding",
+    "usecase_1": "profile_update",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-1122-334",
+    "botId": "st-4455-667",
+    "accountId": "acc-1122-33",
+    "tenantId": "t-4455-66",
+    "environment": "development",
+    "channel": "webhook",
+    "usecase_0": "billing_query",
+    "usecase_1": "invoice_download",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-invalid-999",
+    "botId": "st-notfound-000",
+    "accountId": "acc-0000-00",
+    "tenantId": "t-0000-00",
+    "environment": "staging",
+    "channel": "slack",
+    "usecase_0": "test_case",
+    "usecase_1": "debug_mode",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-5566-778",
+    "accountId": "acc-8899-00",
+    "tenantId": "t-1122-33",
+    "environment": "production",
+    "channel": "msteams",
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing botId"
+  },
+  {
+    "koreUserId": "u-9900-112",
+    "botId": "st-2233-445",
+    "accountId": "acc-3344-55",
+    "tenantId": "t-5566-77",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-2233-445",
+    "botId": "st-5566-778",
+    "accountId": "acc-7788-99",
+    "tenantId": "t-9900-11",
+    "environment": "sandbox",
+    "channel": "facebook",
+    "usecase_0": "order_status",
+    "usecase_1": "track_shipment",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-expired-token",
+    "botId": "st-8899-001",
+    "accountId": "acc-1122-33",
+    "tenantId": "t-4455-66",
+    "environment": "production",
+    "channel": "web",
+    "usecase_0": "api_call",
+    "usecase_1": "fetch_data",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-nonexistent-id",
+    "botId": "st-missing-id",
+    "accountId": "acc-9999-99",
+    "tenantId": "t-9999-99",
+    "environment": "production",
+    "channel": "email",
+    "usecase_0": "support_ticket",
+    "usecase_1": "escalation",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "st-7788-990",
+    "accountId": "acc-2233-44",
+    "tenantId": "t-5566-77",
+    "environment": "development",
+    "channel": "whatsapp",
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing koreUserId"
+  },
+  {
+    "koreUserId": "u-4455-667",
+    "botId": "st-7788-990",
+    "accountId": "acc-1111-22",
+    "tenantId": "t-3333-44",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-6677-889",
+    "botId": "st-9900-112",
+    "accountId": "acc-4455-66",
+    "tenantId": "t-7788-99",
+    "environment": "production",
+    "channel": "apple_business_chat",
+    "usecase_0": "payment_gateway",
+    "usecase_1": "refund_process",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-wrong-creds",
+    "botId": "st-1111-222",
+    "accountId": "acc-2222-33",
+    "tenantId": "t-3333-44",
+    "environment": "staging",
+    "channel": "line",
+    "usecase_0": "auth_test",
+    "usecase_1": "security_check",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-deleted-user",
+    "botId": "st-deleted-bot",
+    "accountId": "acc-8888-88",
+    "tenantId": "t-8888-88",
+    "environment": "production",
+    "channel": "sms",
+    "usecase_0": "notification",
+    "usecase_1": "alert_system",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-3344-556",
+    "botId": "st-6677-889",
+    "accountId": "acc-9900-11",
+    "tenantId": "t-2233-44",
+    "environment": "invalid_env_name",
+    "channel": "unsupported_channel",
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid Enum Values"
+  }
+]

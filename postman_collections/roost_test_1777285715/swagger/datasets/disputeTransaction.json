@@ -1,0 +1,116 @@
+[
+  {
+    "koreUserId": "u-98765",
+    "botId": "st-12345",
+    "accountId": "ACC-778899",
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "u-11223",
+    "botId": "st-55667",
+    "accountId": "ACC-112233",
+    "customerId": 2055400,
+    "transactionsData_0.reasonCode": "RC_FRAUD",
+    "transactionsData_0.transactionId": "TXN-99001",
+    "transactionsData_1.reasonCode": "RC_DUPLICATE",
+    "transactionsData_1.transactionId": "TXN-99002",
+    "emailId": "John@yahoo.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "u-44556",
+    "botId": "st-99001",
+    "accountId": "ACC-445566",
+    "customerId": 3066500,
+    "transactionsData_0.reasonCode": "RC_NOT_RECEIVED",
+    "transactionsData_0.transactionId": "TXN-88001",
+    "emailId": "alice.smith@gmail.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "u-77889",
+    "botId": "st-22334",
+    "accountId": "ACC-990011",
+    "customerId": 4077600,
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "u-33445",
+    "botId": "st-88776",
+    "accountId": "ACC-334455",
+    "customerId": 5088700,
+    "transactionsData_0.reasonCode": "RC_INCORRECT_AMT",
+    "transactionsData_0.transactionId": "TXN-77001",
+    "transactionsData_1.reasonCode": "RC_OTHER",
+    "transactionsData_1.transactionId": "TXN-77002",
+    "emailId": "bob.jones@outlook.com",
+    "statusCode": 200,
+    "scenario": "Dispute Transactions reported successfully"
+  },
+  {
+    "koreUserId": "invalid-user-001",
+    "botId": "st-12345",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-98765",
+    "botId": "wrong-bot-id",
+    "accountId": "ACC-778899",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-11223",
+    "accountId": "ACC-112233",
+    "customerId": 2055400,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "botId": "st-55667",
+    "accountId": "ACC-112233",
+    "emailId": "unauthorized@test.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "expired-session-999",
+    "botId": "st-99001",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 9999999,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "accountId": "NON-EXISTENT-ACC",
+    "customerId": 1045300,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-44556",
+    "transactionsData_0.transactionId": "MISSING-TXN-ID",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 0,
+    "accountId": "ACC-000000",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "emailId": "unknown.user@notfound.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

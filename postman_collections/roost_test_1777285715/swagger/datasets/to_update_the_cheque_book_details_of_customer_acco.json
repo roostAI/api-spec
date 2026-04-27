@@ -1,0 +1,127 @@
+[
+  {
+    "koreUserId": "u-77823",
+    "botId": "st-9921-bot",
+    "accountId": "acc-5501",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-88291",
+    "botId": "st-4432-bot",
+    "accountId": "acc-1102",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "numberOfChequeBooks": 1,
+    "numberOfLeaves": 25,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "botId": "st-9921-bot",
+    "accountId": "acc-5501",
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing required field koreUserId"
+  },
+  {
+    "koreUserId": "u-77823",
+    "botId": "st-9921-bot",
+    "accountId": "acc-5501",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-77823",
+    "botId": "st-9921-bot",
+    "accountId": "acc-9999-invalid",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-11223",
+    "botId": "st-1122-bot",
+    "accountId": "acc-3304",
+    "accountNumber": [
+      "2055678",
+      "2055679"
+    ],
+    "customerId": 2055678,
+    "numberOfChequeBooks": 2,
+    "numberOfLeaves": 50,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-77823",
+    "botId": "st-9921-bot",
+    "accountId": "acc-5501",
+    "customerId": "invalid_string_id",
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid data type for customerId"
+  },
+  {
+    "koreUserId": "u-expired-001",
+    "botId": "st-9921-bot",
+    "accountId": "acc-5501",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-77823",
+    "botId": "st-9921-bot",
+    "accountId": "acc-5501",
+    "customerId": 9999999,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-55432",
+    "botId": "st-8876-bot",
+    "accountId": "acc-2209",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-77823",
+    "accountId": "acc-5501",
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing required field botId"
+  },
+  {
+    "koreUserId": "u-99001",
+    "botId": "st-1234-bot",
+    "accountId": "acc-7766",
+    "accountNumber": [
+      "3044556"
+    ],
+    "customerId": 3044556,
+    "numberOfChequeBooks": 1,
+    "numberOfLeaves": 10,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-unauthorized-user",
+    "botId": "st-9921-bot",
+    "accountId": "acc-5501",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-77823",
+    "botId": "st-9921-bot",
+    "accountId": "acc-non-existent",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-77823",
+    "botId": "st-9921-bot",
+    "accountId": "acc-5501",
+    "accountNumber": "not-an-array-value",
+    "statusCode": 400,
+    "scenario": "Bad Request - accountNumber must be an array"
+  }
+]

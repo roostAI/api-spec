@@ -1,0 +1,104 @@
+[
+  {
+    "koreUserId": "u-5521-8892",
+    "botId": "st-9921-bcde",
+    "accountId": "acc-1001",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "u-7732-1123",
+    "botId": "st-4432-fghi",
+    "accountId": "acc-2002",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "botId": "st-9921-bcde",
+    "accountId": "acc-1001",
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing required field koreUserId"
+  },
+  {
+    "koreUserId": "u-5521-8892",
+    "accountId": "acc-1001",
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing required field botId"
+  },
+  {
+    "koreUserId": "u-5521-8892",
+    "botId": "st-9921-bcde",
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing required field accountId"
+  },
+  {
+    "koreUserId": "invalid_format_user",
+    "botId": "st-9921-bcde",
+    "accountId": "acc-1001",
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid value format for koreUserId"
+  },
+  {
+    "koreUserId": "u-5521-8892",
+    "botId": "st-9921-bcde",
+    "accountId": "acc-1001",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-9999-0000",
+    "botId": "st-0000-0000",
+    "accountId": "acc-0000",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-1234-5678",
+    "botId": "st-8765-4321",
+    "accountId": "acc-3003",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "u-expired-session",
+    "botId": "st-9921-bcde",
+    "accountId": "acc-1001",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-5521-8892",
+    "botId": "st-non-existent-id",
+    "accountId": "acc-1001",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-5521-8892",
+    "botId": "st-9921-bcde",
+    "accountId": "acc-deleted-99",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-8888-9999",
+    "botId": "st-7777-6666",
+    "accountId": "acc-4004",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "u-unauthorized-user",
+    "botId": "st-9921-bcde",
+    "accountId": "acc-1001",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-1111-2222",
+    "botId": "st-3333-4444",
+    "accountId": "acc-5005",
+    "statusCode": 200,
+    "scenario": "successful login"
+  }
+]

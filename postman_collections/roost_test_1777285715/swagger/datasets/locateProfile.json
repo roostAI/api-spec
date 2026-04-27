@@ -1,0 +1,124 @@
+[
+  {
+    "koreUserId": "u-992834",
+    "botId": "st-8827-22",
+    "accountId": "acc-7721",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-102938",
+    "botId": "st-5543-11",
+    "accountId": "acc-9902",
+    "customerId": 1045300,
+    "ssNumber": "999-22-1111",
+    "ssnShort": "1111",
+    "accountNumber": [
+      "1042345",
+      "2053341"
+    ],
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-772615",
+    "botId": "st-1122-33",
+    "accountId": "acc-4455",
+    "customerId": 2055400,
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-invalid-auth",
+    "botId": "st-0000-00",
+    "accountId": "acc-0000",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-992834",
+    "botId": "st-8827-22",
+    "accountId": "acc-not-found-999",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "st-8827-22",
+    "accountId": "acc-7721",
+    "statusCode": 400,
+    "scenario": "Bad Request: Missing koreUserId"
+  },
+  {
+    "koreUserId": "u-992834",
+    "accountId": "acc-7721",
+    "statusCode": 400,
+    "scenario": "Bad Request: Missing botId"
+  },
+  {
+    "koreUserId": "u-992834",
+    "botId": "st-8827-22",
+    "accountId": "acc-7721",
+    "customerId": "invalid_number_string",
+    "statusCode": 400,
+    "scenario": "Bad Request: Invalid customerId type"
+  },
+  {
+    "koreUserId": "u-554433",
+    "botId": "st-6677-88",
+    "accountId": "acc-1122",
+    "ssnShort": "4432",
+    "accountNumber": [
+      "8877665"
+    ],
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-expired-token",
+    "botId": "st-9999-99",
+    "accountId": "acc-8888",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-992834",
+    "botId": "st-non-existent",
+    "accountId": "acc-7721",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-992834",
+    "botId": "st-8827-22",
+    "accountId": "acc-7721",
+    "accountNumber": "not_an_array_string",
+    "statusCode": 400,
+    "scenario": "Bad Request: Invalid accountNumber format"
+  },
+  {
+    "koreUserId": "u-112233",
+    "botId": "st-4455-66",
+    "accountId": "acc-7788",
+    "customerId": 3044500,
+    "ssNumber": "111-00-4444",
+    "accountNumber": [
+      "9988776"
+    ],
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-unknown",
+    "botId": "st-8827-22",
+    "accountId": "acc-7721",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-no-permission",
+    "botId": "st-8827-22",
+    "accountId": "acc-7721",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

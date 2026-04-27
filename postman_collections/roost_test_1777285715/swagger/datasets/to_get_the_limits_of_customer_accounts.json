@@ -1,0 +1,138 @@
+[
+  {
+    "koreUserId": "user_8821",
+    "botId": "bot_9901",
+    "accountId": "acc_5544",
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user_8822",
+    "botId": "bot_9902",
+    "accountId": "acc_5545",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "X_CORRELATION": "b123-c456-d789",
+    "customerId": 1045301,
+    "accountNumber_0": "9988776655",
+    "accountNumber_1": "1122334455",
+    "cardNumber_0": "4111222233334444",
+    "cardNumber_1": "5111222233334444",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "botId": "bot_9901",
+    "accountId": "acc_5544",
+    "customerId": 1045300,
+    "statusCode": 400,
+    "scenario": "Bad Request: Missing required field koreUserId"
+  },
+  {
+    "koreUserId": "user_8821",
+    "accountId": "acc_5544",
+    "customerId": 1045300,
+    "statusCode": 400,
+    "scenario": "Bad Request: Missing required field botId"
+  },
+  {
+    "koreUserId": "user_8821",
+    "botId": "bot_9901",
+    "customerId": 1045300,
+    "statusCode": 400,
+    "scenario": "Bad Request: Missing required field accountId"
+  },
+  {
+    "koreUserId": "user_8821",
+    "botId": "bot_9901",
+    "accountId": "acc_5544",
+    "X_Auth": "invalid_token_123",
+    "X_CORRELATION": "corr_999",
+    "customerId": 1045300,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user_non_existent",
+    "botId": "bot_9901",
+    "accountId": "acc_5544",
+    "customerId": 9999999,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user_8825",
+    "botId": "bot_9905",
+    "accountId": "acc_5550",
+    "customerId": 1045305,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user_8826",
+    "botId": "bot_9906",
+    "accountId": "acc_5551",
+    "X_Auth": "Bearer valid_token_001",
+    "X_CORRELATION": "uuid-001-222",
+    "customerId": 1045306,
+    "accountNumber_0": "1000000001",
+    "cardNumber_0": "4000000000000001",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user_8821",
+    "botId": "bot_9901",
+    "accountId": "acc_5544",
+    "X_Auth": "expired_session_token",
+    "customerId": 1045300,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user_8821",
+    "botId": "bot_9901",
+    "accountId": "acc_invalid_id",
+    "customerId": 1045300,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user_8821",
+    "botId": "bot_9901",
+    "accountId": "acc_5544",
+    "statusCode": 400,
+    "scenario": "Bad Request: Missing required field customerId"
+  },
+  {
+    "koreUserId": "user_8830",
+    "botId": "bot_9910",
+    "accountId": "acc_5560",
+    "customerId": 1045310,
+    "accountNumber_0": "2000000002",
+    "accountNumber_1": "2000000003",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user_8831",
+    "botId": "bot_9911",
+    "accountId": "acc_5561",
+    "X_Auth": "Bearer token_999",
+    "customerId": -1,
+    "statusCode": 400,
+    "scenario": "Bad Request: Invalid customerId value"
+  },
+  {
+    "koreUserId": "user_8832",
+    "botId": "bot_9912",
+    "accountId": "acc_5562",
+    "X_Auth": "Bearer token_888",
+    "X_CORRELATION": "corr_888",
+    "customerId": 1045312,
+    "accountNumber_0": "3000000003",
+    "cardNumber_0": "5000000000000003",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  }
+]

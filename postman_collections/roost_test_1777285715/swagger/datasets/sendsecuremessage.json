@@ -1,0 +1,135 @@
+[
+  {
+    "koreUserId": "u-98765",
+    "botId": "st-1234",
+    "email": "test.user@example.com",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-11223",
+    "botId": "st-5566",
+    "accountId": "acc-7788",
+    "authType": "Authorized",
+    "firstName": "James",
+    "lastName": "William",
+    "email": "John@gmail.com",
+    "phoneNumber": 9787643445,
+    "topic": "Routing and Account Number",
+    "message": "Unable to find my routing number.",
+    "availableTime": "nighttime",
+    "chatHistory": "<html><body>Chat log content</body></html>",
+    "cif": 1045310,
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-44556",
+    "botId": "st-9900",
+    "accountId": "acc-1122",
+    "email": "sarah.smith@provider.net",
+    "phoneNumber": 8877665544,
+    "topic": "Balance Inquiry",
+    "cif": 2055410,
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-77889",
+    "botId": "st-3344",
+    "email": "robert.brown@domain.com",
+    "authType": "Authorized",
+    "firstName": "Robert",
+    "lastName": "Brown",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-55443",
+    "botId": "st-2211",
+    "accountId": "acc-9988",
+    "email": "linda.jones@webmail.com",
+    "message": "I need to reset my password.",
+    "availableTime": "morning",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "u-98765",
+    "botId": "st-1234",
+    "email": "test.user@example.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-11223",
+    "botId": "st-5566",
+    "authType": "InvalidToken",
+    "email": "John@gmail.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-44556",
+    "botId": "st-9900",
+    "accountId": "acc-1122",
+    "authType": "Expired",
+    "email": "sarah.smith@provider.net",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-77889",
+    "botId": "st-3344",
+    "authType": "None",
+    "email": "robert.brown@domain.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-55443",
+    "botId": "st-2211",
+    "authType": "Guest",
+    "email": "linda.jones@webmail.com",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "NON_EXISTENT_USER",
+    "botId": "st-1234",
+    "email": "test.user@example.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-11223",
+    "botId": "INVALID_BOT_ID",
+    "email": "John@gmail.com",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-44556",
+    "botId": "st-9900",
+    "accountId": "MISSING_ACCOUNT_ID",
+    "email": "sarah.smith@provider.net",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-77889",
+    "botId": "st-3344",
+    "email": "robert.brown@domain.com",
+    "cif": 9999999,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-55443",
+    "botId": "st-2211",
+    "email": "unknown@domain.com",
+    "availableTime": "invalid_time_slot",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

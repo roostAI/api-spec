@@ -1,0 +1,135 @@
+[
+  {
+    "koreUserId": "u-98765",
+    "botId": "st-12345",
+    "accountId": "acc-556677",
+    "customerId": 1045300,
+    "status": "active",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "u-11223",
+    "botId": "st-99887",
+    "accountId": "acc-443322",
+    "customerId": 2056400,
+    "status": "pending",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "u-98765",
+    "botId": "st-12345",
+    "accountId": "acc-556677",
+    "customerId": 1045300,
+    "status": "active",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-00000",
+    "botId": "st-00000",
+    "accountId": "acc-000000",
+    "customerId": 9999999,
+    "status": "inactive",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "st-12345",
+    "accountId": "acc-556677",
+    "customerId": 1045300,
+    "status": "active",
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing koreUserId"
+  },
+  {
+    "koreUserId": "u-55443",
+    "botId": "st-66778",
+    "accountId": "acc-889900",
+    "customerId": 3045100,
+    "status": "completed",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "u-55443",
+    "botId": "st-66778",
+    "accountId": "acc-889900",
+    "customerId": 3045100,
+    "status": "completed",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-99999",
+    "botId": "st-99999",
+    "accountId": "acc-999999",
+    "customerId": 8888888,
+    "status": "active",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-12345",
+    "accountId": "acc-556677",
+    "customerId": 1045300,
+    "status": "active",
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing botId"
+  },
+  {
+    "koreUserId": "u-66778",
+    "botId": "st-11223",
+    "accountId": "acc-121212",
+    "customerId": 4056700,
+    "status": "scheduled",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "u-66778",
+    "botId": "st-11223",
+    "accountId": "acc-121212",
+    "customerId": 4056700,
+    "status": "scheduled",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-12345",
+    "botId": "st-12345",
+    "accountId": "acc-556677",
+    "customerId": "invalid_number_string",
+    "status": "active",
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid customerId data type"
+  },
+  {
+    "koreUserId": "u-88990",
+    "botId": "st-44556",
+    "accountId": "acc-334455",
+    "customerId": 5067800,
+    "status": "processing",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "u-88990",
+    "botId": "st-44556",
+    "accountId": "acc-334455",
+    "customerId": 5067800,
+    "status": "processing",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-12345",
+    "botId": "st-12345",
+    "accountId": "acc-556677",
+    "customerId": 1045300,
+    "status": 99999,
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid status value type"
+  }
+]

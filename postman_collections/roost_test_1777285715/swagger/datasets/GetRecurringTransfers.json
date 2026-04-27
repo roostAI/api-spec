@@ -1,0 +1,133 @@
+[
+  {
+    "koreUserId": "u-98765",
+    "botId": "st-12345",
+    "userCode": "UC-ALPHA",
+    "accountId": "ACC-001",
+    "customerId": 1045300,
+    "status": "active",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "u-11111",
+    "botId": "st-22222",
+    "userCode": "UC-BETA",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "u-98765",
+    "botId": "st-12345",
+    "userCode": "EXPIRED_TOKEN",
+    "accountId": "ACC-001",
+    "customerId": 1045300,
+    "status": "active",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-98765",
+    "botId": "st-12345",
+    "userCode": "UC-ALPHA",
+    "accountId": "NON_EXISTENT_ACC",
+    "customerId": 9999999,
+    "status": "active",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "st-12345",
+    "userCode": "UC-ALPHA",
+    "accountId": "ACC-001",
+    "customerId": 1045300,
+    "status": "active",
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing koreUserId"
+  },
+  {
+    "koreUserId": "u-55555",
+    "botId": "st-55555",
+    "userCode": "UC-GAMMA",
+    "accountId": "ACC-005",
+    "customerId": 5050500,
+    "status": "completed",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "u-00000",
+    "botId": "st-00000",
+    "userCode": "INVALID",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-98765",
+    "botId": "WRONG_BOT_ID",
+    "userCode": "UC-ALPHA",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-22222",
+    "botId": "st-33333",
+    "userCode": "UC-DELTA",
+    "accountId": "ACC-002",
+    "customerId": 2020200,
+    "status": "pending",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "u-98765",
+    "botId": "st-12345",
+    "userCode": "UC-ALPHA",
+    "status": "INVALID_STATUS_ENUM",
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid status value"
+  },
+  {
+    "koreUserId": "u-44444",
+    "botId": "st-44444",
+    "userCode": "UC-EPSILON",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-98765",
+    "botId": "st-12345",
+    "userCode": "UC-ALPHA",
+    "accountId": "ACC-999",
+    "customerId": 404404,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-66666",
+    "botId": "st-66666",
+    "userCode": "UC-ZETA",
+    "accountId": "ACC-006",
+    "customerId": 6060600,
+    "status": "active",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  },
+  {
+    "koreUserId": "u-77777",
+    "botId": "st-77777",
+    "userCode": "UC-ETA",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-88888",
+    "botId": "st-88888",
+    "userCode": "UC-THETA",
+    "accountId": "ACC-008",
+    "customerId": 8080800,
+    "status": "active",
+    "statusCode": 200,
+    "scenario": "schedule transfer list response"
+  }
+]

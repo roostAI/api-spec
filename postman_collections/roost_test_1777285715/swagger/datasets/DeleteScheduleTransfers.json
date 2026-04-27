@@ -1,0 +1,130 @@
+[
+  {
+    "koreUserId": "u-882341",
+    "botId": "st-9923-bot",
+    "accountId": "ACC-7721",
+    "paymentId": "PAY-00123",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer deleted successfully"
+  },
+  {
+    "koreUserId": "u-882341",
+    "botId": "st-9923-bot",
+    "userCode": "UC-991",
+    "accountId": "ACC-7721",
+    "paymentId": "PAY-00124",
+    "updateTransferType": "all",
+    "customerId": 1045300,
+    "sourceAccountId": "1042345",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer deleted successfully"
+  },
+  {
+    "koreUserId": "u-445122",
+    "botId": "st-1122-bot",
+    "accountId": "ACC-5543",
+    "paymentId": "PAY-99821",
+    "customerId": 2055400,
+    "statusCode": 200,
+    "scenario": "Scheduled transfer deleted successfully"
+  },
+  {
+    "koreUserId": "u-332110",
+    "botId": "st-4455-bot",
+    "accountId": "ACC-1122",
+    "paymentId": "PAY-77654",
+    "updateTransferType": "single",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer deleted successfully"
+  },
+  {
+    "koreUserId": "u-776543",
+    "botId": "st-8877-bot",
+    "userCode": "UC-202",
+    "accountId": "ACC-9988",
+    "paymentId": "PAY-11223",
+    "sourceAccountId": "9988776",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer deleted successfully"
+  },
+  {
+    "botId": "st-9923-bot",
+    "accountId": "ACC-7721",
+    "paymentId": "PAY-00123",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-882341",
+    "accountId": "ACC-7721",
+    "paymentId": "PAY-00123",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "INVALID_USER_TOKEN",
+    "botId": "st-9923-bot",
+    "accountId": "ACC-7721",
+    "paymentId": "PAY-00123",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-882341",
+    "botId": "st-9923-bot",
+    "paymentId": "PAY-00123",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-882341",
+    "botId": "st-9923-bot",
+    "userCode": "EXPIRED_CODE",
+    "accountId": "ACC-7721",
+    "paymentId": "PAY-00123",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-882341",
+    "botId": "st-9923-bot",
+    "accountId": "ACC-7721",
+    "paymentId": "NON_EXISTENT_PAY_99",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-882341",
+    "botId": "st-9923-bot",
+    "accountId": "MISSING_ACC_404",
+    "paymentId": "PAY-00123",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-882341",
+    "botId": "st-9923-bot",
+    "accountId": "ACC-7721",
+    "paymentId": "PAY-00123",
+    "customerId": 9999999,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-882341",
+    "botId": "st-9923-bot",
+    "accountId": "ACC-7721",
+    "paymentId": "PAY-00123",
+    "sourceAccountId": "0000000",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-000000",
+    "botId": "st-0000-bot",
+    "accountId": "ACC-0000",
+    "paymentId": "PAY-00000",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
