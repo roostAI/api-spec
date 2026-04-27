@@ -1,0 +1,91 @@
+[
+  {
+    "q": "New York",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Paris",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Tokyo",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "London",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Berlin",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "statusCode": 400,
+    "scenario": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "",
+    "statusCode": 400,
+    "scenario": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "Invalid!@Location123",
+    "statusCode": 400,
+    "scenario": "Error code 1006: No location found matching parameter 'q'<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "Mars",
+    "statusCode": 400,
+    "scenario": "Error code 1006: No location found matching parameter 'q'<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "𒀱𒈪𒉌𒈫",
+    "statusCode": 400,
+    "scenario": "Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "Atlantis",
+    "statusCode": 400,
+    "scenario": "Error code 1006: No location found matching parameter 'q'<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "Sydney",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Delhi",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Toronto",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "San Francisco",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "São Paulo",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "L0c@tion",
+    "statusCode": 400,
+    "scenario": "Error code 1006: No location found matching parameter 'q'<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "Mumbai",
+    "statusCode": 200,
+    "scenario": "Ok"
+  }
+]

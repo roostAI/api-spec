@@ -1,0 +1,113 @@
+[
+  {
+    "q": "London",
+    "days": 3,
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "New York",
+    "days": 7,
+    "dt": "2024-07-15",
+    "lang": "en",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Tokyo",
+    "days": 1,
+    "dt": "2024-07-10",
+    "unixdt": 1720656000,
+    "hour": 8,
+    "lang": "ja",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Berlin",
+    "days": 5,
+    "dt": "2024-08-01",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Paris",
+    "days": 14,
+    "lang": "fr",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Cape Town",
+    "days": 2,
+    "hour": 10,
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "days": 4,
+    "dt": "2024-07-12",
+    "statusCode": 400,
+    "scenario": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "Sydney",
+    "days": 20,
+    "dt": "2024-07-20",
+    "statusCode": 400,
+    "scenario": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "Barcelona",
+    "dt": "07-17-2024",
+    "statusCode": 400,
+    "scenario": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "Mumbai",
+    "days": 3,
+    "dt": "2024-13-13",
+    "statusCode": 400,
+    "scenario": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "Atlantis",
+    "days": 2,
+    "statusCode": 400,
+    "scenario": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "London",
+    "days": 3,
+    "lang": 42,
+    "statusCode": 400,
+    "scenario": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": " ",
+    "days": 1,
+    "statusCode": 400,
+    "scenario": "Error code 1003: Parameter 'q' not provided.<br />Error code 1005: API request url is invalid.<br />Error code 1006: No location found matching parameter 'q'<br />Error code 9000: Json body passed in bulk request is invalid. Please make sure it is valid json with utf-8 encoding.<br />Error code 9001: Json body contains too many locations for bulk request. Please keep it below 50 in a single request.<br />Error code 9999: Internal application error."
+  },
+  {
+    "q": "Madrid",
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Lisbon",
+    "days": 4,
+    "unixdt": 1720700000,
+    "statusCode": 200,
+    "scenario": "Ok"
+  },
+  {
+    "q": "Rome",
+    "days": 2,
+    "dt": "2024-07-17",
+    "hour": 15,
+    "lang": "it",
+    "statusCode": 200,
+    "scenario": "Ok"
+  }
+]
