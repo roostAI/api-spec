@@ -1,0 +1,55 @@
+[
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "System Analyst",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "id": "b123e1fa-89ea-4ecc-82fe-7fd8577c559a",
+    "jobTitle": "Quality Engineer",
+    "name": "Jane Doe",
+    "email": "jane.doe@acme-corp.com",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "id": "f0e5dfee-9a2b-4c5e-8292-001e0b7bb24c",
+    "jobTitle": "HR Specialist",
+    "name": "Robert Brown",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "id": "b725fdbe-932a-4e44-ae21-bf3e6200c553",
+    "jobTitle": "Product Owner",
+    "email": "susan.white@acme-corp.com",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "id": "not-a-uuid",
+    "statusCode": 404,
+    "scenario": "Client error responses: Not Found"
+  },
+  {
+    "id": "",
+    "statusCode": 404,
+    "scenario": "Client error responses: Not Found"
+  },
+  {
+    "id": "zzzzzzzz-0000-1111-2222-333333333333",
+    "statusCode": 404,
+    "scenario": "Client error responses: Not Found"
+  },
+  {
+    "id": "d111e1fa-45ea-4ccc-12fe-2fd8577c5580",
+    "jobTitle": "",
+    "name": "",
+    "email": "",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  }
+]
