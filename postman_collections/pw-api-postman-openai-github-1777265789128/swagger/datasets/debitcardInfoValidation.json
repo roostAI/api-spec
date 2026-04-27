@@ -1,0 +1,123 @@
+[
+  {
+    "customerId": 1045300,
+    "cvv": "123",
+    "debitCardNumber": "1234456778901690",
+    "expiryDate": "2025-01-01T00:00:00.000+0000",
+    "pin": "1111",
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045301,
+    "cvv": "124",
+    "debitCardNumber": "1234456778901691",
+    "expiryDate": "2025-01-01T00:00:00.000+0000",
+    "pin": "1112",
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045302,
+    "cvv": "125",
+    "debitCardNumber": "1234456778901692",
+    "expiryDate": "2025-01-01T00:00:00.000+0000",
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045303,
+    "cvv": "126",
+    "expiryDate": "2025-01-01T00:00:00.000+0000",
+    "pin": "1114",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045304,
+    "cvv": "127",
+    "debitCardNumber": "1234456778901694",
+    "pin": "1115",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045305,
+    "debitCardNumber": "1234456778901695",
+    "expiryDate": "2025-01-01T00:00:00.000+0000",
+    "pin": "1116",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045306,
+    "cvv": "128",
+    "debitCardNumber": "1234456778901696",
+    "expiryDate": "2025-01-01T00:00:00.000+0000",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045307,
+    "cvv": "129",
+    "debitCardNumber": "1234456778901697",
+    "pin": "1118",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045308,
+    "cvv": "130",
+    "expiryDate": "2025-01-01T00:00:00.000+0000",
+    "pin": "1119",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "debitCardNumber": "1234456778901699",
+    "expiryDate": "2025-01-01T00:00:00.000+0000",
+    "pin": "1120",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045310,
+    "cvv": "132",
+    "expiryDate": "2025-01-01T00:00:00.000+0000",
+    "pin": "1121",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045311,
+    "cvv": "133",
+    "debitCardNumber": "1234456778901701",
+    "pin": "1122",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045312,
+    "cvv": "134",
+    "debitCardNumber": "1234456778901702",
+    "expiryDate": "2025-01-01T00:00:00.000+0000",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045313,
+    "cvv": "135",
+    "pin": "1124",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045314,
+    "cvv": "136",
+    "debitCardNumber": "1234456778901704",
+    "expiryDate": "2025-01-01T00:00:00.000+0000",
+    "pin": "1125",
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  }
+]

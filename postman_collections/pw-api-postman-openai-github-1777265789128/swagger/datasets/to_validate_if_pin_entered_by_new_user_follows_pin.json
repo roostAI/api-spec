@@ -1,0 +1,114 @@
+[
+  {
+    "koreUserId": "user123",
+    "botId": "bot456",
+    "accountId": "acc789",
+    "sourcePin": "pin101",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user124",
+    "botId": "bot457",
+    "accountId": "acc790",
+    "sourcePin": "pin102",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user125",
+    "botId": "bot458",
+    "accountId": "acc791",
+    "sourcePin": "pin103",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user126",
+    "botId": "bot459",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user127",
+    "accountId": "acc792",
+    "sourcePin": "pin104",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "botId": "bot460",
+    "accountId": "acc793",
+    "sourcePin": "pin105",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user128",
+    "botId": "bot461",
+    "accountId": "acc794",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user129",
+    "botId": "bot462",
+    "sourcePin": "pin106",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user130",
+    "accountId": "acc795",
+    "sourcePin": "pin107",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "bot463",
+    "accountId": "acc796",
+    "sourcePin": "pin108",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user131",
+    "botId": "bot464",
+    "accountId": "acc797",
+    "sourcePin": "pin109",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user132",
+    "botId": "bot465",
+    "accountId": "acc798",
+    "sourcePin": "pin110",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user133",
+    "botId": "bot466",
+    "accountId": "acc799",
+    "sourcePin": "pin111",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user134",
+    "botId": "bot467",
+    "accountId": "acc800",
+    "sourcePin": "pin112",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user135",
+    "botId": "bot468",
+    "accountId": "acc801",
+    "sourcePin": "pin113",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  }
+]
