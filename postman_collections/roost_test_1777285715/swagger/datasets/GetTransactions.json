@@ -1,0 +1,157 @@
+[
+  {
+    "koreUserId": "u-992834",
+    "botId": "st-8827",
+    "accountId": "ACC-7721",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-992834",
+    "botId": "st-8827",
+    "accountId": "ACC-7721",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "X_CORRELATION": "b123-c456-d789",
+    "accountNumber_0": "9988776655",
+    "accountNumber_1": "1122334455",
+    "customerId": 1045300,
+    "numOfTransactions": 50,
+    "status": "COMPLETED",
+    "startDate": "2023-01-01",
+    "endDate": "2023-12-31",
+    "sort.type": "date",
+    "sort.value": "desc",
+    "transactionAmount.amount1": 1250.75,
+    "transactionAmount.currency": "USD",
+    "category_0.codeType": "MCC",
+    "category_0.value_0": "5411",
+    "category_0.value_1": "Grocery",
+    "category_0.source": "VISA",
+    "category_1.codeType": "SIC",
+    "category_1.value_0": "5812",
+    "category_1.value_1": "Dining",
+    "category_1.source": "MASTERCARD",
+    "debitOrCredit": "debit",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-112233",
+    "botId": "st-4455",
+    "accountId": "ACC-9900",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "customerId": 2055400,
+    "status": "PENDING",
+    "debitOrCredit": "credit",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "botId": "st-8827",
+    "accountId": "ACC-7721",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-992834",
+    "accountId": "ACC-7721",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-992834",
+    "botId": "st-8827",
+    "accountId": "ACC-7721",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "customerId": "INVALID_NUMBER_TYPE",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-992834",
+    "botId": "st-8827",
+    "accountId": "ACC-7721",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "startDate": "01-01-2023",
+    "endDate": "31-12-2023",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-992834",
+    "botId": "st-8827",
+    "accountId": "ACC-7721",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "debitOrCredit": "invalid_enum_value",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-992834",
+    "botId": "st-8827",
+    "accountId": "NON_EXISTENT_ID_404",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-992834",
+    "botId": "st-8827",
+    "accountId": "ACC-7721",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "numOfTransactions": -500,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-992834",
+    "botId": "st-8827",
+    "accountId": "ACC-7721",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-992834",
+    "botId": "st-8827",
+    "accountId": "ACC-7721",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "category_0.codeType": "MCC",
+    "category_0.value_0": "5411",
+    "category_0.source": "VISA",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-992834",
+    "botId": "st-8827",
+    "accountId": "ACC-7721",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "transactionAmount.amount1": 5000,
+    "transactionAmount.currency": "EUR",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-992834",
+    "botId": "st-8827",
+    "accountId": "ACC-7721",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "sort.type": "amount",
+    "sort.value": "asc",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-992834",
+    "botId": "st-8827",
+    "accountId": "ACC-7721",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "accountNumber_0": "1234567890",
+    "accountNumber_1": "0987654321",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  }
+]

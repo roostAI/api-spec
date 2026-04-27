@@ -1,0 +1,163 @@
+[
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "ACC-7788",
+    "amount": "250.00",
+    "currency": "USD",
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "ACC-7788",
+    "amount": "500.75",
+    "currency": "USD",
+    "customerId": 1045300,
+    "dueDate": "2024-12-15",
+    "sourceAccountId": "SRC-1122",
+    "targetAccountId": "TGT-3344",
+    "transactionType": 1,
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "u-111222",
+    "botId": "st-55555",
+    "accountId": "ACC-9999",
+    "amount": "100.00",
+    "currency": "EUR",
+    "customerId": 2055400,
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "u-333444",
+    "botId": "st-66666",
+    "accountId": "ACC-0001",
+    "amount": "1200.00",
+    "currency": "GBP",
+    "customerId": 3066500,
+    "dueDate": "2024-11-20",
+    "sourceAccountId": "SRC-5566",
+    "targetAccountId": "TGT-7788",
+    "transactionType": 2,
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "u-invalid-auth",
+    "botId": "st-12345",
+    "accountId": "ACC-7788",
+    "amount": "50.00",
+    "currency": "USD",
+    "customerId": 1045300,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "ACC-NONEXISTENT",
+    "amount": "500.00",
+    "currency": "USD",
+    "customerId": 9999999,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "ACC-7788",
+    "currency": "USD",
+    "customerId": 1045300,
+    "statusCode": 400,
+    "scenario": "Bad Request: Missing required field amount"
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "ACC-7788",
+    "amount": "100.00",
+    "currency": "INVALID_CURRENCY",
+    "customerId": 1045300,
+    "statusCode": 400,
+    "scenario": "Bad Request: Invalid currency enum value"
+  },
+  {
+    "koreUserId": "u-expired-token",
+    "botId": "st-00000",
+    "accountId": "ACC-1234",
+    "amount": "10.00",
+    "currency": "USD",
+    "customerId": 1045300,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "ACC-7788",
+    "amount": "250.00",
+    "currency": "USD",
+    "customerId": 1045300,
+    "transactionType": 9999,
+    "statusCode": 400,
+    "scenario": "Bad Request: Invalid transactionType value"
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "ACC-7788",
+    "amount": "250.00",
+    "currency": "USD",
+    "statusCode": 400,
+    "scenario": "Bad Request: Missing required field customerId"
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "ACC-404",
+    "amount": "1.00",
+    "currency": "USD",
+    "customerId": 404404,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-555666",
+    "botId": "st-77777",
+    "accountId": "ACC-2222",
+    "amount": "3000.00",
+    "currency": "USD",
+    "customerId": 5077600,
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "u-777888",
+    "botId": "st-88888",
+    "accountId": "ACC-3333",
+    "amount": "45.50",
+    "currency": "USD",
+    "customerId": 6088700,
+    "dueDate": "2025-01-01",
+    "sourceAccountId": "SRC-9900",
+    "targetAccountId": "TGT-1122",
+    "transactionType": 0,
+    "statusCode": 200,
+    "scenario": "Credit Card payment scheduled successfully"
+  },
+  {
+    "koreUserId": "u-no-access",
+    "botId": "st-99999",
+    "accountId": "ACC-XXXX",
+    "amount": "0.01",
+    "currency": "USD",
+    "customerId": 1045300,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

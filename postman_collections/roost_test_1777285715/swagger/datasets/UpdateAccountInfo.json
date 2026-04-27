@@ -1,0 +1,194 @@
+[
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "acc-101",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "X_CORRELATION": "corr-998877",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "acc-101",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "X_CORRELATION": "corr-998877",
+    "accountNumber": [
+      "1042345",
+      "2056789"
+    ],
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "alternatePhoneNumber": 9876543210,
+    "isAlternateMobileNumber": true,
+    "phone": 1234567890,
+    "isPrimaryMobileNumber": true,
+    "location": "New York",
+    "isStatement": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "acc-101",
+    "X_Auth": "INVALID_TOKEN",
+    "X_CORRELATION": "corr-998877",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "NON_EXISTENT_ACC",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "X_CORRELATION": "corr-998877",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "st-12345",
+    "accountId": "acc-101",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "X_CORRELATION": "corr-998877",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing koreUserId"
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "acc-101",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "X_CORRELATION": "corr-998877",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 9999999,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "acc-101",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "X_CORRELATION": "corr-998877",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "email": "invalid-email-format",
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid email format"
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "acc-101",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "X_CORRELATION": "corr-998877",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "phone": 1234567890,
+    "isPrimaryMobileNumber": false,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "acc-101",
+    "X_Auth": "",
+    "X_CORRELATION": "corr-998877",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "INVALID_BOT",
+    "accountId": "acc-101",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "X_CORRELATION": "corr-998877",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "acc-101",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "X_CORRELATION": "corr-998877",
+    "customerId": 1045300,
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing accountNumber"
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "acc-101",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "X_CORRELATION": "corr-998877",
+    "accountNumber": [
+      "7777777"
+    ],
+    "customerId": 1045300,
+    "location": "London",
+    "isStatement": false,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "acc-101",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "X_CORRELATION": "corr-998877",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "alternatePhoneNumber": 1112223333,
+    "isAlternateMobileNumber": false,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "acc-101",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "X_CORRELATION": "corr-998877",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "isStatement": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-987654",
+    "botId": "st-12345",
+    "accountId": "acc-101",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "X_CORRELATION": "corr-998877",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "location": "Unknown_City_999",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

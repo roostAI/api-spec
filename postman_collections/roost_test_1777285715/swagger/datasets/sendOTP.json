@@ -1,0 +1,76 @@
+[
+  {
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "verification code has been sent to your mobile number"
+  },
+  {
+    "customerId": 2056781,
+    "statusCode": 200,
+    "scenario": "verification code has been sent to your mobile number"
+  },
+  {
+    "customerId": 3142536,
+    "statusCode": 200,
+    "scenario": "verification code has been sent to your mobile number"
+  },
+  {
+    "customerId": 4253647,
+    "statusCode": 200,
+    "scenario": "verification code has been sent to your mobile number"
+  },
+  {
+    "customerId": 5364758,
+    "statusCode": 200,
+    "scenario": "verification code has been sent to your mobile number"
+  },
+  {
+    "customerId": 1045300,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 6475869,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 7586970,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 8697081,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 9708192,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 9999999,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1111111,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 2222222,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 3333333,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

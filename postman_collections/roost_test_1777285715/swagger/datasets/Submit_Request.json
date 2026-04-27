@@ -1,0 +1,110 @@
+[
+  {
+    "koreUserId": "u-882341",
+    "botId": "st-99231",
+    "accountId": "acc-112233",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-771234",
+    "botId": "st-44556",
+    "accountId": "acc-998877",
+    "value": "high_priority",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-554433",
+    "botId": "st-11223",
+    "accountId": "acc-443322",
+    "value": 150,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-112233",
+    "botId": "st-88776",
+    "accountId": "acc-556677",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-990011",
+    "botId": "st-22334",
+    "accountId": "acc-110022",
+    "value": "retry_limit",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-445566",
+    "botId": "invalid_bot_id_999",
+    "accountId": "acc-778899",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-223344",
+    "botId": "st-55667",
+    "accountId": "non_existent_acc_000",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "unknown_user_id_555",
+    "botId": "st-33445",
+    "accountId": "acc-221100",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "st-66778",
+    "accountId": "acc-334455",
+    "statusCode": 400,
+    "scenario": "Bad Request: Missing koreUserId"
+  },
+  {
+    "koreUserId": "u-667788",
+    "accountId": "acc-556644",
+    "statusCode": 400,
+    "scenario": "Bad Request: Missing botId"
+  },
+  {
+    "koreUserId": "u-334455",
+    "botId": "st-77889",
+    "statusCode": 400,
+    "scenario": "Bad Request: Missing accountId"
+  },
+  {
+    "koreUserId": "u-121212",
+    "botId": "st-343434",
+    "accountId": "acc-565656",
+    "value": "INVALID_ENUM_VALUE",
+    "statusCode": 400,
+    "scenario": "Bad Request: Invalid value format"
+  },
+  {
+    "koreUserId": "u-909090",
+    "botId": "st-808080",
+    "accountId": "acc-707070",
+    "value": -1,
+    "statusCode": 400,
+    "scenario": "Bad Request: Out of range value"
+  },
+  {
+    "koreUserId": "u-102030",
+    "botId": "st-405060",
+    "accountId": "acc-708090",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-135790",
+    "botId": "st-246801",
+    "accountId": "acc-112244",
+    "value": "standard_user",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

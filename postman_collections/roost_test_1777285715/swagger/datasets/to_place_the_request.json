@@ -1,0 +1,128 @@
+[
+  {
+    "koreUserId": "user_8821",
+    "botId": "bot_9920",
+    "accountId": "acc_5541",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user_1029",
+    "botId": "bot_4432",
+    "accountId": "acc_7782",
+    "accountName": "Savings Account",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "cardNumber": [
+      "411122223333"
+    ],
+    "description": "Internal Transfer",
+    "requestSubType": "FundsTransfer",
+    "requestType": "Transaction",
+    "serviceType": "RetailBanking",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user_5562",
+    "botId": "bot_1120",
+    "accountId": "acc_9901",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user_7731",
+    "botId": "bot_3341",
+    "accountId": "NON_EXISTENT_ID",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "bot_4451",
+    "accountId": "acc_1123",
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing koreUserId"
+  },
+  {
+    "koreUserId": "user_3341",
+    "botId": "bot_8872",
+    "accountId": "acc_2231",
+    "accountName": "Checking Account",
+    "accountNumber": [
+      "99887766"
+    ],
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user_1129",
+    "botId": "bot_0091",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user_4452",
+    "botId": "bot_2231",
+    "customerId": 9999999,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user_9901",
+    "botId": "bot_5542",
+    "accountId": "acc_3341",
+    "customerId": "INVALID_STRING_TYPE",
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid data type for customerId"
+  },
+  {
+    "koreUserId": "user_2231",
+    "botId": "bot_7782",
+    "accountId": "acc_4451",
+    "description": "Bill Payment",
+    "requestType": "Payment",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user_0091",
+    "botId": "bot_6671",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user_6671",
+    "botId": "bot_5562",
+    "accountId": "NULL_REF_ACC",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user_8872",
+    "accountId": "acc_6671",
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing botId"
+  },
+  {
+    "koreUserId": "user_4432",
+    "botId": "bot_7731",
+    "accountId": "acc_8821",
+    "accountNumber": [
+      "55443322",
+      "11223344"
+    ],
+    "cardNumber": [
+      "555566667777"
+    ],
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "koreUserId": "user_1120",
+    "botId": "bot_1029",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

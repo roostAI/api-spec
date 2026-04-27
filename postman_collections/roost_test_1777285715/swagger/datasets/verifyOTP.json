@@ -1,0 +1,90 @@
+[
+  {
+    "customerId": 1045300,
+    "code": 1234,
+    "statusCode": 200,
+    "scenario": "OTP verifid successfully"
+  },
+  {
+    "customerId": 1045301,
+    "code": 5678,
+    "statusCode": 200,
+    "scenario": "OTP verifid successfully"
+  },
+  {
+    "customerId": 1045302,
+    "code": 9012,
+    "statusCode": 200,
+    "scenario": "OTP verifid successfully"
+  },
+  {
+    "customerId": 1045303,
+    "code": 3456,
+    "statusCode": 200,
+    "scenario": "OTP verifid successfully"
+  },
+  {
+    "customerId": 1045304,
+    "code": 7890,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045305,
+    "code": 1111,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045306,
+    "code": 2222,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 9999999,
+    "code": 1234,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045300,
+    "code": 0,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 8888888,
+    "code": 9999,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045307,
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing required field code"
+  },
+  {
+    "code": 4321,
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing required field customerId"
+  },
+  {
+    "customerId": 1045308,
+    "code": 99999999,
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid code value"
+  },
+  {
+    "customerId": 1045309,
+    "code": 5555,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 111,
+    "code": 111,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

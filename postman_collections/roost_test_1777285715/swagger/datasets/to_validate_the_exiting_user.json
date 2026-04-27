@@ -1,0 +1,133 @@
+[
+  {
+    "koreUserId": "u-78234",
+    "botId": "st-9921",
+    "accountId": "acc-5501",
+    "sourcePin": "1234",
+    "targetPin": "1234",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "u-11029",
+    "botId": "st-4432",
+    "accountId": "acc-8821",
+    "sourcePin": "5566",
+    "targetPin": "5566",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "u-99821",
+    "botId": "st-1120",
+    "accountId": "acc-3342",
+    "sourcePin": "9988",
+    "targetPin": "9988",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "u-invalid-auth",
+    "botId": "st-9921",
+    "accountId": "acc-5501",
+    "sourcePin": "1234",
+    "targetPin": "1234",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-78234",
+    "botId": "st-9921",
+    "accountId": "acc-expired",
+    "sourcePin": "1234",
+    "targetPin": "1234",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-notfound-001",
+    "botId": "st-9921",
+    "accountId": "acc-5501",
+    "sourcePin": "1234",
+    "targetPin": "1234",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-78234",
+    "botId": "st-missing-bot",
+    "accountId": "acc-5501",
+    "sourcePin": "1234",
+    "targetPin": "1234",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "st-9921",
+    "accountId": "acc-5501",
+    "sourcePin": "1234",
+    "targetPin": "1234",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "u-78234",
+    "accountId": "acc-5501",
+    "sourcePin": "1234",
+    "targetPin": "1234",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "u-78234",
+    "botId": "st-9921",
+    "sourcePin": "1234",
+    "targetPin": "1234",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "u-78234",
+    "botId": "st-9921",
+    "accountId": "acc-5501",
+    "targetPin": "1234",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "u-78234",
+    "botId": "st-9921",
+    "accountId": "acc-5501",
+    "sourcePin": "INVALID_ENUM_VALUE",
+    "targetPin": "1234",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "u-55432",
+    "botId": "st-2210",
+    "accountId": "acc-0091",
+    "sourcePin": "4321",
+    "targetPin": "4321",
+    "statusCode": 200,
+    "scenario": "PINs matched"
+  },
+  {
+    "koreUserId": "u-unknown",
+    "botId": "st-unknown",
+    "accountId": "acc-unknown",
+    "sourcePin": "0000",
+    "targetPin": "0000",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-unauthorized-user",
+    "botId": "st-9921",
+    "accountId": "acc-5501",
+    "sourcePin": "1111",
+    "targetPin": "1111",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

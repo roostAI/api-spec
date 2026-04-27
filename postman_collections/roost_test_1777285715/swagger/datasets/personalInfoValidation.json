@@ -1,0 +1,103 @@
+[
+  {
+    "customerId": 1045300,
+    "AccNumber": "1042345",
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045301,
+    "dob": "1999-05-05T00:00:00.000+0000",
+    "ssn": 104531234,
+    "secrectPassword": "Sam",
+    "AccNumber": "1042345",
+    "lastDepositAmt": 500,
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045302,
+    "AccNumber": "1042346",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 9999999,
+    "AccNumber": "0000000",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "AccNumber": "1042347",
+    "statusCode": 400,
+    "scenario": "Error: Bad Request - Missing customerId"
+  },
+  {
+    "customerId": 1045303,
+    "dob": "1985-12-12T00:00:00.000+0000",
+    "ssn": 987654321,
+    "AccNumber": "2055667",
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045304,
+    "secrectPassword": "WrongPassword",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045305,
+    "dob": "NotADate",
+    "AccNumber": "1042348",
+    "statusCode": 400,
+    "scenario": "Error: Bad Request - Invalid Date Format"
+  },
+  {
+    "customerId": 8888888,
+    "AccNumber": "9999999",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045306,
+    "lastDepositAmt": 1250.75,
+    "AccNumber": "3044556",
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045307,
+    "ssn": 123,
+    "AccNumber": "1042349",
+    "statusCode": 400,
+    "scenario": "Error: Bad Request - Invalid SSN length"
+  },
+  {
+    "customerId": 1045308,
+    "dob": "1970-01-01T00:00:00.000+0000",
+    "ssn": 555667777,
+    "secrectPassword": "AdminUser",
+    "AccNumber": "4055667",
+    "lastDepositAmt": 10000,
+    "statusCode": 200,
+    "scenario": "Validated Successfully"
+  },
+  {
+    "customerId": 1045309,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045310,
+    "lastDepositAmt": -100,
+    "AccNumber": "1042350",
+    "statusCode": 400,
+    "scenario": "Error: Bad Request - Negative Deposit Amount"
+  },
+  {
+    "customerId": 7777777,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

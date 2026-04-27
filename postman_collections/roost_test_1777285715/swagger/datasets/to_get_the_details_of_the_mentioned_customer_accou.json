@@ -1,0 +1,135 @@
+[
+  {
+    "koreUserId": "u-7782-9910",
+    "botId": "st-9921-bot",
+    "accountId": "ACC-99210",
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-1122-3344",
+    "botId": "st-5566-bot",
+    "accountId": "ACC-11223",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "X_CORRELATION": "corr-998877",
+    "customerId": 1045301,
+    "accountInfo_0.accountType": "Savings",
+    "accountInfo_0.accountNumber": "9988776655",
+    "accountInfo_0.cardNumber": "4111222233334444",
+    "accountInfo_1.accountType": "Checking",
+    "accountInfo_1.accountNumber": "1122334455",
+    "accountInfo_1.cardNumber": "5111222233334444",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-5544-2211",
+    "botId": "st-8877-bot",
+    "accountId": "ACC-55443",
+    "X_Auth": "Bearer token_val_882",
+    "X_CORRELATION": "corr-112233",
+    "customerId": 1045302,
+    "accountInfo_0.accountType": "Credit",
+    "accountInfo_0.accountNumber": "5544332211",
+    "accountInfo_0.cardNumber": "4222333344445555",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-7782-9910",
+    "botId": "st-9921-bot",
+    "accountId": "ACC-99210",
+    "X_Auth": "invalid_token_string",
+    "customerId": 1045300,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-7782-9910",
+    "botId": "st-9921-bot",
+    "accountId": "ACC-99210",
+    "customerId": 1045300,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-0000-0000",
+    "botId": "st-0000-bot",
+    "accountId": "ACC-NONEXISTENT",
+    "customerId": 9999999,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-7782-9910",
+    "botId": "st-9921-bot",
+    "accountId": "ACC-99210",
+    "customerId": 8877665,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "st-9921-bot",
+    "accountId": "ACC-99210",
+    "customerId": 1045300,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "u-7782-9910",
+    "accountId": "ACC-99210",
+    "customerId": 1045300,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "u-7782-9910",
+    "botId": "st-9921-bot",
+    "accountId": "ACC-99210",
+    "customerId": 1045300,
+    "accountInfo_0.accountType": "InvalidAccountTypeEnum",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "u-7782-9910",
+    "botId": "st-9921-bot",
+    "accountId": "ACC-99210",
+    "customerId": 0,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "u-7782-9910",
+    "botId": "st-missing-bot-id",
+    "accountId": "ACC-99210",
+    "customerId": 1045300,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-7782-9910",
+    "botId": "st-9921-bot",
+    "accountId": "ACC-99210",
+    "X_Auth": "expired_token_123",
+    "customerId": 1045300,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-8899-0011",
+    "botId": "st-1122-bot",
+    "accountId": "ACC-88990",
+    "customerId": 1045305,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-7782-9910",
+    "botId": "st-9921-bot",
+    "customerId": 1045300,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]

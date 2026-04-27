@@ -1,0 +1,119 @@
+[
+  {
+    "koreUserId": "u-882734",
+    "botId": "st-99283-bot",
+    "accountId": "ACC-55432",
+    "sourcePin": "1234",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "u-112233",
+    "botId": "st-bot-finance",
+    "accountId": "ACC-99887",
+    "sourcePin": "9876",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "u-445566",
+    "botId": "st-bot-hr",
+    "accountId": "ACC-11223",
+    "sourcePin": "5566",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "u-778899",
+    "botId": "st-bot-it",
+    "accountId": "ACC-44332",
+    "sourcePin": "0000",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "u-001122",
+    "botId": "st-bot-sales",
+    "accountId": "ACC-66778",
+    "sourcePin": "4321",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "botId": "st-99283-bot",
+    "accountId": "ACC-55432",
+    "sourcePin": "1234",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-882734",
+    "accountId": "ACC-55432",
+    "sourcePin": "1234",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-882734",
+    "botId": "st-99283-bot",
+    "sourcePin": "1234",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "invalid_user_token",
+    "botId": "st-99283-bot",
+    "accountId": "ACC-55432",
+    "sourcePin": "1234",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-882734",
+    "botId": "st-99283-bot",
+    "accountId": "ACC-55432",
+    "sourcePin": "WRONG_PIN",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "non-existent-user",
+    "botId": "st-99283-bot",
+    "accountId": "ACC-55432",
+    "sourcePin": "1234",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-882734",
+    "botId": "bot-does-not-exist",
+    "accountId": "ACC-55432",
+    "sourcePin": "1234",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-882734",
+    "botId": "st-99283-bot",
+    "accountId": "ACC-00000-MISSING",
+    "sourcePin": "1234",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-999999",
+    "botId": "st-unknown",
+    "accountId": "ACC-99999",
+    "sourcePin": "1111",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-882734",
+    "botId": "st-99283-bot",
+    "accountId": "ACC-55432",
+    "sourcePin": "9999",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

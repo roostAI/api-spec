@@ -1,0 +1,127 @@
+[
+  {
+    "koreUserId": "u-7788-9900",
+    "botId": "st-1234-5678",
+    "accountId": "acc-554433",
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-1122-3344",
+    "botId": "st-8765-4321",
+    "accountId": "acc-998877",
+    "X_Auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "X_CORRELATION": "corr-id-001",
+    "customerId": 2056400,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-5566-7788",
+    "botId": "st-9900-1122",
+    "accountId": "acc-112233",
+    "X_Auth": "Bearer invalid_token_xyz",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-7788-9900",
+    "botId": "st-0000-0000",
+    "accountId": "acc-554433",
+    "customerId": 9999999,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "st-1234-5678",
+    "accountId": "acc-554433",
+    "customerId": 1045300,
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing koreUserId"
+  },
+  {
+    "koreUserId": "u-7788-9900",
+    "botId": "st-1234-5678",
+    "accountId": "acc-554433",
+    "customerId": "invalid_number_string",
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid customerId type"
+  },
+  {
+    "koreUserId": "u-9999-0000",
+    "botId": "st-5555-4444",
+    "accountId": "acc-000000",
+    "customerId": 1045301,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-1234-1234",
+    "botId": "st-4321-4321",
+    "accountId": "acc-121212",
+    "X_Auth": "expired_token",
+    "X_CORRELATION": "corr-id-002",
+    "customerId": 3045600,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-non-existent",
+    "botId": "st-non-existent",
+    "accountId": "acc-non-existent",
+    "customerId": 4040404,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-7788-9900",
+    "accountId": "acc-554433",
+    "customerId": 1045300,
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing botId"
+  },
+  {
+    "koreUserId": "u-8888-7777",
+    "botId": "st-6666-5555",
+    "accountId": "acc-444433",
+    "X_Auth": "Bearer valid_token_999",
+    "X_CORRELATION": "corr-id-003",
+    "customerId": 5067800,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "u-2233-4455",
+    "botId": "st-6677-8899",
+    "accountId": "acc-222222",
+    "customerId": 1045300,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "u-7788-9900",
+    "botId": "st-1234-5678",
+    "accountId": "acc-999999",
+    "customerId": 1045300,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "u-7788-9900",
+    "botId": "st-1234-5678",
+    "customerId": 1045300,
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing accountId"
+  },
+  {
+    "koreUserId": "u-0000-1111",
+    "botId": "st-2222-3333",
+    "accountId": "acc-444444",
+    "X_Auth": "Bearer token_abc_123",
+    "X_CORRELATION": "corr-id-004",
+    "customerId": 6078900,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  }
+]
