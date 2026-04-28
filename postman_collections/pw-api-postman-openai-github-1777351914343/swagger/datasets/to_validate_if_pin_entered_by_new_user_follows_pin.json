@@ -1,0 +1,212 @@
+[
+  {
+    "koreUserId": "user123",
+    "botId": "bot456",
+    "accountId": "acc789",
+    "sourcePin": "1234",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user124",
+    "botId": "bot457",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user125",
+    "botId": "bot458",
+    "accountId": "acc790",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user126",
+    "botId": "bot459",
+    "sourcePin": "1235",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user127",
+    "botId": "bot460",
+    "accountId": "acc791",
+    "sourcePin": "1236",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user128",
+    "botId": "bot461",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user129",
+    "botId": "bot462",
+    "accountId": "acc792",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user130",
+    "botId": "bot463",
+    "sourcePin": "1237",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user131",
+    "botId": "bot464",
+    "accountId": "acc793",
+    "sourcePin": "1238",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user132",
+    "botId": "bot465",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user133",
+    "botId": "bot466",
+    "accountId": "acc794",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user134",
+    "botId": "bot467",
+    "sourcePin": "1239",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user135",
+    "botId": "bot468",
+    "accountId": "acc795",
+    "sourcePin": "1240",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user136",
+    "botId": "bot469",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user137",
+    "botId": "bot470",
+    "accountId": "acc796",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user138",
+    "botId": "bot471",
+    "sourcePin": "1241",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user139",
+    "botId": "bot472",
+    "accountId": "acc797",
+    "sourcePin": "1242",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user140",
+    "botId": "bot473",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user141",
+    "botId": "bot474",
+    "accountId": "acc798",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user142",
+    "botId": "bot475",
+    "sourcePin": "1243",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user143",
+    "botId": "bot476",
+    "accountId": "acc799",
+    "sourcePin": "1244",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user144",
+    "botId": "bot477",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user145",
+    "botId": "bot478",
+    "accountId": "acc800",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user146",
+    "botId": "bot479",
+    "sourcePin": "1245",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user147",
+    "botId": "bot480",
+    "accountId": "acc801",
+    "sourcePin": "1246",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user148",
+    "botId": "bot481",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user149",
+    "botId": "bot482",
+    "accountId": "acc802",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user150",
+    "botId": "bot483",
+    "sourcePin": "1247",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user151",
+    "botId": "bot484",
+    "accountId": "acc803",
+    "sourcePin": "1248",
+    "statusCode": 200,
+    "scenario": "PIN rules satisfied"
+  },
+  {
+    "koreUserId": "user152",
+    "botId": "bot485",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  }
+]

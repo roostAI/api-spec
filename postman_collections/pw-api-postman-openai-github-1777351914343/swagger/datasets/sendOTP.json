@@ -1,0 +1,142 @@
+[
+  {
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "verification code has been sent to your mobile number"
+  },
+  {
+    "customerId": 1045301,
+    "statusCode": 200,
+    "scenario": "verification code has been sent to your mobile number"
+  },
+  {
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045302,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045303,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045304,
+    "statusCode": 200,
+    "scenario": "verification code has been sent to your mobile number"
+  },
+  {
+    "customerId": 1045305,
+    "statusCode": 200,
+    "scenario": "verification code has been sent to your mobile number"
+  },
+  {
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045306,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045307,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045308,
+    "statusCode": 200,
+    "scenario": "verification code has been sent to your mobile number"
+  },
+  {
+    "customerId": 1045309,
+    "statusCode": 200,
+    "scenario": "verification code has been sent to your mobile number"
+  },
+  {
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045310,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045311,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045312,
+    "statusCode": 200,
+    "scenario": "verification code has been sent to your mobile number"
+  },
+  {
+    "customerId": 1045313,
+    "statusCode": 200,
+    "scenario": "verification code has been sent to your mobile number"
+  },
+  {
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045314,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045315,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045316,
+    "statusCode": 200,
+    "scenario": "verification code has been sent to your mobile number"
+  },
+  {
+    "customerId": 1045317,
+    "statusCode": 200,
+    "scenario": "verification code has been sent to your mobile number"
+  },
+  {
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045318,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045319,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
