@@ -1,0 +1,43 @@
+[
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "System Analyst",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "id": "07f13c29-7892-4c7a-be98-567cfa2ff321",
+    "jobTitle": "Product Manager",
+    "name": "Jane Doe",
+    "email": "jane.doe@acme-corp.com",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "id": "ac098f79-5720-4e56-8eb3-72f2020028ff",
+    "jobTitle": "Developer",
+    "email": "sam.dev@acme-corp.com",
+    "statusCode": 400,
+    "scenario": "Bad Request - Missing required name"
+  },
+  {
+    "id": "invalid-uuid",
+    "statusCode": 404,
+    "scenario": "Client error responses: Not Found"
+  },
+  {
+    "id": "7c94a48f-76ed-4e91-8d23-c9d943bcfed1",
+    "jobTitle": 12345,
+    "name": "Mike Lee",
+    "email": "mike.lee@acme-corp.com",
+    "statusCode": 400,
+    "scenario": "Bad Request - Invalid jobTitle type"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000000",
+    "statusCode": 404,
+    "scenario": "Client error responses: Not Found"
+  }
+]
