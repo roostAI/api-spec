@@ -1,0 +1,100 @@
+[
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer deleted successfully"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "paymentId": "PID123",
+    "updateTransferType": "all",
+    "customerId": 1045300,
+    "sourceAccountId": "1042345",
+    "statusCode": 200,
+    "scenario": "Scheduled transfer deleted successfully"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "paymentId": "PID123",
+    "updateTransferType": "invalid",
+    "customerId": 1045300,
+    "sourceAccountId": "1042345",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "invalid",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "paymentId": "PID123",
+    "updateTransferType": "all",
+    "customerId": 1045300,
+    "sourceAccountId": "invalid",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "paymentId": "PID123",
+    "updateTransferType": "all",
+    "customerId": 1045300,
+    "sourceAccountId": "1042345",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU123",
+    "botId": "BOT123",
+    "userCode": "UC123",
+    "accountId": "AC123",
+    "paymentId": "PID123",
+    "updateTransferType": "invalid",
+    "customerId": 1045300,
+    "sourceAccountId": "1042345",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]

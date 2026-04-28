@@ -1,0 +1,167 @@
+[
+  {
+    "koreUserId": "koreUser1",
+    "botId": "bot1",
+    "userCode": "userCode1",
+    "accountId": "accountId1",
+    "customerId": 1045300,
+    "amount": "1042222",
+    "currency": "USD",
+    "sourceAccountId": "1042345",
+    "targetAccountId": "1042222",
+    "date": "03-15-2021",
+    "description": "Internal Transfer",
+    "TransactionType": "1063",
+    "PaymentType": "Minimum Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "koreUserId": "koreUser2",
+    "botId": "bot2",
+    "userCode": "userCode2",
+    "accountId": "accountId2",
+    "customerId": 1045301,
+    "amount": "1042223",
+    "currency": "EUR",
+    "sourceAccountId": "1042346",
+    "targetAccountId": "1042223",
+    "date": "03-16-2021",
+    "description": "External Transfer",
+    "TransactionType": "1064",
+    "PaymentType": "Full Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "koreUserId": "koreUser3",
+    "botId": "bot3",
+    "userCode": "userCode3",
+    "accountId": "accountId3",
+    "customerId": 1045302,
+    "amount": "1042224",
+    "currency": "GBP",
+    "sourceAccountId": "1042347",
+    "targetAccountId": "1042224",
+    "date": "03-17-2021",
+    "description": "Internal Transfer",
+    "TransactionType": "1065",
+    "PaymentType": "Minimum Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "koreUserId": "koreUser4",
+    "botId": "bot4",
+    "userCode": "userCode4",
+    "accountId": "accountId4",
+    "customerId": 1045303,
+    "amount": "1042225",
+    "currency": "JPY",
+    "sourceAccountId": "1042348",
+    "targetAccountId": "1042225",
+    "date": "03-18-2021",
+    "description": "External Transfer",
+    "TransactionType": "1066",
+    "PaymentType": "Full Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "koreUserId": "koreUser5",
+    "botId": "bot5",
+    "userCode": "userCode5",
+    "accountId": "accountId5",
+    "customerId": 1045304,
+    "amount": "1042226",
+    "currency": "AUD",
+    "sourceAccountId": "1042349",
+    "targetAccountId": "1042226",
+    "date": "03-19-2021",
+    "description": "Internal Transfer",
+    "TransactionType": "1067",
+    "PaymentType": "Minimum Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "koreUserId": "koreUser6",
+    "botId": "bot6",
+    "userCode": "userCode6",
+    "accountId": "accountId6",
+    "customerId": 1045305,
+    "amount": "1042227",
+    "currency": "CAD",
+    "sourceAccountId": "1042350",
+    "targetAccountId": "1042227",
+    "date": "03-20-2021",
+    "description": "External Transfer",
+    "TransactionType": "1068",
+    "PaymentType": "Full Payment",
+    "statusCode": 200,
+    "scenario": "Transaction success"
+  },
+  {
+    "koreUserId": "koreUser7",
+    "botId": "bot7",
+    "userCode": "userCode7",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser8",
+    "botId": "bot8",
+    "userCode": "userCode8",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser9",
+    "botId": "bot9",
+    "userCode": "userCode9",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser10",
+    "botId": "bot10",
+    "userCode": "userCode10",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser11",
+    "botId": "bot11",
+    "userCode": "userCode11",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser12",
+    "botId": "bot12",
+    "userCode": "userCode12",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser13",
+    "botId": "bot13",
+    "userCode": "userCode13",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser14",
+    "botId": "bot14",
+    "userCode": "userCode14",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser15",
+    "botId": "bot15",
+    "userCode": "userCode15",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

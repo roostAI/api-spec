@@ -1,0 +1,236 @@
+[
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "status": "active",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12346",
+    "botId": "BOT124",
+    "accountId": "AC124",
+    "customerId": 1045301,
+    "status": "inactive",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12347",
+    "botId": "BOT125",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12348",
+    "botId": "BOT126",
+    "accountId": "AC126",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12349",
+    "botId": "BOT127",
+    "accountId": "AC127",
+    "customerId": 1045302,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12350",
+    "botId": "BOT128",
+    "accountId": "AC128",
+    "customerId": 1045303,
+    "status": "pending",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12351",
+    "botId": "BOT129",
+    "accountId": "AC129",
+    "customerId": 1045304,
+    "status": "suspended",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12352",
+    "botId": "BOT130",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12353",
+    "botId": "BOT131",
+    "accountId": "AC131",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12354",
+    "botId": "BOT132",
+    "accountId": "AC132",
+    "customerId": 1045305,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12355",
+    "botId": "BOT133",
+    "accountId": "AC133",
+    "customerId": 1045306,
+    "status": "active",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12356",
+    "botId": "BOT134",
+    "accountId": "AC134",
+    "customerId": 1045307,
+    "status": "inactive",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12357",
+    "botId": "BOT135",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12358",
+    "botId": "BOT136",
+    "accountId": "AC136",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12359",
+    "botId": "BOT137",
+    "accountId": "AC137",
+    "customerId": 1045308,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12360",
+    "botId": "BOT138",
+    "accountId": "AC138",
+    "customerId": 1045309,
+    "status": "pending",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12361",
+    "botId": "BOT139",
+    "accountId": "AC139",
+    "customerId": 1045310,
+    "status": "suspended",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12362",
+    "botId": "BOT140",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12363",
+    "botId": "BOT141",
+    "accountId": "AC141",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12364",
+    "botId": "BOT142",
+    "accountId": "AC142",
+    "customerId": 1045311,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12365",
+    "botId": "BOT143",
+    "accountId": "AC143",
+    "customerId": 1045312,
+    "status": "active",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12366",
+    "botId": "BOT144",
+    "accountId": "AC144",
+    "customerId": 1045313,
+    "status": "inactive",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12367",
+    "botId": "BOT145",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12368",
+    "botId": "BOT146",
+    "accountId": "AC146",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12369",
+    "botId": "BOT147",
+    "accountId": "AC147",
+    "customerId": 1045314,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12370",
+    "botId": "BOT148",
+    "accountId": "AC148",
+    "customerId": 1045315,
+    "status": "pending",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12371",
+    "botId": "BOT149",
+    "accountId": "AC149",
+    "customerId": 1045316,
+    "status": "suspended",
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12372",
+    "botId": "BOT150",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12373",
+    "botId": "BOT151",
+    "accountId": "AC151",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "KU12374",
+    "botId": "BOT152",
+    "accountId": "AC152",
+    "customerId": 1045317,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]

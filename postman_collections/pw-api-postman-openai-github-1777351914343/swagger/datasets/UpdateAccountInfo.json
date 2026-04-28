@@ -1,0 +1,72 @@
+[
+  {
+    "koreUserId": "user1",
+    "botId": "bot1",
+    "accountId": "acc1",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user2",
+    "botId": "bot2",
+    "accountId": "acc2",
+    "accountNumber": [
+      "1042346"
+    ],
+    "customerId": 1045301,
+    "email": "Jane@gmail.com",
+    "alternatePhoneNumber": 1234567890,
+    "isAlternateMobileNumber": true,
+    "phone": 9876543210,
+    "isPrimaryMobileNumber": true,
+    "location": "New York",
+    "isStatement": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user3",
+    "botId": "bot3",
+    "accountId": "acc3",
+    "accountNumber": [
+      "1042347"
+    ],
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user4",
+    "botId": "bot4",
+    "accountId": "acc4",
+    "accountNumber": [
+      "1042348"
+    ],
+    "customerId": 1045302,
+    "email": "invalid",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "koreUserId": "user5",
+    "botId": "bot5",
+    "accountId": "acc5",
+    "accountNumber": [
+      "1042349"
+    ],
+    "customerId": 1045303,
+    "email": "Mark@gmail.com",
+    "alternatePhoneNumber": 1234567891,
+    "isAlternateMobileNumber": false,
+    "phone": 9876543211,
+    "isPrimaryMobileNumber": false,
+    "location": "Los Angeles",
+    "isStatement": false,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
