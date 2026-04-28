@@ -1,0 +1,192 @@
+[
+  {
+    "koreUserId": "koreUser1",
+    "botId": "bot1",
+    "accountId": "account1",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "koreUser2",
+    "botId": "bot2",
+    "accountId": "account2",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "koreUser3",
+    "botId": "bot3",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser4",
+    "accountId": "account4",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser5",
+    "botId": "bot5",
+    "accountId": "account5",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser6",
+    "botId": "bot6",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser7",
+    "accountId": "account7",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "bot8",
+    "accountId": "account8",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser9",
+    "botId": "bot9",
+    "accountId": "account9",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "koreUser10",
+    "botId": "bot10",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "koreUser11",
+    "accountId": "account11",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "koreUser12",
+    "botId": "bot12",
+    "accountId": "account12",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser13",
+    "botId": "bot13",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser14",
+    "accountId": "account14",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser15",
+    "botId": "bot15",
+    "accountId": "account15",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser16",
+    "botId": "bot16",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser17",
+    "accountId": "account17",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "bot18",
+    "accountId": "account18",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser19",
+    "botId": "bot19",
+    "accountId": "account19",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "koreUser20",
+    "botId": "bot20",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "koreUser21",
+    "accountId": "account21",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "koreUser22",
+    "botId": "bot22",
+    "accountId": "account22",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser23",
+    "botId": "bot23",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser24",
+    "accountId": "account24",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser25",
+    "botId": "bot25",
+    "accountId": "account25",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser26",
+    "botId": "bot26",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser27",
+    "accountId": "account27",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "bot28",
+    "accountId": "account28",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser29",
+    "botId": "bot29",
+    "accountId": "account29",
+    "statusCode": 200,
+    "scenario": "successful login"
+  },
+  {
+    "koreUserId": "koreUser30",
+    "botId": "bot30",
+    "statusCode": 200,
+    "scenario": "successful login"
+  }
+]

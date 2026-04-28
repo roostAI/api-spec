@@ -1,0 +1,166 @@
+[
+  {
+    "code": 1234,
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "OTP verified successfully"
+  },
+  {
+    "code": 1235,
+    "customerId": 1045301,
+    "statusCode": 200,
+    "scenario": "OTP verified successfully"
+  },
+  {
+    "code": 1236,
+    "customerId": 1045302,
+    "statusCode": 200,
+    "scenario": "OTP verified successfully"
+  },
+  {
+    "code": 1237,
+    "customerId": 1045303,
+    "statusCode": 200,
+    "scenario": "OTP verified successfully"
+  },
+  {
+    "code": 1238,
+    "customerId": 1045304,
+    "statusCode": 200,
+    "scenario": "OTP verified successfully"
+  },
+  {
+    "code": 1239,
+    "customerId": 1045305,
+    "statusCode": 200,
+    "scenario": "OTP verified successfully"
+  },
+  {
+    "code": 1240,
+    "customerId": 1045306,
+    "statusCode": 200,
+    "scenario": "OTP verified successfully"
+  },
+  {
+    "code": 1241,
+    "customerId": 1045307,
+    "statusCode": 200,
+    "scenario": "OTP verified successfully"
+  },
+  {
+    "code": 1242,
+    "customerId": 1045308,
+    "statusCode": 200,
+    "scenario": "OTP verified successfully"
+  },
+  {
+    "code": 1243,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045309,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "code": 1244,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045310,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "code": 1245,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045311,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "code": 1246,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "customerId": 1045312,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "code": 1247,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045313,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "code": 1248,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045314,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "code": 1249,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045315,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "code": 1250,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045316,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "code": 1251,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045317,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "code": 1252,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045318,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "code": 1253,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "customerId": 1045319,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

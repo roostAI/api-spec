@@ -1,0 +1,392 @@
+[
+  {
+    "koreUserId": "KU123",
+    "botId": "BID123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "ssNumber": "SSN123",
+    "ssnShort": "SS123",
+    "accountNumber": [
+      "1042345"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU124",
+    "botId": "BID124",
+    "accountId": "AC124",
+    "customerId": 1045301,
+    "ssNumber": "SSN124",
+    "ssnShort": "SS124",
+    "accountNumber": [
+      "1042346"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU125",
+    "botId": "BID125",
+    "accountId": "AC125",
+    "customerId": 1045302,
+    "ssNumber": "SSN125",
+    "ssnShort": "SS125",
+    "accountNumber": [
+      "1042347"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU126",
+    "botId": "BID126",
+    "accountId": "AC126",
+    "customerId": 1045303,
+    "ssNumber": "SSN126",
+    "ssnShort": "SS126",
+    "accountNumber": [
+      "1042348"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU127",
+    "botId": "BID127",
+    "accountId": "AC127",
+    "customerId": 1045304,
+    "ssNumber": "SSN127",
+    "ssnShort": "SS127",
+    "accountNumber": [
+      "1042349"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU128",
+    "botId": "BID128",
+    "accountId": "AC128",
+    "customerId": 1045305,
+    "ssNumber": "SSN128",
+    "ssnShort": "SS128",
+    "accountNumber": [
+      "1042350"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU129",
+    "botId": "BID129",
+    "accountId": "AC129",
+    "customerId": 1045306,
+    "ssNumber": "SSN129",
+    "ssnShort": "SS129",
+    "accountNumber": [
+      "1042351"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU130",
+    "botId": "BID130",
+    "accountId": "AC130",
+    "customerId": 1045307,
+    "ssNumber": "SSN130",
+    "ssnShort": "SS130",
+    "accountNumber": [
+      "1042352"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU131",
+    "botId": "BID131",
+    "accountId": "AC131",
+    "customerId": 1045308,
+    "ssNumber": "SSN131",
+    "ssnShort": "SS131",
+    "accountNumber": [
+      "1042353"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU132",
+    "botId": "BID132",
+    "accountId": "AC132",
+    "customerId": 1045309,
+    "ssNumber": "SSN132",
+    "ssnShort": "SS132",
+    "accountNumber": [
+      "1042354"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU133",
+    "botId": "BID133",
+    "accountId": "AC133",
+    "customerId": 1045310,
+    "ssNumber": "SSN133",
+    "ssnShort": "SS133",
+    "accountNumber": [
+      "1042355"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU134",
+    "botId": "BID134",
+    "accountId": "AC134",
+    "customerId": 1045311,
+    "ssNumber": "SSN134",
+    "ssnShort": "SS134",
+    "accountNumber": [
+      "1042356"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU135",
+    "botId": "BID135",
+    "accountId": "AC135",
+    "customerId": 1045312,
+    "ssNumber": "SSN135",
+    "ssnShort": "SS135",
+    "accountNumber": [
+      "1042357"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU136",
+    "botId": "BID136",
+    "accountId": "AC136",
+    "customerId": 1045313,
+    "ssNumber": "SSN136",
+    "ssnShort": "SS136",
+    "accountNumber": [
+      "1042358"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU137",
+    "botId": "BID137",
+    "accountId": "AC137",
+    "customerId": 1045314,
+    "ssNumber": "SSN137",
+    "ssnShort": "SS137",
+    "accountNumber": [
+      "1042359"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU138",
+    "botId": "BID138",
+    "accountId": "AC138",
+    "customerId": 1045315,
+    "ssNumber": "SSN138",
+    "ssnShort": "SS138",
+    "accountNumber": [
+      "1042360"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU139",
+    "botId": "BID139",
+    "accountId": "AC139",
+    "customerId": 1045316,
+    "ssNumber": "SSN139",
+    "ssnShort": "SS139",
+    "accountNumber": [
+      "1042361"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU140",
+    "botId": "BID140",
+    "accountId": "AC140",
+    "customerId": 1045317,
+    "ssNumber": "SSN140",
+    "ssnShort": "SS140",
+    "accountNumber": [
+      "1042362"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU141",
+    "botId": "BID141",
+    "accountId": "AC141",
+    "customerId": 1045318,
+    "ssNumber": "SSN141",
+    "ssnShort": "SS141",
+    "accountNumber": [
+      "1042363"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU142",
+    "botId": "BID142",
+    "accountId": "AC142",
+    "customerId": 1045319,
+    "ssNumber": "SSN142",
+    "ssnShort": "SS142",
+    "accountNumber": [
+      "1042364"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU143",
+    "botId": "BID143",
+    "accountId": "AC143",
+    "customerId": 1045320,
+    "ssNumber": "SSN143",
+    "ssnShort": "SS143",
+    "accountNumber": [
+      "1042365"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU144",
+    "botId": "BID144",
+    "accountId": "AC144",
+    "customerId": 1045321,
+    "ssNumber": "SSN144",
+    "ssnShort": "SS144",
+    "accountNumber": [
+      "1042366"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU145",
+    "botId": "BID145",
+    "accountId": "AC145",
+    "customerId": 1045322,
+    "ssNumber": "SSN145",
+    "ssnShort": "SS145",
+    "accountNumber": [
+      "1042367"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU146",
+    "botId": "BID146",
+    "accountId": "AC146",
+    "customerId": 1045323,
+    "ssNumber": "SSN146",
+    "ssnShort": "SS146",
+    "accountNumber": [
+      "1042368"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU147",
+    "botId": "BID147",
+    "accountId": "AC147",
+    "customerId": 1045324,
+    "ssNumber": "SSN147",
+    "ssnShort": "SS147",
+    "accountNumber": [
+      "1042369"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU148",
+    "botId": "BID148",
+    "accountId": "AC148",
+    "customerId": 1045325,
+    "ssNumber": "SSN148",
+    "ssnShort": "SS148",
+    "accountNumber": [
+      "1042370"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU149",
+    "botId": "BID149",
+    "accountId": "AC149",
+    "customerId": 1045326,
+    "ssNumber": "SSN149",
+    "ssnShort": "SS149",
+    "accountNumber": [
+      "1042371"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU150",
+    "botId": "BID150",
+    "accountId": "AC150",
+    "customerId": 1045327,
+    "ssNumber": "SSN150",
+    "ssnShort": "SS150",
+    "accountNumber": [
+      "1042372"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU151",
+    "botId": "BID151",
+    "accountId": "AC151",
+    "customerId": 1045328,
+    "ssNumber": "SSN151",
+    "ssnShort": "SS151",
+    "accountNumber": [
+      "1042373"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU152",
+    "botId": "BID152",
+    "accountId": "AC152",
+    "customerId": 1045329,
+    "ssNumber": "SSN152",
+    "ssnShort": "SS152",
+    "accountNumber": [
+      "1042374"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]
