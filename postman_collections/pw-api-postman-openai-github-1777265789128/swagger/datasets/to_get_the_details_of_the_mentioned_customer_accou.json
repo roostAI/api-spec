@@ -1,0 +1,227 @@
+[
+  {
+    "koreUserId": "user1",
+    "botId": "bot1",
+    "accountId": "acc1",
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user2",
+    "botId": "bot2",
+    "accountId": "acc2",
+    "customerId": 1045301,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user3",
+    "botId": "bot3",
+    "accountId": "acc3",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user4",
+    "botId": "bot4",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user5",
+    "botId": "bot5",
+    "accountId": "acc5",
+    "customerId": 1045302,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user6",
+    "botId": "bot6",
+    "accountId": "acc6",
+    "customerId": 1045303,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user7",
+    "botId": "bot7",
+    "accountId": "acc7",
+    "customerId": 1045304,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user8",
+    "botId": "bot8",
+    "accountId": "acc8",
+    "customerId": 1045305,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user9",
+    "botId": "bot9",
+    "accountId": "acc9",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user10",
+    "botId": "bot10",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user11",
+    "botId": "bot11",
+    "accountId": "acc11",
+    "customerId": 1045306,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user12",
+    "botId": "bot12",
+    "accountId": "acc12",
+    "customerId": 1045307,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user13",
+    "botId": "bot13",
+    "accountId": "acc13",
+    "customerId": 1045308,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user14",
+    "botId": "bot14",
+    "accountId": "acc14",
+    "customerId": 1045309,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user15",
+    "botId": "bot15",
+    "accountId": "acc15",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user16",
+    "botId": "bot16",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user17",
+    "botId": "bot17",
+    "accountId": "acc17",
+    "customerId": 1045310,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user18",
+    "botId": "bot18",
+    "accountId": "acc18",
+    "customerId": 1045311,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user19",
+    "botId": "bot19",
+    "accountId": "acc19",
+    "customerId": 1045312,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user20",
+    "botId": "bot20",
+    "accountId": "acc20",
+    "customerId": 1045313,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user21",
+    "botId": "bot21",
+    "accountId": "acc21",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user22",
+    "botId": "bot22",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user23",
+    "botId": "bot23",
+    "accountId": "acc23",
+    "customerId": 1045314,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user24",
+    "botId": "bot24",
+    "accountId": "acc24",
+    "customerId": 1045315,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user25",
+    "botId": "bot25",
+    "accountId": "acc25",
+    "customerId": 1045316,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user26",
+    "botId": "bot26",
+    "accountId": "acc26",
+    "customerId": 1045317,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "user27",
+    "botId": "bot27",
+    "accountId": "acc27",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user28",
+    "botId": "bot28",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user29",
+    "botId": "bot29",
+    "accountId": "acc29",
+    "customerId": 1045318,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user30",
+    "botId": "bot30",
+    "accountId": "acc30",
+    "customerId": 1045319,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

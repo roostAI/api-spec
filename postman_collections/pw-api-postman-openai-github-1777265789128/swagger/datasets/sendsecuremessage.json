@@ -1,0 +1,112 @@
+[
+  {
+    "koreUserId": "user1",
+    "botId": "bot1",
+    "accountId": "acc1",
+    "authType": "Authorized",
+    "firstName": "James",
+    "lastName": "William",
+    "email": "John@gmail.com",
+    "phoneNumber": 9787643445,
+    "topic": "Routing and Account Number",
+    "message": "Unable to find my routing number.",
+    "availableTime": "nighttime",
+    "chatHistory": "html formatted message sent as string",
+    "cif": 1045310,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user2",
+    "botId": "bot2",
+    "accountId": "acc2",
+    "authType": "Unauthorized",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user3",
+    "botId": "bot3",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user4",
+    "botId": "bot4",
+    "accountId": "acc4",
+    "authType": "Authorized",
+    "firstName": "Robert",
+    "lastName": "Smith",
+    "email": "Robert@gmail.com",
+    "phoneNumber": 9787643446,
+    "topic": "Account Balance",
+    "message": "Unable to check my account balance.",
+    "availableTime": "morning",
+    "chatHistory": "html formatted message sent as string",
+    "cif": 1045311,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user5",
+    "botId": "bot5",
+    "accountId": "acc5",
+    "authType": "Unauthorized",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user6",
+    "botId": "bot6",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user7",
+    "botId": "bot7",
+    "accountId": "acc7",
+    "authType": "Authorized",
+    "firstName": "Michael",
+    "lastName": "Johnson",
+    "email": "Michael@gmail.com",
+    "phoneNumber": 9787643447,
+    "topic": "Loan Details",
+    "message": "Unable to find my loan details.",
+    "availableTime": "afternoon",
+    "chatHistory": "html formatted message sent as string",
+    "cif": 1045312,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "user8",
+    "botId": "bot8",
+    "accountId": "acc8",
+    "authType": "Unauthorized",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "user9",
+    "botId": "bot9",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "user10",
+    "botId": "bot10",
+    "accountId": "acc10",
+    "authType": "Authorized",
+    "firstName": "William",
+    "lastName": "Brown",
+    "email": "William@gmail.com",
+    "phoneNumber": 9787643448,
+    "topic": "Credit Card Details",
+    "message": "Unable to find my credit card details.",
+    "availableTime": "evening",
+    "chatHistory": "html formatted message sent as string",
+    "cif": 1045313,
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]
