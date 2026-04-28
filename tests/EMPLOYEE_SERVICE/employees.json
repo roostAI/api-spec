@@ -1,0 +1,41 @@
+[
+  {
+    "id": "emp1001",
+    "statusCode": 201,
+    "scenario": "Successful responses: Created"
+  },
+  {
+    "id": "emp1002",
+    "jobTitle": "Senior Developer",
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "statusCode": 201,
+    "scenario": "Successful responses: Created"
+  },
+  {
+    "jobTitle": "QA Engineer",
+    "name": "Bob Smith",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "id": "emp!nv@lid",
+    "jobTitle": "Manager",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "id": "emp9999",
+    "jobTitle": "",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "id": "emp1001",
+    "jobTitle": "Lead Architect",
+    "name": "Carl Newton",
+    "email": "carl.newton@company.com",
+    "statusCode": 409,
+    "scenario": "Client error responses: Conflict"
+  }
+]
