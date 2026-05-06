@@ -1,0 +1,47 @@
+[
+  {
+    "id": "emp001",
+    "jobTitle": "Software Engineer",
+    "statusCode": 201,
+    "scenario": "Successful responses: Created"
+  },
+  {
+    "id": "emp002",
+    "jobTitle": "QA Analyst",
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "statusCode": 201,
+    "scenario": "Successful responses: Created"
+  },
+  {
+    "jobTitle": "Project Manager",
+    "name": "Bob Smith",
+    "email": "bob.smith@example.com",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "id": "",
+    "jobTitle": "Product Owner",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "id": "emp003",
+    "jobTitle": "",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "id": "emp004",
+    "jobTitle": "Invalid@Title123",
+    "statusCode": 400,
+    "scenario": "Client error responses: Bad Request"
+  },
+  {
+    "id": "emp001",
+    "jobTitle": "Software Engineer",
+    "statusCode": 409,
+    "scenario": "Client error responses: Conflict"
+  }
+]
