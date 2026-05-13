@@ -1,0 +1,104 @@
+[
+  {
+    "koreUserId": "KU12345",
+    "botId": "BID123",
+    "accountId": "ACID123",
+    "accountNumber": [
+      "1042345"
+    ],
+    "customerId": 1045300,
+    "email": "John@gmail.com",
+    "phone": 1234567890,
+    "isPrimaryMobileNumber": true,
+    "location": "New York",
+    "isStatement": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU12346",
+    "botId": "BID124",
+    "accountId": "ACID124",
+    "accountNumber": [
+      "1042346"
+    ],
+    "customerId": 1045301,
+    "email": "Jane@gmail.com",
+    "alternatePhoneNumber": 9876543210,
+    "isAlternateMobileNumber": true,
+    "phone": 1234567891,
+    "isPrimaryMobileNumber": true,
+    "location": "Los Angeles",
+    "isStatement": false,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU12347",
+    "botId": "BID125",
+    "accountId": "ACID125",
+    "accountNumber": [
+      "1042347"
+    ],
+    "customerId": 1045302,
+    "email": "Jake@gmail.com",
+    "phone": 1234567892,
+    "isPrimaryMobileNumber": true,
+    "location": "Chicago",
+    "isStatement": true,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12348",
+    "botId": "BID126",
+    "accountId": "ACID126",
+    "accountNumber": [
+      "1042348"
+    ],
+    "customerId": 1045303,
+    "email": "Jill@gmail.com",
+    "alternatePhoneNumber": 9876543211,
+    "isAlternateMobileNumber": false,
+    "phone": 1234567893,
+    "isPrimaryMobileNumber": false,
+    "location": "Houston",
+    "isStatement": false,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12349",
+    "botId": "BID127",
+    "accountId": "ACID127",
+    "accountNumber": [
+      "1042349"
+    ],
+    "customerId": 1045304,
+    "email": "Jack@gmail.com",
+    "phone": 1234567894,
+    "isPrimaryMobileNumber": true,
+    "location": "Phoenix",
+    "isStatement": true,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12350",
+    "botId": "BID128",
+    "accountId": "ACID128",
+    "accountNumber": [
+      "1042350"
+    ],
+    "customerId": 1045305,
+    "email": "Jenny@gmail.com",
+    "alternatePhoneNumber": 9876543212,
+    "isAlternateMobileNumber": true,
+    "phone": 1234567895,
+    "isPrimaryMobileNumber": false,
+    "location": "Philadelphia",
+    "isStatement": false,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "koreUserId": "KU12345",
+    "botId": "BID12345",
+    "accountId": "AID12345",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU12346",
+    "botId": "BID12346",
+    "accountId": "AID12346",
+    "customerId": 1045301,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "botId": "BID12347",
+    "accountId": "AID12347",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12348",
+    "botId": "BID12348",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12349",
+    "accountId": "AID12349",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12350",
+    "botId": "BID12350",
+    "accountId": "AID12350",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12351",
+    "botId": "BID12351",
+    "accountId": "AID12351",
+    "customerId": 1045302,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "BID12352",
+    "accountId": "AID12352",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12353",
+    "botId": "BID12353",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12354",
+    "accountId": "AID12354",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12355",
+    "botId": "BID12355",
+    "accountId": "AID12355",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU12356",
+    "botId": "BID12356",
+    "accountId": "AID12356",
+    "customerId": 1045303,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "botId": "BID12357",
+    "accountId": "AID12357",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12358",
+    "botId": "BID12358",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12359",
+    "accountId": "AID12359",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12360",
+    "botId": "BID12360",
+    "accountId": "AID12360",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12361",
+    "botId": "BID12361",
+    "accountId": "AID12361",
+    "customerId": 1045304,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "BID12362",
+    "accountId": "AID12362",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12363",
+    "botId": "BID12363",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12364",
+    "accountId": "AID12364",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12365",
+    "botId": "BID12365",
+    "accountId": "AID12365",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU12366",
+    "botId": "BID12366",
+    "accountId": "AID12366",
+    "customerId": 1045305,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "botId": "BID12367",
+    "accountId": "AID12367",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12368",
+    "botId": "BID12368",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12369",
+    "accountId": "AID12369",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12370",
+    "botId": "BID12370",
+    "accountId": "AID12370",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12371",
+    "botId": "BID12371",
+    "accountId": "AID12371",
+    "customerId": 1045306,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "BID12372",
+    "accountId": "AID12372",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12373",
+    "botId": "BID12373",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12374",
+    "accountId": "AID12374",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]

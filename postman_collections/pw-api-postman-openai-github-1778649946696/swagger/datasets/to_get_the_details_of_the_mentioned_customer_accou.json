@@ -1,0 +1,80 @@
+[
+  {
+    "koreUserId": "koreUser1",
+    "botId": "bot1",
+    "accountId": "acc1",
+    "X_Auth": "auth1",
+    "X_CORRELATION": "correlation1",
+    "customerId": 1045300,
+    "accountInfo_0.accountType": "savings",
+    "accountInfo_0.accountNumber": "123456789",
+    "accountInfo_0.cardNumber": "1111222233334444",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "koreUser2",
+    "botId": "bot2",
+    "accountId": "acc2",
+    "X_Auth": "auth2",
+    "X_CORRELATION": "correlation2",
+    "customerId": 1045301,
+    "accountInfo_0.accountType": "current",
+    "accountInfo_0.accountNumber": "987654321",
+    "accountInfo_0.cardNumber": "5555666677778888",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "koreUser3",
+    "botId": "bot3",
+    "accountId": "acc3",
+    "X_Auth": "auth3",
+    "X_CORRELATION": "correlation3",
+    "customerId": 1045302,
+    "accountInfo_0.accountType": "savings",
+    "accountInfo_0.accountNumber": "1122334455",
+    "accountInfo_0.cardNumber": "9999000011112222",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser4",
+    "botId": "bot4",
+    "accountId": "acc4",
+    "X_Auth": "auth4",
+    "X_CORRELATION": "correlation4",
+    "customerId": 1045303,
+    "accountInfo_0.accountType": "current",
+    "accountInfo_0.accountNumber": "6677889900",
+    "accountInfo_0.cardNumber": "3333444455556666",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "koreUser5",
+    "botId": "bot5",
+    "accountId": "acc5",
+    "X_Auth": "auth5",
+    "X_CORRELATION": "correlation5",
+    "customerId": 1045304,
+    "accountInfo_0.accountType": "savings",
+    "accountInfo_0.accountNumber": "2233445566",
+    "accountInfo_0.cardNumber": "7777888899990000",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "koreUser6",
+    "botId": "bot6",
+    "accountId": "acc6",
+    "X_Auth": "auth6",
+    "X_CORRELATION": "correlation6",
+    "customerId": 1045305,
+    "accountInfo_0.accountType": "current",
+    "accountInfo_0.accountNumber": "4455667788",
+    "accountInfo_0.cardNumber": "2222333344445555",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
