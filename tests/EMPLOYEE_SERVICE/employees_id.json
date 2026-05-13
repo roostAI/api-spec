@@ -1,0 +1,27 @@
+[
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "id": "c8712c33-491a-4be9-bb41-cfe8e388948f",
+    "statusCode": 200,
+    "scenario": "Successful responses: OK"
+  },
+  {
+    "id": "",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "id": "invalid-id-format",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "id": "abcd1234-abcd-1234-abcd-1234abcd1234",
+    "statusCode": 404,
+    "scenario": "Client error responses: Not Found"
+  }
+]
