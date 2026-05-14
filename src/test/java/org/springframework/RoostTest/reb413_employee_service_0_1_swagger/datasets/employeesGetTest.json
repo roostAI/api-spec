@@ -1,0 +1,22 @@
+[
+  {
+    "searchString": "John Smith",
+    "expected_statusCode": 200,
+    "scenario": "Test a valid request with proper query params"
+  },
+  {
+    "searchString": "",
+    "expected_statusCode": 200,
+    "scenario": "Test a request without 'searchString' query param"
+  },
+  {
+    "searchString": "12345",
+    "expected_statusCode": 400,
+    "scenario": "Test a request with invalid 'searchString' query param"
+  },
+  {
+    "searchString": "",
+    "expected_statusCode": 200,
+    "scenario": "Test a request with empty 'searchString' query param"
+  }
+]
