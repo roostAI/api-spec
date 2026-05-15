@@ -1,0 +1,108 @@
+[
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "accountId": "ACC123",
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU12346",
+    "botId": "BOT124",
+    "accountId": "ACC124",
+    "customerId": 1045301,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU12347",
+    "botId": "BOT125",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12348",
+    "accountId": "ACC125",
+    "customerId": 1045302,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "botId": "BOT126",
+    "accountId": "ACC126",
+    "customerId": 1045303,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12349",
+    "botId": "BOT127",
+    "accountId": "ACC127",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12350",
+    "botId": "BOT128",
+    "customerId": 1045304,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12351",
+    "accountId": "ACC128",
+    "customerId": 1045305,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "botId": "BOT129",
+    "accountId": "ACC129",
+    "customerId": 1045306,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU12352",
+    "botId": "BOT130",
+    "accountId": "ACC130",
+    "customerId": 1045307,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "koreUserId": "KU12353",
+    "botId": "BOT131",
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12354",
+    "accountId": "ACC131",
+    "customerId": 1045308,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "botId": "BOT132",
+    "accountId": "ACC132",
+    "customerId": 1045309,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12355",
+    "botId": "BOT133",
+    "accountId": "ACC133",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12356",
+    "botId": "BOT134",
+    "customerId": 1045310,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
