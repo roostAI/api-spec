@@ -1,0 +1,62 @@
+[
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "ssNumber": "SS123",
+    "ssnShort": "SSS123",
+    "accountNumber": [
+      "1042345"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "ssNumber": "SS123",
+    "accountNumber": [
+      "1042345"
+    ],
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "accountId": "AC123",
+    "ssNumber": "SS123",
+    "ssnShort": "SSS123",
+    "accountNumber": [
+      "1042345"
+    ],
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "ssNumber": "SS123",
+    "ssnShort": "SSS123",
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "koreUserId": "KU12345",
+    "botId": "BOT123",
+    "accountId": "AC123",
+    "customerId": 1045300,
+    "ssNumber": "SS123",
+    "ssnShort": "SSS123",
+    "accountNumber": [
+      "1042345"
+    ],
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]

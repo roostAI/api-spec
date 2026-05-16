@@ -1,0 +1,30 @@
+[
+  {
+    "code": 1234,
+    "customerId": 1045300,
+    "statusCode": 200,
+    "scenario": "OTP verifid successfully"
+  },
+  {
+    "code": 1234,
+    "statusCode": 200,
+    "scenario": "OTP verifid successfully"
+  },
+  {
+    "customerId": 1045300,
+    "statusCode": 401,
+    "scenario": "Error: Authorisation failed."
+  },
+  {
+    "code": 9999,
+    "customerId": 1045300,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  },
+  {
+    "code": 1234,
+    "customerId": 9999999,
+    "statusCode": 404,
+    "scenario": "Error: Not Found"
+  }
+]
