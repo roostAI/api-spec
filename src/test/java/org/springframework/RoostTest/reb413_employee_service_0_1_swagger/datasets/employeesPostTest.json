@@ -1,0 +1,34 @@
+[
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "System Analyst",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "expected_statusCode": 201,
+    "scenario": "Test a valid request to create an employee"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "System Analyst",
+    "name": "John Smith",
+    "email": "",
+    "expected_statusCode": 400,
+    "scenario": "Test an invalid request to create an employee with invalid object"
+  },
+  {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "jobTitle": "System Analyst",
+    "name": "John Smith",
+    "email": "john.smith@acme-corp.com",
+    "expected_statusCode": 409,
+    "scenario": "Test a request to create an employee that already exists"
+  },
+  {
+    "id": "",
+    "jobTitle": "",
+    "name": "",
+    "email": "",
+    "expected_statusCode": 400,
+    "scenario": "Test a request to create an employee with empty object"
+  }
+]
