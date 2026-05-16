@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^RequestBody^|^statusCode^|^bearer
+User231^|^Bot547^|^Acc0897^|^Auth398^|^{ "customerId": 3442, "sourceAccountId": "SA8536", "amount": "2000", "currency": "USD", "image": { "frontImage": "img_front_001.jpg","backImage": "img_back_001.jpg" }}^|^200^|^Bearer456
+User564^|^Bot123^|^Acc4021^|^Auth726^|^{ "customerId": 8084, "sourceAccountId": "SA1012", "amount": "15000", "currency": "EUR", "image": { "frontImage": "img_front_002.jpg","backImage": "img_back_002.jpg" }}^|^200^|^Bearer789
+User987^|^Bot369^|^Acc7531^|^Auth152^|^{ "customerId": 9532, "sourceAccountId": "SA2053", "amount": "7000", "currency": "GBP", "image": { "frontImage": "img_front_003.jpg","backImage": "img_back_003.jpg" }}^|^401^|^Bearer101
+User346^|^Bot257^|^Acc9641^|^Auth487^|^{ "customerId": 6653, "sourceAccountId": "SA4081", "amount": "3000", "currency": "USD", "image": { "frontImage": "img_front_004.jpg","backImage": "img_back_004.jpg" }}^|^404^|^Bearer864
+User784^|^Bot820^|^Acc5301^|^Auth635^|^{ "customerId": 4211, "sourceAccountId": "SA6083", "amount": "8000", "currency": "GBP", "image": { "frontImage": "img_front_005.jpg","backImage": "img_back_005.jpg" }}^|^401^|^Bearer200
+User259^|^Bot398^|^Acc1726^|^Auth940^|^{ "customerId": 3794, "sourceAccountId": "SA8012", "amount": "6000", "currency": "EUR", "image": { "frontImage": "img_front_006.jpg","backImage": "img_back_006.jpg" }}^|^200^|^Bearer357
+User830^|^Bot756^|^Acc3817^|^Auth261^|^{ "customerId": 1387, "sourceAccountId": "SA9935", "amount": "5000", "currency": "USD", "image": { "frontImage": "img_front_007.jpg","backImage": "img_back_007.jpg" }}^|^404^|^Bearer946
+User473^|^Bot592^|^Acc7843^|^Auth803^|^{ "customerId": 7853, "sourceAccountId": "SA7448", "amount": "4000", "currency": "GBP", "image": { "frontImage": "img_front_008.jpg","backImage": "img_back_008.jpg" }}^|^200^|^Bearer285
+User946^|^Bot013^|^Acc6238^|^Auth627^|^{ "customerId": 2039, "sourceAccountId": "SA6024", "amount": "10000", "currency": "EUR", "image": { "frontImage": "img_front_009.jpg","backImage": "img_back_009.jpg" }}^|^401^|^Bearer105
+User167^|^Bot469^|^Acc2458^|^Auth953^|^{ "customerId": 9226, "sourceAccountId": "SA5096", "amount": "9000", "currency": "USD", "image": { "frontImage": "img_front_010.jpg","backImage": "img_back_010.jpg" }}^|^404^|^Bearer428

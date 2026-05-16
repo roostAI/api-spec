@@ -1,0 +1,11 @@
+koreUserId^|^botId^|^accountId^|^Authorization^|^X_Auth_token^|^X_CORRELATION_ID^|^RequestBody^|^statusCode^|^bearer
+abcd123^|^bot_678^|^acc567^|^autho_4571^|^XAuthToken_4578^|^1^|^{"customerId":124, "accountInfo":[{"accountType":"premium", "accountNumber":"12345","cardNumber":"0012"}]}^|^200^|^bearer_567
+efgh456^|^bot_890^|^acc890^|^autho_8903^|^XAuthToken_8900^|^2^|^{"customerId":555, "accountInfo":[{"accountType":"silver", "accountNumber":"78910","cardNumber":"7698"}]}^|^401^|^bearer_890
+ijkl789^|^bot_123^|^acc234^|^autho_5672^|^XAuthToken_2343^|^3^|^{"customerId":987, "accountInfo":[{"accountType":"gold", "accountNumber":"1113","cardNumber":"7777"}]}^|^404^|^bearer_234
+mnop012^|^bot_345^|^acc4567^|^autho_6789^|^XAuthToken_0121^|^4^|^{"customerId":121, "accountInfo":[{"accountType":"platinum", "accountNumber":"1315","cardNumber":"8888"}]}^|^200^|^bearer_543
+qrst345^|^bot_678^|^acc8909^|^autho_1234^|^XAuthToken_9878^|^5^|^{"customerId":656, "accountInfo":[{"accountType":"diamond", "accountNumber":"1517","cardNumber":"6666"}]}^|^401^|^bearer_890
+uvwx678^|^bot_901^|^acc987^|^autho_7654^|^XAuthToken_8907^|^6^|^{"customerId":332, "accountInfo":[{"accountType":"pearl", "accountNumber":"1719","cardNumber":"4444"}]}^|^404^|^bearer_109
+yzab901^|^bot_234^|^acc432^|^autho_6789^|^XAuthToken_7651^|^7^|^{"customerId":764, "accountInfo":[{"accountType":"ruby", "accountNumber":"1921","cardNumber":"5555"}]}^|^200^|^bearer_098
+cdef234^|^bot_567^|^acc654^|^autho_5432^|^XAuthToken_3211^|^8^|^{"customerId":876, "accountInfo":[{"accountType":"emerald", "accountNumber":"2123","cardNumber":"2222"}]}^|^401^|^bearer_876
+jklm567^|^bot_890^|^acc432^|^autho_6543^|^XAuthToken_7651^|^9^|^{"customerId":988, "accountInfo":[{"accountType":"sapphire", "accountNumber":"2325","cardNumber":"1111"}]}^|^404^|^bearer_123
+rstu890^|^bot_123^|^acc234^|^autho_4323^|^XAuthToken_3454^|^10^|^{"customerId":909, "accountInfo":[{"accountType":"titanium", "accountNumber":"2527","cardNumber":"3333"}]}^|^200^|^bearer_456
